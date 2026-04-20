@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Support & FAQ — CentryAI</title>
+<link rel="stylesheet" href="shared.css?v=5"/>
+<link rel="icon" type="image/svg+xml" href="logo.svg"/>
+<script src="langswitcher.js?v=5"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>
+.support-hero {
+  padding: 100px 2rem 3rem;
+  text-align: center;
+  position: relative;
+}
+.support-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 0%, oklch(62% 0.22 265 / 0.1), transparent 60%);
+  pointer-events: none;
+}
+.support-hero h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+.support-hero p {
+  color: var(--fg2);
+  font-size: 1rem;
+  position: relative;
+}
+
+/* Search */
+.search-wrap {
+  max-width: 560px;
+  margin: 2rem auto 0;
+  position: relative;
+}
+.search-input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 12px;
+  padding: 14px 48px 14px 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  color: var(--fg);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-input:focus {
+  border-color: oklch(62% 0.22 265 / 0.5);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+.search-input::placeholder { color: var(--fg3); }
+.search-icon {
+  position: absolute; right: 16px; top: 50%;
+  transform: translateY(-50%);
+  color: var(--fg3);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+/* Categories */
+.support-body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+.support-sidebar { position: sticky; top: 84px; }
+.sidebar-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg3);
+  margin-bottom: 0.75rem;
+}
+.sidebar-nav { list-style: none; }
+.sidebar-nav li { margin-bottom: 2px; }
+.sidebar-nav button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: var(--fg2);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.sidebar-nav button:hover { background: var(--surface); color: var(--fg); }
+.sidebar-nav button.active { background: var(--accent-dim); color: var(--accent); font-weight: 600; }
+
+.support-contact {
+  margin-top: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+.support-contact h4 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+.support-contact p { color: var(--fg3); font-size: 0.78rem; line-height: 1.6; margin-bottom: 0.75rem; }
+.support-contact a {
+  display: block;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0.35rem;
+}
+.support-contact a:hover { text-decoration: underline; }
+
+/* FAQ list */
+.faq-section-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+.faq-group { margin-bottom: 2.5rem; }
+.faq-item { border-bottom: 1px solid var(--border); }
+.faq-question {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1.1rem 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  gap: 1rem;
+  transition: color 0.2s;
+  user-select: none;
+}
+.faq-question:hover { color: var(--accent); }
+.faq-chevron {
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.65rem;
+  flex-shrink: 0;
+  transition: transform 0.3s, background 0.2s;
+  color: var(--fg3);
+}
+.faq-chevron.open { transform: rotate(180deg); background: var(--accent-dim); color: var(--accent); }
+.faq-answer {
+  max-height: 0; overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s;
+}
+.faq-answer.open { max-height: 400px; padding-bottom: 1.1rem; }
+.faq-answer p { color: var(--fg2); font-size: 0.87rem; line-height: 1.75; }
+.faq-answer a { color: var(--accent); }
+
+.no-results {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--fg3);
+}
+.no-results p { margin-top: 0.5rem; font-size: 0.9rem; }
+
+@media (max-width: 700px) {
+  .support-body { grid-template-columns: 1fr; }
+  .support-sidebar { position: static; }
+}
+</style>
+</head>
+<body>
+<nav class="nav scrolled">
+  <a href="index.html" class="nav-logo"><img src="logo.svg" alt="CentryAI" class="nav-logo-mark"/><span class="nav-logo-text">CentryAI</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+  </ul>
+  <div class="nav-actions">
+    <span id="sr-lang-mount"></span>
+    <button class="theme-toggle" id="theme-btn">☀️</button>
+    <a href="index.html#download" class="btn btn-primary btn-sm">Download</a>
+  </div>
+</nav>
+
+<div id="root"></div>
+
+<script>
+document.getElementById('theme-btn').addEventListener('click', () => {
+  const html = document.documentElement;
+  const t = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', t);
+  document.getElementById('theme-btn').textContent = t === 'dark' ? '☀️' : '🌙';
+  localStorage.setItem('sr_theme', t);
+});
+const st = localStorage.getItem('sr_theme') || 'dark';
+document.documentElement.setAttribute('data-theme', st);
+document.getElementById('theme-btn').textContent = st === 'dark' ? '☀️' : '🌙';
+</script>
+
+<script type="text/babel">
+const { useState, useMemo } = React;
+
+const ALL_FAQS = [
+  {
+    category: 'Getting Started',
+    items: [
+      { q: 'How do I connect my Gmail account?', a: 'Open CentryAI, tap "Connect Inbox" on the home screen, and choose Gmail. You\'ll be taken to Google\'s sign-in page. Grant read-only permission — CentryAI can only read, never send or delete emails.' },
+      { q: 'Does CentryAI work with iCloud?', a: 'Yes. On iOS, tap "Connect Inbox" and choose iCloud. CentryAI will request Mail access via Apple\'s standard permission dialog.' },
+      { q: 'Can I use CentryAI without connecting an inbox?', a: 'Yes — you can add subscriptions manually by tapping the + button. However, auto-detection requires inbox access.' },
+      { q: 'How long does the initial scan take?', a: 'Most inboxes complete an initial scan in under 60 seconds. Very large inboxes (10+ years of email) may take 2–3 minutes.' },
+    ]
+  },
+  {
+    category: 'Subscriptions & Detection',
+    items: [
+      { q: 'Why is a subscription missing from my list?', a: 'CentryAI may miss subscriptions if the billing confirmation was sent to a different email address, is in spam, or uses an unusual format. You can always add missing subscriptions manually.' },
+      { q: 'How does the zombie subscription detector work?', a: 'CentryAI cross-references your subscription list with app usage data (with permission) to identify services you haven\'t opened in 30+ days. On iOS, this uses Screen Time data. On Android, it uses Usage Stats.' },
+      { q: 'Why is my subscription price showing incorrectly?', a: 'Prices are extracted from billing emails and may not reflect recent price changes. Tap any subscription to manually edit the price.' },
+      { q: 'Can CentryAI detect annual subscriptions?', a: 'Yes. CentryAI detects monthly, annual, quarterly, and any custom billing cycle. Annual subscriptions show a monthly equivalent and a next-renewal alert.' },
+    ]
+  },
+  {
+    category: 'Cancellation',
+    items: [
+      { q: 'Can CentryAI cancel subscriptions for me?', a: 'Currently, CentryAI finds the fastest cancellation path — a direct link, phone number, or step-by-step guide — but does not automate the cancellation. One-tap cancellation is on the roadmap for v2.' },
+      { q: 'The cancel link isn\'t working. What do I do?', a: 'Cancel links can change when companies update their websites. Tap "Report broken link" on the subscription detail page and we\'ll update it. In the meantime, try searching "[Service name] how to cancel" for the latest instructions.' },
+    ]
+  },
+  {
+    category: 'Privacy & Security',
+    items: [
+      { q: 'Can CentryAI see my email content?', a: 'No. CentryAI only reads subject lines, sender addresses, and structured patterns in billing emails. Full email bodies are never read, stored, or transmitted.' },
+      { q: 'Is my data stored on your servers?', a: 'No by default. All subscription data is stored locally on your device. You can optionally enable encrypted iCloud/Google Drive backup in Settings > Data & Privacy.' },
+      { q: 'What happens if I delete my account?', a: 'Deleting your account immediately removes all data from our servers (if sync was enabled) and from local storage. This action is irreversible. To delete: Settings > Account > Delete Account.' },
+    ]
+  },
+  {
+    category: 'CentryAI Premium',
+    items: [
+      { q: 'What does CentryAI Premium include?', a: 'Pro unlocks zombie subscription detection, advanced spending analytics, renewal reminders, unlimited manual subscriptions, and priority support. Free tier supports up to 10 tracked subscriptions.' },
+      { q: 'How do I cancel my Pro subscription?', a: 'Pro subscriptions are managed by the App Store or Google Play — not directly by CentryAI. To cancel: iOS: Settings > Apple ID > Subscriptions. Android: Play Store > Subscriptions.' },
+      { q: 'Do you offer a free trial?', a: 'Yes — new users get a 7-day free trial of CentryAI Premium when they first connect an inbox.' },
+    ]
+  },
+  {
+    category: 'Troubleshooting',
+    items: [
+      { q: 'The app is crashing. What should I do?', a: 'First, try force-closing and reopening the app. If the issue persists, go to Settings > Support > Send Diagnostic Report — this sends an anonymized crash log to our team. You can also <a href="feedback.html">submit a bug report</a>.' },
+      { q: 'My inbox scan is stuck. What do I do?', a: 'Pull down to refresh on the home screen. If the scan remains stuck, disconnect and reconnect your inbox from Settings > Connected Accounts. If the problem persists, contact support.' },
+      { q: 'CentryAI isn\'t detecting new subscriptions after setup.', a: 'Ensure background refresh is enabled for CentryAI in your device settings. iOS: Settings > CentryAI > Background App Refresh. Android: Settings > Apps > CentryAI > Battery > Unrestricted.' },
+    ]
+  },
+];
+
+const CATEGORIES = ALL_FAQS.map(g => g.category);
+
+function FAQItem({ q, a }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="faq-item">
+      <div className="faq-question" onClick={() => setOpen(!open)}>
+        <span>{q}</span>
+        <span className={`faq-chevron ${open ? 'open' : ''}`}>▾</span>
+      </div>
+      <div className={`faq-answer ${open ? 'open' : ''}`}>
+        <p dangerouslySetInnerHTML={{ __html: a }} />
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  const [query, setQuery] = useState('');
+  const [activeCategory, setActiveCategory] = useState('All');
+
+  const filtered = useMemo(() => {
+    const q = query.toLowerCase().trim();
+    return ALL_FAQS.map(group => ({
+      ...group,
+      items: group.items.filter(item =>
+        (activeCategory === 'All' || group.category === activeCategory) &&
+        (!q || item.q.toLowerCase().includes(q) || item.a.toLowerCase().includes(q))
+      )
+    })).filter(g => g.items.length > 0);
+  }, [query, activeCategory]);
+
+  const totalResults = filtered.reduce((sum, g) => sum + g.items.length, 0);
+
+  return (
+    <>
+      <div className="support-hero">
+        <div className="section-label" style={{ marginBottom: '0.75rem' }}>Help Center</div>
+        <h1>How can we help?</h1>
+        <p>Search our FAQ or browse by category below.</p>
+        <div className="search-wrap">
+          <input
+            className="search-input"
+            type="text"
+            placeholder="Search questions…"
+            value={query}
+            onChange={e => { setQuery(e.target.value); setActiveCategory('All'); }}
+          />
+          <span className="search-icon">🔍</span>
+        </div>
+      </div>
+
+      <div className="support-body">
+        <aside className="support-sidebar">
+          <div className="sidebar-label">Categories</div>
+          <ul className="sidebar-nav">
+            <li>
+              <button className={activeCategory === 'All' ? 'active' : ''} onClick={() => setActiveCategory('All')}>
+                All Topics
+              </button>
+            </li>
+            {CATEGORIES.map(c => (
+              <li key={c}>
+                <button className={activeCategory === c ? 'active' : ''} onClick={() => { setActiveCategory(c); setQuery(''); }}>
+                  {c}
+                </button>
+              </li>
+            ))}
+          </ul>
+          <div className="support-contact">
+            <h4>Still stuck?</h4>
+            <p>Our support team responds within 24 hours.</p>
+            <a href="mailto:support@centryai.app">✉ Email Support</a>
+            <a href="feedback.html">🐞 Report a Bug</a>
+          </div>
+        </aside>
+
+        <main>
+          {query && (
+            <p style={{ color: 'var(--fg3)', fontSize: '0.82rem', marginBottom: '1.5rem' }}>
+              {totalResults} result{totalResults !== 1 ? 's' : ''} for "{query}"
+            </p>
+          )}
+          {filtered.length === 0 ? (
+            <div className="no-results">
+              <div style={{ fontSize: '2rem' }}>🔍</div>
+              <p>No results found for "{query}"</p>
+              <p style={{ marginTop: '0.35rem' }}>
+                <a href="feedback.html" style={{ color: 'var(--accent)' }}>Submit a support request →</a>
+              </p>
+            </div>
+          ) : (
+            filtered.map(group => (
+              <div className="faq-group" key={group.category}>
+                <div className="faq-section-title">{group.category}</div>
+                {group.items.map((item, i) => <FAQItem key={i} q={item.q} a={item.a} />)}
+              </div>
+            ))
+          )}
+        </main>
+      </div>
+
+      <footer className="footer">
+        <div className="footer-bottom" style={{ marginTop: 0, paddingTop: '1.5rem' }}>
+          <p>© 2026 CentryAI. All rights reserved.</p>
+          <p>
+            <a href="privacy.html" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Privacy</a>
+            {' · '}
+            <a href="terms.html" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Terms</a>
+          </p>
+        </div>
+      </footer>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+<script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
+</body>
+</html>
