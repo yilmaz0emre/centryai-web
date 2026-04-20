@@ -928,7 +928,7 @@ function App() {
     <>
       {/* Nav */}
       <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
-        <a href="index.html" className="nav-logo">
+        <a href="/" className="nav-logo">
           <img src="logo.svg" alt="CentryAI" className="nav-logo-mark"/>
           <span className="nav-logo-text">CentryAI</span>
         </a>
@@ -936,7 +936,7 @@ function App() {
           <li><a href="#features">Features</a></li>
           <li><a href="#how">How it works</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><a href="support.html">Support</a></li>
+          <li><a href="support">Support</a></li>
         </ul>
         <div className="nav-actions">
           <div ref={langRef} />
@@ -1126,7 +1126,7 @@ function App() {
       <footer className="footer">
         <div className="footer-inner">
           <div className="footer-brand">
-            <a href="index.html" className="nav-logo" style={{ marginBottom: '0.75rem', display: 'inline-flex' }}>
+            <a href="/" className="nav-logo" style={{ marginBottom: '0.75rem', display: 'inline-flex' }}>
               <img src="logo.svg" alt="CentryAI" className="nav-logo-mark"/>
               <span className="nav-logo-text">CentryAI</span>
             </a>
@@ -1144,10 +1144,10 @@ function App() {
           <div className="footer-col">
             <h4>Company</h4>
             <ul>
-              <li><a href="support.html">Support</a></li>
-              <li><a href="feedback.html">Feedback</a></li>
-              <li><a href="privacy.html">Privacy Policy</a></li>
-              <li><a href="terms.html">Terms of Use</a></li>
+              <li><a href="support">Support</a></li>
+              <li><a href="feedback">Feedback</a></li>
+              <li><a href="privacy">Privacy Policy</a></li>
+              <li><a href="terms">Terms of Use</a></li>
             </ul>
           </div>
           <div className="footer-col">
@@ -1160,7 +1160,7 @@ function App() {
         </div>
         <div className="footer-bottom">
           <p>© 2026 CentryAI. All rights reserved.</p>
-          <p><a href="privacy.html" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Privacy</a> · <a href="terms.html" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Terms</a></p>
+          <p><a href="privacy" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Privacy</a> · <a href="terms" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Terms</a></p>
         </div>
       </footer>
 

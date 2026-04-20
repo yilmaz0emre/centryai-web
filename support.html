@@ -186,11 +186,11 @@
 </head>
 <body>
 <nav class="nav scrolled">
-  <a href="index.html" class="nav-logo"><img src="logo.svg" alt="CentryAI" class="nav-logo-mark"/><span class="nav-logo-text">CentryAI</span></a>
+  <a href="/" class="nav-logo"><img src="logo.svg" alt="CentryAI" class="nav-logo-mark"/><span class="nav-logo-text">CentryAI</span></a>
   <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="support.html">Support</a></li>
-    <li><a href="feedback.html">Feedback</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="support">Support</a></li>
+    <li><a href="feedback">Feedback</a></li>
   </ul>
   <div class="nav-actions">
     <span id="sr-lang-mount"></span>
@@ -262,7 +262,7 @@ const ALL_FAQS = [
   {
     category: 'Troubleshooting',
     items: [
-      { q: 'The app is crashing. What should I do?', a: 'First, try force-closing and reopening the app. If the issue persists, go to Settings > Support > Send Diagnostic Report — this sends an anonymized crash log to our team. You can also <a href="feedback.html">submit a bug report</a>.' },
+      { q: 'The app is crashing. What should I do?', a: 'First, try force-closing and reopening the app. If the issue persists, go to Settings > Support > Send Diagnostic Report — this sends an anonymized crash log to our team. You can also <a href="feedback">submit a bug report</a>.' },
       { q: 'My inbox scan is stuck. What do I do?', a: 'Pull down to refresh on the home screen. If the scan remains stuck, disconnect and reconnect your inbox from Settings > Connected Accounts. If the problem persists, contact support.' },
       { q: 'CentryAI isn\'t detecting new subscriptions after setup.', a: 'Ensure background refresh is enabled for CentryAI in your device settings. iOS: Settings > CentryAI > Background App Refresh. Android: Settings > Apps > CentryAI > Battery > Unrestricted.' },
     ]
@@ -342,7 +342,7 @@ function App() {
             <h4>Still stuck?</h4>
             <p>Our support team responds within 24 hours.</p>
             <a href="mailto:support@centryai.app">✉ Email Support</a>
-            <a href="feedback.html">🐞 Report a Bug</a>
+            <a href="feedback">🐞 Report a Bug</a>
           </div>
         </aside>
 
@@ -357,7 +357,7 @@ function App() {
               <div style={{ fontSize: '2rem' }}>🔍</div>
               <p>No results found for "{query}"</p>
               <p style={{ marginTop: '0.35rem' }}>
-                <a href="feedback.html" style={{ color: 'var(--accent)' }}>Submit a support request →</a>
+                <a href="feedback" style={{ color: 'var(--accent)' }}>Submit a support request →</a>
               </p>
             </div>
           ) : (
@@ -375,9 +375,9 @@ function App() {
         <div className="footer-bottom" style={{ marginTop: 0, paddingTop: '1.5rem' }}>
           <p>© 2026 CentryAI. All rights reserved.</p>
           <p>
-            <a href="privacy.html" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Privacy</a>
+            <a href="privacy" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Privacy</a>
             {' · '}
-            <a href="terms.html" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Terms</a>
+            <a href="terms" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Terms</a>
           </p>
         </div>
       </footer>
