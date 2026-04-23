@@ -4,9 +4,9 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Privacy Policy — CentryAI</title>
-<link rel="stylesheet" href="shared.css?v=5"/>
+<link rel="stylesheet" href="shared.css?v=6"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
-<script src="langswitcher.js?v=5"></script>
+<script src="langswitcher.js?v=6"></script>
 <style>
 .toc {
   background: var(--surface);
@@ -15,7 +15,7 @@
   padding: 1.5rem;
   margin-bottom: 2.5rem;
 }
-.toc h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.75rem; }
+.toc h3 { font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.75rem; }
 .toc ol { padding-left: 1.25rem; }
 .toc ol li { margin-bottom: 0.35rem; }
 .toc ol a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
@@ -32,20 +32,48 @@
 </head>
 <body>
 <nav class="nav scrolled">
-  <a href="/" class="nav-logo">
-    <span class="nav-logo-dot"></span>CentryAI
+  <a href="index.html" class="nav-logo" aria-label="CentryAI Home">
+    <img src="logo2.svg" alt="CentryAI" class="nav-logo-mark" style="height:36px;width:auto;"/>
   </a>
   <ul class="nav-links">
-    <li><a href="/">Home</a></li>
-    <li><a href="support">Support</a></li>
-    <li><a href="feedback">Feedback</a></li>
+    <li><a href="index.html#features">Features</a></li>
+    <li><a href="index.html#screenshots">App Preview</a></li>
+    <li><a href="index.html#how">How it works</a></li>
+    <li><a href="index.html#faq">FAQ</a></li>
+    <li><a href="support.html">Support</a></li>
   </ul>
   <div class="nav-actions">
     <span id="sr-lang-mount"></span>
-    <button class="theme-toggle" onclick="toggleTheme()">☀️</button>
-    <a href="index.html#download" class="btn btn-primary btn-sm">Download</a>
+    <button class="theme-toggle" id="theme-btn" aria-label="Toggle theme">
+      <svg id="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+    <a href="index.html#download" class="btn btn-primary btn-sm">Download Free</a>
   </div>
 </nav>
+<script>
+(function() {
+  const root = document.documentElement;
+  const tn = document.getElementById('theme-btn');
+  const sun = document.getElementById('icon-sun');
+  const moon = document.getElementById('icon-moon');
+  function applyTheme(t) {
+    if(!t) t = 'dark';
+    root.setAttribute('data-theme', t);
+    localStorage.setItem('sr_theme', t);
+    if(sun && moon) {
+      sun.style.display = t === 'dark' ? 'block' : 'none';
+      moon.style.display = t === 'light' ? 'block' : 'none';
+    }
+  }
+  applyTheme(localStorage.getItem('sr_theme') || 'dark');
+  if(tn) {
+    tn.addEventListener('click', () => {
+      applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+  }
+})();
+</script>
 
 <div class="page-hero">
   <div class="section-label" style="margin-bottom:0.75rem">Legal</div>
@@ -83,6 +111,9 @@
   <p>We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. This data cannot be used to identify you.</p>
   <h3>Device Information</h3>
   <p>We collect your device type, operating system version, and app version to provide support and ensure compatibility.</p>
+  <div class="highlight-box" style="margin-top:1.5rem">
+    <p>🔒 <strong>No human will read your email data.</strong> Access is strictly programmatic and automated for the sole purpose of detecting subscriptions.</p>
+  </div>
 
   <h2 id="s2">2. How We Use Your Information</h2>
   <p>We use the information we collect to:</p>
@@ -95,9 +126,14 @@
     <li>Comply with legal obligations</li>
   </ul>
   <p>We do not use your data for advertising, and we do not sell or rent your personal information to third parties under any circumstances.</p>
+  <div class="highlight-box" style="margin-top:1.5rem">
+    <p>🤖 <strong>AI / Machine Learning:</strong> We strictly do not use Google Workspace APIs (including Gmail data) to develop, improve, or train generalized AI and/or Machine Learning models.</p>
+  </div>
+  <p style="margin-top:1rem">CentryAI's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 
   <h2 id="s3">3. Data Storage and Security</h2>
   <p>Your subscription data is stored locally on your device by default. If you enable iCloud or Google Drive sync, your data is encrypted before transmission using AES-256. We do not have access to your encryption keys.</p>
+  <p><strong>Gmail read-only data is strictly processed locally on your device and is never transmitted to, or stored on, our backend servers.</strong> Our backend infrastructure (used for authentication, account management, and Pro billing via Stripe/Apple) never receives, processes, or stores any Gmail message content or metadata.</p>
   <p>Our servers use industry-standard security practices including TLS 1.3 in transit, encrypted storage at rest, and regular third-party security audits.</p>
 
   <h2 id="s4">4. Third-Party Services</h2>
@@ -139,21 +175,7 @@
   </div>
 </footer>
 
-<script>
-function toggleTheme() {
-  const html = document.documentElement;
-  const t = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-  html.setAttribute('data-theme', t);
-  document.querySelector('.theme-toggle').textContent = t === 'dark' ? '☀️' : '🌙';
-  localStorage.setItem('sr_theme', t);
-}
-document.addEventListener('DOMContentLoaded', () => {
-  const t = localStorage.getItem('sr_theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', t);
-  const btn = document.querySelector('.theme-toggle');
-  if (btn) btn.textContent = t === 'dark' ? '☀️' : '🌙';
-});
-</script>
+
 <script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
 </body>
 </html>
