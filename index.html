@@ -47,7 +47,7 @@
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
   background:
-    radial-gradient(ellipse 70% 55% at 68% 42%, rgba(59,130,246,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 55% at 68% 42%, rgba(101,93,249,0.08) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 18% 75%, rgba(56,189,248,0.04) 0%, transparent 55%);
   pointer-events: none;
 }
@@ -76,7 +76,7 @@
   padding: 6px 14px;
   border-radius: 100px;
   background: var(--accent-dim);
-  border: 1px solid rgba(59,130,246,0.3);
+  border: 1px solid rgba(101,93,249,0.3);
   font-size: 0.76rem;
   font-weight: 700;
   color: var(--accent);
@@ -110,7 +110,10 @@
 }
 .hero h1 em {
   font-style: normal;
-  color: var(--accent);
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .hero-sub {
   color: var(--fg2);
@@ -195,7 +198,7 @@
   position: absolute;
   width: 320px; height: 320px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(59,130,246,0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(101,93,249,0.2) 0%, transparent 70%);
   z-index: 0;
   pointer-events: none;
 }
@@ -285,15 +288,25 @@
 .feature-card:hover::before { opacity: 1; }
 .feature-icon {
   width: 50px; height: 50px; border-radius: 13px;
-  background: var(--accent-dim); border: 1px solid rgba(59,130,246,0.2);
+  background: var(--accent-dim); border: 1px solid rgba(101,93,249,0.2);
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.35rem; margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-icon svg {
+  width: 24px; height: 24px;
+  stroke: var(--accent); fill: none;
+  stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round;
+}
+.feature-card:hover .feature-icon {
+  transform: scale(1.08);
+  box-shadow: 0 0 24px var(--accent-glow);
 }
 .feature-card h3 {
   font-family: 'Manrope', sans-serif; font-weight: 800;
   font-size: 1.05rem; margin-bottom: 0.6rem; letter-spacing: -0.01em;
 }
-.feature-card p { color: var(--fg2); font-size: 0.88rem; line-height: 1.8; font-weight: 450; }
+.feature-card p { color: var(--fg2); font-size: 0.88rem; line-height: 1.8; font-weight: 450; font-family: 'Inter', sans-serif; }
 
 /* ════════════════════════════════════════
    APP SCREENSHOTS SECTION
@@ -304,8 +317,8 @@
   display: flex; gap: 24px;
   overflow-x: auto; scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch; scrollbar-width: none;
-  padding: 80px max(2rem, calc((100vw - 1100px) / 2)) 2.5rem;
-  min-height: 720px;   /* bölüm yüksekliği */
+  padding: 30px max(2rem, calc((100vw - 1100px) / 2)) 2.5rem;
+  min-height: 620px;   /* bölüm yüksekliği */
 }
 .screenshots-track::-webkit-scrollbar { display: none; }
 .screenshot-slide { flex: 0 0 auto; scroll-snap-align: center; width: 240px; }
@@ -441,7 +454,7 @@
 .testimonial-author { display: flex; align-items: center; gap: 10px; }
 .testimonial-avatar {
   width: 38px; height: 38px; border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--teal));
+  background: var(--brand-gradient);
   display: flex; align-items: center; justify-content: center;
   font-size: 0.72rem; font-weight: 800; color: white; flex-shrink: 0;
 }
@@ -484,7 +497,7 @@
 }
 .cta-inner::before {
   content: ''; position: absolute; inset: 0;
-  background: radial-gradient(ellipse 75% 55% at 50% 0%, rgba(59,130,246,0.1), transparent 60%);
+  background: radial-gradient(ellipse 75% 55% at 50% 0%, rgba(101,93,249,0.15), transparent 60%);
   pointer-events: none;
 }
 .cta-inner h2 {
@@ -1001,6 +1014,19 @@ function App() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Scroll-triggered reveal
+  useEffect(() => {
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   return (
     <>
       {/* ── Nav ── */}
@@ -1025,8 +1051,23 @@ function App() {
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>
           <a href="#download" className="btn btn-primary btn-sm" id="nav-cta">Download Free</a>
+          <button className="nav-hamburger" onClick={() => setMobileOpen(v => !v)} aria-label="Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              {mobileOpen ? <><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></> : <><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></>}
+            </svg>
+          </button>
         </div>
       </nav>
+      {mobileOpen && (
+        <div className="mobile-menu open" onClick={() => setMobileOpen(false)}>
+          <a href="#features">Features</a>
+          <a href="#screenshots">App Preview</a>
+          <a href="#how">How it works</a>
+          <a href="#faq">FAQ</a>
+          <a href="support">Support</a>
+          <a href="#download" style={{color:'var(--accent)',borderBottom:'none',marginTop:'0.5rem'}}>Download Free</a>
+        </div>
+      )}
 
       {/* ── Hero ── */}
       <section className="hero" aria-label="Hero">
@@ -1071,13 +1112,13 @@ function App() {
         <div className="section-inner">
           <div className="section-eyebrow">How it works</div>
           <h2 className="section-title">Up and running in 3 minutes.</h2>
-          <div className="steps">
+          <div className="steps stagger">
             {[
               { n: '01', title: 'Connect your inbox', desc: 'Link Gmail or iCloud with read-only access. CentryAI scans for subscription emails — nothing else.' },
               { n: '02', title: 'See everything', desc: 'Your full subscription list appears instantly, sorted by cost, renewal date, and usage status.' },
               { n: '03', title: 'Cut the waste', desc: 'Tap any zombie subscription to get the direct cancellation path. Cancel in seconds, not minutes.' },
             ].map((s, i) => (
-              <div className="step" key={i}>
+              <div className="step reveal" key={i}>
                 <div className="step-num">{s.n}</div>
                 <h3>{s.title}</h3>
                 <p>{s.desc}</p>
@@ -1093,14 +1134,14 @@ function App() {
           <div className="section-eyebrow">What you get</div>
           <h2 className="section-title">Everything to take control<br/>of your subscriptions.</h2>
           <p className="section-sub">Four core tools that work together to surface hidden costs and help you act on them.</p>
-          <div className="features-grid">
+          <div className="features-grid stagger">
             {[
-              { icon: '🔍', title: 'Smart detection', desc: 'Automatically identifies every subscription — streaming, fitness, SaaS, and more — with no manual data entry required.' },
-              { icon: '🧟', title: 'Zombie detector', desc: 'Identifies services you pay for but haven\'t used in 30+ days. See exactly how much your zombie subs cost per month and per year.' },
-              { icon: '📊', title: 'Spending dashboard', desc: 'A clear, categorized view of your monthly and annual subscription spend. Track trends and understand exactly where your money goes.' },
-              { icon: '🔗', title: 'Cancel URL finder', desc: 'Hate hunting for cancel buttons? CentryAI surfaces the direct cancellation link, phone number, or step-by-step guide for every service.' },
+              { icon: <svg viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="12" y1="7" x2="12" y2="17"/></svg>, title: 'Smart detection', desc: 'Automatically identifies every subscription — streaming, fitness, SaaS, and more — with no manual data entry required.' },
+              { icon: <svg viewBox="0 0 24 24"><path d="M9 10h.01"/><path d="M15 10h.01"/><path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z"/></svg>, title: 'Zombie detector', desc: 'Identifies services you pay for but haven\'t used in 30+ days. See exactly how much your zombie subs cost per month and per year.' },
+              { icon: <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>, title: 'Spending dashboard', desc: 'A clear, categorized view of your monthly and annual subscription spend. Track trends and understand exactly where your money goes.' },
+              { icon: <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-5"/></svg>, title: 'Cancel URL finder', desc: 'Hate hunting for cancel buttons? CentryAI surfaces the direct cancellation link, phone number, or step-by-step guide for every service.' },
             ].map((f, i) => (
-              <div className="feature-card" key={i} id={`feature-card-${i}`}>
+              <div className="feature-card reveal" key={i} id={`feature-card-${i}`}>
                 <div className="feature-icon">{f.icon}</div>
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>
@@ -1145,13 +1186,13 @@ function App() {
         <div className="section-inner">
           <div className="section-eyebrow">What users say</div>
           <h2 className="section-title">People are finding money<br/>they didn't know they had.</h2>
-          <div className="testimonials-grid">
+          <div className="testimonials-grid stagger">
             {[
               { initials: 'AK', name: 'Alex K.', handle: '@alexk · App Store', stars: 5, text: 'Found $38 in subscriptions I completely forgot about. Cancelled 4 of them in under 10 minutes. This app pays for itself instantly.' },
               { initials: 'MR', name: 'Maya R.', handle: '@maya_r · Google Play', stars: 5, text: 'The zombie subscription feature is genuinely scary. I was paying for a gym app I hadn\'t opened in 3 months. CentryAI caught it immediately.' },
               { initials: 'TL', name: 'Tom L.', handle: '@toml · App Store', stars: 5, text: 'Clean UI, actually works, no upsell nonsense. The cancel link finder alone is worth it — no more hunting through help pages.' },
             ].map((t, i) => (
-              <div className="testimonial-card" key={i} id={`testimonial-${i}`}>
+              <div className="testimonial-card reveal" key={i} id={`testimonial-${i}`}>
                 <div className="testimonial-stars">{'★'.repeat(t.stars)}</div>
                 <p className="testimonial-text">"{t.text}"</p>
                 <div className="testimonial-author">
