@@ -486,6 +486,49 @@
 .faq-answer p { color: var(--fg2); font-size: 0.9rem; line-height: 1.85; font-weight: 450; }
 
 /* ════════════════════════════════════════
+   GOOGLE DATA DISCLOSURE
+════════════════════════════════════════ */
+.google-disclosure {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-lg);
+  padding: 2.75rem 3rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 820px;
+  margin: 0 auto;
+}
+.google-disclosure-icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  background: var(--accent-dim);
+  border: 1px solid rgba(101,93,249,0.2);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.google-disclosure-icon svg {
+  width: 26px; height: 26px;
+  stroke: var(--accent); fill: none;
+  stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round;
+}
+.google-disclosure h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800; font-size: 1.05rem;
+  letter-spacing: -0.01em; margin-bottom: 0.75rem;
+  color: var(--fg);
+}
+.google-disclosure p {
+  color: var(--fg2); font-size: 0.88rem;
+  line-height: 1.85; font-weight: 450;
+  font-family: 'Inter', sans-serif;
+}
+@media (max-width: 600px) {
+  .google-disclosure { grid-template-columns: 1fr; padding: 2rem; }
+  .google-disclosure-icon { display: none; }
+}
+
+/* ════════════════════════════════════════
    CTA BANNER
 ════════════════════════════════════════ */
 .cta-section { padding: 7rem 2rem; }
@@ -1087,7 +1130,7 @@ function App() {
             </div>
             <h1>Stop paying for apps<br/>you've <em>forgotten about.</em></h1>
             <p className="hero-sub">
-              CentryAI tracks every recurring charge, flags unused subscriptions with an activity score, and puts the cancel link one tap away.
+              CentryAI is a smart personal finance application designed to help you automatically track, manage, and optimize your recurring subscriptions.
             </p>
             <div id="download">
               <StoreBtns id="hero-" />
@@ -1214,6 +1257,31 @@ function App() {
           <div className="section-eyebrow">Common questions</div>
           <h2 className="section-title">FAQ</h2>
           <FAQ />
+        </div>
+      </section>
+
+      {/* ── Google Data Disclosure ── */}
+      <section className="section" style={{paddingTop: 0, paddingBottom: '5rem'}}>
+        <div className="section-inner" style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+          <div className="section-eyebrow">Privacy &amp; Data</div>
+          <h2 className="section-title" style={{textAlign:'center',marginBottom:'2.5rem'}}>How we use your Google data</h2>
+          <div className="google-disclosure reveal">
+            <div className="google-disclosure-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Read-only Gmail access — nothing more.</h3>
+              <p>
+                To automate subscription detection, CentryAI offers an optional Gmail integration.
+                When you choose to connect your account, we request <strong>read-only access</strong> (<code>gmail.readonly</code>) to your inbox.
+                CentryAI strictly uses this access to scan for subscription receipts and billing emails (e.g., Netflix, Spotify).
+                All parsing of email metadata — amounts, dates, and senders — is processed to build your financial dashboard only.
+                We never read your personal emails, we do not use your data to train AI models, and your email content is never stored on our servers.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
