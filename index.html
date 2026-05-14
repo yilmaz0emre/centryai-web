@@ -674,72 +674,37 @@ const SCREENSHOTS = [
 ];
 
 /* ── Pricing data ── */
-const PLANS = [
-  {
-    name: 'Free',
-    price: '0',
-    desc: 'Get started — track up to 3 subscriptions at no cost.',
-    cta: 'Download Free',
-    ctaClass: 'pricing-cta-free',
-    href: '#download',
-    featured: false,
-    features: [
-      { label: 'Up to 3 subscriptions',        yes: true  },
-      { label: 'Manual entry & editing',        yes: true  },
-      { label: 'Renewal calendar',              yes: true  },
-      { label: 'Dark & light theme',            yes: true  },
-      { label: 'AI email scanner',              yes: false },
-      { label: 'Spending analytics',            yes: false },
-      { label: 'AI cancel finder',              yes: false },
-      { label: 'Email reminders',               yes: false },
-      { label: 'WhatsApp notifications',        yes: false },
-      { label: 'Priority support',              yes: false },
-    ],
-  },
-  {
-    name: 'Pro',
-    price: '7.99',
-    desc: 'Unlimited tracking and AI-powered tools to cut waste fast.',
-    cta: 'Get Pro',
-    ctaClass: 'pricing-cta-paid',
-    href: '#download',
-    featured: true,
-    badge: 'Most Popular',
-    features: [
-      { label: 'Unlimited subscriptions',       yes: true  },
-      { label: 'Manual entry & editing',        yes: true  },
-      { label: 'Renewal calendar',              yes: true  },
-      { label: 'Dark & light theme',            yes: true  },
-      { label: 'AI email scanner',              yes: true  },
-      { label: 'Spending analytics',            yes: true  },
-      { label: 'AI cancel finder',              yes: true  },
-      { label: 'Email reminders',               yes: true  },
-      { label: 'WhatsApp notifications',        yes: false },
-      { label: 'Priority support',              yes: false },
-    ],
-  },
-  {
-    name: 'Premium',
-    price: '9.99',
-    desc: 'Everything in Pro, plus real-time alerts and priority support.',
-    cta: 'Get Premium',
-    ctaClass: 'pricing-cta-paid',
-    href: '#download',
-    featured: false,
-    features: [
-      { label: 'Unlimited subscriptions',       yes: true  },
-      { label: 'Manual entry & editing',        yes: true  },
-      { label: 'Renewal calendar',              yes: true  },
-      { label: 'Dark & light theme',            yes: true  },
-      { label: 'AI email scanner',              yes: true  },
-      { label: 'Spending analytics',            yes: true  },
-      { label: 'AI cancel finder',              yes: true  },
-      { label: 'Email reminders',               yes: true  },
-      { label: 'WhatsApp notifications',        yes: true  },
-      { label: 'Priority support',              yes: true  },
-    ],
-  },
+const PLAN_KEYS = ['free', 'pro', 'premium'];
+const PLAN_PRICES = ['0', '7.99', '9.99'];
+const PLAN_CLASSES = ['pricing-cta-free', 'pricing-cta-paid', 'pricing-cta-paid'];
+const PLAN_FEATURED = [false, true, false];
+const PLAN_FEATURE_KEYS = [
+  ['upTo3Subs', 'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'whatsappNotifs', 'prioritySupport'],
+  ['unlimitedSubs', 'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'whatsappNotifs', 'prioritySupport'],
+  ['unlimitedSubs', 'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'whatsappNotifs', 'prioritySupport'],
 ];
+const PLAN_FEATURES_YES = [
+  [true, true, true, true, false, false, false, false, false, false],
+  [true, true, true, true, true,  true,  true,  true,  false, false],
+  [true, true, true, true, true,  true,  true,  true,  true,  true ],
+];
+function getPlans() {
+  return PLAN_KEYS.map((key, i) => ({
+    key,
+    name: t('pricing.plans.' + key + '.name'),
+    price: PLAN_PRICES[i],
+    desc: t('pricing.plans.' + key + '.desc'),
+    cta: t('pricing.plans.' + key + '.cta'),
+    ctaClass: PLAN_CLASSES[i],
+    href: '#download',
+    featured: PLAN_FEATURED[i],
+    badge: i === 1 ? t('pricing.mostPopular') : null,
+    features: PLAN_FEATURE_KEYS[i].map((fk, j) => ({
+      label: t('pricing.features.' + fk),
+      yes: PLAN_FEATURES_YES[i][j],
+    })),
+  }));
+}
 
 /* ── FAQ data ── */
 const FAQ_ITEMS = [
@@ -1096,13 +1061,13 @@ function Pricing() {
         <h2 className="section-title">{t("pricing.title")}</h2>
         <p className="section-sub">{t("pricing.sub")}</p>
         <div className="pricing-grid">
-          {tArr("pricing.plans").map((plan, i) => (
+          {getPlans().map((plan, i) => (
             <div className={`pricing-card reveal ${plan.featured ? 'featured' : ''}`} key={i}>
               {plan.badge && <span className="pricing-badge">{plan.badge}</span>}
               <div className="pricing-plan">{plan.name}</div>
               <div className="pricing-price">
                 {plan.price === '0' ? (
-                  <><sup></sup>Free</>
+                  <><sup></sup>{t('pricing.plans.free.name')}</>
                 ) : (
                   <><sup>$</sup>{plan.price}<sub>/mo</sub></>
                 )}
