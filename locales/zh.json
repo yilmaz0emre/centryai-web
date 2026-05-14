@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "功能",
+    "appPreview": "应用预览",
+    "howItWorks": "工作原理",
+    "pricing": "定价",
+    "faq": "常见问题",
+    "support": "支持",
+    "downloadFree": "免费下载"
+  },
+  "hero": {
+    "badge": "订阅追踪器",
+    "headline1": "停止为您已经",
+    "headline2": "忘记的应用程序",
+    "headlineEm": "付款。",
+    "sub": "CentryAI 是一款智能个人财务应用程序，旨在帮助您自动跟踪、管理和优化您的重复订阅。",
+    "trust": "4.8 · 12,000+ 条评论 · 免费开始",
+    "appStoreSmall": "下载",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "下载",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "下载量",
+    "monthlyWaste": "平均发现每月浪费",
+    "appRating": "App Store 评分",
+    "userSavings": "追踪到的用户节省"
+  },
+  "screenshots": {
+    "eyebrow": "应用预览",
+    "title": "查看 CentryAI 的实际操作。",
+    "sub": "来自应用程序的真实屏幕。跟踪活动，发现僵尸订阅，并一键取消。",
+    "captions": {
+      "dashboard": "仪表板",
+      "subscriptions": "订阅",
+      "calendar": "日历",
+      "detailView": "详细视图",
+      "aiCancelFinder": "AI 取消查找器",
+      "aiScanner": "AI 扫描仪",
+      "emailScanner": "电子邮件扫描仪",
+      "googleSearch": "Google 搜索",
+      "languageSupport": "语言支持"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "工作原理",
+    "title": "3 分钟内准备就绪。",
+    "steps": [
+      {
+        "title": "连接您的收件箱",
+        "desc": "以只读访问权限链接 Gmail 或 iCloud。CentryAI 仅扫描订阅电子邮件 — 不扫描其他任何内容。"
+      },
+      {
+        "title": "查看全部",
+        "desc": "您的完整订阅列表会立即出现，按成本、续订日期和使用状态排序。"
+      },
+      {
+        "title": "减少浪费",
+        "desc": "点击任何僵尸订阅以获取取消的直接路径。在几秒钟内取消，而不是几分钟。"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "您将获得什么",
+    "title": "掌控订阅所需的一切。",
+    "sub": "四个核心工具协同工作，揭示隐藏的成本并帮助您采取行动。",
+    "cards": [
+      {
+        "title": "智能检测",
+        "desc": "自动识别所有订阅 — 流媒体、健身、SaaS 等 — 无需手动输入数据。"
+      },
+      {
+        "title": "僵尸探测器",
+        "desc": "识别您正在付费但超过 30 天未使用的服务。确切了解您的僵尸订阅每月和每年花费多少。"
+      },
+      {
+        "title": "支出仪表板",
+        "desc": "清晰、分类的每月和每年订阅支出视图。跟踪趋势并准确了解您的资金去向。"
+      },
+      {
+        "title": "取消 URL 查找器",
+        "desc": "讨厌寻找取消按钮？CentryAI 为每项服务提供直接的取消链接、电话号码或分步指南。"
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ 僵尸警报",
+    "title": "认识您的僵尸订阅。",
+    "desc": "您注册了，忘记了，并且仍在付费。CentryAI 会将您的订阅与您的实际使用情况交叉引用，以找出每个月悄悄榨干您帐户的服务。",
+    "flagLabel": "僵尸"
+  },
+  "testimonials": {
+    "eyebrow": "用户评价",
+    "title": "人们正在发现他们不知道自己拥有的钱。",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "我发现了 38 美元的订阅费用，我完全忘记了。在不到 10 分钟的时间内取消了其中的 4 个。这个应用程序立即收回了成本。"
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "僵尸订阅功能真的很可怕。我一直在为一个 3 个月没打开过的健身房应用付费。CentryAI 立即发现了它。"
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "干净的用户界面，真正有效，没有追加销售的废话。仅取消链接查找器就值得了 — 不再需要在帮助页面中搜索。"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "CentryAI 如何检测我的订阅？",
+        "a": "CentryAI 允许您手动添加订阅或导入它们。它使用模式识别来识别重复收费，而从不存储敏感数据。"
+      },
+      {
+        "q": "什么是“僵尸”订阅？",
+        "a": "僵尸订阅是您正在积极付费但超过 30 天未标记为已使用的服务。CentryAI 跟踪使用情况（在您允许的情况下）以自动标记它们。"
+      },
+      {
+        "q": "我的数据安全吗？",
+        "a": "绝对安全。CentryAI 永远不会连接到您的银行帐户。默认情况下，所有数据都加密并本地存储在您的设备上。"
+      },
+      {
+        "q": "CentryAI 真的可以帮我取消订阅吗？",
+        "a": "CentryAI 为每项服务找到最快的取消路径 — 直接取消链接、电话号码或分步说明。一键取消计划在 v2 中推出。"
+      },
+      {
+        "q": "它适用于家庭共享计划吗？",
+        "a": "是的。CentryAI 可以检测共享订阅和分摊成本的服务，向您显示家庭计划中每人的成本。"
+      },
+      {
+        "q": "CentryAI 是免费的吗？",
+        "a": "核心跟踪功能是免费的。CentryAI Premium 解锁僵尸检测、高级分析和续订警报。"
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "隐私与数据",
+    "title": "我们如何使用您的 Google 数据",
+    "cardTitle": "对 Gmail 的只读访问权限 — 仅此而已。",
+    "cardDesc": "为了自动检测订阅，CentryAI 提供了可选的 Gmail 集成。当您选择连接您的帐户时，我们会请求对您收件箱的只读访问权限 (gmail.readonly)。CentryAI 严格使用此访问权限来扫描订阅收据和账单电子邮件。解析电子邮件元数据仅用于构建您的财务仪表板。我们绝不会阅读您的个人电子邮件，我们不会使用您的数据来训练 AI 模型，并且您的电子邮件内容永远不会存储在我们的服务器上。"
+  },
+  "pricing": {
+    "eyebrow": "定价",
+    "title": "简单、透明的定价。",
+    "sub": "免费开始。准备就绪时升级 — 随时取消。",
+    "note": "所有计划均包含 7 天免费试用期。开始时不需要信用卡。",
+    "mostPopular": "最受欢迎",
+    "plans": {
+      "free": {
+        "name": "免费",
+        "desc": "开始使用 — 免费跟踪最多 3 个订阅。",
+        "cta": "免费下载"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "无限跟踪和人工智能驱动的工具，可快速减少浪费。",
+        "cta": "获取 Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Pro 中的所有内容，加上实时警报和优先支持。",
+        "cta": "获取 Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "最多 3 个订阅",
+      "unlimitedSubs": "无限制订阅",
+      "manualEntry": "手动输入和编辑",
+      "renewalCalendar": "续订日历",
+      "darkLight": "深色和浅色主题",
+      "aiEmailScanner": "AI 电子邮件扫描仪",
+      "spendingAnalytics": "支出分析",
+      "aiCancelFinder": "AI 取消查找器",
+      "emailReminders": "电子邮件提醒",
+      "whatsappNotifs": "WhatsApp 通知",
+      "prioritySupport": "优先支持"
+    }
+  },
+  "cta": {
+    "title": "止损。免费开始。",
+    "desc": "加入超过 240,000 人的行列，他们已经重新掌控了自己的订阅支出。"
+  },
+  "footer": {
+    "tagline": "跟踪、检测和取消重复订阅。免费开始 — 适用于 iOS 和 Android。",
+    "product": "产品",
+    "company": "公司",
+    "download": "下载",
+    "links": {
+      "features": "功能",
+      "appPreview": "应用预览",
+      "faq": "常见问题",
+      "downloadLink": "下载",
+      "support": "支持",
+      "feedback": "反馈",
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. 保留所有权利。",
+    "footerPrivacy": "隐私",
+    "footerTerms": "条款"
+  },
+  "support": {
+    "pageTitle": "支持 & FAQ — CentryAI",
+    "hero": {
+      "label": "帮助中心",
+      "title": "我们能提供什么帮助？",
+      "sub": "搜索我们的常见问题解答或按以下类别浏览。",
+      "searchPlaceholder": "搜索问题…"
+    },
+    "sidebar": {
+      "categoriesLabel": "类别",
+      "allTopics": "所有主题",
+      "stuckTitle": "仍然遇到问题？",
+      "stuckDesc": "我们的支持团队会在 24 小时内回复。",
+      "emailSupport": "✉ 电子邮件支持",
+      "reportBug": "🐞 报告错误"
+    },
+    "results": "\"{query}\" 的 {count} 个结果",
+    "noResults": "未找到 \"{query}\" 的结果",
+    "submitRequest": "提交支持请求 →",
+    "categories": {
+      "gettingStarted": "开始使用",
+      "subscriptionsDetection": "订阅与检测",
+      "cancellation": "取消",
+      "privacySecurity": "隐私与安全",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "故障排除"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "如何连接我的 Gmail 帐户？",
+          "a": "打开 CentryAI，在主屏幕上点击“连接收件箱”，然后选择 Gmail。您将被转到 Google 的登录页面。授予只读权限 — CentryAI 只能阅读，绝不能发送或删除电子邮件。"
+        },
+        {
+          "q": "CentryAI 可以与 iCloud 一起使用吗？",
+          "a": "是的。在 iOS 上，点击“连接收件箱”并选择 iCloud。CentryAI 将通过 Apple 的标准权限对话框请求邮件访问权限。"
+        },
+        {
+          "q": "我可以在不连接收件箱的情况下使用 CentryAI 吗？",
+          "a": "是的 — 您可以通过点击 + 按钮手动添加订阅。但是，自动检测需要收件箱访问权限。"
+        },
+        {
+          "q": "初始扫描需要多长时间？",
+          "a": "大多数收件箱在 60 秒内即可完成初始扫描。非常大的收件箱（超过 10 年的电子邮件）可能需要 2-3 分钟。"
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "为什么我的列表中缺少某个订阅？",
+          "a": "如果帐单确认发送到其他电子邮件地址、位于垃圾邮件中或使用异常格式，CentryAI 可能会错过订阅。您可以随时手动添加缺失的订阅。"
+        },
+        {
+          "q": "僵尸订阅检测器如何工作？",
+          "a": "CentryAI 将您的订阅列表与应用使用数据（如果您允许）交叉引用，以识别您 30 多天未打开的服务。在 iOS 上，这使用屏幕使用时间数据。在 Android 上，它使用使用统计信息。"
+        },
+        {
+          "q": "为什么我的订阅价格显示不正确？",
+          "a": "价格是从帐单电子邮件中提取的，可能无法反映最近的价格变化。点击任何订阅即可手动编辑价格。"
+        },
+        {
+          "q": "CentryAI 可以检测年度订阅吗？",
+          "a": "是的。CentryAI 可以检测每月、每年、每季度和任何自定义计费周期。年度订阅显示等值月费和下一次续订的警报。"
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "CentryAI 真的可以帮我取消订阅吗？",
+          "a": "目前，CentryAI 会查找每项服务的最快取消路径 — 直接链接、电话号码或分步指南 — 但不会自动执行取消操作。计划在 v2 中提供一键取消功能。"
+        },
+        {
+          "q": "取消链接不起作用。我该怎么办？",
+          "a": "当公司更新其网站时，取消链接可能会更改。点击订阅详细信息页面上的“报告断开的链接”，我们将对其进行更新。同时，尝试搜索“如何取消 [服务名称]”以获取最新说明。"
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "CentryAI 可以看到我电子邮件的内容吗？",
+          "a": "不。CentryAI 仅读取账单电子邮件中的主题行、发件人地址和结构化模式。永远不会阅读、存储或传输完整的电子邮件正文。"
+        },
+        {
+          "q": "我的数据存储在你们的服务器上吗？",
+          "a": "默认情况下不存储。所有订阅数据都本地存储在您的设备上。您可以选择在“设置”>“数据和隐私”中启用加密的 iCloud/Google 云端硬盘备份。"
+        },
+        {
+          "q": "如果我删除我的帐户会怎样？",
+          "a": "删除您的帐户会立即从我们的服务器（如果启用了同步）和本地存储中删除所有数据。此操作不可逆转。要删除：设置 > 帐户 > 删除帐户。"
+        }
+      ],
+      "premium": [
+        {
+          "q": "CentryAI Premium 包括什么？",
+          "a": "Pro 可解锁僵尸订阅检测、高级支出分析、续订提醒、无限制的手动订阅和优先支持。免费套餐支持最多 10 个跟踪订阅。"
+        },
+        {
+          "q": "如何取消我的 Pro 订阅？",
+          "a": "Pro 订阅由 App Store 或 Google Play 管理 — 而不是直接由 CentryAI 管理。取消：iOS：设置 > Apple ID > 订阅。Android：Play 商店 > 订阅。"
+        },
+        {
+          "q": "你们提供免费试用吗？",
+          "a": "是的 — 新用户首次连接收件箱时可享受 7 天 CentryAI Premium 免费试用。"
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "应用程序崩溃了。我该怎么办？",
+          "a": "首先，尝试强制关闭并重新打开应用程序。如果问题仍然存在，请转到设置 > 支持 > 发送诊断报告 — 这将向我们的团队发送一份匿名崩溃日志。您也可以提交错误报告。"
+        },
+        {
+          "q": "我的收件箱扫描卡住了。我该怎么办？",
+          "a": "在主屏幕上向下拉以刷新。如果扫描仍然卡住，请从设置 > 连接的帐户中断开连接并重新连接您的收件箱。如果问题仍然存在，请联系支持人员。"
+        },
+        {
+          "q": "设置后 CentryAI 无法检测到新订阅。",
+          "a": "请确保在您的设备设置中为 CentryAI 启用了后台刷新。iOS：设置 > CentryAI > 后台应用刷新。Android：设置 > 应用 > CentryAI > 电池 > 不受限制。"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "使用条款 — CentryAI",
+    "hero": {
+      "label": "法律条款",
+      "title": "使用条款",
+      "subtitle": "最后更新：2026年4月19日 · 生效日期：2026年4月19日"
+    },
+    "toc": {
+      "title": "目录",
+      "items": [
+        "接受条款",
+        "服务说明",
+        "资格",
+        "用户帐户",
+        "订阅计划和计费",
+        "可接受的使用",
+        "知识产权",
+        "免责声明",
+        "责任限制",
+        "终止",
+        "适用法律",
+        "联系我们"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. 接受条款",
+        "body": "通过下载、安装或使用 CentryAI（以下简称“应用程序”），您同意受这些使用条款（以下简称“条款”）的约束。如果您不同意这些条款，请勿使用该应用程序。这些条款适用于该应用程序的所有用户。"
+      },
+      "s2": {
+        "title": "2. 服务说明",
+        "body": "CentryAI 是一款移动应用程序，通过在获得用户明确许可的情况下分析电子邮件数据，帮助用户识别、跟踪和管理经常性订阅费用。CentryAI 是一种信息工具 — 它不执行金融交易，也不代表您取消订阅。"
+      },
+      "s3": {
+        "title": "3. 资格",
+        "body": "您必须年满 13 岁才能使用 CentryAI。通过使用该应用程序，您声明您年满 13 岁。如果您未满 18 岁，您声明您已获得父母或监护人的许可才能使用该应用程序。"
+      },
+      "s4": {
+        "title": "4. 用户帐户",
+        "body": "您可以在没有帐户的情况下使用 CentryAI，但某些功能需要注册。您有责任对您的帐户凭据保密。如果发生任何未经授权的使用，您同意立即通过 support@centryai.app 通知我们。"
+      },
+      "s5": {
+        "title": "5. 订阅计划和计费",
+        "freeTierTitle": "免费层",
+        "freeTierBody": "CentryAI 的核心功能 — 订阅检测和仪表板 — 免费提供。",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "CentryAI Premium 是按月或按年订阅。Pro 订阅会自动续订，除非在续订日期前至少 24 小时取消。您可以通过您的 App Store 或 Google Play 帐户设置管理或取消您的 Pro 订阅。",
+        "refundsTitle": "退款",
+        "refundsBody": "退款请求受 Apple App Store 或 Google Play 政策的约束。在技术上可行的情况下，我们将配合在首次购买后 14 天内提出的退款请求。"
+      },
+      "s6": {
+        "title": "6. 可接受的使用",
+        "intro": "您同意不：",
+        "items": [
+          "将应用程序用于任何非法目的",
+          "尝试对应用程序进行逆向工程、反编译或反汇编",
+          "与第三方共享您的帐户凭据",
+          "使用自动化方式访问或抓取应用程序中的数据",
+          "干扰应用程序的基础架构或其他用户的访问",
+          "虚假陈述您的身份或隶属关系"
+        ]
+      },
+      "s7": {
+        "title": "7. 知识产权",
+        "body": "CentryAI 以及所有相关内容、设计、代码、商标和商品名称均为 CentryAI, Inc. 的专有财产。我们授予您有限的、非排他性的、不可转让的许可，以便将该应用程序用于个人、非商业目的。"
+      },
+      "s8": {
+        "title": "8. 免责声明",
+        "body1": "CentryAI 按“原样”和“可用”的基础提供，不提供任何形式的明示或暗示的保证。我们不保证订阅检测将是完整的或没有错误的。",
+        "body2": "CentryAI 不是财务顾问。应用程序中的任何内容均不构成财务、法律或专业建议。取消决定完全由您自己做出。"
+      },
+      "s9": {
+        "title": "9. 责任限制",
+        "body1": "在适用法律允许的最大范围内，CentryAI, Inc. 不对因您使用或无法使用该应用程序而引起的任何间接的、偶然的、特殊的、后果性的或惩罚性的损害负责。",
+        "body2": "对于因这些条款引起的任何索赔，我们对您的全部责任将不超过您在索赔前十二个月内向我们支付的金额。"
+      },
+      "s10": {
+        "title": "10. 终止",
+        "body": "如果您违反这些条款，我们保留随时暂停或终止您帐户的权利。您可以在应用程序中随时删除您的帐户。终止后，您使用应用程序的权利立即停止。"
+      },
+      "s11": {
+        "title": "11. 适用法律",
+        "body": "这些条款受美国特拉华州法律管辖。任何争议均应在特拉华州的法院解决。"
+      },
+      "s12": {
+        "title": "12. 联系我们",
+        "body": "关于这些条款有任何问题？请联系 legal@centryai.app。"
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "隐私政策 — CentryAI",
+    "hero": {
+      "label": "法律条款",
+      "title": "隐私政策",
+      "subtitle": "最后更新：2026年4月19日 · 生效日期：2026年4月19日"
+    },
+    "shortVersion": "简短版本：CentryAI 读取您的电子邮件以查找订阅收据。我们绝不会存储您的电子邮件，绝不会出售您的数据，也绝不会连接到您的银行。默认情况下，您的数据会保留在您的设备上。",
+    "toc": {
+      "title": "目录",
+      "items": [
+        "我们收集的信息",
+        "我们如何使用您的信息",
+        "数据存储和安全",
+        "第三方服务",
+        "您的权利",
+        "儿童隐私",
+        "本政策的变更",
+        "联系我们"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. 我们收集的信息",
+        "emailTitle": "电子邮件访问权限",
+        "emailBody": "为了检测您的订阅，CentryAI 请求对您的 Gmail 或 iCloud 收件箱具有只读访问权限。我们严格使用此访问权限来识别订阅确认和账单电子邮件。我们不阅读、存储或传输您的电子邮件正文内容。只有结构化的元数据才会在本地进行处理。",
+        "accountTitle": "帐户信息",
+        "accountBody": "当您创建 CentryAI 帐户时，我们会收集您的电子邮件地址和散列密码。除非您升级到 CentryAI Premium，否则我们不会收集您的姓名、电话号码或付款详细信息。",
+        "usageTitle": "使用数据",
+        "usageBody": "我们收集匿名化、汇总的使用数据以改进应用程序。此数据不能用于识别您的身份。",
+        "deviceTitle": "设备信息",
+        "deviceBody": "我们收集您的设备类型、操作系统版本和应用程序版本以提供支持。",
+        "noHumanAccess": "🔒 没有任何人会阅读您的电子邮件数据。访问是严格的程序化和自动化的，仅用于检测订阅的目的。"
+      },
+      "s2": {
+        "title": "2. 我们如何使用您的信息",
+        "intro": "我们将收集的信息用于：",
+        "items": [
+          "检测并显示您的重复订阅",
+          "根据使用模式识别僵尸订阅",
+          "发送续订提醒",
+          "提供客户支持",
+          "改善应用程序的性能和功能",
+          "遵守法律义务"
+        ],
+        "noAds": "我们不将您的数据用于广告，并且在任何情况下我们都不会将您的个人信息出售或出租给第三方。",
+        "aiNote": "🤖 AI / 机器学习：我们严格不使用 Google Workspace API 来开发、改进或训练 AI 模型。",
+        "googlePolicy": "CentryAI 对从 Google API 接收到的信息的使用以及向任何其他应用程序的转移将遵守 Google API 服务用户数据政策，包括有限使用要求。"
+      },
+      "s3": {
+        "title": "3. 数据存储和安全",
+        "body1": "默认情况下，您的订阅数据存储在您的设备本地。如果您启用 iCloud 或 Google 云端硬盘同步，您的数据在传输前将使用 AES-256 加密。",
+        "body2": "只读的 Gmail 数据严格在您的设备上本地处理，并且绝不会传输到我们的后端服务器或存储在我们的后端服务器上。",
+        "body3": "我们的服务器利用行业标准的安全性实践，包括传输中的 TLS 1.3、静态加密存储和频繁的安全审计。"
+      },
+      "s4": {
+        "title": "4. 第三方服务",
+        "intro": "CentryAI 使用数量有限的第三方服务：",
+        "items": [
+          "Google 登录 / Gmail API — 用于收件箱扫描",
+          "Apple 登录 / iCloud — 用于收件箱扫描",
+          "Stripe — 用于 Pro 订阅计费",
+          "Sentry — 用于匿名崩溃报告"
+        ],
+        "noShare": "我们不与任何其他第三方共享您的个人数据。"
+      },
+      "s5": {
+        "title": "5. 您的权利",
+        "intro": "根据您所在的司法管辖区，您可能有权：",
+        "items": [
+          "访问我们持有的关于您的个人数据",
+          "请求删除您的帐户及相关数据",
+          "以可移植格式导出您的数据",
+          "选择退出匿名分析"
+        ],
+        "contact": "要行使这些权利中的任何一项，请通过 privacy@centryai.app 联系我们。我们将在 30 天内回复。"
+      },
+      "s6": {
+        "title": "6. 儿童隐私",
+        "body": "CentryAI 不面向 13 岁以下的儿童。我们不会故意收集儿童的个人信息。"
+      },
+      "s7": {
+        "title": "7. 本政策的变更",
+        "body": "我们可能会不时更新本隐私政策。如果发生重大变更，我们会通知您。"
+      },
+      "s8": {
+        "title": "8. 联系我们",
+        "body": "关于此政策有任何问题吗？我们随时为您提供帮助。",
+        "email": "电子邮件：privacy@centryai.app",
+        "supportLink": "支持：centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "反馈与错误报告 — CentryAI",
+    "header": {
+      "label": "联系我们",
+      "title": "反馈和错误报告",
+      "sub": "告诉我们什么坏了，或者您希望看到什么。我们会阅读提交的每一份内容。"
+    },
+    "types": {
+      "bug": {
+        "label": "错误报告",
+        "sub": "有些东西坏了"
+      },
+      "feature": {
+        "label": "功能请求",
+        "sub": "想法或改进"
+      },
+      "other": {
+        "label": "一般反馈",
+        "sub": "其他任何事情"
+      }
+    },
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "platform": "平台",
+      "selectPlatform": "选择平台",
+      "appVersion": "应用版本",
+      "selectVersion": "选择版本",
+      "bugSummary": "错误摘要",
+      "featureTitle": "功能标题",
+      "subject": "主题",
+      "stepsToReproduce": "复现步骤",
+      "describeFeature": "描述该功能",
+      "message": "信息",
+      "severity": "严重性",
+      "severityLow": "低",
+      "severityLowSub": "轻微的烦恼",
+      "severityMed": "中",
+      "severityMedSub": "影响使用",
+      "severityHigh": "高",
+      "severityHighSub": "应用无法使用",
+      "placeholders": {
+        "name": "您的名字",
+        "email": "you@example.com",
+        "bugTitle": "例如：加载大收件箱时应用程序崩溃",
+        "featureTitle": "例如：将订阅列表导出为 CSV",
+        "briefSummary": "简短的摘要",
+        "bugSteps": "1. 打开应用\n2. 连接 Gmail\n3. 点击订阅\n4. 应用崩溃",
+        "featureDesc": "描述您想要什么，为什么会有帮助，以及例子……",
+        "generalMessage": "告诉我们您在想什么……"
+      },
+      "errors": {
+        "nameRequired": "名字是必填项",
+        "emailRequired": "电子邮件是必填项",
+        "emailInvalid": "请输入有效的电子邮件",
+        "titleRequired": "请提供一个简短的标题",
+        "messageRequired": "请描述该问题",
+        "messageTooLong": "最多 {max} 个字符"
+      },
+      "submitBug": "提交错误报告",
+      "submitFeature": "提交功能请求",
+      "sendFeedback": "发送反馈",
+      "sending": "发送中…",
+      "directEmail": "或者直接发邮件至 support@centryai.app"
+    },
+    "success": {
+      "title": "明白了。谢谢您！",
+      "descBug": "我们收到了您的错误报告，并将尽快审核。",
+      "descFeature": "我们收到了您的功能请求，并将尽快审核。",
+      "descFeedback": "我们收到了您的反馈，并将尽快审核。",
+      "responseTime": "我们通常会在 1-2 个工作日内回复。",
+      "refLabel": "参考编号：",
+      "submitAnother": "提交另一个",
+      "backHome": "返回主页"
+    }
+  }
+}

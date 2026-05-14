@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "Funktioner",
+    "appPreview": "Appförhandsgranskning",
+    "howItWorks": "Så fungerar det",
+    "pricing": "Priser",
+    "faq": "Vanliga frågor",
+    "support": "Support",
+    "downloadFree": "Ladda ner gratis"
+  },
+  "hero": {
+    "badge": "Prenumerationsspårare",
+    "headline1": "Sluta betala för appar",
+    "headline2": "du har",
+    "headlineEm": "glömt.",
+    "sub": "CentryAI är en smart app för privatekonomi utformad för att hjälpa dig att automatiskt spåra, hantera och optimera dina återkommande prenumerationer.",
+    "trust": "4.8 · Över 12 000 recensioner · Börja gratis",
+    "appStoreSmall": "Ladda ner på",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Hämta den på",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "Nedladdningar",
+    "monthlyWaste": "Genomsnittligt månatligt slöseri hittat",
+    "appRating": "App Store-betyg",
+    "userSavings": "Spårade användarbesparingar"
+  },
+  "screenshots": {
+    "eyebrow": "Appförhandsgranskning",
+    "title": "Se CentryAI i aktion.",
+    "sub": "Riktiga skärmar från appen. Spåra aktivitet, fånga zombieprenumerationer och avbryt med ett tryck.",
+    "captions": {
+      "dashboard": "Översikt",
+      "subscriptions": "Prenumerationer",
+      "calendar": "Kalender",
+      "detailView": "Detaljvy",
+      "aiCancelFinder": "AI-avbokningssökare",
+      "aiScanner": "AI-skanner",
+      "emailScanner": "E-postskanner",
+      "googleSearch": "Google Sök",
+      "languageSupport": "Språkstöd"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Så fungerar det",
+    "title": "Redo att användas på 3 minuter.",
+    "steps": [
+      {
+        "title": "Koppla din inkorg",
+        "desc": "Länka Gmail eller iCloud med skrivskyddad åtkomst. CentryAI söker endast efter prenumerationse-postmeddelanden — inget annat."
+      },
+      {
+        "title": "Se allt",
+        "desc": "Din fullständiga prenumerationslista visas omedelbart, sorterad efter kostnad, förnyelsedatum och användningsstatus."
+      },
+      {
+        "title": "Stoppa slöseriet",
+        "desc": "Tryck på valfri zombieprenumeration för att få den direkta vägen för att avbryta. Avbryt på sekunder, inte minuter."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Vad du får",
+    "title": "Allt för att ta kontroll över dina prenumerationer.",
+    "sub": "Fyra kärnverktyg som arbetar tillsammans för att avslöja dolda kostnader och hjälpa dig att vidta åtgärder.",
+    "cards": [
+      {
+        "title": "Smart detektering",
+        "desc": "Identifierar automatiskt alla prenumerationer — streaming, fitness, SaaS och mer — utan manuell datainmatning."
+      },
+      {
+        "title": "Zombiedetektor",
+        "desc": "Identifierar tjänster du betalar för men inte har använt på mer än 30 dagar. Se exakt hur mycket dina zombieprenumerationer kostar dig per månad och år."
+      },
+      {
+        "title": "Utgiftsöversikt",
+        "desc": "En tydlig, kategoriserad vy över dina månatliga och årliga prenumerationsutgifter. Spåra trender och förstå exakt vart dina pengar tar vägen."
+      },
+      {
+        "title": "URL-sökare för avbokning",
+        "desc": "Hatar du att leta efter avbokningsknappar? CentryAI ger direktavbokningslänken, telefonnumret eller en steg-för-steg-guide för varje tjänst."
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ Zombievarning",
+    "title": "Möt dina zombieprenumerationer.",
+    "desc": "Du registrerade dig, glömde bort och du betalar fortfarande. CentryAI korsrefererar dina prenumerationer med din faktiska användning för att avslöja tjänsterna som tyst tömmer ditt konto varje månad.",
+    "flagLabel": "Zombie"
+  },
+  "testimonials": {
+    "eyebrow": "Vad användare säger",
+    "title": "Folk hittar pengar de inte visste att de hade.",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "Jag hittade $38 i prenumerationer som jag helt hade glömt bort. Avbröt 4 av dem på mindre än 10 minuter. Den här appen betalar sig själv omedelbart."
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "Zombieprenumerationsfunktionen är verkligen skrämmande. Jag betalade för en gym-app som jag inte hade öppnat på 3 månader. CentryAI fångade det omedelbart."
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "Rent användargränssnitt, fungerar faktiskt, inget merförsäljningsstruntprat. Avbokningslänksökaren ensam är värd det — inget mer letande genom hjälpsidor."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Vanliga frågor",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "Hur upptäcker CentryAI mina prenumerationer?",
+        "a": "CentryAI låter dig lägga till prenumerationer manuellt eller importera dem. Den använder mönsterigenkänning för att identifiera återkommande avgifter utan att någonsin lagra känslig data."
+      },
+      {
+        "q": "Vad är \"zombie\"-prenumerationer?",
+        "a": "Zombieprenumerationer är tjänster du aktivt betalar för men som du inte har markerat som använda på mer än 30 dagar. CentryAI spårar användning (med din tillåtelse) för att automatiskt flagga dem."
+      },
+      {
+        "q": "Är min data säker?",
+        "a": "Absolut. CentryAI ansluter aldrig till ditt bankkonto. All data krypteras och lagras lokalt på din enhet som standard."
+      },
+      {
+        "q": "Kan CentryAI faktiskt avbryta prenumerationer åt mig?",
+        "a": "CentryAI hittar den snabbaste avbokningsvägen för varje tjänst — en direkt avbokningslänk, telefonnummer eller steg-för-steg-instruktioner. Ett-trycksavbokning är planerad för v2."
+      },
+      {
+        "q": "Fungerar det med familjedelningsplaner?",
+        "a": "Ja. CentryAI kan upptäcka delade prenumerationer och kostnadsdelningstjänster, vilket visar dig kostnaden per person för familjeplaner."
+      },
+      {
+        "q": "Är CentryAI gratis?",
+        "a": "De centrala spårningsfunktionerna är gratis. CentryAI Premium låser upp zombiedetektering, avancerad analys och förnyelsevarningar."
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "Sekretess & Data",
+    "title": "Hur vi använder din Google-data",
+    "cardTitle": "Skrivskyddad åtkomst till Gmail — inget mer.",
+    "cardDesc": "För att automatisera prenumerationsdetektering erbjuder CentryAI en valfri Gmail-integration. När du väljer att ansluta ditt konto begär vi skrivskyddad åtkomst (gmail.readonly) till din inkorg. CentryAI använder denna åtkomst strikt för syftet att skanna prenumerationskvitton och faktureringse-postmeddelanden. Parsningen av e-postmetadata bearbetas endast för att bygga din ekonomiska översikt. Vi läser aldrig dina personliga e-postmeddelanden, vi använder inte din data för att träna AI-modeller, och ditt e-postinnehåll lagras aldrig på våra servrar."
+  },
+  "pricing": {
+    "eyebrow": "Priser",
+    "title": "Enkel, transparent prissättning.",
+    "sub": "Börja gratis. Uppgradera när du är redo — avbryt när som helst.",
+    "note": "Alla planer inkluderar en 7-dagars gratis provperiod. Inget kreditkort krävs för att starta.",
+    "mostPopular": "Mest populär",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "desc": "Kom igång — spåra upp till 3 prenumerationer utan kostnad.",
+        "cta": "Ladda ner gratis"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Obegränsad spårning och AI-drivna verktyg för att snabbt minska slöseri.",
+        "cta": "Skaffa Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Allt i Pro, plus realtidsvarningar och prioriterad support.",
+        "cta": "Skaffa Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "Upp till 3 prenumerationer",
+      "unlimitedSubs": "Obegränsade prenumerationer",
+      "manualEntry": "Manuell inmatning och redigering",
+      "renewalCalendar": "Förnyelsekalender",
+      "darkLight": "Mörkt & ljust tema",
+      "aiEmailScanner": "AI e-postskanner",
+      "spendingAnalytics": "Utgiftsanalys",
+      "aiCancelFinder": "AI-avbokningssökare",
+      "emailReminders": "E-postpåminnelser",
+      "whatsappNotifs": "WhatsApp-meddelanden",
+      "prioritySupport": "Prioriterad support"
+    }
+  },
+  "cta": {
+    "title": "Stoppa läckan. Börja gratis.",
+    "desc": "Gå med över 240 000 personer som har tagit tillbaka kontrollen över sina prenumerationsutgifter."
+  },
+  "footer": {
+    "tagline": "Spåra, upptäck och avbryt återkommande prenumerationer. Gratis att starta — tillgänglig på iOS och Android.",
+    "product": "Produkt",
+    "company": "Företag",
+    "download": "Ladda ner",
+    "links": {
+      "features": "Funktioner",
+      "appPreview": "Appförhandsgranskning",
+      "faq": "FAQ",
+      "downloadLink": "Nedladdning",
+      "support": "Support",
+      "feedback": "Feedback",
+      "privacy": "Integritetspolicy",
+      "terms": "Användarvillkor",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. Alla rättigheter förbehållna.",
+    "footerPrivacy": "Integritet",
+    "footerTerms": "Villkor"
+  },
+  "support": {
+    "pageTitle": "Support & FAQ — CentryAI",
+    "hero": {
+      "label": "Hjälpcenter",
+      "title": "Hur kan vi hjälpa till?",
+      "sub": "Sök i vår FAQ eller bläddra efter kategori nedan.",
+      "searchPlaceholder": "Sök efter frågor…"
+    },
+    "sidebar": {
+      "categoriesLabel": "Kategorier",
+      "allTopics": "Alla ämnen",
+      "stuckTitle": "Har du fortfarande problem?",
+      "stuckDesc": "Vårt supportteam svarar inom 24 timmar.",
+      "emailSupport": "✉ E-postsupport",
+      "reportBug": "🐞 Rapportera fel"
+    },
+    "results": "{count} resultat för \"{query}\"",
+    "noResults": "Inga resultat hittades för \"{query}\"",
+    "submitRequest": "Skicka supportförfrågan →",
+    "categories": {
+      "gettingStarted": "Komma igång",
+      "subscriptionsDetection": "Prenumerationer & Detektering",
+      "cancellation": "Avbokning",
+      "privacySecurity": "Integritet & Säkerhet",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "Felsökning"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "Hur ansluter jag mitt Gmail-konto?",
+          "a": "Öppna CentryAI, tryck på \"Anslut inkorg\" på startskärmen och välj Gmail. Du kommer att dirigeras till Googles inloggningssida. Bevilja skrivskyddad behörighet — CentryAI kan bara läsa, och kan aldrig skicka eller radera e-post."
+        },
+        {
+          "q": "Fungerar CentryAI med iCloud?",
+          "a": "Ja. På iOS, tryck på \"Anslut inkorg\" och välj iCloud. CentryAI kommer att begära e-poståtkomst via Apples standardbehörighetsdialogruta."
+        },
+        {
+          "q": "Kan jag använda CentryAI utan att ansluta en inkorg?",
+          "a": "Ja — du kan manuellt lägga till prenumerationer genom att trycka på +-knappen. Automatisk detektering kräver dock åtkomst till inkorgen."
+        },
+        {
+          "q": "Hur lång tid tar den första skanningen?",
+          "a": "De flesta inkorgar slutför en initial skanning på under 60 sekunder. Mycket stora inkorgar (10+ år av e-post) kan ta 2-3 minuter."
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "Varför saknas en prenumeration från min lista?",
+          "a": "CentryAI kan missa prenumerationer om faktureringsbekräftelsen skickades till en annan e-postadress, hamnade i skräpposten eller använde ett ovanligt format. Du kan alltid lägga till saknade prenumerationer manuellt."
+        },
+        {
+          "q": "Hur fungerar zombiedetektorn?",
+          "a": "CentryAI korsrefererar din prenumerationslista med appanvändningsdata (med tillåtelse) för att identifiera tjänster du inte har öppnat på 30+ dagar. På iOS använder detta Skärmtidsdata. På Android använder det Användningsstatistik."
+        },
+        {
+          "q": "Varför visas min prenumerationspris felaktigt?",
+          "a": "Priser extraheras från faktureringse-post och kanske inte återspeglar de senaste prisförändringarna. Tryck på valfri prenumeration för att manuellt redigera priset."
+        },
+        {
+          "q": "Kan CentryAI upptäcka årliga prenumerationer?",
+          "a": "Ja. CentryAI upptäcker månatliga, årliga, kvartalsvisa och eventuella anpassade faktureringscykler. Årliga prenumerationer visar månadsekvivalenten och en varning för nästa förnyelse."
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "Kan CentryAI faktiskt avbryta prenumerationer åt mig?",
+          "a": "För närvarande hittar CentryAI den snabbaste avbokningsvägen för varje tjänst — en direktlänk, telefonnummer eller steg-för-steg-guide — men automatiserar inte avbokningen. Ett-trycksavbokning planeras i v2."
+        },
+        {
+          "q": "Avbokningslänken fungerar inte. Vad ska jag göra?",
+          "a": "Avbokningslänkar kan ändras när företag uppdaterar sina webbplatser. Tryck på \"Rapportera trasig länk\" på sidan för prenumerationsdetaljer så uppdaterar vi den. Försök under tiden att söka efter \"Hur man avbryter [Tjänstens namn]\" för de senaste instruktionerna."
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "Kan CentryAI se innehållet i mina e-postmeddelanden?",
+          "a": "Nej. CentryAI läser bara ämnesrader, avsändaradresser och strukturerade mönster i faktureringse-post. Hela e-posttexten läses, lagras eller överförs aldrig."
+        },
+        {
+          "q": "Lagras min data på era servrar?",
+          "a": "Som standard, nej. All prenumerationsdata lagras lokalt på din enhet. Du kan valfritt aktivera en krypterad iCloud/Google Drive-säkerhetskopia i Inställningar > Data & Sekretess."
+        },
+        {
+          "q": "Vad händer om jag tar bort mitt konto?",
+          "a": "Att ta bort ditt konto tar omedelbart bort all data från våra servrar (om synkronisering var aktiverad) och från lokal lagring. Denna åtgärd är oåterkallelig. För att ta bort: Inställningar > Konto > Ta bort konto."
+        }
+      ],
+      "premium": [
+        {
+          "q": "Vad ingår i CentryAI Premium?",
+          "a": "Pro låser upp zombieprenumerationsdetektering, avancerad utgiftsanalys, förnyelsepåminnelser, obegränsade manuella prenumerationer och prioriterad support. Gratisnivån stöder upp till 10 spårade prenumerationer."
+        },
+        {
+          "q": "Hur avbryter jag min Pro-prenumeration?",
+          "a": "Pro-prenumerationer hanteras av App Store eller Google Play — inte direkt av CentryAI. För att avbryta: iOS: Inställningar > Apple-ID > Prenumerationer. Android: Play Butik > Prenumerationer."
+        },
+        {
+          "q": "Erbjuder ni en gratis provperiod?",
+          "a": "Ja — nya användare får en 7-dagars gratis provperiod på CentryAI Premium när de ansluter en inkorg för första gången."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "Appen kraschar. Vad ska jag göra?",
+          "a": "Försök först att tvångsavsluta och öppna appen igen. Om problemet kvarstår, gå till Inställningar > Support > Skicka diagnostikrapport — detta skickar en anonym kraschlogg till vårt team. Du kan också skicka in en felrapport."
+        },
+        {
+          "q": "Min inkorgsskanning har fastnat. Vad ska jag göra?",
+          "a": "Dra ner för att uppdatera på startskärmen. Om skanningen fortfarande är fast, koppla från och anslut sedan din inkorg igen från Inställningar > Anslutna konton. Om problemet kvarstår, kontakta support."
+        },
+        {
+          "q": "CentryAI upptäcker inte nya prenumerationer efter installationen.",
+          "a": "Se till att Bakgrundsuppdatering är aktiverat för CentryAI i dina enhetsinställningar. iOS: Inställningar > CentryAI > Bakgrundsuppdatering. Android: Inställningar > Appar > CentryAI > Batteri > Obegränsad."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "Användarvillkor — CentryAI",
+    "hero": {
+      "label": "Juridiskt",
+      "title": "Användarvillkor",
+      "subtitle": "Senast uppdaterad: 19 april 2026 · Gäller från: 19 april 2026"
+    },
+    "toc": {
+      "title": "Innehållsförteckning",
+      "items": [
+        "Godkännande av villkor",
+        "Beskrivning av tjänsten",
+        "Behörighet",
+        "Användarkonton",
+        "Prenumerationsplaner och fakturering",
+        "Acceptabel användning",
+        "Immateriella rättigheter",
+        "Friskrivning",
+        "Ansvarsbegränsning",
+        "Uppsägning",
+        "Tillämplig lag",
+        "Kontakta oss"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Godkännande av villkor",
+        "body": "Genom att ladda ner, installera eller använda CentryAI (\"Appen\") godkänner du att bindas av dessa användarvillkor (\"Villkoren\"). Om du inte godkänner dessa villkor ska du inte använda appen. Dessa villkor gäller för alla användare av appen."
+      },
+      "s2": {
+        "title": "2. Beskrivning av tjänsten",
+        "body": "CentryAI är en mobilapplikation som hjälper användare att identifiera, spåra och hantera återkommande prenumerationsavgifter genom att analysera e-postdata med användarens uttryckliga tillstånd. CentryAI är ett informationsverktyg — det utför inte finansiella transaktioner och det avbryter inte prenumerationer å dina vägnar."
+      },
+      "s3": {
+        "title": "3. Behörighet",
+        "body": "Du måste vara minst 13 år gammal för att använda CentryAI. Genom att använda appen intygar du att du är minst 13 år gammal. Om du är under 18 år intygar du att du har tillstånd från din förälder eller vårdnadshavare att använda appen."
+      },
+      "s4": {
+        "title": "4. Användarkonton",
+        "body": "Du kan använda CentryAI utan konto, men vissa funktioner kräver registrering. Du ansvarar för att upprätthålla sekretessen för dina kontouppgifter. Du samtycker till att omedelbart meddela oss om eventuell obehörig användning på support@centryai.app."
+      },
+      "s5": {
+        "title": "5. Prenumerationsplaner och fakturering",
+        "freeTierTitle": "Gratis nivå",
+        "freeTierBody": "CentryAIs kärnfunktioner — prenumerationsdetektering och översikt — är tillgängliga utan kostnad.",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "CentryAI Premium är en månatlig eller årlig prenumeration. Pro-prenumerationer förnyas automatiskt om de inte avbryts minst 24 timmar före förnyelsedatumet. Du kan hantera eller avbryta din Pro-prenumeration via dina kontoinställningar i App Store eller Google Play.",
+        "refundsTitle": "Återbetalningar",
+        "refundsBody": "Återbetalningsförfrågningar är föremål för policyerna för Apple App Store eller Google Play. Vi kommer att samarbeta med återbetalningsförfrågningar som görs inom 14 dagar efter det ursprungliga köpet där det är tekniskt möjligt."
+      },
+      "s6": {
+        "title": "6. Acceptabel användning",
+        "intro": "Du samtycker till att inte:",
+        "items": [
+          "Använda appen för några olagliga ändamål",
+          "Försöka bakåtkompilera, dekompilera eller demontera appen",
+          "Dela dina kontouppgifter med tredje part",
+          "Använda automatiserade metoder för att komma åt eller skrapa data från appen",
+          "Störa appens infrastruktur eller andra användares åtkomst",
+          "Föreställa din identitet eller tillhörighet felaktigt"
+        ]
+      },
+      "s7": {
+        "title": "7. Immateriella rättigheter",
+        "body": "CentryAI och allt relaterat innehåll, design, kod, varumärken och handelsnamn är den exklusiva egendomen av CentryAI, Inc. Du beviljas en begränsad, icke-exklusiv, icke-överlåtbar licens att använda appen för personliga, icke-kommersiella ändamål."
+      },
+      "s8": {
+        "title": "8. Friskrivning",
+        "body1": "CentryAI tillhandahålls \"i befintligt skick\" och \"som tillgängligt\" utan någon garanti av något slag, varken uttrycklig eller underförstådd. Vi garanterar inte att prenumerationsdetekteringen kommer att vara komplett eller felfri.",
+        "body2": "CentryAI är inte en finansiell rådgivare. Ingenting i appen utgör ekonomisk, juridisk eller professionell rådgivning. Avbokningsbeslut är helt och hållet dina."
+      },
+      "s9": {
+        "title": "9. Ansvarsbegränsning",
+        "body1": "I den maximala utsträckning som tillåts enligt tillämplig lag ska CentryAI, Inc. inte vara ansvarig för några indirekta, tillfälliga, speciella, följd- eller straffskador som uppstår från din användning eller oförmåga att använda appen.",
+        "body2": "Vårt totala ansvar gentemot dig för eventuella krav som uppstår från dessa villkor kommer inte att överstiga det belopp du har betalat oss under de tolv månaderna före kravet."
+      },
+      "s10": {
+        "title": "10. Uppsägning",
+        "body": "Vi förbehåller oss rätten att när som helst stänga av eller avsluta ditt konto för brott mot dessa villkor. Du kan radera ditt konto när som helst inifrån appen. Vid uppsägning upphör din rätt att använda appen omedelbart."
+      },
+      "s11": {
+        "title": "11. Tillämplig lag",
+        "body": "Dessa villkor ska styras av lagarna i delstaten Delaware, USA. Eventuella tvister ska lösas i domstolarna i Delaware."
+      },
+      "s12": {
+        "title": "12. Kontakta oss",
+        "body": "Frågor om dessa villkor? Kontakta oss på legal@centryai.app."
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "Integritetspolicy — CentryAI",
+    "hero": {
+      "label": "Juridiskt",
+      "title": "Integritetspolicy",
+      "subtitle": "Senast uppdaterad: 19 april 2026 · Gäller från: 19 april 2026"
+    },
+    "shortVersion": "Den korta versionen: CentryAI läser din e-post för att hitta prenumerationskvitton. Vi lagrar aldrig dina e-postmeddelanden, säljer aldrig din data och ansluter aldrig till din bank. Din data förblir på din enhet som standard.",
+    "toc": {
+      "title": "Innehållsförteckning",
+      "items": [
+        "Information vi samlar in",
+        "Hur vi använder din information",
+        "Datalagring & Säkerhet",
+        "Tredjepartstjänster",
+        "Dina rättigheter",
+        "Barns integritet",
+        "Ändringar av denna policy",
+        "Kontakta oss"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Information vi samlar in",
+        "emailTitle": "E-poståtkomst",
+        "emailBody": "För att upptäcka dina prenumerationer begär CentryAI skrivskyddad åtkomst till din Gmail- eller iCloud-inkorg. Vi använder denna åtkomst strikt för att identifiera prenumerationsbekräftelser och faktureringse-post. Vi läser inte, lagrar eller överför inte innehållet i dina e-postmeddelanden. Endast strukturerad metadata bearbetas lokalt.",
+        "accountTitle": "Kontoinformation",
+        "accountBody": "När du skapar ett CentryAI-konto samlar vi in din e-postadress och ett hashat lösenord. Vi samlar inte in ditt namn, telefonnummer eller betalningsuppgifter om du inte uppgraderar till CentryAI Premium.",
+        "usageTitle": "Användningsdata",
+        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig.",
+        "deviceTitle": "Enhetsinformation",
+        "deviceBody": "Vi samlar in din enhetstyp, OS-version och appversion för att ge support.",
+        "noHumanAccess": "🔒 Ingen människa kommer att läsa din e-postdata. Åtkomsten är strikt programmatisk och automatiserad enbart för syftet att upptäcka prenumerationer."
+      },
+      "s2": {
+        "title": "2. Hur vi använder din information",
+        "intro": "Vi använder informationen vi samlar in för att:",
+        "items": [
+          "Upptäcka och visa dina återkommande prenumerationer",
+          "Identifiera zombieprenumerationer baserat på användningsmönster",
+          "Skicka förnyelsepåminnelser",
+          "Ge kundsupport",
+          "Förbättra appens prestanda och funktioner",
+          "Följa juridiska skyldigheter"
+        ],
+        "noAds": "Vi använder inte din data för reklam, och vi kommer under inga omständigheter att sälja eller hyra ut din personliga information till tredje part.",
+        "aiNote": "🤖 AI / Maskininlärning: Vi använder strikt inte Google Workspace API:er för att utveckla, förbättra eller träna AI-modeller.",
+        "googlePolicy": "CentryAIs användning och överföring till någon annan app av information som erhållits från Google API:er kommer att följa Google API Services User Data Policy, inklusive kraven på begränsad användning."
+      },
+      "s3": {
+        "title": "3. Datalagring & Säkerhet",
+        "body1": "Din prenumerationsdata lagras lokalt på din enhet som standard. Om du aktiverar iCloud- eller Google Drive-synkronisering krypteras din data med AES-256 innan överföring.",
+        "body2": "Skrivskyddad Gmail-data bearbetas strikt lokalt på din enhet och överförs aldrig till eller lagras på våra backend-servrar.",
+        "body3": "Våra servrar använder branschstandardiserade säkerhetspraxis, inklusive TLS 1.3 under överföring, krypterad lagring i vila och frekventa säkerhetsrevisioner."
+      },
+      "s4": {
+        "title": "4. Tredjepartstjänster",
+        "intro": "CentryAI använder ett begränsat antal tredjepartstjänster:",
+        "items": [
+          "Logga in med Google / Gmail API — för inkorgsskanning",
+          "Logga in med Apple / iCloud — för inkorgsskanning",
+          "Stripe — för Pro-prenumerationsfakturering",
+          "Sentry — för anonyma kraschrapporter"
+        ],
+        "noShare": "Vi delar inte din personliga data med några andra tredje parter."
+      },
+      "s5": {
+        "title": "5. Dina rättigheter",
+        "intro": "Beroende på din jurisdiktion kan du ha rätt att:",
+        "items": [
+          "Få tillgång till de personuppgifter vi har om dig",
+          "Begära radering av ditt konto och tillhörande data",
+          "Exportera din data i ett bärbart format",
+          "Välja bort anonym analys"
+        ],
+        "contact": "För att utöva någon av dessa rättigheter, kontakta oss på privacy@centryai.app. Vi kommer att svara inom 30 dagar."
+      },
+      "s6": {
+        "title": "6. Barns integritet",
+        "body": "CentryAI är inte riktat till barn under 13 år. Vi samlar inte medvetet in personlig information från barn."
+      },
+      "s7": {
+        "title": "7. Ändringar av denna policy",
+        "body": "Vi kan uppdatera denna integritetspolicy från tid till annan. Vi kommer att meddela dig om väsentliga ändringar."
+      },
+      "s8": {
+        "title": "8. Kontakta oss",
+        "body": "Frågor om denna policy? Vi är här för att hjälpa till.",
+        "email": "E-post: privacy@centryai.app",
+        "supportLink": "Support: centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "Feedback & Felrapport — CentryAI",
+    "header": {
+      "label": "Hör av dig",
+      "title": "Feedback och Felrapporter",
+      "sub": "Berätta för oss vad som är trasigt eller vad du skulle vilja se. Vi läser varje inlämning."
+    },
+    "types": {
+      "bug": {
+        "label": "Felrapport",
+        "sub": "Något är trasigt"
+      },
+      "feature": {
+        "label": "Funktionsförfrågan",
+        "sub": "Idé eller förbättring"
+      },
+      "other": {
+        "label": "Allmän Feedback",
+        "sub": "Allt annat"
+      }
+    },
+    "form": {
+      "name": "Namn",
+      "email": "E-post",
+      "platform": "Plattform",
+      "selectPlatform": "Välj plattform",
+      "appVersion": "Appversion",
+      "selectVersion": "Välj version",
+      "bugSummary": "Felsammanfattning",
+      "featureTitle": "Funktionstitel",
+      "subject": "Ämne",
+      "stepsToReproduce": "Steg för att återskapa",
+      "describeFeature": "Beskriv funktionen",
+      "message": "Meddelande",
+      "severity": "Allvarlighetsgrad",
+      "severityLow": "Låg",
+      "severityLowSub": "Mindre irritation",
+      "severityMed": "Medium",
+      "severityMedSub": "Påverkar användningen",
+      "severityHigh": "Hög",
+      "severityHighSub": "Appen oanvändbar",
+      "placeholders": {
+        "name": "Ditt namn",
+        "email": "du@exempel.com",
+        "bugTitle": "T.ex.: Appen kraschar när man laddar en stor inkorg",
+        "featureTitle": "T.ex.: Exportera prenumerationslista som CSV",
+        "briefSummary": "Kort sammanfattning",
+        "bugSteps": "1. Öppna appen\n2. Anslut Gmail\n3. Tryck på en prenumeration\n4. Appen kraschar",
+        "featureDesc": "Beskriv vad du vill, varför det skulle hjälpa och exempel…",
+        "generalMessage": "Berätta för oss vad du tänker på…"
+      },
+      "errors": {
+        "nameRequired": "Namn krävs",
+        "emailRequired": "E-post krävs",
+        "emailInvalid": "Vänligen ange en giltig e-postadress",
+        "titleRequired": "Vänligen ange en kort titel",
+        "messageRequired": "Vänligen beskriv problemet",
+        "messageTooLong": "Max {max} tecken"
+      },
+      "submitBug": "Skicka felrapport",
+      "submitFeature": "Skicka funktionsförfrågan",
+      "sendFeedback": "Skicka feedback",
+      "sending": "Skickar…",
+      "directEmail": "Eller maila oss direkt på support@centryai.app"
+    },
+    "success": {
+      "title": "Förstått. Tack!",
+      "descBug": "Vi har tagit emot din felrapport och kommer att granska den inom kort.",
+      "descFeature": "Vi har tagit emot din funktionsförfrågan och kommer att granska den inom kort.",
+      "descFeedback": "Vi har tagit emot din feedback och kommer att granska den inom kort.",
+      "responseTime": "Vi svarar vanligtvis inom 1-2 arbetsdagar.",
+      "refLabel": "Referens:",
+      "submitAnother": "Skicka in en till",
+      "backHome": "Tillbaka till startsidan"
+    }
+  }
+}

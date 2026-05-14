@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "appPreview": "Aperçu de l'application",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "support": "Assistance",
+    "downloadFree": "Télécharger gratuitement"
+  },
+  "hero": {
+    "badge": "Suivi des abonnements",
+    "headline1": "Arrêtez de payer pour des applications",
+    "headline2": "que vous avez",
+    "headlineEm": "oubliées.",
+    "sub": "CentryAI est une application intelligente de finances personnelles conçue pour vous aider à suivre, gérer et optimiser automatiquement vos abonnements récurrents.",
+    "trust": "4.8 · Plus de 12 000 avis · Commencez gratuitement",
+    "appStoreSmall": "Télécharger dans l'",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Disponible sur",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "Téléchargements",
+    "monthlyWaste": "Gaspillage mensuel moyen trouvé",
+    "appRating": "Note sur l'App Store",
+    "userSavings": "Économies des utilisateurs suivies"
+  },
+  "screenshots": {
+    "eyebrow": "Aperçu de l'application",
+    "title": "Découvrez CentryAI en action.",
+    "sub": "De vrais écrans de l'application. Suivez l'activité, détectez les abonnements zombies et annulez en un clic.",
+    "captions": {
+      "dashboard": "Tableau de bord",
+      "subscriptions": "Abonnements",
+      "calendar": "Calendrier",
+      "detailView": "Vue détaillée",
+      "aiCancelFinder": "Outil d'annulation IA",
+      "aiScanner": "Scanner IA",
+      "emailScanner": "Scanner d'e-mails",
+      "googleSearch": "Recherche Google",
+      "languageSupport": "Support linguistique"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Comment ça marche",
+    "title": "Prêt en 3 minutes.",
+    "steps": [
+      {
+        "title": "Connectez votre boîte de réception",
+        "desc": "Associez Gmail ou iCloud avec un accès en lecture seule. CentryAI recherche uniquement les e-mails d'abonnement — rien d'autre."
+      },
+      {
+        "title": "Voyez tout",
+        "desc": "Votre liste complète d'abonnements apparaît instantanément, triée par coût, date de renouvellement et statut d'utilisation."
+      },
+      {
+        "title": "Éliminez le gaspillage",
+        "desc": "Appuyez sur n'importe quel abonnement zombie pour obtenir le lien direct d'annulation. Annulez en quelques secondes, pas en minutes."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Ce que vous obtenez",
+    "title": "Tout pour reprendre le contrôle de vos abonnements.",
+    "sub": "Quatre outils principaux qui fonctionnent ensemble pour révéler les coûts cachés et vous aider à agir.",
+    "cards": [
+      {
+        "title": "Détection intelligente",
+        "desc": "Identifie automatiquement chaque abonnement — streaming, fitness, SaaS, etc. — sans aucune saisie manuelle requise."
+      },
+      {
+        "title": "Détecteur de zombies",
+        "desc": "Identifie les services que vous payez mais que vous n'avez pas utilisés depuis plus de 30 jours. Voyez exactement combien vous coûtent vos abonnements zombies par mois et par an."
+      },
+      {
+        "title": "Tableau de bord des dépenses",
+        "desc": "Une vue claire et catégorisée de vos dépenses d'abonnement mensuelles et annuelles. Suivez les tendances et comprenez exactement où va votre argent."
+      },
+      {
+        "title": "Trouveur d'URL d'annulation",
+        "desc": "Vous détestez chercher les boutons d'annulation ? CentryAI affiche le lien direct d'annulation, le numéro de téléphone ou un guide étape par étape pour chaque service."
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ Alerte Zombie",
+    "title": "Rencontrez vos abonnements zombies.",
+    "desc": "Vous vous êtes inscrit, avez oublié, et vous payez toujours. CentryAI croise vos abonnements avec votre utilisation réelle pour révéler les services qui vident discrètement votre compte chaque mois.",
+    "flagLabel": "Zombie"
+  },
+  "testimonials": {
+    "eyebrow": "Ce que disent les utilisateurs",
+    "title": "Les gens trouvent de l'argent dont ils ignoraient l'existence.",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "J'ai trouvé 38 $ d'abonnements que j'avais complètement oubliés. J'en ai annulé 4 en moins de 10 minutes. Cette application est instantanément rentabilisée."
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "La fonction d'abonnement zombie est vraiment effrayante. Je payais pour une application de gym que je n'avais pas ouverte depuis 3 mois. CentryAI l'a détecté immédiatement."
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "Interface propre, fonctionne vraiment, pas de ventes incitatives absurdes. L'outil de recherche de liens d'annulation vaut à lui seul le coup — plus besoin de chercher dans les pages d'aide."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "Comment CentryAI détecte-t-il mes abonnements ?",
+        "a": "CentryAI vous permet d'ajouter des abonnements manuellement ou de les importer. Il utilise la reconnaissance de motifs pour identifier les frais récurrents sans jamais stocker de données sensibles."
+      },
+      {
+        "q": "Que sont les abonnements \"zombies\" ?",
+        "a": "Les abonnements zombies sont des services que vous payez activement mais que vous n'avez pas marqués comme utilisés depuis plus de 30 jours. CentryAI suit l'utilisation (avec votre permission) pour les signaler automatiquement."
+      },
+      {
+        "q": "Mes données sont-elles en sécurité ?",
+        "a": "Absolument. CentryAI ne se connecte jamais à votre compte bancaire. Toutes les données sont cryptées et stockées localement sur votre appareil par défaut."
+      },
+      {
+        "q": "CentryAI peut-il réellement annuler des abonnements pour moi ?",
+        "a": "CentryAI trouve le chemin d'annulation le plus rapide pour chaque service — lien direct d'annulation, numéro de téléphone ou instructions étape par étape. L'annulation en un clic est prévue pour la v2."
+      },
+      {
+        "q": "Est-ce que ça fonctionne avec les forfaits de partage familial ?",
+        "a": "Oui. CentryAI peut détecter les abonnements partagés et les services à coûts répartis, en vous montrant le coût par personne pour les forfaits familiaux."
+      },
+      {
+        "q": "CentryAI est-il gratuit ?",
+        "a": "Les fonctionnalités de suivi de base sont gratuites. CentryAI Premium débloque la détection des zombies, des analyses avancées et des alertes de renouvellement."
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "Confidentialité et données",
+    "title": "Comment nous utilisons vos données Google",
+    "cardTitle": "Accès en lecture seule à Gmail — rien de plus.",
+    "cardDesc": "Pour automatiser la détection des abonnements, CentryAI propose une intégration optionnelle à Gmail. Lorsque vous choisissez de connecter votre compte, nous demandons un accès en lecture seule (gmail.readonly) à votre boîte de réception. CentryAI utilise strictement cet accès pour rechercher les reçus d'abonnement et les e-mails de facturation. L'analyse des métadonnées des e-mails est traitée uniquement pour créer votre tableau de bord financier. Nous ne lisons jamais vos e-mails personnels, n'utilisons pas vos données pour entraîner des modèles d'IA, et le contenu de vos e-mails n'est jamais stocké sur nos serveurs."
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Des prix simples et transparents.",
+    "sub": "Commencez gratuitement. Passez à la version supérieure quand vous êtes prêt — annulez à tout moment.",
+    "note": "Tous les forfaits incluent un essai gratuit de 7 jours. Aucune carte de crédit n'est requise pour commencer.",
+    "mostPopular": "Le plus populaire",
+    "plans": {
+      "free": {
+        "name": "Gratuit",
+        "desc": "Commencez — suivez jusqu'à 3 abonnements sans frais.",
+        "cta": "Télécharger gratuitement"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Suivi illimité et outils basés sur l'IA pour réduire le gaspillage rapidement.",
+        "cta": "Obtenir Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Tout ce qui est dans Pro, plus des alertes en temps réel et un support prioritaire.",
+        "cta": "Obtenir Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "Jusqu'à 3 abonnements",
+      "unlimitedSubs": "Abonnements illimités",
+      "manualEntry": "Saisie et édition manuelles",
+      "renewalCalendar": "Calendrier de renouvellement",
+      "darkLight": "Thème sombre et clair",
+      "aiEmailScanner": "Scanner d'e-mails IA",
+      "spendingAnalytics": "Analyses des dépenses",
+      "aiCancelFinder": "Outil d'annulation IA",
+      "emailReminders": "Rappels par e-mail",
+      "whatsappNotifs": "Notifications WhatsApp",
+      "prioritySupport": "Support prioritaire"
+    }
+  },
+  "cta": {
+    "title": "Arrêtez la fuite. Commencez gratuitement.",
+    "desc": "Rejoignez plus de 240 000 personnes qui ont repris le contrôle de leurs dépenses d'abonnement."
+  },
+  "footer": {
+    "tagline": "Suivez, détectez et annulez les abonnements récurrents. Commencez gratuitement — disponible sur iOS et Android.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "download": "Télécharger",
+    "links": {
+      "features": "Fonctionnalités",
+      "appPreview": "Aperçu de l'application",
+      "faq": "FAQ",
+      "downloadLink": "Télécharger",
+      "support": "Assistance",
+      "feedback": "Commentaires",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. Tous droits réservés.",
+    "footerPrivacy": "Confidentialité",
+    "footerTerms": "Conditions"
+  },
+  "support": {
+    "pageTitle": "Assistance & FAQ — CentryAI",
+    "hero": {
+      "label": "Centre d'aide",
+      "title": "Comment pouvons-nous vous aider ?",
+      "sub": "Recherchez dans notre FAQ ou parcourez par catégorie ci-dessous.",
+      "searchPlaceholder": "Rechercher des questions…"
+    },
+    "sidebar": {
+      "categoriesLabel": "Catégories",
+      "allTopics": "Tous les sujets",
+      "stuckTitle": "Toujours bloqué ?",
+      "stuckDesc": "Notre équipe d'assistance répond dans les 24 heures.",
+      "emailSupport": "✉ Assistance par e-mail",
+      "reportBug": "🐞 Signaler un bug"
+    },
+    "results": "{count} résultat(s) pour \"{query}\"",
+    "noResults": "Aucun résultat trouvé pour \"{query}\"",
+    "submitRequest": "Soumettre une demande d'assistance →",
+    "categories": {
+      "gettingStarted": "Démarrage",
+      "subscriptionsDetection": "Abonnements & Détection",
+      "cancellation": "Annulation",
+      "privacySecurity": "Confidentialité & Sécurité",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "Dépannage"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "Comment connecter mon compte Gmail ?",
+          "a": "Ouvrez CentryAI, appuyez sur \"Connecter la boîte de réception\" sur l'écran d'accueil et choisissez Gmail. Vous serez redirigé vers la page de connexion de Google. Accordez l'autorisation de lecture seule — CentryAI ne peut que lire, jamais envoyer ni supprimer d'e-mails."
+        },
+        {
+          "q": "CentryAI fonctionne-t-il avec iCloud ?",
+          "a": "Oui. Sur iOS, appuyez sur \"Connecter la boîte de réception\" et choisissez iCloud. CentryAI demandera l'accès à Mail via la boîte de dialogue d'autorisation standard d'Apple."
+        },
+        {
+          "q": "Puis-je utiliser CentryAI sans connecter de boîte de réception ?",
+          "a": "Oui — vous pouvez ajouter des abonnements manuellement en appuyant sur le bouton +. Cependant, la détection automatique nécessite l'accès à la boîte de réception."
+        },
+        {
+          "q": "Combien de temps dure l'analyse initiale ?",
+          "a": "La plupart des boîtes de réception terminent une analyse initiale en moins de 60 secondes. Les très grandes boîtes de réception (plus de 10 ans d'e-mails) peuvent prendre de 2 à 3 minutes."
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "Pourquoi un abonnement manque-t-il dans ma liste ?",
+          "a": "CentryAI peut manquer des abonnements si la confirmation de facturation a été envoyée à une adresse e-mail différente, se trouve dans les spams ou utilise un format inhabituel. Vous pouvez toujours ajouter manuellement les abonnements manquants."
+        },
+        {
+          "q": "Comment fonctionne le détecteur d'abonnements zombies ?",
+          "a": "CentryAI croise votre liste d'abonnements avec les données d'utilisation des applications (avec votre permission) pour identifier les services que vous n'avez pas ouverts depuis plus de 30 jours. Sur iOS, cela utilise les données de Temps d'écran. Sur Android, cela utilise les Statistiques d'utilisation."
+        },
+        {
+          "q": "Pourquoi le prix de mon abonnement est-il incorrect ?",
+          "a": "Les prix sont extraits des e-mails de facturation et peuvent ne pas refléter les récents changements de prix. Appuyez sur n'importe quel abonnement pour modifier manuellement le prix."
+        },
+        {
+          "q": "CentryAI peut-il détecter les abonnements annuels ?",
+          "a": "Oui. CentryAI détecte les cycles de facturation mensuels, annuels, trimestriels et personnalisés. Les abonnements annuels affichent un équivalent mensuel et une alerte de prochain renouvellement."
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "CentryAI peut-il annuler des abonnements pour moi ?",
+          "a": "Actuellement, CentryAI trouve le chemin d'annulation le plus rapide — un lien direct, un numéro de téléphone ou un guide étape par étape — mais n'automatise pas l'annulation. L'annulation en un clic est prévue pour la v2."
+        },
+        {
+          "q": "Le lien d'annulation ne fonctionne pas. Que dois-je faire ?",
+          "a": "Les liens d'annulation peuvent changer lorsque les entreprises mettent à jour leurs sites web. Appuyez sur \"Signaler un lien brisé\" sur la page de détails de l'abonnement et nous le mettrons à jour. En attendant, essayez de rechercher \"Comment annuler [Nom du service]\" pour obtenir les dernières instructions."
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "CentryAI peut-il lire le contenu de mes e-mails ?",
+          "a": "Non. CentryAI ne lit que les objets, les adresses des expéditeurs et les modèles structurés dans les e-mails de facturation. Le corps complet des e-mails n'est jamais lu, stocké ou transmis."
+        },
+        {
+          "q": "Mes données sont-elles stockées sur vos serveurs ?",
+          "a": "Non, par défaut. Toutes les données d'abonnement sont stockées localement sur votre appareil. Vous pouvez éventuellement activer la sauvegarde cryptée sur iCloud/Google Drive dans Paramètres > Données & Confidentialité."
+        },
+        {
+          "q": "Que se passe-t-il si je supprime mon compte ?",
+          "a": "La suppression de votre compte supprime immédiatement toutes les données de nos serveurs (si la synchronisation était activée) et du stockage local. Cette action est irréversible. Pour supprimer : Paramètres > Compte > Supprimer le compte."
+        }
+      ],
+      "premium": [
+        {
+          "q": "Que comprend CentryAI Premium ?",
+          "a": "Pro débloque la détection des abonnements zombies, des analyses de dépenses avancées, des rappels de renouvellement, des abonnements manuels illimités et une assistance prioritaire. Le niveau gratuit prend en charge jusqu'à 10 abonnements suivis."
+        },
+        {
+          "q": "Comment annuler mon abonnement Pro ?",
+          "a": "Les abonnements Pro sont gérés par l'App Store ou Google Play — pas directement par CentryAI. Pour annuler : iOS : Réglages > Identifiant Apple > Abonnements. Android : Play Store > Abonnements."
+        },
+        {
+          "q": "Proposez-vous un essai gratuit ?",
+          "a": "Oui — les nouveaux utilisateurs bénéficient d'un essai gratuit de 7 jours de CentryAI Premium lors de la première connexion d'une boîte de réception."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "L'application plante. Que dois-je faire ?",
+          "a": "Tout d'abord, essayez de forcer la fermeture et de rouvrir l'application. Si le problème persiste, allez dans Paramètres > Assistance > Envoyer un rapport de diagnostic — cela envoie un journal de plantage anonyme à notre équipe. Vous pouvez également soumettre un rapport de bug."
+        },
+        {
+          "q": "L'analyse de ma boîte de réception est bloquée. Que dois-je faire ?",
+          "a": "Tirez vers le bas pour rafraîchir sur l'écran d'accueil. Si l'analyse reste bloquée, déconnectez et reconnectez votre boîte de réception dans Paramètres > Comptes connectés. Si le problème persiste, contactez l'assistance."
+        },
+        {
+          "q": "CentryAI ne détecte pas de nouveaux abonnements après la configuration.",
+          "a": "Assurez-vous que l'actualisation en arrière-plan est activée pour CentryAI dans les paramètres de votre appareil. iOS : Réglages > CentryAI > Actualisation en arrière-plan. Android : Paramètres > Applications > CentryAI > Batterie > Non restreint."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "Conditions d'utilisation — CentryAI",
+    "hero": {
+      "label": "Légal",
+      "title": "Conditions d'utilisation",
+      "subtitle": "Dernière mise à jour : 19 avril 2026 · En vigueur : 19 avril 2026"
+    },
+    "toc": {
+      "title": "Table des matières",
+      "items": [
+        "Acceptation des conditions",
+        "Description du service",
+        "Éligibilité",
+        "Comptes d'utilisateurs",
+        "Forfaits d'abonnement et facturation",
+        "Utilisation acceptable",
+        "Propriété intellectuelle",
+        "Avis de non-responsabilité",
+        "Limitation de responsabilité",
+        "Résiliation",
+        "Loi applicable",
+        "Contact"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Acceptation des conditions",
+        "body": "En téléchargeant, en installant ou en utilisant CentryAI (\"l'Application\"), vous acceptez d'être lié par les présentes Conditions d'utilisation (\"Conditions\"). Si vous n'acceptez pas ces Conditions, n'utilisez pas l'Application. Ces Conditions s'appliquent à tous les utilisateurs de l'Application."
+      },
+      "s2": {
+        "title": "2. Description du service",
+        "body": "CentryAI est une application mobile qui aide les utilisateurs à identifier, suivre et gérer les frais d'abonnement récurrents en analysant les données des e-mails avec la permission explicite de l'utilisateur. CentryAI est un outil informatif — il n'effectue pas de transactions financières et n'annule pas les abonnements en votre nom."
+      },
+      "s3": {
+        "title": "3. Éligibilité",
+        "body": "Vous devez avoir au moins 13 ans pour utiliser CentryAI. En utilisant l'Application, vous déclarez avoir au moins 13 ans. Si vous avez moins de 18 ans, vous déclarez avoir l'autorisation de vos parents ou de votre tuteur pour utiliser l'Application."
+      },
+      "s4": {
+        "title": "4. Comptes d'utilisateurs",
+        "body": "Vous pouvez utiliser CentryAI sans compte, mais certaines fonctionnalités nécessitent une inscription. Vous êtes responsable du maintien de la confidentialité des informations de votre compte. Vous acceptez de nous informer immédiatement de toute utilisation non autorisée à support@centryai.app."
+      },
+      "s5": {
+        "title": "5. Forfaits d'abonnement et facturation",
+        "freeTierTitle": "Niveau gratuit",
+        "freeTierBody": "Les fonctionnalités de base de CentryAI — détection d'abonnement et tableau de bord — sont disponibles sans frais.",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "CentryAI Premium est un abonnement mensuel ou annuel. Les abonnements Pro se renouvellent automatiquement à moins d'être annulés au moins 24 heures avant la date de renouvellement. Vous pouvez gérer ou annuler votre abonnement Pro via les paramètres de votre compte App Store ou Google Play.",
+        "refundsTitle": "Remboursements",
+        "refundsBody": "Les demandes de remboursement sont régies par les politiques de l'Apple App Store ou de Google Play. Nous coopérerons avec les demandes de remboursement effectuées dans les 14 jours suivant l'achat initial, lorsque cela est techniquement possible."
+      },
+      "s6": {
+        "title": "6. Utilisation acceptable",
+        "intro": "Vous acceptez de ne pas :",
+        "items": [
+          "Utiliser l'Application à des fins illégales",
+          "Tenter de procéder à une ingénierie inverse, de décompiler ou de désassembler l'Application",
+          "Partager vos identifiants de compte avec des tiers",
+          "Utiliser des moyens automatisés pour accéder ou récupérer les données de l'Application",
+          "Interférer avec l'infrastructure de l'Application ou l'accès d'autres utilisateurs",
+          "Déformer votre identité ou votre affiliation"
+        ]
+      },
+      "s7": {
+        "title": "7. Propriété intellectuelle",
+        "body": "CentryAI et tout le contenu, le design, le code, les marques commerciales et les noms commerciaux associés sont la propriété exclusive de CentryAI, Inc. Il vous est accordé une licence limitée, non exclusive et non transférable pour utiliser l'Application à des fins personnelles et non commerciales."
+      },
+      "s8": {
+        "title": "8. Avis de non-responsabilité",
+        "body1": "CentryAI est fourni \"tel quel\" et \"tel que disponible\" sans garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas que la détection des abonnements sera complète ou sans erreur.",
+        "body2": "CentryAI n'est pas un conseiller financier. Rien dans l'Application ne constitue un conseil financier, juridique ou professionnel. Les décisions d'annulation vous appartiennent exclusivement."
+      },
+      "s9": {
+        "title": "9. Limitation de responsabilité",
+        "body1": "Dans toute la mesure permise par la loi applicable, CentryAI, Inc. ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation ou de votre incapacité à utiliser l'Application.",
+        "body2": "Notre responsabilité totale envers vous pour toute réclamation découlant des présentes Conditions ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation."
+      },
+      "s10": {
+        "title": "10. Résiliation",
+        "body": "Nous nous réservons le droit de suspendre ou de résilier votre compte à tout moment en cas de violation des présentes Conditions. Vous pouvez supprimer votre compte à tout moment depuis l'Application. Lors de la résiliation, votre droit d'utiliser l'Application cesse immédiatement."
+      },
+      "s11": {
+        "title": "11. Loi applicable",
+        "body": "Les présentes Conditions sont régies par les lois de l'État du Delaware, aux États-Unis. Tout litige sera résolu devant les tribunaux du Delaware."
+      },
+      "s12": {
+        "title": "12. Contact",
+        "body": "Des questions sur ces Conditions ? Contactez-nous à legal@centryai.app."
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "Politique de confidentialité — CentryAI",
+    "hero": {
+      "label": "Légal",
+      "title": "Politique de confidentialité",
+      "subtitle": "Dernière mise à jour : 19 avril 2026 · En vigueur : 19 avril 2026"
+    },
+    "shortVersion": "La version courte : CentryAI lit vos e-mails pour trouver les reçus d'abonnement. Nous ne stockons jamais vos e-mails, ne vendons jamais vos données et ne nous connectons jamais à votre banque. Vos données restent sur votre appareil par défaut.",
+    "toc": {
+      "title": "Table des matières",
+      "items": [
+        "Informations que nous collectons",
+        "Comment nous utilisons vos informations",
+        "Stockage et sécurité des données",
+        "Services tiers",
+        "Vos droits",
+        "Confidentialité des enfants",
+        "Modifications de cette politique",
+        "Nous contacter"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Informations que nous collectons",
+        "emailTitle": "Accès aux e-mails",
+        "emailBody": "Pour détecter vos abonnements, CentryAI demande un accès en lecture seule à votre boîte de réception Gmail ou iCloud. Nous utilisons cet accès uniquement pour identifier les e-mails de confirmation d'abonnement et de facturation. Nous ne lisons, ne stockons ni ne transmettons le contenu du corps de vos e-mails. Seules les métadonnées structurées sont traitées localement.",
+        "accountTitle": "Informations de compte",
+        "accountBody": "Lorsque vous créez un compte CentryAI, nous collectons votre adresse e-mail et un mot de passe haché. Nous ne collectons pas votre nom, numéro de téléphone ou détails de paiement, sauf si vous passez à CentryAI Premium.",
+        "usageTitle": "Données d'utilisation",
+        "usageBody": "Nous collectons des données d'utilisation agrégées et anonymisées pour améliorer l'application. Ces données ne peuvent pas être utilisées pour vous identifier.",
+        "deviceTitle": "Informations sur l'appareil",
+        "deviceBody": "Nous collectons le type de votre appareil, la version du système d'exploitation et la version de l'application pour fournir une assistance.",
+        "noHumanAccess": "🔒 Aucun humain ne lira vos données d'e-mail. L'accès est strictement programmatique et automatisé dans le seul but de détecter les abonnements."
+      },
+      "s2": {
+        "title": "2. Comment nous utilisons vos informations",
+        "intro": "Nous utilisons les informations que nous collectons pour :",
+        "items": [
+          "Détecter et afficher vos abonnements récurrents",
+          "Identifier les abonnements zombies basés sur les modèles d'utilisation",
+          "Envoyer des rappels de renouvellement",
+          "Fournir un support client",
+          "Améliorer les performances et les fonctionnalités de l'application",
+          "Respecter les obligations légales"
+        ],
+        "noAds": "Nous n'utilisons pas vos données à des fins publicitaires et nous ne vendons ni ne louons vos informations personnelles à des tiers en aucune circonstance.",
+        "aiNote": "🤖 IA / Apprentissage automatique : Nous n'utilisons strictement pas les API Google Workspace pour développer, améliorer ou entraîner des modèles d'IA.",
+        "googlePolicy": "L'utilisation et le transfert par CentryAI vers toute autre application des informations reçues des API Google respecteront la politique de données utilisateur des services API de Google, y compris les exigences d'utilisation limitée."
+      },
+      "s3": {
+        "title": "3. Stockage et sécurité des données",
+        "body1": "Vos données d'abonnement sont stockées localement sur votre appareil par défaut. Si vous activez la synchronisation iCloud ou Google Drive, vos données sont cryptées avant transmission à l'aide d'AES-256.",
+        "body2": "Les données Gmail en lecture seule sont traitées strictement localement sur votre appareil et ne sont jamais transmises à, ni stockées sur, nos serveurs backend.",
+        "body3": "Nos serveurs utilisent les pratiques de sécurité standard de l'industrie, y compris TLS 1.3 en transit, un stockage crypté au repos et des audits de sécurité réguliers."
+      },
+      "s4": {
+        "title": "4. Services tiers",
+        "intro": "CentryAI utilise un nombre limité de services tiers :",
+        "items": [
+          "API Google Sign-In / Gmail — pour l'analyse de la boîte de réception",
+          "API Apple Sign-In / iCloud — pour l'analyse de la boîte de réception",
+          "Stripe — pour la facturation de l'abonnement Pro",
+          "Sentry — pour les rapports de plantage anonymisés"
+        ],
+        "noShare": "Nous ne partageons vos données personnelles avec aucun autre tiers."
+      },
+      "s5": {
+        "title": "5. Vos droits",
+        "intro": "Selon votre juridiction, vous pouvez avoir le droit de :",
+        "items": [
+          "Accéder aux données personnelles que nous détenons à votre sujet",
+          "Demander la suppression de votre compte et des données associées",
+          "Exporter vos données dans un format portable",
+          "Refuser les analyses anonymisées"
+        ],
+        "contact": "Pour exercer l'un de ces droits, contactez-nous à privacy@centryai.app. Nous répondrons dans les 30 jours."
+      },
+      "s6": {
+        "title": "6. Confidentialité des enfants",
+        "body": "CentryAI ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants."
+      },
+      "s7": {
+        "title": "7. Modifications de cette politique",
+        "body": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons des modifications importantes."
+      },
+      "s8": {
+        "title": "8. Nous contacter",
+        "body": "Des questions sur cette politique ? Nous sommes là pour vous aider.",
+        "email": "E-mail : privacy@centryai.app",
+        "supportLink": "Assistance : centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "Commentaires & Rapport de bug — CentryAI",
+    "header": {
+      "label": "Entrer en contact",
+      "title": "Commentaires et rapports de bugs",
+      "sub": "Dites-nous ce qui est cassé ou ce que vous aimeriez voir. Nous lisons chaque soumission."
+    },
+    "types": {
+      "bug": {
+        "label": "Rapport de bug",
+        "sub": "Quelque chose est cassé"
+      },
+      "feature": {
+        "label": "Demande de fonctionnalité",
+        "sub": "Idée ou amélioration"
+      },
+      "other": {
+        "label": "Commentaires généraux",
+        "sub": "Autre chose"
+      }
+    },
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "platform": "Plateforme",
+      "selectPlatform": "Sélectionner la plateforme",
+      "appVersion": "Version de l'application",
+      "selectVersion": "Sélectionner la version",
+      "bugSummary": "Résumé du bug",
+      "featureTitle": "Titre de la fonctionnalité",
+      "subject": "Sujet",
+      "stepsToReproduce": "Étapes pour reproduire",
+      "describeFeature": "Décrivez la fonctionnalité",
+      "message": "Message",
+      "severity": "Gravité",
+      "severityLow": "Faible",
+      "severityLowSub": "Gêne mineure",
+      "severityMed": "Moyenne",
+      "severityMedSub": "Affecte l'utilisation",
+      "severityHigh": "Élevée",
+      "severityHighSub": "Application inutilisable",
+      "placeholders": {
+        "name": "Votre nom",
+        "email": "vous@exemple.com",
+        "bugTitle": "ex. L'application plante lors du chargement d'une grande boîte de réception",
+        "featureTitle": "ex. Exporter la liste des abonnements en CSV",
+        "briefSummary": "Bref résumé",
+        "bugSteps": "1. Ouvrir l'application\n2. Connecter Gmail\n3. Appuyer sur un abonnement\n4. L'application plante",
+        "featureDesc": "Décrivez ce que vous voulez, pourquoi cela aiderait, et des exemples…",
+        "generalMessage": "Dites-nous ce que vous avez à l'esprit…"
+      },
+      "errors": {
+        "nameRequired": "Le nom est requis",
+        "emailRequired": "L'e-mail est requis",
+        "emailInvalid": "Entrez un e-mail valide",
+        "titleRequired": "Veuillez donner un bref titre",
+        "messageRequired": "Veuillez décrire le problème",
+        "messageTooLong": "Maximum {max} caractères"
+      },
+      "submitBug": "Soumettre le rapport de bug",
+      "submitFeature": "Soumettre la demande de fonctionnalité",
+      "sendFeedback": "Envoyer les commentaires",
+      "sending": "Envoi en cours…",
+      "directEmail": "Ou envoyez-nous un e-mail directement à support@centryai.app"
+    },
+    "success": {
+      "title": "C'est noté. Merci !",
+      "descBug": "Nous avons reçu votre rapport de bug et nous l'examinerons sous peu.",
+      "descFeature": "Nous avons reçu votre demande de fonctionnalité et nous l'examinerons sous peu.",
+      "descFeedback": "Nous avons reçu vos commentaires et nous les examinerons sous peu.",
+      "responseTime": "Nous répondons généralement sous 1 à 2 jours ouvrables.",
+      "refLabel": "Réf :",
+      "submitAnother": "En soumettre un autre",
+      "backHome": "Retour à l'accueil"
+    }
+  }
+}

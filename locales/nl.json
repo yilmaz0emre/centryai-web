@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "Functies",
+    "appPreview": "App-voorbeeld",
+    "howItWorks": "Hoe het werkt",
+    "pricing": "Prijzen",
+    "faq": "Veelgestelde vragen",
+    "support": "Ondersteuning",
+    "downloadFree": "Gratis downloaden"
+  },
+  "hero": {
+    "badge": "Abonnementen Tracker",
+    "headline1": "Stop met betalen voor apps",
+    "headline2": "die je bent",
+    "headlineEm": "vergeten.",
+    "sub": "CentryAI is een slimme applicatie voor persoonlijke financiën die is ontworpen om je te helpen je terugkerende abonnementen automatisch bij te houden, te beheren en te optimaliseren.",
+    "trust": "4.8 · Meer dan 12.000 beoordelingen · Gratis te starten",
+    "appStoreSmall": "Downloaden in de",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Ontdek het op",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "Downloads",
+    "monthlyWaste": "Gem. maandelijkse verspilling gevonden",
+    "appRating": "App Store beoordeling",
+    "userSavings": "Gevolgde besparingen van gebruikers"
+  },
+  "screenshots": {
+    "eyebrow": "App-voorbeeld",
+    "title": "Zie CentryAI in actie.",
+    "sub": "Echte schermen uit de app. Volg activiteiten, vang zombie-abonnementen op en annuleer met één tik.",
+    "captions": {
+      "dashboard": "Dashboard",
+      "subscriptions": "Abonnementen",
+      "calendar": "Kalender",
+      "detailView": "Detailweergave",
+      "aiCancelFinder": "AI Annuleringszoeker",
+      "aiScanner": "AI-scanner",
+      "emailScanner": "E-mailscanner",
+      "googleSearch": "Google Zoeken",
+      "languageSupport": "Taalondersteuning"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Hoe het werkt",
+    "title": "Klaar voor gebruik in 3 minuten.",
+    "steps": [
+      {
+        "title": "Koppel je inbox",
+        "desc": "Koppel Gmail of iCloud met alleen-lezen toegang. CentryAI scant alleen op abonnements-e-mails — niets anders."
+      },
+      {
+        "title": "Zie alles",
+        "desc": "Je volledige abonnementslijst verschijnt onmiddellijk, gesorteerd op kosten, verlengingsdatum en gebruiksstatus."
+      },
+      {
+        "title": "Verminder verspilling",
+        "desc": "Tik op een zombie-abonnement om de directe weg naar annulering te krijgen. Annuleer in seconden, niet in minuten."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Wat je krijgt",
+    "title": "Alles om controle te krijgen over je abonnementen.",
+    "sub": "Vier kernhulpmiddelen die samenwerken om verborgen kosten aan het licht te brengen en je te helpen actie te ondernemen.",
+    "cards": [
+      {
+        "title": "Slimme detectie",
+        "desc": "Identificeert automatisch elk abonnement — streaming, fitness, SaaS en meer — zonder handmatige gegevensinvoer."
+      },
+      {
+        "title": "Zombie-detector",
+        "desc": "Identificeert diensten waarvoor je betaalt, maar die je al meer dan 30 dagen niet hebt gebruikt. Bekijk precies hoeveel je zombie-abonnementen per maand en per jaar kosten."
+      },
+      {
+        "title": "Uitgaven dashboard",
+        "desc": "Een duidelijk, gecategoriseerd overzicht van je maandelijkse en jaarlijkse abonnementsuitgaven. Volg trends en begrijp precies waar je geld naartoe gaat."
+      },
+      {
+        "title": "Annulerings-URL zoeker",
+        "desc": "Haat je het zoeken naar annuleringsknoppen? CentryAI geeft de directe annuleringslink, het telefoonnummer of een stapsgewijze handleiding voor elke dienst."
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ Zombie Waarschuwing",
+    "title": "Ontmoet je zombie-abonnementen.",
+    "desc": "Je hebt je aangemeld, bent het vergeten en je betaalt nog steeds. CentryAI vergelijkt je abonnementen met je daadwerkelijke gebruik om diensten te onthullen die elke maand stilletjes je rekening plunderen.",
+    "flagLabel": "Zombie"
+  },
+  "testimonials": {
+    "eyebrow": "Wat gebruikers zeggen",
+    "title": "Mensen vinden geld waarvan ze niet wisten dat ze het hadden.",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "Ik vond $38 aan abonnementen die ik helemaal vergeten was. Ik heb er 4 in minder dan 10 minuten geannuleerd. Deze app betaalt zichzelf onmiddellijk terug."
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "De zombie-abonnementenfunctie is echt eng. Ik betaalde voor een fitness-app die ik in 3 maanden niet had geopend. CentryAI betrapte het onmiddellijk."
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "Schone gebruikersinterface, werkt echt, geen upselling onzin. Alleen al de zoeker voor annuleringslinks is het waard — niet meer zoeken in helppagina's."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Veelgestelde vragen",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "Hoe detecteert CentryAI mijn abonnementen?",
+        "a": "Met CentryAI kun je handmatig abonnementen toevoegen of ze importeren. Het gebruikt patroonherkenning om terugkerende afschrijvingen te identificeren zonder ooit gevoelige gegevens op te slaan."
+      },
+      {
+        "q": "Wat zijn \"zombie\"-abonnementen?",
+        "a": "Zombie-abonnementen zijn diensten waarvoor je actief betaalt, maar die je al meer dan 30 dagen niet als gebruikt hebt gemarkeerd. CentryAI volgt het gebruik (met jouw toestemming) om deze automatisch te markeren."
+      },
+      {
+        "q": "Zijn mijn gegevens veilig?",
+        "a": "Absoluut. CentryAI maakt nooit verbinding met je bankrekening. Alle gegevens worden standaard lokaal op je apparaat gecodeerd en opgeslagen."
+      },
+      {
+        "q": "Kan CentryAI echt abonnementen voor mij annuleren?",
+        "a": "CentryAI vindt de snelste annuleringsroute voor elke dienst — een directe annuleringslink, een telefoonnummer of stapsgewijze instructies. Annuleren met één tik staat op de planning voor v2."
+      },
+      {
+        "q": "Werkt het met abonnementen voor delen met gezin?",
+        "a": "Ja. CentryAI kan gedeelde abonnementen en diensten met gedeelde kosten detecteren, en toont je de kosten per persoon voor gezinsabonnementen."
+      },
+      {
+        "q": "Is CentryAI gratis?",
+        "a": "De basisfuncties voor het volgen zijn gratis. CentryAI Premium ontgrendelt de zombie-detectie, geavanceerde analyses en waarschuwingen voor verlenging."
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "Privacy en Gegevens",
+    "title": "Hoe we je Google-gegevens gebruiken",
+    "cardTitle": "Alleen-lezen toegang tot Gmail — niets meer.",
+    "cardDesc": "Om de detectie van abonnementen te automatiseren, biedt CentryAI een optionele Gmail-integratie. Wanneer je ervoor kiest om je account te koppelen, vragen we alleen-lezen toegang (gmail.readonly) tot je inbox. CentryAI gebruikt deze toegang strikt om te zoeken naar abonnementsbewijzen en facturering-e-mails. De analyse van de metadata van e-mails wordt alleen verwerkt om je financiële dashboard op te bouwen. We lezen nooit je persoonlijke e-mails, we gebruiken je gegevens niet om AI-modellen te trainen en de inhoud van je e-mails wordt nooit op onze servers opgeslagen."
+  },
+  "pricing": {
+    "eyebrow": "Prijzen",
+    "title": "Eenvoudige, transparante prijzen.",
+    "sub": "Begin gratis. Upgrade wanneer je er klaar voor bent — annuleer op elk moment.",
+    "note": "Alle abonnementen bevatten een gratis proefperiode van 7 dagen. Geen creditcard vereist om te beginnen.",
+    "mostPopular": "Meest Populair",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "desc": "Ga aan de slag — volg tot 3 abonnementen kosteloos.",
+        "cta": "Gratis downloaden"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Onbeperkt volgen en AI-aangedreven tools om verspilling snel te verminderen.",
+        "cta": "Krijg Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Alles in Pro, plus real-time waarschuwingen en prioriteitsondersteuning.",
+        "cta": "Krijg Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "Tot 3 abonnementen",
+      "unlimitedSubs": "Onbeperkte abonnementen",
+      "manualEntry": "Handmatige invoer & bewerking",
+      "renewalCalendar": "Verlengingskalender",
+      "darkLight": "Donker & licht thema",
+      "aiEmailScanner": "AI e-mailscanner",
+      "spendingAnalytics": "Uitgavenanalyses",
+      "aiCancelFinder": "AI annuleringszoeker",
+      "emailReminders": "E-mailherinneringen",
+      "whatsappNotifs": "WhatsApp-meldingen",
+      "prioritySupport": "Prioriteitsondersteuning"
+    }
+  },
+  "cta": {
+    "title": "Stop het lek. Begin gratis.",
+    "desc": "Sluit je aan bij meer dan 240.000 mensen die de controle over hun abonnementsuitgaven hebben teruggenomen."
+  },
+  "footer": {
+    "tagline": "Volg, detecteer en annuleer terugkerende abonnementen. Gratis te starten — beschikbaar op iOS en Android.",
+    "product": "Product",
+    "company": "Bedrijf",
+    "download": "Downloaden",
+    "links": {
+      "features": "Functies",
+      "appPreview": "App-voorbeeld",
+      "faq": "FAQ",
+      "downloadLink": "Downloaden",
+      "support": "Ondersteuning",
+      "feedback": "Feedback",
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. Alle rechten voorbehouden.",
+    "footerPrivacy": "Privacy",
+    "footerTerms": "Voorwaarden"
+  },
+  "support": {
+    "pageTitle": "Ondersteuning & FAQ — CentryAI",
+    "hero": {
+      "label": "Helpcentrum",
+      "title": "Hoe kunnen we helpen?",
+      "sub": "Zoek in onze FAQ of blader hieronder op categorie.",
+      "searchPlaceholder": "Zoek naar vragen…"
+    },
+    "sidebar": {
+      "categoriesLabel": "Categorieën",
+      "allTopics": "Alle onderwerpen",
+      "stuckTitle": "Zit je nog steeds vast?",
+      "stuckDesc": "Ons ondersteuningsteam reageert binnen 24 uur.",
+      "emailSupport": "✉ E-mailondersteuning",
+      "reportBug": "🐞 Een fout melden"
+    },
+    "results": "{count} resultaat/resultaten voor \"{query}\"",
+    "noResults": "Geen resultaten gevonden voor \"{query}\"",
+    "submitRequest": "Een ondersteuningsverzoek indienen →",
+    "categories": {
+      "gettingStarted": "Aan de slag",
+      "subscriptionsDetection": "Abonnementen en Detectie",
+      "cancellation": "Annulering",
+      "privacySecurity": "Privacy en Beveiliging",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "Problemen oplossen"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "Hoe koppel ik mijn Gmail-account?",
+          "a": "Open CentryAI, tik op \"Inbox verbinden\" op het startscherm en kies Gmail. Je wordt naar de inlogpagina van Google gebracht. Geef alleen-lezen toestemming — CentryAI kan alleen e-mails lezen, nooit e-mails verzenden of verwijderen."
+        },
+        {
+          "q": "Werkt CentryAI met iCloud?",
+          "a": "Ja. Tik in iOS op \"Inbox verbinden\" en kies iCloud. CentryAI zal Mail-toegang aanvragen via het standaard toestemmingsvenster van Apple."
+        },
+        {
+          "q": "Kan ik CentryAI gebruiken zonder een inbox te koppelen?",
+          "a": "Ja — je kunt handmatig abonnementen toevoegen door op de + knop te tikken. Automatische detectie vereist echter toegang tot de inbox."
+        },
+        {
+          "q": "Hoe lang duurt de eerste scan?",
+          "a": "De meeste inboxen voltooien een eerste scan in minder dan 60 seconden. Zeer grote inboxen (meer dan 10 jaar aan e-mails) kunnen 2-3 minuten duren."
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "Waarom ontbreekt er een abonnement in mijn lijst?",
+          "a": "CentryAI kan abonnementen missen als de factureringsbevestiging naar een ander e-mailadres is gestuurd, in spam zit of een ongebruikelijk formaat heeft. Je kunt ontbrekende abonnementen altijd handmatig toevoegen."
+        },
+        {
+          "q": "Hoe werkt de zombie-abonnementendetector?",
+          "a": "CentryAI vergelijkt je abonnementslijst met app-gebruiksgegevens (met toestemming) om diensten te identificeren die je in meer dan 30 dagen niet hebt geopend. Op iOS gebruikt dit Schermtijd-gegevens. Op Android gebruikt het Gebruiksstatistieken."
+        },
+        {
+          "q": "Waarom wordt de prijs van mijn abonnement verkeerd weergegeven?",
+          "a": "Prijzen worden uit facturerings-e-mails gehaald en weerspiegelen mogelijk geen recente prijswijzigingen. Tik op een abonnement om de prijs handmatig te bewerken."
+        },
+        {
+          "q": "Kan CentryAI jaarlijkse abonnementen detecteren?",
+          "a": "Ja. CentryAI detecteert maandelijkse, jaarlijkse, driemaandelijkse en alle aangepaste factureringscycli. Jaarlijkse abonnementen tonen een maandelijks equivalent en een waarschuwing voor de volgende verlenging."
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "Kan CentryAI echt abonnementen voor mij annuleren?",
+          "a": "Momenteel vindt CentryAI de snelste annuleringsroute voor elke dienst — een directe annuleringslink, telefoonnummer of een stapsgewijze handleiding — maar het automatiseert de annulering niet. Annulering met één tik staat gepland voor v2."
+        },
+        {
+          "q": "De annuleringslink werkt niet. Wat moet ik doen?",
+          "a": "Annuleringslinks kunnen veranderen wanneer bedrijven hun websites bijwerken. Tik op \"Defecte link melden\" op de abonnementsdetailpagina en we zullen deze bijwerken. Probeer in de tussentijd te zoeken naar \"Hoe annuleer ik [Naam van dienst]\" voor de nieuwste instructies."
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "Kan CentryAI de inhoud van mijn e-mails zien?",
+          "a": "Nee. CentryAI leest alleen onderwerpregels, afzenderadressen en gestructureerde patronen in facturerings-e-mails. Volledige e-mailteksten worden nooit gelezen, opgeslagen of verzonden."
+        },
+        {
+          "q": "Worden mijn gegevens opgeslagen op uw servers?",
+          "a": "Nee, standaard niet. Alle abonnementsgegevens worden lokaal op je apparaat opgeslagen. Je kunt optioneel versleutelde back-ups van iCloud/Google Drive inschakelen in Instellingen > Gegevens en privacy."
+        },
+        {
+          "q": "Wat gebeurt er als ik mijn account verwijder?",
+          "a": "Het verwijderen van je account verwijdert onmiddellijk alle gegevens van onze servers (als synchronisatie was ingeschakeld) en van de lokale opslag. Deze actie is onomkeerbaar. Om te verwijderen: Instellingen > Account > Account verwijderen."
+        }
+      ],
+      "premium": [
+        {
+          "q": "Wat is inbegrepen in CentryAI Premium?",
+          "a": "Pro ontgrendelt zombie-abonnementendetectie, geavanceerde uitgavenanalyses, verlengingsherinneringen, onbeperkte handmatige abonnementen en prioriteitsondersteuning. Het gratis niveau ondersteunt maximaal 10 gevolgde abonnementen."
+        },
+        {
+          "q": "Hoe annuleer ik mijn Pro-abonnement?",
+          "a": "Pro-abonnementen worden beheerd door de App Store of Google Play — niet rechtstreeks door CentryAI. Om te annuleren: iOS: Instellingen > Apple ID > Abonnementen. Android: Play Store > Abonnementen."
+        },
+        {
+          "q": "Bieden jullie een gratis proefperiode aan?",
+          "a": "Ja — nieuwe gebruikers krijgen een gratis proefperiode van 7 dagen van CentryAI Premium wanneer ze voor het eerst een inbox koppelen."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "De app crasht. Wat moet ik doen?",
+          "a": "Probeer eerst de app geforceerd te sluiten en opnieuw te openen. Als het probleem aanhoudt, ga je naar Instellingen > Ondersteuning > Diagnostisch rapport verzenden — dit stuurt een anoniem crashlogbestand naar ons team. Je kunt ook een foutenrapport indienen."
+        },
+        {
+          "q": "Mijn inbox-scan loopt vast. Wat moet ik doen?",
+          "a": "Trek omlaag om te vernieuwen op het startscherm. Als de scan vast blijft lopen, ontkoppel en koppel je inbox dan opnieuw via Instellingen > Gekoppelde accounts. Als het probleem aanhoudt, neem dan contact op met de ondersteuning."
+        },
+        {
+          "q": "CentryAI detecteert geen nieuwe abonnementen na het instellen.",
+          "a": "Zorg ervoor dat het verversen op de achtergrond is ingeschakeld voor CentryAI in je apparaatinstellingen. iOS: Instellingen > CentryAI > Ververs op achtergrond. Android: Instellingen > Apps > CentryAI > Batterij > Onbeperkt."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "Gebruiksvoorwaarden — CentryAI",
+    "hero": {
+      "label": "Legaal",
+      "title": "Gebruiksvoorwaarden",
+      "subtitle": "Laatst bijgewerkt: 19 april 2026 · Van kracht: 19 april 2026"
+    },
+    "toc": {
+      "title": "Inhoudsopgave",
+      "items": [
+        "Acceptatie van de Voorwaarden",
+        "Beschrijving van de Dienst",
+        "Geschiktheid",
+        "Gebruikersaccounts",
+        "Abonnementsplannen en Facturering",
+        "Aanvaardbaar Gebruik",
+        "Intellectueel Eigendom",
+        "Disclaimer",
+        "Beperking van Aansprakelijkheid",
+        "Beëindiging",
+        "Toepasselijk Recht",
+        "Contact"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Acceptatie van de Voorwaarden",
+        "body": "Door CentryAI (\"de App\") te downloaden, installeren of gebruiken, ga je ermee akkoord gebonden te zijn aan deze Gebruiksvoorwaarden (\"Voorwaarden\"). Als je niet akkoord gaat met deze Voorwaarden, gebruik de App dan niet. Deze Voorwaarden zijn van toepassing op alle gebruikers van de App."
+      },
+      "s2": {
+        "title": "2. Beschrijving van de Dienst",
+        "body": "CentryAI is een mobiele applicatie die gebruikers helpt bij het identificeren, volgen en beheren van terugkerende abonnementskosten door e-mailgegevens te analyseren met de expliciete toestemming van de gebruiker. CentryAI is een informatief hulpmiddel — het voert geen financiële transacties uit en annuleert geen abonnementen namens jou."
+      },
+      "s3": {
+        "title": "3. Geschiktheid",
+        "body": "Je moet minimaal 13 jaar oud zijn om CentryAI te gebruiken. Door de App te gebruiken, verklaar je dat je minimaal 13 jaar oud bent. Als je jonger bent dan 18, verklaar je dat je toestemming hebt van je ouder of voogd om de App te gebruiken."
+      },
+      "s4": {
+        "title": "4. Gebruikersaccounts",
+        "body": "Je kunt CentryAI zonder account gebruiken, maar voor bepaalde functies is registratie vereist. Je bent verantwoordelijk voor het handhaven van de vertrouwelijkheid van je inloggegevens. Je stemt ermee in ons onmiddellijk op de hoogte te stellen van elk ongeoorloofd gebruik via support@centryai.app."
+      },
+      "s5": {
+        "title": "5. Abonnementsplannen en Facturering",
+        "freeTierTitle": "Gratis Niveau",
+        "freeTierBody": "De basisfuncties van CentryAI — abonnementendetectie en dashboard — zijn kosteloos beschikbaar.",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "CentryAI Premium is een maandelijks of jaarlijks abonnement. Pro-abonnementen worden automatisch verlengd, tenzij ze ten minste 24 uur voor de verlengingsdatum worden geannuleerd. Je kunt je Pro-abonnement beheren of annuleren via je App Store- of Google Play-accountinstellingen.",
+        "refundsTitle": "Terugbetalingen",
+        "refundsBody": "Terugbetalingsverzoeken vallen onder het beleid van de Apple App Store of Google Play. We zullen meewerken aan terugbetalingsverzoeken die binnen 14 dagen na de eerste aankoop zijn ingediend, waar dit technisch mogelijk is."
+      },
+      "s6": {
+        "title": "6. Aanvaardbaar Gebruik",
+        "intro": "Je gaat ermee akkoord om niet:",
+        "items": [
+          "De App voor onwettige doeleinden te gebruiken",
+          "Te proberen de App te reverse-engineeren, decompileren of demonteren",
+          "Je inloggegevens met derden te delen",
+          "Geautomatiseerde middelen te gebruiken om toegang te krijgen tot of gegevens van de App te scrapen",
+          "De infrastructuur van de App of de toegang van andere gebruikers te verstoren",
+          "Je identiteit of verwantschap verkeerd voor te stellen"
+        ]
+      },
+      "s7": {
+        "title": "7. Intellectueel Eigendom",
+        "body": "CentryAI en alle bijbehorende inhoud, ontwerp, code, handelsmerken en handelsnamen zijn het exclusieve eigendom van CentryAI, Inc. Je krijgt een beperkte, niet-exclusieve, niet-overdraagbare licentie om de App te gebruiken voor persoonlijke, niet-commerciële doeleinden."
+      },
+      "s8": {
+        "title": "8. Disclaimer",
+        "body1": "CentryAI wordt \"zoals het is\" en \"zoals beschikbaar\" geleverd zonder enige vorm van garantie, expliciet of impliciet. We garanderen niet dat de detectie van abonnementen volledig of foutloos zal zijn.",
+        "body2": "CentryAI is geen financieel adviseur. Niets in de App vormt financieel, juridisch of professioneel advies. Annuleringsbeslissingen zijn geheel aan jou."
+      },
+      "s9": {
+        "title": "9. Beperking van Aansprakelijkheid",
+        "body1": "Voor zover maximaal toegestaan door de toepasselijke wetgeving, is CentryAI, Inc. niet aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade die voortvloeit uit jouw gebruik of het onvermogen om de App te gebruiken.",
+        "body2": "Onze totale aansprakelijkheid jegens jou voor elke claim die voortvloeit uit deze Voorwaarden zal het bedrag dat je ons in de twaalf maanden voorafgaand aan de claim hebt betaald, niet overschrijden."
+      },
+      "s10": {
+        "title": "10. Beëindiging",
+        "body": "We behouden ons het recht voor om je account op elk moment op te schorten of te beëindigen wegens schending van deze Voorwaarden. Je kunt je account op elk moment vanuit de App verwijderen. Bij beëindiging vervalt je recht om de App te gebruiken onmiddellijk."
+      },
+      "s11": {
+        "title": "11. Toepasselijk Recht",
+        "body": "Deze Voorwaarden worden beheerst door de wetten van de staat Delaware, Verenigde Staten. Eventuele geschillen worden beslecht in de rechtbanken van Delaware."
+      },
+      "s12": {
+        "title": "12. Contact",
+        "body": "Vragen over deze Voorwaarden? Neem contact met ons op via legal@centryai.app."
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "Privacybeleid — CentryAI",
+    "hero": {
+      "label": "Legaal",
+      "title": "Privacybeleid",
+      "subtitle": "Laatst bijgewerkt: 19 april 2026 · Van kracht: 19 april 2026"
+    },
+    "shortVersion": "De korte versie: CentryAI leest je e-mail om abonnementsbewijzen te vinden. We slaan nooit je e-mails op, verkopen nooit je gegevens en maken nooit verbinding met je bank. Je gegevens blijven standaard op je apparaat.",
+    "toc": {
+      "title": "Inhoudsopgave",
+      "items": [
+        "Informatie die We Verzamelenn",
+        "Hoe We Je Informatie Gebruiken",
+        "Gegevensopslag en Beveiliging",
+        "Diensten van Derden",
+        "Jouw Rechten",
+        "Privacy van Kinderen",
+        "Wijzigingen in dit Beleid",
+        "Neem Contact met Ons Op"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Informatie die We Verzamelen",
+        "emailTitle": "Toegang tot E-mail",
+        "emailBody": "Om je abonnementen te detecteren, vraagt CentryAI alleen-lezen toegang tot je Gmail- of iCloud-inbox. We gebruiken deze toegang uitsluitend om abonnementsbevestigingen en facturering-e-mails te identificeren. We lezen, bewaren of verzenden de inhoud van de hoofdtekst van je e-mails niet. Alleen gestructureerde metadata wordt lokaal verwerkt.",
+        "accountTitle": "Accountinformatie",
+        "accountBody": "Wanneer je een CentryAI-account maakt, verzamelen we je e-mailadres en een gehasht wachtwoord. We verzamelen niet je naam, telefoonnummer of betalingsgegevens, tenzij je upgradet naar CentryAI Premium.",
+        "usageTitle": "Gebruiksgegevens",
+        "usageBody": "We verzamelen geanonimiseerde, geaggregeerde gebruiksgegevens om de app te verbeteren. Deze gegevens kunnen niet worden gebruikt om jou te identificeren.",
+        "deviceTitle": "Apparaatinformatie",
+        "deviceBody": "We verzamelen je apparaattype, de versie van je besturingssysteem en de versie van je app om ondersteuning te bieden.",
+        "noHumanAccess": "🔒 Geen enkel mens zal je e-mailgegevens lezen. De toegang is strikt programmatisch en geautomatiseerd, uitsluitend met als doel het detecteren van abonnementen."
+      },
+      "s2": {
+        "title": "2. Hoe We Je Informatie Gebruiken",
+        "intro": "We gebruiken de informatie die we verzamelen om:",
+        "items": [
+          "Je terugkerende abonnementen te detecteren en weer te geven",
+          "Zombie-abonnementen te identificeren op basis van gebruikspatronen",
+          "Verlengingsherinneringen te verzenden",
+          "Klantenservice te bieden",
+          "Prestaties en functies van de app te verbeteren",
+          "Aan wettelijke verplichtingen te voldoen"
+        ],
+        "noAds": "We gebruiken je gegevens niet voor advertenties en we verkopen of verhuren je persoonlijke informatie onder geen enkele omstandigheid aan derden.",
+        "aiNote": "🤖 AI / Machine Learning: We gebruiken de API's van Google Workspace strikt niet om AI-modellen te ontwikkelen, te verbeteren of te trainen.",
+        "googlePolicy": "Het gebruik en de overdracht aan een andere app van informatie die door CentryAI van Google-API's is ontvangen, zal voldoen aan het beleid inzake gebruikersgegevens van Google API Services, inclusief de vereisten voor beperkt gebruik."
+      },
+      "s3": {
+        "title": "3. Gegevensopslag en Beveiliging",
+        "body1": "Je abonnementsgegevens worden standaard lokaal op je apparaat opgeslagen. Als je iCloud- of Google Drive-synchronisatie inschakelt, worden je gegevens vóór verzending gecodeerd met AES-256.",
+        "body2": "De alleen-lezen Gmail-gegevens worden strikt lokaal op je apparaat verwerkt en worden nooit naar onze backend-servers verzonden of daar opgeslagen.",
+        "body3": "Onze servers gebruiken standaard beveiligingspraktijken in de branche, waaronder TLS 1.3 tijdens het transport, gecodeerde opslag in rust en regelmatige beveiligingsaudits."
+      },
+      "s4": {
+        "title": "4. Diensten van Derden",
+        "intro": "CentryAI gebruikt een beperkt aantal diensten van derden:",
+        "items": [
+          "Google Sign-In / Gmail API — voor inbox-scans",
+          "Apple Sign-In / iCloud — voor inbox-scans",
+          "Stripe — voor de facturering van het Pro-abonnement",
+          "Sentry — voor geanonimiseerde crashrapporten"
+        ],
+        "noShare": "We delen je persoonlijke gegevens niet met andere derden."
+      },
+      "s5": {
+        "title": "5. Jouw Rechten",
+        "intro": "Afhankelijk van je rechtsgebied heb je mogelijk het recht om:",
+        "items": [
+          "Toegang te krijgen tot de persoonlijke gegevens die we over jou bewaren",
+          "Te verzoeken om verwijdering van je account en bijbehorende gegevens",
+          "Je gegevens te exporteren in een draagbaar formaat",
+          "Je af te melden voor geanonimiseerde analyses"
+        ],
+        "contact": "Om een van deze rechten uit te oefenen, neem contact met ons op via privacy@centryai.app. We zullen binnen 30 dagen reageren."
+      },
+      "s6": {
+        "title": "6. Privacy van Kinderen",
+        "body": "CentryAI is niet gericht op kinderen onder de 13 jaar. We verzamelen niet bewust persoonlijke informatie van kinderen."
+      },
+      "s7": {
+        "title": "7. Wijzigingen in dit Beleid",
+        "body": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken. We zullen je op de hoogte stellen van wezenlijke wijzigingen."
+      },
+      "s8": {
+        "title": "8. Neem Contact met Ons Op",
+        "body": "Vragen over dit beleid? We zijn er om te helpen.",
+        "email": "E-mail: privacy@centryai.app",
+        "supportLink": "Ondersteuning: centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "Feedback & Foutenrapport — CentryAI",
+    "header": {
+      "label": "Neem Contact Op",
+      "title": "Feedback en Foutenrapporten",
+      "sub": "Vertel ons wat er kapot is of wat je graag zou willen zien. We lezen elke inzending."
+    },
+    "types": {
+      "bug": {
+        "label": "Foutenrapport",
+        "sub": "Er is iets kapot"
+      },
+      "feature": {
+        "label": "Functieverzoek",
+        "sub": "Idee of verbetering"
+      },
+      "other": {
+        "label": "Algemene Feedback",
+        "sub": "Iets anders"
+      }
+    },
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "platform": "Platform",
+      "selectPlatform": "Selecteer platform",
+      "appVersion": "App-versie",
+      "selectVersion": "Selecteer versie",
+      "bugSummary": "Foutensamenvatting",
+      "featureTitle": "Titel Functie",
+      "subject": "Onderwerp",
+      "stepsToReproduce": "Stappen om te reproduceren",
+      "describeFeature": "Beschrijf de functie",
+      "message": "Bericht",
+      "severity": "Ernst",
+      "severityLow": "Laag",
+      "severityLowSub": "Kleine ergernis",
+      "severityMed": "Gemiddeld",
+      "severityMedSub": "Beïnvloedt gebruik",
+      "severityHigh": "Hoog",
+      "severityHighSub": "App onbruikbaar",
+      "placeholders": {
+        "name": "Jouw naam",
+        "email": "jij@voorbeeld.com",
+        "bugTitle": "bijv. App crasht bij het laden van een grote inbox",
+        "featureTitle": "bijv. Exporteer abonnementslijst als CSV",
+        "briefSummary": "Korte samenvatting",
+        "bugSteps": "1. Open de app\n2. Koppel Gmail\n3. Tik op een abonnement\n4. App crasht",
+        "featureDesc": "Beschrijf wat je wilt, waarom het zou helpen, en voorbeelden…",
+        "generalMessage": "Vertel ons wat er in je omgaat…"
+      },
+      "errors": {
+        "nameRequired": "Naam is verplicht",
+        "emailRequired": "E-mail is verplicht",
+        "emailInvalid": "Voer een geldige e-mail in",
+        "titleRequired": "Geef a.u.b. een korte titel op",
+        "messageRequired": "Beschrijf het probleem",
+        "messageTooLong": "Maximaal {max} tekens"
+      },
+      "submitBug": "Dien Foutenrapport in",
+      "submitFeature": "Dien Functieverzoek in",
+      "sendFeedback": "Stuur Feedback",
+      "sending": "Verzenden…",
+      "directEmail": "Of e-mail ons rechtstreeks via support@centryai.app"
+    },
+    "success": {
+      "title": "Begrepen. Bedankt!",
+      "descBug": "We hebben je foutenrapport ontvangen en zullen het binnenkort bekijken.",
+      "descFeature": "We hebben je functieverzoek ontvangen en zullen het binnenkort bekijken.",
+      "descFeedback": "We hebben je feedback ontvangen en zullen deze binnenkort bekijken.",
+      "responseTime": "We reageren meestal binnen 1-2 werkdagen.",
+      "refLabel": "Ref:",
+      "submitAnother": "Nog één indienen",
+      "backHome": "Terug naar start"
+    }
+  }
+}

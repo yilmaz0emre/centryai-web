@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "Fitur",
+    "appPreview": "Pratinjau Aplikasi",
+    "howItWorks": "Cara Kerja",
+    "pricing": "Harga",
+    "faq": "FAQ",
+    "support": "Dukungan",
+    "downloadFree": "Unduh Gratis"
+  },
+  "hero": {
+    "badge": "Pelacak Langganan",
+    "headline1": "Berhenti membayar aplikasi",
+    "headline2": "yang",
+    "headlineEm": "Anda lupakan.",
+    "sub": "CentryAI adalah aplikasi keuangan pribadi cerdas yang dirancang untuk membantu Anda melacak, mengelola, dan mengoptimalkan langganan berulang Anda secara otomatis.",
+    "trust": "4.8 · 12.000+ Ulasan · Mulai gratis",
+    "appStoreSmall": "Unduh di",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Dapatkan di",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "Unduhan",
+    "monthlyWaste": "Rata-rata pemborosan bulanan ditemukan",
+    "appRating": "Peringkat App Store",
+    "userSavings": "Penghematan pengguna yang terlacak"
+  },
+  "screenshots": {
+    "eyebrow": "Pratinjau Aplikasi",
+    "title": "Lihat cara kerja CentryAI.",
+    "sub": "Layar nyata dari aplikasi. Lacak aktivitas, tangkap langganan zombi, dan batalkan dengan satu ketukan.",
+    "captions": {
+      "dashboard": "Dasbor",
+      "subscriptions": "Langganan",
+      "calendar": "Kalender",
+      "detailView": "Tampilan Detail",
+      "aiCancelFinder": "Pencari Batal AI",
+      "aiScanner": "Pemindai AI",
+      "emailScanner": "Pemindai Email",
+      "googleSearch": "Pencarian Google",
+      "languageSupport": "Dukungan Bahasa"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Cara Kerja",
+    "title": "Siap digunakan dalam 3 menit.",
+    "steps": [
+      {
+        "title": "Tautkan kotak masuk Anda",
+        "desc": "Tautkan Gmail atau iCloud dengan akses hanya-baca. CentryAI hanya memindai email langganan — tidak ada yang lain."
+      },
+      {
+        "title": "Lihat semuanya",
+        "desc": "Daftar langganan lengkap Anda langsung muncul, diurutkan berdasarkan biaya, tanggal pembaruan, dan status penggunaan."
+      },
+      {
+        "title": "Hentikan pemborosan",
+        "desc": "Ketuk langganan zombi mana pun untuk mendapatkan jalur langsung untuk membatalkan. Batalkan dalam hitungan detik, bukan menit."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Apa yang Anda dapatkan",
+    "title": "Semua yang Anda butuhkan untuk mengendalikan langganan Anda.",
+    "sub": "Empat alat inti yang bekerja sama untuk mengungkap biaya tersembunyi dan membantu Anda mengambil tindakan.",
+    "cards": [
+      {
+        "title": "Deteksi Cerdas",
+        "desc": "Secara otomatis mengidentifikasi langganan apa pun — streaming, kebugaran, SaaS, dan banyak lagi — tanpa entri data manual."
+      },
+      {
+        "title": "Detektor Zombi",
+        "desc": "Mengidentifikasi layanan yang Anda bayar tetapi belum digunakan selama lebih dari 30 hari. Lihat secara pasti berapa biaya langganan zombi Anda per bulan dan per tahun."
+      },
+      {
+        "title": "Dasbor Pengeluaran",
+        "desc": "Tampilan yang jelas dan dikategorikan tentang pengeluaran langganan bulanan dan tahunan Anda. Lacak tren dan pahami persis ke mana uang Anda pergi."
+      },
+      {
+        "title": "Pencari URL Pembatalan",
+        "desc": "Benci mencari tombol batal? CentryAI menyediakan tautan pembatalan langsung, nomor telepon, atau panduan langkah demi langkah untuk setiap layanan."
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ Peringatan Zombi",
+    "title": "Temui langganan zombi Anda.",
+    "desc": "Anda mendaftar, lupa, dan masih membayar. CentryAI merujuk silang langganan Anda dengan penggunaan Anda yang sebenarnya untuk mengekspos layanan yang diam-diam menguras akun Anda setiap bulan.",
+    "flagLabel": "Zombi"
+  },
+  "testimonials": {
+    "eyebrow": "Apa kata pengguna",
+    "title": "Orang-orang menemukan uang yang mereka tidak tahu mereka miliki.",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "Saya menemukan langganan senilai $38 yang benar-benar saya lupakan. Membatalkan 4 di antaranya dalam waktu kurang dari 10 menit. Aplikasi ini langsung membayar dengan sendirinya."
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "Fitur langganan zombi sangat menakutkan. Saya membayar aplikasi gym yang belum saya buka selama 3 bulan. CentryAI segera menangkapnya."
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "UI yang bersih, benar-benar berfungsi, tidak ada omong kosong peningkatan penjualan. Pencari tautan batalnya saja sudah sepadan — tidak perlu lagi mencari melalui halaman bantuan."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Pertanyaan Umum",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "Bagaimana CentryAI mendeteksi langganan saya?",
+        "a": "CentryAI memungkinkan Anda untuk menambahkan langganan secara manual atau mengimpornya. Aplikasi ini menggunakan pengenalan pola untuk mengidentifikasi tagihan berulang tanpa pernah menyimpan data sensitif."
+      },
+      {
+        "q": "Apa itu langganan \"zombi\"?",
+        "a": "Langganan zombi adalah layanan yang secara aktif Anda bayar tetapi belum ditandai sebagai digunakan selama lebih dari 30 hari. CentryAI melacak penggunaan (dengan izin Anda) untuk menandainya secara otomatis."
+      },
+      {
+        "q": "Apakah data saya aman?",
+        "a": "Tentu saja. CentryAI tidak pernah terhubung ke rekening bank Anda. Semua data dienkripsi dan disimpan secara lokal di perangkat Anda secara default."
+      },
+      {
+        "q": "Bisakah CentryAI benar-benar membatalkan langganan untuk saya?",
+        "a": "CentryAI menemukan jalur pembatalan tercepat untuk setiap layanan — tautan pembatalan langsung, nomor telepon, atau instruksi langkah demi langkah. Pembatalan satu ketukan direncanakan untuk v2."
+      },
+      {
+        "q": "Apakah ini berfungsi dengan paket Berbagi Keluarga?",
+        "a": "Ya. CentryAI dapat mendeteksi langganan bersama dan layanan berbagi biaya, menunjukkan kepada Anda biaya per orang untuk paket keluarga."
+      },
+      {
+        "q": "Apakah CentryAI gratis?",
+        "a": "Fitur pelacakan inti gratis. CentryAI Premium membuka deteksi zombi, analitik lanjutan, dan peringatan pembaruan."
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "Privasi & Data",
+    "title": "Bagaimana kami menggunakan data Google Anda",
+    "cardTitle": "Akses hanya-baca ke Gmail — tidak lebih.",
+    "cardDesc": "Untuk mengotomatiskan deteksi langganan, CentryAI menawarkan integrasi Gmail opsional. Saat Anda memilih untuk menghubungkan akun Anda, kami meminta akses hanya-baca (gmail.readonly) ke kotak masuk Anda. CentryAI menggunakan akses ini secara ketat untuk memindai tanda terima langganan dan email tagihan. Penguraian metadata email diproses hanya untuk membangun dasbor keuangan Anda. Kami tidak pernah membaca email pribadi Anda, kami tidak menggunakan data Anda untuk melatih model AI, dan konten email Anda tidak pernah disimpan di server kami."
+  },
+  "pricing": {
+    "eyebrow": "Harga",
+    "title": "Harga yang sederhana dan transparan.",
+    "sub": "Mulai gratis. Tingkatkan kapan pun Anda siap — batalkan kapan saja.",
+    "note": "Semua paket sudah termasuk uji coba gratis 7 hari. Tidak perlu kartu kredit untuk memulai.",
+    "mostPopular": "Paling Populer",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "desc": "Mulai — lacak hingga 3 langganan tanpa biaya.",
+        "cta": "Unduh Gratis"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Pelacakan tak terbatas dan alat bertenaga AI untuk mengurangi pemborosan dengan cepat.",
+        "cta": "Dapatkan Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Semua yang ada di Pro, ditambah peringatan waktu nyata dan dukungan prioritas.",
+        "cta": "Dapatkan Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "Hingga 3 langganan",
+      "unlimitedSubs": "Langganan tak terbatas",
+      "manualEntry": "Entri & pengeditan manual",
+      "renewalCalendar": "Kalender pembaruan",
+      "darkLight": "Tema Gelap & Terang",
+      "aiEmailScanner": "Pemindai email AI",
+      "spendingAnalytics": "Analitik pengeluaran",
+      "aiCancelFinder": "Pencari Batal AI",
+      "emailReminders": "Pengingat email",
+      "whatsappNotifs": "Notifikasi WhatsApp",
+      "prioritySupport": "Dukungan prioritas"
+    }
+  },
+  "cta": {
+    "title": "Hentikan kebocoran. Mulai gratis.",
+    "desc": "Bergabunglah dengan lebih dari 240.000 orang yang telah mengambil kembali kendali atas pengeluaran langganan mereka."
+  },
+  "footer": {
+    "tagline": "Lacak, deteksi, dan batalkan langganan berulang. Gratis untuk memulai — tersedia di iOS dan Android.",
+    "product": "Produk",
+    "company": "Perusahaan",
+    "download": "Unduh",
+    "links": {
+      "features": "Fitur",
+      "appPreview": "Pratinjau Aplikasi",
+      "faq": "FAQ",
+      "downloadLink": "Unduhan",
+      "support": "Dukungan",
+      "feedback": "Umpan Balik",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat Penggunaan",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. Hak cipta dilindungi undang-undang.",
+    "footerPrivacy": "Privasi",
+    "footerTerms": "Syarat"
+  },
+  "support": {
+    "pageTitle": "Dukungan & FAQ — CentryAI",
+    "hero": {
+      "label": "Pusat Bantuan",
+      "title": "Bagaimana kami dapat membantu?",
+      "sub": "Cari FAQ kami atau telusuri berdasarkan kategori di bawah ini.",
+      "searchPlaceholder": "Cari pertanyaan…"
+    },
+    "sidebar": {
+      "categoriesLabel": "Kategori",
+      "allTopics": "Semua Topik",
+      "stuckTitle": "Masih menemui kendala?",
+      "stuckDesc": "Tim dukungan kami akan merespons dalam waktu 24 jam.",
+      "emailSupport": "✉ Dukungan Email",
+      "reportBug": "🐞 Laporkan Bug"
+    },
+    "results": "{count} hasil untuk \"{query}\"",
+    "noResults": "Tidak ada hasil yang ditemukan untuk \"{query}\"",
+    "submitRequest": "Kirim permintaan dukungan →",
+    "categories": {
+      "gettingStarted": "Memulai",
+      "subscriptionsDetection": "Langganan & Deteksi",
+      "cancellation": "Pembatalan",
+      "privacySecurity": "Privasi & Keamanan",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "Pemecahan Masalah"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "Bagaimana cara menghubungkan akun Gmail saya?",
+          "a": "Buka CentryAI, ketuk \"Hubungkan Kotak Masuk\" di layar beranda, lalu pilih Gmail. Anda akan diarahkan ke halaman masuk Google. Berikan izin hanya-baca — CentryAI hanya dapat membaca, dan tidak pernah dapat mengirim atau menghapus email."
+        },
+        {
+          "q": "Apakah CentryAI berfungsi dengan iCloud?",
+          "a": "Ya. Di iOS, ketuk \"Hubungkan Kotak Masuk\" dan pilih iCloud. CentryAI akan meminta akses Mail melalui dialog izin standar Apple."
+        },
+        {
+          "q": "Bisakah saya menggunakan CentryAI tanpa menghubungkan kotak masuk?",
+          "a": "Ya — Anda dapat menambahkan langganan secara manual dengan mengetuk tombol +. Namun, deteksi otomatis memerlukan akses kotak masuk."
+        },
+        {
+          "q": "Berapa lama pemindaian awal berlangsung?",
+          "a": "Sebagian besar kotak masuk menyelesaikan pemindaian awal dalam waktu kurang dari 60 detik. Kotak masuk yang sangat besar (email 10+ tahun) dapat memakan waktu 2-3 menit."
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "Mengapa ada langganan yang hilang dari daftar saya?",
+          "a": "CentryAI mungkin melewatkan langganan jika konfirmasi penagihan dikirim ke alamat email yang berbeda, berada di folder spam, atau menggunakan format yang tidak biasa. Anda selalu dapat menambahkan langganan yang hilang secara manual."
+        },
+        {
+          "q": "Bagaimana cara kerja pendeteksi langganan zombi?",
+          "a": "CentryAI melakukan referensi silang pada daftar langganan Anda dengan data penggunaan aplikasi (dengan izin) untuk mengidentifikasi layanan yang belum Anda buka dalam 30+ hari. Di iOS, fitur ini menggunakan data Durasi Layar. Di Android, ini menggunakan Statistik Penggunaan."
+        },
+        {
+          "q": "Mengapa harga langganan saya ditampilkan dengan tidak benar?",
+          "a": "Harga diekstraksi dari email tagihan dan mungkin tidak mencerminkan perubahan harga terbaru. Ketuk langganan mana saja untuk mengedit harga secara manual."
+        },
+        {
+          "q": "Bisakah CentryAI mendeteksi langganan tahunan?",
+          "a": "Ya. CentryAI mendeteksi siklus penagihan bulanan, tahunan, triwulanan, dan khusus apa pun. Langganan tahunan menunjukkan setara bulanan dan peringatan untuk pembaruan berikutnya."
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "Bisakah CentryAI benar-benar membatalkan langganan untuk saya?",
+          "a": "Saat ini, CentryAI menemukan jalur pembatalan tercepat untuk setiap layanan — tautan langsung, nomor telepon, atau panduan langkah demi langkah — tetapi tidak mengotomatiskan pembatalan. Pembatalan satu ketukan direncanakan dalam v2."
+        },
+        {
+          "q": "Tautan pembatalan tidak berfungsi. Apa yang harus saya lakukan?",
+          "a": "Tautan pembatalan dapat berubah ketika perusahaan memperbarui situs web mereka. Ketuk \"Laporkan Tautan Rusak\" pada halaman detail langganan dan kami akan memperbaruinya. Sementara itu, coba cari \"Cara membatalkan [Nama Layanan]\" untuk instruksi terbaru."
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "Dapatkah CentryAI melihat isi email saya?",
+          "a": "Tidak. CentryAI hanya membaca baris subjek, alamat pengirim, dan pola terstruktur dalam email tagihan. Isi email lengkap tidak pernah dibaca, disimpan, atau dikirim."
+        },
+        {
+          "q": "Apakah data saya disimpan di server Anda?",
+          "a": "Secara default, tidak. Semua data langganan disimpan secara lokal di perangkat Anda. Anda dapat secara opsional mengaktifkan cadangan iCloud/Google Drive terenkripsi di Pengaturan > Data & Privasi."
+        },
+        {
+          "q": "Apa yang terjadi jika saya menghapus akun saya?",
+          "a": "Menghapus akun Anda akan segera menghapus semua data dari server kami (jika sinkronisasi diaktifkan) dan dari penyimpanan lokal. Tindakan ini tidak dapat diurungkan. Untuk menghapus: Pengaturan > Akun > Hapus Akun."
+        }
+      ],
+      "premium": [
+        {
+          "q": "Apa saja yang termasuk dalam CentryAI Premium?",
+          "a": "Pro membuka deteksi langganan zombi, analitik pengeluaran tingkat lanjut, pengingat pembaruan, langganan manual tanpa batas, dan dukungan prioritas. Tingkat gratis mendukung hingga 10 langganan yang dilacak."
+        },
+        {
+          "q": "Bagaimana cara membatalkan langganan Pro saya?",
+          "a": "Langganan Pro dikelola oleh App Store atau Google Play — tidak secara langsung oleh CentryAI. Untuk membatalkan: iOS: Pengaturan > ID Apple > Langganan. Android: Play Store > Langganan."
+        },
+        {
+          "q": "Apakah Anda menawarkan uji coba gratis?",
+          "a": "Ya — pengguna baru mendapatkan uji coba gratis 7 hari CentryAI Premium saat mereka menghubungkan kotak masuk untuk pertama kalinya."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "Aplikasi mogok. Apa yang harus saya lakukan?",
+          "a": "Pertama, coba tutup paksa dan buka kembali aplikasi. Jika masalah berlanjut, buka Pengaturan > Dukungan > Kirim Laporan Diagnostik — ini akan mengirimkan log kerusakan anonim ke tim kami. Anda juga dapat mengirimkan laporan bug."
+        },
+        {
+          "q": "Pemindaian kotak masuk saya terhenti. Apa yang harus saya lakukan?",
+          "a": "Tarik ke bawah untuk menyegarkan layar beranda. Jika pemindaian masih terhenti, putuskan sambungan lalu sambungkan kembali kotak masuk Anda dari Pengaturan > Akun Tertaut. Jika masalah berlanjut, hubungi dukungan."
+        },
+        {
+          "q": "CentryAI tidak mendeteksi langganan baru setelah penyiapan.",
+          "a": "Pastikan Penyegaran Latar Belakang diaktifkan untuk CentryAI di pengaturan perangkat Anda. iOS: Pengaturan > CentryAI > Segarkan Aplikasi Latar Belakang. Android: Pengaturan > Aplikasi > CentryAI > Baterai > Tidak Dibatasi."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "Syarat Penggunaan — CentryAI",
+    "hero": {
+      "label": "Hukum",
+      "title": "Syarat Penggunaan",
+      "subtitle": "Terakhir Diperbarui: 19 April 2026 · Berlaku: 19 April 2026"
+    },
+    "toc": {
+      "title": "Daftar Isi",
+      "items": [
+        "Penerimaan Syarat",
+        "Deskripsi Layanan",
+        "Kelayakan",
+        "Akun Pengguna",
+        "Paket Langganan dan Penagihan",
+        "Penggunaan yang Dapat Diterima",
+        "Kekayaan Intelektual",
+        "Penafian",
+        "Batasan Tanggung Jawab",
+        "Pengakhiran",
+        "Hukum yang Mengatur",
+        "Hubungi Kami"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Penerimaan Syarat",
+        "body": "Dengan mengunduh, menginstal, atau menggunakan CentryAI (\"Aplikasi\"), Anda setuju untuk terikat oleh Syarat Penggunaan ini (\"Syarat\"). Jika Anda tidak menyetujui Syarat ini, jangan gunakan Aplikasi. Syarat ini berlaku untuk semua pengguna Aplikasi."
+      },
+      "s2": {
+        "title": "2. Deskripsi Layanan",
+        "body": "CentryAI adalah aplikasi seluler yang membantu pengguna dalam mengidentifikasi, melacak, dan mengelola biaya langganan berulang dengan menganalisis data email dengan izin tertulis dari pengguna. CentryAI adalah alat informasi — tidak melakukan transaksi keuangan dan tidak membatalkan langganan atas nama Anda."
+      },
+      "s3": {
+        "title": "3. Kelayakan",
+        "body": "Anda harus berusia minimal 13 tahun untuk menggunakan CentryAI. Dengan menggunakan Aplikasi, Anda menyatakan bahwa Anda berusia minimal 13 tahun. Jika Anda berusia di bawah 18 tahun, Anda menyatakan bahwa Anda memiliki izin dari orang tua atau wali untuk menggunakan Aplikasi."
+      },
+      "s4": {
+        "title": "4. Akun Pengguna",
+        "body": "Anda dapat menggunakan CentryAI tanpa akun, tetapi beberapa fitur memerlukan pendaftaran. Anda bertanggung jawab untuk menjaga kerahasiaan kredensial akun Anda. Anda setuju untuk segera memberi tahu kami tentang penggunaan yang tidak sah di support@centryai.app."
+      },
+      "s5": {
+        "title": "5. Paket Langganan dan Penagihan",
+        "freeTierTitle": "Tingkat Gratis",
+        "freeTierBody": "Fitur inti CentryAI — deteksi langganan dan dasbor — tersedia tanpa biaya.",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "CentryAI Premium adalah langganan bulanan atau tahunan. Langganan Pro diperbarui secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum tanggal pembaruan. Anda dapat mengelola atau membatalkan langganan Pro Anda melalui pengaturan akun App Store atau Google Play Anda.",
+        "refundsTitle": "Pengembalian Dana",
+        "refundsBody": "Permintaan pengembalian dana tunduk pada kebijakan Apple App Store atau Google Play. Kami akan bekerja sama dengan permintaan pengembalian dana yang dibuat dalam waktu 14 hari setelah pembelian awal jika memungkinkan secara teknis."
+      },
+      "s6": {
+        "title": "6. Penggunaan yang Dapat Diterima",
+        "intro": "Anda setuju untuk tidak:",
+        "items": [
+          "Menggunakan Aplikasi untuk tujuan yang melanggar hukum",
+          "Mencoba merekayasa balik, mendekompilasi, atau membongkar Aplikasi",
+          "Membagikan kredensial akun Anda dengan pihak ketiga",
+          "Menggunakan cara otomatis untuk mengakses atau mengumpulkan data dari Aplikasi",
+          "Mengganggu infrastruktur Aplikasi atau akses pengguna lain",
+          "Memberikan keterangan palsu tentang identitas atau afiliasi Anda"
+        ]
+      },
+      "s7": {
+        "title": "7. Kekayaan Intelektual",
+        "body": "CentryAI dan semua konten, desain, kode, merek dagang, dan nama dagang terkait adalah milik eksklusif CentryAI, Inc. Anda diberikan lisensi terbatas, non-eksklusif, dan tidak dapat dipindahtangankan untuk menggunakan Aplikasi untuk tujuan pribadi dan non-komersial."
+      },
+      "s8": {
+        "title": "8. Penafian",
+        "body1": "CentryAI disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\" tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak menjamin bahwa deteksi langganan akan lengkap atau bebas dari kesalahan.",
+        "body2": "CentryAI bukanlah penasihat keuangan. Tidak ada di dalam Aplikasi yang merupakan nasihat keuangan, hukum, atau profesional. Keputusan pembatalan adalah milik Anda sepenuhnya."
+      },
+      "s9": {
+        "title": "9. Batasan Tanggung Jawab",
+        "body1": "Sejauh yang diizinkan oleh hukum yang berlaku, CentryAI, Inc. tidak akan bertanggung jawab atas segala kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang timbul dari penggunaan Anda atau ketidakmampuan untuk menggunakan Aplikasi.",
+        "body2": "Tanggung jawab total kami kepada Anda atas setiap klaim yang timbul dari Syarat ini tidak akan melebihi jumlah yang Anda bayarkan kepada kami dalam dua belas bulan sebelum klaim."
+      },
+      "s10": {
+        "title": "10. Pengakhiran",
+        "body": "Kami berhak untuk menangguhkan atau menghentikan akun Anda kapan saja karena pelanggaran Syarat ini. Anda dapat menghapus akun Anda kapan saja dari dalam Aplikasi. Setelah pengakhiran, hak Anda untuk menggunakan Aplikasi segera berhenti."
+      },
+      "s11": {
+        "title": "11. Hukum yang Mengatur",
+        "body": "Syarat ini diatur oleh hukum Negara Bagian Delaware, AS. Setiap perselisihan akan diselesaikan di pengadilan Delaware."
+      },
+      "s12": {
+        "title": "12. Hubungi Kami",
+        "body": "Pertanyaan tentang Syarat ini? Hubungi kami di legal@centryai.app."
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "Kebijakan Privasi — CentryAI",
+    "hero": {
+      "label": "Hukum",
+      "title": "Kebijakan Privasi",
+      "subtitle": "Terakhir Diperbarui: 19 April 2026 · Berlaku: 19 April 2026"
+    },
+    "shortVersion": "Versi Singkat: CentryAI membaca email Anda untuk menemukan tanda terima langganan. Kami tidak pernah menyimpan email Anda, tidak pernah menjual data Anda, dan tidak pernah terhubung ke bank Anda. Data Anda tetap ada di perangkat Anda secara default.",
+    "toc": {
+      "title": "Daftar Isi",
+      "items": [
+        "Informasi yang Kami Kumpulkan",
+        "Bagaimana Kami Menggunakan Informasi Anda",
+        "Penyimpanan & Keamanan Data",
+        "Layanan Pihak Ketiga",
+        "Hak-hak Anda",
+        "Privasi Anak-anak",
+        "Perubahan pada Kebijakan Ini",
+        "Hubungi Kami"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Informasi yang Kami Kumpulkan",
+        "emailTitle": "Akses Email",
+        "emailBody": "Untuk mendeteksi langganan Anda, CentryAI meminta akses hanya-baca ke kotak masuk Gmail atau iCloud Anda. Kami menggunakan akses ini secara ketat untuk mengidentifikasi konfirmasi langganan dan email tagihan. Kami tidak membaca, menyimpan, atau mengirimkan isi pesan email Anda. Hanya metadata terstruktur yang diproses secara lokal.",
+        "accountTitle": "Informasi Akun",
+        "accountBody": "Saat Anda membuat akun CentryAI, kami mengumpulkan alamat email Anda dan kata sandi yang di-hash. Kami tidak mengumpulkan nama, nomor telepon, atau detail pembayaran Anda kecuali Anda meningkatkan ke CentryAI Premium.",
+        "usageTitle": "Data Penggunaan",
+        "usageBody": "Kami mengumpulkan data penggunaan yang dianonimkan dan digabungkan untuk meningkatkan aplikasi. Data ini tidak dapat digunakan untuk mengidentifikasi Anda.",
+        "deviceTitle": "Informasi Perangkat",
+        "deviceBody": "Kami mengumpulkan jenis perangkat, versi OS, dan versi aplikasi Anda untuk memberikan dukungan.",
+        "noHumanAccess": "🔒 Tidak ada manusia yang akan membaca data email Anda. Akses ini sangat terprogram dan otomatis hanya untuk tujuan mendeteksi langganan."
+      },
+      "s2": {
+        "title": "2. Bagaimana Kami Menggunakan Informasi Anda",
+        "intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
+        "items": [
+          "Mendeteksi dan menampilkan langganan berulang Anda",
+          "Mengidentifikasi langganan zombi berdasarkan pola penggunaan",
+          "Mengirimkan pengingat pembaruan",
+          "Memberikan dukungan pelanggan",
+          "Meningkatkan kinerja dan fitur aplikasi",
+          "Mematuhi kewajiban hukum"
+        ],
+        "noAds": "Kami tidak menggunakan data Anda untuk iklan, dan dalam keadaan apa pun kami tidak akan menjual atau menyewakan informasi pribadi Anda kepada pihak ketiga.",
+        "aiNote": "🤖 AI / Pembelajaran Mesin: Kami benar-benar tidak menggunakan API Google Workspace untuk mengembangkan, meningkatkan, atau melatih model AI.",
+        "googlePolicy": "Penggunaan dan transfer informasi yang diterima dari API Google oleh CentryAI ke aplikasi lain mana pun akan mematuhi Kebijakan Data Pengguna Layanan API Google, termasuk persyaratan Penggunaan Terbatas."
+      },
+      "s3": {
+        "title": "3. Penyimpanan & Keamanan Data",
+        "body1": "Data langganan Anda disimpan secara lokal di perangkat Anda secara default. Jika Anda mengaktifkan sinkronisasi iCloud atau Google Drive, data Anda akan dienkripsi menggunakan AES-256 sebelum transmisi.",
+        "body2": "Data Gmail hanya-baca diproses secara lokal di perangkat Anda dan tidak pernah dikirimkan ke atau disimpan di server backend kami.",
+        "body3": "Server kami menggunakan praktik keamanan standar industri, termasuk TLS 1.3 dalam perjalanan, penyimpanan terenkripsi saat istirahat, dan audit keamanan berkala."
+      },
+      "s4": {
+        "title": "4. Layanan Pihak Ketiga",
+        "intro": "CentryAI menggunakan sejumlah layanan pihak ketiga:",
+        "items": [
+          "Masuk dengan Google / API Gmail — untuk pemindaian kotak masuk",
+          "Masuk dengan Apple / iCloud — untuk pemindaian kotak masuk",
+          "Stripe — untuk penagihan langganan Pro",
+          "Sentry — untuk laporan kerusakan anonim"
+        ],
+        "noShare": "Kami tidak membagikan data pribadi Anda dengan pihak ketiga lainnya."
+      },
+      "s5": {
+        "title": "5. Hak-hak Anda",
+        "intro": "Bergantung pada yurisdiksi Anda, Anda mungkin memiliki hak untuk:",
+        "items": [
+          "Mengakses data pribadi yang kami simpan tentang Anda",
+          "Meminta penghapusan akun Anda dan data terkait",
+          "Mengekspor data Anda dalam format yang portabel",
+          "Menyisih dari analitik anonim"
+        ],
+        "contact": "Untuk menggunakan hak ini, hubungi kami di privacy@centryai.app. Kami akan merespons dalam waktu 30 hari."
+      },
+      "s6": {
+        "title": "6. Privasi Anak-anak",
+        "body": "CentryAI tidak ditujukan untuk anak-anak di bawah usia 13 tahun. Kami tidak secara sadar mengumpulkan informasi pribadi dari anak-anak."
+      },
+      "s7": {
+        "title": "7. Perubahan pada Kebijakan Ini",
+        "body": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan material."
+      },
+      "s8": {
+        "title": "8. Hubungi Kami",
+        "body": "Ada pertanyaan tentang kebijakan ini? Kami di sini untuk membantu.",
+        "email": "Email: privacy@centryai.app",
+        "supportLink": "Dukungan: centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "Umpan Balik & Laporan Bug — CentryAI",
+    "header": {
+      "label": "Hubungi Kami",
+      "title": "Umpan Balik dan Laporan Bug",
+      "sub": "Beri tahu kami apa yang rusak atau apa yang ingin Anda lihat. Kami membaca setiap kiriman."
+    },
+    "types": {
+      "bug": {
+        "label": "Laporan Bug",
+        "sub": "Ada yang rusak"
+      },
+      "feature": {
+        "label": "Permintaan Fitur",
+        "sub": "Ide atau peningkatan"
+      },
+      "other": {
+        "label": "Umpan Balik Umum",
+        "sub": "Lainnya"
+      }
+    },
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "platform": "Platform",
+      "selectPlatform": "Pilih platform",
+      "appVersion": "Versi Aplikasi",
+      "selectVersion": "Pilih versi",
+      "bugSummary": "Ringkasan Bug",
+      "featureTitle": "Judul Fitur",
+      "subject": "Subjek",
+      "stepsToReproduce": "Langkah-langkah untuk Mereproduksi",
+      "describeFeature": "Jelaskan fiturnya",
+      "message": "Pesan",
+      "severity": "Tingkat Keparahan",
+      "severityLow": "Rendah",
+      "severityLowSub": "Gangguan kecil",
+      "severityMed": "Sedang",
+      "severityMedSub": "Memengaruhi penggunaan",
+      "severityHigh": "Tinggi",
+      "severityHighSub": "Aplikasi tidak dapat digunakan",
+      "placeholders": {
+        "name": "Nama Anda",
+        "email": "anda@contoh.com",
+        "bugTitle": "Misal: Aplikasi mogok saat memuat kotak masuk besar",
+        "featureTitle": "Misal: Ekspor daftar langganan sebagai CSV",
+        "briefSummary": "Ringkasan singkat",
+        "bugSteps": "1. Buka aplikasi\n2. Hubungkan Gmail\n3. Ketuk langganan\n4. Aplikasi mogok",
+        "featureDesc": "Jelaskan apa yang Anda inginkan, mengapa itu akan membantu, dan contoh…",
+        "generalMessage": "Beri tahu kami apa yang ada di pikiran Anda…"
+      },
+      "errors": {
+        "nameRequired": "Nama wajib diisi",
+        "emailRequired": "Email wajib diisi",
+        "emailInvalid": "Masukkan email yang valid",
+        "titleRequired": "Harap berikan judul singkat",
+        "messageRequired": "Harap jelaskan masalahnya",
+        "messageTooLong": "Maksimum {max} karakter"
+      },
+      "submitBug": "Kirim Laporan Bug",
+      "submitFeature": "Kirim Permintaan Fitur",
+      "sendFeedback": "Kirim Umpan Balik",
+      "sending": "Mengirim…",
+      "directEmail": "Atau email kami langsung di support@centryai.app"
+    },
+    "success": {
+      "title": "Dimengerti. Terima kasih!",
+      "descBug": "Kami telah menerima laporan bug Anda dan akan segera meninjaunya.",
+      "descFeature": "Kami telah menerima permintaan fitur Anda dan akan segera meninjaunya.",
+      "descFeedback": "Kami telah menerima umpan balik Anda dan akan segera meninjaunya.",
+      "responseTime": "Kami biasanya membalas dalam 1-2 hari kerja.",
+      "refLabel": "Referensi:",
+      "submitAnother": "Kirim satu lagi",
+      "backHome": "Kembali ke Beranda"
+    }
+  }
+}

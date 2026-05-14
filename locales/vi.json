@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "Tính năng",
+    "appPreview": "Xem trước Ứng dụng",
+    "howItWorks": "Cách hoạt động",
+    "pricing": "Bảng giá",
+    "faq": "Câu hỏi thường gặp",
+    "support": "Hỗ trợ",
+    "downloadFree": "Tải xuống Miễn phí"
+  },
+  "hero": {
+    "badge": "Trình theo dõi Đăng ký",
+    "headline1": "Ngừng trả tiền cho các ứng dụng",
+    "headline2": "mà bạn đã",
+    "headlineEm": "quên.",
+    "sub": "CentryAI là một ứng dụng tài chính cá nhân thông minh được thiết kế để giúp bạn tự động theo dõi, quản lý và tối ưu hóa các đăng ký định kỳ của mình.",
+    "trust": "4.8 · Hơn 12.000 đánh giá · Bắt đầu miễn phí",
+    "appStoreSmall": "Tải xuống trên",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Tải ứng dụng trên",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "Lượt tải xuống",
+    "monthlyWaste": "Trung bình lãng phí hàng tháng được tìm thấy",
+    "appRating": "Đánh giá App Store",
+    "userSavings": "Tiết kiệm được theo dõi của người dùng"
+  },
+  "screenshots": {
+    "eyebrow": "Xem trước Ứng dụng",
+    "title": "Xem CentryAI hoạt động.",
+    "sub": "Màn hình thực tế từ ứng dụng. Theo dõi hoạt động, bắt các đăng ký zombie và hủy chỉ với một lần nhấn.",
+    "captions": {
+      "dashboard": "Bảng điều khiển",
+      "subscriptions": "Đăng ký",
+      "calendar": "Lịch",
+      "detailView": "Chế độ xem chi tiết",
+      "aiCancelFinder": "Trình tìm kiếm hủy AI",
+      "aiScanner": "Máy quét AI",
+      "emailScanner": "Máy quét Email",
+      "googleSearch": "Tìm kiếm trên Google",
+      "languageSupport": "Hỗ trợ ngôn ngữ"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Cách hoạt động",
+    "title": "Sẵn sàng sử dụng trong 3 phút.",
+    "steps": [
+      {
+        "title": "Liên kết hộp thư đến của bạn",
+        "desc": "Liên kết Gmail hoặc iCloud với quyền truy cập chỉ đọc. CentryAI chỉ quét các email đăng ký — không gì khác."
+      },
+      {
+        "title": "Xem tất cả",
+        "desc": "Danh sách đăng ký đầy đủ của bạn xuất hiện ngay lập tức, được sắp xếp theo chi phí, ngày gia hạn và trạng thái sử dụng."
+      },
+      {
+        "title": "Ngừng lãng phí",
+        "desc": "Nhấn vào bất kỳ đăng ký zombie nào để nhận đường dẫn trực tiếp để hủy. Hủy trong vài giây, không phải vài phút."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Những gì bạn nhận được",
+    "title": "Mọi thứ để kiểm soát các đăng ký của bạn.",
+    "sub": "Bốn công cụ cốt lõi phối hợp với nhau để khám phá các chi phí ẩn và giúp bạn hành động.",
+    "cards": [
+      {
+        "title": "Phát hiện thông minh",
+        "desc": "Tự động xác định bất kỳ đăng ký nào — phát trực tuyến, thể dục, SaaS và hơn thế nữa — mà không cần nhập dữ liệu thủ công."
+      },
+      {
+        "title": "Máy dò Zombie",
+        "desc": "Xác định các dịch vụ bạn đang trả tiền nhưng chưa sử dụng trong hơn 30 ngày. Xem chính xác chi phí đăng ký zombie của bạn là bao nhiêu mỗi tháng và mỗi năm."
+      },
+      {
+        "title": "Bảng điều khiển chi tiêu",
+        "desc": "Chế độ xem rõ ràng, được phân loại về chi tiêu đăng ký hàng tháng và hàng năm của bạn. Theo dõi xu hướng và hiểu chính xác tiền của bạn đang đi đâu."
+      },
+      {
+        "title": "Trình tìm URL hủy",
+        "desc": "Ghét việc tìm kiếm các nút hủy? CentryAI cung cấp liên kết hủy trực tiếp, số điện thoại hoặc hướng dẫn từng bước cho mọi dịch vụ."
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ Cảnh báo Zombie",
+    "title": "Làm quen với các đăng ký zombie của bạn.",
+    "desc": "Bạn đã đăng ký, quên mất và bạn vẫn đang trả tiền. CentryAI đối chiếu các đăng ký của bạn với mức sử dụng thực tế để tiết lộ các dịch vụ đang âm thầm rút cạn tài khoản của bạn mỗi tháng.",
+    "flagLabel": "Zombie"
+  },
+  "testimonials": {
+    "eyebrow": "Người dùng nói gì",
+    "title": "Mọi người đang tìm thấy số tiền mà họ không biết mình có.",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "Tôi tìm thấy 38 đô la cho các đăng ký mà tôi đã hoàn toàn quên mất. Đã hủy 4 trong số đó trong vòng chưa đầy 10 phút. Ứng dụng này trả tiền cho chính nó ngay lập tức."
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "Tính năng đăng ký zombie thực sự đáng sợ. Tôi đã trả tiền cho một ứng dụng tập thể dục mà tôi chưa mở trong 3 tháng. CentryAI đã bắt được nó ngay lập tức."
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "Giao diện người dùng sạch sẽ, thực sự hoạt động, không có những lời chào mời bán hàng vô nghĩa. Chỉ riêng trình tìm kiếm liên kết hủy đã đáng giá — không cần tìm kiếm qua các trang trợ giúp nữa."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Các câu hỏi phổ biến",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "CentryAI phát hiện đăng ký của tôi như thế nào?",
+        "a": "CentryAI cho phép bạn thêm đăng ký theo cách thủ công hoặc nhập chúng. Nó sử dụng tính năng nhận dạng mẫu để xác định các khoản phí định kỳ mà không bao giờ lưu trữ dữ liệu nhạy cảm."
+      },
+      {
+        "q": "Đăng ký \"zombie\" là gì?",
+        "a": "Đăng ký zombie là những dịch vụ bạn đang tích cực trả tiền nhưng không được đánh dấu là đã sử dụng trong hơn 30 ngày. CentryAI theo dõi việc sử dụng (được sự cho phép của bạn) để tự động gắn cờ chúng."
+      },
+      {
+        "q": "Dữ liệu của tôi có an toàn không?",
+        "a": "Chắc chắn rồi. CentryAI không bao giờ kết nối với tài khoản ngân hàng của bạn. Tất cả dữ liệu đều được mã hóa và lưu trữ cục bộ trên thiết bị của bạn theo mặc định."
+      },
+      {
+        "q": "CentryAI có thể thực sự hủy đăng ký cho tôi không?",
+        "a": "CentryAI tìm thấy lộ trình hủy nhanh nhất cho mọi dịch vụ — một liên kết hủy trực tiếp, số điện thoại hoặc hướng dẫn từng bước. Việc hủy bằng một cú nhấp chuột đang được lên kế hoạch cho v2."
+      },
+      {
+        "q": "Nó có hoạt động với các gói Chia sẻ trong Gia đình không?",
+        "a": "Có. CentryAI có thể phát hiện các đăng ký được chia sẻ và các dịch vụ chia nhỏ chi phí, hiển thị cho bạn chi phí mỗi người đối với các gói dành cho gia đình."
+      },
+      {
+        "q": "CentryAI có miễn phí không?",
+        "a": "Các tính năng theo dõi cốt lõi là miễn phí. CentryAI Premium mở khóa tính năng phát hiện zombie, phân tích nâng cao và cảnh báo gia hạn."
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "Quyền riêng tư & Dữ liệu",
+    "title": "Cách chúng tôi sử dụng dữ liệu Google của bạn",
+    "cardTitle": "Quyền truy cập chỉ đọc vào Gmail — không hơn không kém.",
+    "cardDesc": "Để tự động hóa việc phát hiện đăng ký, CentryAI cung cấp tính năng tích hợp Gmail tùy chọn. Khi bạn chọn kết nối tài khoản của mình, chúng tôi yêu cầu quyền truy cập chỉ đọc (gmail.readonly) vào hộp thư đến của bạn. CentryAI sử dụng quyền truy cập này một cách nghiêm ngặt với mục đích quét biên lai đăng ký và email thanh toán. Việc phân tích siêu dữ liệu email chỉ được xử lý để xây dựng bảng điều khiển tài chính của bạn. Chúng tôi không bao giờ đọc các email cá nhân của bạn, chúng tôi không sử dụng dữ liệu của bạn để đào tạo các mô hình AI và nội dung email của bạn không bao giờ được lưu trữ trên máy chủ của chúng tôi."
+  },
+  "pricing": {
+    "eyebrow": "Bảng giá",
+    "title": "Giá cả đơn giản, minh bạch.",
+    "sub": "Bắt đầu miễn phí. Nâng cấp khi bạn đã sẵn sàng — hủy bất kỳ lúc nào.",
+    "note": "Tất cả các gói đều bao gồm bản dùng thử miễn phí 7 ngày. Không cần thẻ tín dụng để bắt đầu.",
+    "mostPopular": "Phổ biến nhất",
+    "plans": {
+      "free": {
+        "name": "Miễn phí",
+        "desc": "Bắt đầu — theo dõi tối đa 3 đăng ký mà không tốn phí.",
+        "cta": "Tải xuống Miễn phí"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Theo dõi không giới hạn và các công cụ được hỗ trợ bởi AI để giảm lãng phí nhanh chóng.",
+        "cta": "Nhận Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Mọi thứ trong Pro, cộng với cảnh báo thời gian thực và hỗ trợ ưu tiên.",
+        "cta": "Nhận Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "Tối đa 3 đăng ký",
+      "unlimitedSubs": "Đăng ký không giới hạn",
+      "manualEntry": "Nhập & chỉnh sửa thủ công",
+      "renewalCalendar": "Lịch gia hạn",
+      "darkLight": "Chủ đề Tối & Sáng",
+      "aiEmailScanner": "Máy quét email AI",
+      "spendingAnalytics": "Phân tích chi tiêu",
+      "aiCancelFinder": "Trình tìm kiếm hủy AI",
+      "emailReminders": "Lời nhắc qua email",
+      "whatsappNotifs": "Thông báo WhatsApp",
+      "prioritySupport": "Hỗ trợ ưu tiên"
+    }
+  },
+  "cta": {
+    "title": "Ngăn chặn rò rỉ. Bắt đầu miễn phí.",
+    "desc": "Tham gia cùng hơn 240.000 người đã giành lại quyền kiểm soát chi tiêu đăng ký của họ."
+  },
+  "footer": {
+    "tagline": "Theo dõi, phát hiện và hủy các đăng ký định kỳ. Miễn phí để bắt đầu — có sẵn trên iOS và Android.",
+    "product": "Sản phẩm",
+    "company": "Công ty",
+    "download": "Tải xuống",
+    "links": {
+      "features": "Tính năng",
+      "appPreview": "Xem trước Ứng dụng",
+      "faq": "FAQ",
+      "downloadLink": "Tải xuống",
+      "support": "Hỗ trợ",
+      "feedback": "Phản hồi",
+      "privacy": "Chính sách Bảo mật",
+      "terms": "Điều khoản Sử dụng",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. Đã đăng ký bản quyền.",
+    "footerPrivacy": "Bảo mật",
+    "footerTerms": "Điều khoản"
+  },
+  "support": {
+    "pageTitle": "Hỗ trợ & FAQ — CentryAI",
+    "hero": {
+      "label": "Trung tâm Trợ giúp",
+      "title": "Chúng tôi có thể giúp gì?",
+      "sub": "Tìm kiếm FAQ của chúng tôi hoặc duyệt theo danh mục bên dưới.",
+      "searchPlaceholder": "Tìm kiếm câu hỏi…"
+    },
+    "sidebar": {
+      "categoriesLabel": "Danh mục",
+      "allTopics": "Tất cả các chủ đề",
+      "stuckTitle": "Vẫn còn thắc mắc?",
+      "stuckDesc": "Nhóm hỗ trợ của chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+      "emailSupport": "✉ Hỗ trợ qua Email",
+      "reportBug": "🐞 Báo cáo Lỗi"
+    },
+    "results": "{count} kết quả cho \"{query}\"",
+    "noResults": "Không tìm thấy kết quả nào cho \"{query}\"",
+    "submitRequest": "Gửi yêu cầu hỗ trợ →",
+    "categories": {
+      "gettingStarted": "Bắt đầu",
+      "subscriptionsDetection": "Đăng ký & Phát hiện",
+      "cancellation": "Hủy",
+      "privacySecurity": "Quyền riêng tư & Bảo mật",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "Khắc phục sự cố"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "Làm cách nào để kết nối tài khoản Gmail của tôi?",
+          "a": "Mở CentryAI, nhấn \"Kết nối Hộp thư đến\" trên màn hình chính và chọn Gmail. Bạn sẽ được đưa đến trang đăng nhập của Google. Cấp quyền chỉ đọc — CentryAI chỉ có thể đọc và không bao giờ có thể gửi hoặc xóa email."
+        },
+        {
+          "q": "CentryAI có hoạt động với iCloud không?",
+          "a": "Có. Trên iOS, nhấn \"Kết nối Hộp thư đến\" và chọn iCloud. CentryAI sẽ yêu cầu quyền truy cập Mail thông qua hộp thoại quyền tiêu chuẩn của Apple."
+        },
+        {
+          "q": "Tôi có thể sử dụng CentryAI mà không cần kết nối hộp thư đến không?",
+          "a": "Có — bạn có thể thêm đăng ký theo cách thủ công bằng cách nhấn vào nút +. Tuy nhiên, tính năng phát hiện tự động yêu cầu quyền truy cập hộp thư đến."
+        },
+        {
+          "q": "Quá trình quét ban đầu mất bao lâu?",
+          "a": "Hầu hết các hộp thư đến đều hoàn tất quá trình quét ban đầu trong vòng chưa đầy 60 giây. Các hộp thư đến rất lớn (hơn 10 năm email) có thể mất 2-3 phút."
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "Tại sao một đăng ký bị thiếu khỏi danh sách của tôi?",
+          "a": "CentryAI có thể bỏ lỡ các đăng ký nếu xác nhận thanh toán được gửi đến một địa chỉ email khác, nằm trong thư rác hoặc sử dụng định dạng bất thường. Bạn luôn có thể thêm các đăng ký bị thiếu theo cách thủ công."
+        },
+        {
+          "q": "Tính năng phát hiện đăng ký zombie hoạt động như thế nào?",
+          "a": "CentryAI đối chiếu danh sách đăng ký của bạn với dữ liệu sử dụng ứng dụng (nếu được phép) để xác định các dịch vụ mà bạn chưa mở trong hơn 30 ngày. Trên iOS, tính năng này sử dụng dữ liệu Thời gian sử dụng. Trên Android, nó sử dụng Số liệu thống kê Sử dụng."
+        },
+        {
+          "q": "Tại sao giá đăng ký của tôi hiển thị không chính xác?",
+          "a": "Giá được trích xuất từ các email thanh toán và có thể không phản ánh những thay đổi giá gần đây. Nhấn vào bất kỳ đăng ký nào để chỉnh sửa giá theo cách thủ công."
+        },
+        {
+          "q": "CentryAI có thể phát hiện các đăng ký hàng năm không?",
+          "a": "Có. CentryAI phát hiện các chu kỳ thanh toán hàng tháng, hàng năm, hàng quý và bất kỳ chu kỳ thanh toán tùy chỉnh nào. Các đăng ký hàng năm hiển thị mức tương đương hàng tháng và cảnh báo cho lần gia hạn tiếp theo."
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "CentryAI có thể thực sự hủy đăng ký cho tôi không?",
+          "a": "Hiện tại, CentryAI tìm thấy lộ trình hủy nhanh nhất cho mọi dịch vụ — một liên kết hủy trực tiếp, số điện thoại hoặc hướng dẫn từng bước — nhưng không tự động hóa việc hủy. Việc hủy bằng một cú nhấp chuột được lên kế hoạch trong v2."
+        },
+        {
+          "q": "Liên kết hủy không hoạt động. Tôi nên làm gì?",
+          "a": "Liên kết hủy có thể thay đổi khi các công ty cập nhật trang web của họ. Nhấn vào \"Báo cáo liên kết hỏng\" trên trang chi tiết đăng ký và chúng tôi sẽ cập nhật nó. Trong thời gian chờ đợi, hãy thử tìm kiếm \"Cách hủy [Tên Dịch Vụ]\" để biết các hướng dẫn mới nhất."
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "CentryAI có thể xem nội dung email của tôi không?",
+          "a": "Không. CentryAI chỉ đọc các dòng chủ đề, địa chỉ người gửi và các mẫu có cấu trúc trong email thanh toán. Nội dung email đầy đủ không bao giờ được đọc, lưu trữ hoặc truyền đi."
+        },
+        {
+          "q": "Dữ liệu của tôi có được lưu trữ trên máy chủ của bạn không?",
+          "a": "Theo mặc định, không. Tất cả dữ liệu đăng ký đều được lưu trữ cục bộ trên thiết bị của bạn. Theo tùy chọn, bạn có thể bật bản sao lưu iCloud/Google Drive được mã hóa trong Cài đặt > Dữ liệu & Quyền riêng tư."
+        },
+        {
+          "q": "Điều gì xảy ra nếu tôi xóa tài khoản của mình?",
+          "a": "Việc xóa tài khoản của bạn sẽ xóa ngay tất cả dữ liệu khỏi máy chủ của chúng tôi (nếu tính năng đồng bộ hóa được bật) và khỏi bộ nhớ cục bộ. Hành động này không thể hoàn tác. Để xóa: Cài đặt > Tài khoản > Xóa Tài khoản."
+        }
+      ],
+      "premium": [
+        {
+          "q": "CentryAI Premium bao gồm những gì?",
+          "a": "Pro mở khóa tính năng phát hiện đăng ký zombie, phân tích chi tiêu nâng cao, lời nhắc gia hạn, đăng ký thủ công không giới hạn và hỗ trợ ưu tiên. Cấp độ miễn phí hỗ trợ theo dõi tối đa 10 đăng ký."
+        },
+        {
+          "q": "Làm cách nào để hủy đăng ký Pro của tôi?",
+          "a": "Các đăng ký Pro được quản lý bởi App Store hoặc Google Play — không trực tiếp bởi CentryAI. Để hủy: iOS: Cài đặt > ID Apple > Đăng ký. Android: Cửa hàng Play > Đăng ký."
+        },
+        {
+          "q": "Bạn có cung cấp bản dùng thử miễn phí không?",
+          "a": "Có — người dùng mới nhận được bản dùng thử miễn phí 7 ngày của CentryAI Premium khi họ kết nối hộp thư đến lần đầu tiên."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "Ứng dụng bị sập. Tôi nên làm gì?",
+          "a": "Trước tiên, hãy thử buộc đóng và mở lại ứng dụng. Nếu sự cố vẫn tiếp diễn, hãy chuyển đến Cài đặt > Hỗ trợ > Gửi Báo cáo Chẩn đoán — thao tác này sẽ gửi một nhật ký sự cố ẩn danh cho nhóm của chúng tôi. Bạn cũng có thể gửi báo cáo lỗi."
+        },
+        {
+          "q": "Quá trình quét hộp thư đến của tôi bị kẹt. Tôi nên làm gì?",
+          "a": "Kéo xuống để làm mới trên màn hình chính. Nếu quá trình quét vẫn bị kẹt, hãy ngắt kết nối rồi kết nối lại hộp thư đến của bạn từ Cài đặt > Tài khoản Đã Kết nối. Nếu sự cố vẫn tiếp diễn, hãy liên hệ với bộ phận hỗ trợ."
+        },
+        {
+          "q": "CentryAI không phát hiện các đăng ký mới sau khi thiết lập.",
+          "a": "Vui lòng đảm bảo Rút lại Ứng dụng dưới Nền được bật cho CentryAI trong cài đặt thiết bị của bạn. iOS: Cài đặt > CentryAI > Làm mới Ứng dụng Nền. Android: Cài đặt > Ứng dụng > CentryAI > Pin > Không hạn chế."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "Điều khoản Sử dụng — CentryAI",
+    "hero": {
+      "label": "Pháp lý",
+      "title": "Điều khoản Sử dụng",
+      "subtitle": "Cập nhật lần cuối: Ngày 19 tháng 4 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+    },
+    "toc": {
+      "title": "Mục lục",
+      "items": [
+        "Chấp nhận Điều khoản",
+        "Mô tả Dịch vụ",
+        "Tính Đủ Điều kiện",
+        "Tài khoản Người dùng",
+        "Gói Đăng ký và Thanh toán",
+        "Việc Sử dụng Được Chấp nhận",
+        "Sở hữu Trí tuệ",
+        "Tuyên bố Từ chối Trách nhiệm",
+        "Giới hạn Trách nhiệm",
+        "Chấm dứt",
+        "Luật Điều chỉnh",
+        "Liên hệ Chúng tôi"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Chấp nhận Điều khoản",
+        "body": "Bằng cách tải xuống, cài đặt hoặc sử dụng CentryAI (\"Ứng dụng\"), bạn đồng ý bị ràng buộc bởi các Điều khoản Sử dụng này (\"Điều khoản\"). Nếu bạn không đồng ý với các Điều khoản này, vui lòng không sử dụng Ứng dụng. Các Điều khoản này áp dụng cho tất cả người dùng Ứng dụng."
+      },
+      "s2": {
+        "title": "2. Mô tả Dịch vụ",
+        "body": "CentryAI là một ứng dụng di động hỗ trợ người dùng trong việc xác định, theo dõi và quản lý các khoản phí đăng ký định kỳ bằng cách phân tích dữ liệu email khi có sự cho phép rõ ràng của người dùng. CentryAI là một công cụ cung cấp thông tin — nó không thực hiện các giao dịch tài chính và nó không hủy đăng ký thay cho bạn."
+      },
+      "s3": {
+        "title": "3. Tính Đủ Điều kiện",
+        "body": "Bạn phải ít nhất 13 tuổi để sử dụng CentryAI. Bằng cách sử dụng Ứng dụng, bạn tuyên bố rằng bạn ít nhất 13 tuổi. Nếu bạn dưới 18 tuổi, bạn tuyên bố rằng bạn có sự cho phép của cha mẹ hoặc người giám hộ để sử dụng Ứng dụng."
+      },
+      "s4": {
+        "title": "4. Tài khoản Người dùng",
+        "body": "Bạn có thể sử dụng CentryAI mà không cần tài khoản, nhưng một số tính năng yêu cầu đăng ký. Bạn chịu trách nhiệm duy trì tính bảo mật cho thông tin đăng nhập tài khoản của mình. Bạn đồng ý thông báo ngay cho chúng tôi về mọi hành vi sử dụng trái phép tại support@centryai.app."
+      },
+      "s5": {
+        "title": "5. Gói Đăng ký và Thanh toán",
+        "freeTierTitle": "Cấp độ Miễn phí",
+        "freeTierBody": "Các tính năng cốt lõi của CentryAI — phát hiện đăng ký và bảng điều khiển — được cung cấp miễn phí.",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "CentryAI Premium là gói đăng ký hàng tháng hoặc hàng năm. Gói đăng ký Pro sẽ tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước ngày gia hạn. Bạn có thể quản lý hoặc hủy đăng ký Pro của mình thông qua cài đặt tài khoản App Store hoặc Google Play.",
+        "refundsTitle": "Hoàn tiền",
+        "refundsBody": "Yêu cầu hoàn tiền tuân theo các chính sách của Apple App Store hoặc Google Play. Chúng tôi sẽ hợp tác với các yêu cầu hoàn tiền được thực hiện trong vòng 14 ngày kể từ ngày mua ban đầu khi có thể thực hiện được về mặt kỹ thuật."
+      },
+      "s6": {
+        "title": "6. Việc Sử dụng Được Chấp nhận",
+        "intro": "Bạn đồng ý không:",
+        "items": [
+          "Sử dụng Ứng dụng cho bất kỳ mục đích bất hợp pháp nào",
+          "Cố gắng đảo ngược kỹ thuật, dịch ngược hoặc tháo rời Ứng dụng",
+          "Chia sẻ thông tin đăng nhập tài khoản của bạn với các bên thứ ba",
+          "Sử dụng các phương tiện tự động để truy cập hoặc thu thập dữ liệu từ Ứng dụng",
+          "Can thiệp vào cơ sở hạ tầng của Ứng dụng hoặc quyền truy cập của những người dùng khác",
+          "Xuyên tạc danh tính hoặc mối liên kết của bạn"
+        ]
+      },
+      "s7": {
+        "title": "7. Sở hữu Trí tuệ",
+        "body": "CentryAI và tất cả nội dung, thiết kế, mã nguồn, nhãn hiệu và tên thương mại liên quan là tài sản độc quyền của CentryAI, Inc. Bạn được cấp một giấy phép hạn chế, không độc quyền, không thể chuyển nhượng để sử dụng Ứng dụng cho các mục đích cá nhân, phi thương mại."
+      },
+      "s8": {
+        "title": "8. Tuyên bố Từ chối Trách nhiệm",
+        "body1": "CentryAI được cung cấp trên cơ sở \"nguyên trạng\" và \"hiện có\" mà không có bất kỳ loại bảo hành nào, dù rõ ràng hay ngụ ý. Chúng tôi không đảm bảo rằng tính năng phát hiện đăng ký sẽ hoàn chỉnh hoặc không có lỗi.",
+        "body2": "CentryAI không phải là một cố vấn tài chính. Không có nội dung nào trong Ứng dụng cấu thành lời khuyên về tài chính, pháp lý hoặc chuyên môn. Các quyết định hủy đăng ký là do bạn hoàn toàn quyết định."
+      },
+      "s9": {
+        "title": "9. Giới hạn Trách nhiệm",
+        "body1": "Đến mức tối đa được pháp luật hiện hành cho phép, CentryAI, Inc. sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, do hậu quả hoặc trừng phạt nào phát sinh từ việc bạn sử dụng hoặc không thể sử dụng Ứng dụng.",
+        "body2": "Tổng trách nhiệm pháp lý của chúng tôi đối với bạn cho bất kỳ khiếu nại nào phát sinh từ các Điều khoản này sẽ không vượt quá số tiền bạn đã thanh toán cho chúng tôi trong mười hai tháng trước khi có khiếu nại."
+      },
+      "s10": {
+        "title": "10. Chấm dứt",
+        "body": "Chúng tôi có quyền đình chỉ hoặc chấm dứt tài khoản của bạn bất cứ lúc nào do vi phạm các Điều khoản này. Bạn có thể xóa tài khoản của mình bất cứ lúc nào từ trong Ứng dụng. Khi bị chấm dứt, quyền sử dụng Ứng dụng của bạn sẽ bị đình chỉ ngay lập tức."
+      },
+      "s11": {
+        "title": "11. Luật Điều chỉnh",
+        "body": "Các Điều khoản này sẽ được điều chỉnh bởi luật pháp của Bang Delaware, Hoa Kỳ. Mọi tranh chấp sẽ được giải quyết tại các tòa án của Delaware."
+      },
+      "s12": {
+        "title": "12. Liên hệ Chúng tôi",
+        "body": "Bạn có câu hỏi về các Điều khoản này? Hãy liên hệ qua địa chỉ legal@centryai.app."
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "Chính sách Bảo mật — CentryAI",
+    "hero": {
+      "label": "Pháp lý",
+      "title": "Chính sách Bảo mật",
+      "subtitle": "Cập nhật lần cuối: Ngày 19 tháng 4 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+    },
+    "shortVersion": "Tóm tắt: CentryAI đọc email của bạn để tìm các biên lai đăng ký. Chúng tôi không bao giờ lưu trữ email của bạn, không bao giờ bán dữ liệu của bạn và không bao giờ kết nối với ngân hàng của bạn. Dữ liệu của bạn được giữ nguyên trên thiết bị của bạn theo mặc định.",
+    "toc": {
+      "title": "Mục lục",
+      "items": [
+        "Thông tin Chúng tôi Thu thập",
+        "Cách Chúng tôi Sử dụng Thông tin của Bạn",
+        "Lưu trữ & Bảo mật Dữ liệu",
+        "Các Dịch vụ của Bên Thứ Ba",
+        "Quyền lợi của Bạn",
+        "Quyền riêng tư của Trẻ em",
+        "Những Thay đổi đối với Chính sách Này",
+        "Liên hệ Chúng tôi"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Thông tin Chúng tôi Thu thập",
+        "emailTitle": "Quyền truy cập Email",
+        "emailBody": "Để phát hiện các đăng ký của bạn, CentryAI yêu cầu quyền truy cập chỉ đọc vào hộp thư đến Gmail hoặc iCloud của bạn. Chúng tôi chỉ sử dụng quyền truy cập này một cách nghiêm ngặt để xác định các xác nhận đăng ký và email thanh toán. Chúng tôi không đọc, lưu trữ hoặc truyền đi nội dung email của bạn. Chỉ siêu dữ liệu có cấu trúc mới được xử lý cục bộ.",
+        "accountTitle": "Thông tin Tài khoản",
+        "accountBody": "Khi bạn tạo tài khoản CentryAI, chúng tôi sẽ thu thập địa chỉ email của bạn và một mật khẩu đã được băm. Chúng tôi không thu thập tên, số điện thoại hoặc chi tiết thanh toán của bạn trừ khi bạn nâng cấp lên CentryAI Premium.",
+        "usageTitle": "Dữ liệu Sử dụng",
+        "usageBody": "Chúng tôi thu thập dữ liệu sử dụng ẩn danh, được tổng hợp để cải thiện ứng dụng. Dữ liệu này không thể được sử dụng để nhận dạng bạn.",
+        "deviceTitle": "Thông tin Thiết bị",
+        "deviceBody": "Chúng tôi thu thập loại thiết bị, phiên bản hệ điều hành và phiên bản ứng dụng của bạn để cung cấp hỗ trợ.",
+        "noHumanAccess": "🔒 Không có con người nào sẽ đọc dữ liệu email của bạn. Quyền truy cập mang tính lập trình nghiêm ngặt và tự động chỉ vì mục đích phát hiện các đăng ký."
+      },
+      "s2": {
+        "title": "2. Cách Chúng tôi Sử dụng Thông tin của Bạn",
+        "intro": "Chúng tôi sử dụng thông tin chúng tôi thu thập được để:",
+        "items": [
+          "Phát hiện và hiển thị các đăng ký định kỳ của bạn",
+          "Xác định các đăng ký zombie dựa trên các mẫu sử dụng",
+          "Gửi các lời nhắc gia hạn",
+          "Cung cấp hỗ trợ khách hàng",
+          "Cải thiện hiệu suất và các tính năng của ứng dụng",
+          "Tuân thủ các nghĩa vụ pháp lý"
+        ],
+        "noAds": "Chúng tôi không sử dụng dữ liệu của bạn để quảng cáo và trong mọi trường hợp, chúng tôi sẽ không bán hoặc cho các bên thứ ba thuê thông tin cá nhân của bạn.",
+        "aiNote": "🤖 AI / Máy học: Chúng tôi nghiêm cấm việc sử dụng các API Google Workspace để phát triển, cải thiện hoặc đào tạo các mô hình AI.",
+        "googlePolicy": "Việc CentryAI sử dụng và chuyển giao cho bất kỳ ứng dụng nào khác các thông tin nhận được từ các API của Google sẽ tuân thủ Chính sách Dữ liệu Người dùng Dịch vụ API của Google, bao gồm cả các yêu cầu về Việc Sử dụng Có Hạn chế."
+      },
+      "s3": {
+        "title": "3. Lưu trữ & Bảo mật Dữ liệu",
+        "body1": "Theo mặc định, dữ liệu đăng ký của bạn được lưu trữ cục bộ trên thiết bị của bạn. Nếu bạn bật tính năng đồng bộ hóa iCloud hoặc Google Drive, dữ liệu của bạn sẽ được mã hóa bằng AES-256 trước khi truyền tải.",
+        "body2": "Dữ liệu Gmail chỉ đọc được xử lý cục bộ trên thiết bị của bạn một cách nghiêm ngặt và không bao giờ được truyền tới hoặc lưu trữ trên các máy chủ phụ trợ của chúng tôi.",
+        "body3": "Máy chủ của chúng tôi sử dụng các phương pháp bảo mật tiêu chuẩn ngành, bao gồm TLS 1.3 trong quá trình truyền tải, lưu trữ được mã hóa ở trạng thái nghỉ và thường xuyên kiểm tra bảo mật."
+      },
+      "s4": {
+        "title": "4. Các Dịch vụ của Bên Thứ Ba",
+        "intro": "CentryAI sử dụng một số lượng hạn chế các dịch vụ của bên thứ ba:",
+        "items": [
+          "Đăng nhập bằng Google / Gmail API — để quét hộp thư đến",
+          "Đăng nhập bằng Apple / iCloud — để quét hộp thư đến",
+          "Stripe — để lập hóa đơn đăng ký Pro",
+          "Sentry — cho các báo cáo sự cố ẩn danh"
+        ],
+        "noShare": "Chúng tôi không chia sẻ dữ liệu cá nhân của bạn với bất kỳ bên thứ ba nào khác."
+      },
+      "s5": {
+        "title": "5. Quyền lợi của Bạn",
+        "intro": "Tùy thuộc vào quyền tài phán của bạn, bạn có thể có quyền:",
+        "items": [
+          "Truy cập vào các dữ liệu cá nhân mà chúng tôi lưu giữ về bạn",
+          "Yêu cầu xóa tài khoản của bạn và các dữ liệu liên quan",
+          "Xuất dữ liệu của bạn ở định dạng có thể di chuyển",
+          "Từ chối các phân tích ẩn danh"
+        ],
+        "contact": "Để thực hiện bất kỳ quyền nào trong số này, hãy liên hệ với chúng tôi theo địa chỉ privacy@centryai.app. Chúng tôi sẽ trả lời trong vòng 30 ngày."
+      },
+      "s6": {
+        "title": "6. Quyền riêng tư của Trẻ em",
+        "body": "CentryAI không hướng đến trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em."
+      },
+      "s7": {
+        "title": "7. Những Thay đổi đối với Chính sách Này",
+        "body": "Đôi khi chúng tôi có thể cập nhật Chính sách Bảo mật này. Chúng tôi sẽ thông báo cho bạn về những thay đổi quan trọng."
+      },
+      "s8": {
+        "title": "8. Liên hệ Chúng tôi",
+        "body": "Bạn có câu hỏi về chính sách này? Chúng tôi ở đây để giúp đỡ.",
+        "email": "Email: privacy@centryai.app",
+        "supportLink": "Hỗ trợ: centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "Phản hồi & Báo cáo Lỗi — CentryAI",
+    "header": {
+      "label": "Hãy giữ liên lạc",
+      "title": "Phản hồi và Báo cáo Lỗi",
+      "sub": "Hãy cho chúng tôi biết điều gì bị hỏng hoặc những gì bạn muốn xem. Chúng tôi đọc từng nội dung gửi đến."
+    },
+    "types": {
+      "bug": {
+        "label": "Báo cáo Lỗi",
+        "sub": "Có điều gì đó bị hỏng"
+      },
+      "feature": {
+        "label": "Yêu cầu Tính năng",
+        "sub": "Ý tưởng hoặc cải tiến"
+      },
+      "other": {
+        "label": "Phản hồi Chung",
+        "sub": "Bất cứ điều gì khác"
+      }
+    },
+    "form": {
+      "name": "Tên",
+      "email": "Email",
+      "platform": "Nền tảng",
+      "selectPlatform": "Chọn nền tảng",
+      "appVersion": "Phiên bản Ứng dụng",
+      "selectVersion": "Chọn phiên bản",
+      "bugSummary": "Tóm tắt Lỗi",
+      "featureTitle": "Tiêu đề Tính năng",
+      "subject": "Chủ đề",
+      "stepsToReproduce": "Các bước để Tái tạo",
+      "describeFeature": "Mô tả tính năng",
+      "message": "Tin nhắn",
+      "severity": "Mức độ nghiêm trọng",
+      "severityLow": "Thấp",
+      "severityLowSub": "Gây khó chịu nhỏ",
+      "severityMed": "Trung bình",
+      "severityMedSub": "Ảnh hưởng đến việc sử dụng",
+      "severityHigh": "Cao",
+      "severityHighSub": "Ứng dụng không thể sử dụng",
+      "placeholders": {
+        "name": "Tên của bạn",
+        "email": "ban@example.com",
+        "bugTitle": "Ví dụ: Ứng dụng gặp sự cố khi tải hộp thư đến lớn",
+        "featureTitle": "Ví dụ: Xuất danh sách đăng ký dưới dạng CSV",
+        "briefSummary": "Tóm tắt ngắn gọn",
+        "bugSteps": "1. Mở ứng dụng\n2. Kết nối Gmail\n3. Nhấn vào một đăng ký\n4. Sự cố ứng dụng",
+        "featureDesc": "Mô tả những gì bạn muốn, tại sao nó hữu ích, và các ví dụ…",
+        "generalMessage": "Hãy cho chúng tôi biết bạn đang nghĩ gì…"
+      },
+      "errors": {
+        "nameRequired": "Tên là bắt buộc",
+        "emailRequired": "Email là bắt buộc",
+        "emailInvalid": "Vui lòng nhập một email hợp lệ",
+        "titleRequired": "Vui lòng cung cấp một tiêu đề ngắn",
+        "messageRequired": "Vui lòng mô tả sự cố",
+        "messageTooLong": "Tối đa {max} ký tự"
+      },
+      "submitBug": "Gửi Báo cáo Lỗi",
+      "submitFeature": "Gửi Yêu cầu Tính năng",
+      "sendFeedback": "Gửi Phản hồi",
+      "sending": "Đang gửi…",
+      "directEmail": "Hoặc gửi email trực tiếp cho chúng tôi theo địa chỉ support@centryai.app"
+    },
+    "success": {
+      "title": "Đã hiểu. Xin cảm ơn!",
+      "descBug": "Chúng tôi đã nhận được báo cáo lỗi của bạn và sẽ sớm xem xét.",
+      "descFeature": "Chúng tôi đã nhận được yêu cầu tính năng của bạn và sẽ sớm xem xét.",
+      "descFeedback": "Chúng tôi đã nhận được phản hồi của bạn và sẽ sớm xem xét.",
+      "responseTime": "Chúng tôi thường trả lời trong vòng 1-2 ngày làm việc.",
+      "refLabel": "Tham chiếu:",
+      "submitAnother": "Gửi nội dung khác",
+      "backHome": "Trở về Trang chủ"
+    }
+  }
+}

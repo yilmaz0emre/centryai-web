@@ -1,0 +1,588 @@
+{
+  "nav": {
+    "features": "Recursos",
+    "appPreview": "Prévia do App",
+    "howItWorks": "Como funciona",
+    "pricing": "Preços",
+    "faq": "FAQ",
+    "support": "Suporte",
+    "downloadFree": "Baixar Grátis"
+  },
+  "hero": {
+    "badge": "Rastreador de Assinaturas",
+    "headline1": "Pare de pagar por aplicativos",
+    "headline2": "que você",
+    "headlineEm": "esqueceu.",
+    "sub": "CentryAI é um aplicativo de finanças pessoais inteligente projetado para ajudar você a rastrear, gerenciar e otimizar automaticamente suas assinaturas recorrentes.",
+    "trust": "4.8 · Mais de 12.000 avaliações · Comece grátis",
+    "appStoreSmall": "Baixar na",
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Disponível no",
+    "googlePlayName": "Google Play"
+  },
+  "stats": {
+    "downloads": "Downloads",
+    "monthlyWaste": "Desperdício mensal médio encontrado",
+    "appRating": "Avaliação na App Store",
+    "userSavings": "Economia rastreada dos usuários"
+  },
+  "screenshots": {
+    "eyebrow": "Prévia do App",
+    "title": "Veja o CentryAI em ação.",
+    "sub": "Telas reais do aplicativo. Rastreie atividades, encontre assinaturas zumbis e cancele com um toque.",
+    "captions": {
+      "dashboard": "Painel",
+      "subscriptions": "Assinaturas",
+      "calendar": "Calendário",
+      "detailView": "Visualização Detalhada",
+      "aiCancelFinder": "Buscador de Cancelamento com IA",
+      "aiScanner": "Scanner com IA",
+      "emailScanner": "Scanner de E-mail",
+      "googleSearch": "Pesquisa no Google",
+      "languageSupport": "Suporte a Idiomas"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Como funciona",
+    "title": "Pronto para uso em 3 minutos.",
+    "steps": [
+      {
+        "title": "Conecte sua caixa de entrada",
+        "desc": "Vincule o Gmail ou iCloud com acesso somente leitura. O CentryAI verifica e-mails de assinatura — nada mais."
+      },
+      {
+        "title": "Veja tudo",
+        "desc": "Sua lista completa de assinaturas aparece instantaneamente, ordenada por custo, data de renovação e status de uso."
+      },
+      {
+        "title": "Corte o desperdício",
+        "desc": "Toque em qualquer assinatura zumbi para obter o caminho direto para o cancelamento. Cancele em segundos, não minutos."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "O que você obtém",
+    "title": "Tudo para controlar suas assinaturas.",
+    "sub": "Quatro ferramentas essenciais que trabalham juntas para revelar custos ocultos e ajudar você a agir.",
+    "cards": [
+      {
+        "title": "Detecção inteligente",
+        "desc": "Identifica automaticamente todas as assinaturas — streaming, fitness, SaaS e muito mais — sem necessidade de entrada manual de dados."
+      },
+      {
+        "title": "Detector de zumbis",
+        "desc": "Identifica serviços pelos quais você paga, mas não usou em mais de 30 dias. Veja exatamente quanto suas assinaturas zumbis custam por mês e por ano."
+      },
+      {
+        "title": "Painel de gastos",
+        "desc": "Uma visão clara e categorizada de seus gastos com assinaturas mensais e anuais. Acompanhe tendências e entenda exatamente para onde vai o seu dinheiro."
+      },
+      {
+        "title": "Encontrador de URL de cancelamento",
+        "desc": "Odeia procurar por botões de cancelamento? O CentryAI revela o link de cancelamento direto, número de telefone ou um guia passo a passo para cada serviço."
+      }
+    ]
+  },
+  "zombie": {
+    "label": "⚠ Alerta de Zumbi",
+    "title": "Conheça suas assinaturas zumbis.",
+    "desc": "Você se inscreveu, esqueceu e ainda está pagando. O CentryAI cruza suas assinaturas com seu uso real para revelar serviços drenando silenciosamente sua conta todos os meses.",
+    "flagLabel": "Zumbi"
+  },
+  "testimonials": {
+    "eyebrow": "O que os usuários dizem",
+    "title": "As pessoas estão encontrando dinheiro que nem sabiam que tinham.",
+    "reviews": [
+      {
+        "name": "Alex K.",
+        "handle": "@alexk · App Store",
+        "text": "Encontrei $38 em assinaturas que havia esquecido completamente. Cancelei 4 delas em menos de 10 minutos. Este aplicativo se paga instantaneamente."
+      },
+      {
+        "name": "Maya R.",
+        "handle": "@maya_r · Google Play",
+        "text": "O recurso de assinatura zumbi é genuinamente assustador. Eu estava pagando por um aplicativo de academia que não abria há 3 meses. O CentryAI detectou imediatamente."
+      },
+      {
+        "name": "Tom L.",
+        "handle": "@toml · App Store",
+        "text": "Interface limpa, funciona de verdade, sem bobagens de upsell. O localizador de links de cancelamento já vale a pena — não precisa mais caçar em páginas de ajuda."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "Como o CentryAI detecta minhas assinaturas?",
+        "a": "O CentryAI permite que você adicione assinaturas manualmente ou as importe. Ele usa o reconhecimento de padrões para identificar cobranças recorrentes sem nunca armazenar dados confidenciais."
+      },
+      {
+        "q": "O que são assinaturas \"zumbis\"?",
+        "a": "Assinaturas zumbis são serviços pelos quais você paga ativamente, mas não marcou como usados há mais de 30 dias. O CentryAI rastreia o uso (com sua permissão) para sinalizá-los automaticamente."
+      },
+      {
+        "q": "Meus dados estão seguros?",
+        "a": "Absolutamente. O CentryAI nunca se conecta à sua conta bancária. Todos os dados são criptografados e armazenados localmente no seu dispositivo por padrão."
+      },
+      {
+        "q": "O CentryAI pode realmente cancelar assinaturas para mim?",
+        "a": "O CentryAI encontra o caminho de cancelamento mais rápido para cada serviço — link de cancelamento direto, número de telefone ou instruções passo a passo. O cancelamento com um toque está planejado para a v2."
+      },
+      {
+        "q": "Funciona com planos de compartilhamento familiar?",
+        "a": "Sim. O CentryAI pode detectar assinaturas compartilhadas e serviços de custo dividido, mostrando a você o custo por pessoa para planos familiares."
+      },
+      {
+        "q": "O CentryAI é gratuito?",
+        "a": "Os recursos principais de rastreamento são gratuitos. O CentryAI Premium desbloqueia a detecção de zumbis, análises avançadas e alertas de renovação."
+      }
+    ]
+  },
+  "googleData": {
+    "eyebrow": "Privacidade & Dados",
+    "title": "Como usamos seus dados do Google",
+    "cardTitle": "Acesso somente leitura ao Gmail — nada mais.",
+    "cardDesc": "Para automatizar a detecção de assinaturas, o CentryAI oferece uma integração opcional ao Gmail. Ao conectar sua conta, solicitamos acesso somente leitura (gmail.readonly) à sua caixa de entrada. O CentryAI utiliza este acesso estritamente para verificar confirmações de assinaturas e e-mails de cobrança. A análise dos metadados dos e-mails é processada apenas para criar seu painel financeiro. Nunca lemos seus e-mails pessoais, não usamos seus dados para treinar modelos de IA e o conteúdo do seu e-mail nunca é armazenado em nossos servidores."
+  },
+  "pricing": {
+    "eyebrow": "Preços",
+    "title": "Preços simples e transparentes.",
+    "sub": "Comece de graça. Faça o upgrade quando estiver pronto — cancele a qualquer momento.",
+    "note": "Todos os planos incluem um teste gratuito de 7 dias. Nenhum cartão de crédito é necessário para iniciar.",
+    "mostPopular": "Mais Popular",
+    "plans": {
+      "free": {
+        "name": "Grátis",
+        "desc": "Comece — acompanhe até 3 assinaturas sem custo.",
+        "cta": "Baixar Grátis"
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Rastreamento ilimitado e ferramentas com IA para reduzir desperdícios rapidamente.",
+        "cta": "Obter Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "desc": "Tudo no Pro, mais alertas em tempo real e suporte prioritário.",
+        "cta": "Obter Premium"
+      }
+    },
+    "features": {
+      "upTo3Subs": "Até 3 assinaturas",
+      "unlimitedSubs": "Assinaturas ilimitadas",
+      "manualEntry": "Entrada e edição manuais",
+      "renewalCalendar": "Calendário de renovação",
+      "darkLight": "Tema claro & escuro",
+      "aiEmailScanner": "Scanner de e-mail com IA",
+      "spendingAnalytics": "Análises de gastos",
+      "aiCancelFinder": "Buscador de cancelamento com IA",
+      "emailReminders": "Lembretes por e-mail",
+      "whatsappNotifs": "Notificações do WhatsApp",
+      "prioritySupport": "Suporte prioritário"
+    }
+  },
+  "cta": {
+    "title": "Pare o vazamento. Comece grátis.",
+    "desc": "Junte-se a mais de 240.000 pessoas que recuperaram o controle de seus gastos com assinaturas."
+  },
+  "footer": {
+    "tagline": "Rastreie, detecte e cancele assinaturas recorrentes. Comece grátis — disponível para iOS e Android.",
+    "product": "Produto",
+    "company": "Empresa",
+    "download": "Baixar",
+    "links": {
+      "features": "Recursos",
+      "appPreview": "Prévia do App",
+      "faq": "FAQ",
+      "downloadLink": "Baixar",
+      "support": "Suporte",
+      "feedback": "Feedback",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Uso",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    },
+    "copyright": "© 2026 CentryAI. Todos os direitos reservados.",
+    "footerPrivacy": "Privacidade",
+    "footerTerms": "Termos"
+  },
+  "support": {
+    "pageTitle": "Suporte & FAQ — CentryAI",
+    "hero": {
+      "label": "Central de Ajuda",
+      "title": "Como podemos ajudar?",
+      "sub": "Pesquise em nosso FAQ ou navegue por categoria abaixo.",
+      "searchPlaceholder": "Pesquisar perguntas…"
+    },
+    "sidebar": {
+      "categoriesLabel": "Categorias",
+      "allTopics": "Todos os Tópicos",
+      "stuckTitle": "Ainda preso?",
+      "stuckDesc": "Nossa equipe de suporte responde dentro de 24 horas.",
+      "emailSupport": "✉ Suporte por E-mail",
+      "reportBug": "🐞 Relatar um Erro"
+    },
+    "results": "{count} resultado(s) para \"{query}\"",
+    "noResults": "Nenhum resultado encontrado para \"{query}\"",
+    "submitRequest": "Enviar uma solicitação de suporte →",
+    "categories": {
+      "gettingStarted": "Começando",
+      "subscriptionsDetection": "Assinaturas e Detecção",
+      "cancellation": "Cancelamento",
+      "privacySecurity": "Privacidade e Segurança",
+      "premium": "CentryAI Premium",
+      "troubleshooting": "Solução de Problemas"
+    },
+    "faqs": {
+      "gettingStarted": [
+        {
+          "q": "Como conecto minha conta do Gmail?",
+          "a": "Abra o CentryAI, toque em \"Conectar Caixa de Entrada\" na tela inicial e escolha o Gmail. Você será levado para a página de login do Google. Conceda permissão de somente leitura — o CentryAI só pode ler, nunca enviar ou deletar e-mails."
+        },
+        {
+          "q": "O CentryAI funciona com o iCloud?",
+          "a": "Sim. No iOS, toque em \"Conectar Caixa de Entrada\" e escolha iCloud. O CentryAI solicitará acesso ao Mail através do diálogo de permissão padrão da Apple."
+        },
+        {
+          "q": "Posso usar o CentryAI sem conectar uma caixa de entrada?",
+          "a": "Sim — você pode adicionar assinaturas manualmente tocando no botão +. No entanto, a detecção automática exige acesso à caixa de entrada."
+        },
+        {
+          "q": "Quanto tempo dura a verificação inicial?",
+          "a": "A maioria das caixas de entrada conclui uma verificação inicial em menos de 60 segundos. Caixas de entrada muito grandes (mais de 10 anos de e-mails) podem levar de 2 a 3 minutos."
+        }
+      ],
+      "subscriptionsDetection": [
+        {
+          "q": "Por que uma assinatura está faltando na minha lista?",
+          "a": "O CentryAI pode ignorar assinaturas se a confirmação de faturamento foi enviada para um endereço de e-mail diferente, está no spam ou usa um formato incomum. Você sempre pode adicionar as assinaturas ausentes manualmente."
+        },
+        {
+          "q": "Como funciona o detector de assinaturas zumbis?",
+          "a": "O CentryAI compara sua lista de assinaturas com dados de uso de aplicativos (com permissão) para identificar serviços que você não abre há mais de 30 dias. No iOS, isso usa os dados de Tempo de Uso. No Android, usa as Estatísticas de Uso."
+        },
+        {
+          "q": "Por que o preço da minha assinatura está incorreto?",
+          "a": "Os preços são extraídos dos e-mails de cobrança e podem não refletir mudanças de preços recentes. Toque em qualquer assinatura para editar o preço manualmente."
+        },
+        {
+          "q": "O CentryAI pode detectar assinaturas anuais?",
+          "a": "Sim. O CentryAI detecta ciclos de cobrança mensais, anuais, trimestrais e personalizados. As assinaturas anuais mostram o equivalente mensal e um alerta para a próxima renovação."
+        }
+      ],
+      "cancellation": [
+        {
+          "q": "O CentryAI pode cancelar assinaturas para mim?",
+          "a": "Atualmente, o CentryAI encontra o caminho de cancelamento mais rápido — um link direto, número de telefone ou guia passo a passo — mas não automatiza o cancelamento. O cancelamento com um toque está planejado para a v2."
+        },
+        {
+          "q": "O link de cancelamento não está funcionando. O que devo fazer?",
+          "a": "Os links de cancelamento podem mudar quando as empresas atualizam seus sites. Toque em \"Relatar link quebrado\" na página de detalhes da assinatura e nós a atualizaremos. Enquanto isso, tente pesquisar \"Como cancelar [Nome do serviço]\" para obter as instruções mais recentes."
+        }
+      ],
+      "privacySecurity": [
+        {
+          "q": "O CentryAI pode ver o conteúdo do meu e-mail?",
+          "a": "Não. O CentryAI apenas lê linhas de assunto, endereços de remetentes e padrões estruturados em e-mails de cobrança. Os corpos de e-mail completos nunca são lidos, armazenados ou transmitidos."
+        },
+        {
+          "q": "Meus dados são armazenados em seus servidores?",
+          "a": "Não, por padrão. Todos os dados de assinatura são armazenados localmente no seu dispositivo. Você pode, opcionalmente, habilitar o backup criptografado do iCloud/Google Drive em Configurações > Dados e Privacidade."
+        },
+        {
+          "q": "O que acontece se eu excluir minha conta?",
+          "a": "Excluir sua conta remove imediatamente todos os dados de nossos servidores (se a sincronização estiver ativada) e do armazenamento local. Esta ação é irreversível. Para excluir: Configurações > Conta > Excluir Conta."
+        }
+      ],
+      "premium": [
+        {
+          "q": "O que o CentryAI Premium inclui?",
+          "a": "O Pro desbloqueia a detecção de assinaturas zumbis, análises avançadas de gastos, lembretes de renovação, assinaturas manuais ilimitadas e suporte prioritário. O nível Gratuito suporta o rastreamento de até 10 assinaturas."
+        },
+        {
+          "q": "Como faço para cancelar minha assinatura Pro?",
+          "a": "As assinaturas do Pro são gerenciadas pela App Store ou Google Play — não diretamente pelo CentryAI. Para cancelar: iOS: Configurações > ID da Apple > Assinaturas. Android: Play Store > Assinaturas."
+        },
+        {
+          "q": "Vocês oferecem um teste gratuito?",
+          "a": "Sim — novos usuários recebem um teste gratuito de 7 dias do CentryAI Premium na primeira vez que conectam uma caixa de entrada."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "q": "O aplicativo está travando. O que devo fazer?",
+          "a": "Primeiro, tente forçar o fechamento e reabrir o aplicativo. Se o problema persistir, vá para Configurações > Suporte > Enviar Relatório de Diagnóstico — isso envia um registro de falhas anônimo para nossa equipe. Você também pode enviar um relatório de bug."
+        },
+        {
+          "q": "A verificação da minha caixa de entrada está travada. O que devo fazer?",
+          "a": "Deslize para baixo na tela inicial para atualizar. Se a verificação permanecer travada, desconecte e reconecte sua caixa de entrada em Configurações > Contas Conectadas. Se o problema persistir, entre em contato com o suporte."
+        },
+        {
+          "q": "O CentryAI não está detectando novas assinaturas após a configuração.",
+          "a": "Verifique se a atualização em segundo plano está ativada para o CentryAI nas configurações do seu dispositivo. iOS: Configurações > CentryAI > Atualização em Segundo Plano. Android: Configurações > Aplicativos > CentryAI > Bateria > Irrestrita."
+        }
+      ]
+    }
+  },
+  "terms": {
+    "pageTitle": "Termos de Uso — CentryAI",
+    "hero": {
+      "label": "Legal",
+      "title": "Termos de Uso",
+      "subtitle": "Última atualização: 19 de abril de 2026 · Efetivo: 19 de abril de 2026"
+    },
+    "toc": {
+      "title": "Índice",
+      "items": [
+        "Aceitação dos Termos",
+        "Descrição do Serviço",
+        "Elegibilidade",
+        "Contas de Usuário",
+        "Planos de Assinatura e Faturamento",
+        "Uso Aceitável",
+        "Propriedade Intelectual",
+        "Isenções de Responsabilidade",
+        "Limitação de Responsabilidade",
+        "Rescisão",
+        "Lei Aplicável",
+        "Contato"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Aceitação dos Termos",
+        "body": "Ao baixar, instalar ou usar o CentryAI (\"o Aplicativo\"), você concorda em se submeter a estes Termos de Uso (\"Termos\"). Se você não concorda com estes Termos, não use o Aplicativo. Estes Termos se aplicam a todos os usuários do Aplicativo."
+      },
+      "s2": {
+        "title": "2. Descrição do Serviço",
+        "body": "CentryAI é um aplicativo móvel que ajuda os usuários a identificar, rastrear e gerenciar cobranças de assinatura recorrentes, analisando dados de e-mail com a permissão explícita do usuário. O CentryAI é uma ferramenta informativa — não realiza transações financeiras nem cancela assinaturas em seu nome."
+      },
+      "s3": {
+        "title": "3. Elegibilidade",
+        "body": "Você deve ter pelo menos 13 anos de idade para usar o CentryAI. Ao usar o Aplicativo, você declara ter pelo menos 13 anos. Se você tem menos de 18 anos, você declara ter permissão de seus pais ou responsáveis para usar o Aplicativo."
+      },
+      "s4": {
+        "title": "4. Contas de Usuário",
+        "body": "Você pode usar o CentryAI sem uma conta, mas certos recursos exigem registro. Você é responsável por manter a confidencialidade das credenciais de sua conta. Você concorda em nos notificar imediatamente sobre qualquer uso não autorizado em support@centryai.app."
+      },
+      "s5": {
+        "title": "5. Planos de Assinatura e Faturamento",
+        "freeTierTitle": "Nível Gratuito",
+        "freeTierBody": "Os principais recursos do CentryAI — detecção de assinatura e painel — estão disponíveis sem custo.",
+        "premiumTitle": "CentryAI Premium",
+        "premiumBody": "O CentryAI Premium é uma assinatura mensal ou anual. As assinaturas Pro são renovadas automaticamente, a menos que sejam canceladas pelo menos 24 horas antes da data de renovação. Você pode gerenciar ou cancelar sua assinatura Pro nas configurações da sua conta da App Store ou do Google Play.",
+        "refundsTitle": "Reembolsos",
+        "refundsBody": "As solicitações de reembolso são regidas pelas políticas da Apple App Store ou do Google Play. Cooperaremos com as solicitações de reembolso feitas dentro de 14 dias após a compra inicial, quando for tecnicamente possível."
+      },
+      "s6": {
+        "title": "6. Uso Aceitável",
+        "intro": "Você concorda em não:",
+        "items": [
+          "Usar o Aplicativo para qualquer propósito ilegal",
+          "Tentar fazer engenharia reversa, descompilar ou desmontar o Aplicativo",
+          "Compartilhar as credenciais da sua conta com terceiros",
+          "Usar meios automatizados para acessar ou extrair dados do Aplicativo",
+          "Interferir na infraestrutura do Aplicativo ou no acesso de outros usuários",
+          "Distorcer sua identidade ou afiliação"
+        ]
+      },
+      "s7": {
+        "title": "7. Propriedade Intelectual",
+        "body": "O CentryAI e todo o conteúdo, design, código, marcas comerciais e nomes comerciais associados são de propriedade exclusiva da CentryAI, Inc. É concedida a você uma licença limitada, não exclusiva e intransferível para usar o Aplicativo para fins pessoais e não comerciais."
+      },
+      "s8": {
+        "title": "8. Isenções de Responsabilidade",
+        "body1": "O CentryAI é fornecido \"como está\" e \"conforme disponível\" sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que a detecção de assinatura seja completa ou livre de erros.",
+        "body2": "O CentryAI não é um consultor financeiro. Nada no Aplicativo constitui aconselhamento financeiro, legal ou profissional. As decisões de cancelamento são suas."
+      },
+      "s9": {
+        "title": "9. Limitação de Responsabilidade",
+        "body1": "Na extensão máxima permitida pela lei aplicável, a CentryAI, Inc. não será responsável por quaisquer danos indiretos, incidentais, especiais, consequentes ou punitivos decorrentes do uso ou da incapacidade de usar o Aplicativo.",
+        "body2": "Nossa responsabilidade total para com você por qualquer reclamação decorrente destes Termos não excederá o valor que você nos pagou nos doze meses anteriores à reclamação."
+      },
+      "s10": {
+        "title": "10. Rescisão",
+        "body": "Reservamo-nos o direito de suspender ou encerrar sua conta a qualquer momento por violação destes Termos. Você pode excluir sua conta a qualquer momento no Aplicativo. Após a rescisão, o seu direito de usar o Aplicativo cessa imediatamente."
+      },
+      "s11": {
+        "title": "11. Lei Aplicável",
+        "body": "Estes Termos são regidos pelas leis do Estado de Delaware, Estados Unidos. Quaisquer litígios serão resolvidos nos tribunais de Delaware."
+      },
+      "s12": {
+        "title": "12. Contato",
+        "body": "Perguntas sobre estes Termos? Contate-nos em legal@centryai.app."
+      }
+    }
+  },
+  "privacy": {
+    "pageTitle": "Política de Privacidade — CentryAI",
+    "hero": {
+      "label": "Legal",
+      "title": "Política de Privacidade",
+      "subtitle": "Última atualização: 19 de abril de 2026 · Efetivo: 19 de abril de 2026"
+    },
+    "shortVersion": "A versão curta: o CentryAI lê seu e-mail para encontrar recibos de assinatura. Nunca armazenamos seus e-mails, nunca vendemos seus dados e nunca nos conectamos ao seu banco. Seus dados permanecem no seu dispositivo por padrão.",
+    "toc": {
+      "title": "Índice",
+      "items": [
+        "Informações que Coletamos",
+        "Como Usamos Suas Informações",
+        "Armazenamento de Dados e Segurança",
+        "Serviços de Terceiros",
+        "Seus Direitos",
+        "Privacidade das Crianças",
+        "Alterações nesta Política",
+        "Fale Conosco"
+      ]
+    },
+    "sections": {
+      "s1": {
+        "title": "1. Informações que Coletamos",
+        "emailTitle": "Acesso a E-mail",
+        "emailBody": "Para detectar suas assinaturas, o CentryAI solicita acesso somente leitura à sua caixa de entrada do Gmail ou iCloud. Usamos este acesso exclusivamente para identificar confirmações de assinatura e e-mails de cobrança. Não lemos, armazenamos ou transmitimos o conteúdo do corpo de seus e-mails. Apenas metadados estruturados são processados localmente.",
+        "accountTitle": "Informações da Conta",
+        "accountBody": "Ao criar uma conta CentryAI, coletamos seu endereço de e-mail e uma senha com hash. Não coletamos seu nome, número de telefone ou detalhes de pagamento, a menos que você atualize para o CentryAI Premium.",
+        "usageTitle": "Dados de Uso",
+        "usageBody": "Coletamos dados de uso agregados e anonimizados para melhorar o aplicativo. Esses dados não podem ser usados ​​para identificá-lo.",
+        "deviceTitle": "Informações do Dispositivo",
+        "deviceBody": "Coletamos o tipo de dispositivo, a versão do sistema operacional e a versão do aplicativo para fornecer suporte.",
+        "noHumanAccess": "🔒 Nenhum humano lerá seus dados de e-mail. O acesso é estritamente programático e automatizado exclusivamente com a finalidade de detectar assinaturas."
+      },
+      "s2": {
+        "title": "2. Como Usamos Suas Informações",
+        "intro": "Usamos as informações que coletamos para:",
+        "items": [
+          "Detectar e exibir suas assinaturas recorrentes",
+          "Identificar assinaturas zumbis com base em padrões de uso",
+          "Enviar lembretes de renovação",
+          "Fornecer suporte ao cliente",
+          "Melhorar o desempenho e os recursos do aplicativo",
+          "Cumprir obrigações legais"
+        ],
+        "noAds": "Não usamos seus dados para publicidade e não vendemos ou alugamos suas informações pessoais a terceiros em nenhuma circunstância.",
+        "aiNote": "🤖 IA / Aprendizado de Máquina: Nós estritamente não usamos as APIs do Google Workspace para desenvolver, melhorar ou treinar modelos de IA.",
+        "googlePolicy": "O uso e a transferência pelo CentryAI para qualquer outro aplicativo das informações recebidas das APIs do Google seguirão a Política de Dados de Usuário de Serviços de API do Google, incluindo os requisitos de Uso Limitado."
+      },
+      "s3": {
+        "title": "3. Armazenamento de Dados e Segurança",
+        "body1": "Seus dados de assinatura são armazenados localmente no seu dispositivo por padrão. Se você habilitar a sincronização do iCloud ou do Google Drive, seus dados serão criptografados antes da transmissão usando o AES-256.",
+        "body2": "Os dados de acesso somente leitura do Gmail são processados estritamente no seu dispositivo e nunca são transmitidos para, ou armazenados em, nossos servidores backend.",
+        "body3": "Nossos servidores utilizam práticas de segurança padrão do setor, incluindo o TLS 1.3 em trânsito, armazenamento criptografado inativo e auditorias de segurança frequentes."
+      },
+      "s4": {
+        "title": "4. Serviços de Terceiros",
+        "intro": "O CentryAI usa um número limitado de serviços de terceiros:",
+        "items": [
+          "Google Sign-In / Gmail API — para verificação da caixa de entrada",
+          "Apple Sign-In / iCloud — para verificação da caixa de entrada",
+          "Stripe — para cobrança de assinaturas Pro",
+          "Sentry — para relatórios de falhas anonimizados"
+        ],
+        "noShare": "Não compartilhamos seus dados pessoais com terceiros."
+      },
+      "s5": {
+        "title": "5. Seus Direitos",
+        "intro": "Dependendo de sua jurisdição, você pode ter o direito de:",
+        "items": [
+          "Acessar os dados pessoais que mantemos sobre você",
+          "Solicitar a exclusão de sua conta e dos dados associados",
+          "Exportar seus dados em formato portátil",
+          "Recusar análises anonimizadas"
+        ],
+        "contact": "Para exercer qualquer um destes direitos, contacte-nos em privacy@centryai.app. Responderemos dentro de 30 dias."
+      },
+      "s6": {
+        "title": "6. Privacidade das Crianças",
+        "body": "O CentryAI não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças."
+      },
+      "s7": {
+        "title": "7. Alterações nesta Política",
+        "body": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Notificaremos você sobre mudanças materiais."
+      },
+      "s8": {
+        "title": "8. Fale Conosco",
+        "body": "Perguntas sobre esta política? Estamos aqui para ajudar.",
+        "email": "E-mail: privacy@centryai.app",
+        "supportLink": "Suporte: centryai.app/support"
+      }
+    }
+  },
+  "feedback": {
+    "pageTitle": "Feedback & Relatório de Bug — CentryAI",
+    "header": {
+      "label": "Entre em Contato",
+      "title": "Feedback & Relatórios de Erros",
+      "sub": "Diga-nos o que está quebrado ou o que você gostaria de ver. Lemos todos os envios."
+    },
+    "types": {
+      "bug": {
+        "label": "Relatório de Bug",
+        "sub": "Algo está quebrado"
+      },
+      "feature": {
+        "label": "Solicitação de Recurso",
+        "sub": "Ideia ou melhoria"
+      },
+      "other": {
+        "label": "Feedback Geral",
+        "sub": "Qualquer outra coisa"
+      }
+    },
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "platform": "Plataforma",
+      "selectPlatform": "Selecionar plataforma",
+      "appVersion": "Versão do App",
+      "selectVersion": "Selecionar versão",
+      "bugSummary": "Resumo do Erro",
+      "featureTitle": "Título do Recurso",
+      "subject": "Assunto",
+      "stepsToReproduce": "Passos para Reproduzir",
+      "describeFeature": "Descreva o recurso",
+      "message": "Mensagem",
+      "severity": "Gravidade",
+      "severityLow": "Baixa",
+      "severityLowSub": "Incomodo menor",
+      "severityMed": "Média",
+      "severityMedSub": "Afeta o uso",
+      "severityHigh": "Alta",
+      "severityHighSub": "Aplicativo inutilizável",
+      "placeholders": {
+        "name": "Seu nome",
+        "email": "voce@exemplo.com",
+        "bugTitle": "ex. App trava ao carregar uma caixa de entrada grande",
+        "featureTitle": "ex. Exportar lista de assinaturas como CSV",
+        "briefSummary": "Breve resumo",
+        "bugSteps": "1. Abrir app\n2. Conectar Gmail\n3. Tocar em uma assinatura\n4. App trava",
+        "featureDesc": "Descreva o que você quer, por que ajudaria, e exemplos…",
+        "generalMessage": "Diga-nos qualquer coisa em sua mente…"
+      },
+      "errors": {
+        "nameRequired": "O nome é obrigatório",
+        "emailRequired": "O e-mail é obrigatório",
+        "emailInvalid": "Insira um e-mail válido",
+        "titleRequired": "Forneça um título breve",
+        "messageRequired": "Descreva o problema",
+        "messageTooLong": "Máximo {max} caracteres"
+      },
+      "submitBug": "Enviar Relatório de Bug",
+      "submitFeature": "Enviar Solicitação de Recurso",
+      "sendFeedback": "Enviar Feedback",
+      "sending": "Enviando…",
+      "directEmail": "Ou envie-nos um e-mail diretamente para support@centryai.app"
+    },
+    "success": {
+      "title": "Entendido. Obrigado!",
+      "descBug": "Recebemos o seu relatório de bug e iremos analisá-lo em breve.",
+      "descFeature": "Recebemos a sua solicitação de recurso e iremos analisá-la em breve.",
+      "descFeedback": "Recebemos o seu feedback e iremos analisá-lo em breve.",
+      "responseTime": "Geralmente, respondemos em 1 a 2 dias úteis.",
+      "refLabel": "Ref:",
+      "submitAnother": "Enviar outro",
+      "backHome": "Voltar ao início"
+    }
+  }
+}
