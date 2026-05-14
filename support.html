@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="shared.css?v=6"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
 <script src="langswitcher.js?v=6"></script>
+<script src="i18n.js"></script>
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
@@ -190,11 +191,11 @@
     <img src="logo2.svg" alt="CentryAI" class="nav-logo-mark" style="height:36px;width:auto;"/>
   </a>
   <ul class="nav-links">
-    <li><a href="index.html#features">Features</a></li>
-    <li><a href="index.html#screenshots">App Preview</a></li>
-    <li><a href="index.html#how">How it works</a></li>
-    <li><a href="index.html#faq">FAQ</a></li>
-    <li><a href="support.html">Support</a></li>
+    <li><a href="index.html#features" data-i18n="nav.features">Features</a></li>
+    <li><a href="index.html#screenshots" data-i18n="nav.appPreview">App Preview</a></li>
+    <li><a href="index.html#how" data-i18n="nav.howItWorks">How it works</a></li>
+    <li><a href="index.html#faq" data-i18n="nav.faq">FAQ</a></li>
+    <li><a href="support.html" data-i18n="nav.support">Support</a></li>
   </ul>
   <div class="nav-actions">
     <span id="sr-lang-mount"></span>
@@ -202,7 +203,7 @@
       <svg id="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
-    <a href="index.html#download" class="btn btn-primary btn-sm">Download Free</a>
+    <a href="index.html#download" class="btn btn-primary btn-sm" data-i18n="nav.downloadFree">Download Free</a>
   </div>
 </nav>
 
@@ -236,55 +237,12 @@
 const { useState, useMemo } = React;
 
 const ALL_FAQS = [
-  {
-    category: 'Getting Started',
-    items: [
-      { q: 'How do I connect my Gmail account?', a: 'Open CentryAI, tap "Connect Inbox" on the home screen, and choose Gmail. You\'ll be taken to Google\'s sign-in page. Grant read-only permission — CentryAI can only read, never send or delete emails.' },
-      { q: 'Does CentryAI work with iCloud?', a: 'Yes. On iOS, tap "Connect Inbox" and choose iCloud. CentryAI will request Mail access via Apple\'s standard permission dialog.' },
-      { q: 'Can I use CentryAI without connecting an inbox?', a: 'Yes — you can add subscriptions manually by tapping the + button. However, auto-detection requires inbox access.' },
-      { q: 'How long does the initial scan take?', a: 'Most inboxes complete an initial scan in under 60 seconds. Very large inboxes (10+ years of email) may take 2–3 minutes.' },
-    ]
-  },
-  {
-    category: 'Subscriptions & Detection',
-    items: [
-      { q: 'Why is a subscription missing from my list?', a: 'CentryAI may miss subscriptions if the billing confirmation was sent to a different email address, is in spam, or uses an unusual format. You can always add missing subscriptions manually.' },
-      { q: 'How does the zombie subscription detector work?', a: 'CentryAI cross-references your subscription list with app usage data (with permission) to identify services you haven\'t opened in 30+ days. On iOS, this uses Screen Time data. On Android, it uses Usage Stats.' },
-      { q: 'Why is my subscription price showing incorrectly?', a: 'Prices are extracted from billing emails and may not reflect recent price changes. Tap any subscription to manually edit the price.' },
-      { q: 'Can CentryAI detect annual subscriptions?', a: 'Yes. CentryAI detects monthly, annual, quarterly, and any custom billing cycle. Annual subscriptions show a monthly equivalent and a next-renewal alert.' },
-    ]
-  },
-  {
-    category: 'Cancellation',
-    items: [
-      { q: 'Can CentryAI cancel subscriptions for me?', a: 'Currently, CentryAI finds the fastest cancellation path — a direct link, phone number, or step-by-step guide — but does not automate the cancellation. One-tap cancellation is on the roadmap for v2.' },
-      { q: 'The cancel link isn\'t working. What do I do?', a: 'Cancel links can change when companies update their websites. Tap "Report broken link" on the subscription detail page and we\'ll update it. In the meantime, try searching "[Service name] how to cancel" for the latest instructions.' },
-    ]
-  },
-  {
-    category: 'Privacy & Security',
-    items: [
-      { q: 'Can CentryAI see my email content?', a: 'No. CentryAI only reads subject lines, sender addresses, and structured patterns in billing emails. Full email bodies are never read, stored, or transmitted.' },
-      { q: 'Is my data stored on your servers?', a: 'No by default. All subscription data is stored locally on your device. You can optionally enable encrypted iCloud/Google Drive backup in Settings > Data & Privacy.' },
-      { q: 'What happens if I delete my account?', a: 'Deleting your account immediately removes all data from our servers (if sync was enabled) and from local storage. This action is irreversible. To delete: Settings > Account > Delete Account.' },
-    ]
-  },
-  {
-    category: 'CentryAI Premium',
-    items: [
-      { q: 'What does CentryAI Premium include?', a: 'Pro unlocks zombie subscription detection, advanced spending analytics, renewal reminders, unlimited manual subscriptions, and priority support. Free tier supports up to 10 tracked subscriptions.' },
-      { q: 'How do I cancel my Pro subscription?', a: 'Pro subscriptions are managed by the App Store or Google Play — not directly by CentryAI. To cancel: iOS: Settings > Apple ID > Subscriptions. Android: Play Store > Subscriptions.' },
-      { q: 'Do you offer a free trial?', a: 'Yes — new users get a 7-day free trial of CentryAI Premium when they first connect an inbox.' },
-    ]
-  },
-  {
-    category: 'Troubleshooting',
-    items: [
-      { q: 'The app is crashing. What should I do?', a: 'First, try force-closing and reopening the app. If the issue persists, go to Settings > Support > Send Diagnostic Report — this sends an anonymized crash log to our team. You can also <a href="feedback">submit a bug report</a>.' },
-      { q: 'My inbox scan is stuck. What do I do?', a: 'Pull down to refresh on the home screen. If the scan remains stuck, disconnect and reconnect your inbox from Settings > Connected Accounts. If the problem persists, contact support.' },
-      { q: 'CentryAI isn\'t detecting new subscriptions after setup.', a: 'Ensure background refresh is enabled for CentryAI in your device settings. iOS: Settings > CentryAI > Background App Refresh. Android: Settings > Apps > CentryAI > Battery > Unrestricted.' },
-    ]
-  },
+  { category: t("support.categories.gettingStarted"), items: tArr("support.faqs.gettingStarted") },
+  { category: t("support.categories.subscriptionsDetection"), items: tArr("support.faqs.subscriptionsDetection") },
+  { category: t("support.categories.cancellation"), items: tArr("support.faqs.cancellation") },
+  { category: t("support.categories.privacySecurity"), items: tArr("support.faqs.privacySecurity") },
+  { category: t("support.categories.premium"), items: tArr("support.faqs.premium") },
+  { category: t("support.categories.troubleshooting"), items: tArr("support.faqs.troubleshooting") },
 ];
 
 const CATEGORIES = ALL_FAQS.map(g => g.category);
@@ -324,14 +282,14 @@ function App() {
   return (
     <>
       <div className="support-hero">
-        <div className="section-label" style={{ marginBottom: '0.75rem' }}>Help Center</div>
-        <h1>How can we help?</h1>
-        <p>Search our FAQ or browse by category below.</p>
+        <div className="section-label" style={{ marginBottom: '0.75rem' }}>{t("support.hero.label")}</div>
+        <h1>{t("support.hero.title")}</h1>
+        <p>{t("support.hero.sub")}</p>
         <div className="search-wrap">
           <input
             className="search-input"
             type="text"
-            placeholder="Search questions…"
+            placeholder={t("support.hero.searchPlaceholder")}
             value={query}
             onChange={e => { setQuery(e.target.value); setActiveCategory('All'); }}
           />
@@ -341,11 +299,11 @@ function App() {
 
       <div className="support-body">
         <aside className="support-sidebar">
-          <div className="sidebar-label">Categories</div>
+          <div className="sidebar-label">{t("support.sidebar.categoriesLabel")}</div>
           <ul className="sidebar-nav">
             <li>
               <button className={activeCategory === 'All' ? 'active' : ''} onClick={() => setActiveCategory('All')}>
-                All Topics
+                {t("support.sidebar.allTopics")}
               </button>
             </li>
             {CATEGORIES.map(c => (
@@ -357,25 +315,25 @@ function App() {
             ))}
           </ul>
           <div className="support-contact">
-            <h4>Still stuck?</h4>
-            <p>Our support team responds within 24 hours.</p>
-            <a href="mailto:support@centryai.app">✉ Email Support</a>
-            <a href="feedback">🐞 Report a Bug</a>
+            <h4>{t("support.sidebar.stuckTitle")}</h4>
+            <p>{t("support.sidebar.stuckDesc")}</p>
+            <a href="mailto:support@centryai.app">{t("support.sidebar.emailSupport")}</a>
+            <a href="feedback">{t("support.sidebar.reportBug")}</a>
           </div>
         </aside>
 
         <main>
           {query && (
             <p style={{ color: 'var(--fg3)', fontSize: '0.82rem', marginBottom: '1.5rem' }}>
-              {totalResults} result{totalResults !== 1 ? 's' : ''} for "{query}"
+              {t("support.results", {count: totalResults, query: query})}
             </p>
           )}
           {filtered.length === 0 ? (
             <div className="no-results">
               <div style={{ fontSize: '2rem' }}>🔍</div>
-              <p>No results found for "{query}"</p>
+              <p>{t("support.noResults", {query: query})}</p>
               <p style={{ marginTop: '0.35rem' }}>
-                <a href="feedback" style={{ color: 'var(--accent)' }}>Submit a support request →</a>
+                <a href="feedback" style={{ color: 'var(--accent)' }}>{t("support.submitRequest")} →</a>
               </p>
             </div>
           ) : (
@@ -391,11 +349,11 @@ function App() {
 
       <footer className="footer">
         <div className="footer-bottom" style={{ marginTop: 0, paddingTop: '1.5rem' }}>
-          <p>© 2026 CentryAI. All rights reserved.</p>
+          <p data-i18n="footer.copyright">© 2026 CentryAI. All rights reserved.</p>
           <p>
-            <a href="privacy" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Privacy</a>
+            <a href="privacy" style={{ color: 'var(--fg3)', textDecoration: 'none' }} data-i18n="footer.footerPrivacy">Privacy</a>
             {' · '}
-            <a href="terms" style={{ color: 'var(--fg3)', textDecoration: 'none' }}>Terms</a>
+            <a href="terms" style={{ color: 'var(--fg3)', textDecoration: 'none' }} data-i18n="footer.footerTerms">Terms</a>
           </p>
         </div>
       </footer>
@@ -406,5 +364,14 @@ function App() {
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 </script>
 <script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    const key = el.getAttribute('data-i18n');
+    el.innerHTML = t(key);
+  });
+});
+</script>
 </body>
 </html>

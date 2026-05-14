@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="shared.css?v=7"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
 <script src="langswitcher.js?v=7"></script>
+<script src="i18n.js"></script>
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
@@ -661,15 +662,15 @@ const { useState, useEffect, useRef } = React;
 
 /* ── Screenshots data ── */
 const SCREENSHOTS = [
-  { src: 'uploads/phone-dark-dashboard.png',    caption: 'Dashboard' },
-  { src: 'uploads/phone-dark-list.png',          caption: 'Subscriptions' },
-  { src: 'uploads/phone-dark-calendar.png',      caption: 'Calendar' },
-  { src: 'uploads/phone-dark-netflix.png',       caption: 'Detail View' },
-  { src: 'uploads/phone-dark-aicancelfinder.png',caption: 'AI Cancel Finder' },
-  { src: 'uploads/phone-dark-aiscanner.png',     caption: 'AI Scanner' },
-  { src: 'uploads/phone-dark-emailscanner.png',  caption: 'Email Scanner' },
-  { src: 'uploads/phone-dark-googlesearch.png',  caption: 'Google Search' },
-  { src: 'uploads/phone-dark-language.png',      caption: 'Language Support' },
+  { src: 'uploads/phone-dark-dashboard.png',    caption: t('screenshots.captions.dashboard') },
+  { src: 'uploads/phone-dark-list.png',          caption: t('screenshots.captions.subscriptions') },
+  { src: 'uploads/phone-dark-calendar.png',      caption: t('screenshots.captions.calendar') },
+  { src: 'uploads/phone-dark-netflix.png',       caption: t('screenshots.captions.detailView') },
+  { src: 'uploads/phone-dark-aicancelfinder.png',caption: t('screenshots.captions.aiCancelFinder') },
+  { src: 'uploads/phone-dark-aiscanner.png',     caption: t('screenshots.captions.aiScanner') },
+  { src: 'uploads/phone-dark-emailscanner.png',  caption: t('screenshots.captions.emailScanner') },
+  { src: 'uploads/phone-dark-googlesearch.png',  caption: t('screenshots.captions.googleSearch') },
+  { src: 'uploads/phone-dark-language.png',      caption: t('screenshots.captions.languageSupport') },
 ];
 
 /* ── Pricing data ── */
@@ -953,7 +954,7 @@ function StatBar() {
     v => v.toFixed(1)+'★',
     v => '$'+(v/1000000).toFixed(1)+'M+'
   ];
-  const labels = ['Downloads', 'Avg. monthly waste found', 'App Store rating', 'User savings tracked'];
+  const labels = [t('stats.downloads'), t('stats.monthlyWaste'), t('stats.appRating'), t('stats.userSavings')];
 
   useEffect(() => {
     const obs = new IntersectionObserver(([e]) => {
@@ -1047,9 +1048,9 @@ function ScreenshotsSection() {
   return (
     <section className="screenshots-section" id="screenshots">
       <div className="section-inner">
-        <div className="section-eyebrow">App Preview</div>
-        <h2 className="section-title">See CentryAI in action.</h2>
-        <p className="section-sub">Real screens from the app. Track activity, catch zombie subscriptions, and cancel with one tap.</p>
+        <div className="section-eyebrow">{t("screenshots.eyebrow")}</div>
+        <h2 className="section-title">{t("screenshots.title")}</h2>
+        <p className="section-sub">{t("screenshots.sub")}</p>
       </div>
       <div className="screenshots-scroll-wrap">
         <div className="screenshots-track" ref={trackRef} onScroll={handleScroll}>
@@ -1091,11 +1092,11 @@ function Pricing() {
   return (
     <section className="pricing-section" id="pricing">
       <div className="section-inner">
-        <div className="section-eyebrow">Pricing</div>
-        <h2 className="section-title">Simple, transparent pricing.</h2>
-        <p className="section-sub">Start free. Upgrade when you're ready — cancel anytime.</p>
+        <div className="section-eyebrow">{t("pricing.eyebrow")}</div>
+        <h2 className="section-title">{t("pricing.title")}</h2>
+        <p className="section-sub">{t("pricing.sub")}</p>
         <div className="pricing-grid">
-          {PLANS.map((plan, i) => (
+          {tArr("pricing.plans").map((plan, i) => (
             <div className={`pricing-card reveal ${plan.featured ? 'featured' : ''}`} key={i}>
               {plan.badge && <span className="pricing-badge">{plan.badge}</span>}
               <div className="pricing-plan">{plan.name}</div>
@@ -1122,7 +1123,7 @@ function Pricing() {
             </div>
           ))}
         </div>
-        <p className="pricing-note">All plans include a 7-day free trial. No credit card required to start.</p>
+        <p className="pricing-note">{t("pricing.note")}</p>
       </div>
     </section>
   );
@@ -1133,7 +1134,7 @@ function FAQ() {
   const [open, setOpen] = useState(null);
   return (
     <div className="faq-list">
-      {FAQ_ITEMS.map((item, i) => (
+      {tArr("faq.items").map((item, i) => (
         <div className="faq-item" key={i}>
           <div className="faq-question" onClick={() => setOpen(open === i ? null : i)}>
             <span>{item.q}</span>
@@ -1155,15 +1156,15 @@ function StoreBtns({ id = '' }) {
       <a href="#" className="btn-store btn-store-apple" id={`${id}appstore-btn`}>
         <AppleLogo />
         <span className="btn-store-text">
-          <span className="btn-store-small">Download on the</span>
-          <span className="btn-store-name">App Store</span>
+          <span className="btn-store-small">{t("hero.appStoreSmall")}</span>
+          <span className="btn-store-name">{t("hero.appStoreName")}</span>
         </span>
       </a>
       <a href="#" className="btn-store btn-store-google" id={`${id}googleplay-btn`}>
         <PlayLogo />
         <span className="btn-store-text">
-          <span className="btn-store-small" style={{color:'#1f1f1f', opacity: 0.65}}>Get it on</span>
-          <span className="btn-store-name" style={{color:'#1f1f1f'}}>Google Play</span>
+          <span className="btn-store-small" style={{color:'#1f1f1f', opacity: 0.65}}>{t("hero.googlePlaySmall")}</span>
+          <span className="btn-store-name" style={{color:'#1f1f1f'}}>{t("hero.googlePlayName")}</span>
         </span>
       </a>
     </div>
@@ -1263,12 +1264,12 @@ function App() {
           <img src="logo2.svg" alt="CentryAI" className="nav-logo-mark" style={{height:'36px',width:'auto'}}/>
         </a>
         <ul className="nav-links">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#screenshots">App Preview</a></li>
-          <li><a href="#how">How it works</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="support">Support</a></li>
+          <li><a href="#features">{t("nav.features")}</a></li>
+          <li><a href="#screenshots">{t("nav.appPreview")}</a></li>
+          <li><a href="#how">{t("nav.howItWorks")}</a></li>
+          <li><a href="#pricing">{t("nav.pricing")}</a></li>
+          <li><a href="#faq">{t("nav.faq")}</a></li>
+          <li><a href="support">{t("nav.support")}</a></li>
         </ul>
         <div className="nav-actions">
           <div ref={langRef} />
@@ -1279,7 +1280,7 @@ function App() {
           >
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>
-          <a href="#download" className="btn btn-primary btn-sm" id="nav-cta">Download Free</a>
+          <a href="#download" className="btn btn-primary btn-sm" id="nav-cta">{t("nav.downloadFree")}</a>
           <button className="nav-hamburger" onClick={() => setMobileOpen(v => !v)} aria-label="Menu">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
               {mobileOpen ? <><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></> : <><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></>}
@@ -1289,13 +1290,13 @@ function App() {
       </nav>
       {mobileOpen && (
         <div className="mobile-menu open" onClick={() => setMobileOpen(false)}>
-          <a href="#features">Features</a>
-          <a href="#screenshots">App Preview</a>
-          <a href="#how">How it works</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#faq">FAQ</a>
-          <a href="support">Support</a>
-          <a href="#download" style={{color:'var(--accent)',borderBottom:'none',marginTop:'0.5rem'}}>Download Free</a>
+          <a href="#features">{t("nav.features")}</a>
+          <a href="#screenshots">{t("nav.appPreview")}</a>
+          <a href="#how">{t("nav.howItWorks")}</a>
+          <a href="#pricing">{t("nav.pricing")}</a>
+          <a href="#faq">{t("nav.faq")}</a>
+          <a href="support">{t("nav.support")}</a>
+          <a href="#download" style={{color:'var(--accent)',borderBottom:'none',marginTop:'0.5rem'}}>{t("nav.downloadFree")}</a>
         </div>
       )}
 
@@ -1313,18 +1314,18 @@ function App() {
           <div>
             <div className="hero-badge">
               <span className="hero-badge-dot" />
-              Subscription Tracker
+              {t("hero.badge")}
             </div>
-            <h1>Stop paying for apps<br/>you've <em>forgotten about.</em></h1>
+            <h1>{t('hero.headline1')}<br/>{t('hero.headline2')} <em>{t('hero.headlineEm')}</em></h1>
             <p className="hero-sub">
-              CentryAI is a smart personal finance application designed to help you automatically track, manage, and optimize your recurring subscriptions.
+              {t("hero.sub")}
             </p>
             <div id="download">
               <StoreBtns id="hero-" />
             </div>
             <div className="hero-trust">
               <span className="hero-trust-stars">★★★★★</span>
-              <span>4.8 · 12,000+ reviews · Free to start</span>
+              <span>{t("hero.trust")}</span>
             </div>
           </div>
           <PhoneGallery />
@@ -1340,16 +1341,12 @@ function App() {
       {/* ── How it works ── */}
       <section className="section how-section" id="how">
         <div className="section-inner">
-          <div className="section-eyebrow">How it works</div>
-          <h2 className="section-title">Up and running in 3 minutes.</h2>
+          <div className="section-eyebrow">{t("howItWorks.eyebrow")}</div>
+          <h2 className="section-title">{t("howItWorks.title")}</h2>
           <div className="steps stagger">
-            {[
-              { n: '01', title: 'Connect your inbox', desc: 'Link Gmail or iCloud with read-only access. CentryAI scans for subscription emails — nothing else.' },
-              { n: '02', title: 'See everything', desc: 'Your full subscription list appears instantly, sorted by cost, renewal date, and usage status.' },
-              { n: '03', title: 'Cut the waste', desc: 'Tap any zombie subscription to get the direct cancellation path. Cancel in seconds, not minutes.' },
-            ].map((s, i) => (
+            {tArr("howItWorks.steps").map((s, i) => (
               <div className="step reveal" key={i}>
-                <div className="step-num">{s.n}</div>
+                <div className="step-num">0{i+1}</div>
                 <h3>{s.title}</h3>
                 <p>{s.desc}</p>
               </div>
@@ -1361,18 +1358,13 @@ function App() {
       {/* ── Features ── */}
       <section className="section" id="features">
         <div className="section-inner">
-          <div className="section-eyebrow">What you get</div>
-          <h2 className="section-title">Everything to take control<br/>of your subscriptions.</h2>
-          <p className="section-sub">Four core tools that work together to surface hidden costs and help you act on them.</p>
+          <div className="section-eyebrow">{t("features.eyebrow")}</div>
+          <h2 className="section-title">{t("features.title")}</h2>
+          <p className="section-sub">{t("features.sub")}</p>
           <div className="features-grid stagger">
-            {[
-              { icon: <svg viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="12" y1="7" x2="12" y2="17"/></svg>, title: 'Smart detection', desc: 'Automatically identifies every subscription — streaming, fitness, SaaS, and more — with no manual data entry required.' },
-              { icon: <svg viewBox="0 0 24 24"><path d="M9 10h.01"/><path d="M15 10h.01"/><path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z"/></svg>, title: 'Zombie detector', desc: 'Identifies services you pay for but haven\'t used in 30+ days. See exactly how much your zombie subs cost per month and per year.' },
-              { icon: <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>, title: 'Spending dashboard', desc: 'A clear, categorized view of your monthly and annual subscription spend. Track trends and understand exactly where your money goes.' },
-              { icon: <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-5"/></svg>, title: 'Cancel URL finder', desc: 'Hate hunting for cancel buttons? CentryAI surfaces the direct cancellation link, phone number, or step-by-step guide for every service.' },
-            ].map((f, i) => (
+            {tArr("features.cards").map((f, i) => (
               <div className="feature-card reveal" key={i} id={`feature-card-${i}`}>
-                <div className="feature-icon">{f.icon}</div>
+                <div className="feature-icon">{[<SparklesIcon/>, <GhostIcon/>, <ChartIcon/>, <LinkIcon/>][i]}</div>
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>
               </div>
@@ -1386,9 +1378,9 @@ function App() {
         <div className="section-inner">
           <div className="zombie-callout">
             <div>
-              <div className="zombie-label">⚠ Zombie Alert</div>
-              <h2>Meet your zombie subscriptions.</h2>
-              <p>You signed up, forgot, and you're still paying. CentryAI cross-references your subscriptions with your actual usage to surface services quietly draining your account every month.</p>
+              <div className="zombie-label">{t("zombie.label")}</div>
+              <h2>{t("zombie.title")}</h2>
+              <p>{t("zombie.desc")}</p>
             </div>
             <div className="zombie-subs">
               {ZOMBIE_SUBS.map((s, i) => (
@@ -1401,7 +1393,7 @@ function App() {
                     <div className="zombie-item-sub">{s.sub}</div>
                   </div>
                   <div className="zombie-item-price">{s.price}</div>
-                  {s.zombie && <span className="zombie-flag">Zombie</span>}
+                  {s.zombie && <span className="zombie-flag">{t("zombie.flagLabel")}</span>}
                 </div>
               ))}
             </div>
@@ -1414,14 +1406,10 @@ function App() {
       {/* ── Testimonials ── */}
       <section className="section" style={{background: 'var(--bg2)'}}>
         <div className="section-inner">
-          <div className="section-eyebrow">What users say</div>
-          <h2 className="section-title">People are finding money<br/>they didn't know they had.</h2>
+          <div className="section-eyebrow">{t("testimonials.eyebrow")}</div>
+          <h2 className="section-title">{t("testimonials.title")}</h2>
           <div className="testimonials-grid stagger">
-            {[
-              { initials: 'AK', name: 'Alex K.', handle: '@alexk · App Store', stars: 5, text: 'Found $38 in subscriptions I completely forgot about. Cancelled 4 of them in under 10 minutes. This app pays for itself instantly.' },
-              { initials: 'MR', name: 'Maya R.', handle: '@maya_r · Google Play', stars: 5, text: 'The zombie subscription feature is genuinely scary. I was paying for a gym app I hadn\'t opened in 3 months. CentryAI caught it immediately.' },
-              { initials: 'TL', name: 'Tom L.', handle: '@toml · App Store', stars: 5, text: 'Clean UI, actually works, no upsell nonsense. The cancel link finder alone is worth it — no more hunting through help pages.' },
-            ].map((t, i) => (
+            {tArr("testimonials.reviews").map((t, i) => (
               <div className="testimonial-card reveal" key={i} id={`testimonial-${i}`}>
                 <div className="testimonial-stars">{'★'.repeat(t.stars)}</div>
                 <p className="testimonial-text">"{t.text}"</p>
@@ -1450,7 +1438,7 @@ function App() {
       {/* ── Google Data Disclosure ── */}
       <section className="section" style={{paddingTop: 0, paddingBottom: '5rem'}}>
         <div className="section-inner" style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-          <div className="section-eyebrow">Privacy &amp; Data</div>
+          <div className="section-eyebrow">{t("googleData.eyebrow")}</div>
           <h2 className="section-title" style={{textAlign:'center',marginBottom:'2.5rem'}}>How we use your Google data</h2>
           <div className="google-disclosure reveal">
             <div className="google-disclosure-icon">
@@ -1496,25 +1484,25 @@ function App() {
             <p>Track, detect, and cancel recurring subscriptions. Free to start — available on iOS &amp; Android.</p>
           </div>
           <div className="footer-col">
-            <h4>Product</h4>
+            <h4>{t("footer.product")}</h4>
             <ul>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#screenshots">App Preview</a></li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="#download">Download</a></li>
+              <li><a href="#features">{t("nav.features")}</a></li>
+              <li><a href="#screenshots">{t("nav.appPreview")}</a></li>
+              <li><a href="#faq">{t("nav.faq")}</a></li>
+              <li><a href="#download">{t("footer.links.downloadLink")}</a></li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Company</h4>
+            <h4>{t("footer.company")}</h4>
             <ul>
-              <li><a href="support">Support</a></li>
-              <li><a href="feedback">Feedback</a></li>
-              <li><a href="privacy">Privacy Policy</a></li>
-              <li><a href="terms">Terms of Use</a></li>
+              <li><a href="support">{t("nav.support")}</a></li>
+              <li><a href="feedback">{t("footer.links.feedback")}</a></li>
+              <li><a href="privacy">{t("footer.links.privacy")}</a></li>
+              <li><a href="terms">{t("footer.links.terms")}</a></li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Download</h4>
+            <h4>{t("footer.download")}</h4>
             <ul>
               <li><a href="#">App Store</a></li>
               <li><a href="#">Google Play</a></li>

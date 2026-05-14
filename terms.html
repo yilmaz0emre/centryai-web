@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="shared.css?v=6"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
 <script src="langswitcher.js?v=6"></script>
+<script src="i18n.js"></script>
 <style>
 .toc {
   background: var(--surface);
@@ -28,11 +29,11 @@
     <img src="logo2.svg" alt="CentryAI" class="nav-logo-mark" style="height:36px;width:auto;"/>
   </a>
   <ul class="nav-links">
-    <li><a href="index.html#features">Features</a></li>
-    <li><a href="index.html#screenshots">App Preview</a></li>
-    <li><a href="index.html#how">How it works</a></li>
-    <li><a href="index.html#faq">FAQ</a></li>
-    <li><a href="support.html">Support</a></li>
+    <li><a href="index.html#features" data-i18n="nav.features">Features</a></li>
+    <li><a href="index.html#screenshots" data-i18n="nav.appPreview">App Preview</a></li>
+    <li><a href="index.html#how" data-i18n="nav.howItWorks">How it works</a></li>
+    <li><a href="index.html#faq" data-i18n="nav.faq">FAQ</a></li>
+    <li><a href="support.html" data-i18n="nav.support">Support</a></li>
   </ul>
   <div class="nav-actions">
     <span id="sr-lang-mount"></span>
@@ -40,7 +41,7 @@
       <svg id="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
-    <a href="index.html#download" class="btn btn-primary btn-sm">Download Free</a>
+    <a href="index.html#download" class="btn btn-primary btn-sm" data-i18n="nav.downloadFree">Download Free</a>
   </div>
 </nav>
 <script>
@@ -68,89 +69,83 @@
 </script>
 
 <div class="page-hero">
-  <div class="section-label" style="margin-bottom:0.75rem">Legal</div>
-  <h1>Terms of Use</h1>
-  <p class="subtitle">Last updated: April 19, 2026 · Effective: April 19, 2026</p>
+  <div class="section-label" style="margin-bottom:0.75rem" data-i18n="terms.hero.label">Legal</div>
+  <h1 data-i18n="terms.hero.title">Terms of Use</h1>
+  <p class="subtitle" data-i18n="terms.hero.subtitle">Last updated: April 19, 2026 · Effective: April 19, 2026</p>
 </div>
 <hr class="page-divider"/>
 <div class="page-content">
   <div class="toc">
-    <h3>Table of Contents</h3>
+    <h3 data-i18n="terms.toc.title">Table of Contents</h3>
     <ol>
-      <li><a href="#s1">Acceptance of Terms</a></li>
-      <li><a href="#s2">Description of Service</a></li>
-      <li><a href="#s3">Eligibility</a></li>
-      <li><a href="#s4">User Accounts</a></li>
-      <li><a href="#s5">Subscription Plans and Billing</a></li>
-      <li><a href="#s6">Acceptable Use</a></li>
-      <li><a href="#s7">Intellectual Property</a></li>
-      <li><a href="#s8">Disclaimers</a></li>
-      <li><a href="#s9">Limitation of Liability</a></li>
-      <li><a href="#s10">Termination</a></li>
-      <li><a href="#s11">Governing Law</a></li>
-      <li><a href="#s12">Contact</a></li>
+      <li><a href="#s1" data-i18n="terms.toc.items.0">Acceptance of Terms</a></li>
+      <li><a href="#s2" data-i18n="terms.toc.items.1">Description of Service</a></li>
+      <li><a href="#s3" data-i18n="terms.toc.items.2">Eligibility</a></li>
+      <li><a href="#s4" data-i18n="terms.toc.items.3">User Accounts</a></li>
+      <li><a href="#s5" data-i18n="terms.toc.items.4">Subscription Plans and Billing</a></li>
+      <li><a href="#s6" data-i18n="terms.toc.items.5">Acceptable Use</a></li>
+      <li><a href="#s7" data-i18n="terms.toc.items.6">Intellectual Property</a></li>
+      <li><a href="#s8" data-i18n="terms.toc.items.7">Disclaimers</a></li>
+      <li><a href="#s9" data-i18n="terms.toc.items.8">Limitation of Liability</a></li>
+      <li><a href="#s10" data-i18n="terms.toc.items.9">Termination</a></li>
+      <li><a href="#s11" data-i18n="terms.toc.items.10">Governing Law</a></li>
+      <li><a href="#s12" data-i18n="terms.toc.items.11">Contact</a></li>
     </ol>
   </div>
 
-  <h2 id="s1">1. Acceptance of Terms</h2>
-  <p>By downloading, installing, or using CentryAI ("the App"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, do not use the App. These Terms apply to all users of the App, including without limitation users who are browsing, registering, or contributing content.</p>
+  <h2 id="s1" data-i18n="terms.sections.s1.title">1. Acceptance of Terms</h2>
+  <p data-i18n="terms.sections.s1.body">By downloading, installing, or using CentryAI...</p>
 
-  <h2 id="s2">2. Description of Service</h2>
-  <p>CentryAI is a mobile application that helps users identify, track, and manage recurring subscription charges by analyzing email data with the user's explicit permission. CentryAI is an informational tool — it does not execute financial transactions, cancel subscriptions on your behalf, or connect to banking systems.</p>
+  <h2 id="s2" data-i18n="terms.sections.s2.title">2. Description of Service</h2>
+  <p data-i18n="terms.sections.s2.body">CentryAI is a mobile application...</p>
 
-  <h2 id="s3">3. Eligibility</h2>
-  <p>You must be at least 13 years of age to use CentryAI. By using the App, you represent that you are at least 13 years old. If you are under 18, you represent that you have your parent or guardian's permission to use the App.</p>
+  <h2 id="s3" data-i18n="terms.sections.s3.title">3. Eligibility</h2>
+  <p data-i18n="terms.sections.s3.body">You must be at least 13 years of age...</p>
 
-  <h2 id="s4">4. User Accounts</h2>
-  <p>You may use CentryAI without an account, but certain features require registration. You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account. You agree to notify us immediately of any unauthorized use at <a href="mailto:support@centryai.app">support@centryai.app</a>.</p>
+  <h2 id="s4" data-i18n="terms.sections.s4.title">4. User Accounts</h2>
+  <p data-i18n="terms.sections.s4.body">You may use CentryAI without an account...</p>
 
-  <h2 id="s5">5. Subscription Plans and Billing</h2>
-  <h3>Free Tier</h3>
-  <p>The core features of CentryAI — subscription detection and dashboard — are available at no charge.</p>
-  <h3>CentryAI Premium</h3>
-  <p>CentryAI Premium is a monthly or annual subscription at the price displayed in the App Store or Google Play at the time of purchase. Pro subscriptions auto-renew unless cancelled at least 24 hours before the renewal date. You may manage or cancel your Pro subscription through your App Store or Google Play account settings.</p>
-  <h3>Refunds</h3>
-  <p>Refund requests are governed by Apple App Store or Google Play policies. We will cooperate with refund requests made within 14 days of initial purchase where technically possible.</p>
+  <h2 id="s5" data-i18n="terms.sections.s5.title">5. Subscription Plans and Billing</h2>
+  <div data-i18n="terms.sections.s5.body">Free Tier...</div>
 
-  <h2 id="s6">6. Acceptable Use</h2>
-  <p>You agree not to:</p>
-  <ul>
-    <li>Use the App for any unlawful purpose</li>
-    <li>Attempt to reverse-engineer, decompile, or disassemble the App</li>
-    <li>Share your account credentials with third parties</li>
-    <li>Use automated means to access or scrape the App</li>
-    <li>Interfere with the App's infrastructure or other users' access</li>
-    <li>Misrepresent your identity or affiliation</li>
-  </ul>
+  <h2 id="s6" data-i18n="terms.sections.s6.title">6. Acceptable Use</h2>
+  <div data-i18n="terms.sections.s6.body">You agree not to...</div>
 
-  <h2 id="s7">7. Intellectual Property</h2>
-  <p>CentryAI and all associated content, design, code, trademarks, and trade names are the exclusive property of CentryAI, Inc. You are granted a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes. No other rights are granted.</p>
+  <h2 id="s7" data-i18n="terms.sections.s7.title">7. Intellectual Property</h2>
+  <p data-i18n="terms.sections.s7.body">CentryAI and all associated content...</p>
 
-  <h2 id="s8">8. Disclaimers</h2>
-  <p>CentryAI is provided "as is" and "as available" without warranties of any kind, express or implied. We do not warrant that subscription detection will be complete or error-free. Subscription amounts, renewal dates, and cancellation URLs displayed in the App are derived from email data and may not reflect current pricing or availability.</p>
-  <p><strong>CentryAI is not a financial advisor.</strong> Nothing in the App constitutes financial, legal, or professional advice. Cancellation decisions are yours alone.</p>
+  <h2 id="s8" data-i18n="terms.sections.s8.title">8. Disclaimers</h2>
+  <div data-i18n="terms.sections.s8.body">CentryAI is provided as is...</div>
 
-  <h2 id="s9">9. Limitation of Liability</h2>
-  <p>To the maximum extent permitted by applicable law, CentryAI, Inc. shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including lost profits, data loss, or business interruption, arising from your use of or inability to use the App, even if advised of the possibility of such damages.</p>
-  <p>Our total liability to you for any claim arising from these Terms or your use of the App shall not exceed the amount you paid us in the twelve months preceding the claim.</p>
+  <h2 id="s9" data-i18n="terms.sections.s9.title">9. Limitation of Liability</h2>
+  <div data-i18n="terms.sections.s9.body">To the maximum extent permitted...</div>
 
-  <h2 id="s10">10. Termination</h2>
-  <p>We reserve the right to suspend or terminate your account at any time for violation of these Terms, with or without notice. You may delete your account at any time from within the App. Upon termination, your right to use the App ceases immediately.</p>
+  <h2 id="s10" data-i18n="terms.sections.s10.title">10. Termination</h2>
+  <p data-i18n="terms.sections.s10.body">We reserve the right to suspend...</p>
 
-  <h2 id="s11">11. Governing Law</h2>
-  <p>These Terms are governed by and construed in accordance with the laws of the State of Delaware, United States, without regard to conflict of law principles. Any disputes shall be resolved in the courts of Delaware.</p>
+  <h2 id="s11" data-i18n="terms.sections.s11.title">11. Governing Law</h2>
+  <p data-i18n="terms.sections.s11.body">These Terms are governed by...</p>
 
-  <h2 id="s12">12. Contact</h2>
-  <p>Questions about these Terms? Contact us at <a href="mailto:legal@centryai.app">legal@centryai.app</a>.</p>
+  <h2 id="s12" data-i18n="terms.sections.s12.title">12. Contact</h2>
+  <p data-i18n="terms.sections.s12.body">Questions about these Terms...</p>
 </div>
 
 <footer class="footer">
   <div class="footer-bottom" style="margin-top:0;padding-top:1.5rem">
-    <p>© 2026 CentryAI. All rights reserved.</p>
-    <p><a href="privacy" style="color:var(--fg3);text-decoration:none">Privacy</a> · <a href="terms" style="color:var(--fg3);text-decoration:none">Terms</a></p>
+    <p data-i18n="footer.copyright">© 2026 CentryAI. All rights reserved.</p>
+    <p><a href="privacy" style="color:var(--fg3);text-decoration:none" data-i18n="footer.footerPrivacy">Privacy</a> · <a href="terms" style="color:var(--fg3);text-decoration:none" data-i18n="footer.footerTerms">Terms</a></p>
   </div>
 </footer>
 
 <script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    const key = el.getAttribute('data-i18n');
+    el.innerHTML = t(key);
+  });
+});
+</script>
 </body>
 </html>

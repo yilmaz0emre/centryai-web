@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="shared.css?v=6"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
 <script src="langswitcher.js?v=6"></script>
+<script src="i18n.js"></script>
 <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
@@ -219,11 +220,11 @@
     <img src="logo2.svg" alt="CentryAI" class="nav-logo-mark" style="height:36px;width:auto;"/>
   </a>
   <ul class="nav-links">
-    <li><a href="index.html#features">Features</a></li>
-    <li><a href="index.html#screenshots">App Preview</a></li>
-    <li><a href="index.html#how">How it works</a></li>
-    <li><a href="index.html#faq">FAQ</a></li>
-    <li><a href="support.html">Support</a></li>
+    <li><a href="index.html#features" data-i18n="nav.features">Features</a></li>
+    <li><a href="index.html#screenshots" data-i18n="nav.appPreview">App Preview</a></li>
+    <li><a href="index.html#how" data-i18n="nav.howItWorks">How it works</a></li>
+    <li><a href="index.html#faq" data-i18n="nav.faq">FAQ</a></li>
+    <li><a href="support.html" data-i18n="nav.support">Support</a></li>
   </ul>
   <div class="nav-actions">
     <span id="sr-lang-mount"></span>
@@ -231,7 +232,7 @@
       <svg id="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
       <svg id="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
-    <a href="index.html#download" class="btn btn-primary btn-sm">Download Free</a>
+    <a href="index.html#download" class="btn btn-primary btn-sm" data-i18n="nav.downloadFree">Download Free</a>
   </div>
 </nav>
 
@@ -347,14 +348,14 @@ function App() {
         <div className="form-card">
           <div className="success-card">
             <div className="success-icon">✓</div>
-            <h2>Got it. Thank you!</h2>
-            <p>We've received your {type === 'bug' ? 'bug report' : type === 'feature' ? 'feature request' : 'feedback'} and will review it shortly.<br/>We typically respond within 1–2 business days.</p>
+            <h2>{t("feedback.success.title")}</h2>
+            <p>{type === 'bug' ? t("feedback.success.descBug") : type === 'feature' ? t("feedback.success.descFeature") : t("feedback.success.descFeedback")}</p>
             <div className="success-ref">Ref: {refId}</div>
             <div className="success-actions">
               <button className="btn btn-ghost" onClick={() => { setSubmitted(false); setForm({ name: '', email: '', platform: '', version: '', title: '', message: '', priority: 'med' }); setErrors({}); }}>
-                Submit another
+                {t("feedback.success.submitAnother")}
               </button>
-              <a href="/" className="btn btn-primary">Back to home</a>
+              <a href="/" className="btn btn-primary">{t("feedback.success.backHome")}</a>
             </div>
           </div>
         </div>
@@ -365,9 +366,9 @@ function App() {
   return (
     <div className="feedback-wrap">
       <div className="feedback-header">
-        <div className="section-label" style={{ marginBottom: '0.75rem' }}>Get in Touch</div>
-        <h1>Feedback & Bug Reports</h1>
-        <p>Tell us what's broken or what you'd like to see. We read every submission.</p>
+        <div className="section-label" style={{ marginBottom: '0.75rem' }}>{t("feedback.header.label")}</div>
+        <h1>{t("feedback.header.title")}</h1>
+        <p>{t("feedback.header.sub")}</p>
       </div>
 
       <form className="form-card" onSubmit={handleSubmit} noValidate>
@@ -385,14 +386,14 @@ function App() {
         {/* Name + Email */}
         <div className="form-row-split">
           <div>
-            <label className="form-label">Name <span>*</span></label>
-            <input className={`form-input ${errors.name ? 'error' : ''}`} type="text" placeholder="Your name"
+            <label className="form-label">{t("feedback.form.name")} <span>*</span></label>
+            <input className={`form-input ${errors.name ? 'error' : ''}`} type="text" placeholder={t("feedback.form.placeholders.name")}
               value={form.name} onChange={e => set('name', e.target.value)} />
             {errors.name && <div className="field-error">{errors.name}</div>}
           </div>
           <div>
-            <label className="form-label">Email <span>*</span></label>
-            <input className={`form-input ${errors.email ? 'error' : ''}`} type="email" placeholder="you@example.com"
+            <label className="form-label">{t("feedback.form.email")} <span>*</span></label>
+            <input className={`form-input ${errors.email ? 'error' : ''}`} type="email" placeholder={t("feedback.form.placeholders.email")}
               value={form.email} onChange={e => set('email', e.target.value)} />
             {errors.email && <div className="field-error">{errors.email}</div>}
           </div>
@@ -402,16 +403,16 @@ function App() {
         {type === 'bug' && (
           <div className="form-row-split">
             <div>
-              <label className="form-label">Platform</label>
+              <label className="form-label">{t("feedback.form.platform")}</label>
               <select className="form-select" value={form.platform} onChange={e => set('platform', e.target.value)}>
-                <option value="">Select platform</option>
+                <option value="">{t("feedback.form.selectPlatform")}</option>
                 {PLATFORMS.map(p => <option key={p} value={p}>{p}</option>)}
               </select>
             </div>
             <div>
-              <label className="form-label">App Version</label>
+              <label className="form-label">{t("feedback.form.appVersion")}</label>
               <select className="form-select" value={form.version} onChange={e => set('version', e.target.value)}>
-                <option value="">Select version</option>
+                <option value="">{t("feedback.form.selectVersion")}</option>
                 {VERSIONS.map(v => <option key={v} value={v}>{v}</option>)}
               </select>
             </div>
@@ -421,10 +422,10 @@ function App() {
         {/* Title */}
         <div className="form-row">
           <label className="form-label">
-            {type === 'bug' ? 'Bug Summary' : type === 'feature' ? 'Feature Title' : 'Subject'} <span>*</span>
+            {type === 'bug' ? t('feedback.form.bugSummary') : type === 'feature' ? t('feedback.form.featureTitle') : t('feedback.form.subject')} <span>*</span>
           </label>
           <input className={`form-input ${errors.title ? 'error' : ''}`} type="text"
-            placeholder={type === 'bug' ? 'e.g. App crashes when loading large inbox' : type === 'feature' ? 'e.g. Export subscription list as CSV' : 'Brief summary'}
+            placeholder={type === 'bug' ? t('feedback.form.placeholders.bugSummary') : type === 'feature' ? t('feedback.form.placeholders.featureTitle') : t('feedback.form.placeholders.subject')}
             value={form.title} onChange={e => set('title', e.target.value)} />
           {errors.title && <div className="field-error">{errors.title}</div>}
         </div>
@@ -432,14 +433,10 @@ function App() {
         {/* Message */}
         <div className="form-row">
           <label className="form-label">
-            {type === 'bug' ? 'Steps to Reproduce' : type === 'feature' ? 'Describe the feature' : 'Message'} <span>*</span>
+            {type === 'bug' ? t('feedback.form.stepsToReproduce') : type === 'feature' ? t('feedback.form.describeFeature') : t('feedback.form.messageLabel')} <span>*</span>
           </label>
           <textarea className={`form-textarea ${errors.message ? 'error' : ''}`}
-            placeholder={type === 'bug'
-              ? '1. Open app\n2. Connect Gmail\n3. Tap on a subscription\n4. App crashes'
-              : type === 'feature'
-              ? 'Describe what you want, why it would help, and any examples…'
-              : 'Tell us anything on your mind…'}
+            placeholder={type === 'bug' ? t('feedback.form.placeholders.bugDetails') : type === 'feature' ? t('feedback.form.placeholders.featureDetails') : t('feedback.form.placeholders.message')}
             value={form.message} onChange={e => set('message', e.target.value)}
           />
           <div className={`char-count ${msgLen > MAX ? 'over' : msgLen > MAX * 0.85 ? 'warn' : ''}`}>
@@ -451,9 +448,9 @@ function App() {
         {/* Priority (bug only) */}
         {type === 'bug' && (
           <div className="form-row">
-            <label className="form-label">Severity</label>
+            <label className="form-label">{t("feedback.form.severity")}</label>
             <div className="priority-row">
-              {[['low', 'Low', 'Minor annoyance'], ['med', 'Medium', 'Affects usage'], ['high', 'High', 'App unusable']].map(([id, label, sub]) => (
+              {[['low', t('feedback.form.severityLevels.low.label'), t('feedback.form.severityLevels.low.sub')], ['med', t('feedback.form.severityLevels.med.label'), t('feedback.form.severityLevels.med.sub')], ['high', t('feedback.form.severityLevels.high.label'), t('feedback.form.severityLevels.high.sub')]].map(([id, label, sub]) => (
                 <button type="button" key={id}
                   className={`priority-opt ${form.priority === id ? `active-${id}` : ''}`}
                   onClick={() => set('priority', id)}>
@@ -466,10 +463,10 @@ function App() {
         )}
 
         <button type="submit" className="submit-btn" disabled={submitting}>
-          {submitting ? 'Sending…' : type === 'bug' ? 'Submit Bug Report' : type === 'feature' ? 'Submit Feature Request' : 'Send Feedback'}
+          {submitting ? t('feedback.form.sending') : type === 'bug' ? t('feedback.form.submitBug') : type === 'feature' ? t('feedback.form.submitFeature') : t('feedback.form.sendFeedback')}
         </button>
         <p style={{ textAlign: 'center', fontSize: '0.75rem', color: 'var(--fg3)', marginTop: '0.75rem' }}>
-          Or email us directly at <a href="mailto:support@centryai.app" style={{ color: 'var(--accent)' }}>support@centryai.app</a>
+          {t("feedback.form.directEmail")} <a href="mailto:support@centryai.app" style={{ color: 'var(--accent)' }}>support@centryai.app</a>
         </p>
       </form>
     </div>
@@ -479,5 +476,14 @@ function App() {
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 </script>
 <script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    const key = el.getAttribute('data-i18n');
+    el.innerHTML = t(key);
+  });
+});
+</script>
 </body>
 </html>
