@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium es una suscripción mensual o anual al precio que se muestra en App Store o Google Play en el momento de la compra. Las suscripciones Pro se renuevan automáticamente a menos que se cancelen al menos 24 horas antes de la fecha de renovación. Puede administrar o cancelar su suscripción Pro a través de la configuración de su cuenta App Store o Google Play.",
         "refundsTitle": "Reembolsos",
-        "refundsBody": "Las solicitudes de reembolso se rigen por las políticas de Apple App Store o Google Play. Cooperaremos con las solicitudes de reembolso realizadas dentro de los 14 días posteriores a la compra inicial cuando sea técnicamente posible."
+        "refundsBody": "Las solicitudes de reembolso se rigen por las políticas de Apple App Store o Google Play. Cooperaremos con las solicitudes de reembolso realizadas dentro de los 14 días posteriores a la compra inicial cuando sea técnicamente posible.",
+        "body": "<p><strong>Nivel gratuito</strong><br>Las funciones principales de CentryAI (detección de suscripciones y panel de control) están disponibles sin costo alguno.</p><p><strong>CentryAI Premium</strong><br>CentryAI ofrece planes Pro y Premium a los precios mostrados en la App Store o Google Play en el momento de la compra.</p><ul><li>El pago se carga en tu ID de Apple o cuenta de Google Play al confirmar la compra.</li><li>Las suscripciones se renuevan automáticamente salvo cancelación al menos 24 horas antes del final del período de facturación.</li><li>Tu cuenta recibirá el cargo por renovación dentro de las 24 horas anteriores al final del período, a la tarifa vigente.</li><li>Para cancelar: App Store → Configuración → [tu nombre] → Suscripciones, o Google Play → Suscripciones → plan → Cancelar.</li><li>Los cambios de precio se comunicarán con antelación. El uso continuado tras la fecha efectiva constituye aceptación.</li></ul><p><strong>Prueba gratuita</strong><br>Los planes de pago pueden incluir un período de prueba gratuito. No se realiza cargo hasta que finalice. La parte no usada se pierde al comprar. La elegibilidad la determina Apple o Google.</p><p><strong>Reembolsos</strong><br>Todas las compras son procesadas por Apple o Google. Los reembolsos se rigen por sus políticas. CentryAI no puede procesar reembolsos directamente.</p>"
       },
       "s6": {
         "title": "6. Uso Aceptable",
@@ -386,7 +387,8 @@
           "Utilice medios automatizados para acceder o eliminar la aplicación",
           "Interferir con la infraestructura de la aplicación o el acceso de otros usuarios.",
           "Tergiversar su identidad o afiliación"
-        ]
+        ],
+        "body": "<p>Usted acepta no:</p><ul><li>Utilice la aplicación para cualquier propósito ilegal</li><li>Intentar realizar ingeniería inversa, descompilar o desensamblar la aplicación</li><li>Comparta las credenciales de su cuenta con terceros</li><li>Utilice medios automatizados para acceder o eliminar la aplicación</li><li>Interferir con la infraestructura de la aplicación o el acceso de otros usuarios.</li><li>Tergiversar su identidad o afiliación</li></ul>"
       },
       "s7": {
         "title": "7. Propiedad intelectual",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Descargos de responsabilidad",
         "body1": "CentryAI se proporciona \"tal cual\" y \"según disponibilidad\" sin garantías de ningún tipo, expresas o implícitas. No garantizamos que la detección de suscripciones sea completa o esté libre de errores. Los montos de suscripción, las fechas de renovación y las URL de cancelación que se muestran en la Aplicación se derivan de datos de correo electrónico y pueden no reflejar los precios o la disponibilidad actuales.",
-        "body2": "CentryAI no es un asesor financiero. Nada en la Aplicación constituye asesoramiento financiero, legal o profesional. Las decisiones de cancelación son sólo suyas."
+        "body2": "CentryAI no es un asesor financiero. Nada en la Aplicación constituye asesoramiento financiero, legal o profesional. Las decisiones de cancelación son sólo suyas.",
+        "body": "<p>CentryAI se proporciona \"tal cual\" y \"según disponibilidad\" sin garantías de ningún tipo, expresas o implícitas. No garantizamos que la detección de suscripciones sea completa o esté libre de errores. Los montos de suscripción, las fechas de renovación y las URL de cancelación que se muestran en la Aplicación se derivan de datos de correo electrónico y pueden no reflejar los precios o la disponibilidad actuales.</p><p>CentryAI no es un asesor financiero. Nada en la Aplicación constituye asesoramiento financiero, legal o profesional. Las decisiones de cancelación son sólo suyas.</p>"
       },
       "s9": {
         "title": "9. Limitación de responsabilidad",
         "body1": "En la medida máxima permitida por la ley aplicable, CentryAI, Inc. no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo, incluido el lucro cesante, la pérdida de datos o la interrupción del negocio, que surjan de su uso o imposibilidad de usar la Aplicación, incluso si se le advierte de la posibilidad de dichos daños.",
-        "body2": "Nuestra responsabilidad total hacia usted por cualquier reclamo que surja de estos Términos o su uso de la Aplicación no excederá el monto que nos pagó en los doce meses anteriores al reclamo."
+        "body2": "Nuestra responsabilidad total hacia usted por cualquier reclamo que surja de estos Términos o su uso de la Aplicación no excederá el monto que nos pagó en los doce meses anteriores al reclamo.",
+        "body": "<p>En la medida máxima permitida por la ley aplicable, CentryAI, Inc. no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo, incluido el lucro cesante, la pérdida de datos o la interrupción del negocio, que surjan de su uso o imposibilidad de usar la Aplicación, incluso si se le advierte de la posibilidad de dichos daños.</p><p>Nuestra responsabilidad total hacia usted por cualquier reclamo que surja de estos Términos o su uso de la Aplicación no excederá el monto que nos pagó en los doce meses anteriores al reclamo.</p>"
       },
       "s10": {
         "title": "10. Terminación",

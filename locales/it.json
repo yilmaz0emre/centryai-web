@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium è un abbonamento mensile o annuale. Gli abbonamenti Pro si rinnovano automaticamente se non vengono annullati almeno 24 ore prima della data di rinnovo. Puoi gestire o annullare il tuo abbonamento Pro tramite le impostazioni del tuo account App Store o Google Play.",
         "refundsTitle": "Rimborsi",
-        "refundsBody": "Le richieste di rimborso sono regolate dalle politiche dell'Apple App Store o di Google Play. Collaboreremo con le richieste di rimborso effettuate entro 14 giorni dall'acquisto iniziale laddove tecnicamente possibile."
+        "refundsBody": "Le richieste di rimborso sono regolate dalle politiche dell'Apple App Store o di Google Play. Collaboreremo con le richieste di rimborso effettuate entro 14 giorni dall'acquisto iniziale laddove tecnicamente possibile.",
+        "body": "<p><strong>Livello Gratuito</strong><br>Le funzioni principali di CentryAI — rilevamento degli abbonamenti e dashboard — sono disponibili gratuitamente.</p><p><strong>CentryAI Premium</strong><br>CentryAI offre piani Pro e Premium ai prezzi visualizzati nell'App Store o Google Play al momento dell'acquisto.</p><ul><li>Il pagamento viene addebitato al tuo ID Apple o account Google Play alla conferma dell'acquisto.</li><li>Gli abbonamenti si rinnovano automaticamente salvo cancellazione almeno 24 ore prima della fine del periodo di fatturazione.</li><li>Il tuo account verrà addebitato per il rinnovo entro 24 ore prima della fine del periodo, alla tariffa attuale.</li><li>Per cancellare: App Store → Impostazioni → [il tuo nome] → Abbonamenti, o Google Play → Abbonamenti → piano → Annulla.</li><li>Le modifiche ai prezzi sono comunicate in anticipo. L'utilizzo continuato dopo la data di entrata in vigore costituisce accettazione.</li></ul><p><strong>Prova gratuita</strong><br>I piani a pagamento possono includere un periodo di prova. Il pagamento non viene addebitato fino alla fine. La parte non utilizzata decade all'acquisto. L'idoneità è determinata da Apple o Google.</p><p><strong>Rimborsi</strong><br>Tutti gli acquisti sono elaborati da Apple o Google. I rimborsi sono disciplinati dalle loro politiche. CentryAI non può elaborare rimborsi direttamente.</p>"
       },
       "s6": {
         "title": "6. Uso Accettabile",
@@ -386,7 +387,8 @@
           "Usare mezzi automatizzati per accedere o prelevare dati dall'App",
           "Interferire con l'infrastruttura dell'App o l'accesso di altri utenti",
           "Falsificare la tua identità o affiliazione"
-        ]
+        ],
+        "body": "<p>Accetti di non:</p><ul><li>Usare l'App per scopi illeciti</li><li>Tentare di decodificare, decompilare o disassemblare l'App</li><li>Condividere le credenziali del tuo account con terze parti</li><li>Usare mezzi automatizzati per accedere o prelevare dati dall'App</li><li>Interferire con l'infrastruttura dell'App o l'accesso di altri utenti</li><li>Falsificare la tua identità o affiliazione</li></ul>"
       },
       "s7": {
         "title": "7. Proprietà Intellettuale",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Esonero di Responsabilità",
         "body1": "CentryAI è fornito \"così com'è\" e \"come disponibile\" senza garanzie di alcun tipo, espresse o implicite. Non garantiamo che il rilevamento degli abbonamenti sarà completo o privo di errori.",
-        "body2": "CentryAI non è un consulente finanziario. Nulla nell'App costituisce una consulenza finanziaria, legale o professionale. Le decisioni di annullamento spettano solo a te."
+        "body2": "CentryAI non è un consulente finanziario. Nulla nell'App costituisce una consulenza finanziaria, legale o professionale. Le decisioni di annullamento spettano solo a te.",
+        "body": "<p>CentryAI è fornito \"così com'è\" e \"come disponibile\" senza garanzie di alcun tipo, espresse o implicite. Non garantiamo che il rilevamento degli abbonamenti sarà completo o privo di errori.</p><p>CentryAI non è un consulente finanziario. Nulla nell'App costituisce una consulenza finanziaria, legale o professionale. Le decisioni di annullamento spettano solo a te.</p>"
       },
       "s9": {
         "title": "9. Limitazione di Responsabilità",
         "body1": "Nella misura massima consentita dalla legge applicabile, CentryAI, Inc. non sarà responsabile per eventuali danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dal tuo utilizzo o impossibilità di utilizzare l'App.",
-        "body2": "La nostra responsabilità totale nei tuoi confronti per qualsiasi reclamo derivante da questi Termini non supererà l'importo che ci hai pagato nei dodici mesi precedenti il reclamo."
+        "body2": "La nostra responsabilità totale nei tuoi confronti per qualsiasi reclamo derivante da questi Termini non supererà l'importo che ci hai pagato nei dodici mesi precedenti il reclamo.",
+        "body": "<p>Nella misura massima consentita dalla legge applicabile, CentryAI, Inc. non sarà responsabile per eventuali danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dal tuo utilizzo o impossibilità di utilizzare l'App.</p><p>La nostra responsabilità totale nei tuoi confronti per qualsiasi reclamo derivante da questi Termini non supererà l'importo che ci hai pagato nei dodici mesi precedenti il reclamo.</p>"
       },
       "s10": {
         "title": "10. Risoluzione",

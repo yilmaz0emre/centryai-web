@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium est un abonnement mensuel ou annuel. Les abonnements Pro se renouvellent automatiquement à moins d'être annulés au moins 24 heures avant la date de renouvellement. Vous pouvez gérer ou annuler votre abonnement Pro via les paramètres de votre compte App Store ou Google Play.",
         "refundsTitle": "Remboursements",
-        "refundsBody": "Les demandes de remboursement sont régies par les politiques de l'Apple App Store ou de Google Play. Nous coopérerons avec les demandes de remboursement effectuées dans les 14 jours suivant l'achat initial, lorsque cela est techniquement possible."
+        "refundsBody": "Les demandes de remboursement sont régies par les politiques de l'Apple App Store ou de Google Play. Nous coopérerons avec les demandes de remboursement effectuées dans les 14 jours suivant l'achat initial, lorsque cela est techniquement possible.",
+        "body": "<p><strong>Niveau gratuit</strong><br>Les fonctionnalités de base de CentryAI — détection d'abonnement et tableau de bord — sont disponibles sans frais.</p><p><strong>CentryAI Premium</strong><br>CentryAI propose des plans Pro et Premium aux prix affichés dans l'App Store ou Google Play au moment de l'achat.</p><ul><li>Le paiement est débité de votre identifiant Apple ou compte Google Play à la confirmation de l'achat.</li><li>Les abonnements se renouvellent automatiquement sauf annulation au moins 24 heures avant la fin de la période de facturation.</li><li>Votre compte sera débité pour le renouvellement dans les 24 heures précédant la fin de la période au tarif en vigueur.</li><li>Pour annuler : App Store → Réglages → [votre nom] → Abonnements, ou Google Play → Abonnements → plan → Annuler.</li><li>Les modifications de prix sont communiquées à l'avance. L'utilisation continue après la date d'entrée en vigueur vaut acceptation.</li></ul><p><strong>Essai gratuit</strong><br>Les plans payants peuvent inclure une période d'essai. Aucun paiement n'est prélevé avant la fin de l'essai. La partie non utilisée est perdue à l'achat. L'éligibilité est déterminée par Apple ou Google.</p><p><strong>Remboursements</strong><br>Tous les achats sont traités par Apple ou Google. Les remboursements sont régis par leurs politiques respectives. CentryAI ne peut pas traiter les remboursements directement.</p>"
       },
       "s6": {
         "title": "6. Utilisation acceptable",
@@ -386,7 +387,8 @@
           "Utiliser des moyens automatisés pour accéder ou récupérer les données de l'Application",
           "Interférer avec l'infrastructure de l'Application ou l'accès d'autres utilisateurs",
           "Déformer votre identité ou votre affiliation"
-        ]
+        ],
+        "body": "<p>Vous acceptez de ne pas :</p><ul><li>Utiliser l'Application à des fins illégales</li><li>Tenter de procéder à une ingénierie inverse, de décompiler ou de désassembler l'Application</li><li>Partager vos identifiants de compte avec des tiers</li><li>Utiliser des moyens automatisés pour accéder ou récupérer les données de l'Application</li><li>Interférer avec l'infrastructure de l'Application ou l'accès d'autres utilisateurs</li><li>Déformer votre identité ou votre affiliation</li></ul>"
       },
       "s7": {
         "title": "7. Propriété intellectuelle",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Avis de non-responsabilité",
         "body1": "CentryAI est fourni \"tel quel\" et \"tel que disponible\" sans garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas que la détection des abonnements sera complète ou sans erreur.",
-        "body2": "CentryAI n'est pas un conseiller financier. Rien dans l'Application ne constitue un conseil financier, juridique ou professionnel. Les décisions d'annulation vous appartiennent exclusivement."
+        "body2": "CentryAI n'est pas un conseiller financier. Rien dans l'Application ne constitue un conseil financier, juridique ou professionnel. Les décisions d'annulation vous appartiennent exclusivement.",
+        "body": "<p>CentryAI est fourni \"tel quel\" et \"tel que disponible\" sans garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas que la détection des abonnements sera complète ou sans erreur.</p><p>CentryAI n'est pas un conseiller financier. Rien dans l'Application ne constitue un conseil financier, juridique ou professionnel. Les décisions d'annulation vous appartiennent exclusivement.</p>"
       },
       "s9": {
         "title": "9. Limitation de responsabilité",
         "body1": "Dans toute la mesure permise par la loi applicable, CentryAI, Inc. ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation ou de votre incapacité à utiliser l'Application.",
-        "body2": "Notre responsabilité totale envers vous pour toute réclamation découlant des présentes Conditions ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation."
+        "body2": "Notre responsabilité totale envers vous pour toute réclamation découlant des présentes Conditions ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation.",
+        "body": "<p>Dans toute la mesure permise par la loi applicable, CentryAI, Inc. ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation ou de votre incapacité à utiliser l'Application.</p><p>Notre responsabilité totale envers vous pour toute réclamation découlant des présentes Conditions ne dépassera pas le montant que vous nous avez payé au cours des douze mois précédant la réclamation.</p>"
       },
       "s10": {
         "title": "10. Résiliation",

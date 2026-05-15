@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium adalah langganan bulanan atau tahunan. Langganan Pro diperbarui secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum tanggal pembaruan. Anda dapat mengelola atau membatalkan langganan Pro Anda melalui pengaturan akun App Store atau Google Play Anda.",
         "refundsTitle": "Pengembalian Dana",
-        "refundsBody": "Permintaan pengembalian dana tunduk pada kebijakan Apple App Store atau Google Play. Kami akan bekerja sama dengan permintaan pengembalian dana yang dibuat dalam waktu 14 hari setelah pembelian awal jika memungkinkan secara teknis."
+        "refundsBody": "Permintaan pengembalian dana tunduk pada kebijakan Apple App Store atau Google Play. Kami akan bekerja sama dengan permintaan pengembalian dana yang dibuat dalam waktu 14 hari setelah pembelian awal jika memungkinkan secara teknis.",
+        "body": "<p><strong>Tingkat Gratis</strong><br>Fitur inti CentryAI — deteksi langganan dan dasbor — tersedia tanpa biaya.</p><p><strong>CentryAI Premium</strong><br>CentryAI menawarkan paket Pro dan Premium bulanan dengan harga yang ditampilkan di App Store atau Google Play saat pembelian.</p><ul><li>Pembayaran ditagihkan ke Apple ID atau akun Google Play Anda saat konfirmasi pembelian.</li><li>Langganan diperbarui secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum akhir periode penagihan saat ini.</li><li>Akun Anda akan ditagih untuk pembaruan dalam 24 jam sebelum akhir periode saat ini dengan tarif langganan yang berlaku.</li><li>Untuk membatalkan: App Store → Pengaturan → [nama Anda] → Langganan, atau Google Play → Langganan → pilih paket → Batalkan.</li><li>Perubahan harga akan dikomunikasikan terlebih dahulu. Penggunaan lanjutan setelah tanggal berlaku merupakan penerimaan harga baru.</li></ul><p><strong>Uji Coba Gratis</strong><br>Paket berbayar mungkin mencakup periode uji coba gratis. Pembayaran tidak akan ditagih sampai uji coba berakhir. Bagian uji coba yang tidak digunakan hangus saat pembelian. Kelayakan ditentukan oleh Apple atau Google.</p><p><strong>Pengembalian Dana</strong><br>Semua pembelian diproses oleh Apple atau Google. Permintaan pengembalian dana diatur oleh kebijakan mereka. CentryAI tidak dapat memproses pengembalian dana secara langsung.</p>"
       },
       "s6": {
         "title": "6. Penggunaan yang Dapat Diterima",
@@ -386,7 +387,8 @@
           "Menggunakan cara otomatis untuk mengakses atau mengumpulkan data dari Aplikasi",
           "Mengganggu infrastruktur Aplikasi atau akses pengguna lain",
           "Memberikan keterangan palsu tentang identitas atau afiliasi Anda"
-        ]
+        ],
+        "body": "<p>Anda setuju untuk tidak:</p><ul><li>Menggunakan Aplikasi untuk tujuan yang melanggar hukum</li><li>Mencoba merekayasa balik, mendekompilasi, atau membongkar Aplikasi</li><li>Membagikan kredensial akun Anda dengan pihak ketiga</li><li>Menggunakan cara otomatis untuk mengakses atau mengumpulkan data dari Aplikasi</li><li>Mengganggu infrastruktur Aplikasi atau akses pengguna lain</li><li>Memberikan keterangan palsu tentang identitas atau afiliasi Anda</li></ul>"
       },
       "s7": {
         "title": "7. Kekayaan Intelektual",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Penafian",
         "body1": "CentryAI disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\" tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak menjamin bahwa deteksi langganan akan lengkap atau bebas dari kesalahan.",
-        "body2": "CentryAI bukanlah penasihat keuangan. Tidak ada di dalam Aplikasi yang merupakan nasihat keuangan, hukum, atau profesional. Keputusan pembatalan adalah milik Anda sepenuhnya."
+        "body2": "CentryAI bukanlah penasihat keuangan. Tidak ada di dalam Aplikasi yang merupakan nasihat keuangan, hukum, atau profesional. Keputusan pembatalan adalah milik Anda sepenuhnya.",
+        "body": "<p>CentryAI disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\" tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak menjamin bahwa deteksi langganan akan lengkap atau bebas dari kesalahan.</p><p>CentryAI bukanlah penasihat keuangan. Tidak ada di dalam Aplikasi yang merupakan nasihat keuangan, hukum, atau profesional. Keputusan pembatalan adalah milik Anda sepenuhnya.</p>"
       },
       "s9": {
         "title": "9. Batasan Tanggung Jawab",
         "body1": "Sejauh yang diizinkan oleh hukum yang berlaku, CentryAI, Inc. tidak akan bertanggung jawab atas segala kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang timbul dari penggunaan Anda atau ketidakmampuan untuk menggunakan Aplikasi.",
-        "body2": "Tanggung jawab total kami kepada Anda atas setiap klaim yang timbul dari Syarat ini tidak akan melebihi jumlah yang Anda bayarkan kepada kami dalam dua belas bulan sebelum klaim."
+        "body2": "Tanggung jawab total kami kepada Anda atas setiap klaim yang timbul dari Syarat ini tidak akan melebihi jumlah yang Anda bayarkan kepada kami dalam dua belas bulan sebelum klaim.",
+        "body": "<p>Sejauh yang diizinkan oleh hukum yang berlaku, CentryAI, Inc. tidak akan bertanggung jawab atas segala kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang timbul dari penggunaan Anda atau ketidakmampuan untuk menggunakan Aplikasi.</p><p>Tanggung jawab total kami kepada Anda atas setiap klaim yang timbul dari Syarat ini tidak akan melebihi jumlah yang Anda bayarkan kepada kami dalam dua belas bulan sebelum klaim.</p>"
       },
       "s10": {
         "title": "10. Pengakhiran",

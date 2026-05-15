@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium to subskrypcja miesięczna lub roczna. Subskrypcje Pro odnawiają się automatycznie, o ile nie zostaną anulowane co najmniej 24 godziny przed datą odnowienia. Możesz zarządzać subskrypcją Pro lub ją anulować poprzez ustawienia konta w App Store lub Google Play.",
         "refundsTitle": "Zwroty",
-        "refundsBody": "Wnioski o zwrot podlegają zasadom App Store lub Google Play. Będziemy współpracować przy wnioskach o zwrot złożonych w ciągu 14 dni od początkowego zakupu, tam gdzie to technicznie możliwe."
+        "refundsBody": "Wnioski o zwrot podlegają zasadom App Store lub Google Play. Będziemy współpracować przy wnioskach o zwrot złożonych w ciągu 14 dni od początkowego zakupu, tam gdzie to technicznie możliwe.",
+        "body": "<p><strong>Plan Darmowy</strong><br>Główne funkcje CentryAI — wykrywanie subskrypcji i panel — są dostępne bezpłatnie.</p><p><strong>CentryAI Premium</strong><br>CentryAI oferuje miesięczne plany Pro i Premium w cenach wyświetlanych w App Store lub Google Play w momencie zakupu.</p><ul><li>Płatność jest pobierana z Twojego Apple ID lub konta Google Play po potwierdzeniu zakupu.</li><li>Subskrypcje są automatycznie odnawiane, chyba że zostaną anulowane co najmniej 24 godziny przed końcem okresu rozliczeniowego.</li><li>Opłata za odnowienie zostanie pobrana z Twojego konta w ciągu 24 godzin przed końcem okresu, według aktualnej stawki.</li><li>Aby anulować: App Store → Ustawienia → [Twoje imię] → Subskrypcje lub Google Play → Subskrypcje → wybierz plan → Anuluj.</li><li>Zmiany cen będą komunikowane z wyprzedzeniem. Dalsze korzystanie po dacie wejścia w życie oznacza akceptację.</li></ul><p><strong>Bezpłatny okres próbny</strong><br>Płatne plany mogą zawierać bezpłatny okres próbny. Płatność nie jest pobierana do jego zakończenia. Niewykorzystana część przepada przy zakupie. Kwalifikowalność określa Apple lub Google.</p><p><strong>Zwroty</strong><br>Wszystkie zakupy są przetwarzane przez Apple lub Google. Zwroty podlegają ich zasadom. CentryAI nie może przetwarzać zwrotów bezpośrednio.</p>"
       },
       "s6": {
         "title": "6. Dozwolone Użycie",
@@ -386,7 +387,8 @@
           "Używać zautomatyzowanych metod dostępu lub pobierania danych z Aplikacji",
           "Ingerować w infrastrukturę Aplikacji lub dostęp innych użytkowników",
           "Wprowadzać w błąd co do własnej tożsamości lub powiązań"
-        ]
+        ],
+        "body": "<p>Zgadzasz się, aby nie:</p><ul><li>Używać Aplikacji do jakichkolwiek celów niezgodnych z prawem</li><li>Próbować dekompilować, odtwarzać kodu źródłowego ani w żaden sposób manipulować przy Aplikacji</li><li>Udostępniać danych logowania osobom trzecim</li><li>Używać zautomatyzowanych metod dostępu lub pobierania danych z Aplikacji</li><li>Ingerować w infrastrukturę Aplikacji lub dostęp innych użytkowników</li><li>Wprowadzać w błąd co do własnej tożsamości lub powiązań</li></ul>"
       },
       "s7": {
         "title": "7. Własność Intelektualna",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Zastrzeżenia",
         "body1": "CentryAI dostarczane jest w formie \"tak jak jest\" oraz w miarę dostępności, bez żadnych gwarancji, wyraźnych czy dorozumianych. Nie gwarantujemy, że wykrywanie subskrypcji będzie kompletne lub bezbłędne.",
-        "body2": "CentryAI nie jest doradcą finansowym. Nic w Aplikacji nie stanowi porady finansowej, prawnej ani zawodowej. Decyzje o anulowaniu należą wyłącznie do Ciebie."
+        "body2": "CentryAI nie jest doradcą finansowym. Nic w Aplikacji nie stanowi porady finansowej, prawnej ani zawodowej. Decyzje o anulowaniu należą wyłącznie do Ciebie.",
+        "body": "<p>CentryAI dostarczane jest w formie \"tak jak jest\" oraz w miarę dostępności, bez żadnych gwarancji, wyraźnych czy dorozumianych. Nie gwarantujemy, że wykrywanie subskrypcji będzie kompletne lub bezbłędne.</p><p>CentryAI nie jest doradcą finansowym. Nic w Aplikacji nie stanowi porady finansowej, prawnej ani zawodowej. Decyzje o anulowaniu należą wyłącznie do Ciebie.</p>"
       },
       "s9": {
         "title": "9. Ograniczenie Odpowiedzialności",
         "body1": "W maksymalnym zakresie dozwolonym przez obowiązujące prawo, CentryAI, Inc. nie ponosi odpowiedzialności za żadne pośrednie, przypadkowe, specjalne lub wynikowe szkody wynikające z użytkowania lub niemożności używania Aplikacji.",
-        "body2": "Nasza całkowita odpowiedzialność wobec Ciebie za jakiekolwiek roszczenia wynikające z niniejszych Warunków nie przekroczy kwoty, którą nam zapłaciłeś w ciągu dwunastu miesięcy poprzedzających roszczenie."
+        "body2": "Nasza całkowita odpowiedzialność wobec Ciebie za jakiekolwiek roszczenia wynikające z niniejszych Warunków nie przekroczy kwoty, którą nam zapłaciłeś w ciągu dwunastu miesięcy poprzedzających roszczenie.",
+        "body": "<p>W maksymalnym zakresie dozwolonym przez obowiązujące prawo, CentryAI, Inc. nie ponosi odpowiedzialności za żadne pośrednie, przypadkowe, specjalne lub wynikowe szkody wynikające z użytkowania lub niemożności używania Aplikacji.</p><p>Nasza całkowita odpowiedzialność wobec Ciebie za jakiekolwiek roszczenia wynikające z niniejszych Warunków nie przekroczy kwoty, którą nam zapłaciłeś w ciągu dwunastu miesięcy poprzedzających roszczenie.</p>"
       },
       "s10": {
         "title": "10. Zakończenie",

@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium là gói đăng ký hàng tháng hoặc hàng năm. Gói đăng ký Pro sẽ tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước ngày gia hạn. Bạn có thể quản lý hoặc hủy đăng ký Pro của mình thông qua cài đặt tài khoản App Store hoặc Google Play.",
         "refundsTitle": "Hoàn tiền",
-        "refundsBody": "Yêu cầu hoàn tiền tuân theo các chính sách của Apple App Store hoặc Google Play. Chúng tôi sẽ hợp tác với các yêu cầu hoàn tiền được thực hiện trong vòng 14 ngày kể từ ngày mua ban đầu khi có thể thực hiện được về mặt kỹ thuật."
+        "refundsBody": "Yêu cầu hoàn tiền tuân theo các chính sách của Apple App Store hoặc Google Play. Chúng tôi sẽ hợp tác với các yêu cầu hoàn tiền được thực hiện trong vòng 14 ngày kể từ ngày mua ban đầu khi có thể thực hiện được về mặt kỹ thuật.",
+        "body": "<p><strong>Cấp độ Miễn phí</strong><br>Các tính năng cốt lõi của CentryAI — phát hiện đăng ký và bảng điều khiển — được cung cấp miễn phí.</p><p><strong>CentryAI Premium</strong><br>CentryAI cung cấp các gói Pro và Premium hàng tháng với giá hiển thị trên App Store hoặc Google Play tại thời điểm mua.</p><ul><li>Thanh toán được tính vào Apple ID hoặc tài khoản Google Play của bạn khi xác nhận mua hàng.</li><li>Các gói đăng ký tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc kỳ thanh toán hiện tại.</li><li>Tài khoản của bạn sẽ bị tính phí gia hạn trong vòng 24 giờ trước khi kết thúc kỳ hiện tại theo mức giá hiện hành.</li><li>Để hủy: App Store → Cài đặt → [tên của bạn] → Đăng ký, hoặc Google Play → Đăng ký → chọn gói → Hủy.</li><li>Thay đổi giá sẽ được thông báo trước. Tiếp tục sử dụng sau ngày có hiệu lực đồng nghĩa với việc chấp nhận giá mới.</li></ul><p><strong>Dùng thử miễn phí</strong><br>Các gói trả phí có thể bao gồm thời gian dùng thử miễn phí. Không tính phí cho đến khi hết thời gian dùng thử. Phần dùng thử chưa sử dụng sẽ bị mất khi mua đăng ký. Điều kiện dùng thử do Apple hoặc Google quyết định.</p><p><strong>Hoàn tiền</strong><br>Tất cả các giao dịch mua được xử lý bởi Apple hoặc Google. Yêu cầu hoàn tiền được điều chỉnh bởi chính sách của họ. CentryAI không thể xử lý hoàn tiền trực tiếp.</p>"
       },
       "s6": {
         "title": "6. Việc Sử dụng Được Chấp nhận",
@@ -386,7 +387,8 @@
           "Sử dụng các phương tiện tự động để truy cập hoặc thu thập dữ liệu từ Ứng dụng",
           "Can thiệp vào cơ sở hạ tầng của Ứng dụng hoặc quyền truy cập của những người dùng khác",
           "Xuyên tạc danh tính hoặc mối liên kết của bạn"
-        ]
+        ],
+        "body": "<p>Bạn đồng ý không:</p><ul><li>Sử dụng Ứng dụng cho bất kỳ mục đích bất hợp pháp nào</li><li>Cố gắng đảo ngược kỹ thuật, dịch ngược hoặc tháo rời Ứng dụng</li><li>Chia sẻ thông tin đăng nhập tài khoản của bạn với các bên thứ ba</li><li>Sử dụng các phương tiện tự động để truy cập hoặc thu thập dữ liệu từ Ứng dụng</li><li>Can thiệp vào cơ sở hạ tầng của Ứng dụng hoặc quyền truy cập của những người dùng khác</li><li>Xuyên tạc danh tính hoặc mối liên kết của bạn</li></ul>"
       },
       "s7": {
         "title": "7. Sở hữu Trí tuệ",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Tuyên bố Từ chối Trách nhiệm",
         "body1": "CentryAI được cung cấp trên cơ sở \"nguyên trạng\" và \"hiện có\" mà không có bất kỳ loại bảo hành nào, dù rõ ràng hay ngụ ý. Chúng tôi không đảm bảo rằng tính năng phát hiện đăng ký sẽ hoàn chỉnh hoặc không có lỗi.",
-        "body2": "CentryAI không phải là một cố vấn tài chính. Không có nội dung nào trong Ứng dụng cấu thành lời khuyên về tài chính, pháp lý hoặc chuyên môn. Các quyết định hủy đăng ký là do bạn hoàn toàn quyết định."
+        "body2": "CentryAI không phải là một cố vấn tài chính. Không có nội dung nào trong Ứng dụng cấu thành lời khuyên về tài chính, pháp lý hoặc chuyên môn. Các quyết định hủy đăng ký là do bạn hoàn toàn quyết định.",
+        "body": "<p>CentryAI được cung cấp trên cơ sở \"nguyên trạng\" và \"hiện có\" mà không có bất kỳ loại bảo hành nào, dù rõ ràng hay ngụ ý. Chúng tôi không đảm bảo rằng tính năng phát hiện đăng ký sẽ hoàn chỉnh hoặc không có lỗi.</p><p>CentryAI không phải là một cố vấn tài chính. Không có nội dung nào trong Ứng dụng cấu thành lời khuyên về tài chính, pháp lý hoặc chuyên môn. Các quyết định hủy đăng ký là do bạn hoàn toàn quyết định.</p>"
       },
       "s9": {
         "title": "9. Giới hạn Trách nhiệm",
         "body1": "Đến mức tối đa được pháp luật hiện hành cho phép, CentryAI, Inc. sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, do hậu quả hoặc trừng phạt nào phát sinh từ việc bạn sử dụng hoặc không thể sử dụng Ứng dụng.",
-        "body2": "Tổng trách nhiệm pháp lý của chúng tôi đối với bạn cho bất kỳ khiếu nại nào phát sinh từ các Điều khoản này sẽ không vượt quá số tiền bạn đã thanh toán cho chúng tôi trong mười hai tháng trước khi có khiếu nại."
+        "body2": "Tổng trách nhiệm pháp lý của chúng tôi đối với bạn cho bất kỳ khiếu nại nào phát sinh từ các Điều khoản này sẽ không vượt quá số tiền bạn đã thanh toán cho chúng tôi trong mười hai tháng trước khi có khiếu nại.",
+        "body": "<p>Đến mức tối đa được pháp luật hiện hành cho phép, CentryAI, Inc. sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, do hậu quả hoặc trừng phạt nào phát sinh từ việc bạn sử dụng hoặc không thể sử dụng Ứng dụng.</p><p>Tổng trách nhiệm pháp lý của chúng tôi đối với bạn cho bất kỳ khiếu nại nào phát sinh từ các Điều khoản này sẽ không vượt quá số tiền bạn đã thanh toán cho chúng tôi trong mười hai tháng trước khi có khiếu nại.</p>"
       },
       "s10": {
         "title": "10. Chấm dứt",

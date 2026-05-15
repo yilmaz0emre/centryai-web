@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium is een maandelijks of jaarlijks abonnement. Pro-abonnementen worden automatisch verlengd, tenzij ze ten minste 24 uur voor de verlengingsdatum worden geannuleerd. Je kunt je Pro-abonnement beheren of annuleren via je App Store- of Google Play-accountinstellingen.",
         "refundsTitle": "Terugbetalingen",
-        "refundsBody": "Terugbetalingsverzoeken vallen onder het beleid van de Apple App Store of Google Play. We zullen meewerken aan terugbetalingsverzoeken die binnen 14 dagen na de eerste aankoop zijn ingediend, waar dit technisch mogelijk is."
+        "refundsBody": "Terugbetalingsverzoeken vallen onder het beleid van de Apple App Store of Google Play. We zullen meewerken aan terugbetalingsverzoeken die binnen 14 dagen na de eerste aankoop zijn ingediend, waar dit technisch mogelijk is.",
+        "body": "<p><strong>Gratis Niveau</strong><br>De basisfuncties van CentryAI — abonnementendetectie en dashboard — zijn kosteloos beschikbaar.</p><p><strong>CentryAI Premium</strong><br>CentryAI biedt Pro- en Premium-maandabonnementen aan tegen de prijzen in de App Store of Google Play op het moment van aankoop.</p><ul><li>De betaling wordt bij bevestiging van de aankoop in rekening gebracht op uw Apple ID of Google Play-account.</li><li>Abonnementen worden automatisch verlengd tenzij ze ten minste 24 uur voor het einde van de factureringsperiode worden opgezegd.</li><li>Uw account wordt binnen 24 uur voor het einde van de periode in rekening gebracht voor verlenging tegen het geldende tarief.</li><li>Om op te zeggen: App Store → Instellingen → [uw naam] → Abonnementen, of Google Play → Abonnementen → plan → Annuleren.</li><li>Prijswijzigingen worden van tevoren gecommuniceerd. Voortgezet gebruik na de ingangsdatum houdt aanvaarding in.</li></ul><p><strong>Gratis proefperiode</strong><br>Betaalde abonnementen kunnen een gratis proefperiode bevatten. Er wordt geen betaling in rekening gebracht tot het einde. Ongebruikt deel vervalt bij aankoop. De geschiktheid wordt bepaald door Apple of Google.</p><p><strong>Terugbetalingen</strong><br>Alle aankopen worden verwerkt door Apple of Google. Terugbetalingen vallen onder hun beleid. CentryAI kan terugbetalingen niet rechtstreeks verwerken.</p>"
       },
       "s6": {
         "title": "6. Aanvaardbaar Gebruik",
@@ -386,7 +387,8 @@
           "Geautomatiseerde middelen te gebruiken om toegang te krijgen tot of gegevens van de App te scrapen",
           "De infrastructuur van de App of de toegang van andere gebruikers te verstoren",
           "Je identiteit of verwantschap verkeerd voor te stellen"
-        ]
+        ],
+        "body": "<p>Je gaat ermee akkoord om niet:</p><ul><li>De App voor onwettige doeleinden te gebruiken</li><li>Te proberen de App te reverse-engineeren, decompileren of demonteren</li><li>Je inloggegevens met derden te delen</li><li>Geautomatiseerde middelen te gebruiken om toegang te krijgen tot of gegevens van de App te scrapen</li><li>De infrastructuur van de App of de toegang van andere gebruikers te verstoren</li><li>Je identiteit of verwantschap verkeerd voor te stellen</li></ul>"
       },
       "s7": {
         "title": "7. Intellectueel Eigendom",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Disclaimer",
         "body1": "CentryAI wordt \"zoals het is\" en \"zoals beschikbaar\" geleverd zonder enige vorm van garantie, expliciet of impliciet. We garanderen niet dat de detectie van abonnementen volledig of foutloos zal zijn.",
-        "body2": "CentryAI is geen financieel adviseur. Niets in de App vormt financieel, juridisch of professioneel advies. Annuleringsbeslissingen zijn geheel aan jou."
+        "body2": "CentryAI is geen financieel adviseur. Niets in de App vormt financieel, juridisch of professioneel advies. Annuleringsbeslissingen zijn geheel aan jou.",
+        "body": "<p>CentryAI wordt \"zoals het is\" en \"zoals beschikbaar\" geleverd zonder enige vorm van garantie, expliciet of impliciet. We garanderen niet dat de detectie van abonnementen volledig of foutloos zal zijn.</p><p>CentryAI is geen financieel adviseur. Niets in de App vormt financieel, juridisch of professioneel advies. Annuleringsbeslissingen zijn geheel aan jou.</p>"
       },
       "s9": {
         "title": "9. Beperking van Aansprakelijkheid",
         "body1": "Voor zover maximaal toegestaan door de toepasselijke wetgeving, is CentryAI, Inc. niet aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade die voortvloeit uit jouw gebruik of het onvermogen om de App te gebruiken.",
-        "body2": "Onze totale aansprakelijkheid jegens jou voor elke claim die voortvloeit uit deze Voorwaarden zal het bedrag dat je ons in de twaalf maanden voorafgaand aan de claim hebt betaald, niet overschrijden."
+        "body2": "Onze totale aansprakelijkheid jegens jou voor elke claim die voortvloeit uit deze Voorwaarden zal het bedrag dat je ons in de twaalf maanden voorafgaand aan de claim hebt betaald, niet overschrijden.",
+        "body": "<p>Voor zover maximaal toegestaan door de toepasselijke wetgeving, is CentryAI, Inc. niet aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade die voortvloeit uit jouw gebruik of het onvermogen om de App te gebruiken.</p><p>Onze totale aansprakelijkheid jegens jou voor elke claim die voortvloeit uit deze Voorwaarden zal het bedrag dat je ons in de twaalf maanden voorafgaand aan de claim hebt betaald, niet overschrijden.</p>"
       },
       "s10": {
         "title": "10. Beëindiging",

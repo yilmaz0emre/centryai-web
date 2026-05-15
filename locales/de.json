@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium ist ein monatliches oder jährliches Abonnement. Pro-Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor dem Verlängerungsdatum gekündigt werden. Sie können Ihr Pro-Abonnement in Ihren App Store- oder Google Play-Kontoeinstellungen verwalten oder kündigen.",
         "refundsTitle": "Rückerstattungen",
-        "refundsBody": "Rückerstattungsanträge unterliegen den Richtlinien des Apple App Store oder Google Play. Wir kooperieren bei Rückerstattungsanträgen, die innerhalb von 14 Tagen nach dem Erstkauf gestellt werden, sofern technisch möglich."
+        "refundsBody": "Rückerstattungsanträge unterliegen den Richtlinien des Apple App Store oder Google Play. Wir kooperieren bei Rückerstattungsanträgen, die innerhalb von 14 Tagen nach dem Erstkauf gestellt werden, sofern technisch möglich.",
+        "body": "<p><strong>Kostenlose Stufe</strong><br>Die Kernfunktionen von CentryAI — Abo-Erkennung und Dashboard — stehen kostenlos zur Verfügung.</p><p><strong>CentryAI Premium</strong><br>CentryAI bietet Pro- und Premium-Monatspläne zu den im App Store oder Google Play zum Kaufzeitpunkt angezeigten Preisen an.</p><ul><li>Die Zahlung wird Ihrer Apple-ID oder Ihrem Google-Play-Konto bei Kaufbestätigung belastet.</li><li>Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Abrechnungszeitraums gekündigt werden.</li><li>Ihr Konto wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums zum dann gültigen Abonnementpreis belastet.</li><li>Zum Kündigen: App Store → Einstellungen → [Ihr Name] → Abonnements oder Google Play → Abonnements → Plan auswählen → Kündigen.</li><li>Preisänderungen werden im Voraus mitgeteilt. Die weitere Nutzung nach Inkrafttreten gilt als Zustimmung.</li></ul><p><strong>Kostenlose Testphase</strong><br>Kostenpflichtige Pläne können eine Testphase beinhalten. Es wird keine Gebühr erhoben, bis die Testphase endet. Nicht genutzte Testphasenteile verfallen beim Kauf. Die Berechtigung wird von Apple oder Google festgelegt.</p><p><strong>Rückerstattungen</strong><br>Alle Käufe werden von Apple oder Google abgewickelt. Rückerstattungsanfragen unterliegen den jeweiligen Richtlinien. CentryAI kann Rückerstattungen nicht direkt bearbeiten.</p>"
       },
       "s6": {
         "title": "6. Zulässige Nutzung",
@@ -386,7 +387,8 @@
           "Automatisierte Mittel zum Zugriff auf oder zum Scrapen der App zu verwenden",
           "Die Infrastruktur der App oder den Zugriff anderer Nutzer zu stören",
           "Ihre Identität oder Zugehörigkeit falsch darzustellen"
-        ]
+        ],
+        "body": "<p>Sie stimmen zu, Folgendes zu unterlassen:</p><ul><li>Die App für rechtswidrige Zwecke zu nutzen</li><li>Zu versuchen, die App zurückzuentwickeln, zu dekompilieren oder zu disassemblieren</li><li>Ihre Kontodaten mit Dritten zu teilen</li><li>Automatisierte Mittel zum Zugriff auf oder zum Scrapen der App zu verwenden</li><li>Die Infrastruktur der App oder den Zugriff anderer Nutzer zu stören</li><li>Ihre Identität oder Zugehörigkeit falsch darzustellen</li></ul>"
       },
       "s7": {
         "title": "7. Geistiges Eigentum",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Haftungsausschluss",
         "body1": "CentryAI wird \"wie besehen\" und \"wie verfügbar\" ohne ausdrückliche oder stillschweigende Garantien jeglicher Art bereitgestellt. Wir garantieren nicht, dass die Abo-Erkennung vollständig oder fehlerfrei ist.",
-        "body2": "CentryAI ist kein Finanzberater. Nichts in der App stellt eine finanzielle, rechtliche oder professionelle Beratung dar. Kündigungsentscheidungen treffen Sie allein."
+        "body2": "CentryAI ist kein Finanzberater. Nichts in der App stellt eine finanzielle, rechtliche oder professionelle Beratung dar. Kündigungsentscheidungen treffen Sie allein.",
+        "body": "<p>CentryAI wird \"wie besehen\" und \"wie verfügbar\" ohne ausdrückliche oder stillschweigende Garantien jeglicher Art bereitgestellt. Wir garantieren nicht, dass die Abo-Erkennung vollständig oder fehlerfrei ist.</p><p>CentryAI ist kein Finanzberater. Nichts in der App stellt eine finanzielle, rechtliche oder professionelle Beratung dar. Kündigungsentscheidungen treffen Sie allein.</p>"
       },
       "s9": {
         "title": "9. Haftungsbeschränkung",
         "body1": "Soweit gesetzlich zulässig, haftet CentryAI, Inc. nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung oder der Unmöglichkeit der Nutzung der App entstehen.",
-        "body2": "Unsere Gesamthaftung Ihnen gegenüber für Ansprüche aus diesen Bedingungen übersteigt nicht den Betrag, den Sie in den zwölf Monaten vor dem Anspruch an uns gezahlt haben."
+        "body2": "Unsere Gesamthaftung Ihnen gegenüber für Ansprüche aus diesen Bedingungen übersteigt nicht den Betrag, den Sie in den zwölf Monaten vor dem Anspruch an uns gezahlt haben.",
+        "body": "<p>Soweit gesetzlich zulässig, haftet CentryAI, Inc. nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung oder der Unmöglichkeit der Nutzung der App entstehen.</p><p>Unsere Gesamthaftung Ihnen gegenüber für Ansprüche aus diesen Bedingungen übersteigt nicht den Betrag, den Sie in den zwölf Monaten vor dem Anspruch an uns gezahlt haben.</p>"
       },
       "s10": {
         "title": "10. Kündigung",

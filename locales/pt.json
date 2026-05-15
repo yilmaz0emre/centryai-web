@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "O CentryAI Premium é uma assinatura mensal ou anual. As assinaturas Pro são renovadas automaticamente, a menos que sejam canceladas pelo menos 24 horas antes da data de renovação. Você pode gerenciar ou cancelar sua assinatura Pro nas configurações da sua conta da App Store ou do Google Play.",
         "refundsTitle": "Reembolsos",
-        "refundsBody": "As solicitações de reembolso são regidas pelas políticas da Apple App Store ou do Google Play. Cooperaremos com as solicitações de reembolso feitas dentro de 14 dias após a compra inicial, quando for tecnicamente possível."
+        "refundsBody": "As solicitações de reembolso são regidas pelas políticas da Apple App Store ou do Google Play. Cooperaremos com as solicitações de reembolso feitas dentro de 14 dias após a compra inicial, quando for tecnicamente possível.",
+        "body": "<p><strong>Nível Gratuito</strong><br>Os principais recursos do CentryAI — detecção de assinatura e painel — estão disponíveis sem custo.</p><p><strong>CentryAI Premium</strong><br>O CentryAI oferece planos Pro e Premium pelos preços exibidos na App Store ou Google Play no momento da compra.</p><ul><li>O pagamento é cobrado no seu Apple ID ou conta do Google Play na confirmação da compra.</li><li>As assinaturas são renovadas automaticamente, salvo cancelamento pelo menos 24 horas antes do término do período de cobrança.</li><li>Sua conta será cobrada pela renovação dentro de 24 horas antes do término do período, à taxa de assinatura vigente.</li><li>Para cancelar: App Store → Configurações → [seu nome] → Assinaturas, ou Google Play → Assinaturas → plano → Cancelar.</li><li>Alterações de preço serão comunicadas com antecedência. O uso continuado após a data de vigência constitui aceitação.</li></ul><p><strong>Período de teste gratuito</strong><br>Os planos pagos podem incluir um período de teste. O pagamento não é cobrado até o término. A parte não utilizada é perdida na compra. A elegibilidade é determinada pela Apple ou Google.</p><p><strong>Reembolsos</strong><br>Todas as compras são processadas pela Apple ou Google. Os reembolsos regem-se pelas suas políticas. O CentryAI não pode processar reembolsos diretamente.</p>"
       },
       "s6": {
         "title": "6. Uso Aceitável",
@@ -386,7 +387,8 @@
           "Usar meios automatizados para acessar ou extrair dados do Aplicativo",
           "Interferir na infraestrutura do Aplicativo ou no acesso de outros usuários",
           "Distorcer sua identidade ou afiliação"
-        ]
+        ],
+        "body": "<p>Você concorda em não:</p><ul><li>Usar o Aplicativo para qualquer propósito ilegal</li><li>Tentar fazer engenharia reversa, descompilar ou desmontar o Aplicativo</li><li>Compartilhar as credenciais da sua conta com terceiros</li><li>Usar meios automatizados para acessar ou extrair dados do Aplicativo</li><li>Interferir na infraestrutura do Aplicativo ou no acesso de outros usuários</li><li>Distorcer sua identidade ou afiliação</li></ul>"
       },
       "s7": {
         "title": "7. Propriedade Intelectual",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Isenções de Responsabilidade",
         "body1": "O CentryAI é fornecido \"como está\" e \"conforme disponível\" sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que a detecção de assinatura seja completa ou livre de erros.",
-        "body2": "O CentryAI não é um consultor financeiro. Nada no Aplicativo constitui aconselhamento financeiro, legal ou profissional. As decisões de cancelamento são suas."
+        "body2": "O CentryAI não é um consultor financeiro. Nada no Aplicativo constitui aconselhamento financeiro, legal ou profissional. As decisões de cancelamento são suas.",
+        "body": "<p>O CentryAI é fornecido \"como está\" e \"conforme disponível\" sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que a detecção de assinatura seja completa ou livre de erros.</p><p>O CentryAI não é um consultor financeiro. Nada no Aplicativo constitui aconselhamento financeiro, legal ou profissional. As decisões de cancelamento são suas.</p>"
       },
       "s9": {
         "title": "9. Limitação de Responsabilidade",
         "body1": "Na extensão máxima permitida pela lei aplicável, a CentryAI, Inc. não será responsável por quaisquer danos indiretos, incidentais, especiais, consequentes ou punitivos decorrentes do uso ou da incapacidade de usar o Aplicativo.",
-        "body2": "Nossa responsabilidade total para com você por qualquer reclamação decorrente destes Termos não excederá o valor que você nos pagou nos doze meses anteriores à reclamação."
+        "body2": "Nossa responsabilidade total para com você por qualquer reclamação decorrente destes Termos não excederá o valor que você nos pagou nos doze meses anteriores à reclamação.",
+        "body": "<p>Na extensão máxima permitida pela lei aplicável, a CentryAI, Inc. não será responsável por quaisquer danos indiretos, incidentais, especiais, consequentes ou punitivos decorrentes do uso ou da incapacidade de usar o Aplicativo.</p><p>Nossa responsabilidade total para com você por qualquer reclamação decorrente destes Termos não excederá o valor que você nos pagou nos doze meses anteriores à reclamação.</p>"
       },
       "s10": {
         "title": "10. Rescisão",

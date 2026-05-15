@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium är en månatlig eller årlig prenumeration. Pro-prenumerationer förnyas automatiskt om de inte avbryts minst 24 timmar före förnyelsedatumet. Du kan hantera eller avbryta din Pro-prenumeration via dina kontoinställningar i App Store eller Google Play.",
         "refundsTitle": "Återbetalningar",
-        "refundsBody": "Återbetalningsförfrågningar är föremål för policyerna för Apple App Store eller Google Play. Vi kommer att samarbeta med återbetalningsförfrågningar som görs inom 14 dagar efter det ursprungliga köpet där det är tekniskt möjligt."
+        "refundsBody": "Återbetalningsförfrågningar är föremål för policyerna för Apple App Store eller Google Play. Vi kommer att samarbeta med återbetalningsförfrågningar som görs inom 14 dagar efter det ursprungliga köpet där det är tekniskt möjligt.",
+        "body": "<p><strong>Gratis nivå</strong><br>CentryAIs kärnfunktioner — prenumerationsdetektering och översikt — är tillgängliga utan kostnad.</p><p><strong>CentryAI Premium</strong><br>CentryAI erbjuder Pro- och Premium-månadsabonnemang till priserna i App Store eller Google Play vid köptillfället.</p><ul><li>Betalningen debiteras ditt Apple-ID eller Google Play-konto vid köpbekräftelse.</li><li>Abonnemang förnyas automatiskt om de inte avbryts minst 24 timmar innan den aktuella perioden avslutas.</li><li>Ditt konto debiteras för förnyelse inom 24 timmar innan periodens slut till gällande abonnemangspris.</li><li>För att avsluta: App Store → Inställningar → [ditt namn] → Prenumerationer, eller Google Play → Prenumerationer → välj plan → Avbryt.</li><li>Prisändringar meddelas i förväg. Fortsatt användning efter ikraftträdandedatumet innebär godkännande.</li></ul><p><strong>Gratis provperiod</strong><br>Betalda planer kan inkludera en gratis provperiod. Betalning debiteras inte förrän provperioden avslutas. Oanvänd del förfaller vid köp. Rätt till provperiod bestäms av Apple eller Google.</p><p><strong>Återbetalningar</strong><br>Alla köp behandlas av Apple eller Google. Återbetalningar regleras av deras policyer. CentryAI kan inte behandla återbetalningar direkt.</p>"
       },
       "s6": {
         "title": "6. Acceptabel användning",
@@ -386,7 +387,8 @@
           "Använda automatiserade metoder för att komma åt eller skrapa data från appen",
           "Störa appens infrastruktur eller andra användares åtkomst",
           "Föreställa din identitet eller tillhörighet felaktigt"
-        ]
+        ],
+        "body": "<p>Du samtycker till att inte:</p><ul><li>Använda appen för några olagliga ändamål</li><li>Försöka bakåtkompilera, dekompilera eller demontera appen</li><li>Dela dina kontouppgifter med tredje part</li><li>Använda automatiserade metoder för att komma åt eller skrapa data från appen</li><li>Störa appens infrastruktur eller andra användares åtkomst</li><li>Föreställa din identitet eller tillhörighet felaktigt</li></ul>"
       },
       "s7": {
         "title": "7. Immateriella rättigheter",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Friskrivning",
         "body1": "CentryAI tillhandahålls \"i befintligt skick\" och \"som tillgängligt\" utan någon garanti av något slag, varken uttrycklig eller underförstådd. Vi garanterar inte att prenumerationsdetekteringen kommer att vara komplett eller felfri.",
-        "body2": "CentryAI är inte en finansiell rådgivare. Ingenting i appen utgör ekonomisk, juridisk eller professionell rådgivning. Avbokningsbeslut är helt och hållet dina."
+        "body2": "CentryAI är inte en finansiell rådgivare. Ingenting i appen utgör ekonomisk, juridisk eller professionell rådgivning. Avbokningsbeslut är helt och hållet dina.",
+        "body": "<p>CentryAI tillhandahålls \"i befintligt skick\" och \"som tillgängligt\" utan någon garanti av något slag, varken uttrycklig eller underförstådd. Vi garanterar inte att prenumerationsdetekteringen kommer att vara komplett eller felfri.</p><p>CentryAI är inte en finansiell rådgivare. Ingenting i appen utgör ekonomisk, juridisk eller professionell rådgivning. Avbokningsbeslut är helt och hållet dina.</p>"
       },
       "s9": {
         "title": "9. Ansvarsbegränsning",
         "body1": "I den maximala utsträckning som tillåts enligt tillämplig lag ska CentryAI, Inc. inte vara ansvarig för några indirekta, tillfälliga, speciella, följd- eller straffskador som uppstår från din användning eller oförmåga att använda appen.",
-        "body2": "Vårt totala ansvar gentemot dig för eventuella krav som uppstår från dessa villkor kommer inte att överstiga det belopp du har betalat oss under de tolv månaderna före kravet."
+        "body2": "Vårt totala ansvar gentemot dig för eventuella krav som uppstår från dessa villkor kommer inte att överstiga det belopp du har betalat oss under de tolv månaderna före kravet.",
+        "body": "<p>I den maximala utsträckning som tillåts enligt tillämplig lag ska CentryAI, Inc. inte vara ansvarig för några indirekta, tillfälliga, speciella, följd- eller straffskador som uppstår från din användning eller oförmåga att använda appen.</p><p>Vårt totala ansvar gentemot dig för eventuella krav som uppstår från dessa villkor kommer inte att överstiga det belopp du har betalat oss under de tolv månaderna före kravet.</p>"
       },
       "s10": {
         "title": "10. Uppsägning",
