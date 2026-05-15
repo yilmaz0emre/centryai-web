@@ -467,7 +467,8 @@
         ],
         "noAds": "Vi använder inte din data för reklam, och vi kommer under inga omständigheter att sälja eller hyra ut din personliga information till tredje part.",
         "aiNote": "🤖 AI / Maskininlärning: Vi använder strikt inte Google Workspace API:er för att utveckla, förbättra eller träna AI-modeller.",
-        "googlePolicy": "CentryAIs användning och överföring till någon annan app av information som erhållits från Google API:er kommer att följa Google API Services User Data Policy, inklusive kraven på begränsad användning."
+        "googlePolicy": "CentryAIs användning och överföring till någon annan app av information som erhållits från Google API:er kommer att följa Google API Services User Data Policy, inklusive kraven på begränsad användning.",
+        "body": "<p>Vi använder informationen vi samlar in för att:</p><ul><li>Upptäcka och visa dina återkommande prenumerationer</li><li>Identifiera zombieprenumerationer baserat på användningsmönster</li><li>Skicka förnyelsepåminnelser</li><li>Ge kundsupport</li><li>Förbättra appens prestanda och funktioner</li><li>Följa juridiska skyldigheter</li></ul>"
       },
       "s3": {
         "title": "3. Datalagring & Säkerhet",

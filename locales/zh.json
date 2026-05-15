@@ -467,7 +467,8 @@
         ],
         "noAds": "我们不将您的数据用于广告，并且在任何情况下我们都不会将您的个人信息出售或出租给第三方。",
         "aiNote": "🤖 AI / 机器学习：我们严格不使用 Google Workspace API 来开发、改进或训练 AI 模型。",
-        "googlePolicy": "CentryAI 对从 Google API 接收到的信息的使用以及向任何其他应用程序的转移将遵守 Google API 服务用户数据政策，包括有限使用要求。"
+        "googlePolicy": "CentryAI 对从 Google API 接收到的信息的使用以及向任何其他应用程序的转移将遵守 Google API 服务用户数据政策，包括有限使用要求。",
+        "body": "<p>我们将收集的信息用于：</p><ul><li>检测并显示您的重复订阅</li><li>根据使用模式识别僵尸订阅</li><li>发送续订提醒</li><li>提供客户支持</li><li>改善应用程序的性能和功能</li><li>遵守法律义务</li></ul>"
       },
       "s3": {
         "title": "3. 数据存储和安全",

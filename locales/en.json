@@ -467,7 +467,8 @@
         ],
         "noAds": "We do not use your data for advertising, and we do not sell or rent your personal information to third parties under any circumstances.",
         "aiNote": "🤖 AI / Machine Learning: We strictly do not use Google Workspace APIs (including Gmail data) to develop, improve, or train generalized AI and/or Machine Learning models.",
-        "googlePolicy": "CentryAI's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements."
+        "googlePolicy": "CentryAI's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
+        "body": "<p>We use the information we collect to:</p><ul><li>Detect and display your recurring subscriptions</li><li>Identify zombie subscriptions based on usage patterns</li><li>Send renewal reminders (if enabled)</li><li>Provide customer support</li><li>Improve app performance and features</li><li>Comply with legal obligations</li></ul>"
       },
       "s3": {
         "title": "3. Data Storage and Security",

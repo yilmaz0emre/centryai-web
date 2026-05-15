@@ -467,7 +467,8 @@
         ],
         "noAds": "Kami tidak menggunakan data Anda untuk iklan, dan dalam keadaan apa pun kami tidak akan menjual atau menyewakan informasi pribadi Anda kepada pihak ketiga.",
         "aiNote": "🤖 AI / Pembelajaran Mesin: Kami benar-benar tidak menggunakan API Google Workspace untuk mengembangkan, meningkatkan, atau melatih model AI.",
-        "googlePolicy": "Penggunaan dan transfer informasi yang diterima dari API Google oleh CentryAI ke aplikasi lain mana pun akan mematuhi Kebijakan Data Pengguna Layanan API Google, termasuk persyaratan Penggunaan Terbatas."
+        "googlePolicy": "Penggunaan dan transfer informasi yang diterima dari API Google oleh CentryAI ke aplikasi lain mana pun akan mematuhi Kebijakan Data Pengguna Layanan API Google, termasuk persyaratan Penggunaan Terbatas.",
+        "body": "<p>Kami menggunakan informasi yang kami kumpulkan untuk:</p><ul><li>Mendeteksi dan menampilkan langganan berulang Anda</li><li>Mengidentifikasi langganan zombi berdasarkan pola penggunaan</li><li>Mengirimkan pengingat pembaruan</li><li>Memberikan dukungan pelanggan</li><li>Meningkatkan kinerja dan fitur aplikasi</li><li>Mematuhi kewajiban hukum</li></ul>"
       },
       "s3": {
         "title": "3. Penyimpanan & Keamanan Data",

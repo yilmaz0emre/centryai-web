@@ -467,7 +467,8 @@
         ],
         "noAds": "We gebruiken je gegevens niet voor advertenties en we verkopen of verhuren je persoonlijke informatie onder geen enkele omstandigheid aan derden.",
         "aiNote": "🤖 AI / Machine Learning: We gebruiken de API's van Google Workspace strikt niet om AI-modellen te ontwikkelen, te verbeteren of te trainen.",
-        "googlePolicy": "Het gebruik en de overdracht aan een andere app van informatie die door CentryAI van Google-API's is ontvangen, zal voldoen aan het beleid inzake gebruikersgegevens van Google API Services, inclusief de vereisten voor beperkt gebruik."
+        "googlePolicy": "Het gebruik en de overdracht aan een andere app van informatie die door CentryAI van Google-API's is ontvangen, zal voldoen aan het beleid inzake gebruikersgegevens van Google API Services, inclusief de vereisten voor beperkt gebruik.",
+        "body": "<p>We gebruiken de informatie die we verzamelen om:</p><ul><li>Je terugkerende abonnementen te detecteren en weer te geven</li><li>Zombie-abonnementen te identificeren op basis van gebruikspatronen</li><li>Verlengingsherinneringen te verzenden</li><li>Klantenservice te bieden</li><li>Prestaties en functies van de app te verbeteren</li><li>Aan wettelijke verplichtingen te voldoen</li></ul>"
       },
       "s3": {
         "title": "3. Gegevensopslag en Beveiliging",

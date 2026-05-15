@@ -467,7 +467,8 @@
         ],
         "noAds": "Wir verwenden Ihre Daten nicht für Werbung und verkaufen oder vermieten Ihre persönlichen Daten unter keinen Umständen an Dritte.",
         "aiNote": "🤖 KI / Maschinelles Lernen: Wir verwenden Google Workspace APIs strengstens nicht zur Entwicklung, Verbesserung oder zum Training von KI-Modellen.",
-        "googlePolicy": "Die Nutzung von Informationen, die über Google-APIs empfangen wurden, durch CentryAI entspricht den Google API Services User Data Policy, einschließlich der Anforderungen an die eingeschränkte Nutzung."
+        "googlePolicy": "Die Nutzung von Informationen, die über Google-APIs empfangen wurden, durch CentryAI entspricht den Google API Services User Data Policy, einschließlich der Anforderungen an die eingeschränkte Nutzung.",
+        "body": "<p>Wir verwenden die erfassten Informationen, um:</p><ul><li>Ihre wiederkehrenden Abonnements zu erkennen und anzuzeigen</li><li>Zombie-Abonnements basierend auf Nutzungsmustern zu identifizieren</li><li>Verlängerungserinnerungen zu senden</li><li>Kundensupport zu leisten</li><li>App-Leistung und Funktionen zu verbessern</li><li>Gesetzlichen Verpflichtungen nachzukommen</li></ul>"
       },
       "s3": {
         "title": "3. Datenspeicherung und Sicherheit",

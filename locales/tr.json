@@ -467,7 +467,8 @@
         ],
         "noAds": "Verilerinizi reklam amacıyla kullanmıyoruz ve kişisel bilgilerinizi hiçbir koşulda üçüncü taraflara satmıyor veya kiralamıyoruz.",
         "aiNote": "🤖 Yapay Zeka / Makine Öğrenimi: Google Workspace API'lerini (Gmail verileri dahil) genelleştirilmiş yapay zeka ve/veya Makine Öğrenimi modellerini geliştirmek, iyileştirmek veya eğitmek için kesinlikle kullanmıyoruz.",
-        "googlePolicy": "CentryAI'nin Google API'lerinden aldığı bilgileri kullanması ve başka herhangi bir uygulamaya aktarması, Sınırlı Kullanım gereklilikleri de dahil olmak üzere Google API Hizmetleri Kullanıcı Verileri Politikasına uygun olacaktır."
+        "googlePolicy": "CentryAI'nin Google API'lerinden aldığı bilgileri kullanması ve başka herhangi bir uygulamaya aktarması, Sınırlı Kullanım gereklilikleri de dahil olmak üzere Google API Hizmetleri Kullanıcı Verileri Politikasına uygun olacaktır.",
+        "body": "<p>Topladığımız bilgileri aşağıdaki amaçlarla kullanırız:</p><ul><li>Yinelenen aboneliklerinizi tespit edin ve görüntüleyin</li><li>Kullanım kalıplarına göre zombi aboneliklerini belirleyin</li><li>Yenileme hatırlatıcıları gönder (etkinse)</li><li>Müşteri desteği sağlayın</li><li>Uygulama performansını ve özelliklerini iyileştirin</li><li>Yasal yükümlülüklere uymak</li></ul>"
       },
       "s3": {
         "title": "3. Veri Depolama ve Güvenlik",

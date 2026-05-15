@@ -467,7 +467,8 @@
         ],
         "noAds": "Chúng tôi không sử dụng dữ liệu của bạn để quảng cáo và trong mọi trường hợp, chúng tôi sẽ không bán hoặc cho các bên thứ ba thuê thông tin cá nhân của bạn.",
         "aiNote": "🤖 AI / Máy học: Chúng tôi nghiêm cấm việc sử dụng các API Google Workspace để phát triển, cải thiện hoặc đào tạo các mô hình AI.",
-        "googlePolicy": "Việc CentryAI sử dụng và chuyển giao cho bất kỳ ứng dụng nào khác các thông tin nhận được từ các API của Google sẽ tuân thủ Chính sách Dữ liệu Người dùng Dịch vụ API của Google, bao gồm cả các yêu cầu về Việc Sử dụng Có Hạn chế."
+        "googlePolicy": "Việc CentryAI sử dụng và chuyển giao cho bất kỳ ứng dụng nào khác các thông tin nhận được từ các API của Google sẽ tuân thủ Chính sách Dữ liệu Người dùng Dịch vụ API của Google, bao gồm cả các yêu cầu về Việc Sử dụng Có Hạn chế.",
+        "body": "<p>Chúng tôi sử dụng thông tin chúng tôi thu thập được để:</p><ul><li>Phát hiện và hiển thị các đăng ký định kỳ của bạn</li><li>Xác định các đăng ký zombie dựa trên các mẫu sử dụng</li><li>Gửi các lời nhắc gia hạn</li><li>Cung cấp hỗ trợ khách hàng</li><li>Cải thiện hiệu suất và các tính năng của ứng dụng</li><li>Tuân thủ các nghĩa vụ pháp lý</li></ul>"
       },
       "s3": {
         "title": "3. Lưu trữ & Bảo mật Dữ liệu",
