@@ -331,7 +331,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Nutzungsbedingungen",
-      "subtitle": "Zuletzt aktualisiert: 15. Mai 2026 · Gültig ab: 15. Mai 2026"
+      "subtitle": "Zuletzt aktualisiert: 15. Mai 2026 · Gültig ab: 19. April 2026"
     },
     "toc": {
       "title": "Inhaltsverzeichnis",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: 15. Mai 2026 · Gültig ab: 15. Mai 2026"
+      "subtitle": "Zuletzt aktualisiert: 15. Mai 2026 · Gültig ab: 19. April 2026"
     },
     "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "Geben Sie eine gültige E-Mail ein",
         "titleRequired": "Bitte geben Sie einen kurzen Titel an",
         "messageRequired": "Bitte beschreiben Sie das Problem",
-        "messageTooLong": "Maximal {max} Zeichen"
+        "messageTooLong": "Maximal {max} Zeichen",
+        "submitError": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
       },
       "submitBug": "Fehlerbericht einreichen",
       "submitFeature": "Funktionsanfrage einreichen",

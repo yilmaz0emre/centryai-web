@@ -86,82 +86,70 @@
 
 <div class="page-content">
   <div class="highlight-box">
-    <p><strong>The short version:</strong> CentryAI reads your email to find subscription receipts. We never store your emails, never sell your data, and never connect to your bank. Your data stays on your device by default.</p>
+    <p><strong>The short version:</strong> <span data-i18n="privacy.shortVersion"></span></p>
   </div>
 
   <div class="toc">
     <h3 data-i18n="privacy.toc.title">Table of Contents</h3>
-    <ol>
-      <li><a href="#s1">Information We Collect</a></li>
-      <li><a href="#s2" data-i18n="privacy.toc.items.1">How We Use Your Information</a></li>
-      <li><a href="#s3">Data Storage and Security</a></li>
-      <li><a href="#s4">Third-Party Services</a></li>
-      <li><a href="#s5">Your Rights</a></li>
-      <li><a href="#s6">Children's Privacy</a></li>
-      <li><a href="#s7">Changes to This Policy</a></li>
-      <li><a href="#s8" data-i18n="privacy.toc.items.7">Contact Us</a></li>
-    </ol>
+    <ol id="toc-list"></ol>
   </div>
 
-  <h2 id="s1">1. Information We Collect</h2>
-  <h3>Email Access</h3>
-  <p>To detect your subscriptions, CentryAI requests read-only access to your Gmail or iCloud inbox. We use this access solely to identify subscription confirmation and billing emails. When you initiate a scan, email content (sender address, subject, and body snippets) is transmitted to CentryAI's secure Cloud Functions servers for processing. Only the extracted subscription data (service name, amount, billing cycle, renewal date) is saved to your account — raw email content is not stored after processing completes.</p>
-  <p>For AI-enhanced scanning (Pro feature), email snippets may be processed by Google Gemini AI to improve extraction accuracy. This processing complies with Google's privacy policies and Gmail data is strictly not used to train AI models.</p>
-  <h3>Account Information</h3>
-  <p>CentryAI uses Google Sign-In and Apple Sign-In exclusively — we do not collect or store passwords. When you sign in, we receive your email address and display name from your sign-in provider. We do not collect your phone number or payment card details.</p>
-  <h3>Usage Data</h3>
-  <p>We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. This data cannot be used to identify you.</p>
-  <h3>Device Information</h3>
-  <p>We collect your device timezone, locale, and app version to deliver timely renewal reminders and ensure compatibility.</p>
+  <!-- §1 Information We Collect -->
+  <h2 id="s1" data-i18n="privacy.sections.s1.title">1. Information We Collect</h2>
+  <h3 data-i18n="privacy.sections.s1.emailTitle">Email Access</h3>
+  <p data-i18n="privacy.sections.s1.emailBody"></p>
+  <h3 data-i18n="privacy.sections.s1.accountTitle">Account Information</h3>
+  <p data-i18n="privacy.sections.s1.accountBody"></p>
+  <h3 data-i18n="privacy.sections.s1.usageTitle">Usage Data</h3>
+  <p data-i18n="privacy.sections.s1.usageBody"></p>
+  <h3 data-i18n="privacy.sections.s1.deviceTitle">Device Information</h3>
+  <p data-i18n="privacy.sections.s1.deviceBody"></p>
   <div class="highlight-box" style="margin-top:1.5rem">
-    <p>🔒 <strong>No human will read your email data.</strong> Access is strictly programmatic and automated for the sole purpose of detecting subscriptions.</p>
+    <p data-i18n="privacy.sections.s1.noHumanAccess"></p>
   </div>
 
+  <!-- §2 How We Use Your Information -->
   <h2 id="s2" data-i18n="privacy.sections.s2.title">2. How We Use Your Information</h2>
   <div data-i18n="privacy.sections.s2.body"></div>
-  <p>We do not use your data for advertising, and we do not sell or rent your personal information to third parties under any circumstances.</p>
+  <p data-i18n="privacy.sections.s2.noAds"></p>
   <div class="highlight-box" style="margin-top:1.5rem">
-    <p>🤖 <strong>AI / Machine Learning:</strong> We strictly do not use Google Workspace APIs (including Gmail data) to develop, improve, or train generalized AI and/or Machine Learning models.</p>
+    <p data-i18n="privacy.sections.s2.aiNote"></p>
   </div>
-  <p style="margin-top:1rem">CentryAI's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p style="margin-top:1rem" data-i18n="privacy.sections.s2.googlePolicy"></p>
 
-  <h2 id="s3">3. Data Storage and Security</h2>
-  <p>Your subscription data is stored securely in Firebase Firestore (Google Cloud), a cloud database protected by per-user security rules that prevent any other user from accessing your data.</p>
-  <p>Email content transmitted during inbox scanning is processed in our Cloud Functions and is not retained after processing completes. Only extracted subscription data is stored in your account. AI-enhanced scanning sends email body snippets to Google Gemini; these are processed in compliance with Google's privacy policies and not stored by CentryAI.</p>
-  <p>Our infrastructure uses industry-standard security practices: TLS encryption in transit, Firebase's encryption at rest, and Firebase security rules enforcing strict per-user data isolation.</p>
+  <!-- §3 Data Storage and Security -->
+  <h2 id="s3" data-i18n="privacy.sections.s3.title">3. Data Storage and Security</h2>
+  <p data-i18n="privacy.sections.s3.body1"></p>
+  <p data-i18n="privacy.sections.s3.body2"></p>
+  <p data-i18n="privacy.sections.s3.body3"></p>
 
-  <h2 id="s4">4. Third-Party Services</h2>
-  <p>CentryAI uses a limited number of third-party services:</p>
-  <ul>
-    <li><strong>Google Sign-In / Gmail API</strong> — authentication and inbox scanning (governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>)</li>
-    <li><strong>Apple Sign-In / iCloud</strong> — authentication and inbox scanning (governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's privacy policy</a>)</li>
-    <li><strong>Firebase (Google)</strong> — cloud database (Firestore), authentication, push notifications (FCM), and server-side processing (Cloud Functions)</li>
-    <li><strong>Google Gemini AI</strong> — AI-powered subscription extraction from email snippets (email data not used for AI training)</li>
-    <li><strong>RevenueCat</strong> — in-app subscription billing management (we never handle your payment card details directly)</li>
-    <li><strong>Resend</strong> — transactional email delivery for weekly renewal reminders (your email address is shared only if you opt in to email reminders)</li>
-  </ul>
-  <p>We do not share your personal data with any other third parties.</p>
+  <!-- §4 Third-Party Services -->
+  <h2 id="s4" data-i18n="privacy.sections.s4.title">4. Third-Party Services</h2>
+  <p data-i18n="privacy.sections.s4.intro"></p>
+  <ul id="s4-list"></ul>
+  <p data-i18n="privacy.sections.s4.noShare"></p>
 
-  <h2 id="s5">5. Your Rights</h2>
-  <p>Depending on your jurisdiction, you may have the right to:</p>
-  <ul>
-    <li>Access the personal data we hold about you</li>
-    <li>Request deletion of your account and associated data</li>
-    <li>Export your data in a portable format</li>
-    <li>Opt out of anonymized analytics</li>
-  </ul>
-  <p>To exercise any of these rights, contact us at <a href="mailto:privacy@subradарapp.com">privacy@centryai.app</a>. We will respond within 30 days.</p>
+  <!-- §5 Your Rights -->
+  <h2 id="s5" data-i18n="privacy.sections.s5.title">5. Your Rights</h2>
+  <p data-i18n="privacy.sections.s5.intro"></p>
+  <ul id="s5-list"></ul>
+  <p data-i18n="privacy.sections.s5.contact"></p>
 
-  <h2 id="s6">6. Children's Privacy</h2>
-  <p>CentryAI is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us immediately.</p>
+  <!-- §6 Children's Privacy -->
+  <h2 id="s6" data-i18n="privacy.sections.s6.title">6. Children's Privacy</h2>
+  <p data-i18n="privacy.sections.s6.body"></p>
 
-  <h2 id="s7">7. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of material changes via in-app notification or email at least 14 days before changes take effect. Continued use of the app after the effective date constitutes acceptance of the updated policy.</p>
+  <!-- §7 Changes to This Policy -->
+  <h2 id="s7" data-i18n="privacy.sections.s7.title">7. Changes to This Policy</h2>
+  <p data-i18n="privacy.sections.s7.body"></p>
 
+  <!-- §8 Contact Us -->
   <h2 id="s8" data-i18n="privacy.sections.s8.title">8. Contact Us</h2>
-  <p>Questions about this policy? We're here to help.</p>
-  <p>Email: <a href="mailto:privacy@centryai.app">privacy@centryai.app</a><br/>
-  Support: <a href="support">centryai.app/support</a></p>
+  <p data-i18n="privacy.sections.s8.body"></p>
+  <p>
+    <a href="mailto:privacy@centryai.app"><span data-i18n="privacy.sections.s8.email">Email: privacy@centryai.app</span></a><br/>
+    <a href="support"><span data-i18n="privacy.sections.s8.supportLink">Support: centryai.app/support</span></a>
+  </p>
 </div>
 
 <footer class="footer">
@@ -171,15 +159,54 @@
   </div>
 </footer>
 
-
 <script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  // Update page title
+  var pageTitle = window.t('privacy.pageTitle');
+  if (pageTitle && pageTitle !== 'privacy.pageTitle') document.title = pageTitle;
+
+  // Render all simple data-i18n elements
   document.querySelectorAll('[data-i18n]').forEach(function(el) {
-    const key = el.getAttribute('data-i18n');
-    el.innerHTML = t(key);
+    var key = el.getAttribute('data-i18n');
+    var val = window.t(key);
+    if (val && val !== key) el.innerHTML = val;
   });
+
+  // Render TOC list dynamically
+  var tocAnchors = ['#s1','#s2','#s3','#s4','#s5','#s6','#s7','#s8'];
+  var tocList = document.getElementById('toc-list');
+  if (tocList) {
+    window.tArr('privacy.toc.items').forEach(function(item, i) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = tocAnchors[i] || '#';
+      a.textContent = item;
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+  }
+
+  // Render §4 third-party services list
+  var s4List = document.getElementById('s4-list');
+  if (s4List) {
+    window.tArr('privacy.sections.s4.items').forEach(function(item) {
+      var li = document.createElement('li');
+      li.textContent = item;
+      s4List.appendChild(li);
+    });
+  }
+
+  // Render §5 rights list
+  var s5List = document.getElementById('s5-list');
+  if (s5List) {
+    window.tArr('privacy.sections.s5.items').forEach(function(item) {
+      var li = document.createElement('li');
+      li.textContent = item;
+      s5List.appendChild(li);
+    });
+  }
 });
 </script>
 </body>

@@ -331,7 +331,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Användarvillkor",
-      "subtitle": "Senast uppdaterad: May 15, 2026 · Gäller från: May 15, 2026"
+      "subtitle": "Senast uppdaterad: 15 maj 2026 · Gäller från: 19 april 2026"
     },
     "toc": {
       "title": "Innehållsförteckning",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: May 15, 2026 · Gäller från: May 15, 2026"
+      "subtitle": "Senast uppdaterad: 15 maj 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "Vänligen ange en giltig e-postadress",
         "titleRequired": "Vänligen ange en kort titel",
         "messageRequired": "Vänligen beskriv problemet",
-        "messageTooLong": "Max {max} tecken"
+        "messageTooLong": "Max {max} tecken",
+        "submitError": "Något gick fel. Försök igen."
       },
       "submitBug": "Skicka felrapport",
       "submitFeature": "Skicka funktionsförfrågan",

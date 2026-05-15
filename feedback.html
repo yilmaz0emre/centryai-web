@@ -277,9 +277,9 @@
 const { useState, useRef } = React;
 
 const TYPES = [
-  { id: 'bug', icon: '🐛', label: 'Bug Report', sub: 'Something is broken' },
-  { id: 'feature', icon: '✨', label: 'Feature Request', sub: 'Idea or improvement' },
-  { id: 'other', icon: '💬', label: 'General Feedback', sub: 'Anything else' },
+  { id: 'bug', icon: '🐛', label: window.t('feedback.types.bug.label'), sub: window.t('feedback.types.bug.sub') },
+  { id: 'feature', icon: '✨', label: window.t('feedback.types.feature.label'), sub: window.t('feedback.types.feature.sub') },
+  { id: 'other', icon: '💬', label: window.t('feedback.types.other.label'), sub: window.t('feedback.types.other.sub') },
 ];
 
 const PLATFORMS = ['iOS', 'Android', 'Both', 'Web / Other'];
@@ -303,12 +303,12 @@ function App() {
 
   const validate = () => {
     const e = {};
-    if (!form.name.trim()) e.name = 'Name is required';
-    if (!form.email.trim()) e.email = 'Email is required';
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = 'Enter a valid email';
-    if (!form.title.trim()) e.title = 'Please give a brief title';
-    if (!form.message.trim()) e.message = 'Please describe the issue';
-    else if (msgLen > MAX) e.message = `Maximum ${MAX} characters`;
+    if (!form.name.trim()) e.name = window.t('feedback.form.errors.nameRequired');
+    if (!form.email.trim()) e.email = window.t('feedback.form.errors.emailRequired');
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = window.t('feedback.form.errors.emailInvalid');
+    if (!form.title.trim()) e.title = window.t('feedback.form.errors.titleRequired');
+    if (!form.message.trim()) e.message = window.t('feedback.form.errors.messageRequired');
+    else if (msgLen > MAX) e.message = window.t('feedback.form.errors.messageTooLong', {max: MAX});
     return e;
   };
 
@@ -337,7 +337,7 @@ function App() {
     })
     .catch(error => {
       console.error(error);
-      alert("Something went wrong. Please try again.");
+      alert(window.t('feedback.form.errors.submitError') || "Something went wrong. Please try again.");
       setSubmitting(false);
     });
   };

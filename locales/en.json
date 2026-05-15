@@ -573,7 +573,8 @@
         "emailInvalid": "Enter a valid email",
         "titleRequired": "Please give a brief title",
         "messageRequired": "Please describe the issue",
-        "messageTooLong": "Maximum {max} characters"
+        "messageTooLong": "Maximum {max} characters",
+        "submitError": "Something went wrong. Please try again."
       },
       "submitBug": "Submit Bug Report",
       "submitFeature": "Submit Feature Request",

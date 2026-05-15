@@ -331,7 +331,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Syarat Penggunaan",
-      "subtitle": "Terakhir Diperbarui: May 15, 2026 · Berlaku: May 15, 2026"
+      "subtitle": "Terakhir Diperbarui: 15 Mei 2026 · Berlaku: 19 April 2026"
     },
     "toc": {
       "title": "Daftar Isi",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Kebijakan Privasi",
-      "subtitle": "Terakhir Diperbarui: May 15, 2026 · Berlaku: May 15, 2026"
+      "subtitle": "Terakhir Diperbarui: 15 Mei 2026 · Berlaku: 19 April 2026"
     },
     "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "Masukkan email yang valid",
         "titleRequired": "Harap berikan judul singkat",
         "messageRequired": "Harap jelaskan masalahnya",
-        "messageTooLong": "Maksimum {max} karakter"
+        "messageTooLong": "Maksimum {max} karakter",
+        "submitError": "Terjadi kesalahan. Silakan coba lagi."
       },
       "submitBug": "Kirim Laporan Bug",
       "submitFeature": "Kirim Permintaan Fitur",

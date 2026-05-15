@@ -425,7 +425,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: 19 Nisan 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 15 Mayıs 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "Geçerli bir e-posta girin",
         "titleRequired": "Lütfen kısa bir başlık verin",
         "messageRequired": "Lütfen sorunu açıklayın",
-        "messageTooLong": "Maksimum {max} karakter"
+        "messageTooLong": "Maksimum {max} karakter",
+        "submitError": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
       },
       "submitBug": "Hata Raporu Gönder",
       "submitFeature": "Özellik İsteğini Gönder",

@@ -331,7 +331,7 @@
     "hero": {
       "label": "法律条款",
       "title": "使用条款",
-      "subtitle": "最后更新：2026年5月15日 · 生效日期：2026年5月15日"
+      "subtitle": "最后更新：2026年5月15日 · 生效日期：2026年4月19日"
     },
     "toc": {
       "title": "目录",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "法律条款",
       "title": "隐私政策",
-      "subtitle": "最后更新：2026年5月15日 · 生效日期：2026年5月15日"
+      "subtitle": "最后更新：2026年5月15日 · 生效日期：2026年4月19日"
     },
     "shortVersion": "CentryAI读取您的电子邮件以查找订阅收据。内容在我们安全的Cloud Functions中处理——我们绝不存储您的邮件、出售您的数据或连接到您的银行。",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "请输入有效的电子邮件",
         "titleRequired": "请提供一个简短的标题",
         "messageRequired": "请描述该问题",
-        "messageTooLong": "最多 {max} 个字符"
+        "messageTooLong": "最多 {max} 个字符",
+        "submitError": "出了点问题，请重试。"
       },
       "submitBug": "提交错误报告",
       "submitFeature": "提交功能请求",

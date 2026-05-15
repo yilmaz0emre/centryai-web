@@ -331,7 +331,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Điều khoản Sử dụng",
-      "subtitle": "Cập nhật lần cuối: Ngày 19 tháng May 15, 2026 · Có hiệu lực: Ngày 19 tháng May 15, 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 15 tháng 5 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "toc": {
       "title": "Mục lục",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Chính sách Bảo mật",
-      "subtitle": "Cập nhật lần cuối: Ngày 19 tháng May 15, 2026 · Có hiệu lực: Ngày 19 tháng May 15, 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 15 tháng 5 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "Vui lòng nhập một email hợp lệ",
         "titleRequired": "Vui lòng cung cấp một tiêu đề ngắn",
         "messageRequired": "Vui lòng mô tả sự cố",
-        "messageTooLong": "Tối đa {max} ký tự"
+        "messageTooLong": "Tối đa {max} ký tự",
+        "submitError": "Đã xảy ra lỗi. Vui lòng thử lại."
       },
       "submitBug": "Gửi Báo cáo Lỗi",
       "submitFeature": "Gửi Yêu cầu Tính năng",

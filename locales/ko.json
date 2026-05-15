@@ -331,7 +331,7 @@
     "hero": {
       "label": "법률",
       "title": "이용 약관",
-      "subtitle": "최종 업데이트: 2026년 5월 15일 · 효력 발생: 2026년 5월 15일"
+      "subtitle": "최종 업데이트: 2026년 5월 15일 · 효력 발생: 2026년 4월 19일"
     },
     "toc": {
       "title": "목차",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "법률",
       "title": "개인정보처리방침",
-      "subtitle": "최종 업데이트: 2026년 5월 15일 · 효력 발생: 2026년 5월 15일"
+      "subtitle": "최종 업데이트: 2026년 5월 15일 · 효력 발생: 2026년 4월 19일"
     },
     "shortVersion": "CentryAI는 구독 영수증을 찾기 위해 이메일을 읽습니다. 콘텐츠는 안전한 Cloud Functions에서 처리됩니다 — 이메일을 저장하거나 데이터를 판매하거나 은행에 연결하지 않습니다.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "유효한 이메일을 입력하세요",
         "titleRequired": "짧은 제목을 입력해 주세요",
         "messageRequired": "문제를 설명해 주세요",
-        "messageTooLong": "최대 {max} 자"
+        "messageTooLong": "최대 {max} 자",
+        "submitError": "오류가 발생했습니다. 다시 시도해 주세요."
       },
       "submitBug": "버그 보고서 제출",
       "submitFeature": "기능 요청 제출",

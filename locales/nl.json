@@ -331,7 +331,7 @@
     "hero": {
       "label": "Legaal",
       "title": "Gebruiksvoorwaarden",
-      "subtitle": "Laatst bijgewerkt: May 15, 2026 · Van kracht: May 15, 2026"
+      "subtitle": "Laatst bijgewerkt: 15 mei 2026 · Van kracht: 19 april 2026"
     },
     "toc": {
       "title": "Inhoudsopgave",
@@ -425,7 +425,7 @@
     "hero": {
       "label": "Legaal",
       "title": "Privacybeleid",
-      "subtitle": "Laatst bijgewerkt: May 15, 2026 · Van kracht: May 15, 2026"
+      "subtitle": "Laatst bijgewerkt: 15 mei 2026 · Van kracht: 19 april 2026"
     },
     "shortVersion": "CentryAI leest uw e-mails om abonnementsbewijzen te vinden. Inhoud wordt verwerkt in onze beveiligde Cloud Functions — we slaan e-mails nooit op, verkopen geen gegevens en verbinden ons niet met uw bank.",
     "toc": {
@@ -573,7 +573,8 @@
         "emailInvalid": "Voer een geldige e-mail in",
         "titleRequired": "Geef a.u.b. een korte titel op",
         "messageRequired": "Beschrijf het probleem",
-        "messageTooLong": "Maximaal {max} tekens"
+        "messageTooLong": "Maximaal {max} tekens",
+        "submitError": "Er is iets misgegaan. Probeer het opnieuw."
       },
       "submitBug": "Dien Foutenrapport in",
       "submitFeature": "Dien Functieverzoek in",
