@@ -331,7 +331,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Kullanım Koşulları",
-      "subtitle": "Son güncelleme: 19 Nisan 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 15 Mayıs 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "toc": {
       "title": "İçindekiler",
@@ -374,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium, satın alma sırasında App Store veya Google Play'de gösterilen fiyat üzerinden aylık veya yıllık bir aboneliktir. Pro abonelikleri, yenileme tarihinden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Pro aboneliğinizi App Store veya Google Play hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz.",
         "refundsTitle": "Geri ödemeler",
-        "refundsBody": "Geri ödeme talepleri Apple App Store veya Google Play politikalarına tabidir. Teknik olarak mümkün olduğu takdirde, ilk satın alma tarihinden itibaren 14 gün içinde yapılan geri ödeme talepleri konusunda işbirliği yapacağız."
+        "refundsBody": "Geri ödeme talepleri Apple App Store veya Google Play politikalarına tabidir. Teknik olarak mümkün olduğu takdirde, ilk satın alma tarihinden itibaren 14 gün içinde yapılan geri ödeme talepleri konusunda işbirliği yapacağız.",
+        "body": "<p><strong>Ücretsiz Katman</strong><br>CentryAI'nin temel özellikleri — 3 aboneliğe kadar manuel takip — süre sınırı olmaksızın ücretsiz olarak sunulmaktadır.</p><p><strong>Pro ve Premium Planlar</strong><br>CentryAI, satın alma sırasında App Store veya Google Play'de görüntülenen fiyat üzerinden aylık Pro ve Premium abonelik planları sunmaktadır.</p><ul><li>Ödeme, satın alma onayında Apple ID'niz veya Google Play hesabınıza yansıtılır.</li><li>Abonelikler, mevcut fatura döneminin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.</li><li>Hesabınız, mevcut dönemin bitiminden 24 saat önce o anki abonelik ücreti üzerinden yenileme için ücretlendirilir.</li><li>İptal etmek için: App Store → Ayarlar → [adınız] → Abonelikler, veya Google Play → Abonelikler → planı seçin → İptal.</li><li>Fiyat değişiklikleri önceden bildirilir. Yürürlük tarihinden sonra kullanmaya devam etmeniz yeni fiyatı kabul ettiğiniz anlamına gelir.</li></ul><p><strong>Ücretsiz Deneme</strong><br>Ücretli planlar ücretsiz deneme süresi içerebilir. Deneme süresi sona erene kadar ödeme alınmaz. Ücretsiz denemenin kullanılmayan kısmı, abonelik satın alındığında geçerliliğini yitirir. Deneme uygunluğu Apple veya Google tarafından belirlenir ve genellikle yeni abonelerle sınırlıdır.</p><p><strong>Geri Ödemeler</strong><br>Tüm satın almalar Apple veya Google tarafından işlenir. Geri ödeme talepleri Apple App Store veya Google Play iade politikalarına tabidir. CentryAI doğrudan geri ödeme yapamaz.</p>"
       },
       "s6": {
         "title": "6. Kabul Edilebilir Kullanım",
@@ -386,7 +387,8 @@
           "Uygulamaya erişmek veya Uygulamayı kopyalamak için otomatik yöntemler kullanın",
           "Uygulamanın altyapısına veya diğer kullanıcıların erişimine müdahale etme",
           "Kimliğinizi veya üyeliğinizi yanlış tanıtın"
-        ]
+        ],
+        "body": "<p>Aşağıdakileri yapmamayı kabul edersiniz:</p><ul><li>Uygulamayı herhangi bir yasa dışı amaç için kullanmak</li><li>Uygulamada tersine mühendislik, kaynak koda dönüştürme veya parçalara ayırma girişiminde bulunma</li><li>Hesap bilgilerinizi üçüncü taraflarla paylaşın</li><li>Uygulamaya erişmek veya Uygulamayı kopyalamak için otomatik yöntemler kullanın</li><li>Uygulamanın altyapısına veya diğer kullanıcıların erişimine müdahale etme</li><li>Kimliğinizi veya üyeliğinizi yanlış tanıtın</li></ul>"
       },
       "s7": {
         "title": "7. Fikri Mülkiyet",
@@ -395,12 +397,14 @@
       "s8": {
         "title": "8. Sorumluluk reddi beyanları",
         "body1": "CentryAI, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcut olduğu şekilde\" sağlanmaktadır. Abonelik tespitinin eksiksiz veya hatasız olacağını garanti etmiyoruz. Uygulamada görüntülenen abonelik tutarları, yenileme tarihleri ​​ve iptal URL'leri e-posta verilerinden elde edilmiştir ve mevcut fiyatlandırmayı veya müsaitlik durumunu yansıtmayabilir.",
-        "body2": "CentryAI bir mali müşavir değildir. Uygulamadaki hiçbir şey mali, hukuki veya profesyonel tavsiye niteliğinde değildir. İptal kararları yalnızca size aittir."
+        "body2": "CentryAI bir mali müşavir değildir. Uygulamadaki hiçbir şey mali, hukuki veya profesyonel tavsiye niteliğinde değildir. İptal kararları yalnızca size aittir.",
+        "body": "<p>CentryAI, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcut olduğu şekilde\" sağlanmaktadır. Abonelik tespitinin eksiksiz veya hatasız olacağını garanti etmiyoruz. Uygulamada görüntülenen abonelik tutarları, yenileme tarihleri ​​ve iptal URL'leri e-posta verilerinden elde edilmiştir ve mevcut fiyatlandırmayı veya müsaitlik durumunu yansıtmayabilir.</p><p>CentryAI bir mali müşavir değildir. Uygulamadaki hiçbir şey mali, hukuki veya profesyonel tavsiye niteliğinde değildir. İptal kararları yalnızca size aittir.</p>"
       },
       "s9": {
         "title": "9. Sorumluluğun Sınırlandırılması",
         "body1": "Yürürlükteki yasaların izin verdiği azami ölçüde CentryAI, Inc., Uygulamayı kullanmanızdan veya kullanamamanızdan kaynaklanan kar kaybı, veri kaybı veya iş kesintisi dahil olmak üzere hiçbir dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zarardan, bu tür zararların olasılığı önceden bildirilmiş olsa bile sorumlu olmayacaktır.",
-        "body2": "Bu Koşullardan veya Uygulamayı kullanımınızdan kaynaklanan herhangi bir taleple ilgili olarak size karşı toplam sorumluluğumuz, talepten önceki on iki ay içinde bize ödediğiniz tutarı aşmayacaktır."
+        "body2": "Bu Koşullardan veya Uygulamayı kullanımınızdan kaynaklanan herhangi bir taleple ilgili olarak size karşı toplam sorumluluğumuz, talepten önceki on iki ay içinde bize ödediğiniz tutarı aşmayacaktır.",
+        "body": "<p>Yürürlükteki yasaların izin verdiği azami ölçüde CentryAI, Inc., Uygulamayı kullanmanızdan veya kullanamamanızdan kaynaklanan kar kaybı, veri kaybı veya iş kesintisi dahil olmak üzere hiçbir dolaylı, arızi, özel, sonuç olarak ortaya çıkan veya cezai zarardan, bu tür zararların olasılığı önceden bildirilmiş olsa bile sorumlu olmayacaktır.</p><p>Bu Koşullardan veya Uygulamayı kullanımınızdan kaynaklanan herhangi bir taleple ilgili olarak size karşı toplam sorumluluğumuz, talepten önceki on iki ay içinde bize ödediğiniz tutarı aşmayacaktır.</p>"
       },
       "s10": {
         "title": "10. Fesih",

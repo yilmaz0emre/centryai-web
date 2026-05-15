@@ -8,7 +8,6 @@
     "support": "Support",
     "downloadFree": "Download Free"
   },
-
   "hero": {
     "badge": "Subscription Tracker",
     "headline1": "Stop paying for apps",
@@ -21,14 +20,12 @@
     "googlePlaySmall": "Get it on",
     "googlePlayName": "Google Play"
   },
-
   "stats": {
     "downloads": "Downloads",
     "monthlyWaste": "Avg. monthly waste found",
     "appRating": "App Store rating",
     "userSavings": "User savings tracked"
   },
-
   "screenshots": {
     "eyebrow": "App Preview",
     "title": "See CentryAI in action.",
@@ -45,7 +42,6 @@
       "languageSupport": "Language Support"
     }
   },
-
   "howItWorks": {
     "eyebrow": "How it works",
     "title": "Up and running in 3 minutes.",
@@ -64,7 +60,6 @@
       }
     ]
   },
-
   "features": {
     "eyebrow": "What you get",
     "title": "Everything to take control of your subscriptions.",
@@ -88,14 +83,12 @@
       }
     ]
   },
-
   "zombie": {
     "label": "⚠ Zombie Alert",
     "title": "Meet your zombie subscriptions.",
     "desc": "You signed up, forgot, and you're still paying. CentryAI cross-references your subscriptions with your actual usage to surface services quietly draining your account every month.",
     "flagLabel": "Zombie"
   },
-
   "testimonials": {
     "eyebrow": "What users say",
     "title": "People are finding money they didn't know they had.",
@@ -117,7 +110,6 @@
       }
     ]
   },
-
   "faq": {
     "eyebrow": "Common questions",
     "title": "FAQ",
@@ -148,14 +140,12 @@
       }
     ]
   },
-
   "googleData": {
     "eyebrow": "Privacy & Data",
     "title": "How we use your Google data",
     "cardTitle": "Read-only Gmail access — nothing more.",
     "cardDesc": "To automate subscription detection, CentryAI offers an optional Gmail integration. When you choose to connect your account, we request read-only access (gmail.readonly) to your inbox. CentryAI strictly uses this access to scan for subscription receipts and billing emails. All parsing of email metadata is processed to build your financial dashboard only. We never read your personal emails, we do not use your data to train AI models, and your email content is never stored on our servers."
   },
-
   "pricing": {
     "eyebrow": "Pricing",
     "title": "Simple, transparent pricing.",
@@ -193,12 +183,10 @@
       "prioritySupport": "Priority support"
     }
   },
-
   "cta": {
     "title": "Stop the leak. Start free.",
     "desc": "Join 240,000+ people who've taken back control of their subscription spend."
   },
-
   "footer": {
     "tagline": "Track, detect, and cancel recurring subscriptions. Free to start — available on iOS & Android.",
     "product": "Product",
@@ -220,7 +208,6 @@
     "footerPrivacy": "Privacy",
     "footerTerms": "Terms"
   },
-
   "support": {
     "pageTitle": "Support & FAQ — CentryAI",
     "hero": {
@@ -339,13 +326,12 @@
       ]
     }
   },
-
   "terms": {
     "pageTitle": "Terms of Use — CentryAI",
     "hero": {
       "label": "Legal",
       "title": "Terms of Use",
-      "subtitle": "Last updated: April 19, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: May 15, 2026 · Effective: April 19, 2026"
     },
     "toc": {
       "title": "Table of Contents",
@@ -388,7 +374,8 @@
         "premiumTitle": "CentryAI Premium",
         "premiumBody": "CentryAI Premium is a monthly or annual subscription at the price displayed in the App Store or Google Play at the time of purchase. Pro subscriptions auto-renew unless cancelled at least 24 hours before the renewal date. You may manage or cancel your Pro subscription through your App Store or Google Play account settings.",
         "refundsTitle": "Refunds",
-        "refundsBody": "Refund requests are governed by Apple App Store or Google Play policies. We will cooperate with refund requests made within 14 days of initial purchase where technically possible."
+        "refundsBody": "Refund requests are governed by Apple App Store or Google Play policies. We will cooperate with refund requests made within 14 days of initial purchase where technically possible.",
+        "body": "<p><strong>Free Tier</strong><br>CentryAI's core features — manual subscription tracking for up to 3 subscriptions — are available at no charge, with no time limit.</p><p><strong>Pro &amp; Premium Plans</strong><br>CentryAI offers Pro and Premium monthly subscription plans at the prices displayed in the App Store or Google Play at the time of purchase.</p><ul><li>Payment is charged to your Apple ID or Google Play account at confirmation of purchase.</li><li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period.</li><li>Your account will be charged for renewal within 24 hours prior to the end of the current period at the then-current subscription rate.</li><li>To cancel: App Store → Settings → [your name] → Subscriptions, or Google Play → Subscriptions → select plan → Cancel.</li><li>Price changes will be communicated in advance. Continued use after the effective date constitutes acceptance of the new price.</li></ul><p><strong>Free Trial</strong><br>Paid plans may include a free trial period. Payment will not be charged until the trial ends. Any unused portion of a free trial is forfeited upon purchase of a subscription. Trial eligibility is determined by Apple or Google and is typically limited to new subscribers.</p><p><strong>Refunds</strong><br>All purchases are processed by Apple or Google. Refund requests are governed by the Apple App Store or Google Play refund policies. CentryAI cannot process refunds directly.</p>"
       },
       "s6": {
         "title": "6. Acceptable Use",
@@ -400,7 +387,8 @@
           "Use automated means to access or scrape the App",
           "Interfere with the App's infrastructure or other users' access",
           "Misrepresent your identity or affiliation"
-        ]
+        ],
+        "body": "<p>You agree not to:</p><ul><li>Use the App for any unlawful purpose</li><li>Attempt to reverse-engineer, decompile, or disassemble the App</li><li>Share your account credentials with third parties</li><li>Use automated means to access or scrape the App</li><li>Interfere with the App's infrastructure or other users' access</li><li>Misrepresent your identity or affiliation</li></ul>"
       },
       "s7": {
         "title": "7. Intellectual Property",
@@ -409,12 +397,14 @@
       "s8": {
         "title": "8. Disclaimers",
         "body1": "CentryAI is provided \"as is\" and \"as available\" without warranties of any kind, express or implied. We do not warrant that subscription detection will be complete or error-free. Subscription amounts, renewal dates, and cancellation URLs displayed in the App are derived from email data and may not reflect current pricing or availability.",
-        "body2": "CentryAI is not a financial advisor. Nothing in the App constitutes financial, legal, or professional advice. Cancellation decisions are yours alone."
+        "body2": "CentryAI is not a financial advisor. Nothing in the App constitutes financial, legal, or professional advice. Cancellation decisions are yours alone.",
+        "body": "<p>CentryAI is provided \"as is\" and \"as available\" without warranties of any kind, express or implied. We do not warrant that subscription detection will be complete or error-free. Subscription amounts, renewal dates, and cancellation URLs displayed in the App are derived from email data and may not reflect current pricing or availability.</p><p>CentryAI is not a financial advisor. Nothing in the App constitutes financial, legal, or professional advice. Cancellation decisions are yours alone.</p>"
       },
       "s9": {
         "title": "9. Limitation of Liability",
         "body1": "To the maximum extent permitted by applicable law, CentryAI, Inc. shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including lost profits, data loss, or business interruption, arising from your use of or inability to use the App, even if advised of the possibility of such damages.",
-        "body2": "Our total liability to you for any claim arising from these Terms or your use of the App shall not exceed the amount you paid us in the twelve months preceding the claim."
+        "body2": "Our total liability to you for any claim arising from these Terms or your use of the App shall not exceed the amount you paid us in the twelve months preceding the claim.",
+        "body": "<p>To the maximum extent permitted by applicable law, CentryAI, Inc. shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including lost profits, data loss, or business interruption, arising from your use of or inability to use the App, even if advised of the possibility of such damages.</p><p>Our total liability to you for any claim arising from these Terms or your use of the App shall not exceed the amount you paid us in the twelve months preceding the claim.</p>"
       },
       "s10": {
         "title": "10. Termination",
@@ -430,7 +420,6 @@
       }
     }
   },
-
   "privacy": {
     "pageTitle": "Privacy Policy — CentryAI",
     "hero": {
@@ -524,7 +513,6 @@
       }
     }
   },
-
   "feedback": {
     "pageTitle": "Feedback & Bug Report — CentryAI",
     "header": {
