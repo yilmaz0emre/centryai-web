@@ -427,7 +427,7 @@
       "title": "Datenschutzerklärung",
       "subtitle": "Zuletzt aktualisiert: 19. April 2026 · Gültig ab: 19. April 2026"
     },
-    "shortVersion": "Die Kurzversion: CentryAI liest Ihre E-Mails, um Abo-Belege zu finden. Wir speichern Ihre E-Mails nie, verkaufen Ihre Daten nicht und verbinden uns nie mit Ihrer Bank. Ihre Daten bleiben standardmäßig auf Ihrem Gerät.",
+    "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
       "title": "Inhaltsverzeichnis",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Von uns erfasste Informationen",
         "emailTitle": "E-Mail-Zugriff",
-        "emailBody": "Zur Erkennung Ihrer Abonnements fordert CentryAI Lesezugriff auf Ihren Gmail- oder iCloud-Posteingang an. Wir nutzen diesen Zugriff ausschließlich zur Identifizierung von Abo-Bestätigungen und Rechnungs-E-Mails. Wir lesen, speichern oder übertragen keine E-Mail-Inhalte. Nur strukturierte Metadaten werden lokal verarbeitet.",
+        "emailBody": "Um Ihre Abonnements zu erkennen, fordert CentryAI Lesezugriff auf Ihren Posteingang an. Beim Starten eines Scans werden E-Mail-Inhalte (Absender, Betreff, Ausschnitte) an die Cloud Functions-Server übermittelt. Nur extrahierte Abonnementdaten werden gespeichert — rohe E-Mail-Inhalte nach der Verarbeitung nicht.",
         "accountTitle": "Kontoinformationen",
-        "accountBody": "Wenn Sie ein Konto erstellen, erfassen wir Ihre E-Mail-Adresse und ein gehashtes Passwort. Wir erfassen keinen Namen oder Zahlungsdaten, es sei denn, Sie upgraden auf CentryAI Premium.",
+        "accountBody": "CentryAI verwendet ausschließlich Google- und Apple-Anmeldung — keine Passwörter werden gespeichert. Bei der Anmeldung erhalten wir Ihre E-Mail-Adresse und Ihren Anzeigenamen. Telefonnummern oder Zahlungskartendetails werden nicht erfasst.",
         "usageTitle": "Nutzungsdaten",
         "usageBody": "Wir erfassen anonymisierte, aggregierte Nutzungsdaten, um die App zu verbessern. Diese Daten können nicht zu Ihrer Identifizierung verwendet werden.",
         "deviceTitle": "Geräteinformationen",
-        "deviceBody": "Wir erfassen Ihren Gerätetyp, die Betriebssystemversion und die App-Version zur Bereitstellung von Support.",
+        "deviceBody": "Wir erfassen Ihre Zeitzone, Ihr Gebietsschema und Ihre App-Version für rechtzeitige Verlängerungserinnerungen und Kompatibilität.",
         "noHumanAccess": "🔒 Kein Mensch wird Ihre E-Mail-Daten lesen. Der Zugriff erfolgt streng programmatisch und automatisiert ausschließlich zur Erkennung von Abonnements."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Datenspeicherung und Sicherheit",
-        "body1": "Ihre Abo-Daten werden standardmäßig lokal auf Ihrem Gerät gespeichert. Wenn Sie die iCloud- oder Google Drive-Synchronisierung aktivieren, werden Ihre Daten vor der Übertragung mit AES-256 verschlüsselt.",
-        "body2": "Schreibgeschützte Gmail-Daten werden streng lokal auf Ihrem Gerät verarbeitet und niemals an unsere Backend-Server übertragen oder dort gespeichert.",
-        "body3": "Unsere Server verwenden branchenübliche Sicherheitspraktiken, einschließlich TLS 1.3 bei der Übertragung, verschlüsselter Speicherung im Ruhezustand und regelmäßiger Sicherheitsaudits."
+        "body1": "Ihre Abonnementdaten werden sicher in Firebase Firestore (Google Cloud) gespeichert, geschützt durch benutzerspezifische Sicherheitsregeln.",
+        "body2": "E-Mail-Inhalte werden in Cloud Functions verarbeitet und danach nicht gespeichert. Nur extrahierte Abonnementdaten werden in Ihrem Konto gespeichert.",
+        "body3": "Unsere Infrastruktur verwendet TLS-Verschlüsselung, Firebase-Verschlüsselung im Ruhezustand und benutzerspezifische Datenisolierung."
       },
       "s4": {
         "title": "4. Dienste von Drittanbietern",
         "intro": "CentryAI verwendet eine begrenzte Anzahl von Drittanbieterdiensten:",
         "items": [
-          "Google Sign-In / Gmail API — zum Scannen des Posteingangs",
-          "Apple Sign-In / iCloud — zum Scannen des Posteingangs",
-          "Stripe — für Pro-Abo-Abrechnungen",
-          "Sentry — für anonymisierte Fehlerberichte"
+          "Google-Anmeldung / Gmail API — Authentifizierung und Posteingang-Scan (Googles Datenschutzrichtlinie)",
+          "Apple-Anmeldung / iCloud — Authentifizierung und Posteingang-Scan (Apples Datenschutzrichtlinie)",
+          "Firebase (Google) — Cloud-Datenbank (Firestore), Authentifizierung, Push-Benachrichtigungen (FCM) und serverseitige Verarbeitung (Cloud Functions)",
+          "Google Gemini AI — KI-gestützte Abonnementextraktion aus E-Mail-Ausschnitten (E-Mail-Daten nicht für KI-Training genutzt)",
+          "RevenueCat — In-App-Abonnement-Abrechnung (keine Zahlungskartendetails direkt verarbeitet)",
+          "Resend — E-Mail-Zustellung für wöchentliche Verlängerungserinnerungen (E-Mail nur geteilt bei Opt-in)"
         ],
         "noShare": "Wir teilen Ihre persönlichen Daten nicht mit anderen Dritten."
       },

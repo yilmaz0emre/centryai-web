@@ -427,7 +427,7 @@
       "title": "Política de Privacidade",
       "subtitle": "Última atualização: 19 de abril de 2026 · Efetivo: 19 de abril de 2026"
     },
-    "shortVersion": "A versão curta: o CentryAI lê seu e-mail para encontrar recibos de assinatura. Nunca armazenamos seus e-mails, nunca vendemos seus dados e nunca nos conectamos ao seu banco. Seus dados permanecem no seu dispositivo por padrão.",
+    "shortVersion": "CentryAI lê seus e-mails para encontrar recibos de assinatura. O conteúdo é processado em nossas Cloud Functions seguras — nunca armazenamos e-mails, nunca vendemos dados e nunca nos conectamos ao seu banco.",
     "toc": {
       "title": "Índice",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Informações que Coletamos",
         "emailTitle": "Acesso a E-mail",
-        "emailBody": "Para detectar suas assinaturas, o CentryAI solicita acesso somente leitura à sua caixa de entrada do Gmail ou iCloud. Usamos este acesso exclusivamente para identificar confirmações de assinatura e e-mails de cobrança. Não lemos, armazenamos ou transmitimos o conteúdo do corpo de seus e-mails. Apenas metadados estruturados são processados localmente.",
+        "emailBody": "Para detectar suas assinaturas, o CentryAI solicita acesso somente leitura à sua caixa de entrada. Ao iniciar uma verificação, o conteúdo (remetente, assunto, trechos) é transmitido para os servidores Cloud Functions. Apenas os dados extraídos são salvos — o conteúdo bruto não é retido após o processamento.",
         "accountTitle": "Informações da Conta",
-        "accountBody": "Ao criar uma conta CentryAI, coletamos seu endereço de e-mail e uma senha com hash. Não coletamos seu nome, número de telefone ou detalhes de pagamento, a menos que você atualize para o CentryAI Premium.",
+        "accountBody": "O CentryAI usa exclusivamente Google Sign-In e Apple Sign-In — não armazenamos senhas. Ao entrar, recebemos seu e-mail e nome de exibição. Não coletamos telefone nem dados do cartão de pagamento.",
         "usageTitle": "Dados de Uso",
         "usageBody": "Coletamos dados de uso agregados e anonimizados para melhorar o aplicativo. Esses dados não podem ser usados ​​para identificá-lo.",
         "deviceTitle": "Informações do Dispositivo",
-        "deviceBody": "Coletamos o tipo de dispositivo, a versão do sistema operacional e a versão do aplicativo para fornecer suporte.",
+        "deviceBody": "Coletamos fuso horário, localidade e versão do aplicativo para lembretes de renovação e compatibilidade.",
         "noHumanAccess": "🔒 Nenhum humano lerá seus dados de e-mail. O acesso é estritamente programático e automatizado exclusivamente com a finalidade de detectar assinaturas."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Armazenamento de Dados e Segurança",
-        "body1": "Seus dados de assinatura são armazenados localmente no seu dispositivo por padrão. Se você habilitar a sincronização do iCloud ou do Google Drive, seus dados serão criptografados antes da transmissão usando o AES-256.",
-        "body2": "Os dados de acesso somente leitura do Gmail são processados estritamente no seu dispositivo e nunca são transmitidos para, ou armazenados em, nossos servidores backend.",
-        "body3": "Nossos servidores utilizam práticas de segurança padrão do setor, incluindo o TLS 1.3 em trânsito, armazenamento criptografado inativo e auditorias de segurança frequentes."
+        "body1": "Seus dados de assinatura são armazenados no Firebase Firestore (Google Cloud), protegidos por regras de segurança por usuário.",
+        "body2": "O conteúdo de e-mail é processado em Cloud Functions e não retido após a conclusão. Apenas os dados extraídos são armazenados na sua conta.",
+        "body3": "Nossa infraestrutura usa TLS em trânsito, criptografia Firebase em repouso e isolamento de dados por usuário."
       },
       "s4": {
         "title": "4. Serviços de Terceiros",
         "intro": "O CentryAI usa um número limitado de serviços de terceiros:",
         "items": [
-          "Google Sign-In / Gmail API — para verificação da caixa de entrada",
-          "Apple Sign-In / iCloud — para verificação da caixa de entrada",
-          "Stripe — para cobrança de assinaturas Pro",
-          "Sentry — para relatórios de falhas anonimizados"
+          "Google Sign-In / Gmail API — autenticação e verificação de caixa de entrada (política de privacidade do Google)",
+          "Apple Sign-In / iCloud — autenticação e verificação de caixa de entrada (política de privacidade da Apple)",
+          "Firebase (Google) — banco de dados cloud (Firestore), autenticação, notificações push (FCM) e processamento servidor (Cloud Functions)",
+          "Google Gemini AI — extração de assinaturas por IA de trechos de e-mail (dados não usados para treinar IA)",
+          "RevenueCat — gerenciamento de cobrança de assinaturas (nenhum dado de cartão tratado diretamente)",
+          "Resend — e-mails transacionais para lembretes de renovação (endereço compartilhado apenas com opt-in)"
         ],
         "noShare": "Não compartilhamos seus dados pessoais com terceiros."
       },

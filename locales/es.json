@@ -427,7 +427,7 @@
       "title": "política de privacidad",
       "subtitle": "Última actualización: 19 de abril de 2026 · En vigor: 19 de abril de 2026"
     },
-    "shortVersion": "La versión corta: CentryAI lee su correo electrónico para encontrar recibos de suscripción. Nunca almacenamos sus correos electrónicos, nunca vendemos sus datos y nunca nos conectamos con su banco. Sus datos permanecen en su dispositivo de forma predeterminada.",
+    "shortVersion": "CentryAI lee tus correos para encontrar recibos de suscripción. El contenido se procesa en nuestras Cloud Functions seguras — nunca almacenamos correos, nunca vendemos datos y nunca nos conectamos a tu banco.",
     "toc": {
       "title": "Tabla de contenido",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Información que recopilamos",
         "emailTitle": "Acceso al correo electrónico",
-        "emailBody": "Para detectar sus suscripciones, CentryAI solicita acceso de solo lectura a su bandeja de entrada de Gmail o iCloud. Utilizamos este acceso únicamente para identificar los correos electrónicos de confirmación de suscripción y facturación. No leemos, almacenamos ni transmitimos el contenido del cuerpo de sus correos electrónicos. Solo los metadatos estructurados (remitente, asunto, fecha, patrones de monto) se procesan localmente en su dispositivo.",
+        "emailBody": "Para detectar tus suscripciones, CentryAI solicita acceso de solo lectura a tu bandeja. Al iniciar un escaneo, el contenido (remitente, asunto, fragmentos) se transmite a los servidores Cloud Functions. Solo se guardan los datos extraídos — el contenido bruto no se almacena tras el procesamiento.",
         "accountTitle": "Información de la cuenta",
-        "accountBody": "Cuando crea una cuenta CentryAI, recopilamos su dirección de correo electrónico y una contraseña hash. No recopilamos su nombre, número de teléfono ni detalles de pago a menos que actualice a CentryAI Premium.",
+        "accountBody": "CentryAI usa exclusivamente Google Sign-In y Apple Sign-In — no almacenamos contraseñas. Al iniciar sesión recibimos tu correo y nombre de tu proveedor. No recopilamos teléfono ni datos de tarjeta de pago.",
         "usageTitle": "Datos de uso",
         "usageBody": "Recopilamos datos de uso agregados y anónimos para mejorar la aplicación, como qué funciones se utilizan con más frecuencia y métricas generales de rendimiento. Estos datos no pueden utilizarse para identificarle.",
         "deviceTitle": "Información del dispositivo",
-        "deviceBody": "Recopilamos su tipo de dispositivo, versión de sistema operativo y versión de aplicación para brindar soporte y garantizar la compatibilidad.",
+        "deviceBody": "Recopilamos la zona horaria, el idioma del dispositivo y la versión de la app para recordatorios de renovación y compatibilidad.",
         "noHumanAccess": "🔒 Ningún humano leerá los datos de tu correo electrónico. El acceso es estrictamente programático y automatizado con el único fin de detectar suscripciones."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Almacenamiento y seguridad de datos",
-        "body1": "Los datos de su suscripción se almacenan localmente en su dispositivo de forma predeterminada. Si habilita la sincronización de iCloud o Google Drive, sus datos se cifran antes de la transmisión utilizando AES-256. No tenemos acceso a sus claves de cifrado.",
-        "body2": "Los datos de solo lectura de Gmail se procesan estrictamente localmente en su dispositivo y nunca se transmiten ni se almacenan en nuestros servidores backend. Nuestra infraestructura backend nunca recibe, procesa ni almacena ningún contenido o metadatos de mensajes de Gmail.",
-        "body3": "Nuestros servidores utilizan prácticas de seguridad estándar de la industria que incluyen TLS 1.3 en tránsito, almacenamiento cifrado en reposo y auditorías de seguridad periódicas de terceros."
+        "body1": "Tus datos de suscripción se almacenan en Firebase Firestore (Google Cloud), protegidos por reglas de seguridad por usuario.",
+        "body2": "El contenido del correo se procesa en Cloud Functions y no se retiene tras completarse. Solo los datos extraídos se almacenan en tu cuenta.",
+        "body3": "Nuestra infraestructura usa cifrado TLS en tránsito, cifrado en reposo de Firebase y aislamiento estricto de datos por usuario."
       },
       "s4": {
         "title": "4. Servicios de terceros",
         "intro": "CentryAI utiliza una cantidad limitada de servicios de terceros:",
         "items": [
-          "Inicio de sesión de Google/API de Gmail: para escanear la bandeja de entrada (regido por la política de privacidad de Google)",
-          "Inicio de sesión de Apple/iCloud: para escanear la bandeja de entrada (regido por la política de privacidad de Apple)",
-          "Stripe: para facturación de suscripción Pro (nunca vemos el número completo de su tarjeta)",
-          "Sentry: para informes anónimos de fallos"
+          "Google Sign-In / Gmail API — autenticación y escaneo de bandeja (política de privacidad de Google)",
+          "Apple Sign-In / iCloud — autenticación y escaneo de bandeja (política de privacidad de Apple)",
+          "Firebase (Google) — base de datos cloud (Firestore), autenticación, notificaciones push (FCM) y procesamiento servidor (Cloud Functions)",
+          "Google Gemini AI — extracción de suscripciones por IA desde fragmentos de correo (datos no usados para entrenar IA)",
+          "RevenueCat — gestión de facturación de suscripciones (nunca manejamos datos de tarjeta directamente)",
+          "Resend — correos transaccionales para recordatorios de renovación (correo compartido solo con opt-in)"
         ],
         "noShare": "No compartimos sus datos personales con ningún otro tercero."
       },

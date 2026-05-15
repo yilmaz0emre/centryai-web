@@ -427,7 +427,7 @@
       "title": "Polityka Prywatności",
       "subtitle": "Ostatnia aktualizacja: 19 kwietnia 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
     },
-    "shortVersion": "Krótka wersja: CentryAI czyta Twoje e-maile, aby znaleźć rachunki za subskrypcje. Nigdy nie przechowujemy Twoich e-maili, nigdy nie sprzedajemy Twoich danych i nigdy nie łączymy się z Twoim bankiem. Twoje dane domyślnie pozostają na Twoim urządzeniu.",
+    "shortVersion": "CentryAI odczytuje e-maile w celu znalezienia potwierdzeń subskrypcji. Treść jest przetwarzana w naszych bezpiecznych Cloud Functions — nigdy nie przechowujemy e-maili, nie sprzedajemy danych i nie łączymy się z Twoim bankiem.",
     "toc": {
       "title": "Spis treści",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Informacje, które Zbieramy",
         "emailTitle": "Dostęp do E-maili",
-        "emailBody": "W celu wykrywania subskrypcji, CentryAI prosi o dostęp tylko do odczytu do Twojej skrzynki w Gmailu lub iCloud. Używamy tego dostępu wyłącznie do identyfikacji e-maili z potwierdzeniami subskrypcji i rozliczeniami. Nie odczytujemy, nie przechowujemy ani nie przesyłamy treści samego e-maila. Lokalnie przetwarzane są tylko ustrukturyzowane metadane.",
+        "emailBody": "Aby wykrywać subskrypcje, CentryAI żąda dostępu tylko do odczytu do skrzynki. Po uruchomieniu skanowania treść (nadawca, temat, fragmenty) jest przesyłana do serwerów Cloud Functions. Zapisywane są tylko wyodrębnione dane subskrypcji — surowa treść nie jest przechowywana po przetworzeniu.",
         "accountTitle": "Informacje o Koncie",
-        "accountBody": "Gdy utworzysz konto CentryAI, zbieramy Twój adres e-mail oraz zahashowane hasło. Nie zbieramy Twojego imienia, numeru telefonu ani danych płatniczych, chyba że zaktualizujesz do CentryAI Premium.",
+        "accountBody": "CentryAI używa wyłącznie logowania Google i Apple — hasła nie są zbierane ani przechowywane. Po zalogowaniu otrzymujemy adres e-mail i nazwę wyświetlaną. Nie zbieramy numerów telefonów ani danych kart płatniczych.",
         "usageTitle": "Dane o Użyciu",
         "usageBody": "Zbieramy zanonimizowane, zagregowane dane o użytkowaniu w celu ulepszania aplikacji. Te dane nie mogą być użyte do identyfikacji użytkownika.",
         "deviceTitle": "Informacje o Urządzeniu",
-        "deviceBody": "Zbieramy informacje o rodzaju urządzenia, wersji systemu i wersji aplikacji w celu zapewnienia wsparcia.",
+        "deviceBody": "Zbieramy strefę czasową, ustawienia regionalne i wersję aplikacji dla przypomnień o odnowieniu i kompatybilności.",
         "noHumanAccess": "🔒 Żaden człowiek nie odczyta Twoich danych z e-maili. Dostęp jest rygorystycznie automatyczny wyłącznie w celu wykrywania subskrypcji."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Przechowywanie Danych i Bezpieczeństwo",
-        "body1": "Twoje dane dotyczące subskrypcji są domyślnie przechowywane lokalnie na Twoim urządzeniu. Jeśli włączysz synchronizację z iCloud lub Google Drive, Twoje dane będą szyfrowane za pomocą AES-256 przed ich przesłaniem.",
-        "body2": "Dane w trybie tylko do odczytu z Gmaila przetwarzane są rygorystycznie lokalnie na Twoim urządzeniu i nigdy nie trafiają na nasze serwery ani nie są na nich przechowywane.",
-        "body3": "Nasze serwery korzystają ze standardowych w branży metod ochrony, włączając TLS 1.3 w transmisji, szyfrowane nośniki oraz regularne audyty bezpieczeństwa."
+        "body1": "Dane subskrypcji są bezpiecznie przechowywane w Firebase Firestore (Google Cloud), chronionym regułami bezpieczeństwa per użytkownik.",
+        "body2": "Treść e-maili jest przetwarzana w Cloud Functions i nie jest przechowywana po zakończeniu. Tylko wyodrębnione dane są zapisywane na koncie.",
+        "body3": "Infrastruktura używa szyfrowania TLS, szyfrowania Firebase w spoczynku i ścisłej izolacji danych per użytkownik."
       },
       "s4": {
         "title": "4. Usługi Osób Trzecich",
         "intro": "CentryAI korzysta z ograniczonej liczby usług podmiotów trzecich:",
         "items": [
-          "Logowanie Google / API Gmail — do skanowania skrzynek",
-          "Logowanie Apple / iCloud — do skanowania skrzynek",
-          "Stripe — do płatności za subskrypcję Pro",
-          "Sentry — do zanonimizowanych raportów awarii"
+          "Logowanie Google / Gmail API — uwierzytelnianie i skanowanie skrzynki (polityka prywatności Google)",
+          "Logowanie Apple / iCloud — uwierzytelnianie i skanowanie skrzynki (polityka prywatności Apple)",
+          "Firebase (Google) — baza danych cloud (Firestore), uwierzytelnianie, powiadomienia push (FCM) i przetwarzanie serwerowe (Cloud Functions)",
+          "Google Gemini AI — ekstrakcja subskrypcji przez AI z fragmentów e-maili (dane nie używane do trenowania AI)",
+          "RevenueCat — zarządzanie fakturowaniem subskrypcji (dane kart nie przetwarzane bezpośrednio)",
+          "Resend — e-maile transakcyjne dla przypomnień o odnowieniu (adres udostępniany tylko przy opt-in)"
         ],
         "noShare": "Nie dzielimy się Twoimi osobistymi danymi z żadnymi innymi osobami trzecimi."
       },

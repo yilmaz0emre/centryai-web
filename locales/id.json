@@ -427,7 +427,7 @@
       "title": "Kebijakan Privasi",
       "subtitle": "Terakhir Diperbarui: 19 April 2026 · Berlaku: 19 April 2026"
     },
-    "shortVersion": "Versi Singkat: CentryAI membaca email Anda untuk menemukan tanda terima langganan. Kami tidak pernah menyimpan email Anda, tidak pernah menjual data Anda, dan tidak pernah terhubung ke bank Anda. Data Anda tetap ada di perangkat Anda secara default.",
+    "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
       "title": "Daftar Isi",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Informasi yang Kami Kumpulkan",
         "emailTitle": "Akses Email",
-        "emailBody": "Untuk mendeteksi langganan Anda, CentryAI meminta akses hanya-baca ke kotak masuk Gmail atau iCloud Anda. Kami menggunakan akses ini secara ketat untuk mengidentifikasi konfirmasi langganan dan email tagihan. Kami tidak membaca, menyimpan, atau mengirimkan isi pesan email Anda. Hanya metadata terstruktur yang diproses secara lokal.",
+        "emailBody": "Untuk mendeteksi langganan, CentryAI meminta akses baca saja ke kotak masuk. Saat memulai pemindaian, konten email (pengirim, subjek, cuplikan) dikirim ke server Cloud Functions untuk diproses. Hanya data langganan yang diekstrak yang disimpan — konten mentah tidak disimpan setelah pemrosesan.",
         "accountTitle": "Informasi Akun",
-        "accountBody": "Saat Anda membuat akun CentryAI, kami mengumpulkan alamat email Anda dan kata sandi yang di-hash. Kami tidak mengumpulkan nama, nomor telepon, atau detail pembayaran Anda kecuali Anda meningkatkan ke CentryAI Premium.",
+        "accountBody": "CentryAI menggunakan Google Sign-In dan Apple Sign-In secara eksklusif — tidak ada kata sandi yang dikumpulkan atau disimpan. Saat masuk, kami menerima alamat email dan nama tampilan dari penyedia. Nomor telepon atau detail kartu pembayaran tidak dikumpulkan.",
         "usageTitle": "Data Penggunaan",
         "usageBody": "Kami mengumpulkan data penggunaan yang dianonimkan dan digabungkan untuk meningkatkan aplikasi. Data ini tidak dapat digunakan untuk mengidentifikasi Anda.",
         "deviceTitle": "Informasi Perangkat",
-        "deviceBody": "Kami mengumpulkan jenis perangkat, versi OS, dan versi aplikasi Anda untuk memberikan dukungan.",
+        "deviceBody": "Kami mengumpulkan zona waktu perangkat, lokal, dan versi aplikasi untuk pengingat pembaruan tepat waktu dan kompatibilitas.",
         "noHumanAccess": "🔒 Tidak ada manusia yang akan membaca data email Anda. Akses ini sangat terprogram dan otomatis hanya untuk tujuan mendeteksi langganan."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Penyimpanan & Keamanan Data",
-        "body1": "Data langganan Anda disimpan secara lokal di perangkat Anda secara default. Jika Anda mengaktifkan sinkronisasi iCloud atau Google Drive, data Anda akan dienkripsi menggunakan AES-256 sebelum transmisi.",
-        "body2": "Data Gmail hanya-baca diproses secara lokal di perangkat Anda dan tidak pernah dikirimkan ke atau disimpan di server backend kami.",
-        "body3": "Server kami menggunakan praktik keamanan standar industri, termasuk TLS 1.3 dalam perjalanan, penyimpanan terenkripsi saat istirahat, dan audit keamanan berkala."
+        "body1": "Data langganan disimpan dengan aman di Firebase Firestore (Google Cloud), dilindungi oleh aturan keamanan per pengguna.",
+        "body2": "Konten email yang dikirim selama pemindaian diproses di Cloud Functions dan tidak disimpan setelah selesai. Hanya data yang diekstrak yang disimpan di akun Anda.",
+        "body3": "Infrastruktur kami menggunakan enkripsi TLS saat transit, enkripsi Firebase saat istirahat, dan isolasi data ketat per pengguna."
       },
       "s4": {
         "title": "4. Layanan Pihak Ketiga",
         "intro": "CentryAI menggunakan sejumlah layanan pihak ketiga:",
         "items": [
-          "Masuk dengan Google / API Gmail — untuk pemindaian kotak masuk",
-          "Masuk dengan Apple / iCloud — untuk pemindaian kotak masuk",
-          "Stripe — untuk penagihan langganan Pro",
-          "Sentry — untuk laporan kerusakan anonim"
+          "Google Sign-In / Gmail API — autentikasi dan pemindaian kotak masuk (kebijakan privasi Google)",
+          "Apple Sign-In / iCloud — autentikasi dan pemindaian kotak masuk (kebijakan privasi Apple)",
+          "Firebase (Google) — database cloud (Firestore), autentikasi, notifikasi push (FCM) dan pemrosesan sisi server (Cloud Functions)",
+          "Google Gemini AI — ekstraksi langganan bertenaga AI dari cuplikan email (data email tidak digunakan untuk pelatihan AI)",
+          "RevenueCat — manajemen penagihan langganan dalam aplikasi (detail kartu pembayaran tidak ditangani langsung)",
+          "Resend — pengiriman email transaksional untuk pengingat pembaruan mingguan (alamat dibagikan hanya saat opt-in)"
         ],
         "noShare": "Kami tidak membagikan data pribadi Anda dengan pihak ketiga lainnya."
       },

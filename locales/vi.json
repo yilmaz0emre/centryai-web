@@ -427,7 +427,7 @@
       "title": "Chính sách Bảo mật",
       "subtitle": "Cập nhật lần cuối: Ngày 19 tháng 4 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
-    "shortVersion": "Tóm tắt: CentryAI đọc email của bạn để tìm các biên lai đăng ký. Chúng tôi không bao giờ lưu trữ email của bạn, không bao giờ bán dữ liệu của bạn và không bao giờ kết nối với ngân hàng của bạn. Dữ liệu của bạn được giữ nguyên trên thiết bị của bạn theo mặc định.",
+    "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
       "title": "Mục lục",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Thông tin Chúng tôi Thu thập",
         "emailTitle": "Quyền truy cập Email",
-        "emailBody": "Để phát hiện các đăng ký của bạn, CentryAI yêu cầu quyền truy cập chỉ đọc vào hộp thư đến Gmail hoặc iCloud của bạn. Chúng tôi chỉ sử dụng quyền truy cập này một cách nghiêm ngặt để xác định các xác nhận đăng ký và email thanh toán. Chúng tôi không đọc, lưu trữ hoặc truyền đi nội dung email của bạn. Chỉ siêu dữ liệu có cấu trúc mới được xử lý cục bộ.",
+        "emailBody": "Để phát hiện đăng ký, CentryAI yêu cầu quyền truy cập chỉ đọc vào hộp thư đến. Khi bắt đầu quét, nội dung email (người gửi, tiêu đề, đoạn trích) được gửi đến máy chủ Cloud Functions để xử lý. Chỉ dữ liệu đăng ký được trích xuất mới được lưu — nội dung thô không được giữ lại sau khi xử lý.",
         "accountTitle": "Thông tin Tài khoản",
-        "accountBody": "Khi bạn tạo tài khoản CentryAI, chúng tôi sẽ thu thập địa chỉ email của bạn và một mật khẩu đã được băm. Chúng tôi không thu thập tên, số điện thoại hoặc chi tiết thanh toán của bạn trừ khi bạn nâng cấp lên CentryAI Premium.",
+        "accountBody": "CentryAI sử dụng Google Sign-In và Apple Sign-In — không thu thập hay lưu trữ mật khẩu. Khi đăng nhập, chúng tôi nhận địa chỉ email và tên hiển thị từ nhà cung cấp. Không thu thập số điện thoại hay thông tin thẻ thanh toán.",
         "usageTitle": "Dữ liệu Sử dụng",
         "usageBody": "Chúng tôi thu thập dữ liệu sử dụng ẩn danh, được tổng hợp để cải thiện ứng dụng. Dữ liệu này không thể được sử dụng để nhận dạng bạn.",
         "deviceTitle": "Thông tin Thiết bị",
-        "deviceBody": "Chúng tôi thu thập loại thiết bị, phiên bản hệ điều hành và phiên bản ứng dụng của bạn để cung cấp hỗ trợ.",
+        "deviceBody": "Chúng tôi thu thập múi giờ thiết bị, ngôn ngữ và phiên bản ứng dụng để gửi nhắc nhở gia hạn kịp thời và đảm bảo tương thích.",
         "noHumanAccess": "🔒 Không có con người nào sẽ đọc dữ liệu email của bạn. Quyền truy cập mang tính lập trình nghiêm ngặt và tự động chỉ vì mục đích phát hiện các đăng ký."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Lưu trữ & Bảo mật Dữ liệu",
-        "body1": "Theo mặc định, dữ liệu đăng ký của bạn được lưu trữ cục bộ trên thiết bị của bạn. Nếu bạn bật tính năng đồng bộ hóa iCloud hoặc Google Drive, dữ liệu của bạn sẽ được mã hóa bằng AES-256 trước khi truyền tải.",
-        "body2": "Dữ liệu Gmail chỉ đọc được xử lý cục bộ trên thiết bị của bạn một cách nghiêm ngặt và không bao giờ được truyền tới hoặc lưu trữ trên các máy chủ phụ trợ của chúng tôi.",
-        "body3": "Máy chủ của chúng tôi sử dụng các phương pháp bảo mật tiêu chuẩn ngành, bao gồm TLS 1.3 trong quá trình truyền tải, lưu trữ được mã hóa ở trạng thái nghỉ và thường xuyên kiểm tra bảo mật."
+        "body1": "Dữ liệu đăng ký được lưu trữ an toàn trong Firebase Firestore (Google Cloud), được bảo vệ bằng quy tắc bảo mật theo từng người dùng.",
+        "body2": "Nội dung email được xử lý trong Cloud Functions và không được giữ lại sau khi hoàn tất. Chỉ dữ liệu đã trích xuất được lưu trong tài khoản của bạn.",
+        "body3": "Hạ tầng sử dụng mã hóa TLS khi truyền, mã hóa Firebase khi lưu trữ và cách ly dữ liệu nghiêm ngặt theo người dùng."
       },
       "s4": {
         "title": "4. Các Dịch vụ của Bên Thứ Ba",
         "intro": "CentryAI sử dụng một số lượng hạn chế các dịch vụ của bên thứ ba:",
         "items": [
-          "Đăng nhập bằng Google / Gmail API — để quét hộp thư đến",
-          "Đăng nhập bằng Apple / iCloud — để quét hộp thư đến",
-          "Stripe — để lập hóa đơn đăng ký Pro",
-          "Sentry — cho các báo cáo sự cố ẩn danh"
+          "Google Sign-In / Gmail API — xác thực và quét hộp thư đến (chính sách bảo mật của Google)",
+          "Apple Sign-In / iCloud — xác thực và quét hộp thư đến (chính sách bảo mật của Apple)",
+          "Firebase (Google) — cơ sở dữ liệu đám mây (Firestore), xác thực, thông báo đẩy (FCM) và xử lý phía máy chủ (Cloud Functions)",
+          "Google Gemini AI — trích xuất đăng ký bằng AI từ đoạn trích email (dữ liệu email không dùng để huấn luyện AI)",
+          "RevenueCat — quản lý thanh toán đăng ký trong ứng dụng (không xử lý trực tiếp thông tin thẻ thanh toán)",
+          "Resend — gửi email giao dịch cho nhắc nhở gia hạn hàng tuần (địa chỉ chỉ chia sẻ khi opt-in)"
         ],
         "noShare": "Chúng tôi không chia sẻ dữ liệu cá nhân của bạn với bất kỳ bên thứ ba nào khác."
       },

@@ -427,7 +427,7 @@
       "title": "Integritetspolicy",
       "subtitle": "Senast uppdaterad: 19 april 2026 · Gäller från: 19 april 2026"
     },
-    "shortVersion": "Den korta versionen: CentryAI läser din e-post för att hitta prenumerationskvitton. Vi lagrar aldrig dina e-postmeddelanden, säljer aldrig din data och ansluter aldrig till din bank. Din data förblir på din enhet som standard.",
+    "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
       "title": "Innehållsförteckning",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Information vi samlar in",
         "emailTitle": "E-poståtkomst",
-        "emailBody": "För att upptäcka dina prenumerationer begär CentryAI skrivskyddad åtkomst till din Gmail- eller iCloud-inkorg. Vi använder denna åtkomst strikt för att identifiera prenumerationsbekräftelser och faktureringse-post. Vi läser inte, lagrar eller överför inte innehållet i dina e-postmeddelanden. Endast strukturerad metadata bearbetas lokalt.",
+        "emailBody": "För att identifiera prenumerationer begär CentryAI läsbehörighet till din inkorg. När du startar en skanning skickas e-postinnehåll (avsändare, ämne, utdrag) till Cloud Functions-servrar. Endast extraherade prenumerationsdata sparas — råinnehåll lagras inte efter bearbetning.",
         "accountTitle": "Kontoinformation",
-        "accountBody": "När du skapar ett CentryAI-konto samlar vi in din e-postadress och ett hashat lösenord. Vi samlar inte in ditt namn, telefonnummer eller betalningsuppgifter om du inte uppgraderar till CentryAI Premium.",
+        "accountBody": "CentryAI använder uteslutande Google Sign-In och Apple Sign-In — inga lösenord samlas in. Vid inloggning tar vi emot din e-postadress och visningsnamn. Telefonnummer eller betalkortsuppgifter samlas inte in.",
         "usageTitle": "Användningsdata",
         "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig.",
         "deviceTitle": "Enhetsinformation",
-        "deviceBody": "Vi samlar in din enhetstyp, OS-version och appversion för att ge support.",
+        "deviceBody": "Vi samlar in tidzon, språkinställningar och appversion för aktuella förnyelsepåminnelser och kompatibilitet.",
         "noHumanAccess": "🔒 Ingen människa kommer att läsa din e-postdata. Åtkomsten är strikt programmatisk och automatiserad enbart för syftet att upptäcka prenumerationer."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Datalagring & Säkerhet",
-        "body1": "Din prenumerationsdata lagras lokalt på din enhet som standard. Om du aktiverar iCloud- eller Google Drive-synkronisering krypteras din data med AES-256 innan överföring.",
-        "body2": "Skrivskyddad Gmail-data bearbetas strikt lokalt på din enhet och överförs aldrig till eller lagras på våra backend-servrar.",
-        "body3": "Våra servrar använder branschstandardiserade säkerhetspraxis, inklusive TLS 1.3 under överföring, krypterad lagring i vila och frekventa säkerhetsrevisioner."
+        "body1": "Dina prenumerationsdata lagras säkert i Firebase Firestore (Google Cloud), skyddade av säkerhetsregler per användare.",
+        "body2": "E-postinnehåll bearbetas i Cloud Functions och sparas inte efter bearbetning. Endast extraherade data lagras i ditt konto.",
+        "body3": "Vår infrastruktur använder TLS-kryptering i transit, Firebases kryptering i vila och strikt dataisolering per användare."
       },
       "s4": {
         "title": "4. Tredjepartstjänster",
         "intro": "CentryAI använder ett begränsat antal tredjepartstjänster:",
         "items": [
-          "Logga in med Google / Gmail API — för inkorgsskanning",
-          "Logga in med Apple / iCloud — för inkorgsskanning",
-          "Stripe — för Pro-prenumerationsfakturering",
-          "Sentry — för anonyma kraschrapporter"
+          "Google Sign-In / Gmail API — autentisering och inkorgsigenskanning (Googles integritetspolicy)",
+          "Apple Sign-In / iCloud — autentisering och inkorgsigenskanning (Apples integritetspolicy)",
+          "Firebase (Google) — molndatabas (Firestore), autentisering, push-notiser (FCM) och serverbearbetning (Cloud Functions)",
+          "Google Gemini AI — AI-baserad prenumerationsextrahering från e-postutdrag (data används inte för AI-träning)",
+          "RevenueCat — hantering av prenumerationsfakturering (inga kortuppgifter hanteras direkt)",
+          "Resend — transaktionella e-postmeddelanden för förnyelsepåminnelser (adress delas endast vid opt-in)"
         ],
         "noShare": "Vi delar inte din personliga data med några andra tredje parter."
       },

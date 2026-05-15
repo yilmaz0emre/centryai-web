@@ -427,7 +427,7 @@
       "title": "Gizlilik Politikası",
       "subtitle": "Son güncelleme: 19 Nisan 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
-    "shortVersion": "Kısa versiyon: CentryAI, abonelik makbuzlarını bulmak için e-postanızı okur. E-postalarınızı asla saklamayız, verilerinizi asla satmayız ve asla bankanıza bağlanmayız. Verileriniz varsayılan olarak cihazınızda kalır.",
+    "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
       "title": "İçindekiler",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Topladığımız Bilgiler",
         "emailTitle": "E-posta Erişimi",
-        "emailBody": "Aboneliklerinizi tespit etmek için CentryAI, Gmail veya iCloud gelen kutunuza salt okunur erişim ister. Bu erişimi yalnızca abonelik onayı ve fatura e-postalarını tanımlamak için kullanırız. E-postalarınızın ana içeriğini okumayız, saklamayız veya aktarmayız. Cihazınızda yalnızca yapılandırılmış meta veriler (gönderen, konu, tarih, tutar kalıpları) yerel olarak işlenir.",
+        "emailBody": "Aboneliklerinizi tespit etmek için CentryAI, Gmail veya iCloud gelen kutunuza salt okunur erişim ister. Tarama başlattığınızda e-posta içeriği (gönderen, konu, gövde parçacıkları) işlenmek üzere güvenli Cloud Functions sunucularına iletilir. Yalnızca çıkarılan abonelik verileri kaydedilir — ham içerik işlem sonrası saklanmaz.",
         "accountTitle": "Hesap Bilgileri",
-        "accountBody": "CentryAI hesabı oluşturduğunuzda, e-posta adresinizi ve karma şifrenizi toplarız. CentryAI Premium'a yükseltme yapmadığınız sürece adınızı, telefon numaranızı veya ödeme ayrıntılarınızı toplamıyoruz.",
+        "accountBody": "CentryAI yalnızca Google ve Apple ile Oturum Aç kullanır — şifre toplamaz veya saklamaz. Oturum açtığınızda e-posta adresinizi ve görünen adınızı sağlayıcıdan alırız. Telefon numarası veya ödeme kartı bilgisi toplamayız.",
         "usageTitle": "Kullanım Verileri",
         "usageBody": "Uygulamayı geliştirmek için hangi özelliklerin en sık kullanıldığı ve genel performans ölçümleri gibi anonimleştirilmiş, toplu kullanım verilerini topluyoruz. Bu veriler sizi tanımlamak için kullanılamaz.",
         "deviceTitle": "Cihaz Bilgileri",
-        "deviceBody": "Destek sağlamak ve uyumluluğu sağlamak için cihaz türünüzü, işletim sistemi sürümünüzü ve uygulama sürümünüzü topluyoruz.",
+        "deviceBody": "Zamanında yenileme hatırlatıcıları sunmak ve uyumluluğu sağlamak için cihaz saat diliminizi, yerel ayarınızı ve uygulama sürümünüzü toplarız.",
         "noHumanAccess": "🔒 Hiçbir insan e-posta verilerinizi okumaz. Erişim kesinlikle programlıdır ve yalnızca aboneliklerin tespit edilmesi amacıyla otomatikleştirilmiştir."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Veri Depolama ve Güvenlik",
-        "body1": "Abonelik verileriniz varsayılan olarak cihazınızda yerel olarak depolanır. iCloud veya Google Drive senkronizasyonunu etkinleştirirseniz verileriniz iletimden önce AES-256 kullanılarak şifrelenir. Şifreleme anahtarlarınıza erişimimiz yok.",
-        "body2": "Gmail'in salt okunur verileri, cihazınızda kesinlikle yerel olarak işlenir ve hiçbir zaman arka uç sunucularımıza iletilmez veya burada saklanmaz. Arka uç altyapımız hiçbir zaman Gmail mesaj içeriğini veya meta verilerini almaz, işlemez veya saklamaz.",
-        "body3": "Sunucularımız, aktarım sırasında TLS 1.3, kullanımda olmayan şifreli depolama ve düzenli üçüncü taraf güvenlik denetimleri dahil olmak üzere endüstri standardı güvenlik uygulamalarını kullanır."
+        "body1": "Abonelik verileriniz Firebase Firestore'da (Google Cloud) güvenli şekilde depolanır; kullanıcı başına güvenlik kurallarıyla korunan bir bulut veritabanıdır.",
+        "body2": "Tarama sırasında iletilen e-posta içeriği Cloud Functions'da işlenir ve işlem sonrası saklanmaz. Yalnızca çıkarılan abonelik verileri hesabınızda depolanır.",
+        "body3": "Altyapımız aktarımda TLS şifrelemesi, Firebase'in beklemedeki şifrelemesi ve kullanıcı başına veri yalıtımını zorunlu kılan güvenlik kuralları kullanır."
       },
       "s4": {
         "title": "4. Üçüncü Taraf Hizmetleri",
         "intro": "CentryAI sınırlı sayıda üçüncü taraf hizmetini kullanır:",
         "items": [
-          "Google Oturum Açma / Gmail API — gelen kutusunu taramak için (Google'ın gizlilik politikasına tabidir)",
-          "Apple Oturum Açma / iCloud — gelen kutusunu taramak için (Apple'ın gizlilik politikasına tabidir)",
-          "Stripe — Pro abonelik faturalandırması için (kart numaranızın tamamını hiçbir zaman görmeyiz)",
-          "Sentry – anonimleştirilmiş kilitlenme raporlaması için"
+          "Google ile Oturum Aç / Gmail API — kimlik doğrulama ve gelen kutusu taraması (Google gizlilik politikasına tabidir)",
+          "Apple ile Oturum Aç / iCloud — kimlik doğrulama ve gelen kutusu taraması (Apple gizlilik politikasına tabidir)",
+          "Firebase (Google) — bulut veritabanı (Firestore), kimlik doğrulama, push bildirimler (FCM) ve sunucu tarafı işleme (Cloud Functions)",
+          "Google Gemini AI — e-posta parçacıklarından yapay zeka destekli abonelik çıkarma (e-posta verileri yapay zeka eğitimi için kullanılmaz)",
+          "RevenueCat — uygulama içi abonelik faturalandırma yönetimi (ödeme kartı bilgilerini doğrudan işlemeyiz)",
+          "Resend — haftalık yenileme hatırlatıcıları için işlemsel e-posta teslimatı (yalnızca e-posta hatırlatıcılarını etkinleştirirseniz adresiniz paylaşılır)"
         ],
         "noShare": "Kişisel verilerinizi başka hiçbir üçüncü tarafla paylaşmıyoruz."
       },

@@ -427,7 +427,7 @@
       "title": "Privacybeleid",
       "subtitle": "Laatst bijgewerkt: 19 april 2026 · Van kracht: 19 april 2026"
     },
-    "shortVersion": "De korte versie: CentryAI leest je e-mail om abonnementsbewijzen te vinden. We slaan nooit je e-mails op, verkopen nooit je gegevens en maken nooit verbinding met je bank. Je gegevens blijven standaard op je apparaat.",
+    "shortVersion": "CentryAI leest uw e-mails om abonnementsbewijzen te vinden. Inhoud wordt verwerkt in onze beveiligde Cloud Functions — we slaan e-mails nooit op, verkopen geen gegevens en verbinden ons niet met uw bank.",
     "toc": {
       "title": "Inhoudsopgave",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Informatie die We Verzamelen",
         "emailTitle": "Toegang tot E-mail",
-        "emailBody": "Om je abonnementen te detecteren, vraagt CentryAI alleen-lezen toegang tot je Gmail- of iCloud-inbox. We gebruiken deze toegang uitsluitend om abonnementsbevestigingen en facturering-e-mails te identificeren. We lezen, bewaren of verzenden de inhoud van de hoofdtekst van je e-mails niet. Alleen gestructureerde metadata wordt lokaal verwerkt.",
+        "emailBody": "Om abonnementen te detecteren, vraagt CentryAI alleen-lezen toegang tot uw inbox. Bij een scan wordt inhoud (afzender, onderwerp, fragmenten) naar Cloud Functions-servers gestuurd. Alleen geëxtraheerde abonnementsgegevens worden opgeslagen — ruwe inhoud wordt na verwerking niet bewaard.",
         "accountTitle": "Accountinformatie",
-        "accountBody": "Wanneer je een CentryAI-account maakt, verzamelen we je e-mailadres en een gehasht wachtwoord. We verzamelen niet je naam, telefoonnummer of betalingsgegevens, tenzij je upgradet naar CentryAI Premium.",
+        "accountBody": "CentryAI gebruikt uitsluitend Google- en Apple-aanmelding — geen wachtwoorden worden opgeslagen. Bij aanmelding ontvangen we uw e-mailadres en weergavenaam. Telefoonnummers of betaalkaartgegevens worden niet verzameld.",
         "usageTitle": "Gebruiksgegevens",
         "usageBody": "We verzamelen geanonimiseerde, geaggregeerde gebruiksgegevens om de app te verbeteren. Deze gegevens kunnen niet worden gebruikt om jou te identificeren.",
         "deviceTitle": "Apparaatinformatie",
-        "deviceBody": "We verzamelen je apparaattype, de versie van je besturingssysteem en de versie van je app om ondersteuning te bieden.",
+        "deviceBody": "We verzamelen uw tijdzone, landinstellingen en app-versie voor verlengingsherinneringen en compatibiliteit.",
         "noHumanAccess": "🔒 Geen enkel mens zal je e-mailgegevens lezen. De toegang is strikt programmatisch en geautomatiseerd, uitsluitend met als doel het detecteren van abonnementen."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Gegevensopslag en Beveiliging",
-        "body1": "Je abonnementsgegevens worden standaard lokaal op je apparaat opgeslagen. Als je iCloud- of Google Drive-synchronisatie inschakelt, worden je gegevens vóór verzending gecodeerd met AES-256.",
-        "body2": "De alleen-lezen Gmail-gegevens worden strikt lokaal op je apparaat verwerkt en worden nooit naar onze backend-servers verzonden of daar opgeslagen.",
-        "body3": "Onze servers gebruiken standaard beveiligingspraktijken in de branche, waaronder TLS 1.3 tijdens het transport, gecodeerde opslag in rust en regelmatige beveiligingsaudits."
+        "body1": "Uw abonnementsgegevens zijn veilig opgeslagen in Firebase Firestore (Google Cloud), beveiligd door beveiligingsregels per gebruiker.",
+        "body2": "E-mailinhoud wordt verwerkt in Cloud Functions en na voltooiing niet bewaard. Alleen geëxtraheerde gegevens worden in uw account opgeslagen.",
+        "body3": "Onze infrastructuur gebruikt TLS-versleuteling, Firebase-versleuteling in rust en strikte gegevensisolatie per gebruiker."
       },
       "s4": {
         "title": "4. Diensten van Derden",
         "intro": "CentryAI gebruikt een beperkt aantal diensten van derden:",
         "items": [
-          "Google Sign-In / Gmail API — voor inbox-scans",
-          "Apple Sign-In / iCloud — voor inbox-scans",
-          "Stripe — voor de facturering van het Pro-abonnement",
-          "Sentry — voor geanonimiseerde crashrapporten"
+          "Google-aanmelding / Gmail API — authenticatie en inbox-scan (Googles privacybeleid)",
+          "Apple-aanmelding / iCloud — authenticatie en inbox-scan (Apples privacybeleid)",
+          "Firebase (Google) — clouddatabase (Firestore), authenticatie, pushmeldingen (FCM) en serververwerking (Cloud Functions)",
+          "Google Gemini AI — AI-abonnementsextractie uit e-mailfragmenten (gegevens niet voor AI-training gebruikt)",
+          "RevenueCat — beheer van in-app abonnementsfacturering (geen betaalkaartgegevens direct verwerkt)",
+          "Resend — transactionele e-mails voor verlengingsherinneringen (adres gedeeld alleen bij opt-in)"
         ],
         "noShare": "We delen je persoonlijke gegevens niet met andere derden."
       },
