@@ -425,9 +425,9 @@
     "hero": {
       "label": "Legal",
       "title": "Privacy Policy",
-      "subtitle": "Last updated: April 19, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: May 15, 2026 · Effective: April 19, 2026"
     },
-    "shortVersion": "The short version: CentryAI reads your email to find subscription receipts. We never store your emails, never sell your data, and never connect to your bank. Your data stays on your device by default.",
+    "shortVersion": "CentryAI reads your email to find subscription receipts. Email content is processed server-side in our secure Cloud Functions — we never store your emails, never sell your data, and never connect to your bank.",
     "toc": {
       "title": "Table of Contents",
       "items": [
@@ -445,13 +445,13 @@
       "s1": {
         "title": "1. Information We Collect",
         "emailTitle": "Email Access",
-        "emailBody": "To detect your subscriptions, CentryAI requests read-only access to your Gmail or iCloud inbox. We use this access solely to identify subscription confirmation and billing emails. We do not read, store, or transmit the body content of your emails. Only structured metadata (sender, subject, date, amount patterns) is processed locally on your device.",
+        "emailBody": "To detect your subscriptions, CentryAI requests read-only access to your Gmail or iCloud inbox. When you initiate a scan, email content (sender, subject, body snippets) is transmitted to CentryAI's secure Cloud Functions servers for processing. Only extracted subscription data is saved — raw email content is not stored after processing.",
         "accountTitle": "Account Information",
-        "accountBody": "When you create a CentryAI account, we collect your email address and a hashed password. We do not collect your name, phone number, or payment details unless you upgrade to CentryAI Premium.",
+        "accountBody": "CentryAI uses Google Sign-In and Apple Sign-In exclusively — we do not collect or store passwords. When you sign in, we receive your email address and display name from your sign-in provider. We do not collect your phone number or payment card details.",
         "usageTitle": "Usage Data",
         "usageBody": "We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. This data cannot be used to identify you.",
         "deviceTitle": "Device Information",
-        "deviceBody": "We collect your device type, operating system version, and app version to provide support and ensure compatibility.",
+        "deviceBody": "We collect your device timezone, locale, and app version to deliver timely renewal reminders and ensure compatibility.",
         "noHumanAccess": "🔒 No human will read your email data. Access is strictly programmatic and automated for the sole purpose of detecting subscriptions."
       },
       "s2": {
@@ -471,18 +471,20 @@
       },
       "s3": {
         "title": "3. Data Storage and Security",
-        "body1": "Your subscription data is stored locally on your device by default. If you enable iCloud or Google Drive sync, your data is encrypted before transmission using AES-256. We do not have access to your encryption keys.",
-        "body2": "Gmail read-only data is strictly processed locally on your device and is never transmitted to, or stored on, our backend servers. Our backend infrastructure never receives, processes, or stores any Gmail message content or metadata.",
-        "body3": "Our servers use industry-standard security practices including TLS 1.3 in transit, encrypted storage at rest, and regular third-party security audits."
+        "body1": "Your subscription data is stored securely in Firebase Firestore (Google Cloud), a cloud database protected by per-user security rules that prevent any other user from accessing your data.",
+        "body2": "Email content transmitted during inbox scanning is processed in our Cloud Functions and is not retained after processing completes. Only extracted subscription data is stored in your account.",
+        "body3": "Our infrastructure uses TLS encryption in transit, Firebase's encryption at rest, and security rules enforcing strict per-user data isolation."
       },
       "s4": {
         "title": "4. Third-Party Services",
         "intro": "CentryAI uses a limited number of third-party services:",
         "items": [
-          "Google Sign-In / Gmail API — for inbox scanning (governed by Google's privacy policy)",
-          "Apple Sign-In / iCloud — for inbox scanning (governed by Apple's privacy policy)",
-          "Stripe — for Pro subscription billing (we never see your full card number)",
-          "Sentry — for anonymized crash reporting"
+          "Google Sign-In / Gmail API — authentication and inbox scanning (governed by Google's privacy policy)",
+          "Apple Sign-In / iCloud — authentication and inbox scanning (governed by Apple's privacy policy)",
+          "Firebase (Google) — cloud database (Firestore), authentication, push notifications (FCM), and server-side processing (Cloud Functions)",
+          "Google Gemini AI — AI-powered subscription extraction from email snippets (email data not used for AI training)",
+          "RevenueCat — in-app subscription billing management (we never handle payment card details directly)",
+          "Resend — transactional email delivery for weekly renewal reminders (email address shared only if you opt in)"
         ],
         "noShare": "We do not share your personal data with any other third parties."
       },
