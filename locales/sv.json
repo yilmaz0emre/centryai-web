@@ -592,5 +592,48 @@
       "submitAnother": "Skicka in en till",
       "backHome": "Tillbaka till startsidan"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Radera konto och data — CentryAI",
+    "hero": {
+      "label": "Konto",
+      "title": "Radera ditt konto och din data",
+      "subtitle": "Din data tillhör dig. Radering är permanent och träder i kraft omedelbart."
+    },
+    "warn": "⚠ Den här åtgärden kan inte ångras. Om du raderar ditt konto tas alla dina prenumerationer, skanningshistorik, aviseringsinställningar och kontodata bort permanent från våra servrar. Din aktiva betalda plan återbetalas inte — avsluta den först om det behövs.",
+    "inAppTitle": "Radera direkt i appen",
+    "inAppIntro": "Det snabbaste sättet att radera ditt konto och all tillhörande data är direkt i CentryAI-appen:",
+    "steps": [
+      {
+        "title": "Öppna CentryAI och logga in",
+        "body": "Se till att du är inloggad på det konto du vill radera."
+      },
+      {
+        "title": "Gå till Inställningar",
+        "body": "Tryck på profilikonen eller navigera till fliken Inställningar längst ner på skärmen."
+      },
+      {
+        "title": "Tryck på «Radera konto»",
+        "body": "Scrolla till botten av Inställningar och tryck på Radera konto. Du ombeds autentisera dig igen av säkerhetsskäl."
+      },
+      {
+        "title": "Bekräfta raderingen",
+        "body": "Granska vad som kommer att raderas och bekräfta sedan. Raderingen är omedelbar — dina data och Firebase Auth-kontot tas bort i ett steg."
+      }
+    ],
+    "whatDeletedTitle": "Vad som raderas",
+    "whatDeleted": [
+      "Alla spårade prenumerationer och tillhörande data",
+      "E-postskanningshistorik och skanningsloggar",
+      "Aviseringsinställningar och aviseringshistorik",
+      "Push-aviseringstoken (enhets-ID)",
+      "Kontoprofil (e-post, tidszon, språkinställningar)",
+      "Firebase-autentiseringspost",
+      "Gmail OAuth-auktorisering återkallas",
+      "iCloud-uppgifter rensas från enhetens säkra lagring"
+    ],
+    "noAppTitle": "Kan inte komma åt appen?",
+    "noAppBody": "Om du inte kan logga in eller komma åt appen för att radera ditt konto, kontakta oss så raderar vi dina data manuellt inom 30 dagar.",
+    "contactText": "Mejla oss på <a href=\"mailto:support@centryai.app\">support@centryai.app</a> med ämnesraden <strong>“Account Deletion Request”</strong> och ange den e-postadress som är kopplad till ditt konto. Vi bekräftar raderingen inom 30 dagar."
   }
 }

@@ -592,5 +592,48 @@
       "submitAnother": "Enviar outro",
       "backHome": "Voltar ao início"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Excluir conta e dados — CentryAI",
+    "hero": {
+      "label": "Conta",
+      "title": "Excluir sua conta e dados",
+      "subtitle": "Seus dados pertencem a você. A exclusão é permanente e entra em vigor imediatamente."
+    },
+    "warn": "⚠ Esta ação é irreversível. Excluir sua conta remove permanentemente todas as suas assinaturas, histórico de verificação, preferências de notificação e dados da conta dos nossos servidores. Seu plano pago ativo não será reembolsado — cancele-o primeiro se necessário.",
+    "inAppTitle": "Excluir diretamente pelo app",
+    "inAppIntro": "A maneira mais rápida de excluir sua conta e todos os dados associados é diretamente pelo app CentryAI:",
+    "steps": [
+      {
+        "title": "Abra o CentryAI e faça login",
+        "body": "Certifique-se de estar conectado à conta que deseja excluir."
+      },
+      {
+        "title": "Acesse as Configurações",
+        "body": "Toque no ícone de perfil ou navegue até a aba Configurações na parte inferior da tela."
+      },
+      {
+        "title": "Toque em \"Excluir conta\"",
+        "body": "Role até o final das Configurações e toque em Excluir conta. Você será solicitado a se autenticar novamente por segurança."
+      },
+      {
+        "title": "Confirme a exclusão",
+        "body": "Revise o que será excluído e confirme. A exclusão é imediata — seus dados e a conta do Firebase Auth são removidos em uma única etapa."
+      }
+    ],
+    "whatDeletedTitle": "O que será excluído",
+    "whatDeleted": [
+      "Todas as assinaturas rastreadas e dados associados",
+      "Histórico de verificação de e-mail e logs de verificação",
+      "Preferências de notificação e histórico de notificações",
+      "Token de notificação push (ID do dispositivo)",
+      "Perfil da conta (e-mail, fuso horário, preferências de idioma)",
+      "Registro de autenticação do Firebase",
+      "A autorização OAuth do Gmail é revogada",
+      "As credenciais do iCloud são apagadas do armazenamento seguro do dispositivo"
+    ],
+    "noAppTitle": "Não consegue acessar o app?",
+    "noAppBody": "Se você não conseguir fazer login ou acessar o app para excluir sua conta, entre em contato conosco e excluiremos seus dados manualmente em até 30 dias.",
+    "contactText": "Envie-nos um e-mail em <a href=\"mailto:support@centryai.app\">support@centryai.app</a> com o assunto <strong>“Account Deletion Request”</strong> e inclua o endereço de e-mail associado à sua conta. Confirmaremos a exclusão em até 30 dias."
   }
 }

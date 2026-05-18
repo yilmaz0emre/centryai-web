@@ -592,5 +592,48 @@
       "submitAnother": "Başka bir tane gönder",
       "backHome": "Eve dön"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Hesabı ve Verileri Sil — CentryAI",
+    "hero": {
+      "label": "Hesap",
+      "title": "Hesabını ve Verilerini Sil",
+      "subtitle": "Verileriniz size aittir. Silme işlemi kalıcıdır ve hemen geçerli olur."
+    },
+    "warn": "⚠ Bu işlem geri alınamaz. Hesabını silmek; tüm aboneliklerini, tarama geçmişini, bildirim tercihlerini ve hesap verilerini sunucularımızdan kalıcı olarak kaldırır. Aktif ücretli planın iade edilmez — gerekiyorsa önce iptal et.",
+    "inAppTitle": "Uygulama içinden sil",
+    "inAppIntro": "Hesabını ve tüm ilgili verileri silmenin en hızlı yolu doğrudan CentryAI uygulamasından:",
+    "steps": [
+      {
+        "title": "CentryAI'yi aç ve giriş yap",
+        "body": "Silmek istediğin hesaba giriş yaptığından emin ol."
+      },
+      {
+        "title": "Ayarlar'a git",
+        "body": "Profil simgesine dokun ya da ekranın altındaki Ayarlar sekmesine git."
+      },
+      {
+        "title": "\"Hesabı Sil\"e dokun",
+        "body": "Ayarlar'ın en altına kadar kaydır ve Hesabı Sil'e dokun. Güvenlik amacıyla yeniden kimlik doğrulaman istenecek."
+      },
+      {
+        "title": "Silmeyi onayla",
+        "body": "Nelerin silineceğini gözden geçir ve onayla. Silme işlemi anlıktır — verileriniz ve Firebase Auth hesabı tek adımda kaldırılır."
+      }
+    ],
+    "whatDeletedTitle": "Neler silinir",
+    "whatDeleted": [
+      "Takip edilen tüm abonelikler ve ilgili veriler",
+      "E-posta tarama geçmişi ve tarama kayıtları",
+      "Bildirim tercihleri ve bildirim geçmişi",
+      "Anlık bildirim jetonu (cihaz kimliği)",
+      "Hesap profili (e-posta, saat dilimi, dil tercihleri)",
+      "Firebase kimlik doğrulama kaydı",
+      "Gmail OAuth yetkisi iptal edilir",
+      "iCloud kimlik bilgileri cihazın güvenli deposundan temizlenir"
+    ],
+    "noAppTitle": "Uygulamaya erişemiyor musun?",
+    "noAppBody": "Hesabını silmek için uygulamaya giriş yapamıyor ya da erişemiyorsan bizimle iletişime geç; verilerini 30 gün içinde manuel olarak sileriz.",
+    "contactText": "<a href=\"mailto:support@centryai.app\">support@centryai.app</a> adresine <strong>“Account Deletion Request”</strong> konu satırıyla e-posta gönder ve hesabınla ilişkili e-posta adresini belirt. Silme işlemini 30 gün içinde onaylayacağız."
   }
 }

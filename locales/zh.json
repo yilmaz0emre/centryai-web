@@ -592,5 +592,48 @@
       "submitAnother": "提交另一个",
       "backHome": "返回主页"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "删除账户和数据 — CentryAI",
+    "hero": {
+      "label": "账户",
+      "title": "删除您的账户和数据",
+      "subtitle": "您的数据属于您。删除操作是永久性的，立即生效。"
+    },
+    "warn": "⚠ 此操作不可撤销。删除账户将永久从我们的服务器中移除您的所有订阅、扫描记录、通知偏好设置和账户数据。您当前有效的付费计划将不会退款——如有需要，请先取消。",
+    "inAppTitle": "在应用内直接删除",
+    "inAppIntro": "删除账户和所有相关数据最快的方式是直接在 CentryAI 应用内操作：",
+    "steps": [
+      {
+        "title": "打开 CentryAI 并登录",
+        "body": "请确保您已登录至想要删除的账户。"
+      },
+      {
+        "title": "进入设置",
+        "body": "点击个人头像图标，或导航至屏幕底部的设置选项卡。"
+      },
+      {
+        "title": "点击“删除账户”",
+        "body": "在设置底部向下滚动，点击删除账户。出于安全考虑，系统将要求您重新进行身份验证。"
+      },
+      {
+        "title": "确认删除",
+        "body": "查看将被删除的内容，然后确认。删除立即生效——您的数据和 Firebase Auth 账户一步完成删除。"
+      }
+    ],
+    "whatDeletedTitle": "将被删除的内容",
+    "whatDeleted": [
+      "所有已追踪的订阅及相关数据",
+      "邮件扫描记录和扫描日志",
+      "通知偏好设置和通知历史记录",
+      "推送通知令牌（设备 ID）",
+      "账户资料（邮箱、时区、语言偏好）",
+      "Firebase 身份验证记录",
+      "Gmail OAuth 授权已撤销",
+      "iCloud 凭据已从设备安全存储中清除"
+    ],
+    "noAppTitle": "无法访问应用？",
+    "noAppBody": "如果您无法登录或访问应用来删除账户，请联系我们，我们将在 30 天内手动删除您的数据。",
+    "contactText": "请发送邮件至 <a href=\"mailto:support@centryai.app\">support@centryai.app</a>，邮件主题填写 <strong>“Account Deletion Request”</strong>，并附上与您账户关联的邮箱地址。我们将在 30 天内确认删除。"
   }
 }

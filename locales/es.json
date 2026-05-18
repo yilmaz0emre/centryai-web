@@ -592,5 +592,48 @@
       "submitAnother": "enviar otro",
       "backHome": "De vuelta a casa"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Eliminar cuenta y datos — CentryAI",
+    "hero": {
+      "label": "Cuenta",
+      "title": "Elimina tu cuenta y tus datos",
+      "subtitle": "Tus datos te pertenecen. La eliminación es permanente y tiene efecto inmediato."
+    },
+    "warn": "⚠ Esta acción es irreversible. Eliminar tu cuenta borra de forma permanente todas tus suscripciones, historial de análisis, preferencias de notificaciones y datos de cuenta de nuestros servidores. Tu plan de pago activo no será reembolsado — cancélalo primero si es necesario.",
+    "inAppTitle": "Eliminar desde la aplicación",
+    "inAppIntro": "La forma más rápida de eliminar tu cuenta y todos los datos asociados es directamente desde la app de CentryAI:",
+    "steps": [
+      {
+        "title": "Abre CentryAI e inicia sesión",
+        "body": "Asegúrate de haber iniciado sesión en la cuenta que deseas eliminar."
+      },
+      {
+        "title": "Ve a Configuración",
+        "body": "Toca el ícono de perfil o navega a la pestaña Configuración en la parte inferior de la pantalla."
+      },
+      {
+        "title": "Toca «Eliminar cuenta»",
+        "body": "Desplázate hasta el final de Configuración y toca Eliminar cuenta. Se te pedirá que vuelvas a autenticarte por seguridad."
+      },
+      {
+        "title": "Confirma la eliminación",
+        "body": "Revisa lo que se eliminará y confirma. La eliminación es inmediata: tus datos y la cuenta de Firebase Auth se borran en un solo paso."
+      }
+    ],
+    "whatDeletedTitle": "Qué se eliminará",
+    "whatDeleted": [
+      "Todas las suscripciones rastreadas y datos asociados",
+      "Historial de análisis de correo electrónico y registros de escaneo",
+      "Preferencias de notificaciones e historial de notificaciones",
+      "Token de notificaciones push (ID de dispositivo)",
+      "Perfil de cuenta (correo electrónico, zona horaria, preferencias de idioma)",
+      "Registro de autenticación de Firebase",
+      "La autorización OAuth de Gmail queda revocada",
+      "Las credenciales de iCloud se eliminan del almacenamiento seguro del dispositivo"
+    ],
+    "noAppTitle": "¿No puedes acceder a la app?",
+    "noAppBody": "Si no puedes iniciar sesión o acceder a la app para eliminar tu cuenta, contáctanos y eliminaremos tus datos manualmente en un plazo de 30 días.",
+    "contactText": "Escríbenos a <a href=\"mailto:support@centryai.app\">support@centryai.app</a> con el asunto <strong>“Account Deletion Request”</strong> e incluye la dirección de correo electrónico asociada a tu cuenta. Confirmaremos la eliminación en 30 días."
   }
 }

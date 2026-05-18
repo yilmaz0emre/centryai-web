@@ -592,5 +592,48 @@
       "submitAnother": "Nog één indienen",
       "backHome": "Terug naar start"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Account en gegevens verwijderen — CentryAI",
+    "hero": {
+      "label": "Account",
+      "title": "Je account en gegevens verwijderen",
+      "subtitle": "Je gegevens zijn van jou. Verwijdering is permanent en treedt direct in werking."
+    },
+    "warn": "⚠ Deze actie is onomkeerbaar. Het verwijderen van je account wist permanent alle abonnementen, scangeschiedenis, notificatievoorkeuren en accountgegevens van onze servers. Je actieve betaald abonnement wordt niet terugbetaald — annuleer dit eerst indien nodig.",
+    "inAppTitle": "Verwijderen via de app",
+    "inAppIntro": "De snelste manier om je account en alle bijbehorende gegevens te verwijderen is rechtstreeks vanuit de CentryAI-app:",
+    "steps": [
+      {
+        "title": "Open CentryAI en log in",
+        "body": "Zorg dat je bent ingelogd op het account dat je wilt verwijderen."
+      },
+      {
+        "title": "Ga naar Instellingen",
+        "body": "Tik op het profielicoontje of navigeer naar het tabblad Instellingen onderaan het scherm."
+      },
+      {
+        "title": "Tik op 'Account verwijderen'",
+        "body": "Scroll naar de onderkant van Instellingen en tik op Account verwijderen. Je wordt gevraagd je opnieuw te authenticeren voor de veiligheid."
+      },
+      {
+        "title": "Bevestig de verwijdering",
+        "body": "Bekijk wat er wordt verwijderd en bevestig daarna. Verwijdering is direct — je gegevens en Firebase Auth-account worden in één stap verwijderd."
+      }
+    ],
+    "whatDeletedTitle": "Wat wordt er verwijderd",
+    "whatDeleted": [
+      "Alle bijgehouden abonnementen en bijbehorende gegevens",
+      "E-mailscangeschiedenis en scanlogs",
+      "Notificatievoorkeuren en notificatiegeschiedenis",
+      "Push-notificatietoken (apparaat-ID)",
+      "Accountprofiel (e-mailadres, tijdzone, taalvoorkeur)",
+      "Firebase-authenticatierecord",
+      "Gmail OAuth-autorisatie wordt ingetrokken",
+      "iCloud-inloggegevens worden verwijderd uit de beveiligde opslag op het apparaat"
+    ],
+    "noAppTitle": "Geen toegang tot de app?",
+    "noAppBody": "Als je niet kunt inloggen of de app niet kunt openen om je account te verwijderen, neem dan contact met ons op en we verwijderen je gegevens handmatig binnen 30 dagen.",
+    "contactText": "Stuur ons een e-mail op <a href=\"mailto:support@centryai.app\">support@centryai.app</a> met als onderwerp <strong>“Account Deletion Request”</strong> en vermeld het e-mailadres van je account. We bevestigen de verwijdering binnen 30 dagen."
   }
 }

@@ -592,5 +592,48 @@
       "submitAnother": "Kirim satu lagi",
       "backHome": "Kembali ke Beranda"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Hapus Akun & Data — CentryAI",
+    "hero": {
+      "label": "Akun",
+      "title": "Hapus Akun & Data Kamu",
+      "subtitle": "Datamu milikmu. Penghapusan bersifat permanen dan langsung berlaku."
+    },
+    "warn": "⚠ Tindakan ini tidak dapat dibatalkan. Menghapus akun akan menghapus secara permanen semua langganan, riwayat pemindaian, preferensi notifikasi, dan data akun dari server kami. Paket berbayar aktif tidak akan dikembalikan — batalkan terlebih dahulu jika diperlukan.",
+    "inAppTitle": "Hapus langsung dari aplikasi",
+    "inAppIntro": "Cara tercepat untuk menghapus akun dan semua data terkait adalah langsung dari aplikasi CentryAI:",
+    "steps": [
+      {
+        "title": "Buka CentryAI dan masuk",
+        "body": "Pastikan kamu sudah masuk ke akun yang ingin dihapus."
+      },
+      {
+        "title": "Buka Pengaturan",
+        "body": "Ketuk ikon profil atau navigasi ke tab Pengaturan di bagian bawah layar."
+      },
+      {
+        "title": "Ketuk \"Hapus Akun\"",
+        "body": "Gulir ke bawah di Pengaturan dan ketuk Hapus Akun. Kamu akan diminta untuk autentikasi ulang demi keamanan."
+      },
+      {
+        "title": "Konfirmasi penghapusan",
+        "body": "Tinjau apa yang akan dihapus, lalu konfirmasi. Penghapusan langsung berlaku — data dan akun Firebase Auth dihapus dalam satu langkah."
+      }
+    ],
+    "whatDeletedTitle": "Yang akan dihapus",
+    "whatDeleted": [
+      "Semua langganan yang dilacak beserta datanya",
+      "Riwayat pemindaian email dan log pemindaian",
+      "Preferensi notifikasi dan riwayat notifikasi",
+      "Token notifikasi push (ID perangkat)",
+      "Profil akun (email, zona waktu, preferensi bahasa)",
+      "Catatan autentikasi Firebase",
+      "Otorisasi OAuth Gmail dicabut",
+      "Kredensial iCloud dihapus dari penyimpanan aman perangkat"
+    ],
+    "noAppTitle": "Tidak bisa mengakses aplikasi?",
+    "noAppBody": "Jika kamu tidak bisa masuk atau mengakses aplikasi untuk menghapus akun, hubungi kami dan kami akan menghapus data secara manual dalam 30 hari.",
+    "contactText": "Email kami di <a href=\"mailto:support@centryai.app\">support@centryai.app</a> dengan subjek <strong>“Account Deletion Request”</strong> dan sertakan alamat email yang terkait dengan akunmu. Kami akan mengonfirmasi penghapusan dalam 30 hari."
   }
 }

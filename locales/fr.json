@@ -592,5 +592,48 @@
       "submitAnother": "En soumettre un autre",
       "backHome": "Retour à l'accueil"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Supprimer le compte et les données — CentryAI",
+    "hero": {
+      "label": "Compte",
+      "title": "Supprimer votre compte et vos données",
+      "subtitle": "Vos données vous appartiennent. La suppression est définitive et prend effet immédiatement."
+    },
+    "warn": "⚠ Cette action est irréversible. La suppression de votre compte efface définitivement tous vos abonnements, l'historique des analyses, les préférences de notifications et les données de votre compte de nos serveurs. Votre plan payant actif ne sera pas remboursé — annulez-le d'abord si nécessaire.",
+    "inAppTitle": "Supprimer depuis l'application",
+    "inAppIntro": "Le moyen le plus rapide de supprimer votre compte et toutes les données associées est directement depuis l'application CentryAI :",
+    "steps": [
+      {
+        "title": "Ouvrir CentryAI et se connecter",
+        "body": "Assurez-vous d'être connecté au compte que vous souhaitez supprimer."
+      },
+      {
+        "title": "Accéder aux Paramètres",
+        "body": "Appuyez sur l'icône de profil ou naviguez vers l'onglet Paramètres en bas de l'écran."
+      },
+      {
+        "title": "Appuyer sur « Supprimer le compte »",
+        "body": "Faites défiler jusqu'en bas des Paramètres et appuyez sur Supprimer le compte. Une nouvelle authentification vous sera demandée pour des raisons de sécurité."
+      },
+      {
+        "title": "Confirmer la suppression",
+        "body": "Vérifiez ce qui sera supprimé, puis confirmez. La suppression est immédiate — vos données et votre compte Firebase Auth sont supprimés en une seule étape."
+      }
+    ],
+    "whatDeletedTitle": "Ce qui est supprimé",
+    "whatDeleted": [
+      "Tous les abonnements suivis et les données associées",
+      "Historique des analyses d'e-mails et journaux de scan",
+      "Préférences de notifications et historique des notifications",
+      "Jeton de notification push (identifiant de l'appareil)",
+      "Profil du compte (e-mail, fuseau horaire, préférences de langue)",
+      "Enregistrement d'authentification Firebase",
+      "L'autorisation OAuth Gmail est révoquée",
+      "Les identifiants iCloud sont supprimés du stockage sécurisé de l'appareil"
+    ],
+    "noAppTitle": "Impossible d'accéder à l'application ?",
+    "noAppBody": "Si vous ne pouvez pas vous connecter ou accéder à l'application pour supprimer votre compte, contactez-nous et nous supprimerons vos données manuellement dans un délai de 30 jours.",
+    "contactText": "Écrivez-nous à <a href=\"mailto:support@centryai.app\">support@centryai.app</a> avec comme objet <strong>“Account Deletion Request”</strong> en indiquant l'adresse e-mail associée à votre compte. Nous confirmerons la suppression dans un délai de 30 jours."
   }
 }

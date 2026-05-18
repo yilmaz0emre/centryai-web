@@ -592,5 +592,48 @@
       "submitAnother": "Weiteres einreichen",
       "backHome": "Zurück zur Startseite"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Konto und Daten löschen — CentryAI",
+    "hero": {
+      "label": "Konto",
+      "title": "Dein Konto und deine Daten löschen",
+      "subtitle": "Deine Daten gehören dir. Die Löschung ist dauerhaft und tritt sofort in Kraft."
+    },
+    "warn": "⚠ Diese Aktion ist unwiderruflich. Das Löschen deines Kontos entfernt dauerhaft alle deine Abonnements, den Scanverlauf, die Benachrichtigungseinstellungen und alle Kontodaten von unseren Servern. Dein aktiver Bezahlplan wird nicht erstattet — kündige ihn bei Bedarf zuerst.",
+    "inAppTitle": "Direkt in der App löschen",
+    "inAppIntro": "Der schnellste Weg, dein Konto und alle zugehörigen Daten zu löschen, ist direkt in der CentryAI-App:",
+    "steps": [
+      {
+        "title": "CentryAI öffnen und anmelden",
+        "body": "Stelle sicher, dass du bei dem Konto angemeldet bist, das du löschen möchtest."
+      },
+      {
+        "title": "Zu den Einstellungen wechseln",
+        "body": "Tippe auf das Profilsymbol oder navigiere zum Einstellungen-Tab am unteren Bildschirmrand."
+      },
+      {
+        "title": "\"Konto löschen\" antippen",
+        "body": "Scrolle in den Einstellungen nach unten und tippe auf Konto löschen. Du wirst zur erneuten Authentifizierung aus Sicherheitsgründen aufgefordert."
+      },
+      {
+        "title": "Löschung bestätigen",
+        "body": "Prüfe, was gelöscht wird, und bestätige dann. Die Löschung erfolgt sofort — deine Daten und das Firebase-Auth-Konto werden in einem Schritt entfernt."
+      }
+    ],
+    "whatDeletedTitle": "Was wird gelöscht",
+    "whatDeleted": [
+      "Alle erfassten Abonnements und zugehörige Daten",
+      "E-Mail-Scanverlauf und Scan-Logs",
+      "Benachrichtigungseinstellungen und Benachrichtigungsverlauf",
+      "Push-Benachrichtigungs-Token (Geräte-ID)",
+      "Kontoprofil (E-Mail-Adresse, Zeitzone, Spracheinstellungen)",
+      "Firebase-Authentifizierungsdatensatz",
+      "Gmail-OAuth-Autorisierung wird widerrufen",
+      "iCloud-Anmeldedaten werden aus dem sicheren Gerätespeicher gelöscht"
+    ],
+    "noAppTitle": "Kein Zugriff auf die App?",
+    "noAppBody": "Falls du dich nicht anmelden oder auf die App zugreifen kannst, um dein Konto zu löschen, kontaktiere uns und wir löschen deine Daten manuell innerhalb von 30 Tagen.",
+    "contactText": "Schreib uns an <a href=\"mailto:support@centryai.app\">support@centryai.app</a> mit dem Betreff <strong>“Account Deletion Request”</strong> und füge die E-Mail-Adresse deines Kontos hinzu. Wir bestätigen die Löschung innerhalb von 30 Tagen."
   }
 }

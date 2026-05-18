@@ -592,5 +592,48 @@
       "submitAnother": "Daj nową Wiadomość",
       "backHome": "Wróć do Głównego Ekranu"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Usuń konto i dane — CentryAI",
+    "hero": {
+      "label": "Konto",
+      "title": "Usuń swoje konto i dane",
+      "subtitle": "Twoje dane należą do Ciebie. Usunięcie jest trwałe i następuje natychmiast."
+    },
+    "warn": "⚠ Ta akcja jest nieodwracalna. Usunięcie konta trwale usuwa wszystkie Twoje subskrypcje, historię skanowania, preferencje powiadomień i dane konta z naszych serwerów. Aktywny płatny plan nie zostanie zwrócony — jeśli potrzeba, najpierw go anuluj.",
+    "inAppTitle": "Usuń bezpośrednio z aplikacji",
+    "inAppIntro": "Najszybszym sposobem na usunięcie konta i wszystkich powiązanych danych jest zrobienie tego bezpośrednio w aplikacji CentryAI:",
+    "steps": [
+      {
+        "title": "Otwórz CentryAI i zaloguj się",
+        "body": "Upewnij się, że jesteś zalogowany na konto, które chcesz usunąć."
+      },
+      {
+        "title": "Przejdź do Ustawień",
+        "body": "Stuknij ikonę profilu lub przejdź do zakładki Ustawienia na dole ekranu."
+      },
+      {
+        "title": "Stuknij \"Usuń konto\"",
+        "body": "Przewiń do dołu Ustawień i stuknij Usuń konto. Ze względów bezpieczeństwa zostaniesz poproszony o ponowne uwierzytelnienie."
+      },
+      {
+        "title": "Potwierdź usunięcie",
+        "body": "Sprawdź, co zostanie usunięte, a następnie potwierdź. Usunięcie jest natychmiastowe — Twoje dane i konto Firebase Auth są usuwane w jednym kroku."
+      }
+    ],
+    "whatDeletedTitle": "Co zostanie usunięte",
+    "whatDeleted": [
+      "Wszystkie śledzone subskrypcje i powiązane dane",
+      "Historia skanowania e-mail i logi skanowania",
+      "Preferencje powiadomień i historia powiadomień",
+      "Token powiadomień push (identyfikator urządzenia)",
+      "Profil konta (e-mail, strefa czasowa, preferencje językowe)",
+      "Rekord uwierzytelniania Firebase",
+      "Autoryzacja Gmail OAuth zostaje odwołana",
+      "Dane uwierzytelniające iCloud są usuwane z bezpiecznego magazynu urządzenia"
+    ],
+    "noAppTitle": "Brak dostępu do aplikacji?",
+    "noAppBody": "Jeśli nie możesz zalogować się lub uzyskać dostępu do aplikacji, aby usunąć konto, skontaktuj się z nami, a usuniemy Twoje dane ręcznie w ciągu 30 dni.",
+    "contactText": "Napisz do nas na <a href=\"mailto:support@centryai.app\">support@centryai.app</a> z tematem <strong>“Account Deletion Request”</strong> i podaj adres e-mail powiązany z Twoim kontem. Potwierdzimy usunięcie w ciągu 30 dni."
   }
 }

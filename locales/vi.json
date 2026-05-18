@@ -592,5 +592,48 @@
       "submitAnother": "Gửi nội dung khác",
       "backHome": "Trở về Trang chủ"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Xóa tài khoản và dữ liệu — CentryAI",
+    "hero": {
+      "label": "Tài khoản",
+      "title": "Xóa tài khoản và dữ liệu của bạn",
+      "subtitle": "Dữ liệu của bạn là của bạn. Việc xóa là vĩnh viễn và có hiệu lực ngay lập tức."
+    },
+    "warn": "⚠ Thao tác này không thể hoàn tác. Xóa tài khoản sẽ xóa vĩnh viễn tất cả đăng ký, lịch sử quét, tùy chọn thông báo và dữ liệu tài khoản khỏi máy chủ của chúng tôi. Gói trả phí đang hoạt động sẽ không được hoàn tiền — hãy hủy trước nếu cần.",
+    "inAppTitle": "Xóa trực tiếp từ ứng dụng",
+    "inAppIntro": "Cách nhanh nhất để xóa tài khoản và toàn bộ dữ liệu liên quan là thực hiện trực tiếp trong ứng dụng CentryAI:",
+    "steps": [
+      {
+        "title": "Mở CentryAI và đăng nhập",
+        "body": "Đảm bảo bạn đã đăng nhập vào tài khoản muốn xóa."
+      },
+      {
+        "title": "Vào Cài đặt",
+        "body": "Nhấn vào biểu tượng hồ sơ hoặc điều hướng đến tab Cài đặt ở dưới cùng màn hình."
+      },
+      {
+        "title": "Nhấn \"Xóa tài khoản\"",
+        "body": "Cuộn xuống cuối phần Cài đặt và nhấn Xóa tài khoản. Bạn sẽ được yêu cầu xác thực lại để bảo mật."
+      },
+      {
+        "title": "Xác nhận xóa",
+        "body": "Xem lại những gì sẽ bị xóa rồi xác nhận. Việc xóa diễn ra ngay lập tức — dữ liệu và tài khoản Firebase Auth bị xóa trong một bước."
+      }
+    ],
+    "whatDeletedTitle": "Những gì bị xóa",
+    "whatDeleted": [
+      "Tất cả đăng ký được theo dõi và dữ liệu liên quan",
+      "Lịch sử quét email và nhật ký quét",
+      "Tùy chọn thông báo và lịch sử thông báo",
+      "Token thông báo đẩy (ID thiết bị)",
+      "Hồ sơ tài khoản (email, múi giờ, tùy chọn ngôn ngữ)",
+      "Bản ghi xác thực Firebase",
+      "Quyền OAuth Gmail bị thu hồi",
+      "Thông tin xác thực iCloud bị xóa khỏi bộ nhớ an toàn của thiết bị"
+    ],
+    "noAppTitle": "Không thể truy cập ứng dụng?",
+    "noAppBody": "Nếu bạn không thể đăng nhập hoặc truy cập ứng dụng để xóa tài khoản, hãy liên hệ với chúng tôi và chúng tôi sẽ xóa dữ liệu của bạn thủ công trong vòng 30 ngày.",
+    "contactText": "Gửi email cho chúng tôi tại <a href=\"mailto:support@centryai.app\">support@centryai.app</a> với tiêu đề <strong>“Account Deletion Request”</strong> và ghi rõ địa chỉ email liên kết với tài khoản của bạn. Chúng tôi sẽ xác nhận việc xóa trong vòng 30 ngày."
   }
 }

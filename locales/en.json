@@ -592,5 +592,48 @@
       "submitAnother": "Submit another",
       "backHome": "Back to home"
     }
+  },
+  "deleteAccount": {
+    "pageTitle": "Delete Account & Data — CentryAI",
+    "hero": {
+      "label": "Account",
+      "title": "Delete Your Account & Data",
+      "subtitle": "Your data belongs to you. Deletion is permanent and takes effect immediately."
+    },
+    "warn": "⚠ This action is irreversible. Deleting your account permanently removes all your subscriptions, scan history, notification preferences, and account data from our servers. Your active paid plan will not be refunded — cancel it first if needed.",
+    "inAppTitle": "Delete from within the app",
+    "inAppIntro": "The fastest way to delete your account and all associated data is directly from the CentryAI app:",
+    "steps": [
+      {
+        "title": "Open CentryAI and sign in",
+        "body": "Make sure you are signed in to the account you want to delete."
+      },
+      {
+        "title": "Go to Settings",
+        "body": "Tap the profile icon or navigate to the Settings tab at the bottom of the screen."
+      },
+      {
+        "title": "Tap “Delete Account”",
+        "body": "Scroll to the bottom of Settings and tap Delete Account. You will be asked to re-authenticate for security."
+      },
+      {
+        "title": "Confirm deletion",
+        "body": "Review what will be deleted, then confirm. Deletion is immediate — your data and Firebase Auth account are removed in one step."
+      }
+    ],
+    "whatDeletedTitle": "What gets deleted",
+    "whatDeleted": [
+      "All tracked subscriptions and associated data",
+      "Email scan history and scan logs",
+      "Notification preferences and notification history",
+      "Push notification token (device ID)",
+      "Account profile (email, timezone, language preferences)",
+      "Firebase Authentication record",
+      "Gmail OAuth authorization is revoked",
+      "iCloud credentials are cleared from device secure storage"
+    ],
+    "noAppTitle": "Can't access the app?",
+    "noAppBody": "If you are unable to sign in or access the app to delete your account, contact us and we will delete your data manually within 30 days.",
+    "contactText": "Email us at <a href=\"mailto:support@centryai.app\">support@centryai.app</a> with subject line <strong>“Account Deletion Request”</strong> and include the email address associated with your account. We will confirm deletion within 30 days."
   }
 }
