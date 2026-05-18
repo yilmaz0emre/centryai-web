@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Suivi des abonnements",
-    "headline1": "Arrêtez de payer pour des applications",
+    "headline1": "Arrêtez de payer pour des abonnements",
     "headline2": "que vous avez",
-    "headlineEm": "oubliées.",
-    "sub": "CentryAI est une application intelligente de finances personnelles conçue pour vous aider à suivre, gérer et optimiser automatiquement vos abonnements récurrents.",
+    "headlineEm": "oubliés.",
+    "sub": "CentryAI scanne votre boîte Gmail ou iCloud, trouve chaque abonnement que vous payez et vous dit lesquels supprimer. La configuration prend 3 minutes.",
     "trust": "4.8 · Plus de 12 000 avis · Commencez gratuitement",
     "appStoreSmall": "Télécharger dans l'",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Connectez votre boîte de réception",
-        "desc": "Associez Gmail ou iCloud avec un accès en lecture seule. CentryAI recherche uniquement les e-mails d'abonnement — rien d'autre."
+        "desc": "Associez Gmail ou iCloud avec un accès en lecture seule. CentryAI scanne les reçus d'abonnements — rien d'autre, rien n'est stocké."
       },
       {
         "title": "Voyez tout",
-        "desc": "Votre liste complète d'abonnements apparaît instantanément, triée par coût, date de renouvellement et statut d'utilisation."
+        "desc": "Votre liste complète d'abonnements apparaît en quelques secondes : nom, prix, date de renouvellement et score zombie pour chaque service que vous n'avez pas utilisé récemment."
       },
       {
         "title": "Éliminez le gaspillage",
-        "desc": "Appuyez sur n'importe quel abonnement zombie pour obtenir le lien direct d'annulation. Annulez en quelques secondes, pas en minutes."
+        "desc": "Appuyez sur n'importe quel abonnement pour obtenir le lien de résiliation direct. Pas de Google. Pas de musique d'attente. Résiliez en quelques secondes."
       }
     ]
   },
   "features": {
-    "eyebrow": "Ce que vous obtenez",
-    "title": "Tout pour reprendre le contrôle de vos abonnements.",
-    "sub": "Quatre outils principaux qui fonctionnent ensemble pour révéler les coûts cachés et vous aider à agir.",
+    "eyebrow": "Ce que fait CentryAI",
+    "title": "Trouvez. Évaluez. Supprimez.",
+    "sub": "Quatre outils qui fonctionnent ensemble pour révéler les coûts cachés et rendre la résiliation sans effort.",
     "cards": [
       {
-        "title": "Détection intelligente",
-        "desc": "Identifie automatiquement chaque abonnement — streaming, fitness, SaaS, etc. — sans aucune saisie manuelle requise."
+        "title": "Inbox scanner",
+        "desc": "Se connecte à Gmail ou iCloud et trouve automatiquement chaque reçu d'abonnement — streaming, SaaS, fitness, actualités, stockage cloud et plus de 90 autres services."
       },
       {
-        "title": "Détecteur de zombies",
-        "desc": "Identifie les services que vous payez mais que vous n'avez pas utilisés depuis plus de 30 jours. Voyez exactement combien vous coûtent vos abonnements zombies par mois et par an."
+        "title": "Zombie detector",
+        "desc": "Attribue à chaque abonnement un score basé sur la durée depuis votre dernière utilisation. Plus le score zombie est élevé, plus vous brûlez d'argent pour quelque chose que vous avez oublié."
       },
       {
         "title": "Tableau de bord des dépenses",
-        "desc": "Une vue claire et catégorisée de vos dépenses d'abonnement mensuelles et annuelles. Suivez les tendances et comprenez exactement où va votre argent."
+        "desc": "Consultez vos dépenses mensuelles et annuelles par devise. Paiements passés vs. charges à venir, côte à côte. Basculez entre les vues 1M, 3M, 6M et 1A."
       },
       {
-        "title": "Trouveur d'URL d'annulation",
-        "desc": "Vous détestez chercher les boutons d'annulation ? CentryAI affiche le lien direct d'annulation, le numéro de téléphone ou un guide étape par étape pour chaque service."
+        "title": "Cancel Finder",
+        "desc": "Un appui ouvre la page de résiliation exacte de n'importe quel service. Pas de menus de paramètres. Pas d'appels au service client. CentryAI utilise l'IA pour trouver le lien de résiliation direct."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Alerte Zombie",
-    "title": "Rencontrez vos abonnements zombies.",
-    "desc": "Vous vous êtes inscrit, avez oublié, et vous payez toujours. CentryAI croise vos abonnements avec votre utilisation réelle pour révéler les services qui vident discrètement votre compte chaque mois.",
+    "title": "Vous payez pour des choses dont vous avez oublié l'existence.",
+    "desc": "Un abonnement zombie est un service que vous n'avez pas utilisé depuis des semaines mais que vous continuez à payer chaque mois. La plupart des gens en ont deux ou trois. CentryAI attribue un score zombie à chaque abonnement pour que vous sachiez exactement lesquels saignent votre compte.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Arrêtez la fuite. Commencez gratuitement.",
-    "desc": "Rejoignez plus de 240 000 personnes qui ont repris le contrôle de leurs dépenses d'abonnement."
+    "title": "Découvrez ce que vous payez vraiment.",
+    "desc": "Configuration en 3 minutes. Résiliez tout ce que vous trouvez en 30 secondes."
   },
   "footer": {
     "tagline": "Suivez, détectez et annulez les abonnements récurrents. Commencez gratuitement — disponible sur iOS et Android.",

@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Subscription Tracker",
-    "headline1": "Stop paying for apps",
+    "headline1": "Stop paying for subscriptions",
     "headline2": "you've",
     "headlineEm": "forgotten about.",
-    "sub": "CentryAI is a smart personal finance application designed to help you automatically track, manage, and optimize your recurring subscriptions.",
+    "sub": "CentryAI scans your Gmail or iCloud inbox, finds every subscription you're paying for, and tells you which ones to cut. Takes 3 minutes to set up.",
     "trust": "4.8 · 12,000+ reviews · Free to start",
     "appStoreSmall": "Download on the",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Connect your inbox",
-        "desc": "Link Gmail or iCloud with read-only access. CentryAI scans for subscription emails — nothing else."
+        "desc": "Link Gmail or iCloud with read-only access. CentryAI scans for subscription receipts — nothing else, nothing stored."
       },
       {
         "title": "See everything",
-        "desc": "Your full subscription list appears instantly, sorted by cost, renewal date, and usage status."
+        "desc": "Your complete subscription list appears in seconds: name, price, renewal date, and a zombie score for every service you haven't used lately."
       },
       {
         "title": "Cut the waste",
-        "desc": "Tap any zombie subscription to get the direct cancellation path. Cancel in seconds, not minutes."
+        "desc": "Tap any subscription to get the direct cancellation link. No googling. No hold music. Cancel in seconds."
       }
     ]
   },
   "features": {
-    "eyebrow": "What you get",
-    "title": "Everything to take control of your subscriptions.",
-    "sub": "Four core tools that work together to surface hidden costs and help you act on them.",
+    "eyebrow": "What CentryAI does",
+    "title": "Find it. Score it. Cut it.",
+    "sub": "Four tools that work together to surface hidden costs and make cancelling effortless.",
     "cards": [
       {
-        "title": "Smart detection",
-        "desc": "Automatically identifies every subscription — streaming, fitness, SaaS, and more — with no manual data entry required."
+        "title": "Inbox scanner",
+        "desc": "Connects to Gmail or iCloud and automatically finds every subscription receipt — streaming, SaaS, fitness, news, cloud storage, and 90+ more services."
       },
       {
         "title": "Zombie detector",
-        "desc": "Identifies services you pay for but haven't used in 30+ days. See exactly how much your zombie subs cost per month and per year."
+        "desc": "Scores each subscription by how long it's been since you used it. The higher the zombie score, the more money you're burning on something you've forgotten."
       },
       {
         "title": "Spending dashboard",
-        "desc": "A clear, categorized view of your monthly and annual subscription spend. Track trends and understand exactly where your money goes."
+        "desc": "See your monthly and annual spend per currency. Past payments vs. upcoming charges, side by side. Switch between 1M, 3M, 6M, and 1Y views."
       },
       {
-        "title": "Cancel URL finder",
-        "desc": "Hate hunting for cancel buttons? CentryAI surfaces the direct cancellation link, phone number, or step-by-step guide for every service."
+        "title": "Cancel Finder",
+        "desc": "One tap opens the exact cancellation page for any service. No settings menus. No customer support calls. CentryAI uses AI to find the direct cancel link."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Zombie Alert",
-    "title": "Meet your zombie subscriptions.",
-    "desc": "You signed up, forgot, and you're still paying. CentryAI cross-references your subscriptions with your actual usage to surface services quietly draining your account every month.",
+    "title": "You're paying for things you forgot exist.",
+    "desc": "A zombie subscription is one you haven't touched in weeks but keep paying for every month. Most people have two or three. CentryAI gives every subscription a zombie score so you know exactly which ones are bleeding your account.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Stop the leak. Start free.",
-    "desc": "Join 240,000+ people who've taken back control of their subscription spend."
+    "title": "Find out what you're actually paying for.",
+    "desc": "Set up in 3 minutes. Cancel anything you find in 30 seconds."
   },
   "footer": {
     "tagline": "Track, detect, and cancel recurring subscriptions. Free to start — available on iOS & Android.",

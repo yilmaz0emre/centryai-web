@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Monitor subskrypcji",
-    "headline1": "Przestań płacić za aplikacje,",
+    "headline1": "Przestań płacić za subskrypcje,",
     "headline2": "o których",
     "headlineEm": "zapomniałeś.",
-    "sub": "CentryAI to inteligentna aplikacja do zarządzania finansami osobistymi, zaprojektowana, aby pomóc Ci automatycznie śledzić, zarządzać i optymalizować powtarzające się subskrypcje.",
+    "sub": "CentryAI skanuje Twoją skrzynkę Gmail lub iCloud, znajduje każdą subskrypcję, za którą płacisz, i mówi Ci, które anulować. Konfiguracja zajmuje 3 minuty.",
     "trust": "4.8 · Ponad 12 000 opinii · Zacznij za darmo",
     "appStoreSmall": "Pobierz w",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Połącz swoją skrzynkę",
-        "desc": "Połącz Gmaila lub iCloud z dostępem tylko do odczytu. CentryAI skanuje tylko w poszukiwaniu e-maili z subskrypcjami — niczego więcej."
+        "desc": "Połącz Gmail lub iCloud z dostępem tylko do odczytu. CentryAI skanuje wyłącznie potwierdzenia subskrypcji — nic więcej, nic nie jest przechowywane."
       },
       {
         "title": "Zobacz wszystko",
-        "desc": "Twoja pełna lista subskrypcji pojawia się natychmiast, posortowana według kosztów, daty odnowienia i statusu użycia."
+        "desc": "Pełna lista subskrypcji pojawia się w kilka sekund: nazwa, cena, data odnowienia i wynik zombie dla każdej usługi, z której ostatnio nie korzystałeś."
       },
       {
         "title": "Ogranicz straty",
-        "desc": "Stuknij dowolną subskrypcję zombie, aby uzyskać bezpośrednią ścieżkę do anulowania. Anuluj w kilka sekund, nie minut."
+        "desc": "Stuknij dowolną subskrypcję, aby uzyskać bezpośredni link do anulowania. Bez googlowania. Bez muzyki na czekaniu. Anuluj w kilka sekund."
       }
     ]
   },
   "features": {
-    "eyebrow": "Co zyskujesz",
-    "title": "Wszystko, aby przejąć kontrolę nad subskrypcjami.",
-    "sub": "Cztery główne narzędzia, które współpracują ze sobą, aby ujawnić ukryte koszty i pomóc Ci w działaniu.",
+    "eyebrow": "Co robi CentryAI",
+    "title": "Znajdź. Oceń. Zrezygnuj.",
+    "sub": "Cztery narzędzia współpracujące ze sobą, aby odkryć ukryte koszty i sprawić, że rezygnacja staje się prosta.",
     "cards": [
       {
-        "title": "Inteligentne wykrywanie",
-        "desc": "Automatycznie identyfikuje każdą subskrypcję — streaming, fitness, SaaS i inne — bez konieczności ręcznego wprowadzania danych."
+        "title": "Inbox scanner",
+        "desc": "Łączy się z Gmail lub iCloud i automatycznie odnajduje każde potwierdzenie subskrypcji — streaming, SaaS, fitness, wiadomości, przechowywanie w chmurze i ponad 90 innych usług."
       },
       {
-        "title": "Wykrywacz zombie",
-        "desc": "Identyfikuje usługi, za które płacisz, ale których nie używałeś od ponad 30 dni. Zobacz dokładnie, ile kosztują Cię subskrypcje zombie miesięcznie i rocznie."
+        "title": "Zombie detector",
+        "desc": "Ocenia każdą subskrypcję według tego, jak dawno z niej korzystałeś. Im wyższy wynik zombie, tym więcej pieniędzy tracisz na coś, o czym zapomniałeś."
       },
       {
         "title": "Panel wydatków",
-        "desc": "Przejrzysty, podzielony na kategorie widok Twoich miesięcznych i rocznych wydatków na subskrypcje. Śledź trendy i zrozum, na co dokładnie idą Twoje pieniądze."
+        "desc": "Sprawdź miesięczne i roczne wydatki w każdej walucie. Minione płatności kontra nadchodzące opłaty — obok siebie. Przełączaj między widokami 1M, 3M, 6M i 1R."
       },
       {
-        "title": "Wyszukiwarka linków do anulowania",
-        "desc": "Nienawidzisz szukać przycisków do anulowania? CentryAI dostarcza bezpośredni link do anulowania, numer telefonu lub przewodnik krok po kroku dla każdej usługi."
+        "title": "Cancel Finder",
+        "desc": "Jedno dotknięcie otwiera dokładną stronę rezygnacji dla dowolnej usługi. Żadnych menu ustawień. Żadnych rozmów z obsługą klienta. CentryAI używa AI, aby znaleźć bezpośredni link do anulowania."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Alarm Zombie",
-    "title": "Poznaj swoje subskrypcje zombie.",
-    "desc": "Zarejestrowałeś się, zapomniałeś i wciąż płacisz. CentryAI porównuje Twoje subskrypcje z Twoim rzeczywistym użyciem, aby wykryć usługi, które po cichu co miesiąc drenują Twoje konto.",
+    "title": "Płacisz za rzeczy, o których zapomniałeś, że istnieją.",
+    "desc": "Subskrypcja zombie to taka, której nie tknąłeś od tygodni, a mimo to płacisz za nią co miesiąc. Większość ludzi ma dwie lub trzy. CentryAI przyznaje każdej subskrypcji wynik zombie, abyś wiedział dokładnie, które z nich uszczuplają Twoje konto.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Powstrzymaj wyciek. Zacznij za darmo.",
-    "desc": "Dołącz do ponad 240 000 osób, które odzyskały kontrolę nad wydatkami na subskrypcje."
+    "title": "Sprawdź, za co naprawdę płacisz.",
+    "desc": "Konfiguracja w 3 minuty. Anuluj wszystko, co znajdziesz, w 30 sekund."
   },
   "footer": {
     "tagline": "Śledź, wykrywaj i anuluj powtarzające się subskrypcje. Zacznij za darmo — dostępne na iOS i Android.",

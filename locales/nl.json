@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Abonnementen Tracker",
-    "headline1": "Stop met betalen voor apps",
+    "headline1": "Stop met betalen voor abonnementen",
     "headline2": "die je bent",
     "headlineEm": "vergeten.",
-    "sub": "CentryAI is een slimme applicatie voor persoonlijke financiën die is ontworpen om je te helpen je terugkerende abonnementen automatisch bij te houden, te beheren en te optimaliseren.",
+    "sub": "CentryAI scant je Gmail- of iCloud-inbox, vindt elk abonnement waarvoor je betaalt en vertelt je welke je moet opzeggen. Installeren duurt 3 minuten.",
     "trust": "4.8 · Meer dan 12.000 beoordelingen · Gratis te starten",
     "appStoreSmall": "Downloaden in de",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Koppel je inbox",
-        "desc": "Koppel Gmail of iCloud met alleen-lezen toegang. CentryAI scant alleen op abonnements-e-mails — niets anders."
+        "desc": "Koppel Gmail of iCloud met alleen-lezen toegang. CentryAI scant alleen abonnementsbonnen — niets anders, niets wordt opgeslagen."
       },
       {
         "title": "Zie alles",
-        "desc": "Je volledige abonnementslijst verschijnt onmiddellijk, gesorteerd op kosten, verlengingsdatum en gebruiksstatus."
+        "desc": "Je volledige abonnementslijst verschijnt binnen seconden: naam, prijs, verlengingsdatum en een zombie-score voor elke dienst die je de laatste tijd niet hebt gebruikt."
       },
       {
         "title": "Verminder verspilling",
-        "desc": "Tik op een zombie-abonnement om de directe weg naar annulering te krijgen. Annuleer in seconden, niet in minuten."
+        "desc": "Tik op een abonnement om de directe opzeglink te krijgen. Geen googelen. Geen wachtmuziek. Opzeggen in seconden."
       }
     ]
   },
   "features": {
-    "eyebrow": "Wat je krijgt",
-    "title": "Alles om controle te krijgen over je abonnementen.",
-    "sub": "Vier kernhulpmiddelen die samenwerken om verborgen kosten aan het licht te brengen en je te helpen actie te ondernemen.",
+    "eyebrow": "Wat CentryAI doet",
+    "title": "Vind het. Beoordeel het. Snij het.",
+    "sub": "Vier tools die samenwerken om verborgen kosten bloot te leggen en opzeggen moeiteloos te maken.",
     "cards": [
       {
-        "title": "Slimme detectie",
-        "desc": "Identificeert automatisch elk abonnement — streaming, fitness, SaaS en meer — zonder handmatige gegevensinvoer."
+        "title": "Inbox scanner",
+        "desc": "Verbindt met Gmail of iCloud en vindt automatisch elke abonnementbon — streaming, SaaS, fitness, nieuws, cloudopslag en 90+ andere diensten."
       },
       {
-        "title": "Zombie-detector",
-        "desc": "Identificeert diensten waarvoor je betaalt, maar die je al meer dan 30 dagen niet hebt gebruikt. Bekijk precies hoeveel je zombie-abonnementen per maand en per jaar kosten."
+        "title": "Zombie detector",
+        "desc": "Geeft elk abonnement een score op basis van hoe lang het geleden is dat je het hebt gebruikt. Hoe hoger de zombie-score, hoe meer geld je verbrandt aan iets dat je bent vergeten."
       },
       {
-        "title": "Uitgaven dashboard",
-        "desc": "Een duidelijk, gecategoriseerd overzicht van je maandelijkse en jaarlijkse abonnementsuitgaven. Volg trends en begrijp precies waar je geld naartoe gaat."
+        "title": "Uitgavenoverzicht",
+        "desc": "Bekijk je maandelijkse en jaarlijkse uitgaven per valuta. Eerdere betalingen vs. aankomende kosten, naast elkaar. Schakel tussen 1M-, 3M-, 6M- en 1J-weergaven."
       },
       {
-        "title": "Annulerings-URL zoeker",
-        "desc": "Haat je het zoeken naar annuleringsknoppen? CentryAI geeft de directe annuleringslink, het telefoonnummer of een stapsgewijze handleiding voor elke dienst."
+        "title": "Cancel Finder",
+        "desc": "Één tik opent de exacte opzegpagina voor elke dienst. Geen instellingenmenu's. Geen klantenservicegesprekken. CentryAI gebruikt AI om de directe opzeglink te vinden."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Zombie Waarschuwing",
-    "title": "Ontmoet je zombie-abonnementen.",
-    "desc": "Je hebt je aangemeld, bent het vergeten en je betaalt nog steeds. CentryAI vergelijkt je abonnementen met je daadwerkelijke gebruik om diensten te onthullen die elke maand stilletjes je rekening plunderen.",
+    "title": "Je betaalt voor dingen waarvan je vergeten bent dat ze bestaan.",
+    "desc": "Een zombie-abonnement is een dienst die je al weken niet hebt gebruikt maar waarvoor je elke maand blijft betalen. De meeste mensen hebben er twee of drie. CentryAI geeft elk abonnement een zombie-score zodat je precies weet welke je rekening leegtrekt.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Stop het lek. Begin gratis.",
-    "desc": "Sluit je aan bij meer dan 240.000 mensen die de controle over hun abonnementsuitgaven hebben teruggenomen."
+    "title": "Ontdek waarvoor je werkelijk betaalt.",
+    "desc": "Instellen in 3 minuten. Alles wat je vindt opzeggen in 30 seconden."
   },
   "footer": {
     "tagline": "Volg, detecteer en annuleer terugkerende abonnementen. Gratis te starten — beschikbaar op iOS en Android.",

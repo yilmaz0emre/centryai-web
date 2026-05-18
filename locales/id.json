@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Pelacak Langganan",
-    "headline1": "Berhenti membayar aplikasi",
-    "headline2": "yang",
+    "headline1": "Berhenti membayar langganan",
+    "headline2": "yang sudah",
     "headlineEm": "Anda lupakan.",
-    "sub": "CentryAI adalah aplikasi keuangan pribadi cerdas yang dirancang untuk membantu Anda melacak, mengelola, dan mengoptimalkan langganan berulang Anda secara otomatis.",
+    "sub": "CentryAI memindai kotak masuk Gmail atau iCloud Anda, menemukan setiap langganan yang Anda bayar, dan memberi tahu Anda mana yang harus dibatalkan. Pengaturan selesai dalam 3 menit.",
     "trust": "4.8 · 12.000+ Ulasan · Mulai gratis",
     "appStoreSmall": "Unduh di",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Tautkan kotak masuk Anda",
-        "desc": "Tautkan Gmail atau iCloud dengan akses hanya-baca. CentryAI hanya memindai email langganan — tidak ada yang lain."
+        "desc": "Tautkan Gmail atau iCloud dengan akses hanya-baca. CentryAI memindai kwitansi langganan — tidak ada yang lain, tidak ada yang disimpan."
       },
       {
         "title": "Lihat semuanya",
-        "desc": "Daftar langganan lengkap Anda langsung muncul, diurutkan berdasarkan biaya, tanggal pembaruan, dan status penggunaan."
+        "desc": "Daftar langganan lengkap Anda muncul dalam hitungan detik: nama, harga, tanggal pembaruan, dan skor zombie untuk setiap layanan yang belum Anda gunakan belakangan ini."
       },
       {
         "title": "Hentikan pemborosan",
-        "desc": "Ketuk langganan zombi mana pun untuk mendapatkan jalur langsung untuk membatalkan. Batalkan dalam hitungan detik, bukan menit."
+        "desc": "Ketuk langganan apa pun untuk mendapatkan tautan pembatalan langsung. Tidak perlu Google. Tidak perlu menunggu. Batalkan dalam hitungan detik."
       }
     ]
   },
   "features": {
-    "eyebrow": "Apa yang Anda dapatkan",
-    "title": "Semua yang Anda butuhkan untuk mengendalikan langganan Anda.",
-    "sub": "Empat alat inti yang bekerja sama untuk mengungkap biaya tersembunyi dan membantu Anda mengambil tindakan.",
+    "eyebrow": "Apa yang CentryAI lakukan",
+    "title": "Temukan. Nilai. Pangkas.",
+    "sub": "Empat alat yang bekerja sama untuk mengungkap biaya tersembunyi dan membuat pembatalan menjadi mudah.",
     "cards": [
       {
-        "title": "Deteksi Cerdas",
-        "desc": "Secara otomatis mengidentifikasi langganan apa pun — streaming, kebugaran, SaaS, dan banyak lagi — tanpa entri data manual."
+        "title": "Inbox scanner",
+        "desc": "Terhubung ke Gmail atau iCloud dan secara otomatis menemukan setiap kwitansi langganan — streaming, SaaS, kebugaran, berita, penyimpanan cloud, dan 90+ layanan lainnya."
       },
       {
-        "title": "Detektor Zombi",
-        "desc": "Mengidentifikasi layanan yang Anda bayar tetapi belum digunakan selama lebih dari 30 hari. Lihat secara pasti berapa biaya langganan zombi Anda per bulan dan per tahun."
+        "title": "Zombie detector",
+        "desc": "Memberi skor setiap langganan berdasarkan berapa lama sejak terakhir Anda menggunakannya. Semakin tinggi skor zombie, semakin banyak uang yang Anda buang untuk sesuatu yang telah Anda lupakan."
       },
       {
         "title": "Dasbor Pengeluaran",
-        "desc": "Tampilan yang jelas dan dikategorikan tentang pengeluaran langganan bulanan dan tahunan Anda. Lacak tren dan pahami persis ke mana uang Anda pergi."
+        "desc": "Lihat pengeluaran bulanan dan tahunan per mata uang. Pembayaran lalu vs. tagihan mendatang, berdampingan. Beralih antara tampilan 1B, 3B, 6B, dan 1T."
       },
       {
-        "title": "Pencari URL Pembatalan",
-        "desc": "Benci mencari tombol batal? CentryAI menyediakan tautan pembatalan langsung, nomor telepon, atau panduan langkah demi langkah untuk setiap layanan."
+        "title": "Cancel Finder",
+        "desc": "Satu ketukan membuka halaman pembatalan langsung untuk layanan apa pun. Tidak ada menu pengaturan. Tidak ada panggilan dukungan pelanggan. CentryAI menggunakan AI untuk menemukan tautan batal langsung."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Peringatan Zombi",
-    "title": "Temui langganan zombi Anda.",
-    "desc": "Anda mendaftar, lupa, dan masih membayar. CentryAI merujuk silang langganan Anda dengan penggunaan Anda yang sebenarnya untuk mengekspos layanan yang diam-diam menguras akun Anda setiap bulan.",
+    "title": "Anda membayar untuk hal-hal yang lupa Anda ada.",
+    "desc": "Langganan zombie adalah yang belum Anda sentuh selama berminggu-minggu tetapi terus Anda bayar setiap bulan. Kebanyakan orang memiliki dua atau tiga. CentryAI memberi setiap langganan skor zombie sehingga Anda tahu persis mana yang menguras akun Anda.",
     "flagLabel": "Zombi"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Hentikan kebocoran. Mulai gratis.",
-    "desc": "Bergabunglah dengan lebih dari 240.000 orang yang telah mengambil kembali kendali atas pengeluaran langganan mereka."
+    "title": "Temukan apa yang sebenarnya Anda bayar.",
+    "desc": "Pengaturan dalam 3 menit. Batalkan apa pun yang Anda temukan dalam 30 detik."
   },
   "footer": {
     "tagline": "Lacak, deteksi, dan batalkan langganan berulang. Gratis untuk memulai — tersedia di iOS dan Android.",

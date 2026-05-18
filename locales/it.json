@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Tracker di Abbonamenti",
-    "headline1": "Smetti di pagare per le app",
-    "headline2": "di cui ti sei",
+    "headline1": "Smetti di pagare per abbonamenti",
+    "headline2": "che hai",
     "headlineEm": "dimenticato.",
-    "sub": "CentryAI è un'applicazione di finanza personale intelligente progettata per aiutarti a tracciare, gestire e ottimizzare automaticamente i tuoi abbonamenti ricorrenti.",
+    "sub": "CentryAI scansiona la tua casella Gmail o iCloud, trova ogni abbonamento che stai pagando e ti dice quali eliminare. La configurazione richiede 3 minuti.",
     "trust": "4.8 · Oltre 12.000 recensioni · Inizia gratis",
     "appStoreSmall": "Scarica su",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Collega la tua casella di posta",
-        "desc": "Collega Gmail o iCloud con accesso in sola lettura. CentryAI cerca solo email di abbonamenti — nient'altro."
+        "desc": "Collega Gmail o iCloud con accesso in sola lettura. CentryAI scansiona le ricevute degli abbonamenti — nient'altro, nulla viene archiviato."
       },
       {
         "title": "Vedi tutto",
-        "desc": "La tua lista completa di abbonamenti appare istantaneamente, ordinata per costo, data di rinnovo e stato di utilizzo."
+        "desc": "La tua lista completa di abbonamenti appare in pochi secondi: nome, prezzo, data di rinnovo e punteggio zombie per ogni servizio che non usi di recente."
       },
       {
         "title": "Taglia gli sprechi",
-        "desc": "Tocca qualsiasi abbonamento zombie per ottenere il percorso diretto di disdetta. Annulla in pochi secondi, non in minuti."
+        "desc": "Tocca qualsiasi abbonamento per ottenere il link di disdetta diretto. Niente Google. Niente musica d'attesa. Disdici in pochi secondi."
       }
     ]
   },
   "features": {
-    "eyebrow": "Cosa ottieni",
-    "title": "Tutto per prendere il controllo dei tuoi abbonamenti.",
-    "sub": "Quattro strumenti principali che lavorano insieme per far emergere i costi nascosti e aiutarti ad agire.",
+    "eyebrow": "Cosa fa CentryAI",
+    "title": "Trovalo. Valutalo. Eliminalo.",
+    "sub": "Quattro strumenti che lavorano insieme per scoprire costi nascosti e rendere la disdetta senza sforzo.",
     "cards": [
       {
-        "title": "Rilevamento intelligente",
-        "desc": "Identifica automaticamente ogni abbonamento — streaming, fitness, SaaS e altro — senza alcun inserimento manuale."
+        "title": "Inbox scanner",
+        "desc": "Si collega a Gmail o iCloud e trova automaticamente ogni ricevuta di abbonamento — streaming, SaaS, fitness, news, archiviazione cloud e oltre 90 altri servizi."
       },
       {
-        "title": "Rilevatore di zombie",
-        "desc": "Identifica i servizi che paghi ma che non usi da oltre 30 giorni. Vedi esattamente quanto ti costano i tuoi abbonamenti zombie al mese e all'anno."
+        "title": "Zombie detector",
+        "desc": "Assegna a ogni abbonamento un punteggio in base a quanto tempo fa l'hai usato per l'ultima volta. Più alto il punteggio zombie, più soldi stai bruciando per qualcosa che hai dimenticato."
       },
       {
         "title": "Dashboard di spesa",
-        "desc": "Una visione chiara e categorizzata della spesa per abbonamenti mensile e annuale. Tieni traccia delle tendenze e capisci esattamente dove vanno i tuoi soldi."
+        "desc": "Visualizza la spesa mensile e annuale per valuta. Pagamenti passati vs. addebiti futuri, fianco a fianco. Passa tra le visualizzazioni 1M, 3M, 6M e 1A."
       },
       {
-        "title": "Cerca URL di annullamento",
-        "desc": "Odi cercare i pulsanti per disdire? CentryAI fa emergere il link di cancellazione diretto, il numero di telefono o una guida passo-passo per ogni servizio."
+        "title": "Cancel Finder",
+        "desc": "Un tocco apre la pagina di disdetta esatta per qualsiasi servizio. Nessun menu impostazioni. Nessuna chiamata al servizio clienti. CentryAI usa l'IA per trovare il link di disdetta diretto."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Allarme Zombie",
-    "title": "Incontra i tuoi abbonamenti zombie.",
-    "desc": "Ti sei iscritto, hai dimenticato e stai ancora pagando. CentryAI incrocia i tuoi abbonamenti con l'uso reale per far emergere i servizi che prosciugano silenziosamente il tuo account ogni mese.",
+    "title": "Stai pagando per cose che hai dimenticato esistessero.",
+    "desc": "Un abbonamento zombie è uno che non tocchi da settimane ma che continui a pagare ogni mese. La maggior parte delle persone ne ha due o tre. CentryAI assegna a ogni abbonamento un punteggio zombie così sai esattamente quali stanno prosciugando il tuo conto.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Ferma la perdita. Inizia gratis.",
-    "desc": "Unisciti a oltre 240.000 persone che hanno ripreso il controllo delle loro spese in abbonamenti."
+    "title": "Scopri per cosa stai davvero pagando.",
+    "desc": "Configurazione in 3 minuti. Disdici tutto quello che trovi in 30 secondi."
   },
   "footer": {
     "tagline": "Traccia, rileva e annulla gli abbonamenti ricorrenti. Inizia gratis — disponibile su iOS e Android.",

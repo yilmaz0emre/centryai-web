@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Abonelik Takibi",
-    "headline1": "Uygulamalar için ödeme yapmayı bırakın",
-    "headline2": "sen",
-    "headlineEm": "unutuldu.",
-    "sub": "CentryAI, yinelenen aboneliklerinizi otomatik olarak izlemenize, yönetmenize ve optimize etmenize yardımcı olmak için tasarlanmış akıllı bir kişisel finans uygulamasıdır.",
+    "headline1": "Abonelikler için ödeme yapmayı bırakın",
+    "headline2": "varlığını",
+    "headlineEm": "unuttuklarınız.",
+    "sub": "CentryAI, Gmail veya iCloud gelen kutunuzu tarar, ödeme yaptığınız her aboneliği bulur ve hangilerini iptal etmeniz gerektiğini söyler. Kurulum 3 dakika sürer.",
     "trust": "4,8 · 12.000+ değerlendirme · Başlamak ücretsiz",
     "appStoreSmall": "Şuradan indirin:",
     "appStoreName": "Uygulama Mağazası",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Gelen kutunuzu bağlayın",
-        "desc": "Gmail veya iCloud'u salt okunur erişimle bağlayın. CentryAI abonelik e-postalarını tarar; başka bir şey yoktur."
+        "desc": "Gmail veya iCloud'u salt okunur erişimle bağlayın. CentryAI yalnızca abonelik makbuzlarını tarar — başka hiçbir şey, hiçbir şey saklanmaz."
       },
       {
         "title": "Her şeyi görün",
-        "desc": "Tam abonelik listeniz maliyete, yenileme tarihine ve kullanım durumuna göre sıralanmış olarak anında görüntülenir."
+        "desc": "Tam abonelik listeniz saniyeler içinde görüntülenir: ad, fiyat, yenileme tarihi ve son zamanlarda kullanmadığınız her hizmet için bir zombi puanı."
       },
       {
         "title": "Atıkları kesin",
-        "desc": "Doğrudan iptal yoluna ulaşmak için herhangi bir zombi aboneliğine dokunun. Dakikalar değil saniyeler içinde iptal edin."
+        "desc": "Herhangi bir aboneliğe dokunarak doğrudan iptal bağlantısını alın. Google aramaya gerek yok. Bekletme müziği yok. Saniyeler içinde iptal edin."
       }
     ]
   },
   "features": {
-    "eyebrow": "Ne elde edeceksin",
-    "title": "Aboneliklerinizi kontrol altına almak için her şey.",
-    "sub": "Gizli maliyetleri ortaya çıkarmak ve bunlara göre hareket etmenize yardımcı olmak için birlikte çalışan dört temel araç.",
+    "eyebrow": "CentryAI ne yapar",
+    "title": "Bul. Puanla. Kes.",
+    "sub": "Gizli maliyetleri ortaya çıkaran ve iptali zahmetsiz kılan dört araç.",
     "cards": [
       {
-        "title": "Akıllı algılama",
-        "desc": "Akış, fitness, SaaS ve daha fazlası olmak üzere her aboneliği, manuel veri girişi gerektirmeden otomatik olarak tanımlar."
+        "title": "Inbox scanner",
+        "desc": "Gmail veya iCloud'a bağlanır ve her abonelik makbuzunu otomatik olarak bulur — yayın, SaaS, fitness, haber, bulut depolama ve 90'dan fazla hizmet."
       },
       {
-        "title": "Zombi dedektörü",
-        "desc": "Ödeme yaptığınız ancak 30'dan fazla gün boyunca kullanmadığınız hizmetleri tanımlar. Zombi aboneliklerinizin aylık ve yıllık maliyetini tam olarak ne kadar görün."
+        "title": "Zombie detector",
+        "desc": "Her aboneliği en son ne zaman kullandığınıza göre puanlar. Zombi puanı ne kadar yüksekse, unuttuğunuz bir şeye o kadar fazla para yakıyorsunuz demektir."
       },
       {
-        "title": "Harcama kontrol paneli",
-        "desc": "Aylık ve yıllık abonelik harcamanızın net, kategorize edilmiş görünümü. Trendleri takip edin ve paranızın tam olarak nereye gittiğini anlayın."
+        "title": "Harcama paneli",
+        "desc": "Aylık ve yıllık harcamalarınızı para birimine göre görün. Geçmiş ödemeler ile yaklaşan masraflar yan yana. 1A, 3A, 6A ve 1Y görünümleri arasında geçiş yapın."
       },
       {
-        "title": "URL bulucuyu iptal et",
-        "desc": "İptal düğmelerini aramaktan nefret mi ediyorsunuz? CentryAI, her hizmet için doğrudan iptal bağlantısını, telefon numarasını veya adım adım kılavuzu gösterir."
+        "title": "Cancel Finder",
+        "desc": "Bir dokunuşla herhangi bir hizmetin tam iptal sayfası açılır. Hiçbir ayarlar menüsü yok. Hiçbir müşteri hizmetleri araması yok. CentryAI, doğrudan iptal bağlantısını bulmak için yapay zeka kullanır."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Zombi Uyarısı",
-    "title": "Zombi aboneliklerinizle tanışın.",
-    "desc": "Kaydoldunuz, unuttunuz ve hala ödeme yapıyorsunuz. CentryAI, aboneliklerinizi gerçek kullanımınızla karşılaştırarak her ay hesabınızı sessizce tüketen hizmetleri ortaya çıkarır.",
+    "title": "Var olduğunu unuttuğunuz şeyler için ödeme yapıyorsunuz.",
+    "desc": "Zombi abonelik, haftalarca dokunmadığınız ama her ay ödemeye devam ettiğiniz bir hizmettir. Çoğu insanın iki ya da üç tanesi vardır. CentryAI, tam olarak hangilerinin hesabınızı boşalttığını bilmeniz için her aboneliğe bir zombi puanı verir.",
     "flagLabel": "Zombi"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Sızıntıyı durdurun. Ücretsiz başlayın.",
-    "desc": "Abonelik harcamalarının kontrolünü geri alan 240.000'den fazla kişiye katılın."
+    "title": "Gerçekte ne için ödeme yaptığınızı öğrenin.",
+    "desc": "3 dakikada kurulum. Bulduklarınızı 30 saniyede iptal edin."
   },
   "footer": {
     "tagline": "Yinelenen abonelikleri izleyin, tespit edin ve iptal edin. Başlaması ücretsiz; iOS ve Android'de mevcut.",

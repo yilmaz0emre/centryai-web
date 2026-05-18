@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Abonnement-Tracker",
-    "headline1": "Zahlen Sie nicht länger für Apps,",
+    "headline1": "Hören Sie auf, für Abonnements zu zahlen,",
     "headline2": "die Sie",
     "headlineEm": "vergessen haben.",
-    "sub": "CentryAI ist eine intelligente Finanz-App, die Ihnen hilft, Ihre wiederkehrenden Abonnements automatisch zu verfolgen, zu verwalten und zu optimieren.",
+    "sub": "CentryAI durchsucht Ihren Gmail- oder iCloud-Posteingang, findet jedes Abonnement, für das Sie zahlen, und sagt Ihnen, welche Sie kündigen sollten. Die Einrichtung dauert 3 Minuten.",
     "trust": "4.8 · 12.000+ Bewertungen · Kostenloser Start",
     "appStoreSmall": "Laden im",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Posteingang verbinden",
-        "desc": "Verknüpfen Sie Gmail oder iCloud mit Lesezugriff. CentryAI sucht nur nach Abo-E-Mails — sonst nichts."
+        "desc": "Verknüpfen Sie Gmail oder iCloud mit reinem Lesezugriff. CentryAI scannt nach Abo-Quittungen — sonst nichts, nichts wird gespeichert."
       },
       {
         "title": "Alles auf einen Blick",
-        "desc": "Ihre vollständige Abo-Liste erscheint sofort, sortiert nach Kosten, Verlängerungsdatum und Nutzungsstatus."
+        "desc": "Ihre vollständige Abo-Liste erscheint in Sekunden: Name, Preis, Verlängerungsdatum und ein Zombie-Score für jeden Dienst, den Sie zuletzt nicht genutzt haben."
       },
       {
         "title": "Verschwendung stoppen",
-        "desc": "Tippen Sie auf ein Zombie-Abo, um den direkten Kündigungsweg zu erhalten. Kündigen Sie in Sekunden, nicht Minuten."
+        "desc": "Tippen Sie auf ein beliebiges Abonnement, um den direkten Kündigungslink zu erhalten. Kein Googeln. Keine Warteschleife. Kündigen in Sekunden."
       }
     ]
   },
   "features": {
-    "eyebrow": "Was Sie erhalten",
-    "title": "Alles, um Ihre Abonnements unter Kontrolle zu bringen.",
-    "sub": "Vier Kernwerkzeuge, die zusammenarbeiten, um versteckte Kosten aufzudecken und Ihnen beim Handeln zu helfen.",
+    "eyebrow": "Was CentryAI tut",
+    "title": "Finden. Bewerten. Kündigen.",
+    "sub": "Vier Werkzeuge, die zusammenarbeiten, um versteckte Kosten aufzudecken und das Kündigen mühelos zu machen.",
     "cards": [
       {
-        "title": "Smarte Erkennung",
-        "desc": "Erkennt automatisch jedes Abonnement — Streaming, Fitness, SaaS und mehr — ohne manuelle Dateneingabe."
+        "title": "Inbox scanner",
+        "desc": "Verbindet sich mit Gmail oder iCloud und findet automatisch jede Abo-Quittung — Streaming, SaaS, Fitness, News, Cloud-Speicher und über 90 weitere Dienste."
       },
       {
-        "title": "Zombie-Detektor",
-        "desc": "Identifiziert Dienste, für die Sie bezahlen, die Sie aber seit 30+ Tagen nicht genutzt haben. Sehen Sie genau, wie viel Ihre Zombie-Abos pro Monat und Jahr kosten."
+        "title": "Zombie detector",
+        "desc": "Bewertet jedes Abonnement danach, wie lange Sie es nicht mehr genutzt haben. Je höher der Zombie-Score, desto mehr Geld verbrennen Sie für etwas, das Sie vergessen haben."
       },
       {
         "title": "Ausgaben-Dashboard",
-        "desc": "Eine klare, kategorisierte Ansicht Ihrer monatlichen und jährlichen Abo-Ausgaben. Verfolgen Sie Trends und verstehen Sie genau, wohin Ihr Geld fließt."
+        "desc": "Sehen Sie Ihre monatlichen und jährlichen Ausgaben pro Währung. Vergangene Zahlungen vs. bevorstehende Kosten — übersichtlich nebeneinander. Wechseln Sie zwischen 1M-, 3M-, 6M- und 1J-Ansichten."
       },
       {
-        "title": "Kündigungs-URL-Finder",
-        "desc": "Hassen Sie die Suche nach Kündigungsbuttons? CentryAI liefert den direkten Kündigungslink, die Telefonnummer oder eine Schritt-für-Schritt-Anleitung für jeden Dienst."
+        "title": "Cancel Finder",
+        "desc": "Ein Tippen öffnet die direkte Kündigungsseite für jeden Dienst. Keine Einstellungsmenüs. Keine Kundenservice-Anrufe. CentryAI nutzt KI, um den direkten Kündigungslink zu finden."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Zombie-Alarm",
-    "title": "Treffen Sie Ihre Zombie-Abonnements.",
-    "desc": "Sie haben sich angemeldet, es vergessen und zahlen immer noch. CentryAI gleicht Ihre Abonnements mit Ihrer tatsächlichen Nutzung ab, um Dienste aufzudecken, die jeden Monat stillschweigend Ihr Konto belasten.",
+    "title": "Sie zahlen für Dinge, die Sie vergessen haben zu existieren.",
+    "desc": "Ein Zombie-Abonnement ist eines, das Sie seit Wochen nicht mehr genutzt haben, aber jeden Monat weiter bezahlen. Die meisten Menschen haben zwei oder drei. CentryAI vergibt jedem Abonnement einen Zombie-Score, damit Sie genau wissen, welche Ihr Konto belasten.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Stoppen Sie das Leck. Starten Sie kostenlos.",
-    "desc": "Schließen Sie sich über 240.000 Menschen an, die die Kontrolle über ihre Abo-Ausgaben zurückgewonnen haben."
+    "title": "Finden Sie heraus, wofür Sie wirklich zahlen.",
+    "desc": "Einrichtung in 3 Minuten. Alles, was Sie finden, in 30 Sekunden kündigen."
   },
   "footer": {
     "tagline": "Verfolgen, erkennen und kündigen Sie wiederkehrende Abonnements. Kostenloser Start — verfügbar für iOS & Android.",

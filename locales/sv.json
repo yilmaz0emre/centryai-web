@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Prenumerationsspårare",
-    "headline1": "Sluta betala för appar",
+    "headline1": "Sluta betala för prenumerationer",
     "headline2": "du har",
-    "headlineEm": "glömt.",
-    "sub": "CentryAI är en smart app för privatekonomi utformad för att hjälpa dig att automatiskt spåra, hantera och optimera dina återkommande prenumerationer.",
+    "headlineEm": "glömt bort.",
+    "sub": "CentryAI skannar din Gmail- eller iCloud-inkorg, hittar varje prenumeration du betalar för och berättar vilka du bör avsluta. Installationen tar 3 minuter.",
     "trust": "4.8 · Över 12 000 recensioner · Börja gratis",
     "appStoreSmall": "Ladda ner på",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Koppla din inkorg",
-        "desc": "Länka Gmail eller iCloud med skrivskyddad åtkomst. CentryAI söker endast efter prenumerationse-postmeddelanden — inget annat."
+        "desc": "Länka Gmail eller iCloud med skrivskyddad åtkomst. CentryAI skannar prenumerationskvitton — inget annat, inget lagras."
       },
       {
         "title": "Se allt",
-        "desc": "Din fullständiga prenumerationslista visas omedelbart, sorterad efter kostnad, förnyelsedatum och användningsstatus."
+        "desc": "Din fullständiga prenumerationslista visas på sekunder: namn, pris, förnyelsedatum och ett zombiepoäng för varje tjänst du inte använt på ett tag."
       },
       {
         "title": "Stoppa slöseriet",
-        "desc": "Tryck på valfri zombieprenumeration för att få den direkta vägen för att avbryta. Avbryt på sekunder, inte minuter."
+        "desc": "Tryck på valfri prenumeration för att få den direkta avslutningslänken. Ingen googling. Ingen väntemusik. Avsluta på sekunder."
       }
     ]
   },
   "features": {
-    "eyebrow": "Vad du får",
-    "title": "Allt för att ta kontroll över dina prenumerationer.",
-    "sub": "Fyra kärnverktyg som arbetar tillsammans för att avslöja dolda kostnader och hjälpa dig att vidta åtgärder.",
+    "eyebrow": "Vad CentryAI gör",
+    "title": "Hitta det. Bedöm det. Klipp det.",
+    "sub": "Fyra verktyg som arbetar tillsammans för att avslöja dolda kostnader och göra avslutningen enkel.",
     "cards": [
       {
-        "title": "Smart detektering",
-        "desc": "Identifierar automatiskt alla prenumerationer — streaming, fitness, SaaS och mer — utan manuell datainmatning."
+        "title": "Inbox scanner",
+        "desc": "Ansluter till Gmail eller iCloud och hittar automatiskt varje prenumerationskvitto — streaming, SaaS, fitness, nyheter, molnlagring och 90+ andra tjänster."
       },
       {
-        "title": "Zombiedetektor",
-        "desc": "Identifierar tjänster du betalar för men inte har använt på mer än 30 dagar. Se exakt hur mycket dina zombieprenumerationer kostar dig per månad och år."
+        "title": "Zombie detector",
+        "desc": "Betygsätter varje prenumeration efter hur länge sedan du använde den. Ju högre zombiepoäng, desto mer pengar bränner du på något du glömt bort."
       },
       {
         "title": "Utgiftsöversikt",
-        "desc": "En tydlig, kategoriserad vy över dina månatliga och årliga prenumerationsutgifter. Spåra trender och förstå exakt vart dina pengar tar vägen."
+        "desc": "Se dina månatliga och årliga utgifter per valuta. Tidigare betalningar vs. kommande avgifter, sida vid sida. Växla mellan 1M-, 3M-, 6M- och 1Å-vyer."
       },
       {
-        "title": "URL-sökare för avbokning",
-        "desc": "Hatar du att leta efter avbokningsknappar? CentryAI ger direktavbokningslänken, telefonnumret eller en steg-för-steg-guide för varje tjänst."
+        "title": "Cancel Finder",
+        "desc": "Ett tryck öppnar den exakta avslutningssidan för valfri tjänst. Inga inställningsmenyer. Inga samtal till kundtjänst. CentryAI använder AI för att hitta den direkta avslutningslänken."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Zombievarning",
-    "title": "Möt dina zombieprenumerationer.",
-    "desc": "Du registrerade dig, glömde bort och du betalar fortfarande. CentryAI korsrefererar dina prenumerationer med din faktiska användning för att avslöja tjänsterna som tyst tömmer ditt konto varje månad.",
+    "title": "Du betalar för saker du glömt att de finns.",
+    "desc": "En zombieprenumeration är en du inte rört på veckor men fortsätter betala varje månad. De flesta har två eller tre. CentryAI ger varje prenumeration ett zombiepoäng så att du vet exakt vilka som blöder ditt konto.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Stoppa läckan. Börja gratis.",
-    "desc": "Gå med över 240 000 personer som har tagit tillbaka kontrollen över sina prenumerationsutgifter."
+    "title": "Ta reda på vad du faktiskt betalar för.",
+    "desc": "Konfiguration på 3 minuter. Avsluta allt du hittar på 30 sekunder."
   },
   "footer": {
     "tagline": "Spåra, upptäck och avbryt återkommande prenumerationer. Gratis att starta — tillgänglig på iOS och Android.",

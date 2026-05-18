@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Trình theo dõi Đăng ký",
-    "headline1": "Ngừng trả tiền cho các ứng dụng",
+    "headline1": "Ngừng trả tiền cho các đăng ký",
     "headline2": "mà bạn đã",
-    "headlineEm": "quên.",
-    "sub": "CentryAI là một ứng dụng tài chính cá nhân thông minh được thiết kế để giúp bạn tự động theo dõi, quản lý và tối ưu hóa các đăng ký định kỳ của mình.",
+    "headlineEm": "quên mất.",
+    "sub": "CentryAI quét hộp thư Gmail hoặc iCloud của bạn, tìm mọi đăng ký bạn đang trả tiền và cho bạn biết cái nào cần hủy. Thiết lập chỉ mất 3 phút.",
     "trust": "4.8 · Hơn 12.000 đánh giá · Bắt đầu miễn phí",
     "appStoreSmall": "Tải xuống trên",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Liên kết hộp thư đến của bạn",
-        "desc": "Liên kết Gmail hoặc iCloud với quyền truy cập chỉ đọc. CentryAI chỉ quét các email đăng ký — không gì khác."
+        "desc": "Liên kết Gmail hoặc iCloud với quyền chỉ đọc. CentryAI chỉ quét hóa đơn đăng ký — không gì khác, không lưu trữ gì cả."
       },
       {
         "title": "Xem tất cả",
-        "desc": "Danh sách đăng ký đầy đủ của bạn xuất hiện ngay lập tức, được sắp xếp theo chi phí, ngày gia hạn và trạng thái sử dụng."
+        "desc": "Danh sách đăng ký đầy đủ của bạn xuất hiện trong vài giây: tên, giá, ngày gia hạn và điểm zombie cho mỗi dịch vụ bạn chưa dùng gần đây."
       },
       {
         "title": "Ngừng lãng phí",
-        "desc": "Nhấn vào bất kỳ đăng ký zombie nào để nhận đường dẫn trực tiếp để hủy. Hủy trong vài giây, không phải vài phút."
+        "desc": "Nhấn vào bất kỳ đăng ký nào để nhận liên kết hủy trực tiếp. Không cần Google. Không có nhạc chờ. Hủy trong vài giây."
       }
     ]
   },
   "features": {
-    "eyebrow": "Những gì bạn nhận được",
-    "title": "Mọi thứ để kiểm soát các đăng ký của bạn.",
-    "sub": "Bốn công cụ cốt lõi phối hợp với nhau để khám phá các chi phí ẩn và giúp bạn hành động.",
+    "eyebrow": "CentryAI làm gì",
+    "title": "Tìm. Đánh giá. Cắt bỏ.",
+    "sub": "Bốn công cụ phối hợp cùng nhau để khám phá chi phí ẩn và giúp việc hủy đăng ký trở nên dễ dàng.",
     "cards": [
       {
-        "title": "Phát hiện thông minh",
-        "desc": "Tự động xác định bất kỳ đăng ký nào — phát trực tuyến, thể dục, SaaS và hơn thế nữa — mà không cần nhập dữ liệu thủ công."
+        "title": "Inbox scanner",
+        "desc": "Kết nối với Gmail hoặc iCloud và tự động tìm mọi hóa đơn đăng ký — phát trực tuyến, SaaS, thể dục, tin tức, lưu trữ đám mây và hơn 90 dịch vụ khác."
       },
       {
-        "title": "Máy dò Zombie",
-        "desc": "Xác định các dịch vụ bạn đang trả tiền nhưng chưa sử dụng trong hơn 30 ngày. Xem chính xác chi phí đăng ký zombie của bạn là bao nhiêu mỗi tháng và mỗi năm."
+        "title": "Zombie detector",
+        "desc": "Chấm điểm mỗi đăng ký dựa trên thời gian bạn chưa sử dụng nó. Điểm zombie càng cao, bạn càng đang đốt tiền cho thứ bạn đã quên."
       },
       {
         "title": "Bảng điều khiển chi tiêu",
-        "desc": "Chế độ xem rõ ràng, được phân loại về chi tiêu đăng ký hàng tháng và hàng năm của bạn. Theo dõi xu hướng và hiểu chính xác tiền của bạn đang đi đâu."
+        "desc": "Xem chi tiêu hàng tháng và hàng năm theo từng loại tiền tệ. Các khoản thanh toán trước đây so với các khoản sắp tới, đặt cạnh nhau. Chuyển đổi giữa chế độ xem 1T, 3T, 6T và 1N."
       },
       {
-        "title": "Trình tìm URL hủy",
-        "desc": "Ghét việc tìm kiếm các nút hủy? CentryAI cung cấp liên kết hủy trực tiếp, số điện thoại hoặc hướng dẫn từng bước cho mọi dịch vụ."
+        "title": "Cancel Finder",
+        "desc": "Một lần nhấn mở đúng trang hủy cho bất kỳ dịch vụ nào. Không có menu cài đặt. Không có cuộc gọi hỗ trợ khách hàng. CentryAI dùng AI để tìm liên kết hủy trực tiếp."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Cảnh báo Zombie",
-    "title": "Làm quen với các đăng ký zombie của bạn.",
-    "desc": "Bạn đã đăng ký, quên mất và bạn vẫn đang trả tiền. CentryAI đối chiếu các đăng ký của bạn với mức sử dụng thực tế để tiết lộ các dịch vụ đang âm thầm rút cạn tài khoản của bạn mỗi tháng.",
+    "title": "Bạn đang trả tiền cho những thứ bạn quên là còn tồn tại.",
+    "desc": "Đăng ký zombie là dịch vụ bạn chưa dùng trong nhiều tuần nhưng vẫn trả tiền mỗi tháng. Hầu hết mọi người có hai hoặc ba cái. CentryAI chấm điểm zombie cho mỗi đăng ký để bạn biết chính xác cái nào đang rút cạn tài khoản của bạn.",
     "flagLabel": "Zombie"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Ngăn chặn rò rỉ. Bắt đầu miễn phí.",
-    "desc": "Tham gia cùng hơn 240.000 người đã giành lại quyền kiểm soát chi tiêu đăng ký của họ."
+    "title": "Khám phá bạn đang thực sự trả tiền cho gì.",
+    "desc": "Thiết lập trong 3 phút. Hủy bất cứ thứ gì bạn tìm thấy trong 30 giây."
   },
   "footer": {
     "tagline": "Theo dõi, phát hiện và hủy các đăng ký định kỳ. Miễn phí để bắt đầu — có sẵn trên iOS và Android.",

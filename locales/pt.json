@@ -10,10 +10,10 @@
   },
   "hero": {
     "badge": "Rastreador de Assinaturas",
-    "headline1": "Pare de pagar por aplicativos",
+    "headline1": "Pare de pagar por assinaturas",
     "headline2": "que você",
     "headlineEm": "esqueceu.",
-    "sub": "CentryAI é um aplicativo de finanças pessoais inteligente projetado para ajudar você a rastrear, gerenciar e otimizar automaticamente suas assinaturas recorrentes.",
+    "sub": "CentryAI escaneia sua caixa do Gmail ou iCloud, encontra cada assinatura que você está pagando e diz quais cancelar. A configuração leva 3 minutos.",
     "trust": "4.8 · Mais de 12.000 avaliações · Comece grátis",
     "appStoreSmall": "Baixar na",
     "appStoreName": "App Store",
@@ -48,45 +48,45 @@
     "steps": [
       {
         "title": "Conecte sua caixa de entrada",
-        "desc": "Vincule o Gmail ou iCloud com acesso somente leitura. O CentryAI verifica e-mails de assinatura — nada mais."
+        "desc": "Vincule o Gmail ou iCloud com acesso somente leitura. O CentryAI escaneia recibos de assinatura — nada mais, nada é armazenado."
       },
       {
         "title": "Veja tudo",
-        "desc": "Sua lista completa de assinaturas aparece instantaneamente, ordenada por custo, data de renovação e status de uso."
+        "desc": "Sua lista completa de assinaturas aparece em segundos: nome, preço, data de renovação e uma pontuação zombie para cada serviço que você não usou recentemente."
       },
       {
         "title": "Corte o desperdício",
-        "desc": "Toque em qualquer assinatura zumbi para obter o caminho direto para o cancelamento. Cancele em segundos, não minutos."
+        "desc": "Toque em qualquer assinatura para obter o link de cancelamento direto. Sem pesquisa no Google. Sem música de espera. Cancele em segundos."
       }
     ]
   },
   "features": {
-    "eyebrow": "O que você obtém",
-    "title": "Tudo para controlar suas assinaturas.",
-    "sub": "Quatro ferramentas essenciais que trabalham juntas para revelar custos ocultos e ajudar você a agir.",
+    "eyebrow": "O que o CentryAI faz",
+    "title": "Encontre. Avalie. Corte.",
+    "sub": "Quatro ferramentas que trabalham juntas para descobrir custos ocultos e tornar o cancelamento simples.",
     "cards": [
       {
-        "title": "Detecção inteligente",
-        "desc": "Identifica automaticamente todas as assinaturas — streaming, fitness, SaaS e muito mais — sem necessidade de entrada manual de dados."
+        "title": "Inbox scanner",
+        "desc": "Conecta-se ao Gmail ou iCloud e encontra automaticamente cada recibo de assinatura — streaming, SaaS, fitness, notícias, armazenamento em nuvem e mais de 90 outros serviços."
       },
       {
-        "title": "Detector de zumbis",
-        "desc": "Identifica serviços pelos quais você paga, mas não usou em mais de 30 dias. Veja exatamente quanto suas assinaturas zumbis custam por mês e por ano."
+        "title": "Zombie detector",
+        "desc": "Pontua cada assinatura com base em quanto tempo faz que você a usou. Quanto maior a pontuação zombie, mais dinheiro você está queimando em algo que esqueceu."
       },
       {
         "title": "Painel de gastos",
-        "desc": "Uma visão clara e categorizada de seus gastos com assinaturas mensais e anuais. Acompanhe tendências e entenda exatamente para onde vai o seu dinheiro."
+        "desc": "Veja seus gastos mensais e anuais por moeda. Pagamentos passados vs. cobranças futuras, lado a lado. Alterne entre as visualizações 1M, 3M, 6M e 1A."
       },
       {
-        "title": "Encontrador de URL de cancelamento",
-        "desc": "Odeia procurar por botões de cancelamento? O CentryAI revela o link de cancelamento direto, número de telefone ou um guia passo a passo para cada serviço."
+        "title": "Cancel Finder",
+        "desc": "Um toque abre a página de cancelamento exata de qualquer serviço. Sem menus de configurações. Sem ligações para o suporte. O CentryAI usa IA para encontrar o link direto de cancelamento."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Alerta de Zumbi",
-    "title": "Conheça suas assinaturas zumbis.",
-    "desc": "Você se inscreveu, esqueceu e ainda está pagando. O CentryAI cruza suas assinaturas com seu uso real para revelar serviços drenando silenciosamente sua conta todos os meses.",
+    "title": "Você está pagando por coisas que esqueceu que existem.",
+    "desc": "Uma assinatura zombie é aquela que você não toca há semanas, mas continua pagando todo mês. A maioria das pessoas tem duas ou três. O CentryAI dá a cada assinatura uma pontuação zombie para que você saiba exatamente quais estão sangrando sua conta.",
     "flagLabel": "Zumbi"
   },
   "testimonials": {
@@ -184,8 +184,8 @@
     }
   },
   "cta": {
-    "title": "Pare o vazamento. Comece grátis.",
-    "desc": "Junte-se a mais de 240.000 pessoas que recuperaram o controle de seus gastos com assinaturas."
+    "title": "Descubra pelo que você está realmente pagando.",
+    "desc": "Configure em 3 minutos. Cancele o que encontrar em 30 segundos."
   },
   "footer": {
     "tagline": "Rastreie, detecte e cancele assinaturas recorrentes. Comece grátis — disponível para iOS e Android.",
