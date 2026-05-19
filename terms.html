@@ -77,20 +77,7 @@
 <div class="page-content">
   <div class="toc">
     <h3 data-i18n="terms.toc.title">Table of Contents</h3>
-    <ol>
-      <li><a href="#s1" data-i18n="terms.toc.items.0">Acceptance of Terms</a></li>
-      <li><a href="#s2" data-i18n="terms.toc.items.1">Description of Service</a></li>
-      <li><a href="#s3" data-i18n="terms.toc.items.2">Eligibility</a></li>
-      <li><a href="#s4" data-i18n="terms.toc.items.3">User Accounts</a></li>
-      <li><a href="#s5" data-i18n="terms.toc.items.4">Subscription Plans and Billing</a></li>
-      <li><a href="#s6" data-i18n="terms.toc.items.5">Acceptable Use</a></li>
-      <li><a href="#s7" data-i18n="terms.toc.items.6">Intellectual Property</a></li>
-      <li><a href="#s8" data-i18n="terms.toc.items.7">Disclaimers</a></li>
-      <li><a href="#s9" data-i18n="terms.toc.items.8">Limitation of Liability</a></li>
-      <li><a href="#s10" data-i18n="terms.toc.items.9">Termination</a></li>
-      <li><a href="#s11" data-i18n="terms.toc.items.10">Governing Law</a></li>
-      <li><a href="#s12" data-i18n="terms.toc.items.11">Contact</a></li>
-    </ol>
+    <ol id="terms-toc-list"></ol>
   </div>
 
   <h2 id="s1" data-i18n="terms.sections.s1.title">1. Acceptance of Terms</h2>
@@ -145,6 +132,20 @@ document.addEventListener("DOMContentLoaded", function() {
     const key = el.getAttribute('data-i18n');
     el.innerHTML = t(key);
   });
+
+  // Render TOC list dynamically from array
+  var tocAnchors = ['#s1','#s2','#s3','#s4','#s5','#s6','#s7','#s8','#s9','#s10','#s11','#s12'];
+  var tocList = document.getElementById('terms-toc-list');
+  if (tocList) {
+    window.tArr('terms.toc.items').forEach(function(item, i) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = tocAnchors[i] || '#';
+      a.textContent = item;
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+  }
 });
 </script>
 </body>

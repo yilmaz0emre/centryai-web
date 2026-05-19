@@ -557,15 +557,26 @@
       "severityMedSub": "사용에 영향을 줌",
       "severityHigh": "높음",
       "severityHighSub": "앱 사용 불가",
+      "messageLabel": "메시지",
       "placeholders": {
         "name": "당신의 이름",
         "email": "you@example.com",
         "bugTitle": "예: 큰 받은편지함을 로드할 때 앱이 충돌함",
+        "bugSummary": "예: 큰 받은편지함을 로드할 때 앱이 충돌함",
         "featureTitle": "예: 구독 목록을 CSV로 내보내기",
+        "subject": "간단한 요약",
         "briefSummary": "간단한 요약",
+        "bugDetails": "1. 앱 열기\n2. Gmail 연결\n3. 구독 탭하기\n4. 앱이 충돌함",
         "bugSteps": "1. 앱 열기\n2. Gmail 연결\n3. 구독 탭하기\n4. 앱이 충돌함",
+        "featureDetails": "원하는 내용, 도움이 되는 이유 및 예를 설명해 주세요…",
         "featureDesc": "원하는 내용, 도움이 되는 이유 및 예를 설명해 주세요…",
+        "message": "생각하고 있는 것을 알려주세요…",
         "generalMessage": "생각하고 있는 것을 알려주세요…"
+      },
+      "severityLevels": {
+        "low": { "label": "낮음", "sub": "가벼운 불편함" },
+        "med": { "label": "중간", "sub": "사용에 영향을 줌" },
+        "high": { "label": "높음", "sub": "앱 사용 불가" }
       },
       "errors": {
         "nameRequired": "이름이 필요합니다",

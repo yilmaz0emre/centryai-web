@@ -557,15 +557,26 @@
       "severityMedSub": "Affecte l'utilisation",
       "severityHigh": "Élevée",
       "severityHighSub": "Application inutilisable",
+      "messageLabel": "Message",
       "placeholders": {
         "name": "Votre nom",
         "email": "vous@exemple.com",
         "bugTitle": "ex. L'application plante lors du chargement d'une grande boîte de réception",
+        "bugSummary": "ex. L'application plante lors du chargement d'une grande boîte de réception",
         "featureTitle": "ex. Exporter la liste des abonnements en CSV",
+        "subject": "Bref résumé",
         "briefSummary": "Bref résumé",
+        "bugDetails": "1. Ouvrir l'application\n2. Connecter Gmail\n3. Appuyer sur un abonnement\n4. L'application plante",
         "bugSteps": "1. Ouvrir l'application\n2. Connecter Gmail\n3. Appuyer sur un abonnement\n4. L'application plante",
+        "featureDetails": "Décrivez ce que vous voulez, pourquoi cela aiderait, et des exemples…",
         "featureDesc": "Décrivez ce que vous voulez, pourquoi cela aiderait, et des exemples…",
+        "message": "Dites-nous ce que vous avez à l'esprit…",
         "generalMessage": "Dites-nous ce que vous avez à l'esprit…"
+      },
+      "severityLevels": {
+        "low": { "label": "Faible", "sub": "Gêne mineure" },
+        "med": { "label": "Moyenne", "sub": "Affecte l'utilisation" },
+        "high": { "label": "Élevée", "sub": "Application inutilisable" }
       },
       "errors": {
         "nameRequired": "Le nom est requis",

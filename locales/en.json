@@ -557,15 +557,35 @@
       "severityMedSub": "Affects usage",
       "severityHigh": "High",
       "severityHighSub": "App unusable",
+      "messageLabel": "Message",
       "placeholders": {
         "name": "Your name",
         "email": "you@example.com",
         "bugTitle": "e.g. App crashes when loading large inbox",
+        "bugSummary": "e.g. App crashes when loading large inbox",
         "featureTitle": "e.g. Export subscription list as CSV",
+        "subject": "Brief summary",
         "briefSummary": "Brief summary",
+        "bugDetails": "1. Open app\n2. Connect Gmail\n3. Tap on a subscription\n4. App crashes",
         "bugSteps": "1. Open app\n2. Connect Gmail\n3. Tap on a subscription\n4. App crashes",
+        "featureDetails": "Describe what you want, why it would help, and any examples…",
         "featureDesc": "Describe what you want, why it would help, and any examples…",
+        "message": "Tell us anything on your mind…",
         "generalMessage": "Tell us anything on your mind…"
+      },
+      "severityLevels": {
+        "low": {
+          "label": "Low",
+          "sub": "Minor annoyance"
+        },
+        "med": {
+          "label": "Medium",
+          "sub": "Affects usage"
+        },
+        "high": {
+          "label": "High",
+          "sub": "App unusable"
+        }
       },
       "errors": {
         "nameRequired": "Name is required",

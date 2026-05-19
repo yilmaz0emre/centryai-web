@@ -557,15 +557,26 @@
       "severityMedSub": "Ảnh hưởng đến việc sử dụng",
       "severityHigh": "Cao",
       "severityHighSub": "Ứng dụng không thể sử dụng",
+      "messageLabel": "Tin nhắn",
       "placeholders": {
         "name": "Tên của bạn",
         "email": "ban@example.com",
         "bugTitle": "Ví dụ: Ứng dụng gặp sự cố khi tải hộp thư đến lớn",
+        "bugSummary": "Ví dụ: Ứng dụng gặp sự cố khi tải hộp thư đến lớn",
         "featureTitle": "Ví dụ: Xuất danh sách đăng ký dưới dạng CSV",
+        "subject": "Tóm tắt ngắn gọn",
         "briefSummary": "Tóm tắt ngắn gọn",
+        "bugDetails": "1. Mở ứng dụng\n2. Kết nối Gmail\n3. Nhấn vào một đăng ký\n4. Sự cố ứng dụng",
         "bugSteps": "1. Mở ứng dụng\n2. Kết nối Gmail\n3. Nhấn vào một đăng ký\n4. Sự cố ứng dụng",
+        "featureDetails": "Mô tả những gì bạn muốn, tại sao nó hữu ích, và các ví dụ…",
         "featureDesc": "Mô tả những gì bạn muốn, tại sao nó hữu ích, và các ví dụ…",
+        "message": "Hãy cho chúng tôi biết bạn đang nghĩ gì…",
         "generalMessage": "Hãy cho chúng tôi biết bạn đang nghĩ gì…"
+      },
+      "severityLevels": {
+        "low": { "label": "Thấp", "sub": "Gây khó chịu nhỏ" },
+        "med": { "label": "Trung bình", "sub": "Ảnh hưởng đến việc sử dụng" },
+        "high": { "label": "Cao", "sub": "Ứng dụng không thể sử dụng" }
       },
       "errors": {
         "nameRequired": "Tên là bắt buộc",

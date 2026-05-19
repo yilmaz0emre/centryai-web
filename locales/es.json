@@ -557,15 +557,26 @@
       "severityMedSub": "Afecta el uso",
       "severityHigh": "Alto",
       "severityHighSub": "Aplicación inutilizable",
+      "messageLabel": "Mensaje",
       "placeholders": {
         "name": "Su nombre",
         "email": "tu@ejemplo.com",
         "bugTitle": "p.ej. La aplicación falla al cargar una bandeja de entrada grande",
+        "bugSummary": "p.ej. La aplicación falla al cargar una bandeja de entrada grande",
         "featureTitle": "p.ej. Exportar lista de suscripción como CSV",
+        "subject": "Breve resumen",
         "briefSummary": "Breve resumen",
+        "bugDetails": "1. Abra la aplicación\n2. Conecta Gmail\n3. Toca una suscripción\n4. La aplicación falla",
         "bugSteps": "1. Abra la aplicación\n2. Conecta Gmail\n3. Toca una suscripción\n4. La aplicación falla",
+        "featureDetails": "Describe lo que quieres, por qué sería útil y cualquier ejemplo...",
         "featureDesc": "Describe lo que quieres, por qué sería útil y cualquier ejemplo...",
+        "message": "Cuéntanos cualquier cosa que tengas en mente...",
         "generalMessage": "Cuéntanos cualquier cosa que tengas en mente..."
+      },
+      "severityLevels": {
+        "low": { "label": "Bajo", "sub": "Molestia menor" },
+        "med": { "label": "Medio", "sub": "Afecta el uso" },
+        "high": { "label": "Alto", "sub": "Aplicación inutilizable" }
       },
       "errors": {
         "nameRequired": "El nombre es obligatorio",

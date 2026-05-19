@@ -557,15 +557,35 @@
       "severityMedSub": "Kullanımı etkiler",
       "severityHigh": "Yüksek",
       "severityHighSub": "Uygulama kullanılamıyor",
+      "messageLabel": "Mesaj",
       "placeholders": {
         "name": "Adınız",
         "email": "sen@example.com",
         "bugTitle": "örneğin Büyük gelen kutusu yüklenirken uygulama çöküyor",
+        "bugSummary": "örneğin Büyük gelen kutusu yüklenirken uygulama çöküyor",
         "featureTitle": "örneğin Abonelik listesini CSV olarak dışa aktar",
+        "subject": "Kısa özet",
         "briefSummary": "Kısa özet",
+        "bugDetails": "1. Uygulamayı açın\n2. Gmail'i bağlayın\n3. Bir aboneliğe dokunun\n4. Uygulama çöküyor",
         "bugSteps": "1. Uygulamayı açın\n2. Gmail'i bağlayın\n3. Bir aboneliğe dokunun\n4. Uygulama çöküyor",
+        "featureDetails": "Ne istediğinizi, neden yardımcı olabileceğini ve varsa örnekleri açıklayın…",
         "featureDesc": "Ne istediğinizi, neden yardımcı olabileceğini ve varsa örnekleri açıklayın…",
+        "message": "Aklınıza takılan her şeyi bize anlatın…",
         "generalMessage": "Aklınıza takılan her şeyi bize anlatın…"
+      },
+      "severityLevels": {
+        "low": {
+          "label": "Düşük",
+          "sub": "Küçük rahatsızlık"
+        },
+        "med": {
+          "label": "Orta",
+          "sub": "Kullanımı etkiler"
+        },
+        "high": {
+          "label": "Yüksek",
+          "sub": "Uygulama kullanılamıyor"
+        }
       },
       "errors": {
         "nameRequired": "Ad gerekli",

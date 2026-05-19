@@ -557,15 +557,26 @@
       "severityMedSub": "影响使用",
       "severityHigh": "高",
       "severityHighSub": "应用无法使用",
+      "messageLabel": "信息",
       "placeholders": {
         "name": "您的名字",
         "email": "you@example.com",
         "bugTitle": "例如：加载大收件箱时应用程序崩溃",
+        "bugSummary": "例如：加载大收件箱时应用程序崩溃",
         "featureTitle": "例如：将订阅列表导出为 CSV",
+        "subject": "简短的摘要",
         "briefSummary": "简短的摘要",
+        "bugDetails": "1. 打开应用\n2. 连接 Gmail\n3. 点击订阅\n4. 应用崩溃",
         "bugSteps": "1. 打开应用\n2. 连接 Gmail\n3. 点击订阅\n4. 应用崩溃",
+        "featureDetails": "描述您想要什么，为什么会有帮助，以及例子……",
         "featureDesc": "描述您想要什么，为什么会有帮助，以及例子……",
+        "message": "告诉我们您在想什么……",
         "generalMessage": "告诉我们您在想什么……"
+      },
+      "severityLevels": {
+        "low": { "label": "低", "sub": "轻微的烦恼" },
+        "med": { "label": "中", "sub": "影响使用" },
+        "high": { "label": "高", "sub": "应用无法使用" }
       },
       "errors": {
         "nameRequired": "名字是必填项",

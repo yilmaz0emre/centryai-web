@@ -557,15 +557,26 @@
       "severityMedSub": "Influisce sull'uso",
       "severityHigh": "Alta",
       "severityHighSub": "App inutilizzabile",
+      "messageLabel": "Messaggio",
       "placeholders": {
         "name": "Il tuo nome",
         "email": "tu@esempio.com",
         "bugTitle": "es. L'app si blocca caricando una casella di posta grande",
+        "bugSummary": "es. L'app si blocca caricando una casella di posta grande",
         "featureTitle": "es. Esporta lista abbonamenti in CSV",
+        "subject": "Breve riepilogo",
         "briefSummary": "Breve riepilogo",
+        "bugDetails": "1. Apri l'app\n2. Collega Gmail\n3. Tocca un abbonamento\n4. L'app si blocca",
         "bugSteps": "1. Apri l'app\n2. Collega Gmail\n3. Tocca un abbonamento\n4. L'app si blocca",
+        "featureDetails": "Descrivi cosa vuoi, perché aiuterebbe, ed esempi…",
         "featureDesc": "Descrivi cosa vuoi, perché aiuterebbe, ed esempi…",
+        "message": "Dicci qualsiasi cosa ti passi per la testa…",
         "generalMessage": "Dicci qualsiasi cosa ti passi per la testa…"
+      },
+      "severityLevels": {
+        "low": { "label": "Bassa", "sub": "Piccolo fastidio" },
+        "med": { "label": "Media", "sub": "Influisce sull'uso" },
+        "high": { "label": "Alta", "sub": "App inutilizzabile" }
       },
       "errors": {
         "nameRequired": "Il nome è obbligatorio",

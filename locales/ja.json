@@ -557,15 +557,26 @@
       "severityMedSub": "使用に影響する",
       "severityHigh": "高",
       "severityHighSub": "アプリが使用不可",
+      "messageLabel": "メッセージ",
       "placeholders": {
         "name": "あなたの名前",
         "email": "you@example.com",
         "bugTitle": "例：大きな受信トレイをロードするとアプリがクラッシュする",
+        "bugSummary": "例：大きな受信トレイをロードするとアプリがクラッシュする",
         "featureTitle": "例：サブスクリプションリストをCSVとしてエクスポートする",
+        "subject": "簡単な概要",
         "briefSummary": "簡単な概要",
+        "bugDetails": "1. アプリを開く\n2. Gmailを接続\n3. サブスクリプションをタップ\n4. アプリがクラッシュする",
         "bugSteps": "1. アプリを開く\n2. Gmailを接続\n3. サブスクリプションをタップ\n4. アプリがクラッシュする",
+        "featureDetails": "何が欲しいのか、なぜそれが役立つのか、その例を記述してください…",
         "featureDesc": "何が欲しいのか、なぜそれが役立つのか、その例を記述してください…",
+        "message": "あなたが考えていることを何でも教えてください…",
         "generalMessage": "あなたが考えていることを何でも教えてください…"
+      },
+      "severityLevels": {
+        "low": { "label": "低", "sub": "わずかな迷惑" },
+        "med": { "label": "中", "sub": "使用に影響する" },
+        "high": { "label": "高", "sub": "アプリが使用不可" }
       },
       "errors": {
         "nameRequired": "名前は必須です",

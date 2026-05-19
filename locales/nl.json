@@ -557,15 +557,26 @@
       "severityMedSub": "Beïnvloedt gebruik",
       "severityHigh": "Hoog",
       "severityHighSub": "App onbruikbaar",
+      "messageLabel": "Bericht",
       "placeholders": {
         "name": "Jouw naam",
         "email": "jij@voorbeeld.com",
         "bugTitle": "bijv. App crasht bij het laden van een grote inbox",
+        "bugSummary": "bijv. App crasht bij het laden van een grote inbox",
         "featureTitle": "bijv. Exporteer abonnementslijst als CSV",
+        "subject": "Korte samenvatting",
         "briefSummary": "Korte samenvatting",
+        "bugDetails": "1. Open de app\n2. Koppel Gmail\n3. Tik op een abonnement\n4. App crasht",
         "bugSteps": "1. Open de app\n2. Koppel Gmail\n3. Tik op een abonnement\n4. App crasht",
+        "featureDetails": "Beschrijf wat je wilt, waarom het zou helpen, en voorbeelden…",
         "featureDesc": "Beschrijf wat je wilt, waarom het zou helpen, en voorbeelden…",
+        "message": "Vertel ons wat er in je omgaat…",
         "generalMessage": "Vertel ons wat er in je omgaat…"
+      },
+      "severityLevels": {
+        "low": { "label": "Laag", "sub": "Kleine ergernis" },
+        "med": { "label": "Gemiddeld", "sub": "Beïnvloedt gebruik" },
+        "high": { "label": "Hoog", "sub": "App onbruikbaar" }
       },
       "errors": {
         "nameRequired": "Naam is verplicht",

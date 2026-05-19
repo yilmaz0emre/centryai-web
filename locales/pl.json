@@ -557,15 +557,26 @@
       "severityMedSub": "Problemy z użyciem",
       "severityHigh": "Wysoka",
       "severityHighSub": "Apka nie działa",
+      "messageLabel": "Wiadomość",
       "placeholders": {
         "name": "Twoje imię",
         "email": "ty@przyklad.com",
         "bugTitle": "np. Aplikacja się sypie przy ładowaniu wielkiej skrzynki",
+        "bugSummary": "np. Aplikacja się sypie przy ładowaniu wielkiej skrzynki",
         "featureTitle": "np. Eksport list subskrypcji do CSV",
+        "subject": "Krótki opis",
         "briefSummary": "Krótki Skrót",
+        "bugDetails": "1. Otwórz apkę\n2. Podłącz Gmaila\n3. Wybierz suba\n4. Apka się sypie",
         "bugSteps": "1. Otwórz apkę\n2. Podłącz Gmaila\n3. Wybierz Suba\n4. Sypie się",
+        "featureDetails": "Napisz nam co byś chciał, jak by to mogło pomóc, podaj przykłady...",
         "featureDesc": "Napisz nam co byś chciał, jak by to mogło pomóc, podaj przykłady...",
+        "message": "Napisz co zechcesz…",
         "generalMessage": "Napisz co zechcesz…"
+      },
+      "severityLevels": {
+        "low": { "label": "Niska", "sub": "Drobny kłopot" },
+        "med": { "label": "Średnia", "sub": "Problemy z użyciem" },
+        "high": { "label": "Wysoka", "sub": "Apka nie działa" }
       },
       "errors": {
         "nameRequired": "Imię potrzebne",

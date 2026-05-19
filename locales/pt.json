@@ -557,15 +557,26 @@
       "severityMedSub": "Afeta o uso",
       "severityHigh": "Alta",
       "severityHighSub": "Aplicativo inutilizável",
+      "messageLabel": "Mensagem",
       "placeholders": {
         "name": "Seu nome",
         "email": "voce@exemplo.com",
         "bugTitle": "ex. App trava ao carregar uma caixa de entrada grande",
+        "bugSummary": "ex. App trava ao carregar uma caixa de entrada grande",
         "featureTitle": "ex. Exportar lista de assinaturas como CSV",
+        "subject": "Breve resumo",
         "briefSummary": "Breve resumo",
+        "bugDetails": "1. Abrir app\n2. Conectar Gmail\n3. Tocar em uma assinatura\n4. App trava",
         "bugSteps": "1. Abrir app\n2. Conectar Gmail\n3. Tocar em uma assinatura\n4. App trava",
+        "featureDetails": "Descreva o que você quer, por que ajudaria, e exemplos…",
         "featureDesc": "Descreva o que você quer, por que ajudaria, e exemplos…",
+        "message": "Diga-nos qualquer coisa em sua mente…",
         "generalMessage": "Diga-nos qualquer coisa em sua mente…"
+      },
+      "severityLevels": {
+        "low": { "label": "Baixa", "sub": "Incomodo menor" },
+        "med": { "label": "Média", "sub": "Afeta o uso" },
+        "high": { "label": "Alta", "sub": "Aplicativo inutilizável" }
       },
       "errors": {
         "nameRequired": "O nome é obrigatório",

@@ -557,15 +557,26 @@
       "severityMedSub": "Påverkar användningen",
       "severityHigh": "Hög",
       "severityHighSub": "Appen oanvändbar",
+      "messageLabel": "Meddelande",
       "placeholders": {
         "name": "Ditt namn",
         "email": "du@exempel.com",
         "bugTitle": "T.ex.: Appen kraschar när man laddar en stor inkorg",
+        "bugSummary": "T.ex.: Appen kraschar när man laddar en stor inkorg",
         "featureTitle": "T.ex.: Exportera prenumerationslista som CSV",
+        "subject": "Kort sammanfattning",
         "briefSummary": "Kort sammanfattning",
+        "bugDetails": "1. Öppna appen\n2. Anslut Gmail\n3. Tryck på en prenumeration\n4. Appen kraschar",
         "bugSteps": "1. Öppna appen\n2. Anslut Gmail\n3. Tryck på en prenumeration\n4. Appen kraschar",
+        "featureDetails": "Beskriv vad du vill, varför det skulle hjälpa och exempel…",
         "featureDesc": "Beskriv vad du vill, varför det skulle hjälpa och exempel…",
+        "message": "Berätta för oss vad du tänker på…",
         "generalMessage": "Berätta för oss vad du tänker på…"
+      },
+      "severityLevels": {
+        "low": { "label": "Låg", "sub": "Mindre irritation" },
+        "med": { "label": "Medium", "sub": "Påverkar användningen" },
+        "high": { "label": "Hög", "sub": "Appen oanvändbar" }
       },
       "errors": {
         "nameRequired": "Namn krävs",

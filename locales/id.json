@@ -557,15 +557,26 @@
       "severityMedSub": "Memengaruhi penggunaan",
       "severityHigh": "Tinggi",
       "severityHighSub": "Aplikasi tidak dapat digunakan",
+      "messageLabel": "Pesan",
       "placeholders": {
         "name": "Nama Anda",
         "email": "anda@contoh.com",
         "bugTitle": "Misal: Aplikasi mogok saat memuat kotak masuk besar",
+        "bugSummary": "Misal: Aplikasi mogok saat memuat kotak masuk besar",
         "featureTitle": "Misal: Ekspor daftar langganan sebagai CSV",
+        "subject": "Ringkasan singkat",
         "briefSummary": "Ringkasan singkat",
+        "bugDetails": "1. Buka aplikasi\n2. Hubungkan Gmail\n3. Ketuk langganan\n4. Aplikasi mogok",
         "bugSteps": "1. Buka aplikasi\n2. Hubungkan Gmail\n3. Ketuk langganan\n4. Aplikasi mogok",
+        "featureDetails": "Jelaskan apa yang Anda inginkan, mengapa itu akan membantu, dan contoh…",
         "featureDesc": "Jelaskan apa yang Anda inginkan, mengapa itu akan membantu, dan contoh…",
+        "message": "Beri tahu kami apa yang ada di pikiran Anda…",
         "generalMessage": "Beri tahu kami apa yang ada di pikiran Anda…"
+      },
+      "severityLevels": {
+        "low": { "label": "Rendah", "sub": "Gangguan kecil" },
+        "med": { "label": "Sedang", "sub": "Memengaruhi penggunaan" },
+        "high": { "label": "Tinggi", "sub": "Aplikasi tidak dapat digunakan" }
       },
       "errors": {
         "nameRequired": "Nama wajib diisi",

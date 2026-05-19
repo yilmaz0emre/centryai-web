@@ -557,15 +557,26 @@
       "severityMedSub": "Beeinträchtigt die Nutzung",
       "severityHigh": "Hoch",
       "severityHighSub": "App unbrauchbar",
+      "messageLabel": "Nachricht",
       "placeholders": {
         "name": "Ihr Name",
         "email": "sie@beispiel.com",
         "bugTitle": "z.B. App stürzt ab beim Laden großer Posteingänge",
+        "bugSummary": "z.B. App stürzt ab beim Laden großer Posteingänge",
         "featureTitle": "z.B. Abo-Liste als CSV exportieren",
+        "subject": "Kurze Zusammenfassung",
         "briefSummary": "Kurze Zusammenfassung",
+        "bugDetails": "1. App öffnen\n2. Gmail verbinden\n3. Auf ein Abo tippen\n4. App stürzt ab",
         "bugSteps": "1. App öffnen\n2. Gmail verbinden\n3. Auf ein Abo tippen\n4. App stürzt ab",
+        "featureDetails": "Beschreiben Sie, was Sie möchten, warum es helfen würde, und Beispiele…",
         "featureDesc": "Beschreiben Sie, was Sie möchten, warum es helfen würde, und Beispiele…",
+        "message": "Erzählen Sie uns, was Ihnen auf dem Herzen liegt…",
         "generalMessage": "Erzählen Sie uns, was Ihnen auf dem Herzen liegt…"
+      },
+      "severityLevels": {
+        "low": { "label": "Niedrig", "sub": "Kleines Ärgernis" },
+        "med": { "label": "Mittel", "sub": "Beeinträchtigt die Nutzung" },
+        "high": { "label": "Hoch", "sub": "App unbrauchbar" }
       },
       "errors": {
         "nameRequired": "Name ist erforderlich",
