@@ -211,6 +211,8 @@
   .form-row-split { grid-template-columns: 1fr; }
   .type-grid { grid-template-columns: 1fr; }
   .form-card { padding: 1.5rem; }
+  .priority-row { flex-direction: column; }
+  .priority-opt { text-align: left; padding: 10px 14px; }
 }
 </style>
 </head>
@@ -283,7 +285,7 @@ const TYPES = [
 ];
 
 const PLATFORMS = ['iOS', 'Android', 'Both', 'Web / Other'];
-const VERSIONS = ['Latest (auto-detect)', '2.1.0', '2.0.3', '2.0.1', '1.9.x or earlier'];
+const VERSIONS = ['1.0.1 (Latest)', '1.0.0', 'Earlier'];
 
 function genRef() {
   return 'SR-' + Math.random().toString(36).toUpperCase().slice(2, 8);
