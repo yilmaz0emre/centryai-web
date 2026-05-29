@@ -425,7 +425,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: 15 Mayıs 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 30 Mayıs 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Hesap Bilgileri",
         "accountBody": "CentryAI yalnızca Google ve Apple ile Oturum Aç kullanır — şifre toplamaz veya saklamaz. Oturum açtığınızda e-posta adresinizi ve görünen adınızı sağlayıcıdan alırız. Telefon numarası veya ödeme kartı bilgisi toplamayız.",
         "usageTitle": "Kullanım Verileri",
-        "usageBody": "Uygulamayı geliştirmek için hangi özelliklerin en sık kullanıldığı ve genel performans ölçümleri gibi anonimleştirilmiş, toplu kullanım verilerini topluyoruz. Bu veriler sizi tanımlamak için kullanılamaz.",
+        "usageBody": "Uygulamayı geliştirmek için hangi özelliklerin en sık kullanıldığı ve genel performans ölçümleri gibi anonimleştirilmiş, toplu kullanım verilerini topluyoruz. Ayrıca, örneğin hangi abonelik hizmetlerinin ülke ve bölgeye göre en popüler olduğu gibi toplu istatistikleri, tek yönlü takma adlandırılmış (pseudonymized) bir tanımlayıcı kullanarak üretiriz. Bu veriler sizi tanımlamak için kullanılamaz ve kişisel profilinizden ayrı tutulur.",
         "deviceTitle": "Cihaz Bilgileri",
-        "deviceBody": "Zamanında yenileme hatırlatıcıları sunmak ve uyumluluğu sağlamak için cihaz saat diliminizi, yerel ayarınızı ve uygulama sürümünüzü toplarız.",
+        "deviceBody": "Zamanında yenileme hatırlatıcıları sunmak ve uyumluluğu sağlamak için cihaz saat diliminizi, yerel ayarınızı ve uygulama sürümünüzü toplarız. Ayrıca IP adresinizden yaklaşık konumunuzu — yalnızca ülke ve bölge düzeyinde — çıkarırız. Bu sorgu kendi sunucumuzda, çevrimdışı bir veritabanı kullanılarak yapılır; IP adresiniz hiçbir üçüncü taraf konum sağlayıcısıyla paylaşılmaz. Kesin konum, şehir, posta kodu veya GPS verisi toplamayız.",
         "noHumanAccess": "🔒 Hiçbir insan e-posta verilerinizi okumaz. Erişim kesinlikle programlıdır ve yalnızca aboneliklerin tespit edilmesi amacıyla otomatikleştirilmiştir."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Veri Depolama ve Güvenlik",
         "body1": "Abonelik verileriniz Firebase Firestore'da (Google Cloud) güvenli şekilde depolanır; kullanıcı başına güvenlik kurallarıyla korunan bir bulut veritabanıdır.",
         "body2": "Tarama sırasında iletilen e-posta içeriği Cloud Functions'da işlenir ve işlem sonrası saklanmaz. Yalnızca çıkarılan abonelik verileri hesabınızda depolanır.",
-        "body3": "Altyapımız aktarımda TLS şifrelemesi, Firebase'in beklemedeki şifrelemesi ve kullanıcı başına veri yalıtımını zorunlu kılan güvenlik kuralları kullanır."
+        "body3": "Altyapımız aktarımda TLS şifrelemesi, Firebase'in beklemedeki şifrelemesi ve kullanıcı başına veri yalıtımını zorunlu kılan güvenlik kuralları kullanır. Kişisel verilerinize ekibimizin erişimi yalnızca müşteri desteği ve operasyonel amaçlarla, yetkili personelle sınırlıdır; rol tabanlı kimlik doğrulamasıyla korunur ve dahili bir denetim kaydına (audit log) işlenir. Saklama: aboneliğinizi iptal eder ve geri dönmezseniz verileriniz 30 gün sonra otomatik ve kalıcı olarak silinir; ayrıca dilediğiniz zaman uygulama içinden hesabınızı ve ilişkili tüm verileri silebilirsiniz."
       },
       "s4": {
         "title": "4. Üçüncü Taraf Hizmetleri",

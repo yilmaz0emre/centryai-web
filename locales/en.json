@@ -425,7 +425,7 @@
     "hero": {
       "label": "Legal",
       "title": "Privacy Policy",
-      "subtitle": "Last updated: May 15, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: May 30, 2026 · Effective: April 19, 2026"
     },
     "shortVersion": "CentryAI reads your email to find subscription receipts. Email content is processed server-side in our secure Cloud Functions — we never store your emails, never sell your data, and never connect to your bank.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Account Information",
         "accountBody": "CentryAI uses Google Sign-In and Apple Sign-In exclusively — we do not collect or store passwords. When you sign in, we receive your email address and display name from your sign-in provider. We do not collect your phone number or payment card details.",
         "usageTitle": "Usage Data",
-        "usageBody": "We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. This data cannot be used to identify you.",
+        "usageBody": "We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. We also produce aggregate statistics, for example which subscription services are most popular by country and region, using a one-way pseudonymized identifier. This data cannot be used to identify you and is kept separate from your personal profile.",
         "deviceTitle": "Device Information",
-        "deviceBody": "We collect your device timezone, locale, and app version to deliver timely renewal reminders and ensure compatibility.",
+        "deviceBody": "We collect your device timezone, locale, and app version to deliver timely renewal reminders and ensure compatibility. We also derive your approximate location — country and region only — from your IP address. This lookup runs inside our own backend using an offline database, so your IP address is never sent to any third-party geolocation provider. We do not collect your precise location, city, postal code, or GPS data.",
         "noHumanAccess": "🔒 No human will read your email data. Access is strictly programmatic and automated for the sole purpose of detecting subscriptions."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Data Storage and Security",
         "body1": "Your subscription data is stored securely in Firebase Firestore (Google Cloud), a cloud database protected by per-user security rules that prevent any other user from accessing your data.",
         "body2": "Email content transmitted during inbox scanning is processed in our Cloud Functions and is not retained after processing completes. Only extracted subscription data is stored in your account.",
-        "body3": "Our infrastructure uses TLS encryption in transit, Firebase's encryption at rest, and security rules enforcing strict per-user data isolation."
+        "body3": "Our infrastructure uses TLS encryption in transit, Firebase's encryption at rest, and security rules enforcing strict per-user data isolation. Access to your personal data by our team is limited to authorized personnel for customer support and operational purposes only, protected by role-based authentication and recorded in an internal audit log. Retention: if you cancel and do not return, your data is automatically and permanently deleted after 30 days; you can also delete your account and all associated data at any time from within the app."
       },
       "s4": {
         "title": "4. Third-Party Services",
