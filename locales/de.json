@@ -425,7 +425,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: 15. Mai 2026 · Gültig ab: 19. April 2026"
+      "subtitle": "Zuletzt aktualisiert: 30. Mai 2026 · Gültig ab: 19. April 2026"
     },
     "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Kontoinformationen",
         "accountBody": "CentryAI verwendet ausschließlich Google- und Apple-Anmeldung — keine Passwörter werden gespeichert. Bei der Anmeldung erhalten wir Ihre E-Mail-Adresse und Ihren Anzeigenamen. Telefonnummern oder Zahlungskartendetails werden nicht erfasst.",
         "usageTitle": "Nutzungsdaten",
-        "usageBody": "Wir erfassen anonymisierte, aggregierte Nutzungsdaten, um die App zu verbessern. Diese Daten können nicht zu Ihrer Identifizierung verwendet werden.",
+        "usageBody": "Wir erfassen anonymisierte, aggregierte Nutzungsdaten, um die App zu verbessern. Diese Daten können nicht zu Ihrer Identifizierung verwendet werden. Darüber hinaus erstellen wir aggregierte Statistiken — etwa welche Abonnementdienste in welchen Ländern und Regionen am beliebtesten sind — auf Basis eines einseitig pseudonymisierten Identifikators. Diese Daten können nicht zur Identifizierung Ihrer Person verwendet werden und werden getrennt von Ihrem persönlichen Profil gespeichert.",
         "deviceTitle": "Geräteinformationen",
-        "deviceBody": "Wir erfassen Ihre Zeitzone, Ihr Gebietsschema und Ihre App-Version für rechtzeitige Verlängerungserinnerungen und Kompatibilität.",
+        "deviceBody": "Wir erfassen Ihre Zeitzone, Ihr Gebietsschema und Ihre App-Version für rechtzeitige Verlängerungserinnerungen und Kompatibilität. Darüber hinaus leiten wir Ihren ungefähren Standort — nur Land und Region — aus Ihrer IP-Adresse ab. Diese Abfrage wird in unserem eigenen Backend mit einer Offline-Datenbank durchgeführt, sodass Ihre IP-Adresse niemals an einen Drittanbieter für Geolokalisierung übermittelt wird. Wir erfassen weder Ihren genauen Standort, noch Stadt, Postleitzahl oder GPS-Daten.",
         "noHumanAccess": "🔒 Kein Mensch wird Ihre E-Mail-Daten lesen. Der Zugriff erfolgt streng programmatisch und automatisiert ausschließlich zur Erkennung von Abonnements."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Datenspeicherung und Sicherheit",
         "body1": "Ihre Abonnementdaten werden sicher in Firebase Firestore (Google Cloud) gespeichert, geschützt durch benutzerspezifische Sicherheitsregeln.",
         "body2": "E-Mail-Inhalte werden in Cloud Functions verarbeitet und danach nicht gespeichert. Nur extrahierte Abonnementdaten werden in Ihrem Konto gespeichert.",
-        "body3": "Unsere Infrastruktur verwendet TLS-Verschlüsselung, Firebase-Verschlüsselung im Ruhezustand und benutzerspezifische Datenisolierung."
+        "body3": "Unsere Infrastruktur verwendet TLS-Verschlüsselung, Firebase-Verschlüsselung im Ruhezustand und benutzerspezifische Datenisolierung. Der Zugriff auf Ihre personenbezogenen Daten durch unser Team ist auf autorisiertes Personal für Kundensupport und betriebliche Zwecke beschränkt, gesichert durch rollenbasierte Authentifizierung und in einem internen Prüfprotokoll erfasst. Aufbewahrung: Wenn Sie kündigen und nicht zurückkehren, werden Ihre Daten nach 30 Tagen automatisch und dauerhaft gelöscht; Sie können Ihr Konto und alle damit verbundenen Daten jederzeit in der App löschen."
       },
       "s4": {
         "title": "4. Dienste von Drittanbietern",

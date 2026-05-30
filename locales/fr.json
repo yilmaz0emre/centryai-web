@@ -425,7 +425,7 @@
     "hero": {
       "label": "Légal",
       "title": "Politique de confidentialité",
-      "subtitle": "Dernière mise à jour : 15 mai 2026 · En vigueur : 19 avril 2026"
+      "subtitle": "Dernière mise à jour : 30 mai 2026 · En vigueur : 19 avril 2026"
     },
     "shortVersion": "CentryAI lit vos e-mails pour trouver les reçus d'abonnement. Le contenu est traité côté serveur dans nos Cloud Functions sécurisées — nous ne stockons jamais vos e-mails, ne vendons pas vos données et ne nous connectons pas à votre banque.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Informations de compte",
         "accountBody": "CentryAI utilise exclusivement la connexion Google et Apple — aucun mot de passe n'est collecté. Lors de la connexion, nous recevons votre adresse e-mail et nom d'affichage. Aucun numéro de téléphone ni coordonnée bancaire n'est collecté.",
         "usageTitle": "Données d'utilisation",
-        "usageBody": "Nous collectons des données d'utilisation agrégées et anonymisées pour améliorer l'application. Ces données ne peuvent pas être utilisées pour vous identifier.",
+        "usageBody": "Nous collectons des données d'utilisation agrégées et anonymisées pour améliorer l'application. Ces données ne peuvent pas être utilisées pour vous identifier. Nous produisons également des statistiques agrégées, par exemple quels services d'abonnement sont les plus populaires par pays et région, en utilisant un identifiant pseudonymisé à sens unique. Ces données ne peuvent pas être utilisées pour vous identifier et sont conservées séparément de votre profil personnel.",
         "deviceTitle": "Informations sur l'appareil",
-        "deviceBody": "Nous collectons le fuseau horaire, les paramètres régionaux et la version de l'application pour envoyer des rappels de renouvellement et assurer la compatibilité.",
+        "deviceBody": "Nous collectons le fuseau horaire, les paramètres régionaux et la version de l'application pour envoyer des rappels de renouvellement et assurer la compatibilité. Nous déduisons également votre localisation approximative — pays et région uniquement — à partir de votre adresse IP. Cette recherche s'effectue dans notre propre backend à l'aide d'une base de données hors ligne, de sorte que votre adresse IP n'est jamais transmise à un fournisseur de géolocalisation tiers. Nous ne collectons pas votre localisation précise, votre ville, votre code postal ni vos données GPS.",
         "noHumanAccess": "🔒 Aucun humain ne lira vos données d'e-mail. L'accès est strictement programmatique et automatisé dans le seul but de détecter les abonnements."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Stockage et sécurité des données",
         "body1": "Vos données d'abonnement sont stockées dans Firebase Firestore (Google Cloud), protégées par des règles de sécurité par utilisateur.",
         "body2": "Le contenu des e-mails est traité dans nos Cloud Functions et non conservé après le traitement. Seules les données extraites sont stockées dans votre compte.",
-        "body3": "Notre infrastructure utilise le chiffrement TLS en transit, le chiffrement Firebase au repos et l'isolation stricte des données par utilisateur."
+        "body3": "Notre infrastructure utilise le chiffrement TLS en transit, le chiffrement Firebase au repos et l'isolation stricte des données par utilisateur. L'accès à vos données personnelles par notre équipe est limité au personnel autorisé à des fins de support client et opérationnelles uniquement, protégé par une authentification basée sur les rôles et consigné dans un journal d'audit interne. Conservation : si vous résiliez et ne revenez pas, vos données sont automatiquement et définitivement supprimées après 30 jours ; vous pouvez également supprimer votre compte et toutes les données associées à tout moment depuis l'application."
       },
       "s4": {
         "title": "4. Services tiers",

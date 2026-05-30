@@ -425,7 +425,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Chính sách Bảo mật",
-      "subtitle": "Cập nhật lần cuối: Ngày 15 tháng 5 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 30 tháng 5 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Thông tin Tài khoản",
         "accountBody": "CentryAI sử dụng Google Sign-In và Apple Sign-In — không thu thập hay lưu trữ mật khẩu. Khi đăng nhập, chúng tôi nhận địa chỉ email và tên hiển thị từ nhà cung cấp. Không thu thập số điện thoại hay thông tin thẻ thanh toán.",
         "usageTitle": "Dữ liệu Sử dụng",
-        "usageBody": "Chúng tôi thu thập dữ liệu sử dụng ẩn danh, được tổng hợp để cải thiện ứng dụng. Dữ liệu này không thể được sử dụng để nhận dạng bạn.",
+        "usageBody": "Chúng tôi thu thập dữ liệu sử dụng ẩn danh, được tổng hợp để cải thiện ứng dụng. Dữ liệu này không thể được sử dụng để nhận dạng bạn. Chúng tôi cũng tạo ra các thống kê tổng hợp, ví dụ dịch vụ đăng ký nào phổ biến nhất theo quốc gia và khu vực, bằng cách sử dụng mã định danh được giả danh hóa một chiều. Dữ liệu này không thể được sử dụng để nhận dạng bạn và được lưu giữ riêng biệt với hồ sơ cá nhân của bạn.",
         "deviceTitle": "Thông tin Thiết bị",
-        "deviceBody": "Chúng tôi thu thập múi giờ thiết bị, ngôn ngữ và phiên bản ứng dụng để gửi nhắc nhở gia hạn kịp thời và đảm bảo tương thích.",
+        "deviceBody": "Chúng tôi thu thập múi giờ thiết bị, ngôn ngữ và phiên bản ứng dụng để gửi nhắc nhở gia hạn kịp thời và đảm bảo tương thích. Chúng tôi cũng xác định vị trí gần đúng của bạn — chỉ quốc gia và vùng — từ địa chỉ IP của bạn. Tra cứu này được thực hiện bên trong backend của chính chúng tôi bằng cơ sở dữ liệu ngoại tuyến, vì vậy địa chỉ IP của bạn không bao giờ được gửi đến bất kỳ nhà cung cấp định vị địa lý bên thứ ba nào. Chúng tôi không thu thập vị trí chính xác, thành phố, mã bưu chính hay dữ liệu GPS của bạn.",
         "noHumanAccess": "🔒 Không có con người nào sẽ đọc dữ liệu email của bạn. Quyền truy cập mang tính lập trình nghiêm ngặt và tự động chỉ vì mục đích phát hiện các đăng ký."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Lưu trữ & Bảo mật Dữ liệu",
         "body1": "Dữ liệu đăng ký được lưu trữ an toàn trong Firebase Firestore (Google Cloud), được bảo vệ bằng quy tắc bảo mật theo từng người dùng.",
         "body2": "Nội dung email được xử lý trong Cloud Functions và không được giữ lại sau khi hoàn tất. Chỉ dữ liệu đã trích xuất được lưu trong tài khoản của bạn.",
-        "body3": "Hạ tầng sử dụng mã hóa TLS khi truyền, mã hóa Firebase khi lưu trữ và cách ly dữ liệu nghiêm ngặt theo người dùng."
+        "body3": "Hạ tầng sử dụng mã hóa TLS khi truyền, mã hóa Firebase khi lưu trữ và cách ly dữ liệu nghiêm ngặt theo người dùng. Quyền truy cập vào dữ liệu cá nhân của bạn bởi nhóm của chúng tôi được giới hạn ở nhân viên được ủy quyền chỉ cho mục đích hỗ trợ khách hàng và vận hành, được bảo vệ bằng xác thực dựa trên vai trò và được ghi lại trong nhật ký kiểm tra nội bộ. Lưu giữ: nếu bạn hủy và không quay lại, dữ liệu của bạn sẽ được tự động và vĩnh viễn xóa sau 30 ngày; bạn cũng có thể xóa tài khoản và tất cả dữ liệu liên quan bất kỳ lúc nào từ trong ứng dụng."
       },
       "s4": {
         "title": "4. Các Dịch vụ của Bên Thứ Ba",

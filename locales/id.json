@@ -425,7 +425,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Kebijakan Privasi",
-      "subtitle": "Terakhir Diperbarui: 15 Mei 2026 · Berlaku: 19 April 2026"
+      "subtitle": "Terakhir Diperbarui: 30 Mei 2026 · Berlaku: 19 April 2026"
     },
     "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Informasi Akun",
         "accountBody": "CentryAI menggunakan Google Sign-In dan Apple Sign-In secara eksklusif — tidak ada kata sandi yang dikumpulkan atau disimpan. Saat masuk, kami menerima alamat email dan nama tampilan dari penyedia. Nomor telepon atau detail kartu pembayaran tidak dikumpulkan.",
         "usageTitle": "Data Penggunaan",
-        "usageBody": "Kami mengumpulkan data penggunaan yang dianonimkan dan digabungkan untuk meningkatkan aplikasi. Data ini tidak dapat digunakan untuk mengidentifikasi Anda.",
+        "usageBody": "Kami mengumpulkan data penggunaan yang dianonimkan dan digabungkan untuk meningkatkan aplikasi. Data ini tidak dapat digunakan untuk mengidentifikasi Anda. Kami juga menghasilkan statistik agregat, misalnya layanan langganan mana yang paling populer berdasarkan negara dan wilayah, menggunakan pengenal pseudonim satu arah. Data ini tidak dapat digunakan untuk mengidentifikasi Anda dan disimpan terpisah dari profil pribadi Anda.",
         "deviceTitle": "Informasi Perangkat",
-        "deviceBody": "Kami mengumpulkan zona waktu perangkat, lokal, dan versi aplikasi untuk pengingat pembaruan tepat waktu dan kompatibilitas.",
+        "deviceBody": "Kami mengumpulkan zona waktu perangkat, lokal, dan versi aplikasi untuk pengingat pembaruan tepat waktu dan kompatibilitas. Kami juga memperkirakan lokasi perkiraan Anda — hanya negara dan wilayah — dari alamat IP Anda. Pencarian ini dijalankan di dalam backend kami sendiri menggunakan basis data offline, sehingga alamat IP Anda tidak pernah dikirimkan ke penyedia geolokasi pihak ketiga mana pun. Kami tidak mengumpulkan lokasi tepat, kota, kode pos, atau data GPS Anda.",
         "noHumanAccess": "🔒 Tidak ada manusia yang akan membaca data email Anda. Akses ini sangat terprogram dan otomatis hanya untuk tujuan mendeteksi langganan."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Penyimpanan & Keamanan Data",
         "body1": "Data langganan disimpan dengan aman di Firebase Firestore (Google Cloud), dilindungi oleh aturan keamanan per pengguna.",
         "body2": "Konten email yang dikirim selama pemindaian diproses di Cloud Functions dan tidak disimpan setelah selesai. Hanya data yang diekstrak yang disimpan di akun Anda.",
-        "body3": "Infrastruktur kami menggunakan enkripsi TLS saat transit, enkripsi Firebase saat istirahat, dan isolasi data ketat per pengguna."
+        "body3": "Infrastruktur kami menggunakan enkripsi TLS saat transit, enkripsi Firebase saat istirahat, dan isolasi data ketat per pengguna. Akses ke data pribadi Anda oleh tim kami dibatasi hanya untuk personel yang berwenang untuk keperluan dukungan pelanggan dan operasional, dilindungi oleh autentikasi berbasis peran dan dicatat dalam log audit internal. Retensi: jika Anda membatalkan dan tidak kembali, data Anda akan dihapus secara otomatis dan permanen setelah 30 hari; Anda juga dapat menghapus akun dan semua data terkait kapan saja dari dalam aplikasi."
       },
       "s4": {
         "title": "4. Layanan Pihak Ketiga",

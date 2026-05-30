@@ -425,7 +425,7 @@
     "hero": {
       "label": "Legaal",
       "title": "Privacybeleid",
-      "subtitle": "Laatst bijgewerkt: 15 mei 2026 · Van kracht: 19 april 2026"
+      "subtitle": "Laatst bijgewerkt: 30 mei 2026 · Van kracht: 19 april 2026"
     },
     "shortVersion": "CentryAI leest uw e-mails om abonnementsbewijzen te vinden. Inhoud wordt verwerkt in onze beveiligde Cloud Functions — we slaan e-mails nooit op, verkopen geen gegevens en verbinden ons niet met uw bank.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Accountinformatie",
         "accountBody": "CentryAI gebruikt uitsluitend Google- en Apple-aanmelding — geen wachtwoorden worden opgeslagen. Bij aanmelding ontvangen we uw e-mailadres en weergavenaam. Telefoonnummers of betaalkaartgegevens worden niet verzameld.",
         "usageTitle": "Gebruiksgegevens",
-        "usageBody": "We verzamelen geanonimiseerde, geaggregeerde gebruiksgegevens om de app te verbeteren. Deze gegevens kunnen niet worden gebruikt om jou te identificeren.",
+        "usageBody": "We verzamelen geanonimiseerde, geaggregeerde gebruiksgegevens om de app te verbeteren. Deze gegevens kunnen niet worden gebruikt om jou te identificeren. We produceren ook geaggregeerde statistieken, bijvoorbeeld welke abonnementsdiensten het populairst zijn per land en regio, met behulp van een eenrichtings-gepseudonimiseerde identifier. Deze gegevens kunnen niet worden gebruikt om jou te identificeren en worden apart van jouw persoonlijk profiel bewaard.",
         "deviceTitle": "Apparaatinformatie",
-        "deviceBody": "We verzamelen uw tijdzone, landinstellingen en app-versie voor verlengingsherinneringen en compatibiliteit.",
+        "deviceBody": "We verzamelen uw tijdzone, landinstellingen en app-versie voor verlengingsherinneringen en compatibiliteit. We leiden ook uw geschatte locatie — alleen land en regio — af uit uw IP-adres. Deze opzoeking vindt plaats binnen onze eigen backend met een offline database, zodat uw IP-adres nooit naar een externe geolocatieprovider wordt gestuurd. We verzamelen niet uw precieze locatie, stad, postcode of GPS-gegevens.",
         "noHumanAccess": "🔒 Geen enkel mens zal je e-mailgegevens lezen. De toegang is strikt programmatisch en geautomatiseerd, uitsluitend met als doel het detecteren van abonnementen."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Gegevensopslag en Beveiliging",
         "body1": "Uw abonnementsgegevens zijn veilig opgeslagen in Firebase Firestore (Google Cloud), beveiligd door beveiligingsregels per gebruiker.",
         "body2": "E-mailinhoud wordt verwerkt in Cloud Functions en na voltooiing niet bewaard. Alleen geëxtraheerde gegevens worden in uw account opgeslagen.",
-        "body3": "Onze infrastructuur gebruikt TLS-versleuteling, Firebase-versleuteling in rust en strikte gegevensisolatie per gebruiker."
+        "body3": "Onze infrastructuur gebruikt TLS-versleuteling, Firebase-versleuteling in rust en strikte gegevensisolatie per gebruiker. De toegang tot jouw persoonsgegevens door ons team is beperkt tot bevoegd personeel uitsluitend voor klantenservice- en operationele doeleinden, beschermd door op rollen gebaseerde authenticatie en vastgelegd in een intern auditlogboek. Bewaring: als je opzegt en niet terugkeert, worden jouw gegevens na 30 dagen automatisch en permanent verwijderd; je kunt ook op elk gewenst moment jouw account en alle bijbehorende gegevens vanuit de app verwijderen."
       },
       "s4": {
         "title": "4. Diensten van Derden",

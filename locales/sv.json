@@ -425,7 +425,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: 15 maj 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 30 maj 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Kontoinformation",
         "accountBody": "CentryAI använder uteslutande Google Sign-In och Apple Sign-In — inga lösenord samlas in. Vid inloggning tar vi emot din e-postadress och visningsnamn. Telefonnummer eller betalkortsuppgifter samlas inte in.",
         "usageTitle": "Användningsdata",
-        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig.",
+        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig. Vi producerar också aggregerad statistik, till exempel vilka prenumerationstjänster som är mest populära per land och region, med hjälp av en envägs pseudonymiserad identifierare. Denna data kan inte användas för att identifiera dig och hålls separat från din personliga profil.",
         "deviceTitle": "Enhetsinformation",
-        "deviceBody": "Vi samlar in tidzon, språkinställningar och appversion för aktuella förnyelsepåminnelser och kompatibilitet.",
+        "deviceBody": "Vi samlar in tidzon, språkinställningar och appversion för aktuella förnyelsepåminnelser och kompatibilitet. Vi härleder också din ungefärliga plats — endast land och region — från din IP-adress. Denna sökning körs i vårt eget backend med en offlinedatabas, så din IP-adress skickas aldrig till någon tredjepartsleverantör av geolokalisering. Vi samlar inte in din exakta plats, stad, postnummer eller GPS-data.",
         "noHumanAccess": "🔒 Ingen människa kommer att läsa din e-postdata. Åtkomsten är strikt programmatisk och automatiserad enbart för syftet att upptäcka prenumerationer."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Datalagring & Säkerhet",
         "body1": "Dina prenumerationsdata lagras säkert i Firebase Firestore (Google Cloud), skyddade av säkerhetsregler per användare.",
         "body2": "E-postinnehåll bearbetas i Cloud Functions och sparas inte efter bearbetning. Endast extraherade data lagras i ditt konto.",
-        "body3": "Vår infrastruktur använder TLS-kryptering i transit, Firebases kryptering i vila och strikt dataisolering per användare."
+        "body3": "Vår infrastruktur använder TLS-kryptering i transit, Firebases kryptering i vila och strikt dataisolering per användare. Åtkomst till dina personuppgifter av vårt team är begränsad till behörig personal uteslutande för kundsupport och operativa ändamål, skyddad av rollbaserad autentisering och registrerad i en intern revisionslogg. Lagring: om du avregistrerar dig och inte återvänder raderas dina uppgifter automatiskt och permanent efter 30 dagar; du kan också när som helst radera ditt konto och all tillhörande data från appen."
       },
       "s4": {
         "title": "4. Tredjepartstjänster",

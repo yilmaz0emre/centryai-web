@@ -425,7 +425,7 @@
     "hero": {
       "label": "Legal",
       "title": "Política de Privacidade",
-      "subtitle": "Última atualização: 15 de maio de 2026 · Efetivo: 19 de abril de 2026"
+      "subtitle": "Última atualização: 30 de maio de 2026 · Efetivo: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lê seus e-mails para encontrar recibos de assinatura. O conteúdo é processado em nossas Cloud Functions seguras — nunca armazenamos e-mails, nunca vendemos dados e nunca nos conectamos ao seu banco.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Informações da Conta",
         "accountBody": "O CentryAI usa exclusivamente Google Sign-In e Apple Sign-In — não armazenamos senhas. Ao entrar, recebemos seu e-mail e nome de exibição. Não coletamos telefone nem dados do cartão de pagamento.",
         "usageTitle": "Dados de Uso",
-        "usageBody": "Coletamos dados de uso agregados e anonimizados para melhorar o aplicativo. Esses dados não podem ser usados ​​para identificá-lo.",
+        "usageBody": "Coletamos dados de uso agregados e anonimizados para melhorar o aplicativo. Esses dados não podem ser usados ​​para identificá-lo. Também produzimos estatísticas agregadas, por exemplo quais serviços de assinatura são mais populares por país e região, usando um identificador pseudonimizado unidirecional. Esses dados não podem ser utilizados para identificá-lo e são mantidos separados do seu perfil pessoal.",
         "deviceTitle": "Informações do Dispositivo",
-        "deviceBody": "Coletamos fuso horário, localidade e versão do aplicativo para lembretes de renovação e compatibilidade.",
+        "deviceBody": "Coletamos fuso horário, localidade e versão do aplicativo para lembretes de renovação e compatibilidade. Também derivamos sua localização aproximada — apenas país e região — a partir do seu endereço IP. Essa consulta é executada dentro do nosso próprio backend usando um banco de dados offline, portanto seu endereço IP nunca é enviado a nenhum provedor de geolocalização de terceiros. Não coletamos sua localização precisa, cidade, código postal ou dados de GPS.",
         "noHumanAccess": "🔒 Nenhum humano lerá seus dados de e-mail. O acesso é estritamente programático e automatizado exclusivamente com a finalidade de detectar assinaturas."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Armazenamento de Dados e Segurança",
         "body1": "Seus dados de assinatura são armazenados no Firebase Firestore (Google Cloud), protegidos por regras de segurança por usuário.",
         "body2": "O conteúdo de e-mail é processado em Cloud Functions e não retido após a conclusão. Apenas os dados extraídos são armazenados na sua conta.",
-        "body3": "Nossa infraestrutura usa TLS em trânsito, criptografia Firebase em repouso e isolamento de dados por usuário."
+        "body3": "Nossa infraestrutura usa TLS em trânsito, criptografia Firebase em repouso e isolamento de dados por usuário. O acesso aos seus dados pessoais pela nossa equipe é limitado a pessoal autorizado apenas para fins de suporte ao cliente e operacionais, protegido por autenticação baseada em funções e registrado em um log de auditoria interno. Retenção: se você cancelar e não retornar, seus dados serão excluídos automática e permanentemente após 30 dias; você também pode excluir sua conta e todos os dados associados a qualquer momento dentro do aplicativo."
       },
       "s4": {
         "title": "4. Serviços de Terceiros",

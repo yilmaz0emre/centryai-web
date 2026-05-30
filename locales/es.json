@@ -425,7 +425,7 @@
     "hero": {
       "label": "Legal",
       "title": "política de privacidad",
-      "subtitle": "Última actualización: 15 de mayo de 2026 · En vigor: 19 de abril de 2026"
+      "subtitle": "Última actualización: 30 de mayo de 2026 · En vigor: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lee tus correos para encontrar recibos de suscripción. El contenido se procesa en nuestras Cloud Functions seguras — nunca almacenamos correos, nunca vendemos datos y nunca nos conectamos a tu banco.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Información de la cuenta",
         "accountBody": "CentryAI usa exclusivamente Google Sign-In y Apple Sign-In — no almacenamos contraseñas. Al iniciar sesión recibimos tu correo y nombre de tu proveedor. No recopilamos teléfono ni datos de tarjeta de pago.",
         "usageTitle": "Datos de uso",
-        "usageBody": "Recopilamos datos de uso agregados y anónimos para mejorar la aplicación, como qué funciones se utilizan con más frecuencia y métricas generales de rendimiento. Estos datos no pueden utilizarse para identificarle.",
+        "usageBody": "Recopilamos datos de uso agregados y anónimos para mejorar la aplicación, como qué funciones se utilizan con más frecuencia y métricas generales de rendimiento. Estos datos no pueden utilizarse para identificarle. También producimos estadísticas agregadas, por ejemplo qué servicios de suscripción son más populares por país y región, utilizando un identificador pseudonimizado unidireccional. Estos datos no pueden utilizarse para identificarle y se mantienen separados de su perfil personal.",
         "deviceTitle": "Información del dispositivo",
-        "deviceBody": "Recopilamos la zona horaria, el idioma del dispositivo y la versión de la app para recordatorios de renovación y compatibilidad.",
+        "deviceBody": "Recopilamos la zona horaria, el idioma del dispositivo y la versión de la app para recordatorios de renovación y compatibilidad. También derivamos su ubicación aproximada — solo país y región — a partir de su dirección IP. Esta consulta se realiza dentro de nuestro propio backend mediante una base de datos sin conexión, por lo que su dirección IP nunca se envía a ningún proveedor externo de geolocalización. No recopilamos su ubicación precisa, ciudad, código postal ni datos de GPS.",
         "noHumanAccess": "🔒 Ningún humano leerá los datos de tu correo electrónico. El acceso es estrictamente programático y automatizado con el único fin de detectar suscripciones."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Almacenamiento y seguridad de datos",
         "body1": "Tus datos de suscripción se almacenan en Firebase Firestore (Google Cloud), protegidos por reglas de seguridad por usuario.",
         "body2": "El contenido del correo se procesa en Cloud Functions y no se retiene tras completarse. Solo los datos extraídos se almacenan en tu cuenta.",
-        "body3": "Nuestra infraestructura usa cifrado TLS en tránsito, cifrado en reposo de Firebase y aislamiento estricto de datos por usuario."
+        "body3": "Nuestra infraestructura usa cifrado TLS en tránsito, cifrado en reposo de Firebase y aislamiento estricto de datos por usuario. El acceso a sus datos personales por parte de nuestro equipo está limitado al personal autorizado únicamente para fines de soporte al cliente y operativos, protegido mediante autenticación basada en roles y registrado en un registro de auditoría interno. Retención: si cancela y no regresa, sus datos se eliminan automática y permanentemente transcurridos 30 días; también puede eliminar su cuenta y todos los datos asociados en cualquier momento desde la aplicación."
       },
       "s4": {
         "title": "4. Servicios de terceros",

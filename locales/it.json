@@ -425,7 +425,7 @@
     "hero": {
       "label": "Legale",
       "title": "Informativa sulla Privacy",
-      "subtitle": "Ultimo aggiornamento: 15 maggio 2026 · In vigore: 19 aprile 2026"
+      "subtitle": "Ultimo aggiornamento: 30 maggio 2026 · In vigore: 19 aprile 2026"
     },
     "shortVersion": "CentryAI legge le tue email per trovare le ricevute degli abbonamenti. Il contenuto viene elaborato nei nostri Cloud Functions sicuri — non archiviamo mai le email, non vendiamo dati e non ci connettiamo alla tua banca.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Informazioni sull'Account",
         "accountBody": "CentryAI utilizza esclusivamente Google Sign-In e Apple Sign-In — non raccogliamo password. All'accesso riceviamo la tua email e nome visualizzato. Non raccogliamo numero di telefono né dati della carta di pagamento.",
         "usageTitle": "Dati di Utilizzo",
-        "usageBody": "Raccogliamo dati di utilizzo aggregati e anonimizzati per migliorare l'app. Questi dati non possono essere utilizzati per identificarti.",
+        "usageBody": "Raccogliamo dati di utilizzo aggregati e anonimizzati per migliorare l'app. Questi dati non possono essere utilizzati per identificarti. Produciamo inoltre statistiche aggregate, ad esempio quali servizi in abbonamento sono più popolari per paese e regione, utilizzando un identificatore pseudonimizzato unidirezionale. Questi dati non possono essere utilizzati per identificarti e sono conservati separatamente dal tuo profilo personale.",
         "deviceTitle": "Informazioni sul Dispositivo",
-        "deviceBody": "Raccogliamo fuso orario, impostazioni locali e versione dell'app per promemoria di rinnovo tempestivi e compatibilità.",
+        "deviceBody": "Raccogliamo fuso orario, impostazioni locali e versione dell'app per promemoria di rinnovo tempestivi e compatibilità. Ricaviamo inoltre la tua posizione approssimativa — solo paese e regione — dal tuo indirizzo IP. Questa ricerca avviene all'interno del nostro backend tramite un database offline, quindi il tuo indirizzo IP non viene mai inviato ad alcun provider di geolocalizzazione terzo. Non raccogliamo la tua posizione precisa, città, codice postale o dati GPS.",
         "noHumanAccess": "🔒 Nessun essere umano leggerà i tuoi dati email. L'accesso è strettamente programmatico e automatizzato con il solo scopo di rilevare gli abbonamenti."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Archiviazione dei Dati e Sicurezza",
         "body1": "I tuoi dati di abbonamento sono archiviati in Firebase Firestore (Google Cloud), protetti da regole di sicurezza per utente.",
         "body2": "Il contenuto delle email viene elaborato in Cloud Functions e non conservato dopo il completamento. Solo i dati estratti vengono archiviati nel tuo account.",
-        "body3": "La nostra infrastruttura utilizza TLS in transito, crittografia Firebase a riposo e isolamento rigoroso dei dati per utente."
+        "body3": "La nostra infrastruttura utilizza TLS in transito, crittografia Firebase a riposo e isolamento rigoroso dei dati per utente. L'accesso ai tuoi dati personali da parte del nostro team è limitato al personale autorizzato esclusivamente per scopi di assistenza clienti e operativi, protetto da autenticazione basata sui ruoli e registrato in un registro di audit interno. Conservazione: se annulli e non ritorni, i tuoi dati vengono eliminati automaticamente e definitivamente dopo 30 giorni; puoi inoltre eliminare il tuo account e tutti i dati associati in qualsiasi momento dall'app."
       },
       "s4": {
         "title": "4. Servizi di Terze Parti",

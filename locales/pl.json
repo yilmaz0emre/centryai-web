@@ -425,7 +425,7 @@
     "hero": {
       "label": "Kwestie prawne",
       "title": "Polityka Prywatności",
-      "subtitle": "Ostatnia aktualizacja: 15 maja 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
+      "subtitle": "Ostatnia aktualizacja: 30 maja 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
     },
     "shortVersion": "CentryAI odczytuje e-maile w celu znalezienia potwierdzeń subskrypcji. Treść jest przetwarzana w naszych bezpiecznych Cloud Functions — nigdy nie przechowujemy e-maili, nie sprzedajemy danych i nie łączymy się z Twoim bankiem.",
     "toc": {
@@ -449,9 +449,9 @@
         "accountTitle": "Informacje o Koncie",
         "accountBody": "CentryAI używa wyłącznie logowania Google i Apple — hasła nie są zbierane ani przechowywane. Po zalogowaniu otrzymujemy adres e-mail i nazwę wyświetlaną. Nie zbieramy numerów telefonów ani danych kart płatniczych.",
         "usageTitle": "Dane o Użyciu",
-        "usageBody": "Zbieramy zanonimizowane, zagregowane dane o użytkowaniu w celu ulepszania aplikacji. Te dane nie mogą być użyte do identyfikacji użytkownika.",
+        "usageBody": "Zbieramy zanonimizowane, zagregowane dane o użytkowaniu w celu ulepszania aplikacji. Te dane nie mogą być użyte do identyfikacji użytkownika. Tworzymy również zagregowane statystyki, na przykład które usługi subskrypcyjne są najpopularniejsze według kraju i regionu, z wykorzystaniem jednokierunkowego pseudonimizowanego identyfikatora. Danych tych nie można używać do identyfikacji użytkownika i są one przechowywane oddzielnie od jego profilu osobistego.",
         "deviceTitle": "Informacje o Urządzeniu",
-        "deviceBody": "Zbieramy strefę czasową, ustawienia regionalne i wersję aplikacji dla przypomnień o odnowieniu i kompatybilności.",
+        "deviceBody": "Zbieramy strefę czasową, ustawienia regionalne i wersję aplikacji dla przypomnień o odnowieniu i kompatybilności. Ustalamy również przybliżoną lokalizację użytkownika — wyłącznie kraj i region — na podstawie adresu IP. Wyszukiwanie odbywa się w naszym własnym backendzie przy użyciu bazy danych offline, dzięki czemu adres IP nie jest nigdy przesyłany do żadnego zewnętrznego dostawcy geolokalizacji. Nie zbieramy dokładnej lokalizacji, miasta, kodu pocztowego ani danych GPS.",
         "noHumanAccess": "🔒 Żaden człowiek nie odczyta Twoich danych z e-maili. Dostęp jest rygorystycznie automatyczny wyłącznie w celu wykrywania subskrypcji."
       },
       "s2": {
@@ -474,7 +474,7 @@
         "title": "3. Przechowywanie Danych i Bezpieczeństwo",
         "body1": "Dane subskrypcji są bezpiecznie przechowywane w Firebase Firestore (Google Cloud), chronionym regułami bezpieczeństwa per użytkownik.",
         "body2": "Treść e-maili jest przetwarzana w Cloud Functions i nie jest przechowywana po zakończeniu. Tylko wyodrębnione dane są zapisywane na koncie.",
-        "body3": "Infrastruktura używa szyfrowania TLS, szyfrowania Firebase w spoczynku i ścisłej izolacji danych per użytkownik."
+        "body3": "Infrastruktura używa szyfrowania TLS, szyfrowania Firebase w spoczynku i ścisłej izolacji danych per użytkownik. Dostęp do danych osobowych użytkownika przez nasz zespół jest ograniczony do upoważnionego personelu wyłącznie w celach obsługi klienta i operacyjnych, chroniony uwierzytelnianiem opartym na rolach i rejestrowany w wewnętrznym dzienniku audytu. Okres przechowywania: jeśli użytkownik anuluje subskrypcję i nie powróci, jego dane zostaną automatycznie i trwale usunięte po 30 dniach; można również w dowolnym momencie usunąć konto i wszystkie powiązane dane bezpośrednio z aplikacji."
       },
       "s4": {
         "title": "4. Usługi Osób Trzecich",
