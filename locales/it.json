@@ -216,6 +216,17 @@
     },
     "regionNote": "*I prezzi possono variare in base alla regione."
   },
+  "waitlist": {
+    "badge": "Prossimamente",
+    "title": "Sii il primo a sapere quando lanciamo",
+    "desc": "Ricevi una notifica nel momento in cui CentryAI arriva sull'App Store e su Google Play. Niente spam — solo una email.",
+    "placeholder": "you@example.com",
+    "cta": "Avvisami",
+    "joining": "Registrazione…",
+    "success": "✓ Sei nella lista! Ti scriveremo al momento del lancio.",
+    "error": "Qualcosa è andato storto. Riprova.",
+    "note": "Niente spam. Disdici in qualsiasi momento."
+  },
   "cta": {
     "title": "Scopri per cosa stai davvero pagando.",
     "desc": "Configurazione in 3 minuti. Disdici tutto quello che trovi in 30 secondi."

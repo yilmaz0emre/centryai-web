@@ -1567,13 +1567,13 @@ function WaitlistSection() {
       <div className="waitlist-inner">
         <div className="waitlist-badge">
           <span className="hero-badge-dot" />
-          Coming Soon
+          {t('waitlist.badge')}
         </div>
-        <h2>Be the first to know when we launch</h2>
-        <p>Get notified the moment CentryAI hits the App Store and Google Play.<br/>No spam — just one email.</p>
+        <h2>{t('waitlist.title')}</h2>
+        <p>{t('waitlist.desc')}</p>
         {status === 'success' ? (
           <div className="waitlist-success">
-            ✓ You're on the list! We'll email you when we launch.
+            {t('waitlist.success')}
           </div>
         ) : (
           <form className="waitlist-form" onSubmit={handleSubmit} data-netlify="true" name="waitlist">
@@ -1581,19 +1581,19 @@ function WaitlistSection() {
             <input
               type="email"
               name="email"
-              placeholder="you@example.com"
+              placeholder={t('waitlist.placeholder')}
               value={email}
               onChange={e => setEmail(e.target.value)}
               required
               className="waitlist-input"
             />
             <button type="submit" className="waitlist-btn" disabled={status === 'loading'}>
-              {status === 'loading' ? 'Joining…' : 'Notify me'}
+              {status === 'loading' ? t('waitlist.joining') : t('waitlist.cta')}
             </button>
           </form>
         )}
-        {status === 'error' && <p className="waitlist-error">Something went wrong. Please try again.</p>}
-        <p className="waitlist-note">No spam. Unsubscribe anytime.</p>
+        {status === 'error' && <p className="waitlist-error">{t('waitlist.error')}</p>}
+        <p className="waitlist-note">{t('waitlist.note')}</p>
       </div>
     </section>
   );

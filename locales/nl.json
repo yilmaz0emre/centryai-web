@@ -216,6 +216,17 @@
     },
     "regionNote": "*Prijzen kunnen per regio variëren."
   },
+  "waitlist": {
+    "badge": "Binnenkort beschikbaar",
+    "title": "Wees de eerste die het weet als we lanceren",
+    "desc": "Ontvang een melding zodra CentryAI beschikbaar is in de App Store en Google Play. Geen spam — slechts één e-mail.",
+    "placeholder": "you@example.com",
+    "cta": "Meld me aan",
+    "joining": "Aanmelden…",
+    "success": "✓ Je staat op de lijst! We sturen je een e-mail bij de lancering.",
+    "error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "note": "Geen spam. Altijd uitschrijven mogelijk."
+  },
   "cta": {
     "title": "Ontdek waarvoor je werkelijk betaalt.",
     "desc": "Instellen in 3 minuten. Alles wat je vindt opzeggen in 30 seconden."

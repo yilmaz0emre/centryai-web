@@ -216,6 +216,17 @@
     },
     "regionNote": "*Harga dapat bervariasi berdasarkan wilayah."
   },
+  "waitlist": {
+    "badge": "Segera Hadir",
+    "title": "Jadilah yang pertama tahu saat kami meluncur",
+    "desc": "Dapatkan notifikasi begitu CentryAI tersedia di App Store dan Google Play. Tanpa spam — hanya satu email.",
+    "placeholder": "you@example.com",
+    "cta": "Beritahu saya",
+    "joining": "Mendaftar…",
+    "success": "✓ Kamu sudah terdaftar! Kami akan mengirim email saat peluncuran.",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "note": "Tanpa spam. Berhenti berlangganan kapan saja."
+  },
   "cta": {
     "title": "Temukan apa yang sebenarnya Anda bayar.",
     "desc": "Pengaturan dalam 3 menit. Batalkan apa pun yang Anda temukan dalam 30 detik."

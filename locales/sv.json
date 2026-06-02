@@ -216,6 +216,17 @@
     },
     "regionNote": "*Priserna kan variera beroende på region."
   },
+  "waitlist": {
+    "badge": "Kommer snart",
+    "title": "Bli först att veta när vi lanserar",
+    "desc": "Få ett meddelande i samma sekund som CentryAI finns på App Store och Google Play. Ingen skräppost — bara ett mejl.",
+    "placeholder": "you@example.com",
+    "cta": "Meddela mig",
+    "joining": "Registrerar…",
+    "success": "✓ Du är med på listan! Vi mejlar dig när vi lanserar.",
+    "error": "Något gick fel. Försök igen.",
+    "note": "Ingen skräppost. Avregistrera när som helst."
+  },
   "cta": {
     "title": "Ta reda på vad du faktiskt betalar för.",
     "desc": "Konfiguration på 3 minuter. Avsluta allt du hittar på 30 sekunder."

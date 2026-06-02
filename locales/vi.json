@@ -216,6 +216,17 @@
     },
     "regionNote": "*Giá có thể thay đổi tùy theo khu vực."
   },
+  "waitlist": {
+    "badge": "Sắp ra mắt",
+    "title": "Hãy là người đầu tiên biết khi chúng tôi ra mắt",
+    "desc": "Nhận thông báo ngay khi CentryAI có mặt trên App Store và Google Play. Không spam — chỉ một email duy nhất.",
+    "placeholder": "you@example.com",
+    "cta": "Thông báo cho tôi",
+    "joining": "Đang đăng ký…",
+    "success": "✓ Bạn đã có trong danh sách! Chúng tôi sẽ gửi email khi ra mắt.",
+    "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "note": "Không spam. Hủy đăng ký bất cứ lúc nào."
+  },
   "cta": {
     "title": "Khám phá bạn đang thực sự trả tiền cho gì.",
     "desc": "Thiết lập trong 3 phút. Hủy bất cứ thứ gì bạn tìm thấy trong 30 giây."

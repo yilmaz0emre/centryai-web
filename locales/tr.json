@@ -216,6 +216,17 @@
     },
     "regionNote": "*Bulunduğunuz bölgeye göre değişiklik gösterebilir."
   },
+  "waitlist": {
+    "badge": "Çok Yakında",
+    "title": "Lansmanımızdan ilk siz haberdar olun",
+    "desc": "CentryAI App Store ve Google Play'de yayınlandığı anda bildirim alın. Spam yok — sadece tek bir e-posta.",
+    "placeholder": "siz@ornek.com",
+    "cta": "Beni bilgilendir",
+    "joining": "Kaydediliyor…",
+    "success": "✓ Listedesiniz! Lansmanda size e-posta göndereceğiz.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "note": "Spam yok. İstediğiniz zaman abonelikten çıkabilirsiniz."
+  },
   "cta": {
     "title": "Gerçekte ne için ödeme yaptığınızı öğrenin.",
     "desc": "3 dakikada kurulum. Bulduklarınızı 30 saniyede iptal edin."

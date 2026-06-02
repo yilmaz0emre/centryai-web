@@ -216,6 +216,17 @@
     },
     "regionNote": "*Prices may vary by region."
   },
+  "waitlist": {
+    "badge": "Coming Soon",
+    "title": "Be the first to know when we launch",
+    "desc": "Get notified the moment CentryAI hits the App Store and Google Play. No spam — just one email.",
+    "placeholder": "you@example.com",
+    "cta": "Notify me",
+    "joining": "Joining…",
+    "success": "✓ You're on the list! We'll email you when we launch.",
+    "error": "Something went wrong. Please try again.",
+    "note": "No spam. Unsubscribe anytime."
+  },
   "cta": {
     "title": "Find out what you're actually paying for.",
     "desc": "Set up in 3 minutes. Cancel anything you find in 30 seconds."

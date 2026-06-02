@@ -216,6 +216,17 @@
     },
     "regionNote": "*价格可能因地区而异。"
   },
+  "waitlist": {
+    "badge": "即将推出",
+    "title": "第一时间了解我们的上线动态",
+    "desc": "CentryAI 一登陆 App Store 和 Google Play，立即通知您。无垃圾邮件 — 仅一封邮件。",
+    "placeholder": "you@example.com",
+    "cta": "提醒我",
+    "joining": "提交中…",
+    "success": "✓ 您已加入等待名单！上线时我们会发送邮件通知您。",
+    "error": "出了点问题，请重试。",
+    "note": "无垃圾邮件。随时可取消订阅。"
+  },
   "cta": {
     "title": "了解您实际在为什么付费。",
     "desc": "3 分钟完成设置。在 30 秒内取消找到的任何订阅。"
