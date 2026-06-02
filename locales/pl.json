@@ -64,13 +64,14 @@
     "eyebrow": "Co robi CentryAI",
     "title": "Znajdź. Oceń. Zrezygnuj.",
     "sub": "Cztery narzędzia współpracujące ze sobą, aby odkryć ukryte koszty i sprawić, że rezygnacja staje się prosta.",
+    "signatureBadge": "✦ Główna funkcja",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Skaner skrzynki",
         "desc": "Łączy się z Gmail lub iCloud i automatycznie odnajduje każde potwierdzenie subskrypcji — streaming, SaaS, fitness, wiadomości, przechowywanie w chmurze i ponad 90 innych usług."
       },
       {
-        "title": "Zombie detector",
+        "title": "Detektor zombie",
         "desc": "Ocenia każdą subskrypcję według tego, jak dawno z niej korzystałeś. Im wyższy wynik zombie, tym więcej pieniędzy tracisz na coś, o czym zapomniałeś."
       },
       {

@@ -64,13 +64,14 @@
     "eyebrow": "Vad CentryAI gör",
     "title": "Hitta det. Bedöm det. Klipp det.",
     "sub": "Fyra verktyg som arbetar tillsammans för att avslöja dolda kostnader och göra avslutningen enkel.",
+    "signatureBadge": "✦ Kärnfunktion",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Inkorgsscanner",
         "desc": "Ansluter till Gmail eller iCloud och hittar automatiskt varje prenumerationskvitto — streaming, SaaS, fitness, nyheter, molnlagring och 90+ andra tjänster."
       },
       {
-        "title": "Zombie detector",
+        "title": "Zombiedetektor",
         "desc": "Betygsätter varje prenumeration efter hur länge sedan du använde den. Ju högre zombiepoäng, desto mer pengar bränner du på något du glömt bort."
       },
       {

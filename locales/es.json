@@ -64,13 +64,14 @@
     "eyebrow": "Qué hace CentryAI",
     "title": "Encuéntralo. Puntúalo. Cancélalo.",
     "sub": "Cuatro herramientas que trabajan juntas para descubrir costos ocultos y hacer la cancelación sin esfuerzo.",
+    "signatureBadge": "✦ Función destacada",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Escáner de bandeja",
         "desc": "Se conecta a Gmail o iCloud y encuentra automáticamente cada recibo de suscripción — streaming, SaaS, fitness, noticias, almacenamiento en la nube y más de 90 servicios."
       },
       {
-        "title": "Zombie detector",
+        "title": "Detector de zombis",
         "desc": "Puntúa cada suscripción según cuánto tiempo llevas sin usarla. Cuanto mayor sea la puntuación zombie, más dinero estás quemando en algo que olvidaste."
       },
       {

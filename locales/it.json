@@ -64,13 +64,14 @@
     "eyebrow": "Cosa fa CentryAI",
     "title": "Trovalo. Valutalo. Eliminalo.",
     "sub": "Quattro strumenti che lavorano insieme per scoprire costi nascosti e rendere la disdetta senza sforzo.",
+    "signatureBadge": "✦ Funzionalità principale",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Scanner casella di posta",
         "desc": "Si collega a Gmail o iCloud e trova automaticamente ogni ricevuta di abbonamento — streaming, SaaS, fitness, news, archiviazione cloud e oltre 90 altri servizi."
       },
       {
-        "title": "Zombie detector",
+        "title": "Rilevatore di zombie",
         "desc": "Assegna a ogni abbonamento un punteggio in base a quanto tempo fa l'hai usato per l'ultima volta. Più alto il punteggio zombie, più soldi stai bruciando per qualcosa che hai dimenticato."
       },
       {

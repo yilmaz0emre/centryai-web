@@ -64,13 +64,14 @@
     "eyebrow": "CentryAI làm gì",
     "title": "Tìm. Đánh giá. Cắt bỏ.",
     "sub": "Bốn công cụ phối hợp cùng nhau để khám phá chi phí ẩn và giúp việc hủy đăng ký trở nên dễ dàng.",
+    "signatureBadge": "✦ Tính năng nổi bật",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Máy quét hộp thư đến",
         "desc": "Kết nối với Gmail hoặc iCloud và tự động tìm mọi hóa đơn đăng ký — phát trực tuyến, SaaS, thể dục, tin tức, lưu trữ đám mây và hơn 90 dịch vụ khác."
       },
       {
-        "title": "Zombie detector",
+        "title": "Bộ phát hiện zombie",
         "desc": "Chấm điểm mỗi đăng ký dựa trên thời gian bạn chưa sử dụng nó. Điểm zombie càng cao, bạn càng đang đốt tiền cho thứ bạn đã quên."
       },
       {

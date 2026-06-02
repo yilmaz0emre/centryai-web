@@ -64,13 +64,14 @@
     "eyebrow": "CentryAI 的功能",
     "title": "发现它。评估它。砍掉它。",
     "sub": "四个工具协同运作，揭示隐藏成本，让取消订阅变得毫不费力。",
+    "signatureBadge": "✦ 核心功能",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "收件箱扫描器",
         "desc": "连接 Gmail 或 iCloud，自动找出每一张订阅收据——流媒体、SaaS、健身、新闻、云存储及 90 余项其他服务。"
       },
       {
-        "title": "Zombie detector",
+        "title": "僵尸检测器",
         "desc": "根据您上次使用的时间对每个订阅进行评分。僵尸评分越高，您为已遗忘的服务白白烧掉的钱就越多。"
       },
       {

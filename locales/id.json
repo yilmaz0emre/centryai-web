@@ -64,13 +64,14 @@
     "eyebrow": "Apa yang CentryAI lakukan",
     "title": "Temukan. Nilai. Pangkas.",
     "sub": "Empat alat yang bekerja sama untuk mengungkap biaya tersembunyi dan membuat pembatalan menjadi mudah.",
+    "signatureBadge": "✦ Fitur unggulan",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Pemindai Kotak Masuk",
         "desc": "Terhubung ke Gmail atau iCloud dan secara otomatis menemukan setiap kwitansi langganan — streaming, SaaS, kebugaran, berita, penyimpanan cloud, dan 90+ layanan lainnya."
       },
       {
-        "title": "Zombie detector",
+        "title": "Detektor Zombi",
         "desc": "Memberi skor setiap langganan berdasarkan berapa lama sejak terakhir Anda menggunakannya. Semakin tinggi skor zombie, semakin banyak uang yang Anda buang untuk sesuatu yang telah Anda lupakan."
       },
       {

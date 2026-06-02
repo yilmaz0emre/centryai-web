@@ -64,13 +64,14 @@
     "eyebrow": "CentryAI ne yapar",
     "title": "Bul. Puanla. Kes.",
     "sub": "Gizli maliyetleri gün yüzüne çıkaran ve iptali zahmetsiz kılan dört araç.",
+    "signatureBadge": "✦ Öne çıkan özellik",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Gelen kutusu tarayıcısı",
         "desc": "Gmail veya iCloud'a bağlanır ve her abonelik makbuzunu otomatik olarak bulur — yayın, SaaS, fitness, haber, bulut depolama ve 90'dan fazla hizmet."
       },
       {
-        "title": "Zombie detector",
+        "title": "Zombi dedektörü",
         "desc": "Her aboneliği en son ne zaman kullandığınıza göre puanlar. Zombi puanı ne kadar yüksekse, varlığını unuttuğunuz bir şeye o kadar çok para yakıyorsunuz demektir."
       },
       {

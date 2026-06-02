@@ -64,13 +64,14 @@
     "eyebrow": "Was CentryAI tut",
     "title": "Finden. Bewerten. Kündigen.",
     "sub": "Vier Werkzeuge, die zusammenarbeiten, um versteckte Kosten aufzudecken und das Kündigen mühelos zu machen.",
+    "signatureBadge": "✦ Kernfunktion",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Posteingangs-Scanner",
         "desc": "Verbindet sich mit Gmail oder iCloud und findet automatisch jede Abo-Quittung — Streaming, SaaS, Fitness, News, Cloud-Speicher und über 90 weitere Dienste."
       },
       {
-        "title": "Zombie detector",
+        "title": "Zombie-Detektor",
         "desc": "Bewertet jedes Abonnement danach, wie lange Sie es nicht mehr genutzt haben. Je höher der Zombie-Score, desto mehr Geld verbrennen Sie für etwas, das Sie vergessen haben."
       },
       {

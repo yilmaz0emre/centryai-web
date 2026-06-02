@@ -64,13 +64,14 @@
     "eyebrow": "Wat CentryAI doet",
     "title": "Vind het. Beoordeel het. Snij het.",
     "sub": "Vier tools die samenwerken om verborgen kosten bloot te leggen en opzeggen moeiteloos te maken.",
+    "signatureBadge": "✦ Kernfunctie",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Inboxscanner",
         "desc": "Verbindt met Gmail of iCloud en vindt automatisch elke abonnementbon — streaming, SaaS, fitness, nieuws, cloudopslag en 90+ andere diensten."
       },
       {
-        "title": "Zombie detector",
+        "title": "Zombiedetector",
         "desc": "Geeft elk abonnement een score op basis van hoe lang het geleden is dat je het hebt gebruikt. Hoe hoger de zombie-score, hoe meer geld je verbrandt aan iets dat je bent vergeten."
       },
       {

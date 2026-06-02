@@ -64,13 +64,14 @@
     "eyebrow": "O que o CentryAI faz",
     "title": "Encontre. Avalie. Corte.",
     "sub": "Quatro ferramentas que trabalham juntas para descobrir custos ocultos e tornar o cancelamento simples.",
+    "signatureBadge": "✦ Funcionalidade principal",
     "cards": [
       {
-        "title": "Inbox scanner",
+        "title": "Scanner de caixa de entrada",
         "desc": "Conecta-se ao Gmail ou iCloud e encontra automaticamente cada recibo de assinatura — streaming, SaaS, fitness, notícias, armazenamento em nuvem e mais de 90 outros serviços."
       },
       {
-        "title": "Zombie detector",
+        "title": "Detector de zumbis",
         "desc": "Pontua cada assinatura com base em quanto tempo faz que você a usou. Quanto maior a pontuação zombie, mais dinheiro você está queimando em algo que esqueceu."
       },
       {
