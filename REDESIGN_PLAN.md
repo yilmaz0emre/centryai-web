@@ -286,15 +286,17 @@ document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(e
 
 ## Implementation Order
 
-1. **Colors** — Update CSS variables (30 min, biggest visual impact)
-2. **Icons on feature cards** — Add Lucide SVGs (30 min)
-3. **Buttons** — Gradient primary, ghost secondary (20 min)
-4. **Typography** — Add Inter, update hierarchy (20 min)
-5. **Scroll animations** — IntersectionObserver (30 min)
-6. **Feature card bento layout** — Restructure grid (45 min)
-7. **Pricing section** — New section (1 hr)
-8. **Mobile hamburger menu** — Drawer nav (30 min)
-9. **Testimonials upgrade** — Card redesign (30 min)
-10. **Polish** — Micro-interactions, loading, back-to-top (30 min)
-
-Total estimated: ~5 hours
+1. ✅ **Colors** — Indigo system aligned with app brand
+2. ✅ **Icons on feature cards** — Inline SVG (SparklesIcon, GhostIcon, ChartIcon, LinkIcon)
+3. ✅ **Buttons** — Gradient primary, ghost secondary
+4. ✅ **Typography** — Inter + Manrope dual system
+5. ✅ **Scroll animations** — IntersectionObserver reveal + stagger
+6. ✅ **Pricing section** — Free + Pro, Monthly/Annual toggle, Save 37% badge, region note
+7. ✅ **Mobile hamburger menu** — Slide-in drawer nav
+8. ✅ **Testimonials** — 3-col grid with stars
+9. ✅ **Email Scanner Spotlight** — Animated inbox scan UI (viewport-triggered)
+10. ✅ **Zombie score bars** — Color-coded 0–100 score meter per subscription
+11. ✅ **Feature card signature badges** — Inbox Scanner + Zombie Detector highlighted
+12. ✅ **Waitlist / email capture** — Netlify Forms, success/error states, mobile responsive
+13. ✅ **App Preview section height** — padding-top 72px, hover clipping fixed
+14. ✅ **18-language i18n** — All new sections fully localized (emailScanner, zombie.subLabels, pricing.billing, regionNote)

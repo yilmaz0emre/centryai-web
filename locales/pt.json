@@ -87,7 +87,39 @@
     "label": "⚠ Alerta de Zumbi",
     "title": "Você está pagando por coisas que esqueceu que existem.",
     "desc": "Uma assinatura zombie é aquela que você não toca há semanas, mas continua pagando todo mês. A maioria das pessoas tem duas ou três. O CentryAI dá a cada assinatura uma pontuação zombie para que você saiba exatamente quais estão sangrando sua conta.",
-    "flagLabel": "Zumbi"
+    "flagLabel": "Zumbi",
+    "subLabels": [
+      "Último uso: há 47 dias",
+      "Último uso: há 62 dias",
+      "Último uso: há 91 dias",
+      "Usado há 3 dias"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Scanner de Caixa de Entrada com IA",
+    "heading1": "Você esqueceu que os tinha.",
+    "heading2": "Sua caixa de entrada não.",
+    "p1": "A maioria dos rastreadores de assinaturas pede que você adicione tudo manualmente. Mas se você já esqueceu que uma assinatura existe — como saberia que precisa adicioná-la?",
+    "p2": "O CentryAI se conecta ao Gmail ou iCloud, analisa seus recibos e detecta automaticamente todas as cobranças recorrentes — incluindo as de 3 anos atrás.",
+    "perks": [
+      "Gmail e iCloud compatíveis",
+      "Acesso somente leitura — e-mails nunca armazenados",
+      "Mais de 90 serviços detectados automaticamente",
+      "Varredura concluída em menos de 60 segundos"
+    ],
+    "windowTitle": "CentryAI · Scanner de Caixa de Entrada",
+    "connecting": "Conectando ao Gmail",
+    "scanning": "Analisando recibos · 847 e-mails",
+    "complete": "✓ Varredura concluída · 11 assinaturas encontradas",
+    "waiting": "Aguardando para varrer…",
+    "subAges": [
+      "há 2 anos",
+      "há 8 meses",
+      "há 3 meses",
+      "há 1 ano",
+      "há 47 dias"
+    ],
+    "moreFound": "+ 6 assinaturas adicionais encontradas"
   },
   "testimonials": {
     "eyebrow": "O que os usuários dizem",
@@ -152,6 +184,12 @@
     "sub": "Comece de graça. Faça o upgrade quando estiver pronto — cancele a qualquer momento.",
     "note": "Todos os planos incluem um teste gratuito de 7 dias. Nenhum cartão de crédito é necessário para iniciar.",
     "mostPopular": "Mais Popular",
+    "billing": {
+      "monthly": "Mensal",
+      "annual": "Anual",
+      "savePill": "Economize 37%",
+      "billedAnnually": "cobrado anualmente"
+    },
     "plans": {
       "free": {
         "name": "Grátis",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Rastreamento ilimitado e ferramentas com IA para reduzir desperdícios rapidamente.",
         "cta": "Obter Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Tudo no Pro, mais alertas em tempo real e suporte prioritário.",
-        "cta": "Obter Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Análises de gastos",
       "aiCancelFinder": "Buscador de cancelamento com IA",
       "emailReminders": "Lembretes por e-mail",
-      "whatsappNotifs": "Notificações do WhatsApp",
       "prioritySupport": "Suporte prioritário"
-    }
+    },
+    "regionNote": "*Os preços podem variar por região."
   },
   "cta": {
     "title": "Descubra pelo que você está realmente pagando.",

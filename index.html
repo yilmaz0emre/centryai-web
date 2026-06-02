@@ -318,8 +318,8 @@
   display: flex; gap: 24px;
   overflow-x: auto; scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch; scrollbar-width: none;
-  padding: 30px max(2rem, calc((100vw - 1100px) / 2)) 2.5rem;
-  min-height: 620px;   /* bölüm yüksekliği */
+  padding: 72px max(2rem, calc((100vw - 1100px) / 2)) 2.5rem;
+  min-height: 680px;
 }
 .screenshots-track::-webkit-scrollbar { display: none; }
 .screenshot-slide { flex: 0 0 auto; scroll-snap-align: center; width: 240px; }
@@ -436,6 +436,122 @@
   color: var(--red); font-size: 0.58rem; font-weight: 800;
   letter-spacing: 0.07em; padding: 3px 7px; border-radius: 5px; text-transform: uppercase;
 }
+.zombie-score-bar-wrap {
+  display: flex; align-items: center; gap: 6px; margin-top: 5px;
+}
+.zombie-score-track {
+  flex: 1; height: 4px; border-radius: 100px;
+  background: var(--border2); overflow: hidden;
+}
+.zombie-score-fill {
+  height: 100%; border-radius: 100px;
+  transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.zombie-score-fill.high  { background: var(--red); }
+.zombie-score-fill.mid   { background: #f59e0b; }
+.zombie-score-fill.low   { background: #22c55e; }
+.zombie-score-num {
+  font-size: 0.65rem; font-weight: 800; font-family: 'Manrope', sans-serif;
+  font-variant-numeric: tabular-nums; color: var(--fg3); min-width: 26px; text-align: right;
+}
+.zombie-score-num.high { color: var(--red); }
+.zombie-score-num.mid  { color: #f59e0b; }
+
+/* ── Feature card signature badge ── */
+.feature-sig-badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: var(--accent-dim); border: 1px solid rgba(101,93,249,0.25);
+  color: var(--accent); font-size: 0.6rem; font-weight: 800;
+  letter-spacing: 0.09em; text-transform: uppercase;
+  padding: 3px 8px; border-radius: 5px; margin-bottom: 1rem;
+}
+
+/* ════════════════════════════════════════
+   EMAIL SCANNER SPOTLIGHT
+════════════════════════════════════════ */
+.email-scanner-section { padding: 5rem 2rem; }
+.email-scanner-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 5rem; align-items: center; max-width: 1100px; margin: 0 auto;
+}
+.email-scanner-copy .section-eyebrow { margin-bottom: 1.25rem; }
+.email-scanner-copy h2 {
+  font-family: 'Manrope', sans-serif; font-weight: 800;
+  font-size: clamp(1.7rem, 2.8vw, 2.4rem); letter-spacing: -0.035em;
+  line-height: 1.15; margin-bottom: 1.25rem; color: var(--fg);
+}
+.email-scanner-copy p { color: var(--fg2); font-size: 0.93rem; line-height: 1.85; margin-bottom: 1rem; font-weight: 450; }
+.email-scanner-perks { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-direction: column; gap: 0.65rem; }
+.email-scanner-perks li {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 0.88rem; color: var(--fg2); font-weight: 500;
+}
+.email-scanner-perks li span {
+  width: 20px; height: 20px; border-radius: 50%; flex-shrink: 0;
+  background: rgba(56,189,248,0.12); border: 1px solid rgba(56,189,248,0.25);
+  color: var(--teal); font-size: 0.7rem; font-weight: 900;
+  display: flex; align-items: center; justify-content: center;
+}
+/* Scanner window */
+.scanner-window {
+  background: var(--surface); border: 1px solid var(--border2);
+  border-radius: 16px; overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.04);
+}
+.scanner-titlebar {
+  display: flex; align-items: center; gap: 7px;
+  padding: 12px 16px; background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+}
+.scanner-dot {
+  width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0;
+}
+.scanner-dot.red    { background: #ff5f57; }
+.scanner-dot.yellow { background: #febc2e; }
+.scanner-dot.green  { background: #28c840; }
+.scanner-title { font-size: 0.72rem; font-weight: 600; color: var(--fg3); margin-left: 4px; }
+.scanner-body { padding: 18px; min-height: 240px; }
+.scanner-status {
+  font-size: 0.82rem; font-weight: 600; padding: 8px 0 14px;
+  display: flex; align-items: center; gap: 8px;
+}
+.scanner-status.connecting { color: var(--fg3); }
+.scanner-status.scanning   { color: var(--teal); }
+.scanner-status.done       { color: #22c55e; }
+.scanner-dots::after {
+  content: ''; animation: scanDots 1.2s steps(4, end) infinite;
+}
+@keyframes scanDots {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
+.scanner-spinner {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid rgba(56,189,248,0.25);
+  border-top-color: var(--teal);
+  animation: spin 0.7s linear infinite; flex-shrink: 0;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.scanner-results { display: flex; flex-direction: column; gap: 6px; }
+.scanner-result-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 10px; border-radius: 8px;
+  background: var(--bg2); border: 1px solid var(--border);
+  animation: fadeUp 0.3s ease forwards;
+  font-size: 0.8rem;
+}
+.scanner-check { color: #22c55e; font-weight: 900; flex-shrink: 0; font-size: 0.75rem; }
+.scanner-sub-name { font-weight: 700; color: var(--fg); flex: 1; }
+.scanner-sub-age  { font-size: 0.7rem; color: var(--fg3); white-space: nowrap; }
+.scanner-sub-price { font-family: 'Manrope', sans-serif; font-weight: 700; color: var(--accent); font-size: 0.75rem; white-space: nowrap; }
+.scanner-more { background: var(--accent-dim); border-color: rgba(101,93,249,0.2); }
+.scanner-more-text { color: var(--accent); font-weight: 700; font-size: 0.8rem; }
+@media (max-width: 960px) {
+  .email-scanner-grid { grid-template-columns: 1fr; gap: 3rem; }
+}
 
 /* ════════════════════════════════════════
    TESTIMONIALS
@@ -535,7 +651,44 @@
 .pricing-section { padding: 7rem 2rem; }
 .pricing-grid {
   display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem; margin-top: 4rem; align-items: stretch;
+  gap: 1.5rem; margin-top: 2rem; align-items: stretch;
+}
+.pricing-2col {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 720px; margin-left: auto; margin-right: auto;
+}
+/* Billing toggle */
+.billing-toggle {
+  display: flex; align-items: center; justify-content: center; gap: 14px;
+  margin: 2.5rem 0 0;
+}
+.billing-label {
+  font-size: 0.9rem; font-weight: 600; color: var(--fg3); transition: color 0.2s;
+}
+.billing-label.active { color: var(--fg); }
+.toggle-switch {
+  width: 48px; height: 26px; border-radius: 100px;
+  background: var(--border2); border: none; cursor: pointer;
+  position: relative; transition: background 0.25s; flex-shrink: 0;
+}
+.toggle-switch.on { background: var(--accent); }
+.toggle-knob {
+  position: absolute; top: 3px; left: 3px;
+  width: 20px; height: 20px; border-radius: 50%; background: #fff;
+  transition: transform 0.25s; display: block;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+.toggle-switch.on .toggle-knob { transform: translateX(22px); }
+.billing-save-pill {
+  display: inline-block; margin-left: 7px;
+  background: rgba(34,197,94,0.13); border: 1px solid rgba(34,197,94,0.3);
+  color: #22c55e; font-size: 0.65rem; font-weight: 800;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 2px 7px; border-radius: 5px; vertical-align: middle;
+}
+.pricing-annual-note {
+  font-size: 0.78rem; color: var(--fg3); font-weight: 500;
+  margin-top: -0.4rem; margin-bottom: 0.4rem;
 }
 .pricing-card {
   background: var(--surface); border: 1px solid var(--border2);
@@ -600,8 +753,16 @@
   text-align: center; margin-top: 2rem;
   font-size: 0.8rem; color: var(--fg3); font-weight: 450;
 }
+.price-ast {
+  font-size: 0.75rem; font-weight: 700; color: var(--fg3);
+  vertical-align: super; margin-left: 1px;
+}
+.pricing-region-note {
+  text-align: center; margin-top: 0.5rem;
+  font-size: 0.75rem; color: var(--fg3); font-weight: 450; font-style: italic;
+}
 @media (max-width: 960px) {
-  .pricing-grid { grid-template-columns: 1fr; max-width: 420px; margin-left: auto; margin-right: auto; }
+  .pricing-grid, .pricing-2col { grid-template-columns: 1fr; max-width: 420px; margin-left: auto; margin-right: auto; }
 }
 
 /* ════════════════════════════════════════
@@ -629,6 +790,66 @@
   position: relative; font-weight: 450; line-height: 1.75;
 }
 .cta-btns { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; position: relative; }
+
+/* ════════════════════════════════════════
+   WAITLIST
+════════════════════════════════════════ */
+.waitlist-section { padding: 5rem 2rem; }
+.waitlist-inner {
+  max-width: 560px; margin: 0 auto; text-align: center;
+}
+.waitlist-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-dim); border: 1px solid rgba(101,93,249,0.25);
+  color: var(--accent); border-radius: 100px;
+  padding: 5px 14px; font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.waitlist-inner h2 {
+  font-family: 'Manrope', sans-serif; font-weight: 800;
+  font-size: clamp(1.6rem, 3vw, 2.2rem); letter-spacing: -0.03em;
+  margin-bottom: 0.85rem; color: var(--fg);
+}
+.waitlist-inner > p {
+  color: var(--fg2); font-size: 0.95rem; line-height: 1.75;
+  margin-bottom: 2rem;
+}
+.waitlist-form {
+  display: flex; gap: 8px; max-width: 460px; margin: 0 auto 0.5rem;
+}
+.waitlist-input {
+  flex: 1; height: 48px; padding: 0 16px;
+  background: var(--surface); border: 1.5px solid var(--border2);
+  border-radius: 12px; color: var(--fg);
+  font-family: 'Inter', sans-serif; font-size: 0.9rem;
+  outline: none; transition: border-color 0.2s;
+}
+.waitlist-input:focus { border-color: var(--accent); }
+.waitlist-input::placeholder { color: var(--fg3); }
+.waitlist-btn {
+  height: 48px; padding: 0 24px;
+  background: var(--brand-gradient); color: #fff;
+  border: none; border-radius: 12px;
+  font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 0.9rem;
+  cursor: pointer; white-space: nowrap;
+  box-shadow: 0 6px 20px rgba(101,93,249,0.35);
+  transition: opacity 0.2s, transform 0.2s;
+}
+.waitlist-btn:hover:not(:disabled) { opacity: 0.9; transform: translateY(-1px); }
+.waitlist-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.waitlist-success {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.25);
+  color: var(--teal); border-radius: 12px; padding: 12px 20px;
+  font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem;
+}
+.waitlist-error { color: var(--red); font-size: 0.85rem; margin-top: 0.5rem; }
+.waitlist-note { color: var(--fg3); font-size: 0.78rem; margin-top: 0.75rem; }
+@media (max-width: 480px) {
+  .waitlist-form { flex-direction: column; }
+  .waitlist-input, .waitlist-btn { width: 100%; }
+}
 
 /* ════════════════════════════════════════
    RESPONSIVE
@@ -674,34 +895,33 @@ const SCREENSHOTS = [
 ];
 
 /* ── Pricing data ── */
-const PLAN_KEYS = ['free', 'pro', 'premium'];
-const PLAN_PRICES = ['0', '7.99', '9.99'];
-const PLAN_CLASSES = ['pricing-cta-free', 'pricing-cta-paid', 'pricing-cta-paid'];
-const PLAN_FEATURED = [false, true, false];
+const PLAN_KEYS           = ['free',  'pro'];
+const PLAN_MONTHLY        = ['0',     '7.99'];
+const PLAN_ANNUAL         = [null,    '59.99'];
+const PLAN_ANNUAL_MONTHLY = [null,    '4.99'];
+const PLAN_CLASSES        = ['pricing-cta-free', 'pricing-cta-paid'];
+const PLAN_FEATURED       = [false, true];
 const PLAN_FEATURE_KEYS = [
-  ['upTo3Subs', 'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'whatsappNotifs', 'prioritySupport'],
-  ['unlimitedSubs', 'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'whatsappNotifs', 'prioritySupport'],
-  ['unlimitedSubs', 'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'whatsappNotifs', 'prioritySupport'],
+  ['upTo3Subs',   'manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'prioritySupport'],
+  ['unlimitedSubs','manualEntry', 'renewalCalendar', 'darkLight', 'aiEmailScanner', 'spendingAnalytics', 'aiCancelFinder', 'emailReminders', 'prioritySupport'],
 ];
 const PLAN_FEATURES_YES = [
-  [true, true, true, true, false, false, false, false, false, false],
-  [true, true, true, true, true,  true,  true,  true,  false, false],
-  [true, true, true, true, true,  true,  true,  true,  true,  true ],
+  [true,  true, true, true, false, false, false, false, false],
+  [true,  true, true, true, true,  true,  true,  true,  true ],
 ];
 function getPlans() {
   return PLAN_KEYS.map((key, i) => ({
     key,
-    name: t('pricing.plans.' + key + '.name'),
-    price: PLAN_PRICES[i],
-    desc: t('pricing.plans.' + key + '.desc'),
-    cta: t('pricing.plans.' + key + '.cta'),
+    name:     t('pricing.plans.' + key + '.name'),
+    desc:     t('pricing.plans.' + key + '.desc'),
+    cta:      t('pricing.plans.' + key + '.cta'),
     ctaClass: PLAN_CLASSES[i],
-    href: '#download',
+    href:     '#download',
     featured: PLAN_FEATURED[i],
-    badge: i === 1 ? t('pricing.mostPopular') : null,
+    badge:    i === 1 ? t('pricing.mostPopular') : null,
     features: PLAN_FEATURE_KEYS[i].map((fk, j) => ({
       label: t('pricing.features.' + fk),
-      yes: PLAN_FEATURES_YES[i][j],
+      yes:   PLAN_FEATURES_YES[i][j],
     })),
   }));
 }
@@ -1083,26 +1303,45 @@ function ScreenshotsSection() {
 
 /* ── Pricing ── */
 function Pricing() {
+  const [annual, setAnnual] = useState(false);
+  const plans = getPlans();
   return (
     <section className="pricing-section" id="pricing">
       <div className="section-inner">
         <div className="section-eyebrow">{t("pricing.eyebrow")}</div>
         <h2 className="section-title">{t("pricing.title")}</h2>
         <p className="section-sub">{t("pricing.sub")}</p>
-        <div className="pricing-grid">
-          {getPlans().map((plan, i) => (
+
+        <div className="billing-toggle">
+          <span className={`billing-label ${!annual ? 'active' : ''}`}>{t('pricing.billing.monthly')}</span>
+          <button className={`toggle-switch ${annual ? 'on' : ''}`} onClick={() => setAnnual(v => !v)} aria-label="Toggle billing period">
+            <span className="toggle-knob"/>
+          </button>
+          <span className={`billing-label ${annual ? 'active' : ''}`}>
+            {t('pricing.billing.annual')}
+            <span className="billing-save-pill">{t('pricing.billing.savePill')}</span>
+          </span>
+        </div>
+
+        <div className="pricing-grid pricing-2col">
+          {plans.map((plan, i) => (
             <div className={`pricing-card reveal ${plan.featured ? 'featured' : ''}`} key={i}>
               {plan.badge && <span className="pricing-badge">{plan.badge}</span>}
               <div className="pricing-plan">{plan.name}</div>
               <div className="pricing-price">
-                {plan.price === '0' ? (
+                {PLAN_MONTHLY[i] === '0' ? (
                   <><sup></sup>{t('pricing.plans.free.name')}</>
+                ) : annual ? (
+                  <><sup>$</sup>{PLAN_ANNUAL_MONTHLY[i]}<sub>/mo</sub><sup className="price-ast">*</sup></>
                 ) : (
-                  <><sup>$</sup>{plan.price}<sub>/mo</sub></>
+                  <><sup>$</sup>{PLAN_MONTHLY[i]}<sub>/mo</sub><sup className="price-ast">*</sup></>
                 )}
               </div>
+              {annual && PLAN_ANNUAL[i] && (
+                <div className="pricing-annual-note">${PLAN_ANNUAL[i]} {t('pricing.billing.billedAnnually')}</div>
+              )}
               <p className="pricing-desc">{plan.desc}</p>
-              <div className="pricing-divider" />
+              <div className="pricing-divider"/>
               <ul className="pricing-features">
                 {plan.features.map((f, j) => (
                   <li className={`pricing-feature ${!f.yes ? 'dimmed' : ''}`} key={j}>
@@ -1118,6 +1357,7 @@ function Pricing() {
           ))}
         </div>
         <p className="pricing-note">{t("pricing.note")}</p>
+        <p className="pricing-region-note">{t("pricing.regionNote")}</p>
       </div>
     </section>
   );
@@ -1209,14 +1449,156 @@ const BrandIcon = ({ name, size = 36 }) => {
 };
 
 
-const ZOMBIE_SUBS = [
-  { name: 'MidJourney', sub: 'Last used: 47 days ago', price: '$10.00/mo', zombie: true },
-  { name: 'Duolingo',   sub: 'Last used: 62 days ago', price: '$6.99/mo',  zombie: true },
-  { name: 'Headspace',  sub: 'Last used: 91 days ago', price: '$12.99/mo', zombie: true },
-  { name: 'Spotify',    sub: 'Used 3 days ago',        price: '$9.99/mo',  zombie: false },
-];
+function getZombieSubs() {
+  const labels = tArr('zombie.subLabels');
+  return [
+    { name: 'MidJourney', sub: labels[0], price: '$10.00/mo', zombie: true,  score: 87 },
+    { name: 'Duolingo',   sub: labels[1], price: '$6.99/mo',  zombie: true,  score: 94 },
+    { name: 'Headspace',  sub: labels[2], price: '$12.99/mo', zombie: true,  score: 99 },
+    { name: 'Spotify',    sub: labels[3], price: '$9.99/mo',  zombie: false, score: 8  },
+  ];
+}
+
+/* ── Email Scanner Spotlight ── */
+function EmailScannerSpotlight() {
+  const [phase, setPhase] = useState(0); // 0:idle 1:connecting 2:scanning 3:done
+  const [visibleSubs, setVisibleSubs] = useState(0);
+  const ref = useRef(null);
+
+  const ages = tArr('emailScanner.subAges');
+  const SUB_NAMES  = ['Netflix', 'Adobe Creative Cloud', 'Gym Membership', 'Duolingo Plus', 'MidJourney'];
+  const SUB_PRICES = ['$15.99/mo', '$54.99/mo', '$45.00/mo', '$6.99/mo', '$10.00/mo'];
+  const FOUND_SUBS = SUB_NAMES.map((name, i) => ({ name, age: ages[i] || '', price: SUB_PRICES[i] }));
+  const MORE_LABEL = t('emailScanner.moreFound');
+  const TOTAL = FOUND_SUBS.length + 1; // +1 for "more" row
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      observer.disconnect();
+      setTimeout(() => setPhase(1), 300);
+      setTimeout(() => setPhase(2), 1400);
+      setTimeout(() => setPhase(3), 2500);
+      for (let i = 0; i < TOTAL; i++) {
+        setTimeout(() => setVisibleSubs(i + 1), 2700 + i * 380);
+      }
+    }, { threshold: 0.3 });
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const scanLabel = phase === 0 ? t('emailScanner.waiting')
+    : phase === 1 ? t('emailScanner.connecting')
+    : phase === 2 ? t('emailScanner.scanning')
+    : t('emailScanner.complete');
+
+  return (
+    <section className="email-scanner-section" id="email-scanner">
+      <div className="email-scanner-grid">
+        <div className="email-scanner-copy">
+          <div className="section-eyebrow">{t('emailScanner.eyebrow')}</div>
+          <h2>{t('emailScanner.heading1')}<br/>{t('emailScanner.heading2')}</h2>
+          <p>{t('emailScanner.p1')}</p>
+          <p>{t('emailScanner.p2')}</p>
+          <ul className="email-scanner-perks">
+            {tArr('emailScanner.perks').map((perk, i) => (
+              <li key={i}><span>✓</span>{perk}</li>
+            ))}
+          </ul>
+        </div>
+        <div ref={ref}>
+          <div className="scanner-window">
+            <div className="scanner-titlebar">
+              <span className="scanner-dot red"/><span className="scanner-dot yellow"/><span className="scanner-dot green"/>
+              <span className="scanner-title">{t('emailScanner.windowTitle')}</span>
+            </div>
+            <div className="scanner-body">
+              <div className={`scanner-status ${phase === 3 ? 'done' : phase === 2 ? 'scanning' : 'connecting'}`} style={{display: phase === 0 ? 'none' : 'flex'}}>
+                {phase === 2 && <span className="scanner-spinner"/>}
+                {scanLabel}
+              </div>
+              {phase === 0 && <div style={{color:'var(--fg3)',fontSize:'0.82rem',padding:'8px 0 14px'}}>{t('emailScanner.waiting')}</div>}
+              {phase >= 3 && (
+                <div className="scanner-results">
+                  {FOUND_SUBS.slice(0, visibleSubs).map((s, i) => (
+                    <div className="scanner-result-item" key={i}>
+                      <span className="scanner-check">✓</span>
+                      <span className="scanner-sub-name">{s.name}</span>
+                      <span className="scanner-sub-age">{s.age}</span>
+                      <span className="scanner-sub-price">{s.price}</span>
+                    </div>
+                  ))}
+                  {visibleSubs > FOUND_SUBS.length && (
+                    <div className="scanner-result-item scanner-more">
+                      <span className="scanner-more-text">{MORE_LABEL}</span>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 /* ── Main App ── */
+/* ── Waitlist Section ── */
+function WaitlistSection() {
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState('idle'); // idle | loading | success | error
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email) return;
+    setStatus('loading');
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ 'form-name': 'waitlist', email }).toString(),
+    })
+      .then(() => setStatus('success'))
+      .catch(() => setStatus('error'));
+  };
+
+  return (
+    <section className="waitlist-section" id="waitlist">
+      <div className="waitlist-inner">
+        <div className="waitlist-badge">
+          <span className="hero-badge-dot" />
+          Coming Soon
+        </div>
+        <h2>Be the first to know when we launch</h2>
+        <p>Get notified the moment CentryAI hits the App Store and Google Play.<br/>No spam — just one email.</p>
+        {status === 'success' ? (
+          <div className="waitlist-success">
+            ✓ You're on the list! We'll email you when we launch.
+          </div>
+        ) : (
+          <form className="waitlist-form" onSubmit={handleSubmit} data-netlify="true" name="waitlist">
+            <input type="hidden" name="form-name" value="waitlist" />
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              required
+              className="waitlist-input"
+            />
+            <button type="submit" className="waitlist-btn" disabled={status === 'loading'}>
+              {status === 'loading' ? 'Joining…' : 'Notify me'}
+            </button>
+          </form>
+        )}
+        {status === 'error' && <p className="waitlist-error">Something went wrong. Please try again.</p>}
+        <p className="waitlist-note">No spam. Unsubscribe anytime.</p>
+      </div>
+    </section>
+  );
+}
+
 function App() {
   const [theme, setTheme] = useState(() => localStorage.getItem('sr_theme') || 'dark');
   const [scrolled, setScrolled] = useState(false);
@@ -1358,6 +1740,7 @@ function App() {
           <div className="features-grid stagger">
             {tArr("features.cards").map((f, i) => (
               <div className="feature-card reveal" key={i} id={`feature-card-${i}`}>
+                {i < 2 && <div className="feature-sig-badge">✦ Signature feature</div>}
                 <div className="feature-icon">{[<SparklesIcon/>, <GhostIcon/>, <ChartIcon/>, <LinkIcon/>][i]}</div>
                 <h3>{f.title}</h3>
                 <p>{f.desc}</p>
@@ -1366,6 +1749,9 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* ── Email Scanner Spotlight ── */}
+      <EmailScannerSpotlight />
 
       {/* ── Zombie callout ── */}
       <section className="section" style={{paddingTop: 0}}>
@@ -1377,7 +1763,7 @@ function App() {
               <p>{t("zombie.desc")}</p>
             </div>
             <div className="zombie-subs">
-              {ZOMBIE_SUBS.map((s, i) => (
+              {getZombieSubs().map((s, i) => (
                 <div className={`zombie-item ${s.zombie ? 'flagged' : ''}`} key={i}>
                   <div className="zombie-item-logo" style={{flexShrink:0}}>
                     <BrandIcon name={s.name} size={36}/>
@@ -1385,6 +1771,17 @@ function App() {
                   <div className="zombie-item-info">
                     <div className="zombie-item-name">{s.name}</div>
                     <div className="zombie-item-sub">{s.sub}</div>
+                    {(() => {
+                      const tier = s.score > 70 ? 'high' : s.score > 40 ? 'mid' : 'low';
+                      return (
+                        <div className="zombie-score-bar-wrap">
+                          <div className="zombie-score-track">
+                            <div className={`zombie-score-fill ${tier}`} style={{width: `${s.score}%`}} />
+                          </div>
+                          <span className={`zombie-score-num ${tier}`}>{s.score}</span>
+                        </div>
+                      );
+                    })()}
                   </div>
                   <div className="zombie-item-price">{s.price}</div>
                   {s.zombie && <span className="zombie-flag">{t("zombie.flagLabel")}</span>}
@@ -1462,6 +1859,9 @@ function App() {
         </div>
       </section>
 
+      {/* ── Waitlist ── */}
+      <WaitlistSection />
+
       {/* ── Footer ── */}
       <footer className="footer">
         <div className="footer-inner">
@@ -1512,6 +1912,10 @@ function App() {
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 </script>
+<!-- Netlify Forms detection (hidden) -->
+<form name="waitlist" netlify hidden>
+  <input type="email" name="email" />
+</form>
 <div id="root"></div>
 </body>
 </html>

@@ -87,7 +87,39 @@
     "label": "⚠ 僵尸警报",
     "title": "您正在为那些忘记存在的东西付费。",
     "desc": "僵尸订阅是指几周内未曾使用、却每月持续扣款的服务。大多数人都有两三个。CentryAI 为每个订阅打出僵尸评分，让您清楚地知道哪些正在悄悄蚕食您的账户。",
-    "flagLabel": "僵尸"
+    "flagLabel": "僵尸",
+    "subLabels": [
+      "上次使用：47天前",
+      "上次使用：62天前",
+      "上次使用：91天前",
+      "3天前使用过"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "AI 收件箱扫描仪",
+    "heading1": "您忘记了自己还有它们。",
+    "heading2": "您的收件箱没有忘记。",
+    "p1": "大多数订阅追踪工具要求您手动添加所有内容。但如果您已经忘记某个订阅的存在——您又怎么知道要去添加它呢？",
+    "p2": "CentryAI 连接到 Gmail 或 iCloud，扫描您的收据，并自动发现所有定期扣款——包括 3 年前的那些。",
+    "perks": [
+      "支持 Gmail 和 iCloud",
+      "只读访问——电子邮件从不存储",
+      "自动检测 90+ 种服务",
+      "扫描在 60 秒内完成"
+    ],
+    "windowTitle": "CentryAI · 收件箱扫描仪",
+    "connecting": "正在连接到 Gmail",
+    "scanning": "正在扫描收据 · 847 封邮件",
+    "complete": "✓ 扫描完成 · 发现 11 个订阅",
+    "waiting": "等待扫描…",
+    "subAges": [
+      "2年前",
+      "8个月前",
+      "3个月前",
+      "1年前",
+      "47天前"
+    ],
+    "moreFound": "+ 还发现了 6 个订阅"
   },
   "testimonials": {
     "eyebrow": "用户评价",
@@ -152,6 +184,12 @@
     "sub": "免费开始。准备就绪时升级 — 随时取消。",
     "note": "所有计划均包含 7 天免费试用期。开始时不需要信用卡。",
     "mostPopular": "最受欢迎",
+    "billing": {
+      "monthly": "按月",
+      "annual": "按年",
+      "savePill": "节省 37%",
+      "billedAnnually": "按年计费"
+    },
     "plans": {
       "free": {
         "name": "免费",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "无限跟踪和人工智能驱动的工具，可快速减少浪费。",
         "cta": "获取 Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Pro 中的所有内容，加上实时警报和优先支持。",
-        "cta": "获取 Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "支出分析",
       "aiCancelFinder": "AI 取消查找器",
       "emailReminders": "电子邮件提醒",
-      "whatsappNotifs": "WhatsApp 通知",
       "prioritySupport": "优先支持"
-    }
+    },
+    "regionNote": "*价格可能因地区而异。"
   },
   "cta": {
     "title": "了解您实际在为什么付费。",

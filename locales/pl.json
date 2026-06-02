@@ -87,7 +87,39 @@
     "label": "⚠ Alarm Zombie",
     "title": "Płacisz za rzeczy, o których zapomniałeś, że istnieją.",
     "desc": "Subskrypcja zombie to taka, której nie tknąłeś od tygodni, a mimo to płacisz za nią co miesiąc. Większość ludzi ma dwie lub trzy. CentryAI przyznaje każdej subskrypcji wynik zombie, abyś wiedział dokładnie, które z nich uszczuplają Twoje konto.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Ostatnie użycie: 47 dni temu",
+      "Ostatnie użycie: 62 dni temu",
+      "Ostatnie użycie: 91 dni temu",
+      "Użyte 3 dni temu"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Skaner skrzynki odbiorczej AI",
+    "heading1": "Zapomniałeś, że je masz.",
+    "heading2": "Twoja skrzynka nie zapomniała.",
+    "p1": "Większość narzędzi do śledzenia subskrypcji prosi o ręczne dodanie wszystkiego. Ale jeśli już zapomniałeś, że subskrypcja istnieje — skąd wiedziałbyś, żeby ją dodać?",
+    "p2": "CentryAI łączy się z Gmail lub iCloud, skanuje Twoje paragony i automatycznie wykrywa wszystkie cykliczne opłaty — w tym te sprzed 3 lat.",
+    "perks": [
+      "Obsługa Gmail i iCloud",
+      "Dostęp tylko do odczytu — e-maile nigdy nie są przechowywane",
+      "Ponad 90 usług wykrywanych automatycznie",
+      "Skanowanie zakończone w mniej niż 60 sekund"
+    ],
+    "windowTitle": "CentryAI · Skaner skrzynki odbiorczej",
+    "connecting": "Łączenie z Gmail",
+    "scanning": "Skanowanie paragonów · 847 e-maili",
+    "complete": "✓ Skanowanie zakończone · Znaleziono 11 subskrypcji",
+    "waiting": "Oczekiwanie na skanowanie…",
+    "subAges": [
+      "2 lata temu",
+      "8 miesięcy temu",
+      "3 miesiące temu",
+      "rok temu",
+      "47 dni temu"
+    ],
+    "moreFound": "+ 6 kolejnych subskrypcji znalezionych"
   },
   "testimonials": {
     "eyebrow": "Co mówią użytkownicy",
@@ -152,6 +184,12 @@
     "sub": "Zacznij za darmo. Przejdź na wyższy plan, gdy będziesz gotowy — anuluj w dowolnym momencie.",
     "note": "Wszystkie plany obejmują 7-dniowy bezpłatny okres próbny. Karta kredytowa nie jest wymagana do rozpoczęcia.",
     "mostPopular": "Najpopularniejszy",
+    "billing": {
+      "monthly": "Miesięcznie",
+      "annual": "Rocznie",
+      "savePill": "Oszczędź 37%",
+      "billedAnnually": "rozliczane rocznie"
+    },
     "plans": {
       "free": {
         "name": "Darmowy",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Nielimitowane śledzenie i narzędzia oparte na AI do szybkiego ograniczenia strat.",
         "cta": "Kup Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Wszystko, co w Pro, plus powiadomienia w czasie rzeczywistym i priorytetowe wsparcie.",
-        "cta": "Kup Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Analityka wydatków",
       "aiCancelFinder": "Wyszukiwarka anulowania AI",
       "emailReminders": "Przypomnienia e-mail",
-      "whatsappNotifs": "Powiadomienia WhatsApp",
       "prioritySupport": "Priorytetowe wsparcie"
-    }
+    },
+    "regionNote": "*Ceny mogą się różnić w zależności od regionu."
   },
   "cta": {
     "title": "Sprawdź, za co naprawdę płacisz.",

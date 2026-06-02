@@ -87,7 +87,39 @@
     "label": "⚠ Cảnh báo Zombie",
     "title": "Bạn đang trả tiền cho những thứ bạn quên là còn tồn tại.",
     "desc": "Đăng ký zombie là dịch vụ bạn chưa dùng trong nhiều tuần nhưng vẫn trả tiền mỗi tháng. Hầu hết mọi người có hai hoặc ba cái. CentryAI chấm điểm zombie cho mỗi đăng ký để bạn biết chính xác cái nào đang rút cạn tài khoản của bạn.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Lần dùng cuối: 47 ngày trước",
+      "Lần dùng cuối: 62 ngày trước",
+      "Lần dùng cuối: 91 ngày trước",
+      "Đã dùng 3 ngày trước"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Trình quét hộp thư AI",
+    "heading1": "Bạn đã quên rằng bạn có chúng.",
+    "heading2": "Hộp thư của bạn thì không quên.",
+    "p1": "Hầu hết các công cụ theo dõi đăng ký yêu cầu bạn thêm thủ công tất cả mọi thứ. Nhưng nếu bạn đã quên một đăng ký tồn tại — làm sao bạn biết cần thêm nó?",
+    "p2": "CentryAI kết nối với Gmail hoặc iCloud, quét các biên lai của bạn và tự động phát hiện mọi khoản phí định kỳ — kể cả những khoản từ 3 năm trước.",
+    "perks": [
+      "Hỗ trợ Gmail & iCloud",
+      "Quyền truy cập chỉ đọc — email không bao giờ được lưu trữ",
+      "Tự động phát hiện 90+ dịch vụ",
+      "Quét hoàn tất trong vòng 60 giây"
+    ],
+    "windowTitle": "CentryAI · Trình quét hộp thư",
+    "connecting": "Đang kết nối với Gmail",
+    "scanning": "Đang quét biên lai · 847 email",
+    "complete": "✓ Quét hoàn tất · Tìm thấy 11 đăng ký",
+    "waiting": "Đang chờ quét…",
+    "subAges": [
+      "2 năm trước",
+      "8 tháng trước",
+      "3 tháng trước",
+      "1 năm trước",
+      "47 ngày trước"
+    ],
+    "moreFound": "+ Tìm thấy thêm 6 đăng ký"
   },
   "testimonials": {
     "eyebrow": "Người dùng nói gì",
@@ -152,6 +184,12 @@
     "sub": "Bắt đầu miễn phí. Nâng cấp khi bạn đã sẵn sàng — hủy bất kỳ lúc nào.",
     "note": "Tất cả các gói đều bao gồm bản dùng thử miễn phí 7 ngày. Không cần thẻ tín dụng để bắt đầu.",
     "mostPopular": "Phổ biến nhất",
+    "billing": {
+      "monthly": "Hàng tháng",
+      "annual": "Hàng năm",
+      "savePill": "Tiết kiệm 37%",
+      "billedAnnually": "thanh toán hàng năm"
+    },
     "plans": {
       "free": {
         "name": "Miễn phí",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Theo dõi không giới hạn và các công cụ được hỗ trợ bởi AI để giảm lãng phí nhanh chóng.",
         "cta": "Nhận Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Mọi thứ trong Pro, cộng với cảnh báo thời gian thực và hỗ trợ ưu tiên.",
-        "cta": "Nhận Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Phân tích chi tiêu",
       "aiCancelFinder": "Trình tìm kiếm hủy AI",
       "emailReminders": "Lời nhắc qua email",
-      "whatsappNotifs": "Thông báo WhatsApp",
       "prioritySupport": "Hỗ trợ ưu tiên"
-    }
+    },
+    "regionNote": "*Giá có thể thay đổi tùy theo khu vực."
   },
   "cta": {
     "title": "Khám phá bạn đang thực sự trả tiền cho gì.",

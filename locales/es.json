@@ -16,14 +16,14 @@
     "sub": "CentryAI escanea tu bandeja de Gmail o iCloud, encuentra cada suscripción que estás pagando y te dice cuáles cancelar. La configuración tarda 3 minutos.",
     "trust": "4.8 · Más de 12.000 reseñas · Gratis para comenzar",
     "appStoreSmall": "Descargar en el",
-    "appStoreName": "Tienda de aplicaciones",
-    "googlePlaySmall": "Consíguelo",
-    "googlePlayName": "GooglePlay"
+    "appStoreName": "App Store",
+    "googlePlaySmall": "Consíguelo en",
+    "googlePlayName": "Google Play"
   },
   "stats": {
     "downloads": "Descargas",
     "monthlyWaste": "Promedio residuos mensuales encontrados",
-    "appRating": "Calificación de la tienda de aplicaciones",
+    "appRating": "Calificación en App Store",
     "userSavings": "Seguimiento de los ahorros del usuario"
   },
   "screenshots": {
@@ -87,7 +87,39 @@
     "label": "⚠ Alerta Zombi",
     "title": "Estás pagando por cosas que olvidaste que existen.",
     "desc": "Una suscripción zombie es una que no has tocado en semanas pero que sigues pagando cada mes. La mayoría de la gente tiene dos o tres. CentryAI le da a cada suscripción una puntuación zombie para que sepas exactamente cuáles están drenando tu cuenta.",
-    "flagLabel": "Zombi"
+    "flagLabel": "Zombi",
+    "subLabels": [
+      "Último uso: hace 47 días",
+      "Último uso: hace 62 días",
+      "Último uso: hace 91 días",
+      "Usado hace 3 días"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Escáner de Bandeja con IA",
+    "heading1": "Olvidaste que los tenías.",
+    "heading2": "Tu bandeja de entrada no.",
+    "p1": "La mayoría de los rastreadores de suscripciones te piden que añadas todo manualmente. Pero si ya olvidaste que una suscripción existe — ¿cómo sabrías que añadirla?",
+    "p2": "CentryAI se conecta a Gmail o iCloud, escanea tus recibos y detecta automáticamente todos los cargos recurrentes. Incluyendo los de hace 3 años.",
+    "perks": [
+      "Compatible con Gmail e iCloud",
+      "Acceso de solo lectura — los correos nunca se almacenan",
+      "Más de 90 servicios detectados automáticamente",
+      "El escaneo se completa en menos de 60 segundos"
+    ],
+    "windowTitle": "CentryAI · Escáner de Bandeja",
+    "connecting": "Conectando a Gmail",
+    "scanning": "Escaneando recibos · 847 correos",
+    "complete": "✓ Escaneo completo · 11 suscripciones encontradas",
+    "waiting": "Esperando para escanear…",
+    "subAges": [
+      "hace 2 años",
+      "hace 8 meses",
+      "hace 3 meses",
+      "hace 1 año",
+      "hace 47 días"
+    ],
+    "moreFound": "+ 6 suscripciones más encontradas"
   },
   "testimonials": {
     "eyebrow": "Lo que dicen los usuarios",
@@ -95,7 +127,7 @@
     "reviews": [
       {
         "name": "Alex K.",
-        "handle": "@alexk · Tienda de aplicaciones",
+        "handle": "@alexk · App Store",
         "text": "Encontré $38 en suscripciones que me había olvidado por completo. Cancelé 4 de ellos en menos de 10 minutos. Esta aplicación se amortiza sola al instante."
       },
       {
@@ -105,7 +137,7 @@
       },
       {
         "name": "tom l.",
-        "handle": "@toml · Tienda de aplicaciones",
+        "handle": "@toml · App Store",
         "text": "Interfaz de usuario limpia, realmente funciona, sin tonterías adicionales. El buscador de enlaces de cancelación por sí solo vale la pena: ya no tendrás que buscar en las páginas de ayuda."
       }
     ]
@@ -152,6 +184,12 @@
     "sub": "Empieza gratis. Actualice cuando esté listo: cancele en cualquier momento.",
     "note": "Todos los planes incluyen una prueba gratuita de 7 días. No se requiere tarjeta de crédito para comenzar.",
     "mostPopular": "Más Popular",
+    "billing": {
+      "monthly": "Mensual",
+      "annual": "Anual",
+      "savePill": "Ahorra 37%",
+      "billedAnnually": "facturado anualmente"
+    },
     "plans": {
       "free": {
         "name": "Gratis",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Seguimiento ilimitado y herramientas impulsadas por IA para reducir el desperdicio rápidamente.",
         "cta": "Conviértete en profesional"
-      },
-      "premium": {
-        "name": "De primera calidad",
-        "desc": "Todo en Pro, además de alertas en tiempo real y soporte prioritario.",
-        "cta": "Obtener prima"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Análisis de gastos",
       "aiCancelFinder": "Buscador de cancelación AI",
       "emailReminders": "Recordatorios por correo electrónico",
-      "whatsappNotifs": "notificaciones whatsapp",
       "prioritySupport": "Apoyo prioritario"
-    }
+    },
+    "regionNote": "*Los precios pueden variar según la región."
   },
   "cta": {
     "title": "Descubre en qué estás gastando realmente.",
@@ -201,8 +234,8 @@
       "feedback": "Comentario",
       "privacy": "política de privacidad",
       "terms": "Condiciones de uso",
-      "appStore": "Tienda de aplicaciones",
-      "googlePlay": "GooglePlay"
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
     },
     "copyright": "© 2026 CentryAI. Reservados todos los derechos.",
     "footerPrivacy": "Privacidad",

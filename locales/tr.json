@@ -10,26 +10,26 @@
   },
   "hero": {
     "badge": "Abonelik Takibi",
-    "headline1": "Abonelikler için ödeme yapmayı bırakın",
-    "headline2": "varlığını",
-    "headlineEm": "unuttuklarınız.",
+    "headline1": "Varlığını unuttuğunuz abonelikler",
+    "headline2": "için ödeme yapmayı",
+    "headlineEm": "bırakın.",
     "sub": "CentryAI, Gmail veya iCloud gelen kutunuzu tarar, ödeme yaptığınız her aboneliği bulur ve hangilerini iptal etmeniz gerektiğini söyler. Kurulum 3 dakika sürer.",
     "trust": "4,8 · 12.000+ değerlendirme · Başlamak ücretsiz",
     "appStoreSmall": "Şuradan indirin:",
-    "appStoreName": "Uygulama Mağazası",
+    "appStoreName": "App Store",
     "googlePlaySmall": "Başla",
     "googlePlayName": "Google Play"
   },
   "stats": {
     "downloads": "İndirilenler",
-    "monthlyWaste": "Ortalama aylık atık bulundu",
+    "monthlyWaste": "Bulunan ortalama aylık israf",
     "appRating": "App Store derecelendirmesi",
-    "userSavings": "Takip edilen kullanıcı tasarrufları"
+    "userSavings": "Kullanıcıların izlenen tasarrufları"
   },
   "screenshots": {
     "eyebrow": "Uygulama Önizlemesi",
     "title": "CentryAI'yi iş başında görün.",
-    "sub": "Uygulamadan gerçek ekranlar. Tek dokunuşla etkinliği takip edin, zombi aboneliklerini yakalayın ve iptal edin.",
+    "sub": "Uygulamadan gerçek ekranlar. Tek dokunuşla etkinliği takip edin, zombi abonelikleri yakalayın ve iptal edin.",
     "captions": {
       "dashboard": "Kontrol Paneli",
       "subscriptions": "Abonelikler",
@@ -48,22 +48,22 @@
     "steps": [
       {
         "title": "Gelen kutunuzu bağlayın",
-        "desc": "Gmail veya iCloud'u salt okunur erişimle bağlayın. CentryAI yalnızca abonelik makbuzlarını tarar — başka hiçbir şey, hiçbir şey saklanmaz."
+        "desc": "Gmail veya iCloud'u salt okunur erişimle bağlayın. CentryAI yalnızca abonelik makbuzlarını tarar; başka hiçbir şey okunmaz, hiçbir şey saklanmaz."
       },
       {
         "title": "Her şeyi görün",
-        "desc": "Tam abonelik listeniz saniyeler içinde görüntülenir: ad, fiyat, yenileme tarihi ve son zamanlarda kullanmadığınız her hizmet için bir zombi puanı."
+        "desc": "Tam abonelik listeniz saniyeler içinde karşınıza çıkar: ad, fiyat, yenileme tarihi ve son zamanlarda kullanmadığınız her hizmet için bir zombi puanı."
       },
       {
         "title": "Atıkları kesin",
-        "desc": "Herhangi bir aboneliğe dokunarak doğrudan iptal bağlantısını alın. Google aramaya gerek yok. Bekletme müziği yok. Saniyeler içinde iptal edin."
+        "desc": "Herhangi bir aboneliğe dokunarak doğrudan iptal bağlantısını alın. Google araması yok. Bekleme müziği yok. Saniyeler içinde iptal edin."
       }
     ]
   },
   "features": {
     "eyebrow": "CentryAI ne yapar",
     "title": "Bul. Puanla. Kes.",
-    "sub": "Gizli maliyetleri ortaya çıkaran ve iptali zahmetsiz kılan dört araç.",
+    "sub": "Gizli maliyetleri gün yüzüne çıkaran ve iptali zahmetsiz kılan dört araç.",
     "cards": [
       {
         "title": "Inbox scanner",
@@ -71,7 +71,7 @@
       },
       {
         "title": "Zombie detector",
-        "desc": "Her aboneliği en son ne zaman kullandığınıza göre puanlar. Zombi puanı ne kadar yüksekse, unuttuğunuz bir şeye o kadar fazla para yakıyorsunuz demektir."
+        "desc": "Her aboneliği en son ne zaman kullandığınıza göre puanlar. Zombi puanı ne kadar yüksekse, varlığını unuttuğunuz bir şeye o kadar çok para yakıyorsunuz demektir."
       },
       {
         "title": "Harcama paneli",
@@ -79,24 +79,56 @@
       },
       {
         "title": "Cancel Finder",
-        "desc": "Bir dokunuşla herhangi bir hizmetin tam iptal sayfası açılır. Hiçbir ayarlar menüsü yok. Hiçbir müşteri hizmetleri araması yok. CentryAI, doğrudan iptal bağlantısını bulmak için yapay zeka kullanır."
+        "desc": "Tek dokunuşla herhangi bir hizmetin iptal sayfası açılır. Ayarlar menüsünde kaybolmak yok. Müşteri hizmetleri araması yok. CentryAI, doğrudan iptal bağlantısını bulmak için yapay zeka kullanır."
       }
     ]
   },
   "zombie": {
     "label": "⚠ Zombi Uyarısı",
-    "title": "Var olduğunu unuttuğunuz şeyler için ödeme yapıyorsunuz.",
-    "desc": "Zombi abonelik, haftalarca dokunmadığınız ama her ay ödemeye devam ettiğiniz bir hizmettir. Çoğu insanın iki ya da üç tanesi vardır. CentryAI, tam olarak hangilerinin hesabınızı boşalttığını bilmeniz için her aboneliğe bir zombi puanı verir.",
-    "flagLabel": "Zombi"
+    "title": "Var olduğunu unuttuğunuz şeyler için para ödüyorsunuz.",
+    "desc": "Zombi abonelik, haftalarca açmadığınız ama her ay ödemeye devam ettiğiniz bir hizmettir. Çoğu insanın iki ya da üçü vardır. CentryAI, hangilerinin hesabınızı boşalttığını tam olarak görmek için her aboneliğe bir zombi puanı verir.",
+    "flagLabel": "Zombi",
+    "subLabels": [
+      "Son kullanım: 47 gün önce",
+      "Son kullanım: 62 gün önce",
+      "Son kullanım: 91 gün önce",
+      "3 gün önce kullanıldı"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Yapay Zeka Gelen Kutusu Tarayıcı",
+    "heading1": "Sahip olduğunuzu unuttunuz.",
+    "heading2": "Gelen kutunuz unutmadı.",
+    "p1": "Çoğu abonelik takip uygulaması her şeyi elle girmenizi ister. Peki ya zaten varlığını unuttuğunuz bir aboneliği nasıl ekleyebilirsiniz ki?",
+    "p2": "CentryAI, Gmail veya iCloud'a bağlanır, makbuzlarınızı tarar ve 3 yıl öncesine ait olanlar dahil tüm yinelenen ücretleri otomatik olarak ortaya çıkarır.",
+    "perks": [
+      "Gmail ve iCloud desteklenir",
+      "Salt okunur erişim — e-postalar asla saklanmaz",
+      "90'dan fazla hizmet otomatik olarak tespit edilir",
+      "Tarama 60 saniyeden kısa sürede tamamlanır"
+    ],
+    "windowTitle": "CentryAI · Gelen Kutusu Tarayıcı",
+    "connecting": "Gmail'e bağlanılıyor",
+    "scanning": "Makbuzlar taranıyor · 847 e-posta",
+    "complete": "✓ Tarama tamamlandı · 11 abonelik bulundu",
+    "waiting": "Tarama bekleniyor…",
+    "subAges": [
+      "2 yıl önce",
+      "8 ay önce",
+      "3 ay önce",
+      "1 yıl önce",
+      "47 gün önce"
+    ],
+    "moreFound": "+ 6 abonelik daha bulundu"
   },
   "testimonials": {
     "eyebrow": "Kullanıcılar ne diyor?",
-    "title": "İnsanlar sahip olduklarını bilmedikleri parayı buluyorlar.",
+    "title": "İnsanlar farkında olmadıkları parayı geri kazanıyor.",
     "reviews": [
       {
         "name": "Alex K.",
         "handle": "@alexk · App Store",
-        "text": "Tamamen unuttuğum aboneliklerde 38$ buldum. 10 dakikadan kısa sürede 4 tanesini iptal etti. Bu uygulama anında kendini amorti eder."
+        "text": "Tamamen unuttuğum aboneliklerde 38$ bulduk. 10 dakikadan kısa sürede 4 tanesini iptal ettim. Bu uygulama kendini anında amorti ediyor."
       },
       {
         "name": "Maya R.",
@@ -106,7 +138,7 @@
       {
         "name": "Tom L.",
         "handle": "@toml · App Store",
-        "text": "Temiz kullanıcı arayüzü, aslında işe yarıyor, ek satış saçmalığı yok. İptal bağlantısını bulucu tek başına buna değer; artık yardım sayfaları arasında dolaşmaya gerek yok."
+        "text": "Temiz arayüz, gerçekten çalışıyor ve gereksiz ek satış yok. İptal bağlantısı bulucu tek başına her şeye değer; artık yardım sayfaları arasında dolaşmak yok."
       }
     ]
   },
@@ -116,11 +148,11 @@
     "items": [
       {
         "q": "CentryAI aboneliklerimi nasıl tespit ediyor?",
-        "a": "CentryAI, abonelikleri manuel olarak eklemenizi veya içe aktarmanızı sağlar. Hassas verileri hiçbir zaman saklamadan yinelenen ücretleri tanımlamak için desen tanımayı kullanır."
+        "a": "CentryAI, abonelikleri manuel olarak eklemenize veya içe aktarmanıza olanak tanır. Yinelenen ücretleri tespit etmek için desen tanıma kullanır ve hassas verileri asla saklamaz."
       },
       {
         "q": "\"Zombi\" abonelikleri nedir?",
-        "a": "Zombi abonelikleri, aktif olarak ödeme yaptığınız ancak 30 günden fazla süredir kullanılmış olarak işaretlemediğiniz hizmetlerdir. CentryAI bunları otomatik olarak işaretlemek için kullanımı izler (izniniz dahilinde)."
+        "a": "Zombi abonelikler, aktif olarak ödeme yaptığınız ancak 30 günden uzun süredir kullanmadığınız hizmetlerdir. CentryAI, bunları otomatik olarak işaretlemek için kullanımı izler (izninizle)."
       },
       {
         "q": "Verilerim güvende mi?",
@@ -128,15 +160,15 @@
       },
       {
         "q": "CentryAI gerçekten benim için abonelikleri iptal edebilir mi?",
-        "a": "CentryAI, her hizmet için en hızlı iptal yolunu bulur; doğrudan iptal bağlantısı, telefon numarası veya adım adım talimatlar. V2'de tek dokunuşla iptal özelliği geliyor."
+        "a": "CentryAI şu an için her hizmetin en hızlı iptal yolunu gösterir: doğrudan iptal bağlantısı, telefon numarası veya adım adım talimatlar. Tek dokunuşla iptal V2 yol haritasında yer alıyor."
       },
       {
         "q": "Aile paylaşım planlarıyla çalışıyor mu?",
-        "a": "Evet. CentryAI, paylaşılan abonelikleri ve bölünmüş maliyetli hizmetleri tespit ederek size aile planlarının kişi başı maliyetini gösterebilir."
+        "a": "Evet. CentryAI paylaşılan abonelikleri ve bölüşülen maliyetleri tespit ederek aile planlarının kişi başına düşen maliyetini gösterebilir."
       },
       {
         "q": "CentryAI ücretsiz mi?",
-        "a": "Temel izleme özellikleri ücretsizdir. CentryAI Premium, zombi tespitinin, gelişmiş analizlerin ve yenileme uyarılarının kilidini açar."
+        "a": "Temel izleme özellikleri ücretsizdir. CentryAI Premium; zombi tespitini, gelişmiş analizleri ve yenileme uyarılarını açar."
       }
     ]
   },
@@ -144,7 +176,7 @@
     "eyebrow": "Gizlilik ve Veri",
     "title": "Google verilerinizi nasıl kullanıyoruz?",
     "cardTitle": "Salt okunur Gmail erişimi; başka bir şey değil.",
-    "cardDesc": "CentryAI, abonelik tespitini otomatikleştirmek için isteğe bağlı bir Gmail entegrasyonu sunar. Hesabınızı bağlamayı seçtiğinizde, gelen kutunuza salt okunur erişim (gmail.salt okunur) talep ederiz. CentryAI, abonelik makbuzlarını ve fatura e-postalarını taramak için bu erişimi kesinlikle kullanır. E-posta meta verilerinin tüm ayrıştırılması yalnızca finansal kontrol panelinizi oluşturmak için işlenir. Kişisel e-postalarınızı asla okumayız, verilerinizi yapay zeka modellerini eğitmek için kullanmayız ve e-posta içeriğiniz hiçbir zaman sunucularımızda saklanmaz."
+    "cardDesc": "CentryAI, abonelik tespitini otomatikleştirmek için isteğe bağlı bir Gmail entegrasyonu sunar. Hesabınızı bağlamayı tercih ettiğinizde gelen kutunuza salt okunur erişim (gmail.readonly) talep ederiz. Bu erişimi yalnızca abonelik makbuzlarını ve fatura e-postalarını taramak için kullanırız. E-posta verilerinin tüm ayrıştırması yalnızca finansal kontrol panelinizi oluşturmak amacıyla işlenir. Kişisel e-postalarınızı asla okumayız, verilerinizi yapay zeka modeli eğitiminde kullanmayız ve e-posta içeriğiniz sunucularımızda hiçbir zaman saklanmaz."
   },
   "pricing": {
     "eyebrow": "Fiyatlandırma",
@@ -152,6 +184,12 @@
     "sub": "Ücretsiz başlayın. Hazır olduğunuzda yükseltme yapın; istediğiniz zaman iptal edin.",
     "note": "Tüm planlar 7 günlük ücretsiz deneme sürümünü içerir. Başlamak için kredi kartına gerek yok.",
     "mostPopular": "En Popüler",
+    "billing": {
+      "monthly": "Aylık",
+      "annual": "Yıllık",
+      "savePill": "%37 İndirim",
+      "billedAnnually": "yıllık faturalandırılır"
+    },
     "plans": {
       "free": {
         "name": "Ücretsiz",
@@ -159,14 +197,9 @@
         "cta": "Ücretsiz İndir"
       },
       "pro": {
-        "name": "Profesyonel",
-        "desc": "Atıkları hızlı bir şekilde azaltmak için sınırsız izleme ve yapay zeka destekli araçlar.",
-        "cta": "Pro'yu edinin"
-      },
-      "premium": {
-        "name": "prim",
-        "desc": "Her şey Pro'da, ayrıca gerçek zamanlı uyarılar ve öncelikli destek.",
-        "cta": "Premium'u Alın"
+        "name": "Pro",
+        "desc": "Gereksiz harcamaları hızla azaltmak için sınırsız izleme ve yapay zeka destekli araçlar.",
+        "cta": "Pro'ya Geç"
       }
     },
     "features": {
@@ -179,29 +212,29 @@
       "spendingAnalytics": "Harcama analitiği",
       "aiCancelFinder": "AI iptal bulucu",
       "emailReminders": "E-posta hatırlatıcıları",
-      "whatsappNotifs": "WhatsApp bildirimleri",
       "prioritySupport": "Öncelikli destek"
-    }
+    },
+    "regionNote": "*Bulunduğunuz bölgeye göre değişiklik gösterebilir."
   },
   "cta": {
     "title": "Gerçekte ne için ödeme yaptığınızı öğrenin.",
     "desc": "3 dakikada kurulum. Bulduklarınızı 30 saniyede iptal edin."
   },
   "footer": {
-    "tagline": "Yinelenen abonelikleri izleyin, tespit edin ve iptal edin. Başlaması ücretsiz; iOS ve Android'de mevcut.",
+    "tagline": "Yinelenen abonelikleri izleyin, tespit edin ve iptal edin. Başlamak ücretsiz; iOS ve Android'de kullanılabilir.",
     "product": "Ürün",
     "company": "Şirket",
-    "download": "İndirmek",
+    "download": "İndir",
     "links": {
       "features": "Özellikler",
       "appPreview": "Uygulama Önizlemesi",
       "faq": "SSS",
-      "downloadLink": "İndirmek",
+      "downloadLink": "İndir",
       "support": "Destek",
       "feedback": "Geri bildirim",
       "privacy": "Gizlilik Politikası",
       "terms": "Kullanım Koşulları",
-      "appStore": "Uygulama Mağazası",
+      "appStore": "App Store",
       "googlePlay": "Google Play"
     },
     "copyright": "© 2026 CentryAI. Her hakkı saklıdır.",
@@ -219,14 +252,14 @@
     "sidebar": {
       "categoriesLabel": "Kategoriler",
       "allTopics": "Tüm Konular",
-      "stuckTitle": "Hala sıkıştınız mı?",
+      "stuckTitle": "Hâlâ takılıp kaldınız mı?",
       "stuckDesc": "Destek ekibimiz 24 saat içinde yanıt verir.",
       "emailSupport": "✉ E-posta Desteği",
       "reportBug": "🐞 Hata Bildir"
     },
     "results": "\"{query}\" için {count} sonuç(lar)",
     "noResults": "\"{query}\" için sonuç bulunamadı",
-    "submitRequest": "Destek isteği gönderin →",
+    "submitRequest": "Destek talebi gönderin →",
     "categories": {
       "gettingStarted": "Başlarken",
       "subscriptionsDetection": "Abonelikler ve Tespit",
@@ -239,15 +272,15 @@
       "gettingStarted": [
         {
           "q": "Gmail hesabımı nasıl bağlarım?",
-          "a": "CentryAI'yi açın, ana ekranda \"Gelen Kutusuna Bağlan\"a dokunun ve Gmail'i seçin. Google'ın oturum açma sayfasına yönlendirileceksiniz. Salt okuma izni verin — CentryAI e-postaları yalnızca okuyabilir, gönderemez veya silemez."
+          "a": "CentryAI'yi açın, ana ekranda \"Gelen Kutusunu Bağla\"ya dokunun ve Gmail'i seçin. Google'ın giriş sayfasına yönlendirileceksiniz. Salt okunur izni verin; CentryAI e-postaları yalnızca okuyabilir, gönderemez veya silemez."
         },
         {
           "q": "CentryAI iCloud ile çalışır mı?",
-          "a": "Evet. iOS'ta \"Gelen Kutusuna Bağlan\"a dokunun ve iCloud'u seçin. CentryAI, Apple'ın standart izin iletişim kutusu aracılığıyla Posta erişimi isteyecektir."
+          "a": "Evet. iOS'ta \"Gelen Kutusunu Bağla\"ya dokunun ve iCloud'u seçin. CentryAI, Apple'ın standart izin diyaloğu aracılığıyla Posta erişimi isteyecektir."
         },
         {
           "q": "CentryAI'yi gelen kutusuna bağlanmadan kullanabilir miyim?",
-          "a": "Evet — + düğmesine dokunarak abonelikleri manuel olarak ekleyebilirsiniz. Ancak otomatik algılama, gelen kutusu erişimini gerektirir."
+          "a": "Evet — + düğmesine dokunarak abonelikleri elle ekleyebilirsiniz. Ancak otomatik tespit için gelen kutusu erişimi gereklidir."
         },
         {
           "q": "İlk tarama ne kadar sürer?",
@@ -257,71 +290,71 @@
       "subscriptionsDetection": [
         {
           "q": "Listemde neden bir abonelik yok?",
-          "a": "Fatura onayının farklı bir e-posta adresine gönderilmesi, spam olması veya alışılmadık bir format kullanması durumunda CentryAI abonelikleri kaçırabilir. Eksik abonelikleri her zaman manuel olarak ekleyebilirsiniz."
+          "a": "Fatura onayı farklı bir e-posta adresine gönderiliyorsa, spam klasörüne düşmüşse veya alışılmadık bir biçim kullanıyorsa CentryAI o aboneliği atlayabilir. Eksik abonelikleri her zaman elle ekleyebilirsiniz."
         },
         {
           "q": "Zombi abonelik dedektörü nasıl çalışır?",
-          "a": "CentryAI, 30'dan fazla gün içinde açmadığınız hizmetleri belirlemek için abonelik listenizi uygulama kullanım verileriyle (izinli olarak) karşılaştırır. iOS'ta bu, Ekran Süresi verilerini kullanır. Android'de Kullanım İstatistiklerini kullanır."
+          "a": "CentryAI, 30 günden uzun süredir açmadığınız hizmetleri tespit etmek için abonelik listenizi uygulama kullanım verileriyle (izninizle) karşılaştırır. iOS'ta Ekran Süresi verilerini, Android'de ise Kullanım İstatistiklerini kullanır."
         },
         {
           "q": "Abonelik fiyatım neden yanlış gösteriliyor?",
-          "a": "Fiyatlar fatura e-postalarından alınmıştır ve son fiyat değişikliklerini yansıtmayabilir. Fiyatı manuel olarak düzenlemek için herhangi bir aboneliğe dokunun."
+          "a": "Fiyatlar fatura e-postalarından alınır ve son fiyat değişikliklerini yansıtmayabilir. Fiyatı düzenlemek için ilgili aboneliğe dokunun."
         },
         {
           "q": "CentryAI yıllık abonelikleri tespit edebilir mi?",
-          "a": "Evet. CentryAI aylık, yıllık, üç aylık ve herhangi bir özel faturalandırma döngüsünü algılar. Yıllık abonelikler aylık eşdeğeri ve bir sonraki yenileme uyarısını gösterir."
+          "a": "Evet. CentryAI aylık, yıllık, üç aylık ve özel fatura döngülerini algılar. Yıllık abonelikler için aylık eşdeğer tutar ve bir sonraki yenileme uyarısı gösterilir."
         }
       ],
       "cancellation": [
         {
           "q": "CentryAI benim için abonelikleri iptal edebilir mi?",
-          "a": "CentryAI şu anda en hızlı iptal yolunu (doğrudan bağlantı, telefon numarası veya adım adım kılavuz) buluyor ancak iptal işlemini otomatikleştirmiyor. V2'nin yol haritasında tek dokunuşla iptal özelliği var."
+          "a": "CentryAI şu an için en hızlı iptal yolunu gösteriyor (doğrudan bağlantı, telefon numarası veya adım adım kılavuz) ancak iptal işlemini otomatikleştirmiyor. Tek dokunuşla iptal V2 yol haritasında yer alıyor."
         },
         {
           "q": "İptal linki çalışmıyor. Ben ne yaparım?",
-          "a": "Şirketler web sitelerini güncellediğinde iptal bağlantıları değişebilir. Abonelik ayrıntıları sayfasında \"Bozuk bağlantıyı bildir\"e dokunun, biz de güncelleyelim. Bu arada en son talimatlar için \"[Hizmet adı] nasıl iptal edilir\" ifadesini aramayı deneyin."
+          "a": "Şirketler web sitelerini güncellediğinde iptal bağlantıları değişebilir. Abonelik detayları sayfasında \"Bozuk bağlantıyı bildir\"e dokunun, biz güncelledelim. Bu arada güncel talimatlar için \"[Hizmet adı] nasıl iptal edilir\" diye arama yapabilirsiniz."
         }
       ],
       "privacySecurity": [
         {
           "q": "CentryAI e-posta içeriğimi görebilir mi?",
-          "a": "Hayır. CentryAI yalnızca faturalandırma e-postalarındaki konu satırlarını, gönderen adreslerini ve yapılandırılmış kalıpları okur. E-posta gövdelerinin tamamı hiçbir zaman okunmaz, saklanmaz veya iletilmez."
+          "a": "Hayır. CentryAI yalnızca fatura e-postalarındaki konu satırlarını, gönderen adreslerini ve belirli kalıpları okur. E-posta gövdelerinin tamamı hiçbir zaman okunmaz, saklanmaz veya iletilmez."
         },
         {
           "q": "Verilerim sunucularınızda saklanıyor mu?",
-          "a": "Varsayılan olarak hayır. Tüm abonelik verileri cihazınızda yerel olarak depolanır. İsteğe bağlı olarak şifrelenmiş iCloud/Google Drive yedeklemesini Ayarlar > Veri ve Gizlilik'te etkinleştirebilirsiniz."
+          "a": "Varsayılan olarak hayır. Tüm abonelik verileri cihazınızda yerel olarak saklanır. Şifrelenmiş iCloud/Google Drive yedeklemesini isteğe bağlı olarak Ayarlar > Veri ve Gizlilik bölümünden etkinleştirebilirsiniz."
         },
         {
           "q": "Hesabımı silersem ne olur?",
-          "a": "Hesabınızı sildiğinizde, tüm veriler sunucularımızdan (senkronizasyon etkinleştirilmişse) ve yerel depolama alanından anında kaldırılır. Bu eylem geri döndürülemez. Silmek için: Ayarlar > Hesap > Hesabı Sil."
+          "a": "Hesabınızı sildiğinizde tüm veriler sunucularımızdan (senkronizasyon etkinse) ve yerel depodan anında kaldırılır. Bu işlem geri alınamaz. Silmek için: Ayarlar > Hesap > Hesabı Sil."
         }
       ],
       "premium": [
         {
           "q": "CentryAI Premium neler içeriyor?",
-          "a": "Pro, zombi abonelik tespitinin, gelişmiş harcama analizlerinin, yenileme hatırlatıcılarının, sınırsız manuel aboneliklerin ve öncelikli desteğin kilidini açar. Ücretsiz katman, en fazla 10 izlenen aboneliği destekler."
+          "a": "Pro; zombi abonelik tespitini, gelişmiş harcama analizlerini, yenileme hatırlatıcılarını, sınırsız manuel abonelik eklemeyi ve öncelikli desteği açar. Ücretsiz katman en fazla 10 aboneliği destekler."
         },
         {
           "q": "Pro aboneliğimi nasıl iptal edebilirim?",
-          "a": "Pro abonelikleri doğrudan CentryAI tarafından değil, App Store veya Google Play tarafından yönetilir. İptal etmek için: iOS: Ayarlar > Apple Kimliği > Abonelikler. Android: Play Store > Abonelikler."
+          "a": "Pro abonelikler CentryAI tarafından değil, App Store veya Google Play tarafından yönetilir. İptal etmek için: iOS: Ayarlar > Apple Kimliği > Abonelikler. Android: Play Store > Abonelikler."
         },
         {
           "q": "Ücretsiz deneme sunuyor musunuz?",
-          "a": "Evet — yeni kullanıcılar, bir gelen kutusuna ilk kez bağlandıklarında CentryAI Premium'un 7 günlük ücretsiz deneme sürümünü alırlar."
+          "a": "Evet — bir gelen kutusuna ilk kez bağlanan yeni kullanıcılar CentryAI Premium'un 7 günlük ücretsiz deneme süresinden yararlanır."
         }
       ],
       "troubleshooting": [
         {
           "q": "Uygulama çöküyor. Ne yapmalıyım?",
-          "a": "Öncelikle uygulamayı zorla kapatıp yeniden açmayı deneyin. Sorun devam ederse Ayarlar > Destek > Tanılama Raporu Gönder'e gidin. Ayrıca bir hata raporu da gönderebilirsiniz."
+          "a": "Önce uygulamayı zorla kapatıp yeniden açmayı deneyin. Sorun devam ederse Ayarlar > Destek > Tanılama Raporu Gönder'e gidin. Ayrıca hata raporu da gönderebilirsiniz."
         },
         {
           "q": "Gelen kutusu taramam takıldı. Ben ne yaparım?",
-          "a": "Ana ekranı yenilemek için aşağı çekin. Tarama takılı kalırsa Ayarlar > Bağlı Hesaplar'dan gelen kutunuzun bağlantısını kesin ve yeniden bağlayın. Sorun devam ederse desteğe başvurun."
+          "a": "Yenilemek için ana ekranı aşağı çekin. Tarama takılı kalırsa Ayarlar > Bağlı Hesaplar'dan gelen kutunuzun bağlantısını kesip yeniden bağlayın. Sorun devam ederse desteğe başvurun."
         },
         {
           "q": "CentryAI kurulumdan sonra yeni abonelikleri algılamıyor.",
-          "a": "Cihaz ayarlarınızda CentryAI için arka plan yenilemenin etkinleştirildiğinden emin olun. iOS: Ayarlar > CentryAI > Arka Planda Uygulama Yenileme. Android: Ayarlar > Uygulamalar > CentryAI > Pil > Sınırsız."
+          "a": "Cihaz ayarlarında CentryAI için arka plan yenilemenin açık olduğundan emin olun. iOS: Ayarlar > CentryAI > Arka Planda Uygulama Yenileme. Android: Ayarlar > Uygulamalar > CentryAI > Pil > Sınırsız."
         }
       ]
     }
@@ -336,24 +369,24 @@
     "toc": {
       "title": "İçindekiler",
       "items": [
-        "Şartların Kabulü",
-        "Hizmet Açıklaması",
+        "Koşulların Kabulü",
+        "Hizmet Tanımı",
         "Uygunluk",
         "Kullanıcı Hesapları",
         "Abonelik Planları ve Faturalandırma",
         "Kabul Edilebilir Kullanım",
         "Fikri Mülkiyet",
-        "Sorumluluk reddi beyanları",
+        "Sorumluluk Reddi",
         "Sorumluluğun Sınırlandırılması",
         "Fesih",
         "Geçerli Hukuk",
-        "Temas etmek"
+        "İletişim"
       ]
     },
     "sections": {
       "s1": {
-        "title": "1. Şartların Kabulü",
-        "body": "CentryAI'yi (\"Uygulama\") indirerek, kurarak veya kullanarak bu Kullanım Koşullarına (\"Koşullar\") uymayı kabul etmiş olursunuz. Bu Koşulları kabul etmiyorsanız Uygulamayı kullanmayın. Bu Koşullar, içeriğe göz atan, kaydolan veya katkıda bulunan kullanıcılar dahil ancak bunlarla sınırlı olmamak üzere Uygulamanın tüm kullanıcıları için geçerlidir."
+        "title": "1. Koşulların Kabulü",
+        "body": "CentryAI'yi (\"Uygulama\") indirerek, kurarak veya kullanarak bu Kullanım Koşullarını (\"Koşullar\") kabul etmiş olursunuz. Bu Koşulları kabul etmiyorsanız Uygulamayı kullanmayın. Bu Koşullar; içeriğe göz atan, kayıt olan veya katkıda bulunan kullanıcılar dahil Uygulamanın tüm kullanıcıları için geçerlidir."
       },
       "s2": {
         "title": "2. Hizmet Tanımı",
@@ -381,24 +414,24 @@
         "title": "6. Kabul Edilebilir Kullanım",
         "intro": "Aşağıdakileri yapmamayı kabul edersiniz:",
         "items": [
-          "Uygulamayı herhangi bir yasa dışı amaç için kullanmak",
-          "Uygulamada tersine mühendislik, kaynak koda dönüştürme veya parçalara ayırma girişiminde bulunma",
-          "Hesap bilgilerinizi üçüncü taraflarla paylaşın",
-          "Uygulamaya erişmek veya Uygulamayı kopyalamak için otomatik yöntemler kullanın",
-          "Uygulamanın altyapısına veya diğer kullanıcıların erişimine müdahale etme",
-          "Kimliğinizi veya üyeliğinizi yanlış tanıtın"
+          "Uygulamayı herhangi bir yasadışı amaç için kullanmak",
+          "Uygulamaya tersine mühendislik uygulamak, kaynak koda dönüştürmek veya parçalarına ayırmak",
+          "Hesap bilgilerinizi üçüncü taraflarla paylaşmak",
+          "Uygulamaya erişmek veya kopyalamak için otomatik yöntemler kullanmak",
+          "Uygulamanın altyapısına veya diğer kullanıcıların erişimine müdahale etmek",
+          "Kimliğinizi veya üyeliğinizi yanlış beyan etmek"
         ],
-        "body": "<p>Aşağıdakileri yapmamayı kabul edersiniz:</p><ul><li>Uygulamayı herhangi bir yasa dışı amaç için kullanmak</li><li>Uygulamada tersine mühendislik, kaynak koda dönüştürme veya parçalara ayırma girişiminde bulunma</li><li>Hesap bilgilerinizi üçüncü taraflarla paylaşın</li><li>Uygulamaya erişmek veya Uygulamayı kopyalamak için otomatik yöntemler kullanın</li><li>Uygulamanın altyapısına veya diğer kullanıcıların erişimine müdahale etme</li><li>Kimliğinizi veya üyeliğinizi yanlış tanıtın</li></ul>"
+        "body": "<p>Aşağıdakileri yapmamayı kabul edersiniz:</p><ul><li>Uygulamayı herhangi bir yasadışı amaç için kullanmak</li><li>Uygulamaya tersine mühendislik uygulamak, kaynak koda dönüştürmek veya parçalarına ayırmak</li><li>Hesap bilgilerinizi üçüncü taraflarla paylaşmak</li><li>Uygulamaya erişmek veya kopyalamak için otomatik yöntemler kullanmak</li><li>Uygulamanın altyapısına veya diğer kullanıcıların erişimine müdahale etmek</li><li>Kimliğinizi veya üyeliğinizi yanlış beyan etmek</li></ul>"
       },
       "s7": {
         "title": "7. Fikri Mülkiyet",
         "body": "CentryAI ve ilgili tüm içerik, tasarım, kod, ticari markalar ve ticari isimler CentryAI, Inc.'in münhasır mülkiyetindedir. Uygulamayı kişisel, ticari olmayan amaçlarla kullanmanız için size sınırlı, münhasır olmayan, devredilemez bir lisans verilmiştir. No other rights are granted."
       },
       "s8": {
-        "title": "8. Sorumluluk reddi beyanları",
-        "body1": "CentryAI, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcut olduğu şekilde\" sağlanmaktadır. Abonelik tespitinin eksiksiz veya hatasız olacağını garanti etmiyoruz. Uygulamada görüntülenen abonelik tutarları, yenileme tarihleri ​​ve iptal URL'leri e-posta verilerinden elde edilmiştir ve mevcut fiyatlandırmayı veya müsaitlik durumunu yansıtmayabilir.",
-        "body2": "CentryAI bir mali müşavir değildir. Uygulamadaki hiçbir şey mali, hukuki veya profesyonel tavsiye niteliğinde değildir. İptal kararları yalnızca size aittir.",
-        "body": "<p>CentryAI, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcut olduğu şekilde\" sağlanmaktadır. Abonelik tespitinin eksiksiz veya hatasız olacağını garanti etmiyoruz. Uygulamada görüntülenen abonelik tutarları, yenileme tarihleri ​​ve iptal URL'leri e-posta verilerinden elde edilmiştir ve mevcut fiyatlandırmayı veya müsaitlik durumunu yansıtmayabilir.</p><p>CentryAI bir mali müşavir değildir. Uygulamadaki hiçbir şey mali, hukuki veya profesyonel tavsiye niteliğinde değildir. İptal kararları yalnızca size aittir.</p>"
+        "title": "8. Sorumluluk Reddi",
+        "body1": "CentryAI, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcut haliyle\" sunulmaktadır. Abonelik tespitinin eksiksiz veya hatasız olacağını taahhüt etmiyoruz. Uygulamada görüntülenen abonelik tutarları, yenileme tarihleri ve iptal bağlantıları e-posta verilerinden elde edilmiştir; güncel fiyatlandırmayı veya hizmet durumunu yansıtmayabilir.",
+        "body2": "CentryAI bir mali danışman değildir. Uygulamadaki hiçbir içerik mali, hukuki veya profesyonel tavsiye niteliği taşımaz. İptal kararları yalnızca size aittir.",
+        "body": "<p>CentryAI, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcut haliyle\" sunulmaktadır. Abonelik tespitinin eksiksiz veya hatasız olacağını taahhüt etmiyoruz. Uygulamada görüntülenen abonelik tutarları, yenileme tarihleri ve iptal bağlantıları e-posta verilerinden elde edilmiştir; güncel fiyatlandırmayı veya hizmet durumunu yansıtmayabilir.</p><p>CentryAI bir mali danışman değildir. Uygulamadaki hiçbir içerik mali, hukuki veya profesyonel tavsiye niteliği taşımaz. İptal kararları yalnızca size aittir.</p>"
       },
       "s9": {
         "title": "9. Sorumluluğun Sınırlandırılması",
@@ -408,15 +441,15 @@
       },
       "s10": {
         "title": "10. Fesih",
-        "body": "Bu Koşulların ihlali nedeniyle hesabınızı herhangi bir zamanda bildirimde bulunarak veya bulunmaksızın askıya alma veya sonlandırma hakkını saklı tutuyoruz. Hesabınızı istediğiniz zaman Uygulamanın içinden silebilirsiniz. Feshin ardından Uygulamayı kullanma hakkınız derhal sona erer."
+        "body": "Bu Koşulların ihlali durumunda hesabınızı önceden bildirerek veya bildirmeksizin askıya alma ya da sonlandırma hakkını saklı tutuyoruz. Hesabınızı istediğiniz zaman uygulama içinden silebilirsiniz. Feshin ardından Uygulamayı kullanma hakkınız derhal sona erer."
       },
       "s11": {
-        "title": "11. Geçerli Kanun",
-        "body": "Bu Şartlar, kanunlar ihtilafı ilkeleri dikkate alınmaksızın, Amerika Birleşik Devletleri'nin Delaware Eyaleti kanunlarına göre yönetilir ve yorumlanır. Her türlü anlaşmazlık Delaware mahkemelerinde çözülecektir."
+        "title": "11. Geçerli Hukuk",
+        "body": "Bu Koşullar, kanunlar ihtilafı ilkeleri gözetilmeksizin Amerika Birleşik Devletleri Delaware Eyaleti kanunlarına göre yorumlanır ve uygulanır. Her türlü anlaşmazlık Delaware mahkemelerinde çözüme kavuşturulacaktır."
       },
       "s12": {
         "title": "12. İletişim",
-        "body": "Bu Şartlar hakkında sorularınız mı var? Legal@centryai.app adresinden bize ulaşın."
+        "body": "Bu Koşullar hakkında sorularınız mı var? legal@centryai.app adresinden bize ulaşın."
       }
     }
   },
@@ -458,17 +491,17 @@
         "title": "2. Bilgilerinizi Nasıl Kullanıyoruz",
         "intro": "Topladığımız bilgileri aşağıdaki amaçlarla kullanırız:",
         "items": [
-          "Yinelenen aboneliklerinizi tespit edin ve görüntüleyin",
-          "Kullanım kalıplarına göre zombi aboneliklerini belirleyin",
-          "Yenileme hatırlatıcıları gönder (etkinse)",
-          "Müşteri desteği sağlayın",
-          "Uygulama performansını ve özelliklerini iyileştirin",
+          "Yinelenen aboneliklerinizi tespit etmek ve görüntülemek",
+          "Kullanım kalıplarına göre zombi abonelikleri belirlemek",
+          "Yenileme hatırlatıcıları göndermek (etkinse)",
+          "Müşteri desteği sağlamak",
+          "Uygulama performansını ve özelliklerini geliştirmek",
           "Yasal yükümlülüklere uymak"
         ],
         "noAds": "Verilerinizi reklam amacıyla kullanmıyoruz ve kişisel bilgilerinizi hiçbir koşulda üçüncü taraflara satmıyor veya kiralamıyoruz.",
         "aiNote": "🤖 Yapay Zeka / Makine Öğrenimi: Google Workspace API'lerini (Gmail verileri dahil) genelleştirilmiş yapay zeka ve/veya Makine Öğrenimi modellerini geliştirmek, iyileştirmek veya eğitmek için kesinlikle kullanmıyoruz.",
         "googlePolicy": "CentryAI'nin Google API'lerinden aldığı bilgileri kullanması ve başka herhangi bir uygulamaya aktarması, Sınırlı Kullanım gereklilikleri de dahil olmak üzere Google API Hizmetleri Kullanıcı Verileri Politikasına uygun olacaktır.",
-        "body": "<p>Topladığımız bilgileri aşağıdaki amaçlarla kullanırız:</p><ul><li>Yinelenen aboneliklerinizi tespit edin ve görüntüleyin</li><li>Kullanım kalıplarına göre zombi aboneliklerini belirleyin</li><li>Yenileme hatırlatıcıları gönder (etkinse)</li><li>Müşteri desteği sağlayın</li><li>Uygulama performansını ve özelliklerini iyileştirin</li><li>Yasal yükümlülüklere uymak</li></ul>"
+        "body": "<p>Topladığımız bilgileri aşağıdaki amaçlarla kullanırız:</p><ul><li>Yinelenen aboneliklerinizi tespit etmek ve görüntülemek</li><li>Kullanım kalıplarına göre zombi abonelikleri belirlemek</li><li>Yenileme hatırlatıcıları göndermek (etkinse)</li><li>Müşteri desteği sağlamak</li><li>Uygulama performansını ve özelliklerini geliştirmek</li><li>Yasal yükümlülüklere uymak</li></ul>"
       },
       "s3": {
         "title": "3. Veri Depolama ve Güvenlik",
@@ -493,12 +526,12 @@
         "title": "5. Haklarınız",
         "intro": "Yargı yetki alanınıza bağlı olarak aşağıdaki haklara sahip olabilirsiniz:",
         "items": [
-          "Hakkınızda tuttuğumuz kişisel verilere erişin",
-          "Hesabınızın ve ilişkili verilerinizin silinmesini talep edin",
-          "Verilerinizi taşınabilir bir biçimde dışa aktarın",
-          "Anonimleştirilmiş analizleri devre dışı bırakın"
+          "Hakkınızda tuttuğumuz kişisel verilere erişmek",
+          "Hesabınızın ve ilişkili verilerinizin silinmesini talep etmek",
+          "Verilerinizi taşınabilir bir biçimde dışa aktarmak",
+          "Anonimleştirilmiş analizleri devre dışı bırakmak"
         ],
-        "contact": "Bu haklardan herhangi birini kullanmak için bizimle gizlilik@centryai.app adresinden iletişime geçin. 30 gün içinde yanıt vereceğiz."
+        "contact": "Bu haklardan herhangi birini kullanmak için privacy@centryai.app adresinden bizimle iletişime geçin. 30 gün içinde yanıt vereceğiz."
       },
       "s6": {
         "title": "6. Çocukların Gizliliği",
@@ -511,7 +544,7 @@
       "s8": {
         "title": "8. Bize Ulaşın",
         "body": "Bu politikayla ilgili sorularınız mı var? Yardım etmek için buradayız.",
-        "email": "E-posta: gizlilik@centryai.app",
+        "email": "E-posta: privacy@centryai.app",
         "supportLink": "Destek: centryai.app/support"
       }
     }
@@ -540,13 +573,13 @@
     "form": {
       "name": "İsim",
       "email": "E-posta",
-      "platform": "platformu",
+      "platform": "Platform",
       "selectPlatform": "Platformu seçin",
       "appVersion": "Uygulama Sürümü",
       "selectVersion": "Sürümü seçin",
       "bugSummary": "Hata Özeti",
       "featureTitle": "Özellik Başlığı",
-      "subject": "Ders",
+      "subject": "Konu",
       "stepsToReproduce": "Çoğaltmanın Adımları",
       "describeFeature": "Özelliği açıklayın",
       "message": "Mesaj",
@@ -560,7 +593,7 @@
       "messageLabel": "Mesaj",
       "placeholders": {
         "name": "Adınız",
-        "email": "sen@example.com",
+        "email": "siz@ornek.com",
         "bugTitle": "örneğin Büyük gelen kutusu yüklenirken uygulama çöküyor",
         "bugSummary": "örneğin Büyük gelen kutusu yüklenirken uygulama çöküyor",
         "featureTitle": "örneğin Abonelik listesini CSV olarak dışa aktar",
@@ -603,14 +636,14 @@
       "directEmail": "Veya doğrudan support@centryai.app adresinden bize e-posta gönderin"
     },
     "success": {
-      "title": "Anladım. Teşekkür ederim!",
+      "title": "Aldık. Teşekkürler!",
       "descBug": "Hata raporunuzu aldık ve kısa süre içinde inceleyeceğiz.",
       "descFeature": "Özellik isteğinizi aldık ve kısa süre içinde inceleyeceğiz.",
       "descFeedback": "Geri bildiriminizi aldık ve kısa süre içinde inceleyeceğiz.",
       "responseTime": "Genellikle 1-2 iş günü içinde yanıt veririz.",
       "refLabel": "Referans:",
       "submitAnother": "Başka bir tane gönder",
-      "backHome": "Eve dön"
+      "backHome": "Ana sayfaya dön"
     }
   },
   "deleteAccount": {
@@ -620,7 +653,7 @@
       "title": "Hesabını ve Verilerini Sil",
       "subtitle": "Verileriniz size aittir. Silme işlemi kalıcıdır ve hemen geçerli olur."
     },
-    "warn": "⚠ Bu işlem geri alınamaz. Hesabını silmek; tüm aboneliklerini, tarama geçmişini, bildirim tercihlerini ve hesap verilerini sunucularımızdan kalıcı olarak kaldırır. Aktif ücretli planın iade edilmez — gerekiyorsa önce iptal et.",
+    "warn": "⚠ Bu işlem geri alınamaz. Hesabını silmek; tüm aboneliklerini, tarama geçmişini, bildirim tercihlerini ve hesap verilerini sunucularımızdan kalıcı olarak siler. Aktif ücretli planın bedeli iade edilmez — gerekiyorsa önce iptal et.",
     "inAppTitle": "Uygulama içinden sil",
     "inAppIntro": "Hesabını ve tüm ilgili verileri silmenin en hızlı yolu doğrudan CentryAI uygulamasından:",
     "steps": [
@@ -653,7 +686,7 @@
       "iCloud kimlik bilgileri cihazın güvenli deposundan temizlenir"
     ],
     "noAppTitle": "Uygulamaya erişemiyor musun?",
-    "noAppBody": "Hesabını silmek için uygulamaya giriş yapamıyor ya da erişemiyorsan bizimle iletişime geç; verilerini 30 gün içinde manuel olarak sileriz.",
+    "noAppBody": "Uygulamaya giriş yapamıyor ya da erişemiyorsan bizimle iletişime geç; verilerini 30 gün içinde manuel olarak sileriz.",
     "contactText": "<a href=\"mailto:support@centryai.app\">support@centryai.app</a> adresine <strong>“Account Deletion Request”</strong> konu satırıyla e-posta gönder ve hesabınla ilişkili e-posta adresini belirt. Silme işlemini 30 gün içinde onaylayacağız."
   }
 }

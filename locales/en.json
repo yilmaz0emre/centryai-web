@@ -87,7 +87,39 @@
     "label": "⚠ Zombie Alert",
     "title": "You're paying for things you forgot exist.",
     "desc": "A zombie subscription is one you haven't touched in weeks but keep paying for every month. Most people have two or three. CentryAI gives every subscription a zombie score so you know exactly which ones are bleeding your account.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Last used: 47 days ago",
+      "Last used: 62 days ago",
+      "Last used: 91 days ago",
+      "Used 3 days ago"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "AI Inbox Scanner",
+    "heading1": "You forgot you had them.",
+    "heading2": "Your inbox didn't.",
+    "p1": "Most subscription trackers ask you to add everything manually. But if you've already forgotten a subscription exists — how would you know to add it?",
+    "p2": "CentryAI connects to Gmail or iCloud, scans your receipts, and automatically surfaces every recurring charge. Including ones from 3 years ago.",
+    "perks": [
+      "Gmail & iCloud supported",
+      "Read-only access — emails never stored",
+      "90+ services detected automatically",
+      "Scans complete in under 60 seconds"
+    ],
+    "windowTitle": "CentryAI · Inbox Scanner",
+    "connecting": "Connecting to Gmail",
+    "scanning": "Scanning receipts · 847 emails",
+    "complete": "✓ Scan complete · 11 subscriptions found",
+    "waiting": "Waiting to scan…",
+    "subAges": [
+      "2 years ago",
+      "8 months ago",
+      "3 months ago",
+      "1 year ago",
+      "47 days ago"
+    ],
+    "moreFound": "+ 6 more subscriptions found"
   },
   "testimonials": {
     "eyebrow": "What users say",
@@ -152,6 +184,12 @@
     "sub": "Start free. Upgrade when you're ready — cancel anytime.",
     "note": "All plans include a 7-day free trial. No credit card required to start.",
     "mostPopular": "Most Popular",
+    "billing": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "savePill": "Save 37%",
+      "billedAnnually": "billed annually"
+    },
     "plans": {
       "free": {
         "name": "Free",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Unlimited tracking and AI-powered tools to cut waste fast.",
         "cta": "Get Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Everything in Pro, plus real-time alerts and priority support.",
-        "cta": "Get Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Spending analytics",
       "aiCancelFinder": "AI cancel finder",
       "emailReminders": "Email reminders",
-      "whatsappNotifs": "WhatsApp notifications",
       "prioritySupport": "Priority support"
-    }
+    },
+    "regionNote": "*Prices may vary by region."
   },
   "cta": {
     "title": "Find out what you're actually paying for.",

@@ -87,7 +87,39 @@
     "label": "⚠ Zombievarning",
     "title": "Du betalar för saker du glömt att de finns.",
     "desc": "En zombieprenumeration är en du inte rört på veckor men fortsätter betala varje månad. De flesta har två eller tre. CentryAI ger varje prenumeration ett zombiepoäng så att du vet exakt vilka som blöder ditt konto.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Senast använd: för 47 dagar sedan",
+      "Senast använd: för 62 dagar sedan",
+      "Senast använd: för 91 dagar sedan",
+      "Använd för 3 dagar sedan"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "AI-inkorgsscanner",
+    "heading1": "Du glömde att du hade dem.",
+    "heading2": "Din inkorg kom ihåg.",
+    "p1": "De flesta prenumerationsverktyg ber dig lägga till allt manuellt. Men om du redan har glömt att en prenumeration finns — hur skulle du veta att du ska lägga till den?",
+    "p2": "CentryAI ansluter till Gmail eller iCloud, skannar dina kvitton och hittar automatiskt alla återkommande avgifter — inklusive de från 3 år sedan.",
+    "perks": [
+      "Gmail & iCloud stöds",
+      "Skrivskyddad åtkomst — e-post lagras aldrig",
+      "90+ tjänster identifieras automatiskt",
+      "Skanning klar på under 60 sekunder"
+    ],
+    "windowTitle": "CentryAI · Inkorgsscanner",
+    "connecting": "Ansluter till Gmail",
+    "scanning": "Skannar kvitton · 847 e-postmeddelanden",
+    "complete": "✓ Skanning klar · 11 prenumerationer hittade",
+    "waiting": "Väntar på skanning…",
+    "subAges": [
+      "för 2 år sedan",
+      "för 8 månader sedan",
+      "för 3 månader sedan",
+      "för 1 år sedan",
+      "för 47 dagar sedan"
+    ],
+    "moreFound": "+ 6 fler prenumerationer hittade"
   },
   "testimonials": {
     "eyebrow": "Vad användare säger",
@@ -152,6 +184,12 @@
     "sub": "Börja gratis. Uppgradera när du är redo — avbryt när som helst.",
     "note": "Alla planer inkluderar en 7-dagars gratis provperiod. Inget kreditkort krävs för att starta.",
     "mostPopular": "Mest populär",
+    "billing": {
+      "monthly": "Månadsvis",
+      "annual": "Årsvis",
+      "savePill": "Spara 37%",
+      "billedAnnually": "faktureras årsvis"
+    },
     "plans": {
       "free": {
         "name": "Gratis",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Obegränsad spårning och AI-drivna verktyg för att snabbt minska slöseri.",
         "cta": "Skaffa Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Allt i Pro, plus realtidsvarningar och prioriterad support.",
-        "cta": "Skaffa Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Utgiftsanalys",
       "aiCancelFinder": "AI-avbokningssökare",
       "emailReminders": "E-postpåminnelser",
-      "whatsappNotifs": "WhatsApp-meddelanden",
       "prioritySupport": "Prioriterad support"
-    }
+    },
+    "regionNote": "*Priserna kan variera beroende på region."
   },
   "cta": {
     "title": "Ta reda på vad du faktiskt betalar för.",

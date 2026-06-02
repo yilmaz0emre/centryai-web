@@ -87,7 +87,39 @@
     "label": "⚠ Zombie Waarschuwing",
     "title": "Je betaalt voor dingen waarvan je vergeten bent dat ze bestaan.",
     "desc": "Een zombie-abonnement is een dienst die je al weken niet hebt gebruikt maar waarvoor je elke maand blijft betalen. De meeste mensen hebben er twee of drie. CentryAI geeft elk abonnement een zombie-score zodat je precies weet welke je rekening leegtrekt.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Laatst gebruikt: 47 dagen geleden",
+      "Laatst gebruikt: 62 dagen geleden",
+      "Laatst gebruikt: 91 dagen geleden",
+      "3 dagen geleden gebruikt"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "AI Inbox Scanner",
+    "heading1": "Je was vergeten dat je ze had.",
+    "heading2": "Je inbox niet.",
+    "p1": "De meeste abonnementstracker vragen je alles handmatig toe te voegen. Maar als je al vergeten bent dat een abonnement bestaat — hoe zou je dan weten dat je het moet toevoegen?",
+    "p2": "CentryAI verbindt met Gmail of iCloud, scant je bonnen en detecteert automatisch elke terugkerende afschrijving — ook die van 3 jaar geleden.",
+    "perks": [
+      "Gmail & iCloud ondersteund",
+      "Alleen-lezen toegang — e-mails worden nooit opgeslagen",
+      "90+ diensten automatisch gedetecteerd",
+      "Scan voltooid in minder dan 60 seconden"
+    ],
+    "windowTitle": "CentryAI · Inbox Scanner",
+    "connecting": "Verbinding maken met Gmail",
+    "scanning": "Bonnen scannen · 847 e-mails",
+    "complete": "✓ Scan voltooid · 11 abonnementen gevonden",
+    "waiting": "Wachten op scan…",
+    "subAges": [
+      "2 jaar geleden",
+      "8 maanden geleden",
+      "3 maanden geleden",
+      "1 jaar geleden",
+      "47 dagen geleden"
+    ],
+    "moreFound": "+ nog 6 abonnementen gevonden"
   },
   "testimonials": {
     "eyebrow": "Wat gebruikers zeggen",
@@ -152,6 +184,12 @@
     "sub": "Begin gratis. Upgrade wanneer je er klaar voor bent — annuleer op elk moment.",
     "note": "Alle abonnementen bevatten een gratis proefperiode van 7 dagen. Geen creditcard vereist om te beginnen.",
     "mostPopular": "Meest Populair",
+    "billing": {
+      "monthly": "Maandelijks",
+      "annual": "Jaarlijks",
+      "savePill": "Bespaar 37%",
+      "billedAnnually": "jaarlijks gefactureerd"
+    },
     "plans": {
       "free": {
         "name": "Gratis",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Onbeperkt volgen en AI-aangedreven tools om verspilling snel te verminderen.",
         "cta": "Krijg Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Alles in Pro, plus real-time waarschuwingen en prioriteitsondersteuning.",
-        "cta": "Krijg Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Uitgavenanalyses",
       "aiCancelFinder": "AI annuleringszoeker",
       "emailReminders": "E-mailherinneringen",
-      "whatsappNotifs": "WhatsApp-meldingen",
       "prioritySupport": "Prioriteitsondersteuning"
-    }
+    },
+    "regionNote": "*Prijzen kunnen per regio variëren."
   },
   "cta": {
     "title": "Ontdek waarvoor je werkelijk betaalt.",

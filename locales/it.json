@@ -87,7 +87,39 @@
     "label": "⚠ Allarme Zombie",
     "title": "Stai pagando per cose che hai dimenticato esistessero.",
     "desc": "Un abbonamento zombie è uno che non tocchi da settimane ma che continui a pagare ogni mese. La maggior parte delle persone ne ha due o tre. CentryAI assegna a ogni abbonamento un punteggio zombie così sai esattamente quali stanno prosciugando il tuo conto.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Ultimo utilizzo: 47 giorni fa",
+      "Ultimo utilizzo: 62 giorni fa",
+      "Ultimo utilizzo: 91 giorni fa",
+      "Usato 3 giorni fa"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Scanner Posta in Arrivo IA",
+    "heading1": "Avevi dimenticato di averli.",
+    "heading2": "La tua casella di posta no.",
+    "p1": "La maggior parte dei tracker di abbonamenti ti chiede di aggiungere tutto manualmente. Ma se hai già dimenticato che un abbonamento esiste — come faresti a sapere di aggiungerlo?",
+    "p2": "CentryAI si connette a Gmail o iCloud, analizza le tue ricevute e individua automaticamente ogni addebito ricorrente — inclusi quelli di 3 anni fa.",
+    "perks": [
+      "Gmail e iCloud supportati",
+      "Accesso in sola lettura — le email non vengono mai archiviate",
+      "Oltre 90 servizi rilevati automaticamente",
+      "Scansione completata in meno di 60 secondi"
+    ],
+    "windowTitle": "CentryAI · Scanner Posta in Arrivo",
+    "connecting": "Connessione a Gmail",
+    "scanning": "Scansione ricevute · 847 email",
+    "complete": "✓ Scansione completata · 11 abbonamenti trovati",
+    "waiting": "In attesa della scansione…",
+    "subAges": [
+      "2 anni fa",
+      "8 mesi fa",
+      "3 mesi fa",
+      "1 anno fa",
+      "47 giorni fa"
+    ],
+    "moreFound": "+ altri 6 abbonamenti trovati"
   },
   "testimonials": {
     "eyebrow": "Cosa dicono gli utenti",
@@ -152,6 +184,12 @@
     "sub": "Inizia gratis. Fai l'upgrade quando sei pronto — annulla in qualsiasi momento.",
     "note": "Tutti i piani includono una prova gratuita di 7 giorni. Nessuna carta di credito richiesta per iniziare.",
     "mostPopular": "Più Popolare",
+    "billing": {
+      "monthly": "Mensile",
+      "annual": "Annuale",
+      "savePill": "Risparmia il 37%",
+      "billedAnnually": "fatturato annualmente"
+    },
     "plans": {
       "free": {
         "name": "Gratis",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Tracciamento illimitato e strumenti basati su IA per tagliare gli sprechi rapidamente.",
         "cta": "Ottieni Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Tutto quello incluso nel Pro, più avvisi in tempo reale e supporto prioritario.",
-        "cta": "Ottieni Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Analisi della spesa",
       "aiCancelFinder": "Trova disdetta IA",
       "emailReminders": "Promemoria via email",
-      "whatsappNotifs": "Notifiche WhatsApp",
       "prioritySupport": "Supporto prioritario"
-    }
+    },
+    "regionNote": "*I prezzi possono variare in base alla regione."
   },
   "cta": {
     "title": "Scopri per cosa stai davvero pagando.",

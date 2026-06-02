@@ -87,7 +87,39 @@
     "label": "⚠ Peringatan Zombi",
     "title": "Anda membayar untuk hal-hal yang lupa Anda ada.",
     "desc": "Langganan zombie adalah yang belum Anda sentuh selama berminggu-minggu tetapi terus Anda bayar setiap bulan. Kebanyakan orang memiliki dua atau tiga. CentryAI memberi setiap langganan skor zombie sehingga Anda tahu persis mana yang menguras akun Anda.",
-    "flagLabel": "Zombi"
+    "flagLabel": "Zombi",
+    "subLabels": [
+      "Terakhir digunakan: 47 hari lalu",
+      "Terakhir digunakan: 62 hari lalu",
+      "Terakhir digunakan: 91 hari lalu",
+      "Digunakan 3 hari lalu"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Pemindai Kotak Masuk AI",
+    "heading1": "Anda lupa bahwa Anda memilikinya.",
+    "heading2": "Kotak masuk Anda tidak lupa.",
+    "p1": "Sebagian besar pelacak langganan meminta Anda menambahkan semuanya secara manual. Tapi jika Anda sudah lupa bahwa suatu langganan ada — bagaimana Anda tahu harus menambahkannya?",
+    "p2": "CentryAI terhubung ke Gmail atau iCloud, memindai tanda terima Anda, dan secara otomatis menemukan setiap tagihan berulang — termasuk yang dari 3 tahun lalu.",
+    "perks": [
+      "Mendukung Gmail & iCloud",
+      "Akses hanya-baca — email tidak pernah disimpan",
+      "90+ layanan terdeteksi otomatis",
+      "Pemindaian selesai dalam waktu kurang dari 60 detik"
+    ],
+    "windowTitle": "CentryAI · Pemindai Kotak Masuk",
+    "connecting": "Menghubungkan ke Gmail",
+    "scanning": "Memindai tanda terima · 847 email",
+    "complete": "✓ Pemindaian selesai · 11 langganan ditemukan",
+    "waiting": "Menunggu pemindaian…",
+    "subAges": [
+      "2 tahun lalu",
+      "8 bulan lalu",
+      "3 bulan lalu",
+      "1 tahun lalu",
+      "47 hari lalu"
+    ],
+    "moreFound": "+ 6 langganan lagi ditemukan"
   },
   "testimonials": {
     "eyebrow": "Apa kata pengguna",
@@ -152,6 +184,12 @@
     "sub": "Mulai gratis. Tingkatkan kapan pun Anda siap — batalkan kapan saja.",
     "note": "Semua paket sudah termasuk uji coba gratis 7 hari. Tidak perlu kartu kredit untuk memulai.",
     "mostPopular": "Paling Populer",
+    "billing": {
+      "monthly": "Bulanan",
+      "annual": "Tahunan",
+      "savePill": "Hemat 37%",
+      "billedAnnually": "ditagih setiap tahun"
+    },
     "plans": {
       "free": {
         "name": "Gratis",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Pelacakan tak terbatas dan alat bertenaga AI untuk mengurangi pemborosan dengan cepat.",
         "cta": "Dapatkan Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Semua yang ada di Pro, ditambah peringatan waktu nyata dan dukungan prioritas.",
-        "cta": "Dapatkan Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Analitik pengeluaran",
       "aiCancelFinder": "Pencari Batal AI",
       "emailReminders": "Pengingat email",
-      "whatsappNotifs": "Notifikasi WhatsApp",
       "prioritySupport": "Dukungan prioritas"
-    }
+    },
+    "regionNote": "*Harga dapat bervariasi berdasarkan wilayah."
   },
   "cta": {
     "title": "Temukan apa yang sebenarnya Anda bayar.",

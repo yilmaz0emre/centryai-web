@@ -87,7 +87,39 @@
     "label": "⚠ Alerte Zombie",
     "title": "Vous payez pour des choses dont vous avez oublié l'existence.",
     "desc": "Un abonnement zombie est un service que vous n'avez pas utilisé depuis des semaines mais que vous continuez à payer chaque mois. La plupart des gens en ont deux ou trois. CentryAI attribue un score zombie à chaque abonnement pour que vous sachiez exactement lesquels saignent votre compte.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Dernière utilisation : il y a 47 jours",
+      "Dernière utilisation : il y a 62 jours",
+      "Dernière utilisation : il y a 91 jours",
+      "Utilisé il y a 3 jours"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "Scanneur de boîte mail IA",
+    "heading1": "Vous aviez oublié qu'ils existaient.",
+    "heading2": "Votre boîte mail, non.",
+    "p1": "La plupart des outils de suivi d'abonnements vous demandent de tout saisir manuellement. Mais si vous avez déjà oublié qu'un abonnement existe — comment sauriez-vous quoi ajouter ?",
+    "p2": "CentryAI se connecte à Gmail ou iCloud, analyse vos reçus et détecte automatiquement tous les prélèvements récurrents — y compris ceux d'il y a 3 ans.",
+    "perks": [
+      "Gmail & iCloud compatibles",
+      "Accès en lecture seule — les e-mails ne sont jamais stockés",
+      "Plus de 90 services détectés automatiquement",
+      "Scan terminé en moins de 60 secondes"
+    ],
+    "windowTitle": "CentryAI · Scanneur de Boîte Mail",
+    "connecting": "Connexion à Gmail",
+    "scanning": "Analyse des reçus · 847 e-mails",
+    "complete": "✓ Scan terminé · 11 abonnements trouvés",
+    "waiting": "En attente du scan…",
+    "subAges": [
+      "il y a 2 ans",
+      "il y a 8 mois",
+      "il y a 3 mois",
+      "il y a 1 an",
+      "il y a 47 jours"
+    ],
+    "moreFound": "+ 6 abonnements supplémentaires trouvés"
   },
   "testimonials": {
     "eyebrow": "Ce que disent les utilisateurs",
@@ -152,6 +184,12 @@
     "sub": "Commencez gratuitement. Passez à la version supérieure quand vous êtes prêt — annulez à tout moment.",
     "note": "Tous les forfaits incluent un essai gratuit de 7 jours. Aucune carte de crédit n'est requise pour commencer.",
     "mostPopular": "Le plus populaire",
+    "billing": {
+      "monthly": "Mensuel",
+      "annual": "Annuel",
+      "savePill": "Économisez 37%",
+      "billedAnnually": "facturé annuellement"
+    },
     "plans": {
       "free": {
         "name": "Gratuit",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Suivi illimité et outils basés sur l'IA pour réduire le gaspillage rapidement.",
         "cta": "Obtenir Pro"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Tout ce qui est dans Pro, plus des alertes en temps réel et un support prioritaire.",
-        "cta": "Obtenir Premium"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Analyses des dépenses",
       "aiCancelFinder": "Outil d'annulation IA",
       "emailReminders": "Rappels par e-mail",
-      "whatsappNotifs": "Notifications WhatsApp",
       "prioritySupport": "Support prioritaire"
-    }
+    },
+    "regionNote": "*Les prix peuvent varier selon la région."
   },
   "cta": {
     "title": "Découvrez ce que vous payez vraiment.",

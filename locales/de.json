@@ -87,7 +87,39 @@
     "label": "⚠ Zombie-Alarm",
     "title": "Sie zahlen für Dinge, die Sie vergessen haben zu existieren.",
     "desc": "Ein Zombie-Abonnement ist eines, das Sie seit Wochen nicht mehr genutzt haben, aber jeden Monat weiter bezahlen. Die meisten Menschen haben zwei oder drei. CentryAI vergibt jedem Abonnement einen Zombie-Score, damit Sie genau wissen, welche Ihr Konto belasten.",
-    "flagLabel": "Zombie"
+    "flagLabel": "Zombie",
+    "subLabels": [
+      "Zuletzt genutzt: vor 47 Tagen",
+      "Zuletzt genutzt: vor 62 Tagen",
+      "Zuletzt genutzt: vor 91 Tagen",
+      "Vor 3 Tagen genutzt"
+    ]
+  },
+  "emailScanner": {
+    "eyebrow": "KI-Posteingang-Scanner",
+    "heading1": "Sie haben vergessen, dass Sie sie hatten.",
+    "heading2": "Ihr Posteingang nicht.",
+    "p1": "Die meisten Abo-Tracker bitten Sie, alles manuell einzutragen. Aber wenn Sie ein Abo bereits vergessen haben — wie würden Sie wissen, dass Sie es hinzufügen sollen?",
+    "p2": "CentryAI verbindet sich mit Gmail oder iCloud, scannt Ihre Quittungen und findet automatisch alle wiederkehrenden Abbuchungen — auch solche von vor 3 Jahren.",
+    "perks": [
+      "Gmail & iCloud unterstützt",
+      "Nur-Lese-Zugriff — E-Mails werden nie gespeichert",
+      "90+ Dienste automatisch erkannt",
+      "Scan abgeschlossen in unter 60 Sekunden"
+    ],
+    "windowTitle": "CentryAI · Posteingang-Scanner",
+    "connecting": "Verbindung mit Gmail",
+    "scanning": "Quittungen werden gescannt · 847 E-Mails",
+    "complete": "✓ Scan abgeschlossen · 11 Abonnements gefunden",
+    "waiting": "Warte auf den Scan…",
+    "subAges": [
+      "vor 2 Jahren",
+      "vor 8 Monaten",
+      "vor 3 Monaten",
+      "vor 1 Jahr",
+      "vor 47 Tagen"
+    ],
+    "moreFound": "+ 6 weitere Abonnements gefunden"
   },
   "testimonials": {
     "eyebrow": "Was Nutzer sagen",
@@ -152,6 +184,12 @@
     "sub": "Starten Sie kostenlos. Upgrade, wenn Sie bereit sind — jederzeit kündbar.",
     "note": "Alle Pläne beinhalten eine 7-tägige kostenlose Testversion. Keine Kreditkarte für den Start erforderlich.",
     "mostPopular": "Am beliebtesten",
+    "billing": {
+      "monthly": "Monatlich",
+      "annual": "Jährlich",
+      "savePill": "37% sparen",
+      "billedAnnually": "jährlich abgerechnet"
+    },
     "plans": {
       "free": {
         "name": "Kostenlos",
@@ -162,11 +200,6 @@
         "name": "Pro",
         "desc": "Unbegrenztes Tracking und KI-gestützte Tools, um Verschwendung schnell zu stoppen.",
         "cta": "Pro holen"
-      },
-      "premium": {
-        "name": "Premium",
-        "desc": "Alles aus Pro, plus Echtzeit-Warnungen und bevorzugter Support.",
-        "cta": "Premium holen"
       }
     },
     "features": {
@@ -179,9 +212,9 @@
       "spendingAnalytics": "Ausgabenanalysen",
       "aiCancelFinder": "KI-Kündigungsfinder",
       "emailReminders": "E-Mail-Erinnerungen",
-      "whatsappNotifs": "WhatsApp-Benachrichtigungen",
       "prioritySupport": "Bevorzugter Support"
-    }
+    },
+    "regionNote": "*Preise können je nach Region variieren."
   },
   "cta": {
     "title": "Finden Sie heraus, wofür Sie wirklich zahlen.",
