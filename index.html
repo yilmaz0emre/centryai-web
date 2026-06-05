@@ -1176,12 +1176,12 @@ function StatBar() {
   const [counted, setCounted] = useState(false);
   const ref = useRef(null);
   const [vals, setVals] = useState([0, 0, 0, 0]);
-  const targets = [240000, 47, 4.8, 2400000];
+  const targets = [90, 47, 18, 0];
   const formats = [
-    v => (v/1000).toFixed(0)+'K+',
+    v => v+'+',
     v => '$'+v,
-    v => v.toFixed(1)+'★',
-    v => '$'+(v/1000000).toFixed(1)+'M+'
+    v => v+'',
+    v => v+''
   ];
   const labels = [t('stats.downloads'), t('stats.monthlyWaste'), t('stats.appRating'), t('stats.userSavings')];
 
@@ -1402,14 +1402,14 @@ function FAQ() {
 function StoreBtns({ id = '' }) {
   return (
     <div className="hero-ctas">
-      <a href="#" className="btn-store btn-store-apple" id={`${id}appstore-btn`}>
+      <a href="#waitlist" className="btn-store btn-store-apple" id={`${id}appstore-btn`}>
         <AppleLogo />
         <span className="btn-store-text">
           <span className="btn-store-small">{t("hero.appStoreSmall")}</span>
           <span className="btn-store-name">{t("hero.appStoreName")}</span>
         </span>
       </a>
-      <a href="#" className="btn-store btn-store-google" id={`${id}googleplay-btn`}>
+      <a href="#waitlist" className="btn-store btn-store-google" id={`${id}googleplay-btn`}>
         <PlayLogo />
         <span className="btn-store-text">
           <span className="btn-store-small" style={{color:'#1f1f1f', opacity: 0.65}}>{t("hero.googlePlaySmall")}</span>
@@ -1660,7 +1660,6 @@ function App() {
               <StoreBtns id="hero-" />
             </div>
             <div className="hero-trust">
-              <span className="hero-trust-stars">★★★★★</span>
               <span>{t("hero.trust")}</span>
             </div>
           </div>
