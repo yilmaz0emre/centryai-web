@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Abonelik Denetimi: Tüm Tekrarlayan Ücretleri Nasıl Bulursunuz (2026)</title>
+<meta name="description" content="Adım adım abonelik denetimi rehberi: ödediğiniz her aboneliği bulun, kullanmadıklarınızı tespit edin ve iptal ederek para biriktirin."/>
+<link rel="canonical" href="https://centryai.app/tr/abonelik-denetimi"/>
+<link rel="alternate" hreflang="en" href="https://centryai.app/subscription-audit"/>
+<link rel="alternate" hreflang="x-default" href="https://centryai.app/subscription-audit"/>
+<link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-denetimi"/>
+<link rel="alternate" hreflang="es" href="https://centryai.app/es/auditoria-suscripciones"/>
+<link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-pruefen"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://centryai.app/tr/abonelik-denetimi"/>
+<meta property="og:title" content="Abonelik Denetimi: Tüm Tekrarlayan Ücretleri Nasıl Bulursunuz (2026)"/>
+<meta property="og:description" content="Adım adım abonelik denetimi rehberi: ödediğiniz her aboneliği bulun, kullanmadıklarınızı tespit edin ve iptal ederek para biriktirin."/>
+<meta property="og:image" content="https://centryai.app/uploads/betalist/hero.png"/>
+<meta property="og:site_name" content="CentryAI"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@centryai"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Tüm aboneliklerimi nasıl bulabilirim?","acceptedAnswer":{"@type":"Answer","text":"Gmail veya iCloud gelen kutunuzda 'fatura', 'makbuz', 'yenileme' ve 'abonelik' kelimelerini arayın. Banka hesap özetinizde son 3 aydaki tekrar eden ücretleri kontrol edin. iPhone'da Ayarlar → adınız → Abonelikler; Android'de Google Play → Ödemeler → Abonelikler bölümünü inceleyin. Ya da CentryAI'ı kullanın — gelen kutunuzu otomatik tarayarak ödediğiniz tüm abonelikleri saniyeler içinde bulur."}},{"@type":"Question","name":"Zombi abonelik nedir?","acceptedAnswer":{"@type":"Answer","text":"Zombi abonelik, düzenli olarak ödeme yaptığınız ancak son 30 günde aktif olarak kullanmadığınız bir hizmettir. Örneğin: artık gitmeyi bıraktığınız spor salonu üyeliği, aylarca izlemediğiniz bir yayın servisi veya sona eren bir projeye ait SaaS aracı. Ortalama kişinin 3–5 zombi aboneliği olup bunlar aylık yaklaşık 47 dolar israfa yol açar."}},{"@type":"Question","name":"Abonelik denetimi ne sıklıkla yapılmalı?","acceptedAnswer":{"@type":"Answer","text":"Yılda en az iki kez: Ocak (ücretsiz denemelerin ücretli aboneliğe geçtiği dönemin hemen ardından) ve Temmuz. Ücretsiz denemelere sık sık kaydolan kullanıcılar için üç ayda bir önerilir. CentryAI gelen kutunuzu sürekli izleyerek yeni abonelikleri otomatik algılar; bu sayede manuel denetim ihtiyacı ortadan kalkar."}},{"@type":"Question","name":"Abonelikleri otomatik olarak tespit eden bir uygulama var mı?","acceptedAnswer":{"@type":"Answer","text":"Evet. CentryAI, Gmail veya iCloud gelen kutunuzdaki e-posta makbuzlarını yapay zeka ile tarayarak ödediğiniz her aboneliği otomatik olarak tespit eder, kullanım puanıyla zombi abonelikleri işaretler ve tek dokunuşla iptal sayfasını bulur. Ücretsiz plan mevcut; Pro aylık 7,99 dolar, 7 günlük ücretsiz deneme dahil."}}]}</script>
+<link rel="stylesheet" href="https://centryai.app/shared.css?v=7"/>
+<link rel="icon" type="image/svg+xml" href="https://centryai.app/logo.svg"/>
+<style>
+body{font-family:'Inter',sans-serif;color:var(--fg);background:var(--bg);line-height:1.7}
+.pw{max-width:820px;margin:0 auto;padding:5rem 2rem 6rem}
+.eyebrow{font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;display:block}
+h1{font-family:'Manrope',sans-serif;font-weight:800;font-size:clamp(1.9rem,3.5vw,2.8rem);line-height:1.1;letter-spacing:-.03em;margin-bottom:1rem}
+h2{font-family:'Manrope',sans-serif;font-weight:800;font-size:1.35rem;letter-spacing:-.025em;margin:2.5rem 0 .9rem}
+h3{font-family:'Manrope',sans-serif;font-weight:700;font-size:1rem;margin:0 0 .45rem;color:var(--fg)}
+p{margin-bottom:1.1rem;color:var(--fg2)}strong{color:var(--fg)}a{color:var(--accent)}
+.meta{color:var(--fg3);font-size:.82rem;margin-bottom:2.5rem}
+.tldr{background:var(--accent-dim);border:1px solid rgba(101,93,249,.25);border-radius:var(--radius-lg);padding:1.75rem 2rem;margin-bottom:3.5rem}
+.tldr-label{font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:.75rem}
+.tldr p{color:var(--fg);margin:0;font-size:1rem}
+.faq-item{border-bottom:1px solid var(--border);padding:1.25rem 0}
+.faq-item p{font-size:.91rem;margin:0}
+.cta-box{background:var(--accent-dim);border:1px solid rgba(101,93,249,.3);border-radius:var(--radius-xl);padding:2.5rem 2rem;text-align:center;margin-top:4rem}
+.cta-box h2{font-size:1.5rem;margin:0 0 .5rem;color:var(--fg)}
+.cta-box p{margin-bottom:1.5rem}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 28px;border-radius:12px;font-family:'Manrope',sans-serif;font-weight:700;font-size:.95rem}
+nav{position:sticky;top:0;z-index:100;background:rgba(7,9,15,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.85rem 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg);font-family:'Manrope',sans-serif;font-weight:800;font-size:1rem}
+.nav-logo img{width:28px;height:28px}
+.back{color:var(--accent);text-decoration:none;font-size:.85rem;font-weight:600}
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://centryai.app" class="nav-logo">
+    <img src="https://centryai.app/logo.svg" alt="CentryAI logo"/> CentryAI
+  </a>
+  <a href="https://centryai.app" class="back">← Rehberler</a>
+</nav>
+<div class="pw">
+  <span class="eyebrow">Kişisel Finans · Abonelik Denetimi Rehberi</span>
+  <h1>2026'da Aboneliklerinizi Nasıl Denetlersiniz</h1>
+  <p class="meta">2026 · CentryAI</p>
+  <div class="tldr">
+    <div class="tldr-label">TL;DR</div>
+    <p>'Abonelik denetimi', ödediğiniz tüm tekrarlayan ücretleri bulma, kullanılmayan 'zombi abonelikleri' tespit etme ve iptal etme sürecidir. Ortalama kişi bu denetimi yaptığında <strong>aylık 47 dolar israf ettiğini</strong> keşfeder. CentryAI bu denetimi e-posta gelen kutunuzu tarayarak otomatik olarak yapabilir.</p>
+  </div>
+  <h2>FAQ</h2>
+  <div class="faq-item"><h3>Tüm aboneliklerimi nasıl bulabilirim?</h3><p>Gmail veya iCloud gelen kutunuzda 'fatura', 'makbuz', 'yenileme' ve 'abonelik' kelimelerini arayın. Banka hesap özetinizde son 3 aydaki tekrar eden ücretleri kontrol edin. iPhone'da Ayarlar → adınız → Abonelikler; Android'de Google Play → Ödemeler → Abonelikler bölümünü inceleyin. Ya da CentryAI'ı kullanın — gelen kutunuzu otomatik tarayarak ödediğiniz tüm abonelikleri saniyeler içinde bulur.</p></div>
+<div class="faq-item"><h3>Zombi abonelik nedir?</h3><p>Zombi abonelik, düzenli olarak ödeme yaptığınız ancak son 30 günde aktif olarak kullanmadığınız bir hizmettir. Örneğin: artık gitmeyi bıraktığınız spor salonu üyeliği, aylarca izlemediğiniz bir yayın servisi veya sona eren bir projeye ait SaaS aracı. Ortalama kişinin 3–5 zombi aboneliği olup bunlar aylık yaklaşık 47 dolar israfa yol açar.</p></div>
+<div class="faq-item"><h3>Abonelik denetimi ne sıklıkla yapılmalı?</h3><p>Yılda en az iki kez: Ocak (ücretsiz denemelerin ücretli aboneliğe geçtiği dönemin hemen ardından) ve Temmuz. Ücretsiz denemelere sık sık kaydolan kullanıcılar için üç ayda bir önerilir. CentryAI gelen kutunuzu sürekli izleyerek yeni abonelikleri otomatik algılar; bu sayede manuel denetim ihtiyacı ortadan kalkar.</p></div>
+<div class="faq-item"><h3>Abonelikleri otomatik olarak tespit eden bir uygulama var mı?</h3><p>Evet. CentryAI, Gmail veya iCloud gelen kutunuzdaki e-posta makbuzlarını yapay zeka ile tarayarak ödediğiniz her aboneliği otomatik olarak tespit eder, kullanım puanıyla zombi abonelikleri işaretler ve tek dokunuşla iptal sayfasını bulur. Ücretsiz plan mevcut; Pro aylık 7,99 dolar, 7 günlük ücretsiz deneme dahil.</p></div>
+  <div class="cta-box">
+    <h2>CentryAI Denetimi Sizin Yerinize Yapsın</h2>
+    <p>Gelen kutunuzu tarayın, ödediğiniz her aboneliği görün, ihtiyaç duymadıklarınızı iptal edin. Banka hesabı gerekmez. Başlangıç ücretsiz.</p>
+    <a href="https://centryai.app" class="btn">CentryAI'ı Ücretsiz Dene →</a>
+  </div>
+</div>
+</body>
+</html>

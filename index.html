@@ -3,8 +3,158 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>CentryAI — Stop Paying for Apps You've Forgotten</title>
-<meta name="description" content="CentryAI automatically detects every subscription, flags unused ones, and helps you cancel — for free. Take control of your recurring spend."/>
+<title>CentryAI — Subscription Tracker & Zombie Sub Detector</title>
+<meta name="description" content="CentryAI automatically scans your inbox, detects every subscription, flags unused 'zombie' subs, and finds the cancel page in one tap. Free to start. iOS & Android."/>
+<link rel="canonical" href="https://centryai.app/"/>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://centryai.app/"/>
+<meta property="og:title" content="CentryAI — Subscription Tracker & Zombie Sub Detector"/>
+<meta property="og:description" content="Automatically scan your Gmail or iCloud inbox to find every subscription you're paying for. Cancel the ones you forgot. Free to start."/>
+<meta property="og:image" content="https://centryai.app/uploads/betalist/hero.png"/>
+<meta property="og:image:width" content="1600"/>
+<meta property="og:image:height" content="1200"/>
+<meta property="og:site_name" content="CentryAI"/>
+<meta property="og:locale" content="en_US"/>
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@centryai"/>
+<meta name="twitter:title" content="CentryAI — Find & Cancel Zombie Subscriptions"/>
+<meta name="twitter:description" content="AI-powered subscription tracker. Scans your inbox, detects forgotten subs, finds the cancel page in one tap. iOS & Android — free to start."/>
+<meta name="twitter:image" content="https://centryai.app/uploads/betalist/hero.png"/>
+
+<!-- App meta -->
+<meta name="application-name" content="CentryAI"/>
+<meta name="apple-itunes-app" content="app-id=6742588498"/>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://centryai.app/#organization",
+      "name": "CentryAI",
+      "url": "https://centryai.app",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://centryai.app/logo.svg"
+      },
+      "sameAs": [
+        "https://twitter.com/centryai"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://centryai.app/#website",
+      "url": "https://centryai.app",
+      "name": "CentryAI",
+      "publisher": { "@id": "https://centryai.app/#organization" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://centryai.app/#app",
+      "name": "CentryAI",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "CentryAI is a subscription tracker that automatically scans your Gmail or iCloud inbox to detect every subscription you pay for. It scores unused subscriptions as 'zombies,' helps you cancel them with a single tap via Cancel Finder, and sends renewal reminders in 18 languages.",
+      "url": "https://centryai.app",
+      "publisher": { "@id": "https://centryai.app/#organization" },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Track up to 3 subscriptions manually. Free forever."
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro Monthly",
+          "price": "7.99",
+          "priceCurrency": "USD",
+          "billingIncrement": "P1M",
+          "description": "Unlimited subscriptions, email scanning, zombie detection, cancel finder, analytics."
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro Annual",
+          "price": "59.99",
+          "priceCurrency": "USD",
+          "billingIncrement": "P1Y",
+          "description": "All Pro features at 37% savings vs monthly. Best value."
+        }
+      ],
+      "featureList": [
+        "Gmail and iCloud inbox scanning for subscription detection",
+        "Zombie subscription scoring (unused 30+ days)",
+        "Cancel Finder: AI-powered one-tap cancellation path",
+        "Renewal reminders with push notifications",
+        "Spending analytics with category breakdowns",
+        "Multi-currency support",
+        "18-language interface",
+        "No bank account required"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does CentryAI detect my subscriptions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CentryAI scans your Gmail or iCloud inbox using AI to automatically detect recurring subscription charges from your email receipts. It uses pattern recognition to identify subscriptions without storing your email content on our servers. You can also add subscriptions manually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are zombie subscriptions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zombie subscriptions are services you are actively paying for but haven't used in over 30 days. CentryAI tracks usage and assigns a zombie score so you know exactly which subscriptions are wasting your money. On average, users waste $47/month on zombie subscriptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my data safe with CentryAI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CentryAI never connects to your bank account. Email scanning uses read-only OAuth access and email content is processed in real-time — never stored on our servers. All subscription data is encrypted and stored securely in your account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can CentryAI cancel subscriptions for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CentryAI's Cancel Finder feature uses AI to find the fastest cancellation path for each service — including the direct cancel link, phone number, or step-by-step instructions. It makes cancellation as easy as one tap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is CentryAI free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CentryAI has a free plan that lets you track up to 3 subscriptions manually. CentryAI Pro ($7.99/month or $59.99/year) unlocks unlimited subscriptions, email scanning, zombie detection, cancel finder, and analytics. A 7-day free trial is included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CentryAI work without linking a bank account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Unlike competitors like Rocket Money or Truebill, CentryAI never requires bank account access. It detects subscriptions directly from your email receipts using read-only Gmail or iCloud access."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="stylesheet" href="shared.css?v=7"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
 <script src="langswitcher.js?v=7"></script>
@@ -1837,6 +1987,10 @@ function App() {
               <li><a href="#screenshots">{t("nav.appPreview")}</a></li>
               <li><a href="#faq">{t("nav.faq")}</a></li>
               <li><a href="#download">{t("footer.links.downloadLink")}</a></li>
+              <li><a href="best-subscription-tracker">Best Subscription Tracker Apps 2026</a></li>
+              <li><a href="subscription-audit">How to Audit Your Subscriptions</a></li>
+              <li><a href="how-to-cancel-subscriptions">How to Cancel Subscriptions</a></li>
+              <li><a href="save-money-on-subscriptions">Save Money on Subscriptions</a></li>
             </ul>
           </div>
           <div className="footer-col">

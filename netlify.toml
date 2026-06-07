@@ -23,12 +23,115 @@
   to = "/delete-account.html"
   status = 200
 
+[[redirects]]
+  from = "/best-subscription-tracker"
+  to = "/best-subscription-tracker.html"
+  status = 200
+
+[[redirects]]
+  from = "/rocket-money-alternative"
+  to = "/rocket-money-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/bobby-alternative"
+  to = "/bobby-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/truebill-alternative"
+  to = "/truebill-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/subscription-audit"
+  to = "/subscription-audit.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel-subscriptions"
+  to = "/how-to-cancel-subscriptions.html"
+  status = 200
+
+[[redirects]]
+  from = "/save-money-on-subscriptions"
+  to = "/save-money-on-subscriptions.html"
+  status = 200
+
+# Turkish pages
+[[redirects]]
+  from = "/tr/abonelik-denetimi"
+  to = "/tr/abonelik-denetimi.html"
+  status = 200
+
+[[redirects]]
+  from = "/tr/abonelik-iptali"
+  to = "/tr/abonelik-iptali.html"
+  status = 200
+
+[[redirects]]
+  from = "/tr/en-iyi-abonelik-takip-uygulamasi"
+  to = "/tr/en-iyi-abonelik-takip-uygulamasi.html"
+  status = 200
+
+# Spanish pages
+[[redirects]]
+  from = "/es/auditoria-suscripciones"
+  to = "/es/auditoria-suscripciones.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/cancelar-suscripciones"
+  to = "/es/cancelar-suscripciones.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/mejor-app-suscripciones"
+  to = "/es/mejor-app-suscripciones.html"
+  status = 200
+
+# German pages
+[[redirects]]
+  from = "/de/abonnements-pruefen"
+  to = "/de/abonnements-pruefen.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/abonnements-kuendigen"
+  to = "/de/abonnements-kuendigen.html"
+  status = 200
+
+[[redirects]]
+  from = "/de/bester-abonnement-tracker"
+  to = "/de/bester-abonnement-tracker.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/pricing.md"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
 
 [build]
   publish = "."
