@@ -58,6 +58,21 @@
   to = "/save-money-on-subscriptions.html"
   status = 200
 
+[[redirects]]
+  from = "/zombie-subscriptions"
+  to = "/zombie-subscriptions.html"
+  status = 200
+
+[[redirects]]
+  from = "/mint-alternative"
+  to = "/mint-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/subscription-manager"
+  to = "/subscription-manager.html"
+  status = 200
+
 # Turkish pages
 [[redirects]]
   from = "/tr/abonelik-denetimi"

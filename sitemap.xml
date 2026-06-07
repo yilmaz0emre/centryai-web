@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://centryai.app/</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/"/>
   </url>
   <url>
     <loc>https://centryai.app/privacy</loc>
@@ -30,12 +33,176 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
+
+  <!-- best-subscription-tracker cluster -->
   <url>
     <loc>https://centryai.app/best-subscription-tracker</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/en-iyi-abonelik-takip-uygulamasi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/bester-abonnement-tracker"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/mejor-app-suscripciones"/>
   </url>
+  <url>
+    <loc>https://centryai.app/tr/en-iyi-abonelik-takip-uygulamasi</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/en-iyi-abonelik-takip-uygulamasi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/bester-abonnement-tracker"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/mejor-app-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/de/bester-abonnement-tracker</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/en-iyi-abonelik-takip-uygulamasi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/bester-abonnement-tracker"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/mejor-app-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/es/mejor-app-suscripciones</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/best-subscription-tracker"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/en-iyi-abonelik-takip-uygulamasi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/bester-abonnement-tracker"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/mejor-app-suscripciones"/>
+  </url>
+
+  <!-- subscription-audit cluster -->
+  <url>
+    <loc>https://centryai.app/subscription-audit</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-denetimi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-pruefen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/auditoria-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/tr/abonelik-denetimi</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-denetimi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-pruefen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/auditoria-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/de/abonnements-pruefen</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-denetimi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-pruefen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/auditoria-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/es/auditoria-suscripciones</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/subscription-audit"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-denetimi"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-pruefen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/auditoria-suscripciones"/>
+  </url>
+
+  <!-- how-to-cancel-subscriptions cluster -->
+  <url>
+    <loc>https://centryai.app/how-to-cancel-subscriptions</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-iptali"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-kuendigen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/cancelar-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/tr/abonelik-iptali</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-iptali"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-kuendigen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/cancelar-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/de/abonnements-kuendigen</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-iptali"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-kuendigen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/cancelar-suscripciones"/>
+  </url>
+  <url>
+    <loc>https://centryai.app/es/cancelar-suscripciones</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/how-to-cancel-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://centryai.app/tr/abonelik-iptali"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://centryai.app/de/abonnements-kuendigen"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://centryai.app/es/cancelar-suscripciones"/>
+  </url>
+
+  <!-- subscription-manager (EN only) -->
+  <url>
+    <loc>https://centryai.app/subscription-manager</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/subscription-manager"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/subscription-manager"/>
+  </url>
+
+  <!-- mint-alternative (EN only) -->
+  <url>
+    <loc>https://centryai.app/mint-alternative</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/mint-alternative"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/mint-alternative"/>
+  </url>
+
+  <!-- zombie-subscriptions (EN only) -->
+  <url>
+    <loc>https://centryai.app/zombie-subscriptions</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://centryai.app/zombie-subscriptions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://centryai.app/zombie-subscriptions"/>
+  </url>
+
+  <!-- EN-only pages (no multilingual versions) -->
   <url>
     <loc>https://centryai.app/rocket-money-alternative</loc>
     <lastmod>2026-06-07</lastmod>
@@ -55,33 +222,9 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://centryai.app/subscription-audit</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://centryai.app/how-to-cancel-subscriptions</loc>
-    <lastmod>2026-06-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://centryai.app/save-money-on-subscriptions</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Turkish pages -->
-  <url><loc>https://centryai.app/tr/abonelik-denetimi</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://centryai.app/tr/abonelik-iptali</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://centryai.app/tr/en-iyi-abonelik-takip-uygulamasi</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <!-- Spanish pages -->
-  <url><loc>https://centryai.app/es/auditoria-suscripciones</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://centryai.app/es/cancelar-suscripciones</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://centryai.app/es/mejor-app-suscripciones</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <!-- German pages -->
-  <url><loc>https://centryai.app/de/abonnements-pruefen</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://centryai.app/de/abonnements-kuendigen</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://centryai.app/de/bester-abonnement-tracker</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
