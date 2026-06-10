@@ -83,6 +83,21 @@
   to = "/subscription-manager.html"
   status = 200
 
+[[redirects]]
+  from = "/subtrack-alternative"
+  to = "/subtrack-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/copilot-alternative"
+  to = "/copilot-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/free-subscription-tracker"
+  to = "/free-subscription-tracker.html"
+  status = 200
+
 # Turkish pages
 [[redirects]]
   from = "/tr/abonelik-denetimi"
