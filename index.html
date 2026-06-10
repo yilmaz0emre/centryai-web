@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-797YR2TT46"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-797YR2TT46');</script>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>CentryAI — Subscription Tracker & Zombie Sub Detector</title>
@@ -14,7 +16,7 @@
 <meta property="og:url" content="https://centryai.app/"/>
 <meta property="og:title" content="CentryAI — Subscription Tracker & Zombie Sub Detector"/>
 <meta property="og:description" content="Automatically scan your Gmail or iCloud inbox to find every subscription you're paying for. Cancel the ones you forgot. Free to start."/>
-<meta property="og:image" content="https://centryai.app/uploads/betalist/hero.png"/>
+<meta property="og:image" content="https://centryai.app/uploads/betalist/hero.webp"/>
 <meta property="og:image:width" content="1600"/>
 <meta property="og:image:height" content="1200"/>
 <meta property="og:site_name" content="CentryAI"/>
@@ -25,7 +27,7 @@
 <meta name="twitter:site" content="@centryai"/>
 <meta name="twitter:title" content="CentryAI — Find & Cancel Zombie Subscriptions"/>
 <meta name="twitter:description" content="AI-powered subscription tracker. Scans your inbox, detects forgotten subs, finds the cancel page in one tap. iOS & Android — free to start."/>
-<meta name="twitter:image" content="https://centryai.app/uploads/betalist/hero.png"/>
+<meta name="twitter:image" content="https://centryai.app/uploads/betalist/hero.webp"/>
 
 <!-- App meta -->
 <meta name="application-name" content="CentryAI"/>
@@ -161,6 +163,7 @@
 }
 </script>
 <link rel="stylesheet" href="shared.css?v=7"/>
+<link rel="icon" href="favicon.ico" sizes="any"/>
 <link rel="icon" type="image/svg+xml" href="logo.svg"/>
 <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png"/>
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png"/>
@@ -1057,15 +1060,15 @@ const { useState, useEffect, useRef } = React;
 
 /* ── Screenshots data ── */
 const SCREENSHOTS = [
-  { src: 'uploads/phone-dark-dashboard.png',    caption: t('screenshots.captions.dashboard') },
-  { src: 'uploads/phone-dark-list.png',          caption: t('screenshots.captions.subscriptions') },
-  { src: 'uploads/phone-dark-calendar.png',      caption: t('screenshots.captions.calendar') },
-  { src: 'uploads/phone-dark-netflix.png',       caption: t('screenshots.captions.detailView') },
-  { src: 'uploads/phone-dark-aicancelfinder.png',caption: t('screenshots.captions.aiCancelFinder') },
-  { src: 'uploads/phone-dark-aiscanner.png',     caption: t('screenshots.captions.aiScanner') },
-  { src: 'uploads/phone-dark-emailscanner.png',  caption: t('screenshots.captions.emailScanner') },
-  { src: 'uploads/phone-dark-googlesearch.png',  caption: t('screenshots.captions.googleSearch') },
-  { src: 'uploads/phone-dark-language.png',      caption: t('screenshots.captions.languageSupport') },
+  { src: 'uploads/phone-dark-dashboard.webp',    caption: t('screenshots.captions.dashboard') },
+  { src: 'uploads/phone-dark-list.webp',          caption: t('screenshots.captions.subscriptions') },
+  { src: 'uploads/phone-dark-calendar.webp',      caption: t('screenshots.captions.calendar') },
+  { src: 'uploads/phone-dark-netflix.webp',       caption: t('screenshots.captions.detailView') },
+  { src: 'uploads/phone-dark-aicancelfinder.webp',caption: t('screenshots.captions.aiCancelFinder') },
+  { src: 'uploads/phone-dark-aiscanner.webp',     caption: t('screenshots.captions.aiScanner') },
+  { src: 'uploads/phone-dark-emailscanner.webp',  caption: t('screenshots.captions.emailScanner') },
+  { src: 'uploads/phone-dark-googlesearch.webp',  caption: t('screenshots.captions.googleSearch') },
+  { src: 'uploads/phone-dark-language.webp',      caption: t('screenshots.captions.languageSupport') },
 ];
 
 /* ── Pricing data ── */
@@ -1314,14 +1317,14 @@ function PhoneGallery() {
       <div className="phone-glow" />
       <div className="iphone17-side" aria-hidden="true">
         <img
-          src="uploads/phone-light-netflix.png"
-          alt=""
+          src="uploads/phone-light-netflix.webp"
+          alt="CentryAI app — Netflix subscription light mode"
           style={{width:'100%',height:'auto',display:'block'}}
         />
       </div>
       <div className="iphone17-main">
         <img
-          src="uploads/phone-dark-netflix.png"
+          src="uploads/phone-dark-netflix.webp"
           alt="CentryAI app — Netflix subscription detail with zombie risk score"
           style={{width:'100%',height:'auto',display:'block'}}
         />
@@ -1652,7 +1655,7 @@ function EmailScannerSpotlight() {
         <div className="email-scanner-phone-wrap">
           <div className="email-scanner-phone-glow" />
           <img
-            src="uploads/phone-dark-aiscanner.png"
+            src="uploads/phone-dark-aiscanner.webp"
             alt="CentryAI AI inbox scanner"
             className="email-scanner-phone-img"
           />
@@ -2000,6 +2003,9 @@ function App() {
               <li><a href="subscription-audit">How to Audit Your Subscriptions</a></li>
               <li><a href="how-to-cancel-subscriptions">How to Cancel Subscriptions</a></li>
               <li><a href="save-money-on-subscriptions">Save Money on Subscriptions</a></li>
+              <li><a href="rocket-money-alternative">Rocket Money Alternative</a></li>
+              <li><a href="zombie-subscriptions">What Are Zombie Subscriptions?</a></li>
+              <li><a href="best-subscription-tracker-no-bank-linking">Trackers Without Bank Linking</a></li>
             </ul>
           </div>
           <div className="footer-col">
