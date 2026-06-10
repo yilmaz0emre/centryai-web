@@ -59,6 +59,16 @@
   status = 200
 
 [[redirects]]
+  from = "/best-subscription-tracker-no-bank-linking"
+  to = "/best-subscription-tracker-no-bank-linking.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-find-subscriptions-without-bank-linking"
+  to = "/how-to-find-subscriptions-without-bank-linking.html"
+  status = 200
+
+[[redirects]]
   from = "/zombie-subscriptions"
   to = "/zombie-subscriptions.html"
   status = 200
@@ -147,6 +157,47 @@
   for = "/sitemap.xml"
   [headers.values]
     Content-Type = "application/xml; charset=utf-8"
+
+# Ghost URL 404s — HubSpot SEO fix 2026-06-09
+[[redirects]]
+  from = "/support/feedback"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/terms/privacy"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/privacy/support"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/privacy/terms"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/support/terms"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/privacy/privacy"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/support/privacy"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/terms/terms"
+  to = "/404"
+  status = 404
 
 [build]
   publish = "."
