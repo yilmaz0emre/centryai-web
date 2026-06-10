@@ -56,11 +56,13 @@ for f in *.png; do cwebp -q 80 "$f" -o "${f%.png}.webp"; done
 - LCP img'e `fetchPriority="high"` eklendi
 - Hero yan görsel + service icon'lara `loading="lazy"` eklendi
 
-### ✅ 3c. babel.min.js CDN'den kaldır
-**Etki:** 654KB blocking script kaldırıldı
+### ✅ 3c. babel.min.js CDN'den kaldır (support + feedback)
+**Etki:** support.html + feedback.html'den Babel CDN kaldırıldı
 **Tamamlandı:** 2026-06-10
 
-`index.html`, `support.html`, `feedback.html` → JSX, `@babel/core` + `@babel/preset-react` ile önceden derlendi; `<script type="text/babel">` → `<script>` ve Babel CDN tamamen kaldırıldı.
+`support.html`, `feedback.html` → JSX, `@babel/core` + `@babel/preset-react` ile önceden derlendi; Babel CDN kaldırıldı.
+
+**index.html — geri alındı:** `index.html` birden fazla `<script type="text/babel">` bloğu içerdiğinden derleme bozuk çıktı (2053 → 4432 satır). Reverted, Babel CDN korunuyor. Kalıcı çözüm için Vite/esbuild build pipeline gerekiyor.
 
 ---
 
@@ -195,7 +197,7 @@ Bu URL'ler SPA router'ın ürettiği anlamsız kombinasyonlar.
 | 2 | main.mp4 sıkıştır/lazy-load | 🔴 Yüksek | Orta | ✅ 11MB→1MB 2026-06-09 |
 | 3a | React production builds | 🔴 Yüksek | Düşük | ✅ 2026-06-10 |
 | 3b | LCP preload + fetchPriority | 🔴 Yüksek | Düşük | ✅ 2026-06-10 |
-| 3c | babel.min.js CDN'den kaldır | 🔴 Yüksek | Yüksek | ✅ 2026-06-10 |
+| 3c | babel.min.js CDN'den kaldır | 🔴 Yüksek | Yüksek | ✅ support+feedback / ⚠️ index.html (Vite gerekiyor) |
 | 4 | Ghost URL'leri 404'e düşür | 🟡 Orta | Düşük | ✅ netlify.toml |
 | 5 | Eksik alt text ekle | 🟡 Orta | Düşük | ✅ index.html |
 | 6 | /terms + /privacy meta desc | 🟡 Orta | Düşük | ✅ terms.html + privacy.html |
