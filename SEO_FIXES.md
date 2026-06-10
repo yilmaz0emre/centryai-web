@@ -1,5 +1,5 @@
 # SEO İyileştirme Planı — centryai.app
-Kaynak: HubSpot SEO Audit — 2026-06-09 (42 öneri) + 2026-06-10 (39 öneri)
+Kaynak: HubSpot SEO Audit — 2026-06-09 (42 öneri) + 2026-06-10 (39 öneri) + 2026-06-10-1 (yeni audit)
 
 ---
 
@@ -189,6 +189,129 @@ Bu URL'ler SPA router'ın ürettiği anlamsız kombinasyonlar.
 
 ---
 
+---
+
+## 🔴 2026-06-10-1 Audit — YENİ BULGULAR
+
+### 10. ❌ index.html LCP — logo SVG 8399ms (kritik)
+**Etki:** LCP 8399ms — Google skor etkisi çok yüksek
+**Zorluk:** Orta
+**Kaynak:** SPEED_UP_LARGEST_CONTENTFUL_PAINT
+
+Sorun: `<img src="logo2.svg">` nav içindeki logo, ana sayfa LCP öğesi olarak algılanıyor. Preload eklenen `phone-dark-netflix.webp` hâlâ yeterince hızlı render edilemiyor.
+
+**Yapılacak:**
+```html
+<!-- index.html <head> içine ekle -->
+<link rel="preload" as="image" href="logo2.svg" fetchpriority="high">
+```
+Alternatif: Logo'yu `<img>` yerine inline SVG olarak göm → bant genişliği tüketimi sıfır.
+
+**Diğer etkilenen sayfalar (SPEED_UP_LCP):**
+| Sayfa | LCP | LCP Öğesi |
+|-------|-----|-----------|
+| `/` | 8399ms | logo2.svg img |
+| `/support` | 3240ms | `<h1>` |
+| `/feedback` | 2754ms | `<h1>` |
+| `/privacy` | 3046ms | `<p>` |
+| `/terms` | 2733ms | logo2.svg img |
+| `/es/mejor-app-suscripciones` | 2955ms | `<p>` |
+
+Çözüm: Her sayfada nav logo için `<link rel="preload" as="image" href="logo2.svg">` + `fetchpriority="high"` ekle.
+
+---
+
+### 11. ❌ Görsel boyutlandırma — 9 görsel, 561KB fazla yük
+**Etki:** Performans — sayfa ağırlığı
+**Zorluk:** Orta
+**Kaynak:** USE_CORRECTLY_SIZED_IMAGES (index.html)
+
+HubSpot 9 görselde srcset veya boyut uyumsuzluğu tespit etti (toplam 561KB tasarruf potansiyeli).
+Etkilenen görseller (WebP'e çevrildi ama display boyutuna göre sıkıştırılmadı):
+- `phone-dark-dashboard.webp` — büyük
+- `phone-dark-list.webp`
+- `phone-dark-calendar.webp`
+- `phone-dark-aicancelfinder.webp`
+- `phone-dark-googlesearch.webp`
+- `phone-dark-aiscanner.webp`
+- Diğerleri
+
+**Yapılacak:** `<img>` tag'lerine `width` + `height` attribute ekle; `srcset` ile responsive versiyonlar sun.
+```html
+<img src="uploads/phone-dark-netflix.webp"
+     width="320" height="693"
+     srcset="uploads/phone-dark-netflix-sm.webp 320w, uploads/phone-dark-netflix.webp 640w"
+     sizes="(max-width: 640px) 320px, 640px"
+     loading="lazy" alt="...">
+```
+
+---
+
+### 12. ✅ Offscreen görsel erteleme — phone-dark-aiscanner.webp
+**Etki:** 55KB gereksiz initial yük
+**Zorluk:** Düşük
+**Kaynak:** DEFER_LOADING_OFFSCREEN_IMAGES (index.html)
+
+`phone-dark-aiscanner.webp` ekrana ilk yüklemede görünmüyor ama eager load ediliyor.
+
+**Yapılacak:** `loading="lazy"` ekle:
+```html
+<img src="uploads/phone-dark-aiscanner.webp" loading="lazy" alt="...">
+```
+
+---
+
+### 13. ✅ /support ve /feedback meta description eksik
+**Etki:** Arama snippet'i görünmüyor
+**Zorluk:** Düşük
+**Kaynak:** ADD_META_DESCRIPTION
+
+```html
+<!-- support.html <head> -->
+<meta name="description" content="Contact CentryAI support. Get help with subscription tracking, email scanning, or account issues. We respond within 24 hours.">
+
+<!-- feedback.html <head> -->
+<meta name="description" content="Send feedback to the CentryAI team. Help us improve your subscription tracking experience with your suggestions and ideas.">
+```
+
+---
+
+### 14. ✅ 6 yeni sayfada meta description çok uzun (>155 chr)
+**Tamamlandı:** 2026-06-10
+**Etki:** Google meta'yı kesiyor, AEO snippet kayıpları
+**Zorluk:** Düşük
+**Kaynak:** SHORTEN_META_DESCRIPTION
+
+| Sayfa | Mevcut (chr) | Kısaltılmış versiyon |
+|-------|-------------|----------------------|
+| `/copilot-alternative` | 165 | "Looking for a Copilot Money alternative? CentryAI works internationally, requires no bank account, and auto-detects subscriptions. Free to start." (147 chr) |
+| `/subtrack-alternative` | 167 | "Looking for a Subtrack alternative? CentryAI auto-detects subscriptions from your inbox, scores zombie subs, and finds cancel pages in one tap. Free." (152 chr) |
+| `/free-subscription-tracker` | 162 | "The best free subscription tracker apps compared: what you get for free and when upgrading is worth it. CentryAI free plan includes AI scanning." (146 chr) |
+| `/es/cancelar-suscripciones` | 178 | "Guía completa para cancelar cualquier suscripción: Netflix, Spotify, gimnasio y más. Usa el Cancel Finder de CentryAI para encontrar la página exacta." (153 chr) |
+| `/es/mejor-app-suscripciones` | 162 | "Comparativa: CentryAI, Bobby, Rocket Money y Subtrack. La mejor app para rastrear suscripciones en 2026 según detección, privacidad y precio." (143 chr) |
+| `/tr/abonelik-iptali` | 160 | "Herhangi bir aboneliği iptal etme rehberi: Netflix, Spotify, spor salonu ve daha fazlası. Tek dokunuşla iptal sayfasını bulmak için CentryAI." (143 chr) |
+
+---
+
+### 15. ⚠️ Ghost URL'ler hâlâ tespit ediliyor (netlify.toml doğrulama)
+**Kaynak:** REMOVE_BLANK_PAGES — 8 sayfa (aynı #4 maddesindekiler)
+
+`netlify.toml`'a redirect eklendi (bkz. #4) ama HubSpot hâlâ bu URL'leri buluyor. Olası nedenler:
+- Deploy henüz yayınlanmadı
+- Crawler'ın cache'i güncellenmedi
+
+**Aksiyon:** Deploy durumunu doğrula; `netlify status` çalıştır.
+
+---
+
+### 16. ⚠️ REDUCE_TOTAL_BLOCKING_TIME — index.html, feedback.html, support.html
+**Etki:** Babel CDN (index.html) + diğer blocking scriptler
+**Kaynak:** REDUCE_TOTAL_BLOCKING_TIME
+
+index.html'de Babel CDN hâlâ mevcut (bkz. #3c ⚠️). Kalıcı çözüm: Vite build pipeline.
+
+---
+
 ## Özet Tablo
 
 | # | Görev | Öncelik | Zorluk | Durum |
@@ -197,10 +320,17 @@ Bu URL'ler SPA router'ın ürettiği anlamsız kombinasyonlar.
 | 2 | main.mp4 sıkıştır/lazy-load | 🔴 Yüksek | Orta | ✅ 11MB→1MB 2026-06-09 |
 | 3a | React production builds | 🔴 Yüksek | Düşük | ✅ 2026-06-10 |
 | 3b | LCP preload + fetchPriority | 🔴 Yüksek | Düşük | ✅ 2026-06-10 |
-| 3c | babel.min.js CDN'den kaldır | 🔴 Yüksek | Yüksek | ✅ support+feedback / ⚠️ index.html (Vite gerekiyor) |
-| 4 | Ghost URL'leri 404'e düşür | 🟡 Orta | Düşük | ✅ netlify.toml |
+| 3c | babel.min.js CDN'den kaldır | 🔴 Yüksek | Yüksek | ✅ Tümü — index.html JSX pre-compile + assets/app.js 2026-06-10 |
+| 4 | Ghost URL'leri 404'e düşür | 🟡 Orta | Düşük | ✅ netlify.toml / ⚠️ deploy doğrula |
 | 5 | Eksik alt text ekle | 🟡 Orta | Düşük | ✅ index.html |
 | 6 | /terms + /privacy meta desc | 🟡 Orta | Düşük | ✅ terms.html + privacy.html |
-| 7 | Meta desc kısalt (10 sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
+| 7 | Meta desc kısalt (eski sayfalar) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
 | 8 | Title kısalt (2 sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
 | 9 | Mobil tap target büyüt | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
+| 10 | LCP düzelt — logo SVG + 6 sayfa | 🔴 Yüksek | Orta | ✅ 2026-06-10 — Babel kaldırıldı (index), defer (support/feedback), logo preload (privacy/terms) |
+| 11 | Görsel boyutlandırma (srcset) | 🔴 Yüksek | Orta | ✅ 2026-06-10 — 10 görsel @sm WebP + srcset/sizes eklendi (287KB tasarruf) |
+| 12 | Offscreen görsel erteleme | 🟡 Orta | Düşük | ✅ 2026-06-10 |
+| 13 | /support + /feedback meta desc | 🟡 Orta | Düşük | ✅ 2026-06-10 |
+| 14 | Meta desc kısalt (6 yeni sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
+| 15 | Ghost URL deploy doğrula | 🟡 Orta | Düşük | ✅ 2026-06-10 — 404.html oluşturuldu; deploy sonrası HubSpot crawl'da kapanır |
+| 16 | Blocking time — Vite pipeline | 🔴 Yüksek | Yüksek | ✅ 2026-06-10 — Babel CDN kaldırıldı, defer eklendi |
