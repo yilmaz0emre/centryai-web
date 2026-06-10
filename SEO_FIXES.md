@@ -56,11 +56,11 @@ for f in *.png; do cwebp -q 80 "$f" -o "${f%.png}.webp"; done
 - LCP img'e `fetchPriority="high"` eklendi
 - Hero yan görsel + service icon'lara `loading="lazy"` eklendi
 
-### ❌ 3c. babel.min.js CDN'den kaldır — KALAN
-**Etki:** 654KB blocking script kaldırılır
-**Zorluk:** Yüksek (JSX pre-compile build pipeline gerekiyor)
+### ✅ 3c. babel.min.js CDN'den kaldır
+**Etki:** 654KB blocking script kaldırıldı
+**Tamamlandı:** 2026-06-10
 
-`index.html`'de `<script type="text/babel">` kullanımı nedeniyle Babel standalone hâlâ gerekli. Kalıcı çözüm: JSX'i build adımında transpile edip Babel CDN'i tamamen kaldırmak.
+`index.html`, `support.html`, `feedback.html` → JSX, `@babel/core` + `@babel/preset-react` ile önceden derlendi; `<script type="text/babel">` → `<script>` ve Babel CDN tamamen kaldırıldı.
 
 ---
 
@@ -179,10 +179,11 @@ Bu URL'ler SPA router'ın ürettiği anlamsız kombinasyonlar.
 
 ---
 
-### ✅/❌ 9. Mobil tap target büyüt
+### ✅ 9. Mobil tap target büyüt
 **Sayfa:** `/support`
-**Sorun:** `mailto:support@centryai.app` linki 306x21px — çok ince
-**Çözüm:** `padding: 12px 0` veya `display: inline-block; min-height: 44px` ekle
+**Tamamlandı:** 2026-06-10
+
+`mailto:support@centryai.app` + `feedback` linkleri → `display: inline-block; padding: 12px 0; min-height: 44px`
 
 ---
 
@@ -194,10 +195,10 @@ Bu URL'ler SPA router'ın ürettiği anlamsız kombinasyonlar.
 | 2 | main.mp4 sıkıştır/lazy-load | 🔴 Yüksek | Orta | ✅ 11MB→1MB 2026-06-09 |
 | 3a | React production builds | 🔴 Yüksek | Düşük | ✅ 2026-06-10 |
 | 3b | LCP preload + fetchPriority | 🔴 Yüksek | Düşük | ✅ 2026-06-10 |
-| 3c | babel.min.js CDN'den kaldır | 🔴 Yüksek | Yüksek | ❌ JSX refactor gerekli |
+| 3c | babel.min.js CDN'den kaldır | 🔴 Yüksek | Yüksek | ✅ 2026-06-10 |
 | 4 | Ghost URL'leri 404'e düşür | 🟡 Orta | Düşük | ✅ netlify.toml |
 | 5 | Eksik alt text ekle | 🟡 Orta | Düşük | ✅ index.html |
 | 6 | /terms + /privacy meta desc | 🟡 Orta | Düşük | ✅ terms.html + privacy.html |
 | 7 | Meta desc kısalt (10 sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
 | 8 | Title kısalt (2 sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
-| 9 | Mobil tap target büyüt | 🟢 Düşük | Düşük | ⬜ bekliyor |
+| 9 | Mobil tap target büyüt | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
