@@ -312,6 +312,63 @@ index.html'de Babel CDN hâlâ mevcut (bkz. #3c ⚠️). Kalıcı çözüm: Vite
 
 ---
 
+---
+
+## 🔴 Programmatic SEO — Cancel Sayfaları (resubs.app analizinden, 2026-06-11)
+
+**Kaynak:** resubs.app rakip analizi — `/resources/how-to-cancel-{service}` yapısı
+**Strateji:** "how to cancel X" keyword'leri yüksek intent + AEO citation kaynağı. Her sayfa FAQPage schema + CentryAI Cancel Finder CTA içerecek.
+
+### 17. ✅ Top 10 Cancel Sayfası Oluştur — 2026-06-11
+**Etki:** Yüksek intent keyword yakalama + AEO citation (Perplexity/ChatGPT "how to cancel X" sorgularında)
+**Zorluk:** Orta
+**Format:** `/how-to-cancel/netflix`, `/how-to-cancel/spotify` vb.
+
+**Her sayfa içeriği:**
+- ~600 kelime step-by-step rehber (Web / iOS / Android / PayPal yolları)
+- FAQPage + Article schema
+- "Ya da CentryAI ile tek tapla bul" CTA
+- Sitemap + netlify.toml clean URL
+- İç link: ana sayfaya + `/free-subscription-tracker`'a
+
+**Öncelikli 10 servis (arama hacmine göre):**
+
+| URL | Hedef Keyword | Tahmini Aylık Arama |
+|-----|--------------|-------------------|
+| `/how-to-cancel/netflix` | how to cancel netflix | 450.000+ |
+| `/how-to-cancel/spotify` | how to cancel spotify | 180.000+ |
+| `/how-to-cancel/adobe` | how to cancel adobe | 90.000+ |
+| `/how-to-cancel/amazon-prime` | how to cancel amazon prime | 200.000+ |
+| `/how-to-cancel/hulu` | how to cancel hulu | 110.000+ |
+| `/how-to-cancel/youtube-premium` | how to cancel youtube premium | 80.000+ |
+| `/how-to-cancel/apple-one` | how to cancel apple one | 40.000+ |
+| `/how-to-cancel/linkedin-premium` | how to cancel linkedin premium | 60.000+ |
+| `/how-to-cancel/duolingo` | how to cancel duolingo | 50.000+ |
+| `/how-to-cancel/nordvpn` | how to cancel nordvpn | 45.000+ |
+
+**Yapılacak:**
+- Her servis için HTML dosyası oluştur
+- `netlify.toml`'a clean URL redirect ekle
+- `sitemap.xml`'e ekle (priority: 0.8)
+- `llms.txt`'e ekle
+
+---
+
+### 18. ❌ Servis Katalog Sayfaları (App Store sonrası — Aşama 2)
+**Etki:** Programmatic SEO — 461 servis × sayfa = geniş keyword coverage
+**Zorluk:** Yüksek (App Store onayı sonrası başla)
+**Format:** `/services/netflix`, `/services/spotify` vb.
+
+**Her sayfa içeriği (resubs.app modeli):**
+- Servis açıklaması + fiyat/billing/region
+- Alternatif servisler bölümü
+- Cancel rehberine iç link (`/how-to-cancel/netflix`)
+- CentryAI'da nasıl takip edilir CTA
+
+**Not:** #17 tamamlandıktan sonra başla. Cancel sayfaları daha hızlı index alır.
+
+---
+
 ## Özet Tablo
 
 | # | Görev | Öncelik | Zorluk | Durum |
@@ -334,3 +391,5 @@ index.html'de Babel CDN hâlâ mevcut (bkz. #3c ⚠️). Kalıcı çözüm: Vite
 | 14 | Meta desc kısalt (6 yeni sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
 | 15 | Ghost URL deploy doğrula | 🟡 Orta | Düşük | ✅ 2026-06-10 — 404.html oluşturuldu; deploy sonrası HubSpot crawl'da kapanır |
 | 16 | Blocking time — Vite pipeline | 🔴 Yüksek | Yüksek | ✅ 2026-06-10 — Babel CDN kaldırıldı, defer eklendi |
+| 17 | Cancel sayfaları — Top 10 servis | 🔴 Yüksek | Orta | ❌ Yapılacak |
+| 18 | Servis katalog sayfaları (461 servis) | 🟡 Orta | Yüksek | ❌ App Store sonrası |

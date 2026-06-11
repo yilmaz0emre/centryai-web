@@ -214,5 +214,56 @@
   to = "/404"
   status = 404
 
+# How-to-cancel pages
+[[redirects]]
+  from = "/how-to-cancel/netflix"
+  to = "/how-to-cancel/netflix.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/amazon-prime"
+  to = "/how-to-cancel/amazon-prime.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/spotify"
+  to = "/how-to-cancel/spotify.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/hulu"
+  to = "/how-to-cancel/hulu.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/adobe"
+  to = "/how-to-cancel/adobe.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/youtube-premium"
+  to = "/how-to-cancel/youtube-premium.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/linkedin-premium"
+  to = "/how-to-cancel/linkedin-premium.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/duolingo"
+  to = "/how-to-cancel/duolingo.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/nordvpn"
+  to = "/how-to-cancel/nordvpn.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-cancel/apple-one"
+  to = "/how-to-cancel/apple-one.html"
+  status = 200
+
 [build]
   publish = "."
