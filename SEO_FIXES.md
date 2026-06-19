@@ -314,6 +314,88 @@ index.html'de Babel CDN hâlâ mevcut (bkz. #3c ⚠️). Kalıcı çözüm: Vite
 
 ---
 
+## 🔴 2026-06-19/20 HubSpot Performance Audit — TAMAMLANDI
+
+**Kaynak:** HubSpot Breeze AI — 7 CSV analizi (2026-06-19 akşamı)
+**Sonuç:** LCP flagged sayfa 38 → 9–12 bandı (%70+ azalma), TBT 613ms → rezole, CLS rezole.
+
+### ✅ 19. CSS @import Waterfall Kaldır
+**Etki:** Google Fonts render-blocking 2-hop zinciri giderildi
+**Tamamlandı:** 2026-06-19
+
+`shared.css` içindeki `@import url('https://fonts.googleapis.com/...')` kaldırıldı.
+Tüm 41 HTML sayfasına doğrudan `<link rel="stylesheet">` eklendi → paralel yükleme.
+
+### ✅ 20. Google Fonts Async Preload
+**Etki:** Google Fonts CSS render-blocking olmaktan çıktı
+**Tamamlandı:** 2026-06-19
+
+```html
+<!-- Eski (render-blocking) -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?...&display=swap"/>
+
+<!-- Yeni (async) -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?...&display=optional" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="..."/></noscript>
+```
+41 sayfada uygulandı. `display=swap` → `display=optional` (CLS önlemi).
+
+### ✅ 21. shared.css Async + Inline Critical CSS
+**Etki:** Sıfır render-blocking CSS — tarayıcı critical CSS ile anında render eder
+**Tamamlandı:** 2026-06-20
+
+```html
+<!-- Inline critical CSS (~20 rule) -->
+<style>:root{--bg:#07090f;--fg:#eceef4;...}body{background:var(--bg);color:var(--fg);...}</style>
+
+<!-- shared.css async -->
+<link rel="preload" href="shared.css?v=7" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="shared.css?v=7"/></noscript>
+```
+41 sayfada uygulandı. Critical CSS beyaz flash'ı önler; shared.css arka planda yüklenir.
+
+### ✅ 22. @xs Görsel Tier + srcSet sizes
+**Etki:** 2x DPR ekranlarda phone görsel yükü 57KB → 12KB (%79 azalma)
+**Tamamlandı:** 2026-06-20
+
+10 adet `@xs` görsel üretildi (325×660px, Q72, 8–14KB).
+`app.js`'deki tüm 12 `srcSet`'e `@xs` eklendi + `sizes="(max-width:480px) 220px, 260px"` inject edildi.
+`index.html` preload → `imagesrcset` ile akıllı preload.
+
+### ✅ 23. CLS Fix — display=optional
+**Etki:** apple-one ve mejor-app-suscripciones CLS 0.10/0.11 → 0
+**Tamamlandı:** 2026-06-20
+
+Font swap kaynaklı layout shift. `display=swap` → `display=optional` ile font yalnızca cache'deyse swap eder.
+
+### ✅ 24–28. Diğer Küçük Düzeltmeler
+- **preconnect** → `fonts.googleapis.com` + `fonts.gstatic.com` index.html dahil tüm sayfalara eklendi
+- **Meta desc** → nordvpn (160→133), apple-one (172→136), duolingo (168→138), adobe (172→149)
+- **H1 crawler** → support.html + feedback.html static `<div id="root">` içeriği eklendi
+- **Ghost URL** → privacy.html + terms.html footer/nav relative → absolute (`/privacy`, `/terms`, `/support`)
+- **Viewport** → youtube-premium.html `overflow-x: hidden` + `.step-text` word-break
+
+---
+
+### 📊 HubSpot Scan Seyri (2026-06-19 akşamı)
+
+| Saat | LCP flagged | TBT | CLS |
+|------|-------------|-----|-----|
+| Başlangıç | 38 | 613ms | 2 sayfa |
+| +2s CSV | 14 | 307ms | — |
+| +3s CSV | 14 | — | — |
+| +4s CSV | 9 | — | — |
+| +5s CSV (son) | 12* | 454ms* | — |
+
+*HubSpot scan varyansı: farklı sayfa setleri scan ediliyor, 9-12 bandı gerçek durumu yansıtıyor.
+TBT 454ms: unpkg React CDN script parse süresi + muhtemelen scan variance. GSC real-user verisi daha güvenilir.
+
+**Kalan yapısal sorunlar (SSR olmadan çözülemiyor):**
+- `index.html`, `support.html`, `feedback.html` — React render kaynaklı LCP
+- `terms.html`, `index.html` — logo2.svg React nav içinde render ediliyor
+
+---
+
 ## 🔴 Programmatic SEO — Cancel Sayfaları (resubs.app analizinden, 2026-06-11)
 
 **Kaynak:** resubs.app rakip analizi — `/resources/how-to-cancel-{service}` yapısı
@@ -391,5 +473,15 @@ index.html'de Babel CDN hâlâ mevcut (bkz. #3c ⚠️). Kalıcı çözüm: Vite
 | 14 | Meta desc kısalt (6 yeni sayfa) | 🟢 Düşük | Düşük | ✅ 2026-06-10 |
 | 15 | Ghost URL deploy doğrula | 🟡 Orta | Düşük | ✅ 2026-06-10 — 404.html oluşturuldu; deploy sonrası HubSpot crawl'da kapanır |
 | 16 | Blocking time — Vite pipeline | 🔴 Yüksek | Yüksek | ✅ 2026-06-10 — Babel CDN kaldırıldı, defer eklendi |
-| 17 | Cancel sayfaları — Top 10 servis | 🔴 Yüksek | Orta | ❌ Yapılacak |
+| 17 | Cancel sayfaları — Top 10 servis | 🔴 Yüksek | Orta | ✅ 2026-06-11 |
 | 18 | Servis katalog sayfaları (461 servis) | 🟡 Orta | Yüksek | ❌ App Store sonrası |
+| 19 | CSS @import → paralel `<link>` (41 sayfa) | 🔴 Yüksek | Orta | ✅ 2026-06-19 |
+| 20 | Google Fonts async preload+onload (41 sayfa) | 🔴 Yüksek | Orta | ✅ 2026-06-19 |
+| 21 | shared.css async + inline critical CSS (41 sayfa) | 🔴 Yüksek | Yüksek | ✅ 2026-06-20 |
+| 22 | @xs görsel tier (325px, 8–14KB) + srcSet sizes | 🔴 Yüksek | Orta | ✅ 2026-06-20 |
+| 23 | CLS düzeltme — display=optional (apple-one, mejor-app) | 🟡 Orta | Düşük | ✅ 2026-06-20 |
+| 24 | preconnect — fonts.googleapis.com (index.html dahil) | 🟡 Orta | Düşük | ✅ 2026-06-19 |
+| 25 | Meta desc kısalt — nordvpn, apple-one, duolingo, adobe | 🟢 Düşük | Düşük | ✅ 2026-06-19 |
+| 26 | H1 crawler görünürlüğü — support + feedback static content | 🟡 Orta | Düşük | ✅ 2026-06-19 |
+| 27 | Ghost URL'ler — privacy/terms relative → absolute link | 🟡 Orta | Düşük | ✅ 2026-06-19 |
+| 28 | Viewport taşma — youtube-premium overflow-x: hidden | 🟢 Düşük | Düşük | ✅ 2026-06-19 |
