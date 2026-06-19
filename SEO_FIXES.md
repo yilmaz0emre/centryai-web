@@ -482,6 +482,7 @@ TBT 454ms: unpkg React CDN script parse süresi + muhtemelen scan variance. GSC 
 | 23 | CLS düzeltme — display=optional (apple-one, mejor-app) | 🟡 Orta | Düşük | ✅ 2026-06-20 |
 | 24 | preconnect — fonts.googleapis.com (index.html dahil) | 🟡 Orta | Düşük | ✅ 2026-06-19 |
 | 25 | Meta desc kısalt — nordvpn, apple-one, duolingo, adobe | 🟢 Düşük | Düşük | ✅ 2026-06-19 |
-| 26 | H1 crawler görünürlüğü — support + feedback static content | 🟡 Orta | Düşük | ✅ 2026-06-19 |
+| 26 | H1 crawler görünürlüğü — support + feedback static content | 🟡 Orta | Düşük | ↩️ Geri alındı — React patlamasına yol açtı |
 | 27 | Ghost URL'ler — privacy/terms relative → absolute link | 🟡 Orta | Düşük | ✅ 2026-06-19 |
 | 28 | Viewport taşma — youtube-premium overflow-x: hidden | 🟢 Düşük | Düşük | ✅ 2026-06-19 |
+| 29 | React defer/inline bug — support + feedback component → external JS | 🔴 Yüksek | Orta | ✅ 2026-06-20 |
