@@ -102,7 +102,7 @@ function App() {
       minHeight: '44px'
     }
   }, t("support.sidebar.emailSupport")), /*#__PURE__*/React.createElement("a", {
-    href: "feedback",
+    href: "/feedback",
     style: {
       display: 'inline-block',
       padding: '12px 0',
@@ -130,7 +130,7 @@ function App() {
       marginTop: '0.35rem'
     }
   }, /*#__PURE__*/React.createElement("a", {
-    href: "feedback",
+    href: "/feedback",
     style: {
       color: 'var(--accent)'
     }
@@ -154,14 +154,14 @@ function App() {
   }, /*#__PURE__*/React.createElement("p", {
     "data-i18n": "footer.copyright"
   }, "\xA9 2026 CentryAI. All rights reserved."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "privacy",
+    href: "/privacy",
     style: {
       color: 'var(--fg3)',
       textDecoration: 'none'
     },
     "data-i18n": "footer.footerPrivacy"
   }, "Privacy"), ' \xB7 ', /*#__PURE__*/React.createElement("a", {
-    href: "terms",
+    href: "/terms",
     style: {
       color: 'var(--fg3)',
       textDecoration: 'none'

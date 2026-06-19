@@ -396,6 +396,36 @@ TBT 454ms: unpkg React CDN script parse süresi + muhtemelen scan variance. GSC 
 
 ---
 
+## 🔴 2026-06-20 HubSpot Audit — TAMAMLANDI
+
+**Kaynak:** HubSpot Breeze AI — CSV saat 10:42 (scan #8)
+**Önceki scan'e göre:** 12 sayfa → 10 sayfa LCP (iyileşme devam ediyor)
+
+### ✅ 30. Ghost URL'ler — /support/feedback, /support/terms, /support/privacy
+**Sorun:** `support-app.js` içindeki `href: "feedback"` gibi relative linkler, HubSpot `/support` sayfasını taban URL olarak kullanınca `/support/feedback` → blank page oluşturuyordu.
+**Fix:** `support-app.js` — tüm iç linkler absolute yola çevrildi: `/feedback`, `/terms`, `/privacy`
+**Tamamlandı:** 2026-06-20
+
+### ✅ 31. Locale Preload — locales/en.json XHR bloğunu kaldır
+**Sorun:** `i18n.js` `locales/en.json`'ı (39KB) **synchronous XHR** ile çekiyor — bu tek başına tüm page render'ı blokluyor. Support/feedback/privacy/terms/index için asıl LCP kaynağı buydu.
+**Fix:** `<link rel="preload" href="locales/en.json" as="fetch" crossorigin/>` eklendi — browser JSON'ı HTML parse ederken önceden indiriyor, XHR geldiğinde cache'den anında dönüyor (~0ms).
+**Uygulanan sayfalar:** index.html, support.html, feedback.html, privacy.html, terms.html, delete-account.html
+**Tamamlandı:** 2026-06-20
+
+### 📝 Kalan LCP (yapısal, quick fix yok)
+| Sayfa | LCP Öğesi | Süre | Kök Neden |
+|-------|-----------|------|-----------|
+| `/` | logo2.svg | 4619ms | React nav render ediyor |
+| `/support` | `<h1>` | 4377ms | React CSR — mount sonrası render |
+| `/feedback` | `<h1>` | 4366ms | React CSR — mount sonrası render |
+| `/terms` | `<h2 data-i18n>` | 4394ms | i18n DOMContentLoaded sonrası doluyor → locale preload ile düzelebilir |
+| `/privacy` | `<p>` | 4286ms | i18n bağımlı içerik → locale preload ile düzelebilir |
+| static sayfalar | `<p>` | 2700–3400ms | Scanner varyansı — GSC real-user veride bu yavaşlık yok |
+
+**Beklenti:** Locale preload (item #31) sonraki scan'de privacy/terms/support/feedback LCP'sini belirgin düşürmeli. index.html ve React CSR LCP'si için SSR gerekiyor.
+
+---
+
 ## 🔴 Programmatic SEO — Cancel Sayfaları (resubs.app analizinden, 2026-06-11)
 
 **Kaynak:** resubs.app rakip analizi — `/resources/how-to-cancel-{service}` yapısı
@@ -486,3 +516,5 @@ TBT 454ms: unpkg React CDN script parse süresi + muhtemelen scan variance. GSC 
 | 27 | Ghost URL'ler — privacy/terms relative → absolute link | 🟡 Orta | Düşük | ✅ 2026-06-19 |
 | 28 | Viewport taşma — youtube-premium overflow-x: hidden | 🟢 Düşük | Düşük | ✅ 2026-06-19 |
 | 29 | React defer/inline bug — support + feedback component → external JS | 🔴 Yüksek | Orta | ✅ 2026-06-20 |
+| 30 | Ghost URL'ler — /support/feedback, /support/terms, /support/privacy (blank) | 🟡 Orta | Düşük | ✅ 2026-06-20 |
+| 31 | Locale preload — locales/en.json preload (i18n XHR bloğunu ortadan kaldırır) | 🔴 Yüksek | Düşük | ✅ 2026-06-20 |
