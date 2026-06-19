@@ -7,39 +7,39 @@ const {
 /* ── Screenshots data ── */
 const SCREENSHOTS = [{
   src: 'uploads/phone-dark-dashboard@sm.webp',
-  srcSet: 'uploads/phone-dark-dashboard@sm.webp 650w, uploads/phone-dark-dashboard.webp 1300w',
+  srcSet: 'uploads/phone-dark-dashboard@xs.webp 325w, uploads/phone-dark-dashboard@sm.webp 650w, uploads/phone-dark-dashboard.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.dashboard')
 }, {
   src: 'uploads/phone-dark-list@sm.webp',
-  srcSet: 'uploads/phone-dark-list@sm.webp 650w, uploads/phone-dark-list.webp 1300w',
+  srcSet: 'uploads/phone-dark-list@xs.webp 325w, uploads/phone-dark-list@sm.webp 650w, uploads/phone-dark-list.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.subscriptions')
 }, {
   src: 'uploads/phone-dark-calendar@sm.webp',
-  srcSet: 'uploads/phone-dark-calendar@sm.webp 650w, uploads/phone-dark-calendar.webp 1300w',
+  srcSet: 'uploads/phone-dark-calendar@xs.webp 325w, uploads/phone-dark-calendar@sm.webp 650w, uploads/phone-dark-calendar.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.calendar')
 }, {
   src: 'uploads/phone-dark-netflix@sm.webp',
-  srcSet: 'uploads/phone-dark-netflix@sm.webp 650w, uploads/phone-dark-netflix.webp 1300w',
+  srcSet: 'uploads/phone-dark-netflix@xs.webp 325w, uploads/phone-dark-netflix@sm.webp 650w, uploads/phone-dark-netflix.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.detailView')
 }, {
   src: 'uploads/phone-dark-aicancelfinder@sm.webp',
-  srcSet: 'uploads/phone-dark-aicancelfinder@sm.webp 650w, uploads/phone-dark-aicancelfinder.webp 1300w',
+  srcSet: 'uploads/phone-dark-aicancelfinder@xs.webp 325w, uploads/phone-dark-aicancelfinder@sm.webp 650w, uploads/phone-dark-aicancelfinder.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.aiCancelFinder')
 }, {
   src: 'uploads/phone-dark-aiscanner@sm.webp',
-  srcSet: 'uploads/phone-dark-aiscanner@sm.webp 650w, uploads/phone-dark-aiscanner.webp 1300w',
+  srcSet: 'uploads/phone-dark-aiscanner@xs.webp 325w, uploads/phone-dark-aiscanner@sm.webp 650w, uploads/phone-dark-aiscanner.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.aiScanner')
 }, {
   src: 'uploads/phone-dark-emailscanner@sm.webp',
-  srcSet: 'uploads/phone-dark-emailscanner@sm.webp 650w, uploads/phone-dark-emailscanner.webp 1300w',
+  srcSet: 'uploads/phone-dark-emailscanner@xs.webp 325w, uploads/phone-dark-emailscanner@sm.webp 650w, uploads/phone-dark-emailscanner.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.emailScanner')
 }, {
   src: 'uploads/phone-dark-googlesearch@sm.webp',
-  srcSet: 'uploads/phone-dark-googlesearch@sm.webp 650w, uploads/phone-dark-googlesearch.webp 1300w',
+  srcSet: 'uploads/phone-dark-googlesearch@xs.webp 325w, uploads/phone-dark-googlesearch@sm.webp 650w, uploads/phone-dark-googlesearch.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.googleSearch')
 }, {
   src: 'uploads/phone-dark-language@sm.webp',
-  srcSet: 'uploads/phone-dark-language@sm.webp 650w, uploads/phone-dark-language.webp 1300w',
+  srcSet: 'uploads/phone-dark-language@xs.webp 325w, uploads/phone-dark-language@sm.webp 650w, uploads/phone-dark-language.webp 1300w',sizes:"(max-width:480px) 220px, 260px",
   caption: t('screenshots.captions.languageSupport')
 }];
 
@@ -536,7 +536,7 @@ function PhoneGallery() {
     "aria-hidden": "true"
   }, /*#__PURE__*/React.createElement("img", {
     src: "uploads/phone-light-netflix@sm.webp",
-    srcSet: "uploads/phone-light-netflix@sm.webp 650w, uploads/phone-light-netflix.webp 1300w",
+    srcSet: "uploads/phone-light-netflix@xs.webp 325w, uploads/phone-light-netflix@sm.webp 650w, uploads/phone-light-netflix.webp 1300w",sizes:"(max-width:480px) 220px, 260px",
     sizes: "(max-width: 768px) 300px, 360px",
     alt: "CentryAI app \u2014 Netflix subscription light mode",
     loading: "lazy",
@@ -549,7 +549,7 @@ function PhoneGallery() {
     className: "iphone17-main"
   }, /*#__PURE__*/React.createElement("img", {
     src: "uploads/phone-dark-netflix.webp",
-    srcSet: "uploads/phone-dark-netflix@sm.webp 650w, uploads/phone-dark-netflix.webp 1300w",
+    srcSet: "uploads/phone-dark-netflix@xs.webp 325w, uploads/phone-dark-netflix@sm.webp 650w, uploads/phone-dark-netflix.webp 1300w",sizes:"(max-width:480px) 220px, 260px",
     sizes: "(max-width: 768px) 320px, 400px",
     alt: "CentryAI app \u2014 Netflix subscription detail with zombie risk score",
     fetchPriority: "high",
@@ -930,7 +930,7 @@ function EmailScannerSpotlight() {
     className: "email-scanner-phone-glow"
   }), /*#__PURE__*/React.createElement("img", {
     src: "uploads/phone-dark-aiscanner@sm.webp",
-    srcSet: "uploads/phone-dark-aiscanner@sm.webp 650w, uploads/phone-dark-aiscanner.webp 1300w",
+    srcSet: "uploads/phone-dark-aiscanner@xs.webp 325w, uploads/phone-dark-aiscanner@sm.webp 650w, uploads/phone-dark-aiscanner.webp 1300w",sizes:"(max-width:480px) 220px, 260px",
     sizes: "(max-width: 768px) 320px, 400px",
     alt: "CentryAI AI inbox scanner",
     className: "email-scanner-phone-img",
