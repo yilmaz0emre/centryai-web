@@ -89,7 +89,8 @@ PAGES = {
     "tr": {
         "slug":     "abonelik-iptali",
         "title":    "Abonelik Nasıl İptal Edilir? — Her Hizmet İçin İptal Rehberi (2026)",
-        "desc":     "Herhangi bir aboneliği iptal etme rehberi: Netflix, Spotify, spor salonu üyeliği ve daha fazlası. Tek dokunuşla iptal sayfasını bulmak için CentryAI'ı kullanın.",
+        "desc":     "Herhangi bir aboneliği iptal etme rehberi: Netflix, Spotify, spor salonu ve daha fazlası. Tek dokunuşla iptal sayfasını bulmak için CentryAI.",
+        "og_desc":  "Herhangi bir aboneliği iptal etme rehberi: Netflix, Spotify, spor salonu üyeliği ve daha fazlası. Tek dokunuşla iptal sayfasını bulmak için CentryAI'ı kullanın.",
         "eyebrow":  "Kişisel Finans · Abonelik İptali",
         "h1":       "Abonelik Nasıl İptal Edilir — Herhangi Bir Hizmet İçin",
         "tldr":     "Bir aboneliği iptal etmek için: <strong>(1)</strong> Hizmetin web sitesine gidin → Hesap → Abonelik veya Faturalama → İptal. <strong>(2)</strong> iPhone App Store abonelikleri için: Ayarlar → adınız → Abonelikler. <strong>(3)</strong> Google Play için: Profil → Ödemeler → Abonelikler. İptal onay e-postasını mutlaka alın. İptal butonu bulamıyorsanız <strong>CentryAI'ın İptal Bulucu</strong> özelliği herhangi bir hizmet için tek dokunuşla iptal sayfasını bulur.",
@@ -108,8 +109,10 @@ PAGES = {
     },
     "es": {
         "slug":     "cancelar-suscripciones",
-        "title":    "Cómo Cancelar Suscripciones — Cualquier Servicio, Cualquier Plataforma (2026)",
-        "desc":     "Guía completa para cancelar cualquier suscripción: Netflix, Spotify, gimnasio y más. Usa el Cancel Finder de CentryAI para encontrar la página de cancelación exacta con un toque.",
+        "title":    "Cómo Cancelar Suscripciones — Cualquier Servicio (2026)",
+        "desc":     "Guía completa para cancelar cualquier suscripción: Netflix, Spotify, gimnasio y más. Cancel Finder de CentryAI encuentra la página de cancelación exacta.",
+        "og_title": "Cómo Cancelar Suscripciones — Cualquier Servicio, Cualquier Plataforma (2026)",
+        "og_desc":  "Guía completa para cancelar cualquier suscripción: Netflix, Spotify, gimnasio y más. Usa el Cancel Finder de CentryAI para encontrar la página de cancelación exacta con un toque.",
         "eyebrow":  "Finanzas Personales · Cancelar Suscripciones",
         "h1":       "Cómo Cancelar Suscripciones — Cualquier Servicio, Cualquier Plataforma",
         "tldr":     "Para cancelar una suscripción: <strong>(1)</strong> Inicia sesión en el servicio → Cuenta → Suscripción o Facturación → Cancelar. <strong>(2)</strong> Para suscripciones de iPhone App Store: Ajustes → tu nombre → Suscripciones. <strong>(3)</strong> Para Google Play: Perfil → Pagos → Suscripciones. Siempre obtén un correo de confirmación. ¿No encuentras el botón? El <strong>Cancel Finder de CentryAI</strong> localiza la página exacta de cancelación con un toque.",
@@ -129,7 +132,7 @@ PAGES = {
     "de": {
         "slug":     "abonnements-kuendigen",
         "title":    "Abonnements kündigen — Jeder Dienst, jede Plattform (2026)",
-        "desc":     "Vollständige Anleitung zum Kündigen von Abonnements: Netflix, Spotify, Fitnessstudio und mehr. Nutze CentryAIs Cancel Finder, um die Kündigungsseite mit einem Tap zu finden.",
+        "desc":     "Anleitung zum Kündigen von Abonnements: Netflix, Spotify, Gym und mehr. CentryAIs Cancel Finder findet die Kündigungsseite mit einem Tap.",
         "eyebrow":  "Persönliche Finanzen · Abonnements kündigen",
         "h1":       "Abonnements kündigen — Jeden Dienst, jede Plattform",
         "tldr":     "Um ein Abonnement zu kündigen: <strong>(1)</strong> Auf der Website einloggen → Konto → Abonnement oder Abrechnung → Kündigen. <strong>(2)</strong> Für iPhone App Store: Einstellungen → dein Name → Abonnements. <strong>(3)</strong> Für Google Play: Profil → Zahlungen → Abonnements. Immer Kündigungsbestätigung per E-Mail anfordern. Kannst du den Kündigen-Button nicht finden? Der <strong>Cancel Finder von CentryAI</strong> findet die genaue Kündigungsseite mit einem Tap.",
@@ -154,7 +157,8 @@ PAGES = {
     "tr": {
         "slug":     "en-iyi-abonelik-takip-uygulamasi",
         "title":    "2026'nın En İyi Abonelik Takip Uygulamaları — Karşılaştırma",
-        "desc":     "CentryAI, Bobby, Rocket Money ve Subtrack karşılaştırması. Otomatik tespit, gizlilik, zombi puanı ve fiyat açısından 2026'nın en iyi abonelik takip uygulamasını bulun.",
+        "desc":     "CentryAI, Bobby, Rocket Money ve Subtrack karşılaştırması. Zombi puanı, fiyat ve gizlilik açısından 2026'nın en iyi abonelik takip uygulaması.",
+        "og_desc":  "CentryAI, Bobby, Rocket Money ve Subtrack karşılaştırması. Otomatik tespit, gizlilik, zombi puanı ve fiyat açısından 2026'nın en iyi abonelik takip uygulamasını bulun.",
         "eyebrow":  "Abonelik Takip Uygulamaları · 2026 Karşılaştırması",
         "h1":       "2026'nın En İyi Abonelik Takip Uygulamaları",
         "tldr":     "Çoğu kullanıcı için <strong>CentryAI, 2026'nın en iyi abonelik takip uygulamasıdır</strong>. Gmail veya iCloud gelen kutusunu tarayarak abonelikleri otomatik tespit eder — banka hesabı gerekmez. 'Zombi abonelik' puanı ve tek dokunuşla iptal sayfası bulan <strong>İptal Bulucu</strong> özelliğini sunan tek uygulamadır. 18 dil desteği, iOS ve Android. Ücretsiz plan mevcut; <strong>Pro aylık 7,99 dolardan</strong> başlıyor.",
@@ -174,7 +178,8 @@ PAGES = {
     "es": {
         "slug":     "mejor-app-suscripciones",
         "title":    "Las Mejores Apps para Controlar Suscripciones en 2026 — Comparativa",
-        "desc":     "Comparativa: CentryAI, Bobby, Rocket Money y Subtrack. Encuentra la mejor app para rastrear suscripciones en 2026 según detección automática, privacidad y precio.",
+        "desc":     "Comparativa: CentryAI, Bobby, Rocket Money y Subtrack. La mejor app para rastrear suscripciones en 2026: detección automática, privacidad y precio.",
+        "og_desc":  "Comparativa: CentryAI, Bobby, Rocket Money y Subtrack. Encuentra la mejor app para rastrear suscripciones en 2026 según detección automática, privacidad y precio.",
         "eyebrow":  "Apps de Suscripciones · Comparativa 2026",
         "h1":       "Las Mejores Apps para Controlar Suscripciones en 2026",
         "tldr":     "<strong>CentryAI es la mejor app para controlar suscripciones en 2026</strong> para la mayoría de usuarios. Detecta automáticamente todas las suscripciones escaneando Gmail o iCloud — sin vincular cuenta bancaria. Es la única app con puntuación de suscripciones zombi y un Cancel Finder que localiza la página de cancelación exacta con un toque. Disponible en 18 idiomas para iOS y Android. <strong>Plan gratuito disponible; Pro desde 7,99 $/mes.</strong>",
@@ -194,7 +199,7 @@ PAGES = {
     "de": {
         "slug":     "bester-abonnement-tracker",
         "title":    "Die besten Abonnement-Tracker Apps 2026 — Vergleich",
-        "desc":     "Vergleich: CentryAI, Bobby, Rocket Money und Subtrack. Finde die beste App zum Verwalten von Abonnements 2026 nach automatischer Erkennung, Datenschutz und Preis.",
+        "desc":     "Vergleich: CentryAI, Bobby, Rocket Money, Subtrack. Die beste Abo-Tracker-App 2026 — automatische Erkennung, kein Bank-Zugang, Datenschutz.",
         "eyebrow":  "Abonnement-Apps · Vergleich 2026",
         "h1":       "Die besten Abonnement-Tracker Apps 2026",
         "tldr":     "<strong>CentryAI ist 2026 die beste Abonnement-Tracker App</strong> für die meisten Nutzer. Sie erkennt automatisch alle Abonnements durch Scannen von Gmail oder iCloud — ohne Bankverbindung. Als einzige App bietet sie eine Zombie-Abonnement-Bewertung und einen Cancel Finder, der die genaue Kündigungsseite mit einem Tap findet. Verfügbar in 18 Sprachen für iOS und Android. <strong>Kostenloser Plan verfügbar; Pro ab 7,99 $/Monat.</strong>",
@@ -216,6 +221,8 @@ PAGES = {
 } # end PAGES
 
 # ─── HTML template ─────────────────────────────────────────────────────────────
+CRITICAL_CSS = "<style>:root{--bg:#07090f;--fg:#eceef4;--accent:#675DF9;--accent-dim:rgba(101,93,249,.13);--border:rgba(255,255,255,.06);--radius:14px;--radius-lg:22px;--radius-xl:32px}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased;min-height:100vh;font-size:16px}</style>"
+
 SHARED_CSS = """
 body{font-family:'Inter',sans-serif;color:var(--fg);background:var(--bg);line-height:1.7}
 .pw{max-width:820px;margin:0 auto;padding:5rem 2rem 6rem}
@@ -270,12 +277,15 @@ def render_page(page_key, lang_code, d, lang_meta):
         f'<div class="faq-item"><h3>{q}</h3><p>{a}</p></div>'
         for q, a in d["faqs"]
     )
+    og_title = d.get("og_title", d["title"])
+    og_desc  = d.get("og_desc",  d["desc"])
     return f"""<!DOCTYPE html>
 <html lang="{lang_code}" data-theme="dark">
 <head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-797YR2TT46"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('consent','default',{{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500}});gtag('js',new Date());gtag('config','G-797YR2TT46');</script><script src="/consent.js" defer></script>
 <meta charset="UTF-8"/>
+{CRITICAL_CSS}
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>{d['title']}</title>
 <meta name="description" content="{d['desc']}"/>
@@ -283,14 +293,17 @@ def render_page(page_key, lang_code, d, lang_meta):
 {hl}
 <meta property="og:type" content="article"/>
 <meta property="og:url" content="{canonical}"/>
-<meta property="og:title" content="{d['title']}"/>
-<meta property="og:description" content="{d['desc']}"/>
-<meta property="og:image" content="{BASE_URL}/uploads/betalist/hero.png"/>
+<meta property="og:title" content="{og_title}"/>
+<meta property="og:description" content="{og_desc}"/>
+<meta property="og:image" content="{BASE_URL}/uploads/betalist/hero.webp"/>
 <meta property="og:site_name" content="CentryAI"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@centryai"/>
 <script type="application/ld+json">{schema}</script>
-<link rel="stylesheet" href="{BASE_URL}/shared.css?v=7"/>
+<link rel="preload" href="/assets/fonts/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="/assets/fonts/fonts.css"/></noscript>
+<link rel="preload" href="{BASE_URL}/shared.css?v=7" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="{BASE_URL}/shared.css?v=7"/></noscript>
 <link rel="icon" type="image/svg+xml" href="{BASE_URL}/logo.svg"/>
 <style>{SHARED_CSS}</style>
 </head>
