@@ -470,7 +470,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: 30 maj 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 2 juli 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — molndatabas (Firestore), autentisering, push-notiser (FCM) och serverbearbetning (Cloud Functions)",
           "Google Gemini AI — AI-baserad prenumerationsextrahering från e-postutdrag (data används inte för AI-träning)",
           "RevenueCat — hantering av prenumerationsfakturering (inga kortuppgifter hanteras direkt)",
-          "Resend — transaktionella e-postmeddelanden för förnyelsepåminnelser (adress delas endast vid opt-in)"
+          "Resend — transaktionella e-postmeddelanden för förnyelsepåminnelser (adress delas endast vid opt-in)",
+          "Google Analytics 4 — anonym mätning av webbplatstrafik (bara med ditt samtycke; se “Cookies och webbplatsanalys” nedan)"
         ],
-        "noShare": "Vi delar inte din personliga data med några andra tredje parter."
+        "noShare": "Vi delar inte din personliga data med några andra tredje parter.",
+        "cookiesTitle": "Cookies och webbplatsanalys",
+        "cookiesBody": "Den här webbplatsen använder Google Analytics 4 för att mäta anonym, aggregerad trafik (besökta sidor, ungefärlig plats, enhetstyp). Analyskookies aktiveras bara efter att du valt “Acceptera” i cookiebannern — om du nekar sparas inga analyskookies och mätningen fortsätter cookiefritt via Google Consent Mode. Vi använder aldrig reklamcookies. Dina språk- och temainställningar sparas bara på din enhet och skickas aldrig till oss. Du kan ändra ditt val när som helst genom att rensa den här sidans data i din webbläsare."
       },
       "s5": {
         "title": "5. Dina rättigheter",
@@ -619,9 +622,18 @@
         "generalMessage": "Berätta för oss vad du tänker på…"
       },
       "severityLevels": {
-        "low": { "label": "Låg", "sub": "Mindre irritation" },
-        "med": { "label": "Medium", "sub": "Påverkar användningen" },
-        "high": { "label": "Hög", "sub": "Appen oanvändbar" }
+        "low": {
+          "label": "Låg",
+          "sub": "Mindre irritation"
+        },
+        "med": {
+          "label": "Medium",
+          "sub": "Påverkar användningen"
+        },
+        "high": {
+          "label": "Hög",
+          "sub": "Appen oanvändbar"
+        }
       },
       "errors": {
         "nameRequired": "Namn krävs",

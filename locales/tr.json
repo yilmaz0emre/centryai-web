@@ -470,7 +470,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: 30 Mayıs 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 2 Temmuz 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — bulut veritabanı (Firestore), kimlik doğrulama, push bildirimler (FCM) ve sunucu tarafı işleme (Cloud Functions)",
           "Google Gemini AI — e-posta parçacıklarından yapay zeka destekli abonelik çıkarma (e-posta verileri yapay zeka eğitimi için kullanılmaz)",
           "RevenueCat — uygulama içi abonelik faturalandırma yönetimi (ödeme kartı bilgilerini doğrudan işlemeyiz)",
-          "Resend — haftalık yenileme hatırlatıcıları için işlemsel e-posta teslimatı (yalnızca e-posta hatırlatıcılarını etkinleştirirseniz adresiniz paylaşılır)"
+          "Resend — haftalık yenileme hatırlatıcıları için işlemsel e-posta teslimatı (yalnızca e-posta hatırlatıcılarını etkinleştirirseniz adresiniz paylaşılır)",
+          "Google Analytics 4 — anonim web sitesi trafik ölçümü (yalnızca onayınızla; aşağıdaki “Çerezler ve Web Sitesi Analizi” bölümüne bakın)"
         ],
-        "noShare": "Kişisel verilerinizi başka hiçbir üçüncü tarafla paylaşmıyoruz."
+        "noShare": "Kişisel verilerinizi başka hiçbir üçüncü tarafla paylaşmıyoruz.",
+        "cookiesTitle": "Çerezler ve Web Sitesi Analizi",
+        "cookiesBody": "Bu web sitesi, anonim ve toplu trafiği (ziyaret edilen sayfalar, yaklaşık konum, cihaz türü) ölçmek için Google Analytics 4 kullanmaktadır. Analiz çerezleri yalnızca çerez banner’ında “Kabul Et” seçeneğini tercih ettikten sonra ayarlanır — reddederseniz hiçbir analiz çerezi saklanmaz ve ölçüm Google Consent Mode aracılığıyla çerezsiz olarak sürdürülür. Hiçbir zaman reklam çerezi kullanmayız. Dil ve tema tercihleriniz yalnızca cihazınızda saklanır ve bize hiçbir zaman gönderilmez. Tarayıcınızda bu sitenin verilerini temizleyerek tercihlerinizi istediğiniz zaman değiştirebilirsiniz."
       },
       "s5": {
         "title": "5. Haklarınız",

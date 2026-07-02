@@ -273,6 +273,8 @@ def render_page(page_key, lang_code, d, lang_meta):
     return f"""<!DOCTYPE html>
 <html lang="{lang_code}" data-theme="dark">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-797YR2TT46"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('consent','default',{{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500}});gtag('js',new Date());gtag('config','G-797YR2TT46');</script><script src="/consent.js" defer></script>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>{d['title']}</title>

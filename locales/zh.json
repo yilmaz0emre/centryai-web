@@ -470,7 +470,7 @@
     "hero": {
       "label": "法律条款",
       "title": "隐私政策",
-      "subtitle": "最后更新：2026年5月30日 · 生效日期：2026年4月19日"
+      "subtitle": "最后更新：2026年7月2日 · 生效日期：2026年4月19日"
     },
     "shortVersion": "CentryAI读取您的电子邮件以查找订阅收据。内容在我们安全的Cloud Functions中处理——我们绝不存储您的邮件、出售您的数据或连接到您的银行。",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase（Google）— 云数据库（Firestore）、身份验证、推送通知（FCM）和服务器端处理（Cloud Functions）",
           "Google Gemini AI — 从邮件片段中进行AI驱动的订阅提取（邮件数据不用于AI训练）",
           "RevenueCat — 应用内订阅计费管理（我们不直接处理支付卡信息）",
-          "Resend — 用于每周续订提醒的事务性电子邮件（仅在选择加入时共享电子邮件地址）"
+          "Resend — 用于每周续订提醒的事务性电子邮件（仅在选择加入时共享电子邮件地址）",
+          "Google Analytics 4 — 匿名网站流量测量（仅在您同意的情况下；请参阅下方“Cookie与网站分析”）"
         ],
-        "noShare": "我们不与任何其他第三方共享您的个人数据。"
+        "noShare": "我们不与任何其他第三方共享您的个人数据。",
+        "cookiesTitle": "Cookie与网站分析",
+        "cookiesBody": "本网站使用Google Analytics 4来测量匿名的汇总流量（访问的页面、大致位置、设备类型）。分析Cookie仅在您在Cookie横幅中选择“接受”后才会设置 — 如果您拒绝，则不会存储任何分析Cookie，测量将通过Google Consent Mode在无Cookie的情况下继续进行。我们从不使用广告Cookie。您的语言和主题偏好仅存储在您的设备上，从不发送给我们。您可以随时通过在浏览器中清除此网站的数据来更改您的选择。"
       },
       "s5": {
         "title": "5. 您的权利",
@@ -619,9 +622,18 @@
         "generalMessage": "告诉我们您在想什么……"
       },
       "severityLevels": {
-        "low": { "label": "低", "sub": "轻微的烦恼" },
-        "med": { "label": "中", "sub": "影响使用" },
-        "high": { "label": "高", "sub": "应用无法使用" }
+        "low": {
+          "label": "低",
+          "sub": "轻微的烦恼"
+        },
+        "med": {
+          "label": "中",
+          "sub": "影响使用"
+        },
+        "high": {
+          "label": "高",
+          "sub": "应用无法使用"
+        }
       },
       "errors": {
         "nameRequired": "名字是必填项",

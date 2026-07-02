@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legal",
       "title": "Política de Privacidade",
-      "subtitle": "Última atualização: 30 de maio de 2026 · Efetivo: 19 de abril de 2026"
+      "subtitle": "Última atualização: 2 de julho de 2026 · Efetivo: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lê seus e-mails para encontrar recibos de assinatura. O conteúdo é processado em nossas Cloud Functions seguras — nunca armazenamos e-mails, nunca vendemos dados e nunca nos conectamos ao seu banco.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — banco de dados cloud (Firestore), autenticação, notificações push (FCM) e processamento servidor (Cloud Functions)",
           "Google Gemini AI — extração de assinaturas por IA de trechos de e-mail (dados não usados para treinar IA)",
           "RevenueCat — gerenciamento de cobrança de assinaturas (nenhum dado de cartão tratado diretamente)",
-          "Resend — e-mails transacionais para lembretes de renovação (endereço compartilhado apenas com opt-in)"
+          "Resend — e-mails transacionais para lembretes de renovação (endereço compartilhado apenas com opt-in)",
+          "Google Analytics 4 — medição anónima do tráfego do site (apenas com o seu consentimento; consulte “Cookies e Análise do Site” abaixo)"
         ],
-        "noShare": "Não compartilhamos seus dados pessoais com terceiros."
+        "noShare": "Não compartilhamos seus dados pessoais com terceiros.",
+        "cookiesTitle": "Cookies e Análise do Site",
+        "cookiesBody": "Este site utiliza o Google Analytics 4 para medir o tráfego anónimo e agregado (páginas visitadas, localização aproximada, tipo de dispositivo). Os cookies de análise só são ativados depois de escolher “Aceitar” no banner de cookies — se recusar, nenhum cookie de análise é armazenado e a medição continua sem cookies através do Google Consent Mode. Nunca utilizamos cookies de publicidade. As suas preferências de idioma e tema são armazenadas apenas no seu dispositivo e nunca nos são enviadas. Pode alterar a sua escolha a qualquer momento limpando os dados deste site no seu navegador."
       },
       "s5": {
         "title": "5. Seus Direitos",
@@ -619,9 +622,18 @@
         "generalMessage": "Diga-nos qualquer coisa em sua mente…"
       },
       "severityLevels": {
-        "low": { "label": "Baixa", "sub": "Incomodo menor" },
-        "med": { "label": "Média", "sub": "Afeta o uso" },
-        "high": { "label": "Alta", "sub": "Aplicativo inutilizável" }
+        "low": {
+          "label": "Baixa",
+          "sub": "Incomodo menor"
+        },
+        "med": {
+          "label": "Média",
+          "sub": "Afeta o uso"
+        },
+        "high": {
+          "label": "Alta",
+          "sub": "Aplicativo inutilizável"
+        }
       },
       "errors": {
         "nameRequired": "O nome é obrigatório",

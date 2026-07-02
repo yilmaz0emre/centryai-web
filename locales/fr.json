@@ -470,7 +470,7 @@
     "hero": {
       "label": "Légal",
       "title": "Politique de confidentialité",
-      "subtitle": "Dernière mise à jour : 30 mai 2026 · En vigueur : 19 avril 2026"
+      "subtitle": "Dernière mise à jour : 2 juillet 2026 · En vigueur : 19 avril 2026"
     },
     "shortVersion": "CentryAI lit vos e-mails pour trouver les reçus d'abonnement. Le contenu est traité côté serveur dans nos Cloud Functions sécurisées — nous ne stockons jamais vos e-mails, ne vendons pas vos données et ne nous connectons pas à votre banque.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — base de données cloud (Firestore), authentification, notifications push (FCM) et traitement serveur (Cloud Functions)",
           "Google Gemini AI — extraction d'abonnements par IA à partir d'extraits d'e-mails (données non utilisées pour l'entraînement IA)",
           "RevenueCat — gestion de facturation des abonnements (aucun détail de carte de paiement traité directement)",
-          "Resend — e-mails transactionnels pour rappels de renouvellement (adresse partagée uniquement sur opt-in)"
+          "Resend — e-mails transactionnels pour rappels de renouvellement (adresse partagée uniquement sur opt-in)",
+          "Google Analytics 4 — mesure anonyme du trafic du site web (uniquement avec votre consentement ; voir « Cookies et Analyse du Site Web » ci-dessous)"
         ],
-        "noShare": "Nous ne partageons vos données personnelles avec aucun autre tiers."
+        "noShare": "Nous ne partageons vos données personnelles avec aucun autre tiers.",
+        "cookiesTitle": "Cookies et Analyse du Site Web",
+        "cookiesBody": "Ce site web utilise Google Analytics 4 pour mesurer le trafic anonyme et agrégé (pages visitées, localisation approximative, type d’appareil). Les cookies analytiques ne sont activés qu’après que vous avez choisi « Accepter » dans la bannière de cookies — si vous refusez, aucun cookie analytique n’est stocké et la mesure se poursuit sans cookies via Google Consent Mode. Nous n’utilisons jamais de cookies publicitaires. Vos préférences de langue et de thème sont stockées uniquement sur votre appareil et ne nous sont jamais transmises. Vous pouvez modifier votre choix à tout moment en effaçant les données de ce site dans votre navigateur."
       },
       "s5": {
         "title": "5. Vos droits",
@@ -619,9 +622,18 @@
         "generalMessage": "Dites-nous ce que vous avez à l'esprit…"
       },
       "severityLevels": {
-        "low": { "label": "Faible", "sub": "Gêne mineure" },
-        "med": { "label": "Moyenne", "sub": "Affecte l'utilisation" },
-        "high": { "label": "Élevée", "sub": "Application inutilisable" }
+        "low": {
+          "label": "Faible",
+          "sub": "Gêne mineure"
+        },
+        "med": {
+          "label": "Moyenne",
+          "sub": "Affecte l'utilisation"
+        },
+        "high": {
+          "label": "Élevée",
+          "sub": "Application inutilisable"
+        }
       },
       "errors": {
         "nameRequired": "Le nom est requis",

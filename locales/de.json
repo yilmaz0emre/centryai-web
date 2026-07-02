@@ -470,7 +470,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: 30. Mai 2026 · Gültig ab: 19. April 2026"
+      "subtitle": "Zuletzt aktualisiert: 2. Juli 2026 · Gültig ab: 19. April 2026"
     },
     "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — Cloud-Datenbank (Firestore), Authentifizierung, Push-Benachrichtigungen (FCM) und serverseitige Verarbeitung (Cloud Functions)",
           "Google Gemini AI — KI-gestützte Abonnementextraktion aus E-Mail-Ausschnitten (E-Mail-Daten nicht für KI-Training genutzt)",
           "RevenueCat — In-App-Abonnement-Abrechnung (keine Zahlungskartendetails direkt verarbeitet)",
-          "Resend — E-Mail-Zustellung für wöchentliche Verlängerungserinnerungen (E-Mail nur geteilt bei Opt-in)"
+          "Resend — E-Mail-Zustellung für wöchentliche Verlängerungserinnerungen (E-Mail nur geteilt bei Opt-in)",
+          "Google Analytics 4 — anonyme Messung des Website-Datenverkehrs (nur mit Ihrer Einwilligung; siehe „Cookies & Website-Analyse“ unten)"
         ],
-        "noShare": "Wir teilen Ihre persönlichen Daten nicht mit anderen Dritten."
+        "noShare": "Wir teilen Ihre persönlichen Daten nicht mit anderen Dritten.",
+        "cookiesTitle": "Cookies & Website-Analyse",
+        "cookiesBody": "Diese Website verwendet Google Analytics 4, um anonymen, aggregierten Datenverkehr zu messen (besuchte Seiten, ungefährer Standort, Gerätetyp). Analyse-Cookies werden nur gesetzt, nachdem Sie im Cookie-Banner „Akzeptieren“ gewählt haben — bei Ablehnung werden keine Analyse-Cookies gespeichert und die Messung wird cookielos über Google Consent Mode fortgesetzt. Wir verwenden niemals Werbe-Cookies. Ihre Sprach- und Designeinstellungen werden nur auf Ihrem Gerät gespeichert und niemals an uns übertragen. Sie können Ihre Wahl jederzeit ändern, indem Sie die Daten dieser Website in Ihrem Browser löschen."
       },
       "s5": {
         "title": "5. Ihre Rechte",
@@ -619,9 +622,18 @@
         "generalMessage": "Erzählen Sie uns, was Ihnen auf dem Herzen liegt…"
       },
       "severityLevels": {
-        "low": { "label": "Niedrig", "sub": "Kleines Ärgernis" },
-        "med": { "label": "Mittel", "sub": "Beeinträchtigt die Nutzung" },
-        "high": { "label": "Hoch", "sub": "App unbrauchbar" }
+        "low": {
+          "label": "Niedrig",
+          "sub": "Kleines Ärgernis"
+        },
+        "med": {
+          "label": "Mittel",
+          "sub": "Beeinträchtigt die Nutzung"
+        },
+        "high": {
+          "label": "Hoch",
+          "sub": "App unbrauchbar"
+        }
       },
       "errors": {
         "nameRequired": "Name ist erforderlich",

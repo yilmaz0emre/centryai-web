@@ -470,7 +470,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Chính sách Bảo mật",
-      "subtitle": "Cập nhật lần cuối: Ngày 30 tháng 5 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 2 tháng 7 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — cơ sở dữ liệu đám mây (Firestore), xác thực, thông báo đẩy (FCM) và xử lý phía máy chủ (Cloud Functions)",
           "Google Gemini AI — trích xuất đăng ký bằng AI từ đoạn trích email (dữ liệu email không dùng để huấn luyện AI)",
           "RevenueCat — quản lý thanh toán đăng ký trong ứng dụng (không xử lý trực tiếp thông tin thẻ thanh toán)",
-          "Resend — gửi email giao dịch cho nhắc nhở gia hạn hàng tuần (địa chỉ chỉ chia sẻ khi opt-in)"
+          "Resend — gửi email giao dịch cho nhắc nhở gia hạn hàng tuần (địa chỉ chỉ chia sẻ khi opt-in)",
+          "Google Analytics 4 — đo lường lưu lượng truy cập trang web ẩn danh (chỉ với sự đồng ý của bạn; xem “Cookie và Phân tích Trang web” bên dưới)"
         ],
-        "noShare": "Chúng tôi không chia sẻ dữ liệu cá nhân của bạn với bất kỳ bên thứ ba nào khác."
+        "noShare": "Chúng tôi không chia sẻ dữ liệu cá nhân của bạn với bất kỳ bên thứ ba nào khác.",
+        "cookiesTitle": "Cookie và Phân tích Trang web",
+        "cookiesBody": "Trang web này sử dụng Google Analytics 4 để đo lường lưu lượng truy cập ẩn danh và tổng hợp (các trang đã truy cập, vị trí gần đúng, loại thiết bị). Cookie phân tích chỉ được đặt sau khi bạn chọn “Chấp nhận” trong biểu ngữ cookie — nếu bạn từ chối, không có cookie phân tích nào được lưu trữ và việc đo lường tiếp tục không dùng cookie thông qua Google Consent Mode. Chúng tôi không bao giờ sử dụng cookie quảng cáo. Tùy chọn ngôn ngữ và giao diện của bạn chỉ được lưu trữ trên thiết bị của bạn và không bao giờ được gửi cho chúng tôi. Bạn có thể thay đổi lựa chọn của mình bất kỳ lúc nào bằng cách xóa dữ liệu của trang web này trong trình duyệt của bạn."
       },
       "s5": {
         "title": "5. Quyền lợi của Bạn",
@@ -619,9 +622,18 @@
         "generalMessage": "Hãy cho chúng tôi biết bạn đang nghĩ gì…"
       },
       "severityLevels": {
-        "low": { "label": "Thấp", "sub": "Gây khó chịu nhỏ" },
-        "med": { "label": "Trung bình", "sub": "Ảnh hưởng đến việc sử dụng" },
-        "high": { "label": "Cao", "sub": "Ứng dụng không thể sử dụng" }
+        "low": {
+          "label": "Thấp",
+          "sub": "Gây khó chịu nhỏ"
+        },
+        "med": {
+          "label": "Trung bình",
+          "sub": "Ảnh hưởng đến việc sử dụng"
+        },
+        "high": {
+          "label": "Cao",
+          "sub": "Ứng dụng không thể sử dụng"
+        }
       },
       "errors": {
         "nameRequired": "Tên là bắt buộc",

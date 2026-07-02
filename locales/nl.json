@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legaal",
       "title": "Privacybeleid",
-      "subtitle": "Laatst bijgewerkt: 30 mei 2026 · Van kracht: 19 april 2026"
+      "subtitle": "Laatst bijgewerkt: 2 juli 2026 · Van kracht: 19 april 2026"
     },
     "shortVersion": "CentryAI leest uw e-mails om abonnementsbewijzen te vinden. Inhoud wordt verwerkt in onze beveiligde Cloud Functions — we slaan e-mails nooit op, verkopen geen gegevens en verbinden ons niet met uw bank.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — clouddatabase (Firestore), authenticatie, pushmeldingen (FCM) en serververwerking (Cloud Functions)",
           "Google Gemini AI — AI-abonnementsextractie uit e-mailfragmenten (gegevens niet voor AI-training gebruikt)",
           "RevenueCat — beheer van in-app abonnementsfacturering (geen betaalkaartgegevens direct verwerkt)",
-          "Resend — transactionele e-mails voor verlengingsherinneringen (adres gedeeld alleen bij opt-in)"
+          "Resend — transactionele e-mails voor verlengingsherinneringen (adres gedeeld alleen bij opt-in)",
+          "Google Analytics 4 — anonieme meting van websiteverkeer (alleen met jouw toestemming; zie “Cookies & Website-analyse” hieronder)"
         ],
-        "noShare": "We delen je persoonlijke gegevens niet met andere derden."
+        "noShare": "We delen je persoonlijke gegevens niet met andere derden.",
+        "cookiesTitle": "Cookies & Website-analyse",
+        "cookiesBody": "Deze website gebruikt Google Analytics 4 om anoniem, geaggregeerd verkeer te meten (bezochte pagina’s, geschatte locatie, apparaattype). Analytische cookies worden pas ingesteld nadat je “Accepteren” kiest in de cookiebanner — als je weigert, worden geen analytische cookies opgeslagen en gaat de meting cookieloos verder via Google Consent Mode. We gebruiken nooit advertentiecookies. Je taal- en themavoorkeur worden alleen op je apparaat opgeslagen en worden nooit naar ons verzonden. Je kunt je keuze op elk moment wijzigen door de gegevens van deze site in je browser te wissen."
       },
       "s5": {
         "title": "5. Jouw Rechten",
@@ -619,9 +622,18 @@
         "generalMessage": "Vertel ons wat er in je omgaat…"
       },
       "severityLevels": {
-        "low": { "label": "Laag", "sub": "Kleine ergernis" },
-        "med": { "label": "Gemiddeld", "sub": "Beïnvloedt gebruik" },
-        "high": { "label": "Hoog", "sub": "App onbruikbaar" }
+        "low": {
+          "label": "Laag",
+          "sub": "Kleine ergernis"
+        },
+        "med": {
+          "label": "Gemiddeld",
+          "sub": "Beïnvloedt gebruik"
+        },
+        "high": {
+          "label": "Hoog",
+          "sub": "App onbruikbaar"
+        }
       },
       "errors": {
         "nameRequired": "Naam is verplicht",

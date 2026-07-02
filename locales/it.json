@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legale",
       "title": "Informativa sulla Privacy",
-      "subtitle": "Ultimo aggiornamento: 30 maggio 2026 · In vigore: 19 aprile 2026"
+      "subtitle": "Ultimo aggiornamento: 2 luglio 2026 · In vigore: 19 aprile 2026"
     },
     "shortVersion": "CentryAI legge le tue email per trovare le ricevute degli abbonamenti. Il contenuto viene elaborato nei nostri Cloud Functions sicuri — non archiviamo mai le email, non vendiamo dati e non ci connettiamo alla tua banca.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — database cloud (Firestore), autenticazione, notifiche push (FCM) ed elaborazione server (Cloud Functions)",
           "Google Gemini AI — estrazione abbonamenti con IA da estratti email (dati non usati per addestramento IA)",
           "RevenueCat — gestione fatturazione abbonamenti in-app (nessun dato carta gestito direttamente)",
-          "Resend — email transazionali per promemoria di rinnovo (indirizzo condiviso solo con opt-in)"
+          "Resend — email transazionali per promemoria di rinnovo (indirizzo condiviso solo con opt-in)",
+          "Google Analytics 4 — misurazione anonima del traffico del sito web (solo con il tuo consenso; vedi “Cookie e Analisi del Sito Web” di seguito)"
         ],
-        "noShare": "Non condividiamo i tuoi dati personali con altre terze parti."
+        "noShare": "Non condividiamo i tuoi dati personali con altre terze parti.",
+        "cookiesTitle": "Cookie e Analisi del Sito Web",
+        "cookiesBody": "Questo sito web utilizza Google Analytics 4 per misurare il traffico anonimo e aggregato (pagine visitate, posizione approssimativa, tipo di dispositivo). I cookie di analisi vengono impostati solo dopo che hai scelto “Accetta” nel banner dei cookie — se rifiuti, nessun cookie di analisi viene memorizzato e la misurazione prosegue senza cookie tramite Google Consent Mode. Non utilizziamo mai cookie pubblicitari. Le tue preferenze di lingua e tema sono memorizzate solo sul tuo dispositivo e non ci vengono mai inviate. Puoi modificare la tua scelta in qualsiasi momento cancellando i dati di questo sito nel tuo browser."
       },
       "s5": {
         "title": "5. I Tuoi Diritti",
@@ -619,9 +622,18 @@
         "generalMessage": "Dicci qualsiasi cosa ti passi per la testa…"
       },
       "severityLevels": {
-        "low": { "label": "Bassa", "sub": "Piccolo fastidio" },
-        "med": { "label": "Media", "sub": "Influisce sull'uso" },
-        "high": { "label": "Alta", "sub": "App inutilizzabile" }
+        "low": {
+          "label": "Bassa",
+          "sub": "Piccolo fastidio"
+        },
+        "med": {
+          "label": "Media",
+          "sub": "Influisce sull'uso"
+        },
+        "high": {
+          "label": "Alta",
+          "sub": "App inutilizzabile"
+        }
       },
       "errors": {
         "nameRequired": "Il nome è obbligatorio",

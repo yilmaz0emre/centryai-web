@@ -470,7 +470,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Kebijakan Privasi",
-      "subtitle": "Terakhir Diperbarui: 30 Mei 2026 · Berlaku: 19 April 2026"
+      "subtitle": "Terakhir Diperbarui: 2 Juli 2026 · Berlaku: 19 April 2026"
     },
     "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — database cloud (Firestore), autentikasi, notifikasi push (FCM) dan pemrosesan sisi server (Cloud Functions)",
           "Google Gemini AI — ekstraksi langganan bertenaga AI dari cuplikan email (data email tidak digunakan untuk pelatihan AI)",
           "RevenueCat — manajemen penagihan langganan dalam aplikasi (detail kartu pembayaran tidak ditangani langsung)",
-          "Resend — pengiriman email transaksional untuk pengingat pembaruan mingguan (alamat dibagikan hanya saat opt-in)"
+          "Resend — pengiriman email transaksional untuk pengingat pembaruan mingguan (alamat dibagikan hanya saat opt-in)",
+          "Google Analytics 4 — pengukuran lalu lintas situs web anonim (hanya dengan persetujuan Anda; lihat “Cookie & Analitik Situs Web” di bawah)"
         ],
-        "noShare": "Kami tidak membagikan data pribadi Anda dengan pihak ketiga lainnya."
+        "noShare": "Kami tidak membagikan data pribadi Anda dengan pihak ketiga lainnya.",
+        "cookiesTitle": "Cookie & Analitik Situs Web",
+        "cookiesBody": "Situs web ini menggunakan Google Analytics 4 untuk mengukur lalu lintas anonim dan agregat (halaman yang dikunjungi, lokasi perkiraan, jenis perangkat). Cookie analitik hanya diaktifkan setelah Anda memilih “Terima” di banner cookie — jika Anda menolak, tidak ada cookie analitik yang disimpan dan pengukuran berlanjut tanpa cookie melalui Google Consent Mode. Kami tidak pernah menggunakan cookie iklan. Preferensi bahasa dan tema Anda hanya disimpan di perangkat Anda dan tidak pernah dikirim kepada kami. Anda dapat mengubah pilihan kapan saja dengan menghapus data situs ini di browser Anda."
       },
       "s5": {
         "title": "5. Hak-hak Anda",
@@ -619,9 +622,18 @@
         "generalMessage": "Beri tahu kami apa yang ada di pikiran Anda…"
       },
       "severityLevels": {
-        "low": { "label": "Rendah", "sub": "Gangguan kecil" },
-        "med": { "label": "Sedang", "sub": "Memengaruhi penggunaan" },
-        "high": { "label": "Tinggi", "sub": "Aplikasi tidak dapat digunakan" }
+        "low": {
+          "label": "Rendah",
+          "sub": "Gangguan kecil"
+        },
+        "med": {
+          "label": "Sedang",
+          "sub": "Memengaruhi penggunaan"
+        },
+        "high": {
+          "label": "Tinggi",
+          "sub": "Aplikasi tidak dapat digunakan"
+        }
       },
       "errors": {
         "nameRequired": "Nama wajib diisi",

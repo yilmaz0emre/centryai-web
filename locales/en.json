@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legal",
       "title": "Privacy Policy",
-      "subtitle": "Last updated: May 30, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: July 2, 2026 · Effective: April 19, 2026"
     },
     "shortVersion": "CentryAI reads your email to find subscription receipts. Email content is processed server-side in our secure Cloud Functions — we never store your emails, never sell your data, and never connect to your bank.",
     "toc": {
@@ -530,9 +530,12 @@
           "Firebase (Google) — cloud database (Firestore), authentication, push notifications (FCM), and server-side processing (Cloud Functions)",
           "Google Gemini AI — AI-powered subscription extraction from email snippets (email data not used for AI training)",
           "RevenueCat — in-app subscription billing management (we never handle payment card details directly)",
-          "Resend — transactional email delivery for weekly renewal reminders (email address shared only if you opt in)"
+          "Resend — transactional email delivery for weekly renewal reminders (email address shared only if you opt in)",
+          "Google Analytics 4 — anonymous website traffic measurement (only with your consent; see “Cookies & Website Analytics” below)"
         ],
-        "noShare": "We do not share your personal data with any other third parties."
+        "noShare": "We do not share your personal data with any other third parties.",
+        "cookiesTitle": "Cookies & Website Analytics",
+        "cookiesBody": "This website uses Google Analytics 4 to measure anonymous, aggregate traffic (pages visited, approximate location, device type). Analytics cookies are set only after you choose “Accept” in the cookie banner — if you decline, no analytics cookies are stored and measurement continues cookieless via Google Consent Mode. We never use advertising cookies. Your language and theme preferences are stored only on your device and are never sent to us. You can change your choice at any time by clearing this site’s data in your browser."
       },
       "s5": {
         "title": "5. Your Rights",
