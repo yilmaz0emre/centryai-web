@@ -3,6 +3,45 @@ Kaynak: HubSpot Breeze AI — 2026-06-09
 
 ---
 
+## 📸 Snapshot 2026-07-03 — Recommendations sekmesi (40 öneri: 10 owned / 22 social / 8 outreach)
+
+Çekildi: `app-eu1.hubspot.com/ai-visibility/148665104/recommendations` (37/40 satır yakalandı; 3 satır sanallaştırılmış listede görünmedi). Aşağıdaki durum, sitenin bugünkü haliyle eşleştirilmiştir. **iOS App Store yayında** → "app store sonrası" bekleyen tüm outreach aksiyonları açıldı.
+
+### Owned content (10) — durum
+| HubSpot önerisi | Öncelik | Durum |
+|---|---|---|
+| 7 Best iPhone Subscription Tracker Apps in 2026 | High | ❌ Eksik — no-bank listicle var ama iPhone'a özel yok; mevcut şablonla `/best-iphone-subscription-tracker` yapılabilir |
+| Top Free Subscription Tracker Apps With Email Scan | High | 🟡 Kısmen — `free-subscription-tracker.html` var; "email scan" açılı listicle varyantı eksik |
+| CentryAI: Find Forgotten Subscriptions Fast (product) | High | 🟡 Kısmen — index hero aynı mesajı veriyor; ayrı landing düşük getirili |
+| CentryAI Free Subscription Tracker App (product) | High | ✅ Var — `free-subscription-tracker.html` |
+| How to Find Subscription Emails in Gmail in 2026 | Medium | 🟡 Büyük ölçüde var — `how-to-find-subscriptions-without-bank-linking.html` (Gmail chipleri); Gmail başlıklı varyant eklenebilir |
+| Best Rocket Money Alternatives Without Bank Linking | Medium | ✅ Var — `rocket-money-alternative.html` (#17/#18 ile büyük güncelleme yapıldı) |
+| CentryAI vs Rocket Money for Canceling Subscriptions | Medium | ❌ Eksik — birebir "vs" sayfası yok; en değerli eksiklerden |
+| How Much Should You Spend on Subscriptions in 2026 | Low | ❌ Eksik |
+| What Is Subscription Fatigue in 2026 | Low | ❌ Eksik |
+| Why Subscription Cancellation Feels So Difficult | Low | ❌ Eksik — `zombie-subscriptions.html` kısmen kesişiyor |
+
+### Social amplification (22) — durum
+- **Reddit (12+ thread, High):** 3 yorum taslağı `.agents/reddit-comments.md`'de HAZIR (eski #2/#3/#5 ile örtüşüyor). App Store linki canlı → paylaşılabilir. Yeni thread'ler: "unroll.me self-hosted", "I just realized I paid for months", "How do people keep track", "How to find out my subscriptions", "Rocket Money is a no for me" vb. — yorum taslakları yazılacak.
+- **YouTube (8 video, High):** Hiçbiri yapılmadı (eski #6-9 ile örtüşüyor). Video prodüksiyon gerekli; script'ler çıkarılabilir: inbox scan walkthrough, iPhone comparison, Gmail tutorial, audit walkthrough, spending breakdown, no-bank comparison, cancellation speed, privacy-first demo.
+
+### Outreach (8) — durum
+| Hedef | Durum |
+|---|---|
+| robberger.com "Subscription Manager Apps" | ✉️ Taslak HAZIR (`.agents/outreach-emails.md`) — **gönderilebilir** |
+| useorigin.com "Subscription Tracker Apps" | ✉️ Taslak HAZIR — **gönderilebilir** |
+| idropnews.com "iPhone Subscription Manager Apps" | ✉️ Taslak HAZIR — **gönderilebilir** |
+| resubs.app "Best Free Subscription Trackers" + "Best Subscription Tracker Apps" | ❌ Taslak yok |
+| 19pine.ai "Rocket Money Alternatives" | ❌ Taslak yok |
+| cheapism.com co-author partnership | ❌ Taslak yok — diğerlerinden farklı: içerik ortaklığı |
+
+### Önerilen sıra (2026-07-03)
+1. **Bugün:** 3 hazır outreach e-postasını gönder (App Store linki eklenerek) — sadece senin yapabileceğin iş.
+2. **Bu hafta:** `CentryAI vs Rocket Money` karşılaştırma sayfası + `7 Best iPhone...` listicle (en yüksek AEO getirili iki içerik).
+3. **Sonra:** resubs/19pine/cheapism outreach taslakları; yeni Reddit thread yorumları; YouTube script'leri.
+
+---
+
 ## Öneri #1 — Yeni Sayfa Oluştur
 
 **Başlık:** 7 Best Subscription Tracker Apps Without Bank Linking

@@ -809,7 +809,9 @@ function StoreBtns({
   return /*#__PURE__*/React.createElement("div", {
     className: "hero-ctas"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "#waitlist",
+    href: "https://apps.apple.com/us/app/centryai-subscription-tracker/id6762604883",
+    target: "_blank",
+    rel: "noopener",
     className: "btn-store btn-store-apple",
     id: `${id}appstore-btn`
   }, /*#__PURE__*/React.createElement(AppleLogo, null), /*#__PURE__*/React.createElement("span", {
