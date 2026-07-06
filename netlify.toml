@@ -98,6 +98,12 @@
   to = "/free-subscription-tracker.html"
   status = 200
 
+# Partner landing (noindex — intentionally not in sitemap)
+[[redirects]]
+  from = "/innerly"
+  to = "/innerly.html"
+  status = 200
+
 # Turkish pages
 [[redirects]]
   from = "/tr/abonelik-denetimi"
