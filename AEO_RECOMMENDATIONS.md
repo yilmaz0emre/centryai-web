@@ -777,3 +777,188 @@ Business Insider ve NerdWallet'a link almak zor ama 19pine.ai ve resubs.app'e za
 | 16 | Yeni sayfa — How to Find Subscriptions Without Bank Linking | ✅ 2026-06-10 |
 | 17 | Güncelle — /rocket-money-alternative (karar odaklı) | ✅ 2026-06-10 |
 | 18 | Yeni sayfa — Top Rocket Money Alternatives 2026 (#17 ile birleştir) | ✅ 2026-06-10 (#17'ye eklendi) |
+
+---
+
+## 🎬 Video Metadata — Gmail Scan Short (`01_scan_and_results`)
+
+**Eklendi:** 2026-07-09 · **Format:** YouTube Short (dikey, ~12-30 sn) · **Sahne:** Gmail tarama → 7 abonelik bulma
+
+**AEO stratejisi:** Bu Short'un birincil hedefi Öneri #6'daki en yüksek getirili boşluk — **"How do I find all the subscriptions I'm paying for?"** (rakip videolarda 4 YouTube citation, centryai.app'te %0 görünürlük). Başlık soruyu birebir yansıtır, açıklamanın ilk cümlesi doğrudan cevaptır (AI motorları — Google AI Overviews, Perplexity — ilk cümleyi alıntılar). İkincil hedef promptlar açıklamaya doğal olarak gömülüdür: "What app finds forgotten subscriptions automatically?", "Which subscription app automatically detects subscriptions from email?", "What subscription tracker works without linking a bank account?".
+
+### Title
+```
+How to Find Every Subscription You're Paying For 📧 #Shorts
+```
+
+**Alternatif başlıklar:**
+- `I Found 7 Subscriptions I Forgot About — Here's How 📧 #Shorts`
+- `Find Every Subscription You're Paying For (No Bank Linking) #Shorts`
+- `How to Find All Your Subscriptions in 30 Seconds #Shorts`
+
+### Description
+```
+The fastest way to find every subscription you're paying for is to scan your email inbox — not your bank account. CentryAI connects to your Gmail (read-only) and automatically detects every subscription hidden in your receipts in seconds. In this clip it finds 7 subscriptions instantly.
+
+✅ No bank account linking
+✅ Automatic detection from email receipts
+✅ Free to download — iOS & Android
+✅ Finds forgotten free trials and annual renewals
+
+CentryAI is a free subscription tracker that finds forgotten subscriptions automatically by scanning your Gmail and iCloud receipts. No card, no bank login — just your inbox.
+
+👉 Download free: https://centryai.app
+
+#subscriptiontracker #savemoney #personalfinance #gmail #moneytips
+```
+
+### Tags
+```
+subscription tracker, how to find my subscriptions, find forgotten subscriptions, subscription tracker no bank linking, email subscription detection, gmail subscription scanner, automatic subscription tracker, free subscription tracker, rocket money alternative, subscription manager iphone, track recurring charges, cancel subscriptions, centryai
+```
+
+### Pinned Comment
+```
+Want to find every subscription you're paying for? CentryAI scans your Gmail & iCloud receipts automatically — no bank linking. Free on iOS & Android 👉 https://centryai.app
+```
+
+### Hedef promptlar (AEO görünürlük takibi)
+| Prompt | Rakip YouTube citation | Hedef |
+|--------|------------------------|-------|
+| How do I find all the subscriptions I'm paying for? | 4 | Birincil |
+| What app finds forgotten subscriptions automatically? | 1 | İkincil |
+| Which subscription app automatically detects subscriptions from email? | 1 | İkincil |
+| What subscription tracker works without linking a bank account? | 1 | İkincil |
+
+### Notlar
+- **#Shorts** başlıkta olmalı — YouTube Short olarak sınıflandırılması için.
+- Video içinde konuşma varsa (ElevenLabs VO) auto-caption açık kalsın; YouTube ve AI motorları transkripti tarar → hedef soruyu sözlü de geçir.
+- Aynı klip Instagram Reels + TikTok'a da gider; oralarda `#Shorts` yerine platform hashtag setini kullan.
+- Bu Öneri #7 (YouTube Short) durumunu kısmen kapatır — tam kapanış için 6 dk'lık uzun demo (Öneri #6) hâlâ ❌.
+
+---
+
+## 🎬 Video Metadata — Launch Demo Shorts (`launch-video-1-demo.md`)
+
+**Eklendi:** 2026-07-09 · **Kaynak:** `~/Desktop/launch-video-out/` (flagship 32s + `segments/` 10 klip)
+
+**AEO disiplini — her Short farklı bir hedef prompt'a eşlendi** (keyword cannibalization önlemek için; `01_scan_and_results` zaten yukarıda birincil "How do I find all the subscriptions I'm paying for?" sorusunu hedefler). Her açıklamanın ilk cümlesi answer-first — AI motorları alıntılar.
+
+| Klip | Hedef prompt (AEO) | Standalone Short? |
+|------|--------------------|-------------------|
+| `centryai_draft_32s` (flagship) | What is the best app to track all my subscriptions? | ✅ flagship |
+| `03_dashboard_reveal` | How much am I spending on subscriptions each month? | ✅ |
+| `04_zombie_score` | What app finds forgotten/unused subscriptions automatically? | ✅ |
+| `05_cancel_netflix` | How do I cancel my Netflix subscription? | ✅ |
+| `06_renewal_calendar` | How do I get reminded before a subscription renews? | ✅ |
+| `07_spending` | How to track recurring charges / where my money goes | ✅ |
+| `09_languages` | What subscription tracker works without linking a bank account? | ✅ |
+| `08_email_reminder` | subscription tracker weekly email summary | ✅ (niş) |
+| `02_ai_finds_more`, `10_closing_dashboard` | — | ❌ B-roll (monte) |
+
+### Flagship — `centryai_draft_32s`
+**Title:** `The Subscription App That Finds What You Forgot You're Paying For #Shorts`
+**Description:**
+```
+The best way to track all your subscriptions is an app that finds them for you — CentryAI scans your email inbox and surfaces every subscription automatically, scores the ones you never use, and takes you straight to the cancel page. In this demo: 8 subscriptions, $141.95/month, one tap to cancel.
+
+✅ No bank linking
+✅ Free to download — iOS & Android
+
+👉 https://centryai.app
+
+#subscriptiontracker #savemoney #personalfinance
+```
+
+### `03_dashboard_reveal`
+**Title:** `How Much Are You Really Spending on Subscriptions? 💸 #Shorts`
+**Description:**
+```
+Most people underestimate their subscription spend by half. CentryAI adds up every subscription it finds in your inbox and shows one monthly number — here it's $141.95/month. No manual entry, no bank linking.
+
+👉 Free: https://centryai.app
+
+#subscriptiontracker #budgeting #moneytips
+```
+
+### `04_zombie_score`
+**Title:** `This App Scores How "Dead" Each Subscription Is 🧟 #Shorts`
+**Description:**
+```
+CentryAI finds forgotten subscriptions automatically and gives each one a Zombie Score — how dead is it, really? This one: 50/100, never opened. Find the subscriptions you pay for but never use.
+
+👉 Free: https://centryai.app
+
+#subscriptiontracker #savemoney #personalfinance
+```
+
+### `05_cancel_netflix`
+**Title:** `Cancel Any Subscription in One Tap (No Settings Maze) #Shorts`
+**Description:**
+```
+To cancel a subscription fast, CentryAI's Cancel Finder takes you straight to the exact cancellation page — here, Netflix's real "Finish Cancellation" screen. One tap, you just confirm. No digging through account settings.
+
+👉 Free: https://centryai.app
+
+#cancelsubscription #netflix #subscriptiontracker
+```
+
+### `06_renewal_calendar`
+**Title:** `See Every Subscription Renewal Before It Charges You 📅 #Shorts`
+**Description:**
+```
+Never get surprised by a renewal again. CentryAI puts every upcoming subscription renewal on a calendar so you can cancel before your card gets charged — especially free trials about to convert.
+
+👉 Free: https://centryai.app
+
+#subscriptiontracker #freetrial #moneytips
+```
+
+### `07_spending`
+**Title:** `Where Does Your Money Actually Go Each Month? #Shorts`
+**Description:**
+```
+CentryAI breaks down your recurring charges so you can see exactly where your money goes every month — all pulled automatically from your email receipts. No bank account required.
+
+👉 Free: https://centryai.app
+
+#recurringcharges #budgeting #subscriptiontracker
+```
+
+### `09_languages`
+**Title:** `A Subscription Tracker That Never Touches Your Bank 🔒 #Shorts`
+**Description:**
+```
+CentryAI tracks your subscriptions without linking a bank account — it uses read-only email access, stores no email content, and works in 18 languages. Your data stays yours.
+
+👉 Free: https://centryai.app
+
+#privacy #subscriptiontracker #nobanklinking
+```
+
+### `08_email_reminder` (niş)
+**Title:** `Get a Weekly Subscription Summary — Without Opening the App #Shorts`
+**Description:**
+```
+CentryAI emails you a weekly summary of every subscription you're paying for — so you stay on top of it without opening the app.
+
+👉 Free: https://centryai.app
+
+#subscriptiontracker #moneytips #personalfinance
+```
+
+### Ortak Tags (her videoya + video-özel 1-2 tag)
+```
+subscription tracker, free subscription tracker, subscription tracker no bank linking, find forgotten subscriptions, gmail subscription scanner, rocket money alternative, subscription manager iphone, track recurring charges, cancel subscriptions, zombie subscriptions, centryai
+```
+
+### Ortak Pinned Comment
+```
+CentryAI finds every subscription hidden in your email — no bank linking. Free on iOS & Android 👉 https://centryai.app
+```
+
+### Notlar
+- Her başlıkta **#Shorts** zorunlu (Short sınıflandırması).
+- VO/caption açık kalsın — YouTube + AI motorları transkripti tarar; hedef soruyu sözlü de geç.
+- Farklı hedef prompt = 8 ayrı Short farklı AI sorularında görünür; aynı gün toplu değil, **haftaya yayarak** yükle (kanal spam sinyali vermesin).
+- Aynı klipler Reels/TikTok'a da gider; orada `#Shorts` yerine platform hashtag seti.
