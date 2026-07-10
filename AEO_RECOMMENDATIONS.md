@@ -962,3 +962,57 @@ CentryAI finds every subscription hidden in your email — no bank linking. Free
 - VO/caption açık kalsın — YouTube + AI motorları transkripti tarar; hedef soruyu sözlü de geç.
 - Farklı hedef prompt = 8 ayrı Short farklı AI sorularında görünür; aynı gün toplu değil, **haftaya yayarak** yükle (kanal spam sinyali vermesin).
 - Aynı klipler Reels/TikTok'a da gider; orada `#Shorts` yerine platform hashtag seti.
+
+---
+
+## 🎙️ ElevenLabs Seslendirme Metinleri (AEO-tuned VO)
+
+**Eklendi:** 2026-07-09 · **Amaç:** Her VO, videonun hedef AEO sorusunu **sesli olarak** geçirir — YouTube auto-caption + AI motorları transkripti tarar, bu yüzden konuşma metni de ranking sinyalidir. Kelime bütçeleri klip süresine göre (~2.7 kelime/sn).
+
+**ElevenLabs ayarları (hepsine ortak):**
+- Ses: genç, enerjik ABD aksanı — Adam/Josh (E) veya Jessica/Rachel (K). Reklam değil, "arkadaşına anlatan" ton.
+- Stability 40-50 · Style 30-40 · Speed 1.05
+- Noktalama = tempo: `?` yukarı tonlama + duraklama, `…` reveal nefesi, `—` kısa vurgu duraklaması.
+
+### `03_dashboard_reveal` (10.5 sn) — hedef: "how much am I spending on subscriptions?"
+```
+Ever wonder how much you're actually spending on subscriptions each month? CentryAI adds it all up from your inbox. Mine? A hundred forty-two dollars.
+```
+
+### `04_zombie_score` (13.5 sn) — hedef: "forgotten/unused subscriptions"
+```
+This app finds the subscriptions you forgot you're paying for — automatically. Then it scores how dead each one is. This one? Fifty out of a hundred. Never opened. Not once.
+```
+
+### `05_cancel_netflix` (15.5 sn) — hedef: "how do I cancel Netflix?"
+```
+Trying to cancel Netflix — or any subscription — and can't find the button? CentryAI takes you straight to the real cancellation page. One tap, you just confirm. No settings maze.
+```
+
+### `06_renewal_calendar` (19 sn) — hedef: "reminded before a renewal"
+```
+Want to know before a subscription renews and charges your card? CentryAI puts every upcoming renewal on a calendar — so you can cancel a free trial before it turns into a real charge. No more surprise renewals.
+```
+
+### `07_spending` (16.5 sn) — hedef: "track recurring charges"
+```
+Want to track where your money actually goes each month? CentryAI breaks down every recurring charge — pulled straight from your email receipts. No bank account, no manual entry. Just the full picture.
+```
+
+### `08_email_reminder` (15.3 sn) — hedef: "weekly summary email"
+```
+Don't want to open another app? CentryAI emails you a weekly summary of every subscription you're paying for — right to your inbox. Stay on top of it without lifting a finger.
+```
+
+### `09_languages` (15.5 sn) — hedef: "no bank linking"
+```
+Want a subscription tracker that never touches your bank? CentryAI uses read-only email access — no bank linking, nothing stored. It even works in eighteen languages. Your data stays yours.
+```
+
+### Flagship `centryai_draft_32s`
+VO zaten `launch-video-1-demo.md` Bölüm A'da mevcut (ilk cümlede "finds every subscription you're paying for" geçtiği için AEO açısından yeterli). Yeniden yazılmadı.
+
+### Notlar
+- `01_scan_and_results` için ayrı 12 sn'lik VO daha önce yazıldı (bkz. bu oturum) — hedef: "How do I find all the subscriptions I'm paying for?".
+- `02_ai_finds_more` / `10_closing_dashboard` B-roll → VO gerekmez (flagship VO'su kapsıyor).
+- Üretim akışı: ElevenLabs'ten mp3 → CapCut'ta klibin üstüne bindir → auto-caption AÇIK bırak (transkript AEO için taranır).
