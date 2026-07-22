@@ -338,7 +338,7 @@
         },
         {
           "q": "Apa yang terjadi jika saya menghapus akun saya?",
-          "a": "Menghapus akun Anda akan segera menghapus semua data dari server kami (jika sinkronisasi diaktifkan) dan dari penyimpanan lokal. Tindakan ini tidak dapat diurungkan. Untuk menghapus: Pengaturan > Akun > Hapus Akun."
+          "a": "Saat Anda menghapus akun, akun akan segera dinonaktifkan dan dijadwalkan untuk dihapus secara permanen setelah masa tenggang 30 hari. Jika Anda masuk kembali dalam 30 hari tersebut, akun dan semua data Anda akan dipulihkan sepenuhnya. Setelah 30 hari, penghapusan bersifat permanen dan tidak dapat dibatalkan. Untuk menghapus: Pengaturan > Akun > Hapus Akun."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Syarat Penggunaan",
-      "subtitle": "Terakhir Diperbarui: 15 Mei 2026 · Berlaku: 19 April 2026"
+      "subtitle": "Terakhir Diperbarui: 22 Juli 2026 · Berlaku: 19 April 2026"
     },
     "toc": {
       "title": "Daftar Isi",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium adalah langganan bulanan atau tahunan. Langganan Pro diperbarui secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum tanggal pembaruan. Anda dapat mengelola atau membatalkan langganan Pro Anda melalui pengaturan akun App Store atau Google Play Anda.",
         "refundsTitle": "Pengembalian Dana",
         "refundsBody": "Permintaan pengembalian dana tunduk pada kebijakan Apple App Store atau Google Play. Kami akan bekerja sama dengan permintaan pengembalian dana yang dibuat dalam waktu 14 hari setelah pembelian awal jika memungkinkan secara teknis.",
-        "body": "<p><strong>Tingkat Gratis</strong><br>Fitur inti CentryAI — deteksi langganan dan dasbor — tersedia tanpa biaya.</p><p><strong>CentryAI Premium</strong><br>CentryAI menawarkan paket Pro dan Premium bulanan dengan harga yang ditampilkan di App Store atau Google Play saat pembelian.</p><ul><li>Pembayaran ditagihkan ke Apple ID atau akun Google Play Anda saat konfirmasi pembelian.</li><li>Langganan diperbarui secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum akhir periode penagihan saat ini.</li><li>Akun Anda akan ditagih untuk pembaruan dalam 24 jam sebelum akhir periode saat ini dengan tarif langganan yang berlaku.</li><li>Untuk membatalkan: App Store → Pengaturan → [nama Anda] → Langganan, atau Google Play → Langganan → pilih paket → Batalkan.</li><li>Perubahan harga akan dikomunikasikan terlebih dahulu. Penggunaan lanjutan setelah tanggal berlaku merupakan penerimaan harga baru.</li></ul><p><strong>Uji Coba Gratis</strong><br>Paket berbayar mungkin mencakup periode uji coba gratis. Pembayaran tidak akan ditagih sampai uji coba berakhir. Bagian uji coba yang tidak digunakan hangus saat pembelian. Kelayakan ditentukan oleh Apple atau Google.</p><p><strong>Pengembalian Dana</strong><br>Semua pembelian diproses oleh Apple atau Google. Permintaan pengembalian dana diatur oleh kebijakan mereka. CentryAI tidak dapat memproses pengembalian dana secara langsung.</p>"
+        "body": "<p><strong>Tingkat Gratis</strong><br>Fitur inti CentryAI — pelacakan langganan manual untuk hingga 3 langganan — tersedia tanpa biaya, tanpa batas waktu.</p><p><strong>Paket Pro &amp; Premium</strong><br>CentryAI menawarkan paket Pro dan Premium dengan masa berlaku bulanan dan tahunan sesuai harga yang ditampilkan di App Store atau Google Play saat pembelian.</p><ul><li>Pembayaran ditagihkan ke Apple ID atau akun Google Play Anda saat konfirmasi pembelian.</li><li>Langganan diperbarui secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum akhir periode penagihan saat ini.</li><li>Akun Anda akan ditagih untuk pembaruan dalam 24 jam sebelum akhir periode saat ini dengan tarif langganan yang berlaku saat itu.</li><li>Untuk membatalkan: App Store → Pengaturan → [nama Anda] → Langganan, atau Google Play → Langganan → pilih paket → Batalkan.</li><li>Kami berhak mengubah harga langganan, termasuk harga paket bulanan dan tahunan, kapan saja. Bagi pelanggan yang sudah ada, kenaikan harga apa pun akan berlaku pada pembaruan berikutnya setelah pemberitahuan sebelumnya sebagaimana diwajibkan oleh App Store dan Google Play; Anda dapat membatalkan sebelum tanggal pembaruan untuk menghindari harga baru. Penggunaan berkelanjutan setelah tanggal berlaku merupakan penerimaan terhadap harga baru.</li></ul><p><strong>Uji Coba Gratis</strong><br>Paket berbayar mungkin mencakup periode uji coba gratis. Pembayaran tidak akan ditagih sampai uji coba berakhir. Bagian uji coba yang tidak digunakan akan hangus saat pembelian langganan. Kelayakan uji coba ditentukan oleh Apple atau Google dan umumnya terbatas untuk pelanggan baru.</p><p><strong>Pengembalian Dana</strong><br>Semua pembelian diproses oleh Apple atau Google. Permintaan pengembalian dana diatur oleh kebijakan pengembalian dana App Store Apple atau Google Play. CentryAI tidak dapat memproses pengembalian dana secara langsung.</p>"
       },
       "s6": {
         "title": "6. Penggunaan yang Dapat Diterima",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Pengakhiran",
-        "body": "Kami berhak untuk menangguhkan atau menghentikan akun Anda kapan saja karena pelanggaran Syarat ini. Anda dapat menghapus akun Anda kapan saja dari dalam Aplikasi. Setelah pengakhiran, hak Anda untuk menggunakan Aplikasi segera berhenti."
+        "body": "Kami berhak untuk menangguhkan atau menghentikan akun Anda kapan saja karena pelanggaran Syarat ini, dengan atau tanpa pemberitahuan. Anda dapat menghapus akun Anda kapan saja dari dalam Aplikasi. Saat Anda meminta penghapusan, akun Anda akan segera dinonaktifkan dan dijadwalkan untuk dihapus secara permanen setelah masa tenggang 30 hari; jika Anda masuk kembali selama periode tersebut, akun Anda akan dipulihkan sepenuhnya. Setelah 30 hari, penghapusan bersifat permanen dan tidak dapat dibatalkan."
       },
       "s11": {
         "title": "11. Hukum yang Mengatur",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Kebijakan Privasi",
-      "subtitle": "Terakhir Diperbarui: 2 Juli 2026 · Berlaku: 19 April 2026"
+      "subtitle": "Terakhir Diperbarui: 22 Juli 2026 · Berlaku: 19 April 2026"
     },
     "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Penyimpanan & Keamanan Data",
         "body1": "Data langganan disimpan dengan aman di Firebase Firestore (Google Cloud), dilindungi oleh aturan keamanan per pengguna.",
         "body2": "Konten email yang dikirim selama pemindaian diproses di Cloud Functions dan tidak disimpan setelah selesai. Hanya data yang diekstrak yang disimpan di akun Anda.",
-        "body3": "Infrastruktur kami menggunakan enkripsi TLS saat transit, enkripsi Firebase saat istirahat, dan isolasi data ketat per pengguna. Akses ke data pribadi Anda oleh tim kami dibatasi hanya untuk personel yang berwenang untuk keperluan dukungan pelanggan dan operasional, dilindungi oleh autentikasi berbasis peran dan dicatat dalam log audit internal. Retensi: jika Anda membatalkan dan tidak kembali, data Anda akan dihapus secara otomatis dan permanen setelah 30 hari; Anda juga dapat menghapus akun dan semua data terkait kapan saja dari dalam aplikasi."
+        "body3": "Infrastruktur kami menggunakan enkripsi TLS saat transit, enkripsi Firebase saat istirahat, dan isolasi data ketat per pengguna. Akses ke data pribadi Anda oleh tim kami dibatasi hanya untuk personel yang berwenang untuk keperluan dukungan pelanggan dan operasional, dilindungi oleh autentikasi berbasis peran dan dicatat dalam log audit internal. Retensi: jika Anda membatalkan dan tidak kembali, atau jika Anda menghapus akun Anda, data Anda akan disimpan selama 30 hari lalu dihapus secara otomatis dan permanen. Masuk kembali dalam 30 hari tersebut (atau melakukan pembelian baru) akan membatalkan penghapusan dan memulihkan akun Anda."
       },
       "s4": {
         "title": "4. Layanan Pihak Ketiga",

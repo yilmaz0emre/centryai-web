@@ -338,7 +338,7 @@
         },
         {
           "q": "Co się stanie, jeśli usunę moje konto?",
-          "a": "Usunięcie konta natychmiast usuwa wszystkie dane z naszych serwerów (jeśli synchronizacja była włączona) i z lokalnej pamięci. Tego działania nie można cofnąć. Aby usunąć: Ustawienia > Konto > Usuń Konto."
+          "a": "Gdy usuwasz swoje konto, zostaje ono natychmiast dezaktywowane i zaplanowane do trwałego usunięcia po 30-dniowym okresie karencji. Jeśli zalogujesz się ponownie w ciągu tych 30 dni, Twoje konto i wszystkie dane zostaną w pełni przywrócone. Po upływie 30 dni usunięcie jest trwałe i nieodwracalne. Aby usunąć: Ustawienia > Konto > Usuń Konto."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Kwestie prawne",
       "title": "Warunki Użytkowania",
-      "subtitle": "Ostatnia aktualizacja: 15 maja 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
+      "subtitle": "Ostatnia aktualizacja: 22 lipca 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
     },
     "toc": {
       "title": "Spis treści",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium to subskrypcja miesięczna lub roczna. Subskrypcje Pro odnawiają się automatycznie, o ile nie zostaną anulowane co najmniej 24 godziny przed datą odnowienia. Możesz zarządzać subskrypcją Pro lub ją anulować poprzez ustawienia konta w App Store lub Google Play.",
         "refundsTitle": "Zwroty",
         "refundsBody": "Wnioski o zwrot podlegają zasadom App Store lub Google Play. Będziemy współpracować przy wnioskach o zwrot złożonych w ciągu 14 dni od początkowego zakupu, tam gdzie to technicznie możliwe.",
-        "body": "<p><strong>Plan Darmowy</strong><br>Główne funkcje CentryAI — wykrywanie subskrypcji i panel — są dostępne bezpłatnie.</p><p><strong>CentryAI Premium</strong><br>CentryAI oferuje miesięczne plany Pro i Premium w cenach wyświetlanych w App Store lub Google Play w momencie zakupu.</p><ul><li>Płatność jest pobierana z Twojego Apple ID lub konta Google Play po potwierdzeniu zakupu.</li><li>Subskrypcje są automatycznie odnawiane, chyba że zostaną anulowane co najmniej 24 godziny przed końcem okresu rozliczeniowego.</li><li>Opłata za odnowienie zostanie pobrana z Twojego konta w ciągu 24 godzin przed końcem okresu, według aktualnej stawki.</li><li>Aby anulować: App Store → Ustawienia → [Twoje imię] → Subskrypcje lub Google Play → Subskrypcje → wybierz plan → Anuluj.</li><li>Zmiany cen będą komunikowane z wyprzedzeniem. Dalsze korzystanie po dacie wejścia w życie oznacza akceptację.</li></ul><p><strong>Bezpłatny okres próbny</strong><br>Płatne plany mogą zawierać bezpłatny okres próbny. Płatność nie jest pobierana do jego zakończenia. Niewykorzystana część przepada przy zakupie. Kwalifikowalność określa Apple lub Google.</p><p><strong>Zwroty</strong><br>Wszystkie zakupy są przetwarzane przez Apple lub Google. Zwroty podlegają ich zasadom. CentryAI nie może przetwarzać zwrotów bezpośrednio.</p>"
+        "body": "<p><strong>Plan Darmowy</strong><br>Podstawowe funkcje CentryAI — ręczne śledzenie subskrypcji dla maksymalnie 3 subskrypcji — są dostępne bezpłatnie, bez ograniczeń czasowych.</p><p><strong>Plany Pro i Premium</strong><br>CentryAI oferuje plany Pro i Premium w wariancie miesięcznym i rocznym w cenach wyświetlanych w App Store lub Google Play w momencie zakupu.</p><ul><li>Płatność jest pobierana z Twojego Apple ID lub konta Google Play po potwierdzeniu zakupu.</li><li>Subskrypcje są automatycznie odnawiane, chyba że zostaną anulowane co najmniej 24 godziny przed końcem bieżącego okresu rozliczeniowego.</li><li>Opłata za odnowienie zostanie pobrana z Twojego konta w ciągu 24 godzin przed końcem bieżącego okresu, według obowiązującej wówczas stawki subskrypcji.</li><li>Aby anulować: App Store → Ustawienia → [Twoje imię] → Subskrypcje lub Google Play → Subskrypcje → wybierz plan → Anuluj.</li><li>Zastrzegamy sobie prawo do zmiany cen subskrypcji, w tym cen planów miesięcznych i rocznych, w dowolnym momencie. W przypadku obecnych subskrybentów każda podwyżka ceny wchodzi w życie przy najbliższym odnowieniu, po uprzednim powiadomieniu wymaganym przez App Store i Google Play; można anulować przed datą odnowienia, aby uniknąć nowej ceny. Dalsze korzystanie po dacie wejścia w życie oznacza akceptację nowej ceny.</li></ul><p><strong>Bezpłatny okres próbny</strong><br>Płatne plany mogą zawierać bezpłatny okres próbny. Płatność nie jest pobierana do momentu zakończenia okresu próbnego. Niewykorzystana część okresu próbnego przepada przy zakupie subskrypcji. Kwalifikowalność do okresu próbnego określa Apple lub Google i zazwyczaj jest ograniczona do nowych subskrybentów.</p><p><strong>Zwroty</strong><br>Wszystkie zakupy są przetwarzane przez Apple lub Google. Wnioski o zwrot podlegają zasadom zwrotów Apple App Store lub Google Play. CentryAI nie może przetwarzać zwrotów bezpośrednio.</p>"
       },
       "s6": {
         "title": "6. Dozwolone Użycie",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Zakończenie",
-        "body": "Zastrzegamy sobie prawo do zawieszenia lub usunięcia Twojego konta w dowolnym momencie za naruszenie tych Warunków. Możesz usunąć swoje konto w dowolnym momencie z poziomu Aplikacji. Z chwilą zakończenia, Twoje prawo do używania Aplikacji natychmiast wygasa."
+        "body": "Zastrzegamy sobie prawo do zawieszenia lub usunięcia Twojego konta w dowolnym momencie za naruszenie tych Warunków, z powiadomieniem lub bez niego. Możesz usunąć swoje konto w dowolnym momencie z poziomu Aplikacji. Gdy zażądasz usunięcia, Twoje konto zostaje natychmiast dezaktywowane i zaplanowane do trwałego usunięcia po 30-dniowym okresie karencji; jeśli zalogujesz się ponownie w tym okresie, Twoje konto zostanie w pełni przywrócone. Po upływie 30 dni usunięcie jest trwałe i nieodwracalne."
       },
       "s11": {
         "title": "11. Prawo Właściwe",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Kwestie prawne",
       "title": "Polityka Prywatności",
-      "subtitle": "Ostatnia aktualizacja: 2 lipca 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
+      "subtitle": "Ostatnia aktualizacja: 22 lipca 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
     },
     "shortVersion": "CentryAI odczytuje e-maile w celu znalezienia potwierdzeń subskrypcji. Treść jest przetwarzana w naszych bezpiecznych Cloud Functions — nigdy nie przechowujemy e-maili, nie sprzedajemy danych i nie łączymy się z Twoim bankiem.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Przechowywanie Danych i Bezpieczeństwo",
         "body1": "Dane subskrypcji są bezpiecznie przechowywane w Firebase Firestore (Google Cloud), chronionym regułami bezpieczeństwa per użytkownik.",
         "body2": "Treść e-maili jest przetwarzana w Cloud Functions i nie jest przechowywana po zakończeniu. Tylko wyodrębnione dane są zapisywane na koncie.",
-        "body3": "Infrastruktura używa szyfrowania TLS, szyfrowania Firebase w spoczynku i ścisłej izolacji danych per użytkownik. Dostęp do danych osobowych użytkownika przez nasz zespół jest ograniczony do upoważnionego personelu wyłącznie w celach obsługi klienta i operacyjnych, chroniony uwierzytelnianiem opartym na rolach i rejestrowany w wewnętrznym dzienniku audytu. Okres przechowywania: jeśli użytkownik anuluje subskrypcję i nie powróci, jego dane zostaną automatycznie i trwale usunięte po 30 dniach; można również w dowolnym momencie usunąć konto i wszystkie powiązane dane bezpośrednio z aplikacji."
+        "body3": "Infrastruktura używa szyfrowania TLS, szyfrowania Firebase w spoczynku i ścisłej izolacji danych per użytkownik. Dostęp do danych osobowych użytkownika przez nasz zespół jest ograniczony do upoważnionego personelu wyłącznie w celach obsługi klienta i operacyjnych, chroniony uwierzytelnianiem opartym na rolach i rejestrowany w wewnętrznym dzienniku audytu. Okres przechowywania: jeśli użytkownik anuluje subskrypcję i nie powróci, lub usunie swoje konto, jego dane będą przechowywane przez 30 dni, a następnie automatycznie i trwale usunięte. Ponowne zalogowanie się w ciągu tych 30 dni (lub dokonanie nowego zakupu) anuluje usunięcie i przywraca konto."
       },
       "s4": {
         "title": "4. Usługi Osób Trzecich",

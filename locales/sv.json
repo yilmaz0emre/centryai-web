@@ -338,7 +338,7 @@
         },
         {
           "q": "Vad händer om jag tar bort mitt konto?",
-          "a": "Att ta bort ditt konto tar omedelbart bort all data från våra servrar (om synkronisering var aktiverad) och från lokal lagring. Denna åtgärd är oåterkallelig. För att ta bort: Inställningar > Konto > Ta bort konto."
+          "a": "När du raderar ditt konto inaktiveras det omedelbart och schemaläggs för permanent radering efter en 30-dagars karensperiod. Om du loggar in igen inom dessa 30 dagar återställs ditt konto och all data fullständigt. Efter 30 dagar är raderingen permanent och oåterkallelig. För att ta bort: Inställningar > Konto > Ta bort konto."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Användarvillkor",
-      "subtitle": "Senast uppdaterad: 15 maj 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 22 juli 2026 · Gäller från: 19 april 2026"
     },
     "toc": {
       "title": "Innehållsförteckning",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium är en månatlig eller årlig prenumeration. Pro-prenumerationer förnyas automatiskt om de inte avbryts minst 24 timmar före förnyelsedatumet. Du kan hantera eller avbryta din Pro-prenumeration via dina kontoinställningar i App Store eller Google Play.",
         "refundsTitle": "Återbetalningar",
         "refundsBody": "Återbetalningsförfrågningar är föremål för policyerna för Apple App Store eller Google Play. Vi kommer att samarbeta med återbetalningsförfrågningar som görs inom 14 dagar efter det ursprungliga köpet där det är tekniskt möjligt.",
-        "body": "<p><strong>Gratis nivå</strong><br>CentryAIs kärnfunktioner — prenumerationsdetektering och översikt — är tillgängliga utan kostnad.</p><p><strong>CentryAI Premium</strong><br>CentryAI erbjuder Pro- och Premium-månadsabonnemang till priserna i App Store eller Google Play vid köptillfället.</p><ul><li>Betalningen debiteras ditt Apple-ID eller Google Play-konto vid köpbekräftelse.</li><li>Abonnemang förnyas automatiskt om de inte avbryts minst 24 timmar innan den aktuella perioden avslutas.</li><li>Ditt konto debiteras för förnyelse inom 24 timmar innan periodens slut till gällande abonnemangspris.</li><li>För att avsluta: App Store → Inställningar → [ditt namn] → Prenumerationer, eller Google Play → Prenumerationer → välj plan → Avbryt.</li><li>Prisändringar meddelas i förväg. Fortsatt användning efter ikraftträdandedatumet innebär godkännande.</li></ul><p><strong>Gratis provperiod</strong><br>Betalda planer kan inkludera en gratis provperiod. Betalning debiteras inte förrän provperioden avslutas. Oanvänd del förfaller vid köp. Rätt till provperiod bestäms av Apple eller Google.</p><p><strong>Återbetalningar</strong><br>Alla köp behandlas av Apple eller Google. Återbetalningar regleras av deras policyer. CentryAI kan inte behandla återbetalningar direkt.</p>"
+        "body": "<p><strong>Gratis nivå</strong><br>CentryAIs kärnfunktioner — manuell prenumerationsspårning för upp till 3 prenumerationer — är tillgängliga kostnadsfritt, utan tidsbegränsning.</p><p><strong>Pro- och Premium-planer</strong><br>CentryAI erbjuder Pro- och Premium-prenumerationer med månads- och årsbindning till de priser som visas i App Store eller Google Play vid köptillfället.</p><ul><li>Betalningen debiteras ditt Apple-ID eller Google Play-konto vid köpbekräftelse.</li><li>Prenumerationer förnyas automatiskt om de inte avbryts minst 24 timmar innan den aktuella faktureringsperioden avslutas.</li><li>Ditt konto debiteras för förnyelse inom 24 timmar innan den aktuella periodens slut till det då gällande prenumerationspriset.</li><li>För att avsluta: App Store → Inställningar → [ditt namn] → Prenumerationer, eller Google Play → Prenumerationer → välj plan → Avbryt.</li><li>Vi förbehåller oss rätten att när som helst ändra prenumerationspriserna, inklusive priserna för månads- och årsplaner. För befintliga prenumeranter träder en prishöjning i kraft vid nästa förnyelse, efter förhandsbesked enligt vad App Store och Google Play kräver; du kan avbryta före förnyelsedatumet för att undvika det nya priset. Fortsatt användning efter ikraftträdandedatumet innebär godkännande av det nya priset.</li></ul><p><strong>Gratis provperiod</strong><br>Betalda planer kan inkludera en gratis provperiod. Ingen betalning debiteras förrän provperioden avslutas. Eventuell oanvänd del av den gratis provperioden förfaller vid köp av en prenumeration. Rätten till provperioden bestäms av Apple eller Google och är vanligtvis begränsad till nya prenumeranter.</p><p><strong>Återbetalningar</strong><br>Alla köp behandlas av Apple eller Google. Återbetalningsförfrågningar regleras av Apple App Stores eller Google Plays återbetalningspolicyer. CentryAI kan inte hantera återbetalningar direkt.</p>"
       },
       "s6": {
         "title": "6. Acceptabel användning",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Uppsägning",
-        "body": "Vi förbehåller oss rätten att när som helst stänga av eller avsluta ditt konto för brott mot dessa villkor. Du kan radera ditt konto när som helst inifrån appen. Vid uppsägning upphör din rätt att använda appen omedelbart."
+        "body": "Vi förbehåller oss rätten att när som helst stänga av eller avsluta ditt konto för brott mot dessa villkor, med eller utan förvarning. Du kan radera ditt konto när som helst inifrån appen. När du begär radering inaktiveras ditt konto omedelbart och schemaläggs för permanent radering efter en 30-dagars karensperiod; om du loggar in igen under den perioden återställs ditt konto fullständigt. Efter 30 dagar är raderingen permanent och oåterkallelig."
       },
       "s11": {
         "title": "11. Tillämplig lag",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: 2 juli 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 22 juli 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Datalagring & Säkerhet",
         "body1": "Dina prenumerationsdata lagras säkert i Firebase Firestore (Google Cloud), skyddade av säkerhetsregler per användare.",
         "body2": "E-postinnehåll bearbetas i Cloud Functions och sparas inte efter bearbetning. Endast extraherade data lagras i ditt konto.",
-        "body3": "Vår infrastruktur använder TLS-kryptering i transit, Firebases kryptering i vila och strikt dataisolering per användare. Åtkomst till dina personuppgifter av vårt team är begränsad till behörig personal uteslutande för kundsupport och operativa ändamål, skyddad av rollbaserad autentisering och registrerad i en intern revisionslogg. Lagring: om du avregistrerar dig och inte återvänder raderas dina uppgifter automatiskt och permanent efter 30 dagar; du kan också när som helst radera ditt konto och all tillhörande data från appen."
+        "body3": "Vår infrastruktur använder TLS-kryptering i transit, Firebases kryptering i vila och strikt dataisolering per användare. Åtkomst till dina personuppgifter av vårt team är begränsad till behörig personal uteslutande för kundsupport och operativa ändamål, skyddad av rollbaserad autentisering och registrerad i en intern revisionslogg. Lagring: om du avregistrerar dig och inte återvänder, eller om du raderar ditt konto, sparas dina uppgifter i 30 dagar och raderas sedan automatiskt och permanent. Att logga in igen inom dessa 30 dagar (eller göra ett nytt köp) avbryter raderingen och återställer ditt konto."
       },
       "s4": {
         "title": "4. Tredjepartstjänster",

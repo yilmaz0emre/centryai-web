@@ -338,7 +338,7 @@
         },
         {
           "q": "Cosa succede se elimino il mio account?",
-          "a": "L'eliminazione del tuo account rimuove immediatamente tutti i dati dai nostri server (se la sincronizzazione era abilitata) e dall'archiviazione locale. Questa azione è irreversibile. Per eliminare: Impostazioni > Account > Elimina Account."
+          "a": "Quando elimini il tuo account, questo viene disattivato immediatamente e programmato per la cancellazione permanente dopo un periodo di grazia di 30 giorni. Se accedi nuovamente entro quei 30 giorni, il tuo account e tutti i tuoi dati vengono ripristinati completamente. Trascorsi 30 giorni, la cancellazione è permanente e irreversibile. Per eliminare: Impostazioni > Account > Elimina Account."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Legale",
       "title": "Termini di Utilizzo",
-      "subtitle": "Ultimo aggiornamento: 15 maggio 2026 · In vigore: 19 aprile 2026"
+      "subtitle": "Ultimo aggiornamento: 22 luglio 2026 · In vigore: 19 aprile 2026"
     },
     "toc": {
       "title": "Sommario",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium è un abbonamento mensile o annuale. Gli abbonamenti Pro si rinnovano automaticamente se non vengono annullati almeno 24 ore prima della data di rinnovo. Puoi gestire o annullare il tuo abbonamento Pro tramite le impostazioni del tuo account App Store o Google Play.",
         "refundsTitle": "Rimborsi",
         "refundsBody": "Le richieste di rimborso sono regolate dalle politiche dell'Apple App Store o di Google Play. Collaboreremo con le richieste di rimborso effettuate entro 14 giorni dall'acquisto iniziale laddove tecnicamente possibile.",
-        "body": "<p><strong>Livello Gratuito</strong><br>Le funzioni principali di CentryAI — rilevamento degli abbonamenti e dashboard — sono disponibili gratuitamente.</p><p><strong>CentryAI Premium</strong><br>CentryAI offre piani Pro e Premium ai prezzi visualizzati nell'App Store o Google Play al momento dell'acquisto.</p><ul><li>Il pagamento viene addebitato al tuo ID Apple o account Google Play alla conferma dell'acquisto.</li><li>Gli abbonamenti si rinnovano automaticamente salvo cancellazione almeno 24 ore prima della fine del periodo di fatturazione.</li><li>Il tuo account verrà addebitato per il rinnovo entro 24 ore prima della fine del periodo, alla tariffa attuale.</li><li>Per cancellare: App Store → Impostazioni → [il tuo nome] → Abbonamenti, o Google Play → Abbonamenti → piano → Annulla.</li><li>Le modifiche ai prezzi sono comunicate in anticipo. L'utilizzo continuato dopo la data di entrata in vigore costituisce accettazione.</li></ul><p><strong>Prova gratuita</strong><br>I piani a pagamento possono includere un periodo di prova. Il pagamento non viene addebitato fino alla fine. La parte non utilizzata decade all'acquisto. L'idoneità è determinata da Apple o Google.</p><p><strong>Rimborsi</strong><br>Tutti gli acquisti sono elaborati da Apple o Google. I rimborsi sono disciplinati dalle loro politiche. CentryAI non può elaborare rimborsi direttamente.</p>"
+        "body": "<p><strong>Livello Gratuito</strong><br>Le funzioni principali di CentryAI — il monitoraggio manuale degli abbonamenti fino a 3 abbonamenti — sono disponibili gratuitamente, senza limiti di tempo.</p><p><strong>Piani Pro e Premium</strong><br>CentryAI offre piani Pro e Premium con validità mensile e annuale ai prezzi visualizzati nell'App Store o Google Play al momento dell'acquisto.</p><ul><li>Il pagamento viene addebitato al tuo ID Apple o account Google Play alla conferma dell'acquisto.</li><li>Gli abbonamenti si rinnovano automaticamente salvo cancellazione almeno 24 ore prima della fine del periodo di fatturazione in corso.</li><li>Il tuo account verrà addebitato per il rinnovo entro 24 ore prima della fine del periodo in corso, alla tariffa di abbonamento allora in vigore.</li><li>Per cancellare: App Store → Impostazioni → [il tuo nome] → Abbonamenti, o Google Play → Abbonamenti → seleziona il piano → Annulla.</li><li>Ci riserviamo il diritto di modificare i prezzi degli abbonamenti, compresi i prezzi dei piani mensili e annuali, in qualsiasi momento. Per gli abbonati esistenti, qualsiasi aumento di prezzo entra in vigore al rinnovo successivo, previo preavviso come richiesto dall'App Store e da Google Play; puoi cancellare prima della data di rinnovo per evitare il nuovo prezzo. L'utilizzo continuato dopo la data di entrata in vigore costituisce accettazione del nuovo prezzo.</li></ul><p><strong>Prova gratuita</strong><br>I piani a pagamento possono includere un periodo di prova gratuito. Il pagamento non verrà addebitato fino al termine della prova. Qualsiasi parte non utilizzata della prova gratuita decade all'acquisto di un abbonamento. L'idoneità alla prova è determinata da Apple o Google ed è generalmente limitata ai nuovi abbonati.</p><p><strong>Rimborsi</strong><br>Tutti gli acquisti sono elaborati da Apple o Google. Le richieste di rimborso sono disciplinate dalle politiche di rimborso dell'App Store di Apple o di Google Play. CentryAI non può elaborare rimborsi direttamente.</p>"
       },
       "s6": {
         "title": "6. Uso Accettabile",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Risoluzione",
-        "body": "Ci riserviamo il diritto di sospendere o chiudere il tuo account in qualsiasi momento per violazione di questi Termini. Puoi eliminare il tuo account in qualsiasi momento all'interno dell'App. Al momento della risoluzione, il tuo diritto di usare l'App cessa immediatamente."
+        "body": "Ci riserviamo il diritto di sospendere o chiudere il tuo account in qualsiasi momento per violazione di questi Termini, con o senza preavviso. Puoi eliminare il tuo account in qualsiasi momento all'interno dell'App. Quando richiedi l'eliminazione, il tuo account viene disattivato immediatamente e programmato per la cancellazione permanente dopo un periodo di grazia di 30 giorni; se accedi nuovamente durante tale periodo, il tuo account viene ripristinato completamente. Trascorsi 30 giorni, la cancellazione è permanente e irreversibile."
       },
       "s11": {
         "title": "11. Legge Applicabile",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legale",
       "title": "Informativa sulla Privacy",
-      "subtitle": "Ultimo aggiornamento: 2 luglio 2026 · In vigore: 19 aprile 2026"
+      "subtitle": "Ultimo aggiornamento: 22 luglio 2026 · In vigore: 19 aprile 2026"
     },
     "shortVersion": "CentryAI legge le tue email per trovare le ricevute degli abbonamenti. Il contenuto viene elaborato nei nostri Cloud Functions sicuri — non archiviamo mai le email, non vendiamo dati e non ci connettiamo alla tua banca.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Archiviazione dei Dati e Sicurezza",
         "body1": "I tuoi dati di abbonamento sono archiviati in Firebase Firestore (Google Cloud), protetti da regole di sicurezza per utente.",
         "body2": "Il contenuto delle email viene elaborato in Cloud Functions e non conservato dopo il completamento. Solo i dati estratti vengono archiviati nel tuo account.",
-        "body3": "La nostra infrastruttura utilizza TLS in transito, crittografia Firebase a riposo e isolamento rigoroso dei dati per utente. L'accesso ai tuoi dati personali da parte del nostro team è limitato al personale autorizzato esclusivamente per scopi di assistenza clienti e operativi, protetto da autenticazione basata sui ruoli e registrato in un registro di audit interno. Conservazione: se annulli e non ritorni, i tuoi dati vengono eliminati automaticamente e definitivamente dopo 30 giorni; puoi inoltre eliminare il tuo account e tutti i dati associati in qualsiasi momento dall'app."
+        "body3": "La nostra infrastruttura utilizza TLS in transito, crittografia Firebase a riposo e isolamento rigoroso dei dati per utente. L'accesso ai tuoi dati personali da parte del nostro team è limitato al personale autorizzato esclusivamente per scopi di assistenza clienti e operativi, protetto da autenticazione basata sui ruoli e registrato in un registro di audit interno. Conservazione: se annulli e non ritorni, oppure se elimini il tuo account, i tuoi dati vengono conservati per 30 giorni e poi eliminati automaticamente e definitivamente. Accedere nuovamente entro quei 30 giorni (o effettuare un nuovo acquisto) annulla la cancellazione e ripristina il tuo account."
       },
       "s4": {
         "title": "4. Servizi di Terze Parti",

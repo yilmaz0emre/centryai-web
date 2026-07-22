@@ -338,7 +338,7 @@
         },
         {
           "q": "Điều gì xảy ra nếu tôi xóa tài khoản của mình?",
-          "a": "Việc xóa tài khoản của bạn sẽ xóa ngay tất cả dữ liệu khỏi máy chủ của chúng tôi (nếu tính năng đồng bộ hóa được bật) và khỏi bộ nhớ cục bộ. Hành động này không thể hoàn tác. Để xóa: Cài đặt > Tài khoản > Xóa Tài khoản."
+          "a": "Khi bạn xóa tài khoản của mình, tài khoản sẽ ngay lập tức bị vô hiệu hóa và được lên lịch để xóa vĩnh viễn sau thời gian gia hạn 30 ngày. Nếu bạn đăng nhập lại trong vòng 30 ngày đó, tài khoản và toàn bộ dữ liệu của bạn sẽ được khôi phục hoàn toàn. Sau 30 ngày, việc xóa là vĩnh viễn và không thể hoàn tác. Để xóa: Cài đặt > Tài khoản > Xóa Tài khoản."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Điều khoản Sử dụng",
-      "subtitle": "Cập nhật lần cuối: Ngày 15 tháng 5 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 22 tháng 7 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "toc": {
       "title": "Mục lục",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium là gói đăng ký hàng tháng hoặc hàng năm. Gói đăng ký Pro sẽ tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước ngày gia hạn. Bạn có thể quản lý hoặc hủy đăng ký Pro của mình thông qua cài đặt tài khoản App Store hoặc Google Play.",
         "refundsTitle": "Hoàn tiền",
         "refundsBody": "Yêu cầu hoàn tiền tuân theo các chính sách của Apple App Store hoặc Google Play. Chúng tôi sẽ hợp tác với các yêu cầu hoàn tiền được thực hiện trong vòng 14 ngày kể từ ngày mua ban đầu khi có thể thực hiện được về mặt kỹ thuật.",
-        "body": "<p><strong>Cấp độ Miễn phí</strong><br>Các tính năng cốt lõi của CentryAI — phát hiện đăng ký và bảng điều khiển — được cung cấp miễn phí.</p><p><strong>CentryAI Premium</strong><br>CentryAI cung cấp các gói Pro và Premium hàng tháng với giá hiển thị trên App Store hoặc Google Play tại thời điểm mua.</p><ul><li>Thanh toán được tính vào Apple ID hoặc tài khoản Google Play của bạn khi xác nhận mua hàng.</li><li>Các gói đăng ký tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc kỳ thanh toán hiện tại.</li><li>Tài khoản của bạn sẽ bị tính phí gia hạn trong vòng 24 giờ trước khi kết thúc kỳ hiện tại theo mức giá hiện hành.</li><li>Để hủy: App Store → Cài đặt → [tên của bạn] → Đăng ký, hoặc Google Play → Đăng ký → chọn gói → Hủy.</li><li>Thay đổi giá sẽ được thông báo trước. Tiếp tục sử dụng sau ngày có hiệu lực đồng nghĩa với việc chấp nhận giá mới.</li></ul><p><strong>Dùng thử miễn phí</strong><br>Các gói trả phí có thể bao gồm thời gian dùng thử miễn phí. Không tính phí cho đến khi hết thời gian dùng thử. Phần dùng thử chưa sử dụng sẽ bị mất khi mua đăng ký. Điều kiện dùng thử do Apple hoặc Google quyết định.</p><p><strong>Hoàn tiền</strong><br>Tất cả các giao dịch mua được xử lý bởi Apple hoặc Google. Yêu cầu hoàn tiền được điều chỉnh bởi chính sách của họ. CentryAI không thể xử lý hoàn tiền trực tiếp.</p>"
+        "body": "<p><strong>Cấp độ Miễn phí</strong><br>Các tính năng cốt lõi của CentryAI — theo dõi đăng ký thủ công cho tối đa 3 đăng ký — được cung cấp miễn phí, không giới hạn thời gian.</p><p><strong>Gói Pro và Premium</strong><br>CentryAI cung cấp các gói đăng ký Pro và Premium theo kỳ hạn hàng tháng và hàng năm với giá hiển thị trên App Store hoặc Google Play tại thời điểm mua.</p><ul><li>Thanh toán được tính vào Apple ID hoặc tài khoản Google Play của bạn khi xác nhận mua hàng.</li><li>Các gói đăng ký tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc kỳ thanh toán hiện tại.</li><li>Tài khoản của bạn sẽ bị tính phí gia hạn trong vòng 24 giờ trước khi kết thúc kỳ hiện tại, theo mức giá đăng ký hiện hành tại thời điểm đó.</li><li>Để hủy: App Store → Cài đặt → [tên của bạn] → Đăng ký, hoặc Google Play → Đăng ký → chọn gói → Hủy.</li><li>Chúng tôi bảo lưu quyền thay đổi giá đăng ký, bao gồm giá của các gói hàng tháng và hàng năm, vào bất kỳ lúc nào. Đối với người đăng ký hiện tại, mọi việc tăng giá sẽ có hiệu lực vào lần gia hạn tiếp theo sau khi có thông báo trước theo yêu cầu của App Store và Google Play; bạn có thể hủy trước ngày gia hạn để tránh mức giá mới. Việc tiếp tục sử dụng sau ngày có hiệu lực đồng nghĩa với việc chấp nhận mức giá mới.</li></ul><p><strong>Dùng thử miễn phí</strong><br>Các gói trả phí có thể bao gồm thời gian dùng thử miễn phí. Sẽ không có khoản phí nào được tính cho đến khi thời gian dùng thử kết thúc. Bất kỳ phần dùng thử miễn phí nào chưa sử dụng sẽ bị mất khi mua đăng ký. Điều kiện dùng thử do Apple hoặc Google quyết định và thường chỉ giới hạn cho người đăng ký mới.</p><p><strong>Hoàn tiền</strong><br>Tất cả các giao dịch mua được xử lý bởi Apple hoặc Google. Yêu cầu hoàn tiền được điều chỉnh bởi chính sách hoàn tiền của Apple App Store hoặc Google Play. CentryAI không thể xử lý hoàn tiền trực tiếp.</p>"
       },
       "s6": {
         "title": "6. Việc Sử dụng Được Chấp nhận",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Chấm dứt",
-        "body": "Chúng tôi có quyền đình chỉ hoặc chấm dứt tài khoản của bạn bất cứ lúc nào do vi phạm các Điều khoản này. Bạn có thể xóa tài khoản của mình bất cứ lúc nào từ trong Ứng dụng. Khi bị chấm dứt, quyền sử dụng Ứng dụng của bạn sẽ bị đình chỉ ngay lập tức."
+        "body": "Chúng tôi có quyền đình chỉ hoặc chấm dứt tài khoản của bạn bất cứ lúc nào do vi phạm các Điều khoản này, có hoặc không có thông báo trước. Bạn có thể xóa tài khoản của mình bất cứ lúc nào từ trong Ứng dụng. Khi bạn yêu cầu xóa, tài khoản của bạn sẽ ngay lập tức bị vô hiệu hóa và được lên lịch để xóa vĩnh viễn sau thời gian gia hạn 30 ngày; nếu bạn đăng nhập lại trong khoảng thời gian đó, tài khoản của bạn sẽ được khôi phục hoàn toàn. Sau 30 ngày, việc xóa là vĩnh viễn và không thể hoàn tác."
       },
       "s11": {
         "title": "11. Luật Điều chỉnh",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Chính sách Bảo mật",
-      "subtitle": "Cập nhật lần cuối: Ngày 2 tháng 7 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 22 tháng 7 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Lưu trữ & Bảo mật Dữ liệu",
         "body1": "Dữ liệu đăng ký được lưu trữ an toàn trong Firebase Firestore (Google Cloud), được bảo vệ bằng quy tắc bảo mật theo từng người dùng.",
         "body2": "Nội dung email được xử lý trong Cloud Functions và không được giữ lại sau khi hoàn tất. Chỉ dữ liệu đã trích xuất được lưu trong tài khoản của bạn.",
-        "body3": "Hạ tầng sử dụng mã hóa TLS khi truyền, mã hóa Firebase khi lưu trữ và cách ly dữ liệu nghiêm ngặt theo người dùng. Quyền truy cập vào dữ liệu cá nhân của bạn bởi nhóm của chúng tôi được giới hạn ở nhân viên được ủy quyền chỉ cho mục đích hỗ trợ khách hàng và vận hành, được bảo vệ bằng xác thực dựa trên vai trò và được ghi lại trong nhật ký kiểm tra nội bộ. Lưu giữ: nếu bạn hủy và không quay lại, dữ liệu của bạn sẽ được tự động và vĩnh viễn xóa sau 30 ngày; bạn cũng có thể xóa tài khoản và tất cả dữ liệu liên quan bất kỳ lúc nào từ trong ứng dụng."
+        "body3": "Hạ tầng sử dụng mã hóa TLS khi truyền, mã hóa Firebase khi lưu trữ và cách ly dữ liệu nghiêm ngặt theo người dùng. Quyền truy cập vào dữ liệu cá nhân của bạn bởi nhóm của chúng tôi được giới hạn ở nhân viên được ủy quyền chỉ cho mục đích hỗ trợ khách hàng và vận hành, được bảo vệ bằng xác thực dựa trên vai trò và được ghi lại trong nhật ký kiểm tra nội bộ. Lưu giữ: nếu bạn hủy và không quay lại, hoặc nếu bạn xóa tài khoản của mình, dữ liệu của bạn sẽ được lưu giữ trong 30 ngày rồi sau đó tự động và vĩnh viễn bị xóa. Việc đăng nhập lại trong vòng 30 ngày đó (hoặc thực hiện một giao dịch mua mới) sẽ hủy bỏ việc xóa và khôi phục tài khoản của bạn."
       },
       "s4": {
         "title": "4. Các Dịch vụ của Bên Thứ Ba",

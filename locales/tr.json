@@ -338,7 +338,7 @@
         },
         {
           "q": "Hesabımı silersem ne olur?",
-          "a": "Hesabınızı sildiğinizde tüm veriler sunucularımızdan (senkronizasyon etkinse) ve yerel depodan anında kaldırılır. Bu işlem geri alınamaz. Silmek için: Ayarlar > Hesap > Hesabı Sil."
+          "a": "Hesabınızı sildiğinizde, hesabınız derhal devre dışı bırakılır ve 30 günlük bir bekleme süresinin ardından kalıcı olarak silinmek üzere zamanlanır. Bu 30 gün içinde tekrar giriş yaparsanız, hesabınız ve tüm verileriniz tamamen geri yüklenir. 30 günün ardından silme işlemi kalıcı ve geri alınamaz hale gelir. Silmek için: Ayarlar > Hesap > Hesabı Sil."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Kullanım Koşulları",
-      "subtitle": "Son güncelleme: 15 Mayıs 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 22 Temmuz 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "toc": {
       "title": "İçindekiler",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium, satın alma sırasında App Store veya Google Play'de gösterilen fiyat üzerinden aylık veya yıllık bir aboneliktir. Pro abonelikleri, yenileme tarihinden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Pro aboneliğinizi App Store veya Google Play hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz.",
         "refundsTitle": "Geri ödemeler",
         "refundsBody": "Geri ödeme talepleri Apple App Store veya Google Play politikalarına tabidir. Teknik olarak mümkün olduğu takdirde, ilk satın alma tarihinden itibaren 14 gün içinde yapılan geri ödeme talepleri konusunda işbirliği yapacağız.",
-        "body": "<p><strong>Ücretsiz Katman</strong><br>CentryAI'nin temel özellikleri — 3 aboneliğe kadar manuel takip — süre sınırı olmaksızın ücretsiz olarak sunulmaktadır.</p><p><strong>Pro ve Premium Planlar</strong><br>CentryAI, satın alma sırasında App Store veya Google Play'de görüntülenen fiyat üzerinden aylık Pro ve Premium abonelik planları sunmaktadır.</p><ul><li>Ödeme, satın alma onayında Apple ID'niz veya Google Play hesabınıza yansıtılır.</li><li>Abonelikler, mevcut fatura döneminin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.</li><li>Hesabınız, mevcut dönemin bitiminden 24 saat önce o anki abonelik ücreti üzerinden yenileme için ücretlendirilir.</li><li>İptal etmek için: App Store → Ayarlar → [adınız] → Abonelikler, veya Google Play → Abonelikler → planı seçin → İptal.</li><li>Fiyat değişiklikleri önceden bildirilir. Yürürlük tarihinden sonra kullanmaya devam etmeniz yeni fiyatı kabul ettiğiniz anlamına gelir.</li></ul><p><strong>Ücretsiz Deneme</strong><br>Ücretli planlar ücretsiz deneme süresi içerebilir. Deneme süresi sona erene kadar ödeme alınmaz. Ücretsiz denemenin kullanılmayan kısmı, abonelik satın alındığında geçerliliğini yitirir. Deneme uygunluğu Apple veya Google tarafından belirlenir ve genellikle yeni abonelerle sınırlıdır.</p><p><strong>Geri Ödemeler</strong><br>Tüm satın almalar Apple veya Google tarafından işlenir. Geri ödeme talepleri Apple App Store veya Google Play iade politikalarına tabidir. CentryAI doğrudan geri ödeme yapamaz.</p>"
+        "body": "<p><strong>Ücretsiz Katman</strong><br>CentryAI'nin temel özellikleri — 3 aboneliğe kadar manuel takip — süre sınırı olmaksızın ücretsiz olarak sunulmaktadır.</p><p><strong>Pro ve Premium Planlar</strong><br>CentryAI, satın alma sırasında App Store veya Google Play'de görüntülenen fiyatlar üzerinden aylık ve yıllık Pro ve Premium abonelik planları sunmaktadır.</p><ul><li>Ödeme, satın alma onayında Apple ID'niz veya Google Play hesabınıza yansıtılır.</li><li>Abonelikler, mevcut fatura döneminin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.</li><li>Hesabınız, mevcut dönemin bitiminden 24 saat önce o anki abonelik ücreti üzerinden yenileme için ücretlendirilir.</li><li>İptal etmek için: App Store → Ayarlar → [adınız] → Abonelikler, veya Google Play → Abonelikler → planı seçin → İptal.</li><li>Aylık ve yıllık plan fiyatları dahil olmak üzere abonelik fiyatlarını dilediğimiz zaman değiştirme hakkımızı saklı tutarız. Mevcut aboneler için, herhangi bir fiyat artışı, App Store ve Google Play'in gerektirdiği ön bildirimin ardından bir sonraki yenilemede yürürlüğe girer; yeni fiyatı önlemek için yenileme tarihinden önce iptal edebilirsiniz. Yürürlük tarihinden sonra kullanmaya devam etmeniz yeni fiyatı kabul ettiğiniz anlamına gelir.</li></ul><p><strong>Ücretsiz Deneme</strong><br>Ücretli planlar ücretsiz deneme süresi içerebilir. Deneme süresi sona erene kadar ödeme alınmaz. Ücretsiz denemenin kullanılmayan kısmı, abonelik satın alındığında geçerliliğini yitirir. Deneme uygunluğu Apple veya Google tarafından belirlenir ve genellikle yeni abonelerle sınırlıdır.</p><p><strong>Geri Ödemeler</strong><br>Tüm satın almalar Apple veya Google tarafından işlenir. Geri ödeme talepleri Apple App Store veya Google Play iade politikalarına tabidir. CentryAI doğrudan geri ödeme yapamaz.</p>"
       },
       "s6": {
         "title": "6. Kabul Edilebilir Kullanım",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Fesih",
-        "body": "Bu Koşulların ihlali durumunda hesabınızı önceden bildirerek veya bildirmeksizin askıya alma ya da sonlandırma hakkını saklı tutuyoruz. Hesabınızı istediğiniz zaman uygulama içinden silebilirsiniz. Feshin ardından Uygulamayı kullanma hakkınız derhal sona erer."
+        "body": "Bu Koşulların ihlali durumunda hesabınızı önceden bildirerek veya bildirmeksizin dilediğimiz zaman askıya alma ya da sonlandırma hakkımızı saklı tutuyoruz. Hesabınızı Uygulama içinden istediğiniz zaman silebilirsiniz. Silme talebinde bulunduğunuzda, hesabınız derhal devre dışı bırakılır ve 30 günlük bir bekleme süresinin ardından kalıcı olarak silinmek üzere zamanlanır; bu süre içinde tekrar giriş yaparsanız hesabınız tamamen geri yüklenir. 30 günün ardından silme işlemi kalıcı ve geri alınamaz hale gelir."
       },
       "s11": {
         "title": "11. Geçerli Hukuk",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: 2 Temmuz 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 22 Temmuz 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Veri Depolama ve Güvenlik",
         "body1": "Abonelik verileriniz Firebase Firestore'da (Google Cloud) güvenli şekilde depolanır; kullanıcı başına güvenlik kurallarıyla korunan bir bulut veritabanıdır.",
         "body2": "Tarama sırasında iletilen e-posta içeriği Cloud Functions'da işlenir ve işlem sonrası saklanmaz. Yalnızca çıkarılan abonelik verileri hesabınızda depolanır.",
-        "body3": "Altyapımız aktarımda TLS şifrelemesi, Firebase'in beklemedeki şifrelemesi ve kullanıcı başına veri yalıtımını zorunlu kılan güvenlik kuralları kullanır. Kişisel verilerinize ekibimizin erişimi yalnızca müşteri desteği ve operasyonel amaçlarla, yetkili personelle sınırlıdır; rol tabanlı kimlik doğrulamasıyla korunur ve dahili bir denetim kaydına (audit log) işlenir. Saklama: aboneliğinizi iptal eder ve geri dönmezseniz verileriniz 30 gün sonra otomatik ve kalıcı olarak silinir; ayrıca dilediğiniz zaman uygulama içinden hesabınızı ve ilişkili tüm verileri silebilirsiniz."
+        "body3": "Altyapımız aktarımda TLS şifrelemesi, Firebase'in beklemedeki şifrelemesi ve kullanıcı başına veri yalıtımını zorunlu kılan güvenlik kuralları kullanır. Kişisel verilerinize ekibimizin erişimi yalnızca müşteri desteği ve operasyonel amaçlarla, yetkili personelle sınırlıdır; rol tabanlı kimlik doğrulamasıyla korunur ve dahili bir denetim kaydına (audit log) işlenir. Saklama: aboneliğinizi iptal eder ve geri dönmezseniz veya hesabınızı silerseniz, verileriniz 30 gün süreyle saklanır ve ardından otomatik olarak kalıcı bir şekilde silinir. Bu 30 gün içinde tekrar giriş yapmanız (veya yeni bir satın alma işlemi gerçekleştirmeniz) silme işlemini iptal eder ve hesabınızı geri yükler."
       },
       "s4": {
         "title": "4. Üçüncü Taraf Hizmetleri",

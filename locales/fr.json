@@ -338,7 +338,7 @@
         },
         {
           "q": "Que se passe-t-il si je supprime mon compte ?",
-          "a": "La suppression de votre compte supprime immédiatement toutes les données de nos serveurs (si la synchronisation était activée) et du stockage local. Cette action est irréversible. Pour supprimer : Paramètres > Compte > Supprimer le compte."
+          "a": "Lorsque vous supprimez votre compte, il est immédiatement désactivé et programmé pour un effacement définitif après un délai de grâce de 30 jours. Si vous vous reconnectez dans ces 30 jours, votre compte et toutes vos données sont entièrement restaurés. Passé 30 jours, l'effacement est définitif et irréversible. Pour supprimer : Paramètres > Compte > Supprimer le compte."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Légal",
       "title": "Conditions d'utilisation",
-      "subtitle": "Dernière mise à jour : 15 mai 2026 · En vigueur : 19 avril 2026"
+      "subtitle": "Dernière mise à jour : 22 juillet 2026 · En vigueur : 19 avril 2026"
     },
     "toc": {
       "title": "Table des matières",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium est un abonnement mensuel ou annuel. Les abonnements Pro se renouvellent automatiquement à moins d'être annulés au moins 24 heures avant la date de renouvellement. Vous pouvez gérer ou annuler votre abonnement Pro via les paramètres de votre compte App Store ou Google Play.",
         "refundsTitle": "Remboursements",
         "refundsBody": "Les demandes de remboursement sont régies par les politiques de l'Apple App Store ou de Google Play. Nous coopérerons avec les demandes de remboursement effectuées dans les 14 jours suivant l'achat initial, lorsque cela est techniquement possible.",
-        "body": "<p><strong>Niveau gratuit</strong><br>Les fonctionnalités de base de CentryAI — détection d'abonnement et tableau de bord — sont disponibles sans frais.</p><p><strong>CentryAI Premium</strong><br>CentryAI propose des plans Pro et Premium aux prix affichés dans l'App Store ou Google Play au moment de l'achat.</p><ul><li>Le paiement est débité de votre identifiant Apple ou compte Google Play à la confirmation de l'achat.</li><li>Les abonnements se renouvellent automatiquement sauf annulation au moins 24 heures avant la fin de la période de facturation.</li><li>Votre compte sera débité pour le renouvellement dans les 24 heures précédant la fin de la période au tarif en vigueur.</li><li>Pour annuler : App Store → Réglages → [votre nom] → Abonnements, ou Google Play → Abonnements → plan → Annuler.</li><li>Les modifications de prix sont communiquées à l'avance. L'utilisation continue après la date d'entrée en vigueur vaut acceptation.</li></ul><p><strong>Essai gratuit</strong><br>Les plans payants peuvent inclure une période d'essai. Aucun paiement n'est prélevé avant la fin de l'essai. La partie non utilisée est perdue à l'achat. L'éligibilité est déterminée par Apple ou Google.</p><p><strong>Remboursements</strong><br>Tous les achats sont traités par Apple ou Google. Les remboursements sont régis par leurs politiques respectives. CentryAI ne peut pas traiter les remboursements directement.</p>"
+        "body": "<p><strong>Niveau gratuit</strong><br>Les fonctionnalités essentielles de CentryAI — le suivi manuel des abonnements jusqu'à 3 abonnements — sont disponibles gratuitement, sans limite de durée.</p><p><strong>Formules Pro et Premium</strong><br>CentryAI propose des formules Pro et Premium mensuelles et annuelles aux prix affichés dans l'App Store ou Google Play au moment de l'achat.</p><ul><li>Le paiement est débité de votre identifiant Apple ou de votre compte Google Play à la confirmation de l'achat.</li><li>Les abonnements se renouvellent automatiquement sauf annulation au moins 24 heures avant la fin de la période de facturation en cours.</li><li>Votre compte sera débité pour le renouvellement dans les 24 heures précédant la fin de la période en cours, au tarif d'abonnement alors en vigueur.</li><li>Pour annuler : App Store → Réglages → [votre nom] → Abonnements, ou Google Play → Abonnements → sélectionnez le plan → Annuler.</li><li>Nous nous réservons le droit de modifier les prix des abonnements, y compris les prix des formules mensuelles et annuelles, à tout moment. Pour les abonnés existants, toute augmentation de prix prend effet au prochain renouvellement, après un préavis conforme aux exigences de l'App Store et de Google Play ; vous pouvez annuler avant la date de renouvellement pour éviter le nouveau prix. La poursuite de l'utilisation après la date d'entrée en vigueur vaut acceptation du nouveau prix.</li></ul><p><strong>Essai gratuit</strong><br>Les formules payantes peuvent inclure une période d'essai gratuite. Aucun paiement ne sera prélevé avant la fin de l'essai. Toute portion inutilisée de l'essai gratuit est perdue lors de l'achat d'un abonnement. L'éligibilité à l'essai est déterminée par Apple ou Google et est généralement limitée aux nouveaux abonnés.</p><p><strong>Remboursements</strong><br>Tous les achats sont traités par Apple ou Google. Les demandes de remboursement sont régies par les politiques de remboursement de l'App Store d'Apple ou de Google Play. CentryAI ne peut pas traiter les remboursements directement.</p>"
       },
       "s6": {
         "title": "6. Utilisation acceptable",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Résiliation",
-        "body": "Nous nous réservons le droit de suspendre ou de résilier votre compte à tout moment en cas de violation des présentes Conditions. Vous pouvez supprimer votre compte à tout moment depuis l'Application. Lors de la résiliation, votre droit d'utiliser l'Application cesse immédiatement."
+        "body": "Nous nous réservons le droit de suspendre ou de résilier votre compte à tout moment en cas de violation des présentes Conditions, avec ou sans préavis. Vous pouvez supprimer votre compte à tout moment depuis l'Application. Lorsque vous demandez la suppression, votre compte est immédiatement désactivé et programmé pour un effacement définitif après un délai de grâce de 30 jours ; si vous vous reconnectez pendant cette période, votre compte est entièrement restauré. Passé 30 jours, l'effacement est définitif et irréversible."
       },
       "s11": {
         "title": "11. Loi applicable",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Légal",
       "title": "Politique de confidentialité",
-      "subtitle": "Dernière mise à jour : 2 juillet 2026 · En vigueur : 19 avril 2026"
+      "subtitle": "Dernière mise à jour : 22 juillet 2026 · En vigueur : 19 avril 2026"
     },
     "shortVersion": "CentryAI lit vos e-mails pour trouver les reçus d'abonnement. Le contenu est traité côté serveur dans nos Cloud Functions sécurisées — nous ne stockons jamais vos e-mails, ne vendons pas vos données et ne nous connectons pas à votre banque.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Stockage et sécurité des données",
         "body1": "Vos données d'abonnement sont stockées dans Firebase Firestore (Google Cloud), protégées par des règles de sécurité par utilisateur.",
         "body2": "Le contenu des e-mails est traité dans nos Cloud Functions et non conservé après le traitement. Seules les données extraites sont stockées dans votre compte.",
-        "body3": "Notre infrastructure utilise le chiffrement TLS en transit, le chiffrement Firebase au repos et l'isolation stricte des données par utilisateur. L'accès à vos données personnelles par notre équipe est limité au personnel autorisé à des fins de support client et opérationnelles uniquement, protégé par une authentification basée sur les rôles et consigné dans un journal d'audit interne. Conservation : si vous résiliez et ne revenez pas, vos données sont automatiquement et définitivement supprimées après 30 jours ; vous pouvez également supprimer votre compte et toutes les données associées à tout moment depuis l'application."
+        "body3": "Notre infrastructure utilise le chiffrement TLS en transit, le chiffrement Firebase au repos et l'isolation stricte des données par utilisateur. L'accès à vos données personnelles par notre équipe est limité au personnel autorisé à des fins de support client et opérationnelles uniquement, protégé par une authentification basée sur les rôles et consigné dans un journal d'audit interne. Conservation : si vous résiliez et ne revenez pas, ou si vous supprimez votre compte, vos données sont conservées pendant 30 jours puis automatiquement et définitivement effacées. Le fait de vous reconnecter dans ces 30 jours (ou d'effectuer un nouvel achat) annule l'effacement et restaure votre compte."
       },
       "s4": {
         "title": "4. Services tiers",

@@ -338,7 +338,7 @@
         },
         {
           "q": "Was passiert, wenn ich mein Konto lösche?",
-          "a": "Durch das Löschen Ihres Kontos werden sofort alle Daten von unseren Servern (falls Synchronisierung aktiviert war) und aus dem lokalen Speicher entfernt. Diese Aktion ist irreversibel. Zum Löschen: Einstellungen > Konto > Konto löschen."
+          "a": "Wenn Sie Ihr Konto löschen, wird es sofort deaktiviert und nach einer 30-tägigen Übergangsfrist zur endgültigen Löschung vorgesehen. Melden Sie sich innerhalb dieser 30 Tage erneut an, werden Ihr Konto und alle Daten vollständig wiederhergestellt. Nach Ablauf der 30 Tage ist die Löschung endgültig und unwiderruflich. Zum Löschen: Einstellungen > Konto > Konto löschen."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Nutzungsbedingungen",
-      "subtitle": "Zuletzt aktualisiert: 15. Mai 2026 · Gültig ab: 19. April 2026"
+      "subtitle": "Zuletzt aktualisiert: 22. Juli 2026 · Gültig ab: 19. April 2026"
     },
     "toc": {
       "title": "Inhaltsverzeichnis",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium ist ein monatliches oder jährliches Abonnement. Pro-Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor dem Verlängerungsdatum gekündigt werden. Sie können Ihr Pro-Abonnement in Ihren App Store- oder Google Play-Kontoeinstellungen verwalten oder kündigen.",
         "refundsTitle": "Rückerstattungen",
         "refundsBody": "Rückerstattungsanträge unterliegen den Richtlinien des Apple App Store oder Google Play. Wir kooperieren bei Rückerstattungsanträgen, die innerhalb von 14 Tagen nach dem Erstkauf gestellt werden, sofern technisch möglich.",
-        "body": "<p><strong>Kostenlose Stufe</strong><br>Die Kernfunktionen von CentryAI — Abo-Erkennung und Dashboard — stehen kostenlos zur Verfügung.</p><p><strong>CentryAI Premium</strong><br>CentryAI bietet Pro- und Premium-Monatspläne zu den im App Store oder Google Play zum Kaufzeitpunkt angezeigten Preisen an.</p><ul><li>Die Zahlung wird Ihrer Apple-ID oder Ihrem Google-Play-Konto bei Kaufbestätigung belastet.</li><li>Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Abrechnungszeitraums gekündigt werden.</li><li>Ihr Konto wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums zum dann gültigen Abonnementpreis belastet.</li><li>Zum Kündigen: App Store → Einstellungen → [Ihr Name] → Abonnements oder Google Play → Abonnements → Plan auswählen → Kündigen.</li><li>Preisänderungen werden im Voraus mitgeteilt. Die weitere Nutzung nach Inkrafttreten gilt als Zustimmung.</li></ul><p><strong>Kostenlose Testphase</strong><br>Kostenpflichtige Pläne können eine Testphase beinhalten. Es wird keine Gebühr erhoben, bis die Testphase endet. Nicht genutzte Testphasenteile verfallen beim Kauf. Die Berechtigung wird von Apple oder Google festgelegt.</p><p><strong>Rückerstattungen</strong><br>Alle Käufe werden von Apple oder Google abgewickelt. Rückerstattungsanfragen unterliegen den jeweiligen Richtlinien. CentryAI kann Rückerstattungen nicht direkt bearbeiten.</p>"
+        "body": "<p><strong>Kostenlose Stufe</strong><br>Die Kernfunktionen von CentryAI — manuelle Abo-Verfolgung für bis zu 3 Abonnements — stehen kostenlos und ohne zeitliche Begrenzung zur Verfügung.</p><p><strong>Pro- &amp; Premium-Pläne</strong><br>CentryAI bietet Pro- und Premium-Abonnements mit monatlicher und jährlicher Laufzeit zu den im App Store oder Google Play zum Kaufzeitpunkt angezeigten Preisen an.</p><ul><li>Die Zahlung wird Ihrer Apple-ID oder Ihrem Google-Play-Konto bei Kaufbestätigung belastet.</li><li>Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Abrechnungszeitraums gekündigt werden.</li><li>Ihr Konto wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums zum dann gültigen Abonnementpreis für die Verlängerung belastet.</li><li>Zum Kündigen: App Store → Einstellungen → [Ihr Name] → Abonnements oder Google Play → Abonnements → Plan auswählen → Kündigen.</li><li>Wir behalten uns das Recht vor, die Abonnementpreise, einschließlich der Preise für Monats- und Jahrespläne, jederzeit zu ändern. Für bestehende Abonnenten tritt eine Preiserhöhung erst bei der nächsten Verlängerung in Kraft, nachdem die von App Store und Google Play vorgeschriebene vorherige Ankündigung erfolgt ist; Sie können vor dem Verlängerungsdatum kündigen, um den neuen Preis zu vermeiden. Die fortgesetzte Nutzung nach dem Inkrafttreten gilt als Zustimmung zum neuen Preis.</li></ul><p><strong>Kostenlose Testphase</strong><br>Kostenpflichtige Pläne können eine Testphase beinhalten. Es wird keine Gebühr erhoben, bis die Testphase endet. Ein nicht genutzter Teil der Testphase verfällt beim Kauf eines Abonnements. Die Berechtigung zur Testphase wird von Apple oder Google festgelegt und ist in der Regel auf neue Abonnenten beschränkt.</p><p><strong>Rückerstattungen</strong><br>Alle Käufe werden von Apple oder Google abgewickelt. Rückerstattungsanfragen unterliegen den Rückerstattungsrichtlinien des Apple App Store bzw. von Google Play. CentryAI kann Rückerstattungen nicht direkt bearbeiten.</p>"
       },
       "s6": {
         "title": "6. Zulässige Nutzung",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Kündigung",
-        "body": "Wir behalten uns das Recht vor, Ihr Konto jederzeit wegen Verstoßes gegen diese Bedingungen zu sperren oder zu kündigen. Sie können Ihr Konto jederzeit in der App löschen. Bei Kündigung erlischt Ihr Recht zur Nutzung der App sofort."
+        "body": "Wir behalten uns das Recht vor, Ihr Konto jederzeit mit oder ohne Vorankündigung wegen Verstoßes gegen diese Bedingungen zu sperren oder zu kündigen. Sie können Ihr Konto jederzeit in der App löschen. Wenn Sie die Löschung beantragen, wird Ihr Konto sofort deaktiviert und nach einer 30-tägigen Übergangsfrist zur endgültigen Löschung vorgesehen; melden Sie sich innerhalb dieser Frist erneut an, wird Ihr Konto vollständig wiederhergestellt. Nach Ablauf der 30 Tage ist die Löschung endgültig und unwiderruflich."
       },
       "s11": {
         "title": "11. Geltendes Recht",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: 2. Juli 2026 · Gültig ab: 19. April 2026"
+      "subtitle": "Zuletzt aktualisiert: 22. Juli 2026 · Gültig ab: 19. April 2026"
     },
     "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Datenspeicherung und Sicherheit",
         "body1": "Ihre Abonnementdaten werden sicher in Firebase Firestore (Google Cloud) gespeichert, geschützt durch benutzerspezifische Sicherheitsregeln.",
         "body2": "E-Mail-Inhalte werden in Cloud Functions verarbeitet und danach nicht gespeichert. Nur extrahierte Abonnementdaten werden in Ihrem Konto gespeichert.",
-        "body3": "Unsere Infrastruktur verwendet TLS-Verschlüsselung, Firebase-Verschlüsselung im Ruhezustand und benutzerspezifische Datenisolierung. Der Zugriff auf Ihre personenbezogenen Daten durch unser Team ist auf autorisiertes Personal für Kundensupport und betriebliche Zwecke beschränkt, gesichert durch rollenbasierte Authentifizierung und in einem internen Prüfprotokoll erfasst. Aufbewahrung: Wenn Sie kündigen und nicht zurückkehren, werden Ihre Daten nach 30 Tagen automatisch und dauerhaft gelöscht; Sie können Ihr Konto und alle damit verbundenen Daten jederzeit in der App löschen."
+        "body3": "Unsere Infrastruktur verwendet TLS-Verschlüsselung, Firebase-Verschlüsselung im Ruhezustand und benutzerspezifische Datenisolierung. Der Zugriff auf Ihre personenbezogenen Daten durch unser Team ist auf autorisiertes Personal für Kundensupport und betriebliche Zwecke beschränkt, gesichert durch rollenbasierte Authentifizierung und in einem internen Prüfprotokoll erfasst. Aufbewahrung: Wenn Sie kündigen und nicht zurückkehren oder Ihr Konto löschen, werden Ihre Daten 30 Tage lang aufbewahrt und anschließend automatisch und dauerhaft gelöscht. Melden Sie sich innerhalb dieser 30 Tage erneut an (oder tätigen Sie einen neuen Kauf), wird die Löschung storniert und Ihr Konto wiederhergestellt."
       },
       "s4": {
         "title": "4. Dienste von Drittanbietern",

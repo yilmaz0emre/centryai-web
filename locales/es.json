@@ -338,7 +338,7 @@
         },
         {
           "q": "¿Qué pasa si elimino mi cuenta?",
-          "a": "Al eliminar su cuenta, se eliminan inmediatamente todos los datos de nuestros servidores (si la sincronización estaba habilitada) y del almacenamiento local. Esta acción es irreversible. Para eliminar: Configuración > Cuenta > Eliminar cuenta."
+          "a": "Al eliminar su cuenta, esta se desactiva de inmediato y se programa para su eliminación permanente tras un período de gracia de 30 días. Si vuelve a iniciar sesión dentro de esos 30 días, su cuenta y todos sus datos se restauran por completo. Transcurridos los 30 días, la eliminación es permanente e irreversible. Para eliminar: Configuración > Cuenta > Eliminar cuenta."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Legal",
       "title": "Condiciones de uso",
-      "subtitle": "Última actualización: 15 de mayo de 2026 · En vigor: 19 de abril de 2026"
+      "subtitle": "Última actualización: 22 de julio de 2026 · En vigor: 19 de abril de 2026"
     },
     "toc": {
       "title": "Tabla de contenido",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium es una suscripción mensual o anual al precio que se muestra en App Store o Google Play en el momento de la compra. Las suscripciones Pro se renuevan automáticamente a menos que se cancelen al menos 24 horas antes de la fecha de renovación. Puede administrar o cancelar su suscripción Pro a través de la configuración de su cuenta App Store o Google Play.",
         "refundsTitle": "Reembolsos",
         "refundsBody": "Las solicitudes de reembolso se rigen por las políticas de Apple App Store o Google Play. Cooperaremos con las solicitudes de reembolso realizadas dentro de los 14 días posteriores a la compra inicial cuando sea técnicamente posible.",
-        "body": "<p><strong>Nivel gratuito</strong><br>Las funciones principales de CentryAI (detección de suscripciones y panel de control) están disponibles sin costo alguno.</p><p><strong>CentryAI Premium</strong><br>CentryAI ofrece planes Pro y Premium a los precios mostrados en la App Store o Google Play en el momento de la compra.</p><ul><li>El pago se carga en tu ID de Apple o cuenta de Google Play al confirmar la compra.</li><li>Las suscripciones se renuevan automáticamente salvo cancelación al menos 24 horas antes del final del período de facturación.</li><li>Tu cuenta recibirá el cargo por renovación dentro de las 24 horas anteriores al final del período, a la tarifa vigente.</li><li>Para cancelar: App Store → Configuración → [tu nombre] → Suscripciones, o Google Play → Suscripciones → plan → Cancelar.</li><li>Los cambios de precio se comunicarán con antelación. El uso continuado tras la fecha efectiva constituye aceptación.</li></ul><p><strong>Prueba gratuita</strong><br>Los planes de pago pueden incluir un período de prueba gratuito. No se realiza cargo hasta que finalice. La parte no usada se pierde al comprar. La elegibilidad la determina Apple o Google.</p><p><strong>Reembolsos</strong><br>Todas las compras son procesadas por Apple o Google. Los reembolsos se rigen por sus políticas. CentryAI no puede procesar reembolsos directamente.</p>"
+        "body": "<p><strong>Nivel gratuito</strong><br>Las funciones principales de CentryAI — seguimiento manual de suscripciones para hasta 3 suscripciones — están disponibles sin costo y sin límite de tiempo.</p><p><strong>Planes Pro y Premium</strong><br>CentryAI ofrece planes Pro y Premium con vigencia mensual y anual a los precios mostrados en la App Store o Google Play en el momento de la compra.</p><ul><li>El pago se carga en tu ID de Apple o cuenta de Google Play al confirmar la compra.</li><li>Las suscripciones se renuevan automáticamente salvo que se cancelen al menos 24 horas antes del final del período de facturación actual.</li><li>Tu cuenta recibirá el cargo por renovación dentro de las 24 horas anteriores al final del período actual, a la tarifa de suscripción vigente en ese momento.</li><li>Para cancelar: App Store → Configuración → [tu nombre] → Suscripciones, o Google Play → Suscripciones → selecciona el plan → Cancelar.</li><li>Nos reservamos el derecho de modificar los precios de las suscripciones, incluidos los precios de los planes mensuales y anuales, en cualquier momento. Para los suscriptores existentes, cualquier aumento de precio entra en vigor en la siguiente renovación tras el aviso previo exigido por la App Store y Google Play; puedes cancelar antes de la fecha de renovación para evitar el nuevo precio. El uso continuado después de la fecha de entrada en vigor constituye la aceptación del nuevo precio.</li></ul><p><strong>Prueba gratuita</strong><br>Los planes de pago pueden incluir un período de prueba gratuito. No se realizará ningún cargo hasta que finalice la prueba. Cualquier parte no utilizada de la prueba gratuita se pierde al comprar una suscripción. La elegibilidad para la prueba la determina Apple o Google y, por lo general, se limita a los nuevos suscriptores.</p><p><strong>Reembolsos</strong><br>Todas las compras son procesadas por Apple o Google. Las solicitudes de reembolso se rigen por las políticas de reembolso de la App Store de Apple o de Google Play. CentryAI no puede procesar reembolsos directamente.</p>"
       },
       "s6": {
         "title": "6. Uso Aceptable",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Terminación",
-        "body": "Nos reservamos el derecho de suspender o cancelar su cuenta en cualquier momento por violación de estos Términos, con o sin previo aviso. Puede eliminar su cuenta en cualquier momento desde la aplicación. Tras la rescisión, su derecho a utilizar la Aplicación cesa inmediatamente."
+        "body": "Nos reservamos el derecho de suspender o cancelar su cuenta en cualquier momento por incumplimiento de estos Términos, con o sin previo aviso. Puede eliminar su cuenta en cualquier momento desde la aplicación. Cuando solicita la eliminación, su cuenta se desactiva de inmediato y se programa para su eliminación permanente tras un período de gracia de 30 días; si vuelve a iniciar sesión durante ese período, su cuenta se restaura por completo. Transcurridos los 30 días, la eliminación es permanente e irreversible."
       },
       "s11": {
         "title": "11. Ley aplicable",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legal",
       "title": "política de privacidad",
-      "subtitle": "Última actualización: 2 de julio de 2026 · En vigor: 19 de abril de 2026"
+      "subtitle": "Última actualización: 22 de julio de 2026 · En vigor: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lee tus correos para encontrar recibos de suscripción. El contenido se procesa en nuestras Cloud Functions seguras — nunca almacenamos correos, nunca vendemos datos y nunca nos conectamos a tu banco.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Almacenamiento y seguridad de datos",
         "body1": "Tus datos de suscripción se almacenan en Firebase Firestore (Google Cloud), protegidos por reglas de seguridad por usuario.",
         "body2": "El contenido del correo se procesa en Cloud Functions y no se retiene tras completarse. Solo los datos extraídos se almacenan en tu cuenta.",
-        "body3": "Nuestra infraestructura usa cifrado TLS en tránsito, cifrado en reposo de Firebase y aislamiento estricto de datos por usuario. El acceso a sus datos personales por parte de nuestro equipo está limitado al personal autorizado únicamente para fines de soporte al cliente y operativos, protegido mediante autenticación basada en roles y registrado en un registro de auditoría interno. Retención: si cancela y no regresa, sus datos se eliminan automática y permanentemente transcurridos 30 días; también puede eliminar su cuenta y todos los datos asociados en cualquier momento desde la aplicación."
+        "body3": "Nuestra infraestructura usa cifrado TLS en tránsito, cifrado en reposo de Firebase y aislamiento estricto de datos por usuario. El acceso a sus datos personales por parte de nuestro equipo está limitado al personal autorizado únicamente para fines de soporte al cliente y operativos, protegido mediante autenticación basada en roles y registrado en un registro de auditoría interno. Retención: si cancela y no regresa, o si elimina su cuenta, sus datos se conservan durante 30 días y después se eliminan automática y permanentemente. Volver a iniciar sesión dentro de esos 30 días (o realizar una nueva compra) cancela la eliminación y restaura su cuenta."
       },
       "s4": {
         "title": "4. Servicios de terceros",

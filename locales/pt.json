@@ -338,7 +338,7 @@
         },
         {
           "q": "O que acontece se eu excluir minha conta?",
-          "a": "Excluir sua conta remove imediatamente todos os dados de nossos servidores (se a sincronização estiver ativada) e do armazenamento local. Esta ação é irreversível. Para excluir: Configurações > Conta > Excluir Conta."
+          "a": "Quando você exclui sua conta, ela é desativada imediatamente e agendada para exclusão permanente após um período de carência de 30 dias. Se você entrar novamente dentro desses 30 dias, sua conta e todos os dados são totalmente restaurados. Após 30 dias, a exclusão é permanente e irreversível. Para excluir: Configurações > Conta > Excluir Conta."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Legal",
       "title": "Termos de Uso",
-      "subtitle": "Última atualização: 15 de maio de 2026 · Efetivo: 19 de abril de 2026"
+      "subtitle": "Última atualização: 22 de julho de 2026 · Efetivo: 19 de abril de 2026"
     },
     "toc": {
       "title": "Índice",
@@ -420,7 +420,7 @@
         "premiumBody": "O CentryAI Premium é uma assinatura mensal ou anual. As assinaturas Pro são renovadas automaticamente, a menos que sejam canceladas pelo menos 24 horas antes da data de renovação. Você pode gerenciar ou cancelar sua assinatura Pro nas configurações da sua conta da App Store ou do Google Play.",
         "refundsTitle": "Reembolsos",
         "refundsBody": "As solicitações de reembolso são regidas pelas políticas da Apple App Store ou do Google Play. Cooperaremos com as solicitações de reembolso feitas dentro de 14 dias após a compra inicial, quando for tecnicamente possível.",
-        "body": "<p><strong>Nível Gratuito</strong><br>Os principais recursos do CentryAI — detecção de assinatura e painel — estão disponíveis sem custo.</p><p><strong>CentryAI Premium</strong><br>O CentryAI oferece planos Pro e Premium pelos preços exibidos na App Store ou Google Play no momento da compra.</p><ul><li>O pagamento é cobrado no seu Apple ID ou conta do Google Play na confirmação da compra.</li><li>As assinaturas são renovadas automaticamente, salvo cancelamento pelo menos 24 horas antes do término do período de cobrança.</li><li>Sua conta será cobrada pela renovação dentro de 24 horas antes do término do período, à taxa de assinatura vigente.</li><li>Para cancelar: App Store → Configurações → [seu nome] → Assinaturas, ou Google Play → Assinaturas → plano → Cancelar.</li><li>Alterações de preço serão comunicadas com antecedência. O uso continuado após a data de vigência constitui aceitação.</li></ul><p><strong>Período de teste gratuito</strong><br>Os planos pagos podem incluir um período de teste. O pagamento não é cobrado até o término. A parte não utilizada é perdida na compra. A elegibilidade é determinada pela Apple ou Google.</p><p><strong>Reembolsos</strong><br>Todas as compras são processadas pela Apple ou Google. Os reembolsos regem-se pelas suas políticas. O CentryAI não pode processar reembolsos diretamente.</p>"
+        "body": "<p><strong>Nível Gratuito</strong><br>Os principais recursos do CentryAI — rastreamento manual de assinaturas para até 3 assinaturas — estão disponíveis sem custo, sem limite de tempo.</p><p><strong>Planos Pro e Premium</strong><br>O CentryAI oferece planos Pro e Premium com vigência mensal e anual pelos preços exibidos na App Store ou Google Play no momento da compra.</p><ul><li>O pagamento é cobrado no seu Apple ID ou conta do Google Play na confirmação da compra.</li><li>As assinaturas são renovadas automaticamente, salvo cancelamento pelo menos 24 horas antes do término do período de cobrança atual.</li><li>Sua conta será cobrada pela renovação dentro de 24 horas antes do término do período atual, à taxa de assinatura então vigente.</li><li>Para cancelar: App Store → Configurações → [seu nome] → Assinaturas, ou Google Play → Assinaturas → selecione o plano → Cancelar.</li><li>Reservamo-nos o direito de alterar os preços das assinaturas, incluindo os preços dos planos mensais e anuais, a qualquer momento. Para assinantes existentes, qualquer aumento de preço entra em vigor na próxima renovação após aviso prévio conforme exigido pela App Store e Google Play; você pode cancelar antes da data de renovação para evitar o novo preço. O uso continuado após a data de vigência constitui aceitação do novo preço.</li></ul><p><strong>Período de teste gratuito</strong><br>Os planos pagos podem incluir um período de teste gratuito. Nenhum pagamento será cobrado até o término do teste. Qualquer parte não utilizada do período de teste gratuito é perdida na compra de uma assinatura. A elegibilidade para o teste é determinada pela Apple ou Google e geralmente é limitada a novos assinantes.</p><p><strong>Reembolsos</strong><br>Todas as compras são processadas pela Apple ou Google. Os pedidos de reembolso são regidos pelas políticas de reembolso da App Store da Apple ou do Google Play. O CentryAI não pode processar reembolsos diretamente.</p>"
       },
       "s6": {
         "title": "6. Uso Aceitável",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Rescisão",
-        "body": "Reservamo-nos o direito de suspender ou encerrar sua conta a qualquer momento por violação destes Termos. Você pode excluir sua conta a qualquer momento no Aplicativo. Após a rescisão, o seu direito de usar o Aplicativo cessa imediatamente."
+        "body": "Reservamo-nos o direito de suspender ou encerrar sua conta a qualquer momento por violação destes Termos, com ou sem aviso prévio. Você pode excluir sua conta a qualquer momento no Aplicativo. Quando você solicita a exclusão, sua conta é desativada imediatamente e agendada para exclusão permanente após um período de carência de 30 dias; se você entrar novamente durante esse período, sua conta é totalmente restaurada. Após 30 dias, a exclusão é permanente e irreversível."
       },
       "s11": {
         "title": "11. Lei Aplicável",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legal",
       "title": "Política de Privacidade",
-      "subtitle": "Última atualização: 2 de julho de 2026 · Efetivo: 19 de abril de 2026"
+      "subtitle": "Última atualização: 22 de julho de 2026 · Efetivo: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lê seus e-mails para encontrar recibos de assinatura. O conteúdo é processado em nossas Cloud Functions seguras — nunca armazenamos e-mails, nunca vendemos dados e nunca nos conectamos ao seu banco.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Armazenamento de Dados e Segurança",
         "body1": "Seus dados de assinatura são armazenados no Firebase Firestore (Google Cloud), protegidos por regras de segurança por usuário.",
         "body2": "O conteúdo de e-mail é processado em Cloud Functions e não retido após a conclusão. Apenas os dados extraídos são armazenados na sua conta.",
-        "body3": "Nossa infraestrutura usa TLS em trânsito, criptografia Firebase em repouso e isolamento de dados por usuário. O acesso aos seus dados pessoais pela nossa equipe é limitado a pessoal autorizado apenas para fins de suporte ao cliente e operacionais, protegido por autenticação baseada em funções e registrado em um log de auditoria interno. Retenção: se você cancelar e não retornar, seus dados serão excluídos automática e permanentemente após 30 dias; você também pode excluir sua conta e todos os dados associados a qualquer momento dentro do aplicativo."
+        "body3": "Nossa infraestrutura usa TLS em trânsito, criptografia Firebase em repouso e isolamento de dados por usuário. O acesso aos seus dados pessoais pela nossa equipe é limitado a pessoal autorizado apenas para fins de suporte ao cliente e operacionais, protegido por autenticação baseada em funções e registrado em um log de auditoria interno. Retenção: se você cancelar e não retornar, ou se excluir sua conta, seus dados serão retidos por 30 dias e depois excluídos automática e permanentemente. Entrar novamente dentro desses 30 dias (ou realizar uma nova compra) cancela a exclusão e restaura sua conta."
       },
       "s4": {
         "title": "4. Serviços de Terceiros",

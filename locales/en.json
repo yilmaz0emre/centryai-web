@@ -338,7 +338,7 @@
         },
         {
           "q": "What happens if I delete my account?",
-          "a": "Deleting your account immediately removes all data from our servers (if sync was enabled) and from local storage. This action is irreversible. To delete: Settings > Account > Delete Account."
+          "a": "When you delete your account, it is deactivated immediately and scheduled for permanent erasure after a 30-day grace period. If you sign back in within those 30 days, your account and all data are fully restored. After 30 days, erasure is permanent and irreversible. To delete: Settings > Account > Delete Account."
         }
       ],
       "premium": [
@@ -376,7 +376,7 @@
     "hero": {
       "label": "Legal",
       "title": "Terms of Use",
-      "subtitle": "Last updated: May 15, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: July 22, 2026 · Effective: April 19, 2026"
     },
     "toc": {
       "title": "Table of Contents",
@@ -420,7 +420,7 @@
         "premiumBody": "CentryAI Premium is a monthly or annual subscription at the price displayed in the App Store or Google Play at the time of purchase. Pro subscriptions auto-renew unless cancelled at least 24 hours before the renewal date. You may manage or cancel your Pro subscription through your App Store or Google Play account settings.",
         "refundsTitle": "Refunds",
         "refundsBody": "Refund requests are governed by Apple App Store or Google Play policies. We will cooperate with refund requests made within 14 days of initial purchase where technically possible.",
-        "body": "<p><strong>Free Tier</strong><br>CentryAI's core features — manual subscription tracking for up to 3 subscriptions — are available at no charge, with no time limit.</p><p><strong>Pro &amp; Premium Plans</strong><br>CentryAI offers Pro and Premium monthly subscription plans at the prices displayed in the App Store or Google Play at the time of purchase.</p><ul><li>Payment is charged to your Apple ID or Google Play account at confirmation of purchase.</li><li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period.</li><li>Your account will be charged for renewal within 24 hours prior to the end of the current period at the then-current subscription rate.</li><li>To cancel: App Store → Settings → [your name] → Subscriptions, or Google Play → Subscriptions → select plan → Cancel.</li><li>Price changes will be communicated in advance. Continued use after the effective date constitutes acceptance of the new price.</li></ul><p><strong>Free Trial</strong><br>Paid plans may include a free trial period. Payment will not be charged until the trial ends. Any unused portion of a free trial is forfeited upon purchase of a subscription. Trial eligibility is determined by Apple or Google and is typically limited to new subscribers.</p><p><strong>Refunds</strong><br>All purchases are processed by Apple or Google. Refund requests are governed by the Apple App Store or Google Play refund policies. CentryAI cannot process refunds directly.</p>"
+        "body": "<p><strong>Free Tier</strong><br>CentryAI's core features — manual subscription tracking for up to 3 subscriptions — are available at no charge, with no time limit.</p><p><strong>Pro &amp; Premium Plans</strong><br>CentryAI offers Pro and Premium subscription plans on monthly and annual terms at the prices displayed in the App Store or Google Play at the time of purchase.</p><ul><li>Payment is charged to your Apple ID or Google Play account at confirmation of purchase.</li><li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period.</li><li>Your account will be charged for renewal within 24 hours prior to the end of the current period at the then-current subscription rate.</li><li>To cancel: App Store → Settings → [your name] → Subscriptions, or Google Play → Subscriptions → select plan → Cancel.</li><li>We reserve the right to change subscription prices, including monthly and annual plan prices, at any time. For existing subscribers, any price increase takes effect on the next renewal following advance notice as required by the App Store and Google Play; you may cancel before the renewal date to avoid the new price. Continued use after the effective date constitutes acceptance of the new price.</li></ul><p><strong>Free Trial</strong><br>Paid plans may include a free trial period. Payment will not be charged until the trial ends. Any unused portion of a free trial is forfeited upon purchase of a subscription. Trial eligibility is determined by Apple or Google and is typically limited to new subscribers.</p><p><strong>Refunds</strong><br>All purchases are processed by Apple or Google. Refund requests are governed by the Apple App Store or Google Play refund policies. CentryAI cannot process refunds directly.</p>"
       },
       "s6": {
         "title": "6. Acceptable Use",
@@ -453,7 +453,7 @@
       },
       "s10": {
         "title": "10. Termination",
-        "body": "We reserve the right to suspend or terminate your account at any time for violation of these Terms, with or without notice. You may delete your account at any time from within the App. Upon termination, your right to use the App ceases immediately."
+        "body": "We reserve the right to suspend or terminate your account at any time for violation of these Terms, with or without notice. You may delete your account at any time from within the App. When you request deletion, your account is deactivated immediately and scheduled for permanent erasure after a 30-day grace period; if you sign back in during that period, your account is fully restored. After 30 days, erasure is permanent and irreversible."
       },
       "s11": {
         "title": "11. Governing Law",
@@ -470,7 +470,7 @@
     "hero": {
       "label": "Legal",
       "title": "Privacy Policy",
-      "subtitle": "Last updated: July 2, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: July 22, 2026 · Effective: April 19, 2026"
     },
     "shortVersion": "CentryAI reads your email to find subscription receipts. Email content is processed server-side in our secure Cloud Functions — we never store your emails, never sell your data, and never connect to your bank.",
     "toc": {
@@ -519,7 +519,7 @@
         "title": "3. Data Storage and Security",
         "body1": "Your subscription data is stored securely in Firebase Firestore (Google Cloud), a cloud database protected by per-user security rules that prevent any other user from accessing your data.",
         "body2": "Email content transmitted during inbox scanning is processed in our Cloud Functions and is not retained after processing completes. Only extracted subscription data is stored in your account.",
-        "body3": "Our infrastructure uses TLS encryption in transit, Firebase's encryption at rest, and security rules enforcing strict per-user data isolation. Access to your personal data by our team is limited to authorized personnel for customer support and operational purposes only, protected by role-based authentication and recorded in an internal audit log. Retention: if you cancel and do not return, your data is automatically and permanently deleted after 30 days; you can also delete your account and all associated data at any time from within the app."
+        "body3": "Our infrastructure uses TLS encryption in transit, Firebase's encryption at rest, and security rules enforcing strict per-user data isolation. Access to your personal data by our team is limited to authorized personnel for customer support and operational purposes only, protected by role-based authentication and recorded in an internal audit log. Retention: if you cancel and do not return, or if you delete your account, your data is retained for 30 days and then automatically and permanently erased. Signing back in within those 30 days (or making a new purchase) cancels the erasure and restores your account."
       },
       "s4": {
         "title": "4. Third-Party Services",
