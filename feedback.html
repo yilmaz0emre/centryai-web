@@ -22,7 +22,7 @@
 <script src="i18n.js"></script>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" defer></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" defer></script>
-<script src="feedback-app.js?v=1" defer></script>
+<script src="feedback-app.js?v=2" defer></script>
 <style>
 .feedback-wrap {
   min-height: 100vh;
@@ -261,6 +261,10 @@
   <input type="text" name="platform" />
   <input type="text" name="version" />
   <input type="text" name="title" />
+  <!-- Netlify only accepts fields declared here; anything else in the POST body
+       is dropped. feedback-app.js has always submitted `priority` (it is part of
+       the `...form` spread), so until now that value silently never arrived. -->
+  <input type="text" name="priority" />
   <textarea name="message"></textarea>
 </form>
 
@@ -288,7 +292,7 @@
 })();
 </script>
 
-<!-- React component loaded via feedback-app.js?v=1 (defer, runs after React loads) -->
+<!-- React component loaded via feedback-app.js?v=2 (defer, runs after React loads) -->
 <script>if(window.SR_mountLangSwitcher){const el=document.getElementById("sr-lang-mount");if(el)window.SR_mountLangSwitcher(el);}</script>
 
 <script>

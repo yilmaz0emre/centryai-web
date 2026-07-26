@@ -19,7 +19,12 @@ const TYPES = [{
   sub: window.t('feedback.types.other.sub')
 }];
 const PLATFORMS = ['iOS', 'Android', 'Both', 'Web / Other'];
-const VERSIONS = ['1.0.1 (Latest)', '1.0.0', 'Earlier'];
+// Newest first. Plain numbers on purpose — a hardcoded "(Latest)" goes stale the
+// moment a release ships (this list still said 1.0.1 while 1.0.4 was live on the
+// App Store, so nobody could report the version they were actually running).
+// Prepend the new number here as part of the release routine.
+// 1.1.0 = TestFlight + Play closed testing; 1.0.4 = App Store.
+const VERSIONS = ['1.1.0', '1.0.4', '1.0.3', '1.0.2', '1.0.1', '1.0.0', "Other / I'm not sure"];
 function genRef() {
   return 'SR-' + Math.random().toString(36).toUpperCase().slice(2, 8);
 }

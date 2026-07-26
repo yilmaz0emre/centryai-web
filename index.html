@@ -1043,8 +1043,17 @@
   .hero-sub { margin: 0 auto 2.5rem; }
   .hero-ctas { justify-content: center; }
   .hero-trust { justify-content: center; }
-  .phone-gallery { margin-top: 1rem; }
-  .iphone-frame-side { display: none; }
+  /* The side phone must go on one column, otherwise .phone-gallery's flex row
+     is 260px + 210px = 470px of fixed-width children. That min-content width
+     pushes the single grid track — and with it .hero-inner — past the viewport,
+     and .hero's overflow:hidden then clips the headline, the paragraph and the
+     store badges. Was `.iphone-frame-side`, a class that exists nowhere in
+     assets/app.js (PhoneGallery renders `.iphone17-side`), so this rule matched
+     zero elements and the phone never got hidden. */
+  .phone-gallery { margin-top: 1rem; max-width: 100%; }
+  .iphone17-side { display: none; }
+  /* Belt-and-braces: never let the remaining fixed width exceed the column. */
+  .iphone17-main { width: min(260px, 100%); }
   .features-grid { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; }
   .steps::before { display: none; }
@@ -1054,6 +1063,13 @@
 }
 @media (max-width: 600px) {
   .hero { padding: 90px 1.25rem 4rem; }
+  /* The base clamp floor (2.4rem = 38.4px) is wider than a phone can show:
+     "subscriptions" is one unbreakable word and needs 356px at that size, but a
+     390px viewport leaves 350px — and a 375px iPhone SE only 335px. The word
+     therefore set the headline's min-content and got clipped by .hero's
+     overflow:hidden. Scaling with vw keeps the longest word inside the column
+     down to 320px devices. */
+  .hero h1 { font-size: clamp(1.9rem, 8.5vw, 2.4rem); }
   .section { padding: 5rem 1.25rem; }
   .screenshots-section { padding: 5rem 0; }
   .cta-inner { padding: 3.5rem 1.75rem; }
