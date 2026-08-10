@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 还发现了 6 个订阅"
   },
-  "testimonials": {
-    "eyebrow": "用户评价",
-    "title": "人们正在发现他们不知道自己拥有的钱。",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "我发现了 38 美元的订阅费用，我完全忘记了。在不到 10 分钟的时间内取消了其中的 4 个。这个应用程序立即收回了成本。"
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "僵尸订阅功能真的很可怕。我一直在为一个 3 个月没打开过的健身房应用付费。CentryAI 立即发现了它。"
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "干净的用户界面，真正有效，没有追加销售的废话。仅取消链接查找器就值得了 — 不再需要在帮助页面中搜索。"
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "常见问题",
     "title": "FAQ",

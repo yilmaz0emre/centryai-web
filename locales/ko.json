@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 구독 6개 추가 발견"
   },
-  "testimonials": {
-    "eyebrow": "사용자 후기",
-    "title": "사람들은 있는 줄도 몰랐던 돈을 찾고 있습니다.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "완전히 잊고 있던 구독에서 38달러를 찾았습니다. 10분도 안 되어 그중 4개를 취소했습니다. 이 앱은 바로 돈값을 합니다."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "좀비 구독 기능은 정말 무섭습니다. 3달 동안 한 번도 열지 않은 피트니스 앱에 돈을 내고 있었어요. CentryAI가 즉시 찾아냈습니다."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "깔끔한 UI, 정말 작동하며 쓸데없는 강매도 없습니다. 취소 링크 찾기만으로도 가치가 있습니다. 더 이상 도움말 페이지를 뒤질 필요가 없습니다."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "일반적인 질문",
     "title": "FAQ",

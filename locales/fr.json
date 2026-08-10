@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 abonnements supplémentaires trouvés"
   },
-  "testimonials": {
-    "eyebrow": "Ce que disent les utilisateurs",
-    "title": "Les gens trouvent de l'argent dont ils ignoraient l'existence.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "J'ai trouvé 38 $ d'abonnements que j'avais complètement oubliés. J'en ai annulé 4 en moins de 10 minutes. Cette application est instantanément rentabilisée."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "La fonction d'abonnement zombie est vraiment effrayante. Je payais pour une application de gym que je n'avais pas ouverte depuis 3 mois. CentryAI l'a détecté immédiatement."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Interface propre, fonctionne vraiment, pas de ventes incitatives absurdes. L'outil de recherche de liens d'annulation vaut à lui seul le coup — plus besoin de chercher dans les pages d'aide."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Questions fréquentes",
     "title": "FAQ",

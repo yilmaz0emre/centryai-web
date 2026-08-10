@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ Tìm thấy thêm 6 đăng ký"
   },
-  "testimonials": {
-    "eyebrow": "Người dùng nói gì",
-    "title": "Mọi người đang tìm thấy số tiền mà họ không biết mình có.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Tôi tìm thấy 38 đô la cho các đăng ký mà tôi đã hoàn toàn quên mất. Đã hủy 4 trong số đó trong vòng chưa đầy 10 phút. Ứng dụng này trả tiền cho chính nó ngay lập tức."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "Tính năng đăng ký zombie thực sự đáng sợ. Tôi đã trả tiền cho một ứng dụng tập thể dục mà tôi chưa mở trong 3 tháng. CentryAI đã bắt được nó ngay lập tức."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Giao diện người dùng sạch sẽ, thực sự hoạt động, không có những lời chào mời bán hàng vô nghĩa. Chỉ riêng trình tìm kiếm liên kết hủy đã đáng giá — không cần tìm kiếm qua các trang trợ giúp nữa."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Các câu hỏi phổ biến",
     "title": "FAQ",

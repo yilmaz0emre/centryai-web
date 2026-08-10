@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ altri 6 abbonamenti trovati"
   },
-  "testimonials": {
-    "eyebrow": "Cosa dicono gli utenti",
-    "title": "Le persone stanno trovando soldi che non sapevano di avere.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Ho trovato $38 in abbonamenti che avevo completamente dimenticato. Ne ho annullati 4 in meno di 10 minuti. Quest'app si ripaga da sola istantaneamente."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "La funzione abbonamento zombie è davvero spaventosa. Stavo pagando un'app per la palestra che non aprivo da 3 mesi. CentryAI l'ha intercettata immediatamente."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Interfaccia pulita, funziona davvero, niente sciocchezze per farti comprare altro. Solo il trova link di disdetta vale la spesa — non devi più dare la caccia alle pagine di aiuto."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Domande comuni",
     "title": "FAQ",

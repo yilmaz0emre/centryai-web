@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 assinaturas adicionais encontradas"
   },
-  "testimonials": {
-    "eyebrow": "O que os usuários dizem",
-    "title": "As pessoas estão encontrando dinheiro que nem sabiam que tinham.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Encontrei $38 em assinaturas que havia esquecido completamente. Cancelei 4 delas em menos de 10 minutos. Este aplicativo se paga instantaneamente."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "O recurso de assinatura zumbi é genuinamente assustador. Eu estava pagando por um aplicativo de academia que não abria há 3 meses. O CentryAI detectou imediatamente."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Interface limpa, funciona de verdade, sem bobagens de upsell. O localizador de links de cancelamento já vale a pena — não precisa mais caçar em páginas de ajuda."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Perguntas frequentes",
     "title": "FAQ",

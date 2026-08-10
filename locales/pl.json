@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 kolejnych subskrypcji znalezionych"
   },
-  "testimonials": {
-    "eyebrow": "Co mówią użytkownicy",
-    "title": "Ludzie znajdują pieniądze, o których nie wiedzieli, że je mają.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Znalazłem 38 $ w subskrypcjach, o których całkowicie zapomniałem. Anulowałem 4 z nich w mniej niż 10 minut. Ta aplikacja natychmiast się zwraca."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "Funkcja subskrypcji zombie jest naprawdę przerażająca. Płaciłam za aplikację do ćwiczeń, której nie otwierałam od 3 miesięcy. CentryAI natychmiast to wykryło."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Czysty interfejs, naprawdę działa, żadnych bzdur sprzedażowych. Sama wyszukiwarka linków do anulowania jest warta swojej ceny — koniec ze szukaniem na stronach pomocy."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Częste pytania",
     "title": "FAQ",

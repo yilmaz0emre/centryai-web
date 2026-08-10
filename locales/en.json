@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 more subscriptions found"
   },
-  "testimonials": {
-    "eyebrow": "What users say",
-    "title": "People are finding money they didn't know they had.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Found $38 in subscriptions I completely forgot about. Cancelled 4 of them in under 10 minutes. This app pays for itself instantly."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "The zombie subscription feature is genuinely scary. I was paying for a gym app I hadn't opened in 3 months. CentryAI caught it immediately."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Clean UI, actually works, no upsell nonsense. The cancel link finder alone is worth it — no more hunting through help pages."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Common questions",
     "title": "FAQ",

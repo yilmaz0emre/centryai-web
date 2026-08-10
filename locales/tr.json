@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 abonelik daha bulundu"
   },
-  "testimonials": {
-    "eyebrow": "Kullanıcılar ne diyor?",
-    "title": "İnsanlar farkında olmadıkları parayı geri kazanıyor.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Tamamen unuttuğum aboneliklerde 38$ bulduk. 10 dakikadan kısa sürede 4 tanesini iptal ettim. Bu uygulama kendini anında amorti ediyor."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "Zombi aboneliği özelliği gerçekten korkutucu. 3 aydır açmadığım bir spor salonu uygulamasının parasını ödüyordum. CentryAI bunu hemen yakaladı."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Temiz arayüz, gerçekten çalışıyor ve gereksiz ek satış yok. İptal bağlantısı bulucu tek başına her şeye değer; artık yardım sayfaları arasında dolaşmak yok."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Sık sorulan sorular",
     "title": "SSS",

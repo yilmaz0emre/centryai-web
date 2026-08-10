@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 langganan lagi ditemukan"
   },
-  "testimonials": {
-    "eyebrow": "Apa kata pengguna",
-    "title": "Orang-orang menemukan uang yang mereka tidak tahu mereka miliki.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Saya menemukan langganan senilai $38 yang benar-benar saya lupakan. Membatalkan 4 di antaranya dalam waktu kurang dari 10 menit. Aplikasi ini langsung membayar dengan sendirinya."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "Fitur langganan zombi sangat menakutkan. Saya membayar aplikasi gym yang belum saya buka selama 3 bulan. CentryAI segera menangkapnya."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "UI yang bersih, benar-benar berfungsi, tidak ada omong kosong peningkatan penjualan. Pencari tautan batalnya saja sudah sepadan — tidak perlu lagi mencari melalui halaman bantuan."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Pertanyaan Umum",
     "title": "FAQ",

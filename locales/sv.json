@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 fler prenumerationer hittade"
   },
-  "testimonials": {
-    "eyebrow": "Vad användare säger",
-    "title": "Folk hittar pengar de inte visste att de hade.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Jag hittade $38 i prenumerationer som jag helt hade glömt bort. Avbröt 4 av dem på mindre än 10 minuter. Den här appen betalar sig själv omedelbart."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "Zombieprenumerationsfunktionen är verkligen skrämmande. Jag betalade för en gym-app som jag inte hade öppnat på 3 månader. CentryAI fångade det omedelbart."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Rent användargränssnitt, fungerar faktiskt, inget merförsäljningsstruntprat. Avbokningslänksökaren ensam är värd det — inget mer letande genom hjälpsidor."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Vanliga frågor",
     "title": "FAQ",

@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ nog 6 abonnementen gevonden"
   },
-  "testimonials": {
-    "eyebrow": "Wat gebruikers zeggen",
-    "title": "Mensen vinden geld waarvan ze niet wisten dat ze het hadden.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Ik vond $38 aan abonnementen die ik helemaal vergeten was. Ik heb er 4 in minder dan 10 minuten geannuleerd. Deze app betaalt zichzelf onmiddellijk terug."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "De zombie-abonnementenfunctie is echt eng. Ik betaalde voor een fitness-app die ik in 3 maanden niet had geopend. CentryAI betrapte het onmiddellijk."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Schone gebruikersinterface, werkt echt, geen upselling onzin. Alleen al de zoeker voor annuleringslinks is het waard — niet meer zoeken in helppagina's."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Veelgestelde vragen",
     "title": "FAQ",

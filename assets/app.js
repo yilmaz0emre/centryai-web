@@ -1251,35 +1251,6 @@ function App() {
   }, s.price), s.zombie && /*#__PURE__*/React.createElement("span", {
     className: "zombie-flag"
   }, t("zombie.flagLabel")))))))), /*#__PURE__*/React.createElement("section", {
-    className: "section",
-    style: {
-      background: 'var(--bg2)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "section-inner"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "section-eyebrow"
-  }, t("testimonials.eyebrow")), /*#__PURE__*/React.createElement("h2", {
-    className: "section-title"
-  }, t("testimonials.title")), /*#__PURE__*/React.createElement("div", {
-    className: "testimonials-grid stagger"
-  }, tArr("testimonials.reviews").map((rev, i) => /*#__PURE__*/React.createElement("div", {
-    className: "testimonial-card reveal",
-    key: i,
-    id: `testimonial-${i}`
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "testimonial-stars"
-  }, '★'.repeat(rev.stars)), /*#__PURE__*/React.createElement("p", {
-    className: "testimonial-text"
-  }, "\"", rev.text, "\""), /*#__PURE__*/React.createElement("div", {
-    className: "testimonial-author"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "testimonial-avatar"
-  }, rev.initials), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "testimonial-name"
-  }, rev.name), /*#__PURE__*/React.createElement("div", {
-    className: "testimonial-handle"
-  }, rev.handle)))))))), /*#__PURE__*/React.createElement("section", {
     className: "section faq-section",
     id: "faq"
   }, /*#__PURE__*/React.createElement("div", {

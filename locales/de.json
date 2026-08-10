@@ -122,27 +122,6 @@
     ],
     "moreFound": "+ 6 weitere Abonnements gefunden"
   },
-  "testimonials": {
-    "eyebrow": "Was Nutzer sagen",
-    "title": "Menschen finden Geld, von dem sie nicht wussten, dass sie es haben.",
-    "reviews": [
-      {
-        "name": "Alex K.",
-        "handle": "@alexk · App Store",
-        "text": "Ich habe 38 $ an Abos gefunden, die ich völlig vergessen hatte. Habe 4 davon in unter 10 Minuten gekündigt. Diese App macht sich sofort bezahlt."
-      },
-      {
-        "name": "Maya R.",
-        "handle": "@maya_r · Google Play",
-        "text": "Die Zombie-Abo-Funktion ist wirklich beängstigend. Ich zahlte für eine Fitness-App, die ich seit 3 Monaten nicht geöffnet hatte. CentryAI hat es sofort erkannt."
-      },
-      {
-        "name": "Tom L.",
-        "handle": "@toml · App Store",
-        "text": "Saubere Benutzeroberfläche, funktioniert wirklich, kein Upsell-Unsinn. Allein der Kündigungslink-Finder ist es wert — kein Suchen mehr in Hilfeseiten."
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "Häufige Fragen",
     "title": "FAQ",
