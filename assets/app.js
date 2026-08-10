@@ -809,18 +809,16 @@ function StoreBtns({
   return /*#__PURE__*/React.createElement("div", {
     className: "hero-ctas"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://apps.apple.com/us/app/centryai-subscription-tracker/id6762604883",
-    target: "_blank",
-    rel: "noopener",
-    className: "btn-store btn-store-apple",
-    id: `${id}appstore-btn`
-  }, /*#__PURE__*/React.createElement(AppleLogo, null), /*#__PURE__*/React.createElement("span", {
+    href: "#waitlist",
+    className: "btn-store btn-store-waitlist",
+    id: `${id}waitlist-btn`
+  }, /*#__PURE__*/React.createElement("span", {
     className: "btn-store-text"
   }, /*#__PURE__*/React.createElement("span", {
     className: "btn-store-small"
-  }, t("hero.appStoreSmall")), /*#__PURE__*/React.createElement("span", {
+  }, t("waitlist.badge")), /*#__PURE__*/React.createElement("span", {
     className: "btn-store-name"
-  }, t("hero.appStoreName")))), /*#__PURE__*/React.createElement("a", {
+  }, t("waitlist.cta")))), /*#__PURE__*/React.createElement("a", {
     href: "#waitlist",
     className: "btn-store btn-store-google",
     id: `${id}googleplay-btn`
