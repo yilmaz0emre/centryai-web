@@ -58,6 +58,15 @@
 .code{display:block;text-align:center;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:18px;letter-spacing:.12em;background:rgba(0,0,0,.35);border:1px dashed rgba(255,255,255,.22);border-radius:10px;padding:12px 8px;margin-bottom:14px;user-select:all}
 .btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:13px 18px;border-radius:12px;font-size:15px}
 .btn:hover{filter:brightness(1.1)}
+.wl-form{display:flex;gap:10px}
+.wl-form input{flex:1;min-width:0;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:12px;padding:13px 14px;color:var(--fg);font-size:15px;font-family:inherit}
+.wl-form input:focus{outline:none;border-color:var(--accent)}
+.wl-form button{background:var(--accent);color:#fff;border:0;font-weight:600;padding:13px 20px;border-radius:12px;font-size:15px;font-family:inherit;cursor:pointer;white-space:nowrap}
+.wl-form button:hover{filter:brightness(1.1)}
+.wl-form button:disabled{opacity:.6;cursor:default}
+.wl-ok{color:var(--accent);font-weight:600;font-size:15px;padding:12px 0}
+.wl-err{color:#ff9090;font-size:14px;margin-top:8px}
+@media(max-width:480px){.wl-form{flex-direction:column}}
 .finePrint{font-size:13px;color:rgba(236,238,244,.55);margin-top:10px;text-align:center}
 .steps{margin:36px 0}
 .steps h2{font-size:20px;margin-bottom:14px}
@@ -87,44 +96,38 @@ footer a{color:rgba(236,238,244,.7);text-decoration:none}
     <ul>
       <li><strong>There's a free tier.</strong> Track up to 3 subscriptions, no card required.</li>
       <li><strong>No bank linking.</strong> Read-only email access; your emails are never stored. Google-verified (CASA security audit).</li>
-      <li><strong>The offers below auto-renew unless you cancel.</strong> We're telling you upfront — you've had enough surprises.</li>
-      <li><strong>Codes work on the App Store (iPhone &amp; iPad).</strong> On Android? The free tier is coming to Google Play soon.</li>
+      <li><strong>Pro is a subscription.</strong> It auto-renews unless you cancel, and we'll say so again before you ever pay — you've had enough surprises.</li>
+      <li><strong>Android first, and honestly: iPhone isn't available right now.</strong> CentryAI is launching on Google Play. We had an App&nbsp;Store listing and lost it; we're not going to pretend otherwise. If you're on iPhone, leave your email and we'll write to you if that changes.</li>
     </ul>
   </div>
 
   <div class="offers">
-    <div class="offer primary">
-      <div class="tag">Start here · first 500 readers</div>
-      <h3>First month of Pro — free</h3>
-      <p class="sub">Full Pro access for a month: unlimited subscriptions, AI inbox scan, Cancel Finder. $7.99/mo* after — cancel anytime before renewal.</p>
-      <span class="code">INNERLYFREE1M</span>
-      <a class="btn" href="https://apps.apple.com/redeem?ctx=offercodes&amp;id=6762604883&amp;code=INNERLYFREE1M">Redeem on the App&nbsp;Store</a>
-      <p class="finePrint">Monthly plan · new subscribers · ends Aug&nbsp;31,&nbsp;2026</p>
-    </div>
-    <div class="offer">
-      <div class="tag">Best value · first 500 readers</div>
-      <h3>25% off your first year</h3>
-      <p class="sub">A full year of Pro for $44.99* instead of $59.99*. Renews at the standard annual price — we'll remind you before it does. That's the whole point of the app.</p>
-      <span class="code">INNERLYYEAR25</span>
-      <a class="btn" href="https://apps.apple.com/redeem?ctx=offercodes&amp;id=6762604883&amp;code=INNERLYYEAR25">Redeem on the App&nbsp;Store</a>
-      <p class="finePrint">Annual plan · new subscribers · ends Aug&nbsp;31,&nbsp;2026</p>
+    <div class="offer primary" style="grid-column:1/-1">
+      <div class="tag">Innerly readers</div>
+      <h3>Hear it first when we launch</h3>
+      <p class="sub">CentryAI is arriving on Google Play. Leave your email and we'll write once — the day it goes live. Innerly readers hear before anyone else, and the free tier is there from day one.</p>
+      <form class="wl-form" id="wlForm">
+        <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address"/>
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="wl-ok" id="wlOk" hidden>✓ You're on the list. We'll write when it's live.</p>
+      <p class="wl-err" id="wlErr" hidden>Something went wrong. Please try again.</p>
+      <p class="finePrint" id="wlNote" style="text-align:left">One email. No spam, no card, unsubscribe anytime.</p>
     </div>
   </div>
-
-  <p class="finePrint" style="text-align:left;margin:-14px 0 8px">*Prices in USD. App&nbsp;Store pricing varies by country and is shown in your local currency at checkout.</p>
 
   <div class="steps">
     <h2>How it works</h2>
     <ol>
-      <li>Tap a redeem button above on your iPhone (or copy the code).</li>
-      <li>The App Store applies the offer and installs <a href="https://apps.apple.com/us/app/centryai-subscription-tracker/id6762604883" style="color:var(--accent)">CentryAI</a>.</li>
-      <li>Connect Gmail or iCloud — the scan takes about a minute.</li>
+      <li>Leave your email above.</li>
+      <li>We write to you the day CentryAI is live on Google Play — one email, that's it.</li>
+      <li>Install it and connect Gmail or iCloud — the scan takes about a minute.</li>
       <li>See every subscription you're paying for, and cancel the zombies.</li>
     </ol>
   </div>
 
   <div class="honest">
-    <p><strong>Why these codes exist:</strong> the guides at innerly.me help people cancel a subscription they never meant to start — and dispute the charges. We build the tool that makes sure it doesn't happen again. That felt like a natural fit — so their readers get our best offer.</p>
+    <p><strong>Why this page exists:</strong> the guides at innerly.me help people cancel a subscription they never meant to start — and dispute the charges. We build the tool that makes sure it doesn't happen again. That felt like a natural fit — so their readers get the first word when we launch.</p>
   </div>
 
   <footer>
@@ -136,5 +139,40 @@ footer a{color:rgba(236,238,244,.7);text-decoration:none}
   </footer>
 
 </div>
+
+<script>
+/* Posts to the same Netlify "waitlist" form the landing page uses; the hidden
+   form declaration lives in index.html. `source` tags these as Innerly reads. */
+(function () {
+  var form = document.getElementById('wlForm');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button');
+    var err = document.getElementById('wlErr');
+    err.hidden = true;
+    btn.disabled = true;
+    btn.textContent = 'Joining…';
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'form-name': 'waitlist',
+        email: form.email.value,
+        source: 'innerly'
+      }).toString()
+    }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      form.hidden = true;
+      document.getElementById('wlNote').hidden = true;
+      document.getElementById('wlOk').hidden = false;
+    }).catch(function () {
+      btn.disabled = false;
+      btn.textContent = 'Notify me';
+      err.hidden = false;
+    });
+  });
+})();
+</script>
 </body>
 </html>
