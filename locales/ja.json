@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "ダウンロード数",
+    "downloads": "対応サービス数",
     "monthlyWaste": "発見された平均無駄遣い（月間）",
-    "appRating": "App Store 評価",
-    "userSavings": "ユーザーの累計節約額"
+    "appRating": "対応言語数",
+    "userSavings": "必要な銀行口座"
   },
   "screenshots": {
     "eyebrow": "アプリのプレビュー",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "近日公開",
     "title": "リリース時にいち早くお知らせします",
-    "desc": "CentryAI が App Store と Google Play に登場した瞬間にお知らせします。スパムなし — メール1通だけ。",
+    "desc": "CentryAI が Google Play に登場した瞬間にお知らせします。スパムなし — メール1通だけ。",
     "placeholder": "you@example.com",
     "cta": "通知を受け取る",
     "joining": "登録中…",

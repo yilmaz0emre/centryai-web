@@ -1352,8 +1352,6 @@ function App() {
     className: "footer-col"
   }, /*#__PURE__*/React.createElement("h4", null, t("footer.download")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
     href: "#"
-  }, t("footer.links.appStore"))), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
   }, t("footer.links.googlePlay")))))), /*#__PURE__*/React.createElement("div", {
     className: "footer-bottom"
   }, /*#__PURE__*/React.createElement("p", null, t("footer.copyright")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {

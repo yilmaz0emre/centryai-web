@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "Téléchargements",
+    "downloads": "Services pris en charge",
     "monthlyWaste": "Gaspillage mensuel moyen trouvé",
-    "appRating": "Note sur l'App Store",
-    "userSavings": "Économies des utilisateurs suivies"
+    "appRating": "Langues prises en charge",
+    "userSavings": "Comptes bancaires requis"
   },
   "screenshots": {
     "eyebrow": "Aperçu de l'application",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "Bientôt disponible",
     "title": "Soyez le premier informé de notre lancement",
-    "desc": "Recevez une notification dès que CentryAI est disponible sur l'App Store et Google Play. Pas de spam — juste un seul e-mail.",
+    "desc": "Recevez une notification dès que CentryAI est disponible sur Google Play. Pas de spam — juste un seul e-mail.",
     "placeholder": "you@example.com",
     "cta": "Me notifier",
     "joining": "Inscription…",

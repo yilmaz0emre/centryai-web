@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "Lượt tải xuống",
+    "downloads": "Dịch vụ được hỗ trợ",
     "monthlyWaste": "Trung bình lãng phí hàng tháng được tìm thấy",
-    "appRating": "Đánh giá App Store",
-    "userSavings": "Tiết kiệm được theo dõi của người dùng"
+    "appRating": "Ngôn ngữ được hỗ trợ",
+    "userSavings": "Tài khoản ngân hàng cần thiết"
   },
   "screenshots": {
     "eyebrow": "Xem trước Ứng dụng",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "Sắp ra mắt",
     "title": "Hãy là người đầu tiên biết khi chúng tôi ra mắt",
-    "desc": "Nhận thông báo ngay khi CentryAI có mặt trên App Store và Google Play. Không spam — chỉ một email duy nhất.",
+    "desc": "Nhận thông báo ngay khi CentryAI có mặt trên Google Play. Không spam — chỉ một email duy nhất.",
     "placeholder": "you@example.com",
     "cta": "Thông báo cho tôi",
     "joining": "Đang đăng ký…",

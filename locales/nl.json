@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "Downloads",
+    "downloads": "Ondersteunde diensten",
     "monthlyWaste": "Gem. maandelijkse verspilling gevonden",
-    "appRating": "App Store beoordeling",
-    "userSavings": "Gevolgde besparingen van gebruikers"
+    "appRating": "Ondersteunde talen",
+    "userSavings": "Vereiste bankrekeningen"
   },
   "screenshots": {
     "eyebrow": "App-voorbeeld",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "Binnenkort beschikbaar",
     "title": "Wees de eerste die het weet als we lanceren",
-    "desc": "Ontvang een melding zodra CentryAI beschikbaar is in de App Store en Google Play. Geen spam — slechts één e-mail.",
+    "desc": "Ontvang een melding zodra CentryAI beschikbaar is in Google Play. Geen spam — slechts één e-mail.",
     "placeholder": "you@example.com",
     "cta": "Meld me aan",
     "joining": "Aanmelden…",

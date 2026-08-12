@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "다운로드",
+    "downloads": "지원 서비스",
     "monthlyWaste": "월평균 낭비 발견",
-    "appRating": "App Store 평점",
-    "userSavings": "추적된 사용자 절약 금액"
+    "appRating": "지원 언어",
+    "userSavings": "필요한 은행 계좌"
   },
   "screenshots": {
     "eyebrow": "앱 미리보기",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "출시 예정",
     "title": "출시 소식을 가장 먼저 받아보세요",
-    "desc": "CentryAI가 App Store와 Google Play에 출시되는 순간 알림을 드립니다. 스팸 없음 — 딱 한 통의 이메일만.",
+    "desc": "CentryAI가 Google Play에 출시되는 순간 알림을 드립니다. 스팸 없음 — 딱 한 통의 이메일만.",
     "placeholder": "you@example.com",
     "cta": "알림 받기",
     "joining": "등록 중…",

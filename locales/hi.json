@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "डाउनलोड",
+    "downloads": "समर्थित सेवाएं",
     "monthlyWaste": "औसत मासिक अपशिष्ट पाया गया",
-    "appRating": "App Store रेटिंग",
-    "userSavings": "उपयोगकर्ताओं की ट्रैक की गई बचत"
+    "appRating": "समर्थित भाषाएं",
+    "userSavings": "आवश्यक बैंक खाते"
   },
   "screenshots": {
     "eyebrow": "ऐप प्रीव्यू",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "जल्द आ रहा है",
     "title": "लॉन्च होने पर सबसे पहले जानें",
-    "desc": "जैसे ही CentryAI App Store और Google Play पर उपलब्ध हो, तुरंत सूचना पाएं। कोई स्पैम नहीं — बस एक ईमेल।",
+    "desc": "जैसे ही CentryAI Google Play पर उपलब्ध हो, तुरंत सूचना पाएं। कोई स्पैम नहीं — बस एक ईमेल।",
     "placeholder": "you@example.com",
     "cta": "मुझे सूचित करें",
     "joining": "दर्ज किया जा रहा है…",

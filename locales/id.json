@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "Unduhan",
+    "downloads": "Layanan yang didukung",
     "monthlyWaste": "Rata-rata pemborosan bulanan ditemukan",
-    "appRating": "Peringkat App Store",
-    "userSavings": "Penghematan pengguna yang terlacak"
+    "appRating": "Bahasa yang didukung",
+    "userSavings": "Rekening bank diperlukan"
   },
   "screenshots": {
     "eyebrow": "Pratinjau Aplikasi",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "Segera Hadir",
     "title": "Jadilah yang pertama tahu saat kami meluncur",
-    "desc": "Dapatkan notifikasi begitu CentryAI tersedia di App Store dan Google Play. Tanpa spam — hanya satu email.",
+    "desc": "Dapatkan notifikasi begitu CentryAI tersedia di Google Play. Tanpa spam — hanya satu email.",
     "placeholder": "you@example.com",
     "cta": "Beritahu saya",
     "joining": "Mendaftar…",

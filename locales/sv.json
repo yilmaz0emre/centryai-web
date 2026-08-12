@@ -19,10 +19,10 @@
     "googlePlayName": "Google Play"
   },
   "stats": {
-    "downloads": "Nedladdningar",
+    "downloads": "Tjänster som stöds",
     "monthlyWaste": "Genomsnittligt månatligt slöseri hittat",
-    "appRating": "App Store-betyg",
-    "userSavings": "Spårade användarbesparingar"
+    "appRating": "Språk som stöds",
+    "userSavings": "Bankkonton som krävs"
   },
   "screenshots": {
     "eyebrow": "Appförhandsgranskning",
@@ -197,7 +197,7 @@
   "waitlist": {
     "badge": "Kommer snart",
     "title": "Bli först att veta när vi lanserar",
-    "desc": "Få ett meddelande i samma sekund som CentryAI finns på App Store och Google Play. Ingen skräppost — bara ett mejl.",
+    "desc": "Få ett meddelande i samma sekund som CentryAI finns på Google Play. Ingen skräppost — bara ett mejl.",
     "placeholder": "you@example.com",
     "cta": "Meddela mig",
     "joining": "Registrerar…",
