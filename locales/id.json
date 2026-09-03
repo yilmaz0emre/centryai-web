@@ -447,7 +447,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Kebijakan Privasi",
-      "subtitle": "Terakhir Diperbarui: 22 Juli 2026 · Berlaku: 19 April 2026"
+      "subtitle": "Terakhir Diperbarui: 3 September 2026 · Berlaku: 19 April 2026"
     },
     "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
@@ -471,7 +471,7 @@
         "accountTitle": "Informasi Akun",
         "accountBody": "CentryAI menggunakan Google Sign-In dan Apple Sign-In secara eksklusif — tidak ada kata sandi yang dikumpulkan atau disimpan. Saat masuk, kami menerima alamat email dan nama tampilan dari penyedia. Nomor telepon atau detail kartu pembayaran tidak dikumpulkan.",
         "usageTitle": "Data Penggunaan",
-        "usageBody": "Kami mengumpulkan data penggunaan yang dianonimkan dan digabungkan untuk meningkatkan aplikasi. Data ini tidak dapat digunakan untuk mengidentifikasi Anda. Kami juga menghasilkan statistik agregat, misalnya layanan langganan mana yang paling populer berdasarkan negara dan wilayah, menggunakan pengenal pseudonim satu arah. Data ini tidak dapat digunakan untuk mengidentifikasi Anda dan disimpan terpisah dari profil pribadi Anda.",
+        "usageBody": "Kami mengumpulkan data penggunaan yang dianonimkan dan digabungkan untuk meningkatkan aplikasi. Data ini tidak dapat digunakan untuk mengidentifikasi Anda. Kami juga menghasilkan statistik agregat, misalnya layanan langganan mana yang paling populer berdasarkan negara dan wilayah, menggunakan pengenal pseudonim satu arah. Data ini tidak dapat digunakan untuk mengidentifikasi Anda dan disimpan terpisah dari profil pribadi Anda. Di dalam aplikasi, pengukuran ini disediakan oleh Firebase Analytics (Google Analytics 4), yang mencatat peristiwa seperti tampilan layar, penggunaan fitur, hasil masuk dan pemindaian, serta kesalahan, beserta kategori kasar alih-alih nilai persis — misalnya rentang, bukan jumlah langganan Anda yang sebenarnya. Aliran analitik aplikasi ini tidak pernah memuat isi email, pengirim, baris subjek, nama langganan, pedagang, atau nominal. Analitik aplikasi merupakan bagian dari cara kerja aplikasi dan tidak dapat dimatikan dari dalam aplikasi; Anda dapat sewaktu-waktu meminta kami menghapus peristiwa analitik berpseudonim yang terkait dengan akun Anda.",
         "deviceTitle": "Informasi Perangkat",
         "deviceBody": "Kami mengumpulkan zona waktu perangkat, lokal, dan versi aplikasi untuk pengingat pembaruan tepat waktu dan kompatibilitas. Kami juga memperkirakan lokasi perkiraan Anda — hanya negara dan wilayah — dari alamat IP Anda. Pencarian ini dijalankan di dalam backend kami sendiri menggunakan basis data offline, sehingga alamat IP Anda tidak pernah dikirimkan ke penyedia geolokasi pihak ketiga mana pun. Kami tidak mengumpulkan lokasi tepat, kota, kode pos, atau data GPS Anda.",
         "noHumanAccess": "🔒 Tidak ada manusia yang akan membaca data email Anda. Akses ini sangat terprogram dan otomatis hanya untuk tujuan mendeteksi langganan."
@@ -508,7 +508,7 @@
           "Google Gemini AI — ekstraksi langganan bertenaga AI dari cuplikan email (data email tidak digunakan untuk pelatihan AI)",
           "RevenueCat — manajemen penagihan langganan dalam aplikasi (detail kartu pembayaran tidak ditangani langsung)",
           "Resend — pengiriman email transaksional untuk pengingat pembaruan mingguan (alamat dibagikan hanya saat opt-in)",
-          "Google Analytics 4 — pengukuran lalu lintas situs web anonim (hanya dengan persetujuan Anda; lihat “Cookie & Analitik Situs Web” di bawah)"
+          "Google Analytics 4 / Firebase Analytics (Google) — pengukuran penggunaan anonim dan teragregasi di dalam aplikasi, serta pengukuran lalu lintas di situs web ini (di situs web hanya dengan persetujuan Anda; lihat “Cookie & Analitik Situs Web” di bawah)"
         ],
         "noShare": "Kami tidak membagikan data pribadi Anda dengan pihak ketiga lainnya.",
         "cookiesTitle": "Cookie & Analitik Situs Web",
@@ -521,7 +521,7 @@
           "Mengakses data pribadi yang kami simpan tentang Anda",
           "Meminta penghapusan akun Anda dan data terkait",
           "Mengekspor data Anda dalam format yang portabel",
-          "Menyisih dari analitik anonim"
+          "Menolak analitik anonim kami dan meminta penghapusan peristiwa analitik berpseudonim yang terkait dengan akun Anda"
         ],
         "contact": "Untuk menggunakan hak ini, hubungi kami di privacy@centryai.app. Kami akan merespons dalam waktu 30 hari."
       },

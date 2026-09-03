@@ -447,7 +447,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: 22 Temmuz 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 3 Eylül 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
@@ -471,7 +471,7 @@
         "accountTitle": "Hesap Bilgileri",
         "accountBody": "CentryAI yalnızca Google ve Apple ile Oturum Aç kullanır — şifre toplamaz veya saklamaz. Oturum açtığınızda e-posta adresinizi ve görünen adınızı sağlayıcıdan alırız. Telefon numarası veya ödeme kartı bilgisi toplamayız.",
         "usageTitle": "Kullanım Verileri",
-        "usageBody": "Uygulamayı geliştirmek için hangi özelliklerin en sık kullanıldığı ve genel performans ölçümleri gibi anonimleştirilmiş, toplu kullanım verilerini topluyoruz. Ayrıca, örneğin hangi abonelik hizmetlerinin ülke ve bölgeye göre en popüler olduğu gibi toplu istatistikleri, tek yönlü takma adlandırılmış (pseudonymized) bir tanımlayıcı kullanarak üretiriz. Bu veriler sizi tanımlamak için kullanılamaz ve kişisel profilinizden ayrı tutulur.",
+        "usageBody": "Uygulamayı geliştirmek için hangi özelliklerin en sık kullanıldığı ve genel performans ölçümleri gibi anonimleştirilmiş, toplu kullanım verilerini topluyoruz. Ayrıca, örneğin hangi abonelik hizmetlerinin ülke ve bölgeye göre en popüler olduğu gibi toplu istatistikleri, tek yönlü takma adlandırılmış (pseudonymized) bir tanımlayıcı kullanarak üretiriz. Bu veriler sizi tanımlamak için kullanılamaz ve kişisel profilinizden ayrı tutulur. Uygulama içinde bu ölçüm Firebase Analytics (Google Analytics 4) tarafından sağlanır; ekran görüntülemeleri, özellik kullanımı, oturum açma ve tarama sonuçları ile hatalar gibi olayları, kesin değerler yerine kaba kategorilerle birlikte kaydeder — örneğin abonelik sayınızın tam değeri yerine bir aralık. Bu uygulama analitiği akışı hiçbir zaman e-posta içeriği, gönderenler, konu satırları, abonelik adları, satıcılar veya tutarlar içermez. Uygulama analitiği, uygulamanın çalışma biçiminin bir parçasıdır ve uygulama içinden kapatılamaz; hesabınıza bağlı takma adlandırılmış analitik olaylarının silinmesini dilediğiniz zaman bizden talep edebilirsiniz.",
         "deviceTitle": "Cihaz Bilgileri",
         "deviceBody": "Zamanında yenileme hatırlatıcıları sunmak ve uyumluluğu sağlamak için cihaz saat diliminizi, yerel ayarınızı ve uygulama sürümünüzü toplarız. Ayrıca IP adresinizden yaklaşık konumunuzu — yalnızca ülke ve bölge düzeyinde — çıkarırız. Bu sorgu kendi sunucumuzda, çevrimdışı bir veritabanı kullanılarak yapılır; IP adresiniz hiçbir üçüncü taraf konum sağlayıcısıyla paylaşılmaz. Kesin konum, şehir, posta kodu veya GPS verisi toplamayız.",
         "noHumanAccess": "🔒 Hiçbir insan e-posta verilerinizi okumaz. Erişim kesinlikle programlıdır ve yalnızca aboneliklerin tespit edilmesi amacıyla otomatikleştirilmiştir."
@@ -508,7 +508,7 @@
           "Google Gemini AI — e-posta parçacıklarından yapay zeka destekli abonelik çıkarma (e-posta verileri yapay zeka eğitimi için kullanılmaz)",
           "RevenueCat — uygulama içi abonelik faturalandırma yönetimi (ödeme kartı bilgilerini doğrudan işlemeyiz)",
           "Resend — haftalık yenileme hatırlatıcıları için işlemsel e-posta teslimatı (yalnızca e-posta hatırlatıcılarını etkinleştirirseniz adresiniz paylaşılır)",
-          "Google Analytics 4 — anonim web sitesi trafik ölçümü (yalnızca onayınızla; aşağıdaki “Çerezler ve Web Sitesi Analizi” bölümüne bakın)"
+          "Google Analytics 4 / Firebase Analytics (Google) — uygulama içinde anonim, toplulaştırılmış kullanım ölçümü ve bu web sitesinde trafik ölçümü (web sitesinde yalnızca onayınızla; aşağıdaki “Çerezler ve Web Sitesi Analizi” bölümüne bakın)"
         ],
         "noShare": "Kişisel verilerinizi başka hiçbir üçüncü tarafla paylaşmıyoruz.",
         "cookiesTitle": "Çerezler ve Web Sitesi Analizi",
@@ -521,7 +521,7 @@
           "Hakkınızda tuttuğumuz kişisel verilere erişmek",
           "Hesabınızın ve ilişkili verilerinizin silinmesini talep etmek",
           "Verilerinizi taşınabilir bir biçimde dışa aktarmak",
-          "Anonimleştirilmiş analizleri devre dışı bırakmak"
+          "Anonimleştirilmiş analizlerimize itiraz etmek ve hesabınıza bağlı takma adlandırılmış analitik olaylarının silinmesini talep etmek"
         ],
         "contact": "Bu haklardan herhangi birini kullanmak için privacy@centryai.app adresinden bizimle iletişime geçin. 30 gün içinde yanıt vereceğiz."
       },

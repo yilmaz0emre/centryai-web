@@ -447,7 +447,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: 22 juli 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 3 september 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -471,7 +471,7 @@
         "accountTitle": "Kontoinformation",
         "accountBody": "CentryAI använder uteslutande Google Sign-In och Apple Sign-In — inga lösenord samlas in. Vid inloggning tar vi emot din e-postadress och visningsnamn. Telefonnummer eller betalkortsuppgifter samlas inte in.",
         "usageTitle": "Användningsdata",
-        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig. Vi producerar också aggregerad statistik, till exempel vilka prenumerationstjänster som är mest populära per land och region, med hjälp av en envägs pseudonymiserad identifierare. Denna data kan inte användas för att identifiera dig och hålls separat från din personliga profil.",
+        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig. Vi producerar också aggregerad statistik, till exempel vilka prenumerationstjänster som är mest populära per land och region, med hjälp av en envägs pseudonymiserad identifierare. Denna data kan inte användas för att identifiera dig och hålls separat från din personliga profil. I appen tillhandahålls denna mätning av Firebase Analytics (Google Analytics 4), som registrerar händelser som skärmvisningar, funktionsanvändning, inloggnings- och skanningsresultat samt fel, tillsammans med grova kategorier i stället för exakta värden — till exempel ett intervall i stället för ditt exakta antal prenumerationer. Detta appanalysflöde innehåller aldrig e-postinnehåll, avsändare, ämnesrader, prenumerationsnamn, handlare eller belopp. Appanalys är en del av hur appen fungerar och kan inte stängas av inifrån appen; du kan när som helst be oss radera de pseudonymiserade analyshändelser som är kopplade till ditt konto.",
         "deviceTitle": "Enhetsinformation",
         "deviceBody": "Vi samlar in tidzon, språkinställningar och appversion för aktuella förnyelsepåminnelser och kompatibilitet. Vi härleder också din ungefärliga plats — endast land och region — från din IP-adress. Denna sökning körs i vårt eget backend med en offlinedatabas, så din IP-adress skickas aldrig till någon tredjepartsleverantör av geolokalisering. Vi samlar inte in din exakta plats, stad, postnummer eller GPS-data.",
         "noHumanAccess": "🔒 Ingen människa kommer att läsa din e-postdata. Åtkomsten är strikt programmatisk och automatiserad enbart för syftet att upptäcka prenumerationer."
@@ -508,7 +508,7 @@
           "Google Gemini AI — AI-baserad prenumerationsextrahering från e-postutdrag (data används inte för AI-träning)",
           "RevenueCat — hantering av prenumerationsfakturering (inga kortuppgifter hanteras direkt)",
           "Resend — transaktionella e-postmeddelanden för förnyelsepåminnelser (adress delas endast vid opt-in)",
-          "Google Analytics 4 — anonym mätning av webbplatstrafik (bara med ditt samtycke; se “Cookies och webbplatsanalys” nedan)"
+          "Google Analytics 4 / Firebase Analytics (Google) — anonym, aggregerad mätning av användningen i appen och mätning av trafiken på den här webbplatsen (på webbplatsen bara med ditt samtycke; se “Cookies och webbplatsanalys” nedan)"
         ],
         "noShare": "Vi delar inte din personliga data med några andra tredje parter.",
         "cookiesTitle": "Cookies och webbplatsanalys",
@@ -521,7 +521,7 @@
           "Få tillgång till de personuppgifter vi har om dig",
           "Begära radering av ditt konto och tillhörande data",
           "Exportera din data i ett bärbart format",
-          "Välja bort anonym analys"
+          "Invända mot vår anonymiserade analys och begära radering av de pseudonymiserade analyshändelser som är kopplade till ditt konto"
         ],
         "contact": "För att utöva någon av dessa rättigheter, kontakta oss på privacy@centryai.app. Vi kommer att svara inom 30 dagar."
       },
