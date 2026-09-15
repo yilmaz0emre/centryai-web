@@ -447,7 +447,7 @@
     "hero": {
       "label": "Legal",
       "title": "Privacy Policy",
-      "subtitle": "Last updated: July 22, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: September 15, 2026 · Effective: April 19, 2026"
     },
     "shortVersion": "CentryAI reads your email to find subscription receipts. Email content is processed server-side in our secure Cloud Functions — we never store your emails, never sell your data, and never connect to your bank.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Information We Collect",
         "emailTitle": "Email Access",
-        "emailBody": "To detect your subscriptions, CentryAI requests read-only access to your Gmail or iCloud inbox. When you initiate a scan, email content (sender, subject, body snippets) is transmitted to CentryAI's secure Cloud Functions servers for processing. Only extracted subscription data is saved — raw email content is not stored after processing.",
+        "emailBody": "To detect your subscriptions, CentryAI requests read-only access to your Gmail or iCloud inbox. When you initiate a scan, email content (sender, subject, body snippets) is transmitted to CentryAI's secure Cloud Functions servers for processing. Only extracted subscription data is saved — raw email content is not stored after processing. When you scan an iCloud or Yahoo mailbox, the full message — including any attachment — is fetched to our servers and parsed in memory; attachments are not read, are never sent to any AI provider, and are not stored. Gmail scanning does not download attachments at all.",
         "accountTitle": "Account Information",
         "accountBody": "CentryAI uses Google Sign-In and Apple Sign-In exclusively — we do not collect or store passwords. When you sign in, we receive your email address and display name from your sign-in provider. We do not collect your phone number or payment card details.",
         "usageTitle": "Usage Data",
-        "usageBody": "We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. We also produce aggregate statistics, for example which subscription services are most popular by country and region, using a one-way pseudonymized identifier. This data cannot be used to identify you and is kept separate from your personal profile.",
+        "usageBody": "We collect anonymized, aggregated usage data to improve the app — such as which features are used most often and general performance metrics. We also produce aggregate statistics, for example which subscription services are most popular by country and region, using a one-way pseudonymized identifier. This data cannot be used to identify you and is kept separate from your personal profile. In the app, this measurement is provided by Firebase Analytics (Google Analytics 4), which records events such as screen views, feature usage, sign-in and scan outcomes, and errors, together with coarse categories rather than exact values — for example a range instead of your exact number of subscriptions. This app-analytics stream never includes email content, senders, subject lines, subscription names, merchants, or amounts. You can turn this off at any time in the app under Settings → Support & Legal (“Share usage analytics”); once it is off, the app stops sending analytics events from your device. You can also ask us at any time to delete the pseudonymized analytics events linked to your account.",
         "deviceTitle": "Device Information",
         "deviceBody": "We collect your device timezone, locale, and app version to deliver timely renewal reminders and ensure compatibility. We also derive your approximate location — country and region only — from your IP address. This lookup runs inside our own backend using an offline database, so your IP address is never sent to any third-party geolocation provider. We do not collect your precise location, city, postal code, or GPS data.",
         "noHumanAccess": "🔒 No human will read your email data. Access is strictly programmatic and automated for the sole purpose of detecting subscriptions."
@@ -508,7 +508,7 @@
           "Google Gemini AI — AI-powered subscription extraction from email snippets (email data not used for AI training)",
           "RevenueCat — in-app subscription billing management (we never handle payment card details directly)",
           "Resend — transactional email delivery for weekly renewal reminders (email address shared only if you opt in)",
-          "Google Analytics 4 — anonymous website traffic measurement (only with your consent; see “Cookies & Website Analytics” below)"
+          "Google Analytics 4 / Firebase Analytics (Google) — anonymous, aggregated usage measurement inside the app, and traffic measurement on this website (on the website only with your consent; see “Cookies & Website Analytics” below)"
         ],
         "noShare": "We do not share your personal data with any other third parties.",
         "cookiesTitle": "Cookies & Website Analytics",
@@ -521,7 +521,7 @@
           "Access the personal data we hold about you",
           "Request deletion of your account and associated data",
           "Export your data in a portable format",
-          "Opt out of anonymized analytics"
+          "Turn off app analytics in Settings → Support & Legal, object to our anonymized analytics, and ask us to delete the pseudonymized analytics events linked to your account"
         ],
         "contact": "To exercise any of these rights, contact us at privacy@centryai.app. We will respond within 30 days."
       },

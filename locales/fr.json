@@ -447,7 +447,7 @@
     "hero": {
       "label": "Légal",
       "title": "Politique de confidentialité",
-      "subtitle": "Dernière mise à jour : 22 juillet 2026 · En vigueur : 19 avril 2026"
+      "subtitle": "Dernière mise à jour : 15 septembre 2026 · En vigueur : 19 avril 2026"
     },
     "shortVersion": "CentryAI lit vos e-mails pour trouver les reçus d'abonnement. Le contenu est traité côté serveur dans nos Cloud Functions sécurisées — nous ne stockons jamais vos e-mails, ne vendons pas vos données et ne nous connectons pas à votre banque.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Informations que nous collectons",
         "emailTitle": "Accès aux e-mails",
-        "emailBody": "Pour détecter vos abonnements, CentryAI demande un accès en lecture seule à votre boîte de réception. Lors d'une analyse, le contenu (expéditeur, objet, extraits) est transmis aux serveurs Cloud Functions pour traitement. Seules les données extraites sont sauvegardées — le contenu brut n'est pas conservé.",
+        "emailBody": "Pour détecter vos abonnements, CentryAI demande un accès en lecture seule à votre boîte de réception. Lors d'une analyse, le contenu (expéditeur, objet, extraits) est transmis aux serveurs Cloud Functions pour traitement. Seules les données extraites sont sauvegardées — le contenu brut n'est pas conservé. Lorsque vous analysez une boîte iCloud ou Yahoo, le message complet — pièces jointes incluses — est récupéré sur nos serveurs et traité en mémoire ; les pièces jointes ne sont pas lues, ne sont jamais envoyées à un fournisseur d'IA et ne sont pas conservées. L'analyse Gmail ne télécharge aucune pièce jointe.",
         "accountTitle": "Informations de compte",
         "accountBody": "CentryAI utilise exclusivement la connexion Google et Apple — aucun mot de passe n'est collecté. Lors de la connexion, nous recevons votre adresse e-mail et nom d'affichage. Aucun numéro de téléphone ni coordonnée bancaire n'est collecté.",
         "usageTitle": "Données d'utilisation",
-        "usageBody": "Nous collectons des données d'utilisation agrégées et anonymisées pour améliorer l'application. Ces données ne peuvent pas être utilisées pour vous identifier. Nous produisons également des statistiques agrégées, par exemple quels services d'abonnement sont les plus populaires par pays et région, en utilisant un identifiant pseudonymisé à sens unique. Ces données ne peuvent pas être utilisées pour vous identifier et sont conservées séparément de votre profil personnel.",
+        "usageBody": "Nous collectons des données d'utilisation agrégées et anonymisées pour améliorer l'application. Ces données ne peuvent pas être utilisées pour vous identifier. Nous produisons également des statistiques agrégées, par exemple quels services d'abonnement sont les plus populaires par pays et région, en utilisant un identifiant pseudonymisé à sens unique. Ces données ne peuvent pas être utilisées pour vous identifier et sont conservées séparément de votre profil personnel. Dans l'application, cette mesure est assurée par Firebase Analytics (Google Analytics 4), qui enregistre des événements tels que les vues d'écran, l'utilisation des fonctionnalités, les résultats de connexion et d'analyse, ainsi que les erreurs, avec des catégories approximatives plutôt que des valeurs exactes — par exemple une fourchette au lieu de votre nombre exact d'abonnements. Ce flux d'analyse de l'application n'inclut jamais le contenu des e-mails, les expéditeurs, les objets, les noms d'abonnements, les commerçants ni les montants. Vous pouvez la désactiver à tout moment dans l'application, sous Paramètres → Support et Légal (« Partager les statistiques d'utilisation ») ; une fois désactivée, l'application cesse d'envoyer des événements d'analyse depuis votre appareil. Vous pouvez également nous demander à tout moment de supprimer les événements d'analyse pseudonymisés liés à votre compte.",
         "deviceTitle": "Informations sur l'appareil",
         "deviceBody": "Nous collectons le fuseau horaire, les paramètres régionaux et la version de l'application pour envoyer des rappels de renouvellement et assurer la compatibilité. Nous déduisons également votre localisation approximative — pays et région uniquement — à partir de votre adresse IP. Cette recherche s'effectue dans notre propre backend à l'aide d'une base de données hors ligne, de sorte que votre adresse IP n'est jamais transmise à un fournisseur de géolocalisation tiers. Nous ne collectons pas votre localisation précise, votre ville, votre code postal ni vos données GPS.",
         "noHumanAccess": "🔒 Aucun humain ne lira vos données d'e-mail. L'accès est strictement programmatique et automatisé dans le seul but de détecter les abonnements."
@@ -508,7 +508,7 @@
           "Google Gemini AI — extraction d'abonnements par IA à partir d'extraits d'e-mails (données non utilisées pour l'entraînement IA)",
           "RevenueCat — gestion de facturation des abonnements (aucun détail de carte de paiement traité directement)",
           "Resend — e-mails transactionnels pour rappels de renouvellement (adresse partagée uniquement sur opt-in)",
-          "Google Analytics 4 — mesure anonyme du trafic du site web (uniquement avec votre consentement ; voir « Cookies et Analyse du Site Web » ci-dessous)"
+          "Google Analytics 4 / Firebase Analytics (Google) — mesure anonyme et agrégée de l'utilisation dans l'application, et mesure du trafic sur ce site web (sur le site web uniquement avec votre consentement ; voir « Cookies et Analyse du Site Web » ci-dessous)"
         ],
         "noShare": "Nous ne partageons vos données personnelles avec aucun autre tiers.",
         "cookiesTitle": "Cookies et Analyse du Site Web",
@@ -521,7 +521,7 @@
           "Accéder aux données personnelles que nous détenons à votre sujet",
           "Demander la suppression de votre compte et des données associées",
           "Exporter vos données dans un format portable",
-          "Refuser les analyses anonymisées"
+          "Désactiver l'analyse de l'application dans Paramètres → Support et Légal, vous opposer à nos analyses anonymisées et demander la suppression des événements d'analyse pseudonymisés liés à votre compte"
         ],
         "contact": "Pour exercer l'un de ces droits, contactez-nous à privacy@centryai.app. Nous répondrons dans les 30 jours."
       },

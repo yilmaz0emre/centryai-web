@@ -447,7 +447,7 @@
     "hero": {
       "label": "Kwestie prawne",
       "title": "Polityka Prywatności",
-      "subtitle": "Ostatnia aktualizacja: 22 lipca 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
+      "subtitle": "Ostatnia aktualizacja: 15 września 2026 r. · Obowiązuje od: 19 kwietnia 2026 r."
     },
     "shortVersion": "CentryAI odczytuje e-maile w celu znalezienia potwierdzeń subskrypcji. Treść jest przetwarzana w naszych bezpiecznych Cloud Functions — nigdy nie przechowujemy e-maili, nie sprzedajemy danych i nie łączymy się z Twoim bankiem.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Informacje, które Zbieramy",
         "emailTitle": "Dostęp do E-maili",
-        "emailBody": "Aby wykrywać subskrypcje, CentryAI żąda dostępu tylko do odczytu do skrzynki. Po uruchomieniu skanowania treść (nadawca, temat, fragmenty) jest przesyłana do serwerów Cloud Functions. Zapisywane są tylko wyodrębnione dane subskrypcji — surowa treść nie jest przechowywana po przetworzeniu.",
+        "emailBody": "Aby wykrywać subskrypcje, CentryAI żąda dostępu tylko do odczytu do skrzynki. Po uruchomieniu skanowania treść (nadawca, temat, fragmenty) jest przesyłana do serwerów Cloud Functions. Zapisywane są tylko wyodrębnione dane subskrypcji — surowa treść nie jest przechowywana po przetworzeniu. Gdy skanujesz skrzynkę iCloud lub Yahoo, cała wiadomość — w tym ewentualne załączniki — jest pobierana na nasze serwery i przetwarzana w pamięci; załączniki nie są odczytywane, nigdy nie są wysyłane do żadnego dostawcy AI i nie są przechowywane. Skanowanie Gmaila w ogóle nie pobiera załączników.",
         "accountTitle": "Informacje o Koncie",
         "accountBody": "CentryAI używa wyłącznie logowania Google i Apple — hasła nie są zbierane ani przechowywane. Po zalogowaniu otrzymujemy adres e-mail i nazwę wyświetlaną. Nie zbieramy numerów telefonów ani danych kart płatniczych.",
         "usageTitle": "Dane o Użyciu",
-        "usageBody": "Zbieramy zanonimizowane, zagregowane dane o użytkowaniu w celu ulepszania aplikacji. Te dane nie mogą być użyte do identyfikacji użytkownika. Tworzymy również zagregowane statystyki, na przykład które usługi subskrypcyjne są najpopularniejsze według kraju i regionu, z wykorzystaniem jednokierunkowego pseudonimizowanego identyfikatora. Danych tych nie można używać do identyfikacji użytkownika i są one przechowywane oddzielnie od jego profilu osobistego.",
+        "usageBody": "Zbieramy zanonimizowane, zagregowane dane o użytkowaniu w celu ulepszania aplikacji. Te dane nie mogą być użyte do identyfikacji użytkownika. Tworzymy również zagregowane statystyki, na przykład które usługi subskrypcyjne są najpopularniejsze według kraju i regionu, z wykorzystaniem jednokierunkowego pseudonimizowanego identyfikatora. Danych tych nie można używać do identyfikacji użytkownika i są one przechowywane oddzielnie od jego profilu osobistego. W aplikacji pomiar ten zapewnia Firebase Analytics (Google Analytics 4), który rejestruje zdarzenia takie jak wyświetlenia ekranów, korzystanie z funkcji, wyniki logowania i skanowania oraz błędy, wraz z przybliżonymi kategoriami zamiast dokładnych wartości — na przykład przedział zamiast dokładnej liczby Twoich subskrypcji. Ten strumień analityki aplikacji nigdy nie zawiera treści wiadomości e-mail, nadawców, tematów, nazw subskrypcji, sprzedawców ani kwot. Możesz to wyłączyć w każdej chwili w aplikacji w sekcji Ustawienia → Wsparcie i kwestie prawne („Udostępniaj dane o użytkowaniu”); po wyłączeniu aplikacja przestaje wysyłać zdarzenia analityczne z Twojego urządzenia. Możesz też w każdej chwili poprosić nas o usunięcie spseudonimizowanych zdarzeń analitycznych powiązanych z Twoim kontem.",
         "deviceTitle": "Informacje o Urządzeniu",
         "deviceBody": "Zbieramy strefę czasową, ustawienia regionalne i wersję aplikacji dla przypomnień o odnowieniu i kompatybilności. Ustalamy również przybliżoną lokalizację użytkownika — wyłącznie kraj i region — na podstawie adresu IP. Wyszukiwanie odbywa się w naszym własnym backendzie przy użyciu bazy danych offline, dzięki czemu adres IP nie jest nigdy przesyłany do żadnego zewnętrznego dostawcy geolokalizacji. Nie zbieramy dokładnej lokalizacji, miasta, kodu pocztowego ani danych GPS.",
         "noHumanAccess": "🔒 Żaden człowiek nie odczyta Twoich danych z e-maili. Dostęp jest rygorystycznie automatyczny wyłącznie w celu wykrywania subskrypcji."
@@ -508,7 +508,7 @@
           "Google Gemini AI — ekstrakcja subskrypcji przez AI z fragmentów e-maili (dane nie używane do trenowania AI)",
           "RevenueCat — zarządzanie fakturowaniem subskrypcji (dane kart nie przetwarzane bezpośrednio)",
           "Resend — e-maile transakcyjne dla przypomnień o odnowieniu (adres udostępniany tylko przy opt-in)",
-          "Google Analytics 4 — anonimowy pomiar ruchu na stronie (wyłącznie za Twoją zgodą; patrz „Pliki cookie i analityka strony“ poniżej)"
+          "Google Analytics 4 / Firebase Analytics (Google) — anonimowy, zagregowany pomiar korzystania z aplikacji oraz pomiar ruchu na tej stronie (na stronie wyłącznie za Twoją zgodą; patrz „Pliki cookie i analityka strony“ poniżej)"
         ],
         "noShare": "Nie dzielimy się Twoimi osobistymi danymi z żadnymi innymi osobami trzecimi.",
         "cookiesTitle": "Pliki cookie i analityka strony",
@@ -521,7 +521,7 @@
           "Dostępu do danych osobowych, które przechowujemy na Twój temat",
           "Zażądania usunięcia konta oraz wszystkich przypisanych danych",
           "Wyeliminowania swoich danych w łatwym formacie",
-          "Zrezygnowania z anonimowej analizy"
+          "Wyłączenia analityki aplikacji w Ustawieniach → Wsparcie i kwestie prawne, wniesienia sprzeciwu wobec naszej anonimowej analityki i żądania usunięcia spseudonimizowanych zdarzeń analitycznych powiązanych z Twoim kontem"
         ],
         "contact": "Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z nami pod adresem privacy@centryai.app. Odpowiemy w ciągu 30 dni."
       },

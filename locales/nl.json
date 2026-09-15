@@ -447,7 +447,7 @@
     "hero": {
       "label": "Legaal",
       "title": "Privacybeleid",
-      "subtitle": "Laatst bijgewerkt: 22 juli 2026 · Van kracht: 19 april 2026"
+      "subtitle": "Laatst bijgewerkt: 15 september 2026 · Van kracht: 19 april 2026"
     },
     "shortVersion": "CentryAI leest uw e-mails om abonnementsbewijzen te vinden. Inhoud wordt verwerkt in onze beveiligde Cloud Functions — we slaan e-mails nooit op, verkopen geen gegevens en verbinden ons niet met uw bank.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Informatie die We Verzamelen",
         "emailTitle": "Toegang tot E-mail",
-        "emailBody": "Om abonnementen te detecteren, vraagt CentryAI alleen-lezen toegang tot uw inbox. Bij een scan wordt inhoud (afzender, onderwerp, fragmenten) naar Cloud Functions-servers gestuurd. Alleen geëxtraheerde abonnementsgegevens worden opgeslagen — ruwe inhoud wordt na verwerking niet bewaard.",
+        "emailBody": "Om abonnementen te detecteren, vraagt CentryAI alleen-lezen toegang tot uw inbox. Bij een scan wordt inhoud (afzender, onderwerp, fragmenten) naar Cloud Functions-servers gestuurd. Alleen geëxtraheerde abonnementsgegevens worden opgeslagen — ruwe inhoud wordt na verwerking niet bewaard. Wanneer je een iCloud- of Yahoo-postvak scant, wordt het volledige bericht — inclusief eventuele bijlagen — naar onze servers gehaald en in het geheugen verwerkt; bijlagen worden niet gelezen, nooit naar een AI-aanbieder gestuurd en niet opgeslagen. Bij het scannen van Gmail worden bijlagen helemaal niet gedownload.",
         "accountTitle": "Accountinformatie",
         "accountBody": "CentryAI gebruikt uitsluitend Google- en Apple-aanmelding — geen wachtwoorden worden opgeslagen. Bij aanmelding ontvangen we uw e-mailadres en weergavenaam. Telefoonnummers of betaalkaartgegevens worden niet verzameld.",
         "usageTitle": "Gebruiksgegevens",
-        "usageBody": "We verzamelen geanonimiseerde, geaggregeerde gebruiksgegevens om de app te verbeteren. Deze gegevens kunnen niet worden gebruikt om jou te identificeren. We produceren ook geaggregeerde statistieken, bijvoorbeeld welke abonnementsdiensten het populairst zijn per land en regio, met behulp van een eenrichtings-gepseudonimiseerde identifier. Deze gegevens kunnen niet worden gebruikt om jou te identificeren en worden apart van jouw persoonlijk profiel bewaard.",
+        "usageBody": "We verzamelen geanonimiseerde, geaggregeerde gebruiksgegevens om de app te verbeteren. Deze gegevens kunnen niet worden gebruikt om jou te identificeren. We produceren ook geaggregeerde statistieken, bijvoorbeeld welke abonnementsdiensten het populairst zijn per land en regio, met behulp van een eenrichtings-gepseudonimiseerde identifier. Deze gegevens kunnen niet worden gebruikt om jou te identificeren en worden apart van jouw persoonlijk profiel bewaard. In de app wordt deze meting verzorgd door Firebase Analytics (Google Analytics 4), die gebeurtenissen registreert zoals schermweergaven, functiegebruik, aanmeld- en scanresultaten en fouten, samen met globale categorieën in plaats van exacte waarden — bijvoorbeeld een bereik in plaats van je exacte aantal abonnementen. Deze app-analysestroom bevat nooit e-mailinhoud, afzenders, onderwerpregels, abonnementsnamen, verkopers of bedragen. Je kunt dit op elk moment uitschakelen in de app via Instellingen → Ondersteuning & Juridisch („Gebruiksstatistieken delen”); zodra het uit staat, verzendt de app geen analysegebeurtenissen meer vanaf je apparaat. Je kunt ons daarnaast op elk moment vragen de gepseudonimiseerde analysegebeurtenissen die aan je account zijn gekoppeld te verwijderen.",
         "deviceTitle": "Apparaatinformatie",
         "deviceBody": "We verzamelen uw tijdzone, landinstellingen en app-versie voor verlengingsherinneringen en compatibiliteit. We leiden ook uw geschatte locatie — alleen land en regio — af uit uw IP-adres. Deze opzoeking vindt plaats binnen onze eigen backend met een offline database, zodat uw IP-adres nooit naar een externe geolocatieprovider wordt gestuurd. We verzamelen niet uw precieze locatie, stad, postcode of GPS-gegevens.",
         "noHumanAccess": "🔒 Geen enkel mens zal je e-mailgegevens lezen. De toegang is strikt programmatisch en geautomatiseerd, uitsluitend met als doel het detecteren van abonnementen."
@@ -508,7 +508,7 @@
           "Google Gemini AI — AI-abonnementsextractie uit e-mailfragmenten (gegevens niet voor AI-training gebruikt)",
           "RevenueCat — beheer van in-app abonnementsfacturering (geen betaalkaartgegevens direct verwerkt)",
           "Resend — transactionele e-mails voor verlengingsherinneringen (adres gedeeld alleen bij opt-in)",
-          "Google Analytics 4 — anonieme meting van websiteverkeer (alleen met jouw toestemming; zie “Cookies & Website-analyse” hieronder)"
+          "Google Analytics 4 / Firebase Analytics (Google) — anonieme, geaggregeerde meting van het gebruik in de app en meting van het verkeer op deze website (op de website alleen met jouw toestemming; zie “Cookies & Website-analyse” hieronder)"
         ],
         "noShare": "We delen je persoonlijke gegevens niet met andere derden.",
         "cookiesTitle": "Cookies & Website-analyse",
@@ -521,7 +521,7 @@
           "Toegang te krijgen tot de persoonlijke gegevens die we over jou bewaren",
           "Te verzoeken om verwijdering van je account en bijbehorende gegevens",
           "Je gegevens te exporteren in een draagbaar formaat",
-          "Je af te melden voor geanonimiseerde analyses"
+          "App-analyse uit te schakelen via Instellingen → Ondersteuning & Juridisch, bezwaar te maken tegen onze geanonimiseerde analyses en te vragen de gepseudonimiseerde analysegebeurtenissen die aan je account zijn gekoppeld te verwijderen"
         ],
         "contact": "Om een van deze rechten uit te oefenen, neem contact met ons op via privacy@centryai.app. We zullen binnen 30 dagen reageren."
       },

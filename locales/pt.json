@@ -447,7 +447,7 @@
     "hero": {
       "label": "Legal",
       "title": "Política de Privacidade",
-      "subtitle": "Última atualização: 22 de julho de 2026 · Efetivo: 19 de abril de 2026"
+      "subtitle": "Última atualização: 15 de setembro de 2026 · Efetivo: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lê seus e-mails para encontrar recibos de assinatura. O conteúdo é processado em nossas Cloud Functions seguras — nunca armazenamos e-mails, nunca vendemos dados e nunca nos conectamos ao seu banco.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Informações que Coletamos",
         "emailTitle": "Acesso a E-mail",
-        "emailBody": "Para detectar suas assinaturas, o CentryAI solicita acesso somente leitura à sua caixa de entrada. Ao iniciar uma verificação, o conteúdo (remetente, assunto, trechos) é transmitido para os servidores Cloud Functions. Apenas os dados extraídos são salvos — o conteúdo bruto não é retido após o processamento.",
+        "emailBody": "Para detectar suas assinaturas, o CentryAI solicita acesso somente leitura à sua caixa de entrada. Ao iniciar uma verificação, o conteúdo (remetente, assunto, trechos) é transmitido para os servidores Cloud Functions. Apenas os dados extraídos são salvos — o conteúdo bruto não é retido após o processamento. Quando analisa uma caixa de correio iCloud ou Yahoo, a mensagem completa — incluindo quaisquer anexos — é obtida nos nossos servidores e processada em memória; os anexos não são lidos, nunca são enviados a qualquer fornecedor de IA e não são armazenados. A análise do Gmail não descarrega anexos de todo.",
         "accountTitle": "Informações da Conta",
         "accountBody": "O CentryAI usa exclusivamente Google Sign-In e Apple Sign-In — não armazenamos senhas. Ao entrar, recebemos seu e-mail e nome de exibição. Não coletamos telefone nem dados do cartão de pagamento.",
         "usageTitle": "Dados de Uso",
-        "usageBody": "Coletamos dados de uso agregados e anonimizados para melhorar o aplicativo. Esses dados não podem ser usados ​​para identificá-lo. Também produzimos estatísticas agregadas, por exemplo quais serviços de assinatura são mais populares por país e região, usando um identificador pseudonimizado unidirecional. Esses dados não podem ser utilizados para identificá-lo e são mantidos separados do seu perfil pessoal.",
+        "usageBody": "Coletamos dados de uso agregados e anonimizados para melhorar o aplicativo. Esses dados não podem ser usados ​​para identificá-lo. Também produzimos estatísticas agregadas, por exemplo quais serviços de assinatura são mais populares por país e região, usando um identificador pseudonimizado unidirecional. Esses dados não podem ser utilizados para identificá-lo e são mantidos separados do seu perfil pessoal. Na aplicação, esta medição é fornecida pelo Firebase Analytics (Google Analytics 4), que regista eventos como visualizações de ecrã, utilização de funcionalidades, resultados de início de sessão e de análise, e erros, juntamente com categorias aproximadas em vez de valores exatos — por exemplo, um intervalo em vez do número exato das suas subscrições. Este fluxo de análise da aplicação nunca inclui o conteúdo dos e-mails, remetentes, assuntos, nomes de subscrições, comerciantes ou montantes. Pode desativá-la a qualquer momento na aplicação, em Configurações → Suporte e Jurídico («Compartilhar análises de uso»); depois de desativada, a aplicação deixa de enviar eventos de análise a partir do seu dispositivo. Pode também pedir-nos a qualquer momento a eliminação dos eventos de análise pseudonimizados associados à sua conta.",
         "deviceTitle": "Informações do Dispositivo",
         "deviceBody": "Coletamos fuso horário, localidade e versão do aplicativo para lembretes de renovação e compatibilidade. Também derivamos sua localização aproximada — apenas país e região — a partir do seu endereço IP. Essa consulta é executada dentro do nosso próprio backend usando um banco de dados offline, portanto seu endereço IP nunca é enviado a nenhum provedor de geolocalização de terceiros. Não coletamos sua localização precisa, cidade, código postal ou dados de GPS.",
         "noHumanAccess": "🔒 Nenhum humano lerá seus dados de e-mail. O acesso é estritamente programático e automatizado exclusivamente com a finalidade de detectar assinaturas."
@@ -508,7 +508,7 @@
           "Google Gemini AI — extração de assinaturas por IA de trechos de e-mail (dados não usados para treinar IA)",
           "RevenueCat — gerenciamento de cobrança de assinaturas (nenhum dado de cartão tratado diretamente)",
           "Resend — e-mails transacionais para lembretes de renovação (endereço compartilhado apenas com opt-in)",
-          "Google Analytics 4 — medição anónima do tráfego do site (apenas com o seu consentimento; consulte “Cookies e Análise do Site” abaixo)"
+          "Google Analytics 4 / Firebase Analytics (Google) — medição anónima e agregada da utilização dentro da aplicação e medição do tráfego neste site (no site apenas com o seu consentimento; consulte “Cookies e Análise do Site” abaixo)"
         ],
         "noShare": "Não compartilhamos seus dados pessoais com terceiros.",
         "cookiesTitle": "Cookies e Análise do Site",
@@ -521,7 +521,7 @@
           "Acessar os dados pessoais que mantemos sobre você",
           "Solicitar a exclusão de sua conta e dos dados associados",
           "Exportar seus dados em formato portátil",
-          "Recusar análises anonimizadas"
+          "Desativar a análise da aplicação em Configurações → Suporte e Jurídico, opor-se às nossas análises anonimizadas e solicitar a eliminação dos eventos de análise pseudonimizados associados à sua conta"
         ],
         "contact": "Para exercer qualquer um destes direitos, contacte-nos em privacy@centryai.app. Responderemos dentro de 30 dias."
       },
