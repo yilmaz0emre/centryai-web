@@ -447,7 +447,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: 3. September 2026 · Gültig ab: 19. April 2026"
+      "subtitle": "Zuletzt aktualisiert: 15. September 2026 · Gültig ab: 19. April 2026"
     },
     "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Von uns erfasste Informationen",
         "emailTitle": "E-Mail-Zugriff",
-        "emailBody": "Um Ihre Abonnements zu erkennen, fordert CentryAI Lesezugriff auf Ihren Posteingang an. Beim Starten eines Scans werden E-Mail-Inhalte (Absender, Betreff, Ausschnitte) an die Cloud Functions-Server übermittelt. Nur extrahierte Abonnementdaten werden gespeichert — rohe E-Mail-Inhalte nach der Verarbeitung nicht.",
+        "emailBody": "Um Ihre Abonnements zu erkennen, fordert CentryAI Lesezugriff auf Ihren Posteingang an. Beim Starten eines Scans werden E-Mail-Inhalte (Absender, Betreff, Ausschnitte) an die Cloud Functions-Server übermittelt. Nur extrahierte Abonnementdaten werden gespeichert — rohe E-Mail-Inhalte nach der Verarbeitung nicht. Wenn Sie ein iCloud- oder Yahoo-Postfach scannen, wird die vollständige Nachricht — einschließlich etwaiger Anhänge — auf unsere Server geladen und im Arbeitsspeicher verarbeitet; Anhänge werden nicht gelesen, niemals an einen KI-Anbieter gesendet und nicht gespeichert. Beim Gmail-Scan werden Anhänge überhaupt nicht heruntergeladen.",
         "accountTitle": "Kontoinformationen",
         "accountBody": "CentryAI verwendet ausschließlich Google- und Apple-Anmeldung — keine Passwörter werden gespeichert. Bei der Anmeldung erhalten wir Ihre E-Mail-Adresse und Ihren Anzeigenamen. Telefonnummern oder Zahlungskartendetails werden nicht erfasst.",
         "usageTitle": "Nutzungsdaten",
-        "usageBody": "Wir erfassen anonymisierte, aggregierte Nutzungsdaten, um die App zu verbessern. Diese Daten können nicht zu Ihrer Identifizierung verwendet werden. Darüber hinaus erstellen wir aggregierte Statistiken — etwa welche Abonnementdienste in welchen Ländern und Regionen am beliebtesten sind — auf Basis eines einseitig pseudonymisierten Identifikators. Diese Daten können nicht zur Identifizierung Ihrer Person verwendet werden und werden getrennt von Ihrem persönlichen Profil gespeichert. In der App wird diese Messung von Firebase Analytics (Google Analytics 4) bereitgestellt. Erfasst werden Ereignisse wie Bildschirmaufrufe, Funktionsnutzung, Anmelde- und Scan-Ergebnisse sowie Fehler, jeweils in groben Kategorien statt exakter Werte — zum Beispiel ein Bereich anstelle Ihrer genauen Anzahl an Abonnements. Dieser App-Analysedatenstrom enthält niemals E-Mail-Inhalte, Absender, Betreffzeilen, Abonnementnamen, Händler oder Beträge. Die App-Analyse ist Teil der Funktionsweise der App und kann nicht innerhalb der App deaktiviert werden; Sie können jederzeit die Löschung der mit Ihrem Konto verknüpften pseudonymisierten Analyseereignisse verlangen.",
+        "usageBody": "Wir erfassen anonymisierte, aggregierte Nutzungsdaten, um die App zu verbessern. Diese Daten können nicht zu Ihrer Identifizierung verwendet werden. Darüber hinaus erstellen wir aggregierte Statistiken — etwa welche Abonnementdienste in welchen Ländern und Regionen am beliebtesten sind — auf Basis eines einseitig pseudonymisierten Identifikators. Diese Daten können nicht zur Identifizierung Ihrer Person verwendet werden und werden getrennt von Ihrem persönlichen Profil gespeichert. In der App wird diese Messung von Firebase Analytics (Google Analytics 4) bereitgestellt. Erfasst werden Ereignisse wie Bildschirmaufrufe, Funktionsnutzung, Anmelde- und Scan-Ergebnisse sowie Fehler, jeweils in groben Kategorien statt exakter Werte — zum Beispiel ein Bereich anstelle Ihrer genauen Anzahl an Abonnements. Dieser App-Analysedatenstrom enthält niemals E-Mail-Inhalte, Absender, Betreffzeilen, Abonnementnamen, Händler oder Beträge. Sie können dies jederzeit in der App unter Einstellungen → Support & Rechtliches („Nutzungsanalyse teilen“) deaktivieren; danach sendet die App keine Analyseereignisse mehr von Ihrem Gerät. Sie können außerdem jederzeit die Löschung der mit Ihrem Konto verknüpften pseudonymisierten Analyseereignisse verlangen.",
         "deviceTitle": "Geräteinformationen",
         "deviceBody": "Wir erfassen Ihre Zeitzone, Ihr Gebietsschema und Ihre App-Version für rechtzeitige Verlängerungserinnerungen und Kompatibilität. Darüber hinaus leiten wir Ihren ungefähren Standort — nur Land und Region — aus Ihrer IP-Adresse ab. Diese Abfrage wird in unserem eigenen Backend mit einer Offline-Datenbank durchgeführt, sodass Ihre IP-Adresse niemals an einen Drittanbieter für Geolokalisierung übermittelt wird. Wir erfassen weder Ihren genauen Standort, noch Stadt, Postleitzahl oder GPS-Daten.",
         "noHumanAccess": "🔒 Kein Mensch wird Ihre E-Mail-Daten lesen. Der Zugriff erfolgt streng programmatisch und automatisiert ausschließlich zur Erkennung von Abonnements."
@@ -521,7 +521,7 @@
           "Auf die persönlichen Daten zuzugreifen, die wir über Sie gespeichert haben",
           "Die Löschung Ihres Kontos und der zugehörigen Daten zu beantragen",
           "Ihre Daten in einem tragbaren Format zu exportieren",
-          "Unseren anonymisierten Analysen zu widersprechen und die Löschung der mit Ihrem Konto verknüpften pseudonymisierten Analyseereignisse zu verlangen"
+          "Die App-Analyse unter Einstellungen → Support & Rechtliches zu deaktivieren, unseren anonymisierten Analysen zu widersprechen und die Löschung der mit Ihrem Konto verknüpften pseudonymisierten Analyseereignisse zu verlangen"
         ],
         "contact": "Um diese Rechte auszuüben, kontaktieren Sie uns unter privacy@centryai.app. Wir werden innerhalb von 30 Tagen antworten."
       },

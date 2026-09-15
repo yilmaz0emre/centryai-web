@@ -447,7 +447,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: 3 september 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 15 september 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Information vi samlar in",
         "emailTitle": "E-poståtkomst",
-        "emailBody": "För att identifiera prenumerationer begär CentryAI läsbehörighet till din inkorg. När du startar en skanning skickas e-postinnehåll (avsändare, ämne, utdrag) till Cloud Functions-servrar. Endast extraherade prenumerationsdata sparas — råinnehåll lagras inte efter bearbetning.",
+        "emailBody": "För att identifiera prenumerationer begär CentryAI läsbehörighet till din inkorg. När du startar en skanning skickas e-postinnehåll (avsändare, ämne, utdrag) till Cloud Functions-servrar. Endast extraherade prenumerationsdata sparas — råinnehåll lagras inte efter bearbetning. När du skannar en iCloud- eller Yahoo-brevlåda hämtas hela meddelandet — inklusive eventuella bilagor — till våra servrar och tolkas i minnet; bilagor läses inte, skickas aldrig till någon AI-leverantör och lagras inte. Vid Gmail-skanning hämtas inga bilagor alls.",
         "accountTitle": "Kontoinformation",
         "accountBody": "CentryAI använder uteslutande Google Sign-In och Apple Sign-In — inga lösenord samlas in. Vid inloggning tar vi emot din e-postadress och visningsnamn. Telefonnummer eller betalkortsuppgifter samlas inte in.",
         "usageTitle": "Användningsdata",
-        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig. Vi producerar också aggregerad statistik, till exempel vilka prenumerationstjänster som är mest populära per land och region, med hjälp av en envägs pseudonymiserad identifierare. Denna data kan inte användas för att identifiera dig och hålls separat från din personliga profil. I appen tillhandahålls denna mätning av Firebase Analytics (Google Analytics 4), som registrerar händelser som skärmvisningar, funktionsanvändning, inloggnings- och skanningsresultat samt fel, tillsammans med grova kategorier i stället för exakta värden — till exempel ett intervall i stället för ditt exakta antal prenumerationer. Detta appanalysflöde innehåller aldrig e-postinnehåll, avsändare, ämnesrader, prenumerationsnamn, handlare eller belopp. Appanalys är en del av hur appen fungerar och kan inte stängas av inifrån appen; du kan när som helst be oss radera de pseudonymiserade analyshändelser som är kopplade till ditt konto.",
+        "usageBody": "Vi samlar in anonymiserad, aggregerad användningsdata för att förbättra appen. Denna data kan inte användas för att identifiera dig. Vi producerar också aggregerad statistik, till exempel vilka prenumerationstjänster som är mest populära per land och region, med hjälp av en envägs pseudonymiserad identifierare. Denna data kan inte användas för att identifiera dig och hålls separat från din personliga profil. I appen tillhandahålls denna mätning av Firebase Analytics (Google Analytics 4), som registrerar händelser som skärmvisningar, funktionsanvändning, inloggnings- och skanningsresultat samt fel, tillsammans med grova kategorier i stället för exakta värden — till exempel ett intervall i stället för ditt exakta antal prenumerationer. Detta appanalysflöde innehåller aldrig e-postinnehåll, avsändare, ämnesrader, prenumerationsnamn, handlare eller belopp. Du kan stänga av detta när som helst i appen under Inställningar → Support & Juridik (”Dela användningsstatistik”); när det är avstängt slutar appen skicka analyshändelser från din enhet. Du kan också när som helst be oss radera de pseudonymiserade analyshändelser som är kopplade till ditt konto.",
         "deviceTitle": "Enhetsinformation",
         "deviceBody": "Vi samlar in tidzon, språkinställningar och appversion för aktuella förnyelsepåminnelser och kompatibilitet. Vi härleder också din ungefärliga plats — endast land och region — från din IP-adress. Denna sökning körs i vårt eget backend med en offlinedatabas, så din IP-adress skickas aldrig till någon tredjepartsleverantör av geolokalisering. Vi samlar inte in din exakta plats, stad, postnummer eller GPS-data.",
         "noHumanAccess": "🔒 Ingen människa kommer att läsa din e-postdata. Åtkomsten är strikt programmatisk och automatiserad enbart för syftet att upptäcka prenumerationer."
@@ -521,7 +521,7 @@
           "Få tillgång till de personuppgifter vi har om dig",
           "Begära radering av ditt konto och tillhörande data",
           "Exportera din data i ett bärbart format",
-          "Invända mot vår anonymiserade analys och begära radering av de pseudonymiserade analyshändelser som är kopplade till ditt konto"
+          "Stänga av appanalys under Inställningar → Support & Juridik, invända mot vår anonymiserade analys och begära radering av de pseudonymiserade analyshändelser som är kopplade till ditt konto"
         ],
         "contact": "För att utöva någon av dessa rättigheter, kontakta oss på privacy@centryai.app. Vi kommer att svara inom 30 dagar."
       },

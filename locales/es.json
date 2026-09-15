@@ -447,7 +447,7 @@
     "hero": {
       "label": "Legal",
       "title": "política de privacidad",
-      "subtitle": "Última actualización: 3 de septiembre de 2026 · En vigor: 19 de abril de 2026"
+      "subtitle": "Última actualización: 15 de septiembre de 2026 · En vigor: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lee tus correos para encontrar recibos de suscripción. El contenido se procesa en nuestras Cloud Functions seguras — nunca almacenamos correos, nunca vendemos datos y nunca nos conectamos a tu banco.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Información que recopilamos",
         "emailTitle": "Acceso al correo electrónico",
-        "emailBody": "Para detectar tus suscripciones, CentryAI solicita acceso de solo lectura a tu bandeja. Al iniciar un escaneo, el contenido (remitente, asunto, fragmentos) se transmite a los servidores Cloud Functions. Solo se guardan los datos extraídos — el contenido bruto no se almacena tras el procesamiento.",
+        "emailBody": "Para detectar tus suscripciones, CentryAI solicita acceso de solo lectura a tu bandeja. Al iniciar un escaneo, el contenido (remitente, asunto, fragmentos) se transmite a los servidores Cloud Functions. Solo se guardan los datos extraídos — el contenido bruto no se almacena tras el procesamiento. Cuando analizas un buzón de iCloud o Yahoo, el mensaje completo — incluidos los archivos adjuntos — se descarga en nuestros servidores y se procesa en memoria; los adjuntos no se leen, nunca se envían a ningún proveedor de IA y no se almacenan. El análisis de Gmail no descarga adjuntos en absoluto.",
         "accountTitle": "Información de la cuenta",
         "accountBody": "CentryAI usa exclusivamente Google Sign-In y Apple Sign-In — no almacenamos contraseñas. Al iniciar sesión recibimos tu correo y nombre de tu proveedor. No recopilamos teléfono ni datos de tarjeta de pago.",
         "usageTitle": "Datos de uso",
-        "usageBody": "Recopilamos datos de uso agregados y anónimos para mejorar la aplicación, como qué funciones se utilizan con más frecuencia y métricas generales de rendimiento. Estos datos no pueden utilizarse para identificarle. También producimos estadísticas agregadas, por ejemplo qué servicios de suscripción son más populares por país y región, utilizando un identificador pseudonimizado unidireccional. Estos datos no pueden utilizarse para identificarle y se mantienen separados de su perfil personal. En la aplicación, esta medición la proporciona Firebase Analytics (Google Analytics 4), que registra eventos como vistas de pantalla, uso de funciones, resultados de inicio de sesión y de escaneo, y errores, junto con categorías aproximadas en lugar de valores exactos: por ejemplo, un rango en lugar de tu número exacto de suscripciones. Este flujo de análisis de la aplicación nunca incluye el contenido de los correos, remitentes, asuntos, nombres de suscripciones, comercios ni importes. El análisis de la aplicación forma parte de su funcionamiento y no puede desactivarse dentro de la app; puedes pedirnos en cualquier momento que eliminemos los eventos de análisis seudonimizados vinculados a tu cuenta.",
+        "usageBody": "Recopilamos datos de uso agregados y anónimos para mejorar la aplicación, como qué funciones se utilizan con más frecuencia y métricas generales de rendimiento. Estos datos no pueden utilizarse para identificarle. También producimos estadísticas agregadas, por ejemplo qué servicios de suscripción son más populares por país y región, utilizando un identificador pseudonimizado unidireccional. Estos datos no pueden utilizarse para identificarle y se mantienen separados de su perfil personal. En la aplicación, esta medición la proporciona Firebase Analytics (Google Analytics 4), que registra eventos como vistas de pantalla, uso de funciones, resultados de inicio de sesión y de escaneo, y errores, junto con categorías aproximadas en lugar de valores exactos: por ejemplo, un rango en lugar de tu número exacto de suscripciones. Este flujo de análisis de la aplicación nunca incluye el contenido de los correos, remitentes, asuntos, nombres de suscripciones, comercios ni importes. Puedes desactivarlo en cualquier momento en la app, en Ajustes → Soporte y Legal («Compartir análisis de uso»); una vez desactivado, la app deja de enviar eventos de análisis desde tu dispositivo. También puedes pedirnos en cualquier momento que eliminemos los eventos de análisis seudonimizados vinculados a tu cuenta.",
         "deviceTitle": "Información del dispositivo",
         "deviceBody": "Recopilamos la zona horaria, el idioma del dispositivo y la versión de la app para recordatorios de renovación y compatibilidad. También derivamos su ubicación aproximada — solo país y región — a partir de su dirección IP. Esta consulta se realiza dentro de nuestro propio backend mediante una base de datos sin conexión, por lo que su dirección IP nunca se envía a ningún proveedor externo de geolocalización. No recopilamos su ubicación precisa, ciudad, código postal ni datos de GPS.",
         "noHumanAccess": "🔒 Ningún humano leerá los datos de tu correo electrónico. El acceso es estrictamente programático y automatizado con el único fin de detectar suscripciones."
@@ -521,7 +521,7 @@
           "Acceder a los datos personales que tenemos sobre usted",
           "Solicitar la eliminación de su cuenta y datos asociados",
           "Exporta tus datos en un formato portátil",
-          "Oponerte a nuestros análisis anónimos y solicitar la eliminación de los eventos de análisis seudonimizados vinculados a tu cuenta"
+          "Desactivar el análisis de la aplicación en Ajustes → Soporte y Legal, oponerte a nuestros análisis anónimos y solicitar la eliminación de los eventos de análisis seudonimizados vinculados a tu cuenta"
         ],
         "contact": "Para ejercer cualquiera de estos derechos, contáctenos en privacidad@centryai.app. Le responderemos dentro de los 30 días."
       },

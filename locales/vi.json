@@ -447,7 +447,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Chính sách Bảo mật",
-      "subtitle": "Cập nhật lần cuối: Ngày 3 tháng 9 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 15 tháng 9 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
@@ -467,11 +467,11 @@
       "s1": {
         "title": "1. Thông tin Chúng tôi Thu thập",
         "emailTitle": "Quyền truy cập Email",
-        "emailBody": "Để phát hiện đăng ký, CentryAI yêu cầu quyền truy cập chỉ đọc vào hộp thư đến. Khi bắt đầu quét, nội dung email (người gửi, tiêu đề, đoạn trích) được gửi đến máy chủ Cloud Functions để xử lý. Chỉ dữ liệu đăng ký được trích xuất mới được lưu — nội dung thô không được giữ lại sau khi xử lý.",
+        "emailBody": "Để phát hiện đăng ký, CentryAI yêu cầu quyền truy cập chỉ đọc vào hộp thư đến. Khi bắt đầu quét, nội dung email (người gửi, tiêu đề, đoạn trích) được gửi đến máy chủ Cloud Functions để xử lý. Chỉ dữ liệu đăng ký được trích xuất mới được lưu — nội dung thô không được giữ lại sau khi xử lý. Khi bạn quét hộp thư iCloud hoặc Yahoo, toàn bộ thông điệp — bao gồm cả tệp đính kèm — được tải về máy chủ của chúng tôi và phân tích trong bộ nhớ; tệp đính kèm không được đọc, không bao giờ được gửi đến bất kỳ nhà cung cấp AI nào và không được lưu trữ. Việc quét Gmail hoàn toàn không tải tệp đính kèm.",
         "accountTitle": "Thông tin Tài khoản",
         "accountBody": "CentryAI sử dụng Google Sign-In và Apple Sign-In — không thu thập hay lưu trữ mật khẩu. Khi đăng nhập, chúng tôi nhận địa chỉ email và tên hiển thị từ nhà cung cấp. Không thu thập số điện thoại hay thông tin thẻ thanh toán.",
         "usageTitle": "Dữ liệu Sử dụng",
-        "usageBody": "Chúng tôi thu thập dữ liệu sử dụng ẩn danh, được tổng hợp để cải thiện ứng dụng. Dữ liệu này không thể được sử dụng để nhận dạng bạn. Chúng tôi cũng tạo ra các thống kê tổng hợp, ví dụ dịch vụ đăng ký nào phổ biến nhất theo quốc gia và khu vực, bằng cách sử dụng mã định danh được giả danh hóa một chiều. Dữ liệu này không thể được sử dụng để nhận dạng bạn và được lưu giữ riêng biệt với hồ sơ cá nhân của bạn. Trong ứng dụng, phép đo này do Firebase Analytics (Google Analytics 4) thực hiện, ghi lại các sự kiện như lượt xem màn hình, việc sử dụng tính năng, kết quả đăng nhập và quét, cùng các lỗi, kèm theo những nhóm giá trị thô thay vì giá trị chính xác — ví dụ một khoảng thay vì số lượng đăng ký chính xác của bạn. Luồng phân tích ứng dụng này không bao giờ chứa nội dung email, người gửi, dòng tiêu đề, tên gói đăng ký, đơn vị bán hàng hay số tiền. Phân tích ứng dụng là một phần trong cách ứng dụng hoạt động và không thể tắt từ bên trong ứng dụng; bạn có thể yêu cầu chúng tôi xóa các sự kiện phân tích đã ẩn danh hóa gắn với tài khoản của bạn bất cứ lúc nào.",
+        "usageBody": "Chúng tôi thu thập dữ liệu sử dụng ẩn danh, được tổng hợp để cải thiện ứng dụng. Dữ liệu này không thể được sử dụng để nhận dạng bạn. Chúng tôi cũng tạo ra các thống kê tổng hợp, ví dụ dịch vụ đăng ký nào phổ biến nhất theo quốc gia và khu vực, bằng cách sử dụng mã định danh được giả danh hóa một chiều. Dữ liệu này không thể được sử dụng để nhận dạng bạn và được lưu giữ riêng biệt với hồ sơ cá nhân của bạn. Trong ứng dụng, phép đo này do Firebase Analytics (Google Analytics 4) thực hiện, ghi lại các sự kiện như lượt xem màn hình, việc sử dụng tính năng, kết quả đăng nhập và quét, cùng các lỗi, kèm theo những nhóm giá trị thô thay vì giá trị chính xác — ví dụ một khoảng thay vì số lượng đăng ký chính xác của bạn. Luồng phân tích ứng dụng này không bao giờ chứa nội dung email, người gửi, dòng tiêu đề, tên gói đăng ký, đơn vị bán hàng hay số tiền. Bạn có thể tắt tính năng này bất cứ lúc nào trong ứng dụng tại Settings → Support & Legal (“Share usage analytics”); khi đã tắt, ứng dụng ngừng gửi sự kiện phân tích từ thiết bị của bạn. Bạn cũng có thể yêu cầu chúng tôi xóa các sự kiện phân tích đã ẩn danh hóa gắn với tài khoản của bạn bất cứ lúc nào.",
         "deviceTitle": "Thông tin Thiết bị",
         "deviceBody": "Chúng tôi thu thập múi giờ thiết bị, ngôn ngữ và phiên bản ứng dụng để gửi nhắc nhở gia hạn kịp thời và đảm bảo tương thích. Chúng tôi cũng xác định vị trí gần đúng của bạn — chỉ quốc gia và vùng — từ địa chỉ IP của bạn. Tra cứu này được thực hiện bên trong backend của chính chúng tôi bằng cơ sở dữ liệu ngoại tuyến, vì vậy địa chỉ IP của bạn không bao giờ được gửi đến bất kỳ nhà cung cấp định vị địa lý bên thứ ba nào. Chúng tôi không thu thập vị trí chính xác, thành phố, mã bưu chính hay dữ liệu GPS của bạn.",
         "noHumanAccess": "🔒 Không có con người nào sẽ đọc dữ liệu email của bạn. Quyền truy cập mang tính lập trình nghiêm ngặt và tự động chỉ vì mục đích phát hiện các đăng ký."
@@ -521,7 +521,7 @@
           "Truy cập vào các dữ liệu cá nhân mà chúng tôi lưu giữ về bạn",
           "Yêu cầu xóa tài khoản của bạn và các dữ liệu liên quan",
           "Xuất dữ liệu của bạn ở định dạng có thể di chuyển",
-          "Phản đối việc chúng tôi phân tích ẩn danh và yêu cầu xóa các sự kiện phân tích đã ẩn danh hóa gắn với tài khoản của bạn"
+          "Tắt phân tích ứng dụng tại Settings → Support & Legal, phản đối việc chúng tôi phân tích ẩn danh và yêu cầu xóa các sự kiện phân tích đã ẩn danh hóa gắn với tài khoản của bạn"
         ],
         "contact": "Để thực hiện bất kỳ quyền nào trong số này, hãy liên hệ với chúng tôi theo địa chỉ privacy@centryai.app. Chúng tôi sẽ trả lời trong vòng 30 ngày."
       },
