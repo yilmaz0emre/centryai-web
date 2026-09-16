@@ -14,9 +14,11 @@
     "headline2": "que vous avez",
     "headlineEm": "oubliés.",
     "sub": "CentryAI scanne votre boîte Gmail ou iCloud, trouve chaque abonnement que vous payez et vous dit lesquels supprimer. La configuration prend 3 minutes.",
-    "trust": "Bientôt sur Google Play · 7 jours d'essai gratuit",
-    "googlePlaySmall": "Bientôt sur",
-    "googlePlayName": "Google Play"
+    "trust": "Disponible sur Google Play · 7 jours d'essai gratuit",
+    "googlePlaySmall": "Disponible sur",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Bientôt sur",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Services pris en charge",
@@ -195,13 +197,13 @@
     "regionNote": "*Les prix peuvent varier selon la région."
   },
   "waitlist": {
-    "badge": "Bientôt disponible",
-    "title": "Soyez le premier informé de notre lancement",
-    "desc": "Recevez une notification dès que CentryAI est disponible sur Google Play. Pas de spam — juste un seul e-mail.",
+    "badge": "iOS",
+    "title": "Bientôt sur iPhone",
+    "desc": "CentryAI est disponible sur Android. Laissez votre e-mail et nous vous écrirons une seule fois — le jour où la version iPhone sera prête. Pas de spam.",
     "placeholder": "you@example.com",
     "cta": "Me notifier",
     "joining": "Inscription…",
-    "success": "✓ Vous êtes sur la liste ! Nous vous enverrons un e-mail au lancement.",
+    "success": "✓ Vous êtes sur la liste ! Nous vous écrirons dès que la version iPhone sera prête.",
     "error": "Une erreur s'est produite. Veuillez réessayer.",
     "note": "Pas de spam. Désinscription à tout moment."
   },
@@ -210,7 +212,7 @@
     "desc": "Configuration en 3 minutes. Résiliez tout ce que vous trouvez en 30 secondes."
   },
   "footer": {
-    "tagline": "Suivez, détectez et annulez les abonnements récurrents. Commencez gratuitement — disponible sur iOS et Android.",
+    "tagline": "Suivez, détectez et annulez les abonnements récurrents. Commencez gratuitement — disponible sur Google Play.",
     "product": "Produit",
     "company": "Entreprise",
     "download": "Télécharger",

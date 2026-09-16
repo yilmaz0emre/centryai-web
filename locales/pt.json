@@ -14,9 +14,11 @@
     "headline2": "que você",
     "headlineEm": "esqueceu.",
     "sub": "CentryAI escaneia sua caixa do Gmail ou iCloud, encontra cada assinatura que você está pagando e diz quais cancelar. A configuração leva 3 minutos.",
-    "trust": "Em breve no Google Play · 7 dias de teste grátis",
-    "googlePlaySmall": "Em breve no",
-    "googlePlayName": "Google Play"
+    "trust": "Já no Google Play · 7 dias de teste grátis",
+    "googlePlaySmall": "Disponível no",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Em breve no",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Serviços suportados",
@@ -195,13 +197,13 @@
     "regionNote": "*Os preços podem variar por região."
   },
   "waitlist": {
-    "badge": "Em breve",
-    "title": "Seja o primeiro a saber quando lançarmos",
-    "desc": "Receba uma notificação assim que CentryAI estiver disponível no Google Play. Sem spam — apenas um e-mail.",
+    "badge": "iOS",
+    "title": "Em breve no iPhone",
+    "desc": "O CentryAI já está no Android. Deixe o seu e-mail e escrevemos uma única vez — no dia em que a versão para iPhone estiver pronta. Sem spam.",
     "placeholder": "you@example.com",
     "cta": "Notifique-me",
     "joining": "Inscrevendo…",
-    "success": "✓ Você está na lista! Enviaremos um e-mail quando lançarmos.",
+    "success": "✓ Está na lista! Enviamos um e-mail quando a versão para iPhone estiver pronta.",
     "error": "Algo deu errado. Por favor, tente novamente.",
     "note": "Sem spam. Cancele a inscrição a qualquer momento."
   },
@@ -210,7 +212,7 @@
     "desc": "Configure em 3 minutos. Cancele o que encontrar em 30 segundos."
   },
   "footer": {
-    "tagline": "Rastreie, detecte e cancele assinaturas recorrentes. Comece grátis — disponível para iOS e Android.",
+    "tagline": "Rastreie, detecte e cancele assinaturas recorrentes. Comece grátis — disponível no Google Play.",
     "product": "Produto",
     "company": "Empresa",
     "download": "Baixar",

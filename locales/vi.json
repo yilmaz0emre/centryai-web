@@ -14,9 +14,11 @@
     "headline2": "mà bạn đã",
     "headlineEm": "quên mất.",
     "sub": "CentryAI quét hộp thư Gmail hoặc iCloud của bạn, tìm mọi đăng ký bạn đang trả tiền và cho bạn biết cái nào cần hủy. Thiết lập chỉ mất 3 phút.",
-    "trust": "Sắp ra mắt trên Google Play · Dùng thử miễn phí 7 ngày",
-    "googlePlaySmall": "Sắp ra mắt trên",
-    "googlePlayName": "Google Play"
+    "trust": "Đã có trên Google Play · Dùng thử miễn phí 7 ngày",
+    "googlePlaySmall": "Tải xuống trên",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Sắp ra mắt trên",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Dịch vụ được hỗ trợ",
@@ -195,13 +197,13 @@
     "regionNote": "*Giá có thể thay đổi tùy theo khu vực."
   },
   "waitlist": {
-    "badge": "Sắp ra mắt",
-    "title": "Hãy là người đầu tiên biết khi chúng tôi ra mắt",
-    "desc": "Nhận thông báo ngay khi CentryAI có mặt trên Google Play. Không spam — chỉ một email duy nhất.",
+    "badge": "iOS",
+    "title": "Sắp có trên iPhone",
+    "desc": "CentryAI hiện đã có trên Android. Để lại email và chúng tôi sẽ viết đúng một lần — vào ngày phiên bản iPhone sẵn sàng. Không spam.",
     "placeholder": "you@example.com",
     "cta": "Thông báo cho tôi",
     "joining": "Đang đăng ký…",
-    "success": "✓ Bạn đã có trong danh sách! Chúng tôi sẽ gửi email khi ra mắt.",
+    "success": "✓ Bạn đã có trong danh sách! Chúng tôi sẽ gửi email khi phiên bản iPhone sẵn sàng.",
     "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
     "note": "Không spam. Hủy đăng ký bất cứ lúc nào."
   },
@@ -210,7 +212,7 @@
     "desc": "Thiết lập trong 3 phút. Hủy bất cứ thứ gì bạn tìm thấy trong 30 giây."
   },
   "footer": {
-    "tagline": "Theo dõi, phát hiện và hủy các đăng ký định kỳ. Miễn phí để bắt đầu — có sẵn trên iOS và Android.",
+    "tagline": "Theo dõi, phát hiện và hủy các đăng ký định kỳ. Miễn phí để bắt đầu — có sẵn trên Google Play.",
     "product": "Sản phẩm",
     "company": "Công ty",
     "download": "Tải xuống",

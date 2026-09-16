@@ -14,9 +14,11 @@
     "headline2": "o których",
     "headlineEm": "zapomniałeś.",
     "sub": "CentryAI skanuje Twoją skrzynkę Gmail lub iCloud, znajduje każdą subskrypcję, za którą płacisz, i mówi Ci, które anulować. Konfiguracja zajmuje 3 minuty.",
-    "trust": "Wkrótce w Google Play · 7 dni za darmo",
-    "googlePlaySmall": "Wkrótce w",
-    "googlePlayName": "Google Play"
+    "trust": "Już w Google Play · 7 dni za darmo",
+    "googlePlaySmall": "Pobierz z",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Wkrótce w",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Obsługiwane usługi",
@@ -195,13 +197,13 @@
     "regionNote": "*Ceny mogą się różnić w zależności od regionu."
   },
   "waitlist": {
-    "badge": "Wkrótce",
-    "title": "Bądź pierwszym, który dowie się o premierze",
-    "desc": "Otrzymaj powiadomienie, gdy tylko CentryAI pojawi się w Google Play. Żadnego spamu — tylko jeden e-mail.",
+    "badge": "iOS",
+    "title": "Wkrótce na iPhone",
+    "desc": "CentryAI jest już dostępne na Androida. Zostaw swój e-mail, a napiszemy tylko raz — w dniu, w którym wersja na iPhone'a będzie gotowa. Żadnego spamu.",
     "placeholder": "you@example.com",
     "cta": "Powiadom mnie",
     "joining": "Zapisywanie…",
-    "success": "✓ Jesteś na liście! Napiszemy do Ciebie przy premierze.",
+    "success": "✓ Jesteś na liście! Napiszemy, gdy wersja na iPhone'a będzie gotowa.",
     "error": "Coś poszło nie tak. Spróbuj ponownie.",
     "note": "Żadnego spamu. Możesz zrezygnować w każdej chwili."
   },
@@ -210,7 +212,7 @@
     "desc": "Konfiguracja w 3 minuty. Anuluj wszystko, co znajdziesz, w 30 sekund."
   },
   "footer": {
-    "tagline": "Śledź, wykrywaj i anuluj powtarzające się subskrypcje. Zacznij za darmo — dostępne na iOS i Android.",
+    "tagline": "Śledź, wykrywaj i anuluj powtarzające się subskrypcje. Zacznij za darmo — dostępne w Google Play.",
     "product": "Produkt",
     "company": "Firma",
     "download": "Pobierz",

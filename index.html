@@ -7,7 +7,7 @@
 <link rel="preload" href="locales/en.json" as="fetch" crossorigin/>
 <style>:root{--bg:#07090f;--fg:#eceef4;--accent:#675DF9;--accent-dim:rgba(101,93,249,.13);--border:rgba(255,255,255,.06);--radius:14px;--radius-lg:22px;--radius-xl:32px}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased;min-height:100vh;font-size:16px}</style><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>CentryAI — Subscription Tracker & Zombie Sub Detector</title>
-<meta name="description" content="CentryAI scans your inbox, detects every subscription, flags unused 'zombie' subs, and finds the cancel page in one tap. Free to start. iOS & Android."/>
+<meta name="description" content="CentryAI scans your inbox, detects every subscription, flags unused 'zombie' subs, and finds the cancel page in one tap. Free to start. On Google Play."/>
 <link rel="canonical" href="https://centryai.app/"/>
 <link rel="alternate" hreflang="en" href="https://centryai.app/"/>
 <link rel="alternate" hreflang="x-default" href="https://centryai.app/"/>
@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@centryai"/>
 <meta name="twitter:title" content="CentryAI — Find & Cancel Zombie Subscriptions"/>
-<meta name="twitter:description" content="AI-powered subscription tracker. Scans your inbox, detects forgotten subs, finds the cancel page in one tap. iOS & Android — free to start."/>
+<meta name="twitter:description" content="AI-powered subscription tracker. Scans your inbox, detects forgotten subs, finds the cancel page in one tap. On Google Play — free to start."/>
 <meta name="twitter:image" content="https://centryai.app/uploads/betalist/hero.webp"/>
 
 <!-- App meta -->
@@ -312,6 +312,10 @@
   cursor: pointer;
   transition: all 0.22s;
 }
+/* The Apple button holds the primary (dark) slot, but it links to #waitlist,
+   not to the App Store: the iOS build left the store on 29 Jul 2026 and there
+   is no listing to point at. Its label says "coming soon", so the badge shape
+   is a signpost, not a download promise. Google Play is the live one. */
 .btn-store-apple {
   background: #000;
   color: #fff;
@@ -322,19 +326,6 @@
   color: #fff;
 }
 .btn-store-apple:hover {
-  background: #1a1a1a;
-  transform: translateY(-2px);
-  box-shadow: 0 14px 36px rgba(0,0,0,0.4);
-}
-/* Waitlist CTA — takes the primary (dark) slot the App Store button used to
-   hold. The iOS build left the App Store on 29 Jul 2026, so there is no store
-   link to point at until the Play release lands. */
-.btn-store-waitlist {
-  background: #000;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.15);
-}
-.btn-store-waitlist:hover {
   background: #1a1a1a;
   transform: translateY(-2px);
   box-shadow: 0 14px 36px rgba(0,0,0,0.4);

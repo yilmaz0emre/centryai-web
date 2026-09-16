@@ -14,9 +14,11 @@
     "headline2": "que has",
     "headlineEm": "olvidado.",
     "sub": "CentryAI escanea tu bandeja de Gmail o iCloud, encuentra cada suscripción que estás pagando y te dice cuáles cancelar. La configuración tarda 3 minutos.",
-    "trust": "Muy pronto en Google Play · 7 días de prueba gratis",
-    "googlePlaySmall": "Muy pronto en",
-    "googlePlayName": "Google Play"
+    "trust": "Ya en Google Play · 7 días de prueba gratis",
+    "googlePlaySmall": "Disponible en",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Muy pronto en",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Servicios compatibles",
@@ -195,13 +197,13 @@
     "regionNote": "*Los precios pueden variar según la región."
   },
   "waitlist": {
-    "badge": "Próximamente",
-    "title": "Sé el primero en saber cuándo lanzamos",
-    "desc": "Recibe una notificación en el momento en que CentryAI llegue a Google Play. Sin spam — solo un correo.",
+    "badge": "iOS",
+    "title": "Próximamente en iPhone",
+    "desc": "CentryAI ya está en Android. Déjanos tu correo y te escribiremos una sola vez: el día que la versión para iPhone esté lista. Sin spam.",
     "placeholder": "you@example.com",
     "cta": "Notifícame",
     "joining": "Registrando…",
-    "success": "✓ ¡Estás en la lista! Te avisaremos cuando lancemos.",
+    "success": "✓ ¡Estás en la lista! Te escribiremos cuando la versión para iPhone esté lista.",
     "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
     "note": "Sin spam. Cancela la suscripción en cualquier momento."
   },
@@ -210,7 +212,7 @@
     "desc": "Configuración en 3 minutos. Cancela lo que encuentres en 30 segundos."
   },
   "footer": {
-    "tagline": "Rastree, detecte y cancele suscripciones recurrentes. Gratis para comenzar, disponible en iOS y Android.",
+    "tagline": "Rastree, detecte y cancele suscripciones recurrentes. Gratis para comenzar, disponible en Google Play.",
     "product": "Producto",
     "company": "Compañía",
     "download": "Descargar",

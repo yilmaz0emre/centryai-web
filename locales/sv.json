@@ -14,9 +14,11 @@
     "headline2": "du har",
     "headlineEm": "glömt bort.",
     "sub": "CentryAI skannar din Gmail- eller iCloud-inkorg, hittar varje prenumeration du betalar för och berättar vilka du bör avsluta. Installationen tar 3 minuter.",
-    "trust": "Snart på Google Play · 7 dagars gratis provperiod",
-    "googlePlaySmall": "Snart på",
-    "googlePlayName": "Google Play"
+    "trust": "Nu på Google Play · 7 dagars gratis provperiod",
+    "googlePlaySmall": "Hämta på",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Snart på",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Tjänster som stöds",
@@ -195,13 +197,13 @@
     "regionNote": "*Priserna kan variera beroende på region."
   },
   "waitlist": {
-    "badge": "Kommer snart",
-    "title": "Bli först att veta när vi lanserar",
-    "desc": "Få ett meddelande i samma sekund som CentryAI finns på Google Play. Ingen skräppost — bara ett mejl.",
+    "badge": "iOS",
+    "title": "Snart på iPhone",
+    "desc": "CentryAI finns på Android i dag. Lämna din e-postadress så hör vi av oss en enda gång — den dag iPhone-versionen är klar. Ingen skräppost.",
     "placeholder": "you@example.com",
     "cta": "Meddela mig",
     "joining": "Registrerar…",
-    "success": "✓ Du är med på listan! Vi mejlar dig när vi lanserar.",
+    "success": "✓ Du är med på listan! Vi mejlar när iPhone-versionen är klar.",
     "error": "Något gick fel. Försök igen.",
     "note": "Ingen skräppost. Avregistrera när som helst."
   },
@@ -210,7 +212,7 @@
     "desc": "Konfiguration på 3 minuter. Avsluta allt du hittar på 30 sekunder."
   },
   "footer": {
-    "tagline": "Spåra, upptäck och avbryt återkommande prenumerationer. Gratis att starta — tillgänglig på iOS och Android.",
+    "tagline": "Spåra, upptäck och avbryt återkommande prenumerationer. Gratis att starta — tillgänglig på Google Play.",
     "product": "Produkt",
     "company": "Företag",
     "download": "Ladda ner",

@@ -14,9 +14,11 @@
     "headline2": "için ödeme yapmayı",
     "headlineEm": "bırakın.",
     "sub": "CentryAI, Gmail veya iCloud gelen kutunuzu tarar, ödeme yaptığınız her aboneliği bulur ve hangilerini iptal etmeniz gerektiğini söyler. Kurulum 3 dakika sürer.",
-    "trust": "Çok yakında: Google Play · 7 gün ücretsiz deneme",
-    "googlePlaySmall": "Çok yakında:",
-    "googlePlayName": "Google Play"
+    "trust": "Google Play'de yayında · 7 gün ücretsiz deneme",
+    "googlePlaySmall": "Şimdi indir",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Çok yakında:",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Desteklenen servis",
@@ -195,13 +197,13 @@
     "regionNote": "*Bulunduğunuz bölgeye göre değişiklik gösterebilir."
   },
   "waitlist": {
-    "badge": "Çok Yakında",
-    "title": "Lansmanımızdan ilk siz haberdar olun",
-    "desc": "CentryAI Google Play'de yayınlandığı anda bildirim alın. Spam yok — sadece tek bir e-posta.",
+    "badge": "iOS",
+    "title": "iPhone sürümü yolda",
+    "desc": "CentryAI şu anda Android'de. E-postanı bırak, sadece bir kez yazalım — iPhone sürümü hazır olduğu gün. Spam yok.",
     "placeholder": "siz@ornek.com",
     "cta": "Beni bilgilendir",
     "joining": "Kaydediliyor…",
-    "success": "✓ Listedesiniz! Lansmanda size e-posta göndereceğiz.",
+    "success": "✓ Listedesin! iPhone sürümü hazır olduğunda e-posta göndereceğiz.",
     "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
     "note": "Spam yok. İstediğiniz zaman abonelikten çıkabilirsiniz."
   },
@@ -210,7 +212,7 @@
     "desc": "3 dakikada kurulum. Bulduklarınızı 30 saniyede iptal edin."
   },
   "footer": {
-    "tagline": "Yinelenen abonelikleri izleyin, tespit edin ve iptal edin. Başlamak ücretsiz; iOS ve Android'de kullanılabilir.",
+    "tagline": "Yinelenen abonelikleri izleyin, tespit edin ve iptal edin. Başlamak ücretsiz; Google Play'de.",
     "product": "Ürün",
     "company": "Şirket",
     "download": "İndir",

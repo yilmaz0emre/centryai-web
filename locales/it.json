@@ -14,9 +14,11 @@
     "headline2": "che hai",
     "headlineEm": "dimenticato.",
     "sub": "CentryAI scansiona la tua casella Gmail o iCloud, trova ogni abbonamento che stai pagando e ti dice quali eliminare. La configurazione richiede 3 minuti.",
-    "trust": "Presto su Google Play · 7 giorni di prova gratuita",
-    "googlePlaySmall": "Presto su",
-    "googlePlayName": "Google Play"
+    "trust": "Ora su Google Play · 7 giorni di prova gratuita",
+    "googlePlaySmall": "Disponibile su",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Presto su",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Servizi supportati",
@@ -195,13 +197,13 @@
     "regionNote": "*I prezzi possono variare in base alla regione."
   },
   "waitlist": {
-    "badge": "Prossimamente",
-    "title": "Sii il primo a sapere quando lanciamo",
-    "desc": "Ricevi una notifica nel momento in cui CentryAI arriva su Google Play. Niente spam — solo una email.",
+    "badge": "iOS",
+    "title": "Presto su iPhone",
+    "desc": "CentryAI è già su Android. Lascia la tua email e ti scriveremo una sola volta: il giorno in cui la versione per iPhone sarà pronta. Niente spam.",
     "placeholder": "you@example.com",
     "cta": "Avvisami",
     "joining": "Registrazione…",
-    "success": "✓ Sei nella lista! Ti scriveremo al momento del lancio.",
+    "success": "✓ Sei nella lista! Ti scriveremo quando la versione per iPhone sarà pronta.",
     "error": "Qualcosa è andato storto. Riprova.",
     "note": "Niente spam. Disdici in qualsiasi momento."
   },
@@ -210,7 +212,7 @@
     "desc": "Configurazione in 3 minuti. Disdici tutto quello che trovi in 30 secondi."
   },
   "footer": {
-    "tagline": "Traccia, rileva e annulla gli abbonamenti ricorrenti. Inizia gratis — disponibile su iOS e Android.",
+    "tagline": "Traccia, rileva e annulla gli abbonamenti ricorrenti. Inizia gratis — disponibile su Google Play.",
     "product": "Prodotto",
     "company": "Azienda",
     "download": "Download",

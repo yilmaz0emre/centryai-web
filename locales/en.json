@@ -14,9 +14,11 @@
     "headline2": "you've",
     "headlineEm": "forgotten about.",
     "sub": "CentryAI scans your Gmail or iCloud inbox, finds every subscription you're paying for, and tells you which ones to cut. Takes 3 minutes to set up.",
-    "trust": "Coming soon to Google Play · 7-day free trial",
-    "googlePlaySmall": "Coming soon to",
-    "googlePlayName": "Google Play"
+    "trust": "Now on Google Play · 7-day free trial",
+    "googlePlaySmall": "Get it on",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Coming soon to",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Services supported",
@@ -195,13 +197,13 @@
     "regionNote": "*Prices may vary by region."
   },
   "waitlist": {
-    "badge": "Coming Soon",
-    "title": "Be the first to know when we launch",
-    "desc": "Get notified the moment CentryAI hits Google Play. No spam — just one email.",
+    "badge": "iOS",
+    "title": "Coming to iPhone",
+    "desc": "CentryAI is on Android today. Leave your email and we'll write once — the day the iPhone version is ready. No spam.",
     "placeholder": "you@example.com",
     "cta": "Notify me",
     "joining": "Joining…",
-    "success": "✓ You're on the list! We'll email you when we launch.",
+    "success": "✓ You're on the list! We'll email you when the iPhone version is ready.",
     "error": "Something went wrong. Please try again.",
     "note": "No spam. Unsubscribe anytime."
   },
@@ -210,7 +212,7 @@
     "desc": "Set up in 3 minutes. Cancel anything you find in 30 seconds."
   },
   "footer": {
-    "tagline": "Track, detect, and cancel recurring subscriptions. Free to start — available on iOS & Android.",
+    "tagline": "Track, detect, and cancel recurring subscriptions. Free to start — available on Google Play.",
     "product": "Product",
     "company": "Company",
     "download": "Download",

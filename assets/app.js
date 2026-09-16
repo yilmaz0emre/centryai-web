@@ -803,6 +803,8 @@ function FAQ() {
 }
 
 /* ── Store buttons ── */
+const PLAY_URL = "https://play.google.com/store/apps/details?id=com.centryai.app";
+
 function StoreBtns({
   id = ''
 }) {
@@ -810,16 +812,18 @@ function StoreBtns({
     className: "hero-ctas"
   }, /*#__PURE__*/React.createElement("a", {
     href: "#waitlist",
-    className: "btn-store btn-store-waitlist",
-    id: `${id}waitlist-btn`
-  }, /*#__PURE__*/React.createElement("span", {
+    className: "btn-store btn-store-apple",
+    id: `${id}appstore-btn`
+  }, /*#__PURE__*/React.createElement(AppleLogo, null), /*#__PURE__*/React.createElement("span", {
     className: "btn-store-text"
   }, /*#__PURE__*/React.createElement("span", {
     className: "btn-store-small"
-  }, t("waitlist.badge")), /*#__PURE__*/React.createElement("span", {
+  }, t("hero.appStoreSmall")), /*#__PURE__*/React.createElement("span", {
     className: "btn-store-name"
-  }, t("waitlist.cta")))), /*#__PURE__*/React.createElement("a", {
-    href: "#waitlist",
+  }, t("hero.appStoreName")))), /*#__PURE__*/React.createElement("a", {
+    href: PLAY_URL,
+    target: "_blank",
+    rel: "noopener",
     className: "btn-store btn-store-google",
     id: `${id}googleplay-btn`
   }, /*#__PURE__*/React.createElement(PlayLogo, null), /*#__PURE__*/React.createElement("span", {
@@ -1351,7 +1355,9 @@ function App() {
   }, t("footer.links.terms"))))), /*#__PURE__*/React.createElement("div", {
     className: "footer-col"
   }, /*#__PURE__*/React.createElement("h4", null, t("footer.download")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: "#"
+    href: PLAY_URL,
+    target: "_blank",
+    rel: "noopener"
   }, t("footer.links.googlePlay")))))), /*#__PURE__*/React.createElement("div", {
     className: "footer-bottom"
   }, /*#__PURE__*/React.createElement("p", null, t("footer.copyright")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {

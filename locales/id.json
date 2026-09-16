@@ -14,9 +14,11 @@
     "headline2": "yang sudah",
     "headlineEm": "Anda lupakan.",
     "sub": "CentryAI memindai kotak masuk Gmail atau iCloud Anda, menemukan setiap langganan yang Anda bayar, dan memberi tahu Anda mana yang harus dibatalkan. Pengaturan selesai dalam 3 menit.",
-    "trust": "Segera di Google Play · Uji coba gratis 7 hari",
-    "googlePlaySmall": "Segera di",
-    "googlePlayName": "Google Play"
+    "trust": "Sudah ada di Google Play · Uji coba gratis 7 hari",
+    "googlePlaySmall": "Dapatkan di",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Segera di",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Layanan yang didukung",
@@ -195,13 +197,13 @@
     "regionNote": "*Harga dapat bervariasi berdasarkan wilayah."
   },
   "waitlist": {
-    "badge": "Segera Hadir",
-    "title": "Jadilah yang pertama tahu saat kami meluncur",
-    "desc": "Dapatkan notifikasi begitu CentryAI tersedia di Google Play. Tanpa spam — hanya satu email.",
+    "badge": "iOS",
+    "title": "Segera hadir di iPhone",
+    "desc": "CentryAI sudah tersedia di Android. Tinggalkan email Anda dan kami akan menulis sekali saja — pada hari versi iPhone siap. Tanpa spam.",
     "placeholder": "you@example.com",
     "cta": "Beritahu saya",
     "joining": "Mendaftar…",
-    "success": "✓ Kamu sudah terdaftar! Kami akan mengirim email saat peluncuran.",
+    "success": "✓ Anda sudah terdaftar! Kami akan mengirim email saat versi iPhone siap.",
     "error": "Terjadi kesalahan. Silakan coba lagi.",
     "note": "Tanpa spam. Berhenti berlangganan kapan saja."
   },
@@ -210,7 +212,7 @@
     "desc": "Pengaturan dalam 3 menit. Batalkan apa pun yang Anda temukan dalam 30 detik."
   },
   "footer": {
-    "tagline": "Lacak, deteksi, dan batalkan langganan berulang. Gratis untuk memulai — tersedia di iOS dan Android.",
+    "tagline": "Lacak, deteksi, dan batalkan langganan berulang. Gratis untuk memulai — tersedia di Google Play.",
     "product": "Produk",
     "company": "Perusahaan",
     "download": "Unduh",

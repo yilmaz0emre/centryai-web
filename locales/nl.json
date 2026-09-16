@@ -14,9 +14,11 @@
     "headline2": "die je bent",
     "headlineEm": "vergeten.",
     "sub": "CentryAI scant je Gmail- of iCloud-inbox, vindt elk abonnement waarvoor je betaalt en vertelt je welke je moet opzeggen. Installeren duurt 3 minuten.",
-    "trust": "Binnenkort op Google Play · 7 dagen gratis proberen",
-    "googlePlaySmall": "Binnenkort op",
-    "googlePlayName": "Google Play"
+    "trust": "Nu op Google Play · 7 dagen gratis proberen",
+    "googlePlaySmall": "Ontdek het op",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Binnenkort op",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Ondersteunde diensten",
@@ -195,13 +197,13 @@
     "regionNote": "*Prijzen kunnen per regio variëren."
   },
   "waitlist": {
-    "badge": "Binnenkort beschikbaar",
-    "title": "Wees de eerste die het weet als we lanceren",
-    "desc": "Ontvang een melding zodra CentryAI beschikbaar is in Google Play. Geen spam — slechts één e-mail.",
+    "badge": "iOS",
+    "title": "Binnenkort op iPhone",
+    "desc": "CentryAI is vandaag beschikbaar op Android. Laat je e-mailadres achter en we schrijven je één keer — op de dag dat de iPhone-versie klaar is. Geen spam.",
     "placeholder": "you@example.com",
     "cta": "Meld me aan",
     "joining": "Aanmelden…",
-    "success": "✓ Je staat op de lijst! We sturen je een e-mail bij de lancering.",
+    "success": "✓ Je staat op de lijst! We mailen je zodra de iPhone-versie klaar is.",
     "error": "Er is iets misgegaan. Probeer het opnieuw.",
     "note": "Geen spam. Altijd uitschrijven mogelijk."
   },
@@ -210,7 +212,7 @@
     "desc": "Instellen in 3 minuten. Alles wat je vindt opzeggen in 30 seconden."
   },
   "footer": {
-    "tagline": "Volg, detecteer en annuleer terugkerende abonnementen. Gratis te starten — beschikbaar op iOS en Android.",
+    "tagline": "Volg, detecteer en annuleer terugkerende abonnementen. Gratis te starten — beschikbaar op Google Play.",
     "product": "Product",
     "company": "Bedrijf",
     "download": "Downloaden",

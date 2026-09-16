@@ -14,9 +14,11 @@
     "headline2": "支払いを",
     "headlineEm": "やめましょう。",
     "sub": "CentryAIはGmailまたはiCloudの受信トレイをスキャンし、支払い中の全サブスクを見つけ、解約すべきものを教えます。セットアップは3分で完了します。",
-    "trust": "近日公開: Google Play · 7日間無料トライアル",
-    "googlePlaySmall": "近日公開:",
-    "googlePlayName": "Google Play"
+    "trust": "Google Play で配信中 · 7日間無料トライアル",
+    "googlePlaySmall": "ダウンロード",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "近日公開:",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "対応サービス数",
@@ -195,13 +197,13 @@
     "regionNote": "*価格は地域によって異なる場合があります。"
   },
   "waitlist": {
-    "badge": "近日公開",
-    "title": "リリース時にいち早くお知らせします",
-    "desc": "CentryAI が Google Play に登場した瞬間にお知らせします。スパムなし — メール1通だけ。",
+    "badge": "iOS",
+    "title": "iPhone 版を準備中",
+    "desc": "CentryAI は現在 Android でご利用いただけます。メールアドレスをご登録いただければ、iPhone 版の準備が整った日に一度だけお知らせします。スパムはありません。",
     "placeholder": "you@example.com",
     "cta": "通知を受け取る",
     "joining": "登録中…",
-    "success": "✓ リストに登録されました！リリース時にメールをお送りします。",
+    "success": "✓ 登録が完了しました。iPhone 版の準備が整いましたらメールでお知らせします。",
     "error": "エラーが発生しました。もう一度お試しください。",
     "note": "スパムなし。いつでも配信停止できます。"
   },
@@ -210,7 +212,7 @@
     "desc": "セットアップ3分。見つけたものを30秒でキャンセル。"
   },
   "footer": {
-    "tagline": "定期購入を追跡、検出、キャンセル。無料で開始 — iOSおよびAndroidで利用可能。",
+    "tagline": "定期購入を追跡、検出、キャンセル。無料で開始 — Google Play で利用可能。",
     "product": "製品",
     "company": "会社",
     "download": "ダウンロード",

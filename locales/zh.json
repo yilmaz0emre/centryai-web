@@ -14,9 +14,11 @@
     "headline2": "您已经",
     "headlineEm": "忘记的订阅付费。",
     "sub": "CentryAI 扫描您的 Gmail 或 iCloud 收件箱，找出您正在付费的每一个订阅，并告诉您哪些该取消。设置只需 3 分钟。",
-    "trust": "即将上线 Google Play · 7 天免费试用",
-    "googlePlaySmall": "即将上线",
-    "googlePlayName": "Google Play"
+    "trust": "已上线 Google Play · 7 天免费试用",
+    "googlePlaySmall": "立即下载",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "即将上线",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "支持的服务",
@@ -195,13 +197,13 @@
     "regionNote": "*价格可能因地区而异。"
   },
   "waitlist": {
-    "badge": "即将推出",
-    "title": "第一时间了解我们的上线动态",
-    "desc": "CentryAI 一登陆 Google Play，立即通知您。无垃圾邮件 — 仅一封邮件。",
+    "badge": "iOS",
+    "title": "iPhone 版即将推出",
+    "desc": "CentryAI 现已登陆 Android。留下您的邮箱，我们只会写一次信 — 在 iPhone 版本准备就绪的那天。绝无垃圾邮件。",
     "placeholder": "you@example.com",
     "cta": "提醒我",
     "joining": "提交中…",
-    "success": "✓ 您已加入等待名单！上线时我们会发送邮件通知您。",
+    "success": "✓ 已加入名单！iPhone 版本准备就绪时我们会发邮件通知您。",
     "error": "出了点问题，请重试。",
     "note": "无垃圾邮件。随时可取消订阅。"
   },
@@ -210,7 +212,7 @@
     "desc": "3 分钟完成设置。在 30 秒内取消找到的任何订阅。"
   },
   "footer": {
-    "tagline": "跟踪、检测和取消重复订阅。免费开始 — 适用于 iOS 和 Android。",
+    "tagline": "跟踪、检测和取消重复订阅。免费开始 — 可在 Google Play 上获取。",
     "product": "产品",
     "company": "公司",
     "download": "下载",

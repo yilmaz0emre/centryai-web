@@ -14,9 +14,11 @@
     "headline2": "die Sie",
     "headlineEm": "vergessen haben.",
     "sub": "CentryAI durchsucht Ihren Gmail- oder iCloud-Posteingang, findet jedes Abonnement, für das Sie zahlen, und sagt Ihnen, welche Sie kündigen sollten. Die Einrichtung dauert 3 Minuten.",
-    "trust": "Bald verfügbar bei Google Play · 7 Tage kostenlos testen",
-    "googlePlaySmall": "Bald verfügbar bei",
-    "googlePlayName": "Google Play"
+    "trust": "Jetzt bei Google Play · 7 Tage kostenlos testen",
+    "googlePlaySmall": "Jetzt bei",
+    "googlePlayName": "Google Play",
+    "appStoreSmall": "Bald verfügbar bei",
+    "appStoreName": "App Store"
   },
   "stats": {
     "downloads": "Unterstützte Dienste",
@@ -195,13 +197,13 @@
     "regionNote": "*Preise können je nach Region variieren."
   },
   "waitlist": {
-    "badge": "Demnächst verfügbar",
-    "title": "Erfahren Sie als Erster, wenn wir starten",
-    "desc": "Erhalten Sie eine Benachrichtigung, sobald CentryAI auf Google Play verfügbar ist. Kein Spam — nur eine einzige E-Mail.",
+    "badge": "iOS",
+    "title": "Bald für iPhone",
+    "desc": "CentryAI ist heute für Android verfügbar. Hinterlassen Sie Ihre E-Mail-Adresse und wir schreiben genau einmal — an dem Tag, an dem die iPhone-Version fertig ist. Kein Spam.",
     "placeholder": "you@example.com",
     "cta": "Benachrichtigen",
     "joining": "Wird eingetragen…",
-    "success": "✓ Sie sind auf der Liste! Wir melden uns bei Ihnen, wenn es losgeht.",
+    "success": "✓ Sie stehen auf der Liste! Wir melden uns, sobald die iPhone-Version fertig ist.",
     "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
     "note": "Kein Spam. Jederzeit abmeldbar."
   },
@@ -210,7 +212,7 @@
     "desc": "Einrichtung in 3 Minuten. Alles, was Sie finden, in 30 Sekunden kündigen."
   },
   "footer": {
-    "tagline": "Verfolgen, erkennen und kündigen Sie wiederkehrende Abonnements. Kostenloser Start — verfügbar für iOS & Android.",
+    "tagline": "Verfolgen, erkennen und kündigen Sie wiederkehrende Abonnements. Kostenloser Start — verfügbar bei Google Play.",
     "product": "Produkt",
     "company": "Unternehmen",
     "download": "Download",
