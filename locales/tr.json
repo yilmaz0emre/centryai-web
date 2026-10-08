@@ -449,7 +449,7 @@
     "hero": {
       "label": "Yasal",
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: 15 Eylül 2026 · Geçerlilik tarihi: 19 Nisan 2026"
+      "subtitle": "Son güncelleme: 8 Ekim 2026 · Geçerlilik tarihi: 19 Nisan 2026"
     },
     "shortVersion": "CentryAI abonelik makbuzlarını bulmak için e-postanızı okur. İçerik güvenli Cloud Functions sunucularımızda işlenir — e-postalarınızı asla saklamayız, verilerinizi satmayız ve bankanıza bağlanmayız.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple ile Oturum Aç / iCloud — kimlik doğrulama ve gelen kutusu taraması (Apple gizlilik politikasına tabidir)",
           "Firebase (Google) — bulut veritabanı (Firestore), kimlik doğrulama, push bildirimler (FCM) ve sunucu tarafı işleme (Cloud Functions)",
           "Google Gemini AI — e-posta parçacıklarından yapay zeka destekli abonelik çıkarma (e-posta verileri yapay zeka eğitimi için kullanılmaz)",
+          "Anthropic Claude — Gemini kullanılamadığında e-posta parçacıklarından abonelik çıkarma için yedek yapay zeka ve iptal sayfası araması (yalnızca servis adı gönderilir; veriler yapay zeka eğitimi için kullanılmaz)",
           "RevenueCat — uygulama içi abonelik faturalandırma yönetimi (ödeme kartı bilgilerini doğrudan işlemeyiz)",
           "Resend — haftalık yenileme hatırlatıcıları için işlemsel e-posta teslimatı (yalnızca e-posta hatırlatıcılarını etkinleştirirseniz adresiniz paylaşılır)",
           "Google Analytics 4 / Firebase Analytics (Google) — uygulama içinde anonim, toplulaştırılmış kullanım ölçümü ve bu web sitesinde trafik ölçümü (web sitesinde yalnızca onayınızla; aşağıdaki “Çerezler ve Web Sitesi Analizi” bölümüne bakın)"

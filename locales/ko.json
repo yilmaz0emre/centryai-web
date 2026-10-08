@@ -449,7 +449,7 @@
     "hero": {
       "label": "법률",
       "title": "개인정보처리방침",
-      "subtitle": "최종 업데이트: 2026년 9월 15일 · 효력 발생: 2026년 4월 19일"
+      "subtitle": "최종 업데이트: 2026년 10월 8일 · 효력 발생: 2026년 4월 19일"
     },
     "shortVersion": "CentryAI는 구독 영수증을 찾기 위해 이메일을 읽습니다. 콘텐츠는 안전한 Cloud Functions에서 처리됩니다 — 이메일을 저장하거나 데이터를 판매하거나 은행에 연결하지 않습니다.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple 로그인 / iCloud — 인증 및 받은 편지함 스캔 (Apple 개인정보 처리방침 적용)",
           "Firebase (Google) — 클라우드 데이터베이스 (Firestore), 인증, 푸시 알림 (FCM), 서버 측 처리 (Cloud Functions)",
           "Google Gemini AI — 이메일 발췌에서 AI 기반 구독 추출 (이메일 데이터는 AI 학습에 사용되지 않음)",
+          "Anthropic Claude — Gemini를 사용할 수 없을 때 이메일 발췌에서 구독을 추출하는 백업 AI 및 해지 페이지 AI 검색 (서비스 이름만 전송됨, 데이터는 AI 학습에 사용되지 않음)",
           "RevenueCat — 인앱 구독 결제 관리 (결제 카드 정보를 직접 처리하지 않음)",
           "Resend — 주간 갱신 알림용 트랜잭션 이메일 (옵트인 시에만 이메일 주소 공유)",
           "Google Analytics 4 / Firebase Analytics(Google) — 앱 내 익명·집계 이용 측정 및 본 웹사이트의 트래픽 측정 (웹사이트의 경우 귀하의 동의가 있을 때만; 아래 “쿠키 및 웹사이트 분석” 참조)"

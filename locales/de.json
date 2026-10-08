@@ -449,7 +449,7 @@
     "hero": {
       "label": "Rechtliches",
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: 15. September 2026 · Gültig ab: 19. April 2026"
+      "subtitle": "Zuletzt aktualisiert: 8. Oktober 2026 · Gültig ab: 19. April 2026"
     },
     "shortVersion": "CentryAI liest Ihre E-Mails, um Abonnementbelege zu finden. Inhalte werden serverseitig in sicheren Cloud Functions verarbeitet — wir speichern Ihre E-Mails niemals, verkaufen keine Daten und verbinden uns nicht mit Ihrer Bank.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple-Anmeldung / iCloud — Authentifizierung und Posteingang-Scan (Apples Datenschutzrichtlinie)",
           "Firebase (Google) — Cloud-Datenbank (Firestore), Authentifizierung, Push-Benachrichtigungen (FCM) und serverseitige Verarbeitung (Cloud Functions)",
           "Google Gemini AI — KI-gestützte Abonnementextraktion aus E-Mail-Ausschnitten (E-Mail-Daten nicht für KI-Training genutzt)",
+          "Anthropic Claude — Ersatz-KI für die Abonnementextraktion aus E-Mail-Ausschnitten, wenn Gemini nicht verfügbar ist, sowie KI-Suche nach Kündigungsseiten (nur der Dienstname wird übermittelt; Daten nicht für KI-Training genutzt)",
           "RevenueCat — In-App-Abonnement-Abrechnung (keine Zahlungskartendetails direkt verarbeitet)",
           "Resend — E-Mail-Zustellung für wöchentliche Verlängerungserinnerungen (E-Mail nur geteilt bei Opt-in)",
           "Google Analytics 4 / Firebase Analytics (Google) — anonyme, aggregierte Nutzungsmessung in der App sowie Messung des Datenverkehrs auf dieser Website (auf der Website nur mit Ihrer Einwilligung; siehe „Cookies & Website-Analyse“ unten)"

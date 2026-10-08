@@ -449,7 +449,7 @@
     "hero": {
       "label": "Hukum",
       "title": "Kebijakan Privasi",
-      "subtitle": "Terakhir Diperbarui: 15 September 2026 · Berlaku: 19 April 2026"
+      "subtitle": "Terakhir Diperbarui: 8 Oktober 2026 · Berlaku: 19 April 2026"
     },
     "shortVersion": "CentryAI membaca email Anda untuk menemukan tanda terima langganan. Konten diproses di Cloud Functions kami yang aman — kami tidak pernah menyimpan email, menjual data, atau terhubung ke bank Anda.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple Sign-In / iCloud — autentikasi dan pemindaian kotak masuk (kebijakan privasi Apple)",
           "Firebase (Google) — database cloud (Firestore), autentikasi, notifikasi push (FCM) dan pemrosesan sisi server (Cloud Functions)",
           "Google Gemini AI — ekstraksi langganan bertenaga AI dari cuplikan email (data email tidak digunakan untuk pelatihan AI)",
+          "Anthropic Claude — AI cadangan untuk ekstraksi langganan dari cuplikan email saat Gemini tidak tersedia, serta pencarian halaman pembatalan dengan AI (hanya nama layanan yang dikirim; data tidak digunakan untuk pelatihan AI)",
           "RevenueCat — manajemen penagihan langganan dalam aplikasi (detail kartu pembayaran tidak ditangani langsung)",
           "Resend — pengiriman email transaksional untuk pengingat pembaruan mingguan (alamat dibagikan hanya saat opt-in)",
           "Google Analytics 4 / Firebase Analytics (Google) — pengukuran penggunaan anonim dan teragregasi di dalam aplikasi, serta pengukuran lalu lintas di situs web ini (di situs web hanya dengan persetujuan Anda; lihat “Cookie & Analitik Situs Web” di bawah)"

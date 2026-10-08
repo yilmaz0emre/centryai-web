@@ -449,7 +449,7 @@
     "hero": {
       "label": "Legal",
       "title": "política de privacidad",
-      "subtitle": "Última actualización: 15 de septiembre de 2026 · En vigor: 19 de abril de 2026"
+      "subtitle": "Última actualización: 8 de octubre de 2026 · En vigor: 19 de abril de 2026"
     },
     "shortVersion": "CentryAI lee tus correos para encontrar recibos de suscripción. El contenido se procesa en nuestras Cloud Functions seguras — nunca almacenamos correos, nunca vendemos datos y nunca nos conectamos a tu banco.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple Sign-In / iCloud — autenticación y escaneo de bandeja (política de privacidad de Apple)",
           "Firebase (Google) — base de datos cloud (Firestore), autenticación, notificaciones push (FCM) y procesamiento servidor (Cloud Functions)",
           "Google Gemini AI — extracción de suscripciones por IA desde fragmentos de correo (datos no usados para entrenar IA)",
+          "Anthropic Claude — IA de respaldo para extraer suscripciones de fragmentos de correo cuando Gemini no está disponible, y búsqueda con IA de páginas de cancelación (solo se envía el nombre del servicio; datos no usados para entrenar IA)",
           "RevenueCat — gestión de facturación de suscripciones (nunca manejamos datos de tarjeta directamente)",
           "Resend — correos transaccionales para recordatorios de renovación (correo compartido solo con opt-in)",
           "Google Analytics 4 / Firebase Analytics (Google) — medición anónima y agregada del uso dentro de la aplicación, y medición del tráfico en este sitio web (en el sitio web solo con tu consentimiento; ver “Cookies y Análisis Web” más abajo)"

@@ -449,7 +449,7 @@
     "hero": {
       "label": "Legale",
       "title": "Informativa sulla Privacy",
-      "subtitle": "Ultimo aggiornamento: 15 settembre 2026 · In vigore: 19 aprile 2026"
+      "subtitle": "Ultimo aggiornamento: 8 ottobre 2026 · In vigore: 19 aprile 2026"
     },
     "shortVersion": "CentryAI legge le tue email per trovare le ricevute degli abbonamenti. Il contenuto viene elaborato nei nostri Cloud Functions sicuri — non archiviamo mai le email, non vendiamo dati e non ci connettiamo alla tua banca.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple Sign-In / iCloud — autenticazione e scansione della casella (politica sulla privacy di Apple)",
           "Firebase (Google) — database cloud (Firestore), autenticazione, notifiche push (FCM) ed elaborazione server (Cloud Functions)",
           "Google Gemini AI — estrazione abbonamenti con IA da estratti email (dati non usati per addestramento IA)",
+          "Anthropic Claude — IA di riserva per l'estrazione degli abbonamenti dagli estratti email quando Gemini non è disponibile, e ricerca con IA delle pagine di disdetta (viene inviato solo il nome del servizio; dati non usati per addestramento IA)",
           "RevenueCat — gestione fatturazione abbonamenti in-app (nessun dato carta gestito direttamente)",
           "Resend — email transazionali per promemoria di rinnovo (indirizzo condiviso solo con opt-in)",
           "Google Analytics 4 / Firebase Analytics (Google) — misurazione anonima e aggregata dell'utilizzo all'interno dell'app e misurazione del traffico su questo sito web (sul sito web solo con il tuo consenso; vedi “Cookie e Analisi del Sito Web” di seguito)"

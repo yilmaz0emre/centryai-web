@@ -449,7 +449,7 @@
     "hero": {
       "label": "Juridiskt",
       "title": "Integritetspolicy",
-      "subtitle": "Senast uppdaterad: 15 september 2026 · Gäller från: 19 april 2026"
+      "subtitle": "Senast uppdaterad: 8 oktober 2026 · Gäller från: 19 april 2026"
     },
     "shortVersion": "CentryAI läser dina e-postmeddelanden för att hitta prenumerationskvitton. Innehållet behandlas i våra säkra Cloud Functions — vi lagrar aldrig e-post, säljer inga data och ansluter inte till din bank.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple Sign-In / iCloud — autentisering och inkorgsigenskanning (Apples integritetspolicy)",
           "Firebase (Google) — molndatabas (Firestore), autentisering, push-notiser (FCM) och serverbearbetning (Cloud Functions)",
           "Google Gemini AI — AI-baserad prenumerationsextrahering från e-postutdrag (data används inte för AI-träning)",
+          "Anthropic Claude — reserv-AI för prenumerationsextrahering från e-postutdrag när Gemini inte är tillgängligt, samt AI-sökning efter uppsägningssidor (endast tjänstens namn skickas; data används inte för AI-träning)",
           "RevenueCat — hantering av prenumerationsfakturering (inga kortuppgifter hanteras direkt)",
           "Resend — transaktionella e-postmeddelanden för förnyelsepåminnelser (adress delas endast vid opt-in)",
           "Google Analytics 4 / Firebase Analytics (Google) — anonym, aggregerad mätning av användningen i appen och mätning av trafiken på den här webbplatsen (på webbplatsen bara med ditt samtycke; se “Cookies och webbplatsanalys” nedan)"

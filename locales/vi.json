@@ -449,7 +449,7 @@
     "hero": {
       "label": "Pháp lý",
       "title": "Chính sách Bảo mật",
-      "subtitle": "Cập nhật lần cuối: Ngày 15 tháng 9 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
+      "subtitle": "Cập nhật lần cuối: Ngày 8 tháng 10 năm 2026 · Có hiệu lực: Ngày 19 tháng 4 năm 2026"
     },
     "shortVersion": "CentryAI đọc email của bạn để tìm biên lai đăng ký. Nội dung được xử lý trong Cloud Functions an toàn của chúng tôi — chúng tôi không bao giờ lưu trữ email, bán dữ liệu hay kết nối với ngân hàng của bạn.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple Sign-In / iCloud — xác thực và quét hộp thư đến (chính sách bảo mật của Apple)",
           "Firebase (Google) — cơ sở dữ liệu đám mây (Firestore), xác thực, thông báo đẩy (FCM) và xử lý phía máy chủ (Cloud Functions)",
           "Google Gemini AI — trích xuất đăng ký bằng AI từ đoạn trích email (dữ liệu email không dùng để huấn luyện AI)",
+          "Anthropic Claude — AI dự phòng để trích xuất đăng ký từ đoạn trích email khi Gemini không khả dụng, và tìm kiếm trang hủy bằng AI (chỉ gửi tên dịch vụ; dữ liệu không dùng để huấn luyện AI)",
           "RevenueCat — quản lý thanh toán đăng ký trong ứng dụng (không xử lý trực tiếp thông tin thẻ thanh toán)",
           "Resend — gửi email giao dịch cho nhắc nhở gia hạn hàng tuần (địa chỉ chỉ chia sẻ khi opt-in)",
           "Google Analytics 4 / Firebase Analytics (Google) — đo lường mức sử dụng ẩn danh, tổng hợp bên trong ứng dụng và đo lường lưu lượng truy cập trên trang web này (trên trang web chỉ với sự đồng ý của bạn; xem “Cookie và Phân tích Trang web” bên dưới)"

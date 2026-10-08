@@ -449,7 +449,7 @@
     "hero": {
       "label": "Legal",
       "title": "Privacy Policy",
-      "subtitle": "Last updated: September 15, 2026 · Effective: April 19, 2026"
+      "subtitle": "Last updated: October 8, 2026 · Effective: April 19, 2026"
     },
     "shortVersion": "CentryAI reads your email to find subscription receipts. Email content is processed server-side in our secure Cloud Functions — we never store your emails, never sell your data, and never connect to your bank.",
     "toc": {
@@ -508,6 +508,7 @@
           "Apple Sign-In / iCloud — authentication and inbox scanning (governed by Apple's privacy policy)",
           "Firebase (Google) — cloud database (Firestore), authentication, push notifications (FCM), and server-side processing (Cloud Functions)",
           "Google Gemini AI — AI-powered subscription extraction from email snippets (email data not used for AI training)",
+          "Anthropic Claude — backup AI for subscription extraction from email snippets when Gemini is unavailable, and AI search for cancellation pages (only the service name is sent; data not used for AI training)",
           "RevenueCat — in-app subscription billing management (we never handle payment card details directly)",
           "Resend — transactional email delivery for weekly renewal reminders (email address shared only if you opt in)",
           "Google Analytics 4 / Firebase Analytics (Google) — anonymous, aggregated usage measurement inside the app, and traffic measurement on this website (on the website only with your consent; see “Cookies & Website Analytics” below)"
